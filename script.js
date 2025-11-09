@@ -1,9 +1,29 @@
-// ================= GLOBAL VARIABLES =================
-let portfolioData = []; // CSV-driven data
-let currentLang = 'en';
+// ============================
+// ===== HERO CAROUSEL =======
+// ============================
+const heroImages = [
+  "images/hero1.jpg",
+  "images/hero2.jpg",
+  "images/hero3.jpg",
+  "images/hero4.jpg"
+];
 
-// ================= STATIC TEXT FOR MULTILANGUAGE =================
-const staticText = {
+let currentHero = 0;
+const heroBg = document.getElementById("hero-bg");
+
+function updateHeroBg() {
+  heroBg.style.backgroundImage = `url('${heroImages[currentHero]}')`;
+  currentHero = (currentHero + 1) % heroImages.length;
+}
+
+// Initialize
+updateHeroBg();
+setInterval(updateHeroBg, 5000);
+
+// ============================
+// ===== MULTILANGUAGE =======
+// ============================
+const languageData = {
   en: {
     name: "Kelvin Kung",
     "nav-about": "About",
@@ -15,54 +35,15 @@ const staticText = {
     "hero-btn-work": "View Work",
     "hero-btn-contact": "Get in Touch",
     "about-title": "About Me",
-    "about-text": "I’m a [your role] focused on [your interests].",
+    "about-text": "I’m an Electrical and Electronics Engineer focused on innovation and human-centered solutions.",
+    "exp-title": "Experience",
     "exp-academic": "Academic",
-    "exp-research": "Research",
     "exp-professional": "Professional",
+    "exp-research": "Research",
     "projects-title": "Projects & Highlights",
     "contact-title": "Contact",
     "contact-text": "Interested in working or collaborating with me?",
     "footer-name": "Kelvin Kung"
-  },
-  zh: {
-    name: "名字",
-    "nav-about": "关于",
-    "nav-exp": "经历",
-    "nav-projects": "项目",
-    "nav-contact": "联系",
-    "hero-title": "你好，我是<span>名字</span>",
-    "hero-sub": "学术 • 专业 • 研究者",
-    "hero-btn-work": "查看作品",
-    "hero-btn-contact": "联系我",
-    "about-title": "关于我",
-    "about-text": "我是一名专注于[你的兴趣]的[你的职业]。",
-    "exp-academic": "学术",
-    "exp-research": "研究",
-    "exp-professional": "职业",
-    "projects-title": "项目与亮点",
-    "contact-title": "联系",
-    "contact-text": "有兴趣与我合作或交流吗？",
-    "footer-name": "名字"
-  },
-  ja: {
-    name: "名前",
-    "nav-about": "概要",
-    "nav-exp": "経験",
-    "nav-projects": "プロジェクト",
-    "nav-contact": "連絡先",
-    "hero-title": "こんにちは、<span>名前</span>です",
-    "hero-sub": "学術 • プロフェッショナル • 研究者",
-    "hero-btn-work": "作品を見る",
-    "hero-btn-contact": "連絡する",
-    "about-title": "私について",
-    "about-text": "私は[関心分野]に焦点を当てた[職業]です。",
-    "exp-academic": "学術",
-    "exp-research": "研究",
-    "exp-professional": "職業",
-    "projects-title": "プロジェクトとハイライト",
-    "contact-title": "連絡先",
-    "contact-text": "一緒に働きたい、または協力したいですか？",
-    "footer-name": "名前"
   },
   es: {
     name: "Kelvin Kung",
@@ -72,146 +53,118 @@ const staticText = {
     "nav-contact": "Contacto",
     "hero-title": "Hola, soy <span>Kelvin Kung</span>",
     "hero-sub": "Académico • Profesional • Investigador",
-    "hero-btn-work": "Ver trabajo",
+    "hero-btn-work": "Ver Trabajo",
     "hero-btn-contact": "Contáctame",
-    "about-title": "Sobre mí",
-    "about-text": "Soy un [tu profesión] enfocado en [tus intereses].",
-    "exp-academic": "Académica",
-    "exp-research": "Investigación",
+    "about-title": "Sobre Mí",
+    "about-text": "Soy Ingeniero Electrónico y Eléctrico enfocado en la innovación y soluciones centradas en el ser humano.",
+    "exp-title": "Experiencia",
+    "exp-academic": "Académico",
     "exp-professional": "Profesional",
+    "exp-research": "Investigación",
     "projects-title": "Proyectos y Destacados",
     "contact-title": "Contacto",
-    "contact-text": "¿Interesado en colaborar o trabajar conmigo?",
+    "contact-text": "¿Interesado en trabajar o colaborar conmigo?",
     "footer-name": "Kelvin Kung"
+  },
+  zh: {
+    name: "凯尔文·孔",
+    "nav-about": "关于我",
+    "nav-exp": "经历",
+    "nav-projects": "项目",
+    "nav-contact": "联系",
+    "hero-title": "你好，我是 <span>凯尔文·孔</span>",
+    "hero-sub": "学术 • 专业 • 研究员",
+    "hero-btn-work": "查看作品",
+    "hero-btn-contact": "联系我",
+    "about-title": "关于我",
+    "about-text": "我是一名电气与电子工程师，专注于创新和以人为本的解决方案。",
+    "exp-title": "经历",
+    "exp-academic": "学术",
+    "exp-professional": "专业",
+    "exp-research": "研究",
+    "projects-title": "项目与亮点",
+    "contact-title": "联系",
+    "contact-text": "有兴趣与我合作吗？",
+    "footer-name": "凯尔文·孔"
+  },
+  ja: {
+    name: "ケルビン・クン",
+    "nav-about": "私について",
+    "nav-exp": "経験",
+    "nav-projects": "プロジェクト",
+    "nav-contact": "連絡先",
+    "hero-title": "こんにちは、私は <span>ケルビン・クン</span>",
+    "hero-sub": "学術 • プロフェッショナル • 研究者",
+    "hero-btn-work": "作品を見る",
+    "hero-btn-contact": "お問い合わせ",
+    "about-title": "私について",
+    "about-text": "私は電気電子工学エンジニアで、革新と人間中心のソリューションに注力しています。",
+    "exp-title": "経験",
+    "exp-academic": "学術",
+    "exp-professional": "プロフェッショナル",
+    "exp-research": "研究",
+    "projects-title": "プロジェクトとハイライト",
+    "contact-title": "連絡先",
+    "contact-text": "私と一緒に仕事やコラボレーションに興味がありますか？",
+    "footer-name": "ケルビン・クン"
   }
 };
 
-// ================= CSV LOADER =================
-async function loadCSV(path) {
-  const response = await fetch(path);
-  const text = await response.text();
-  const rows = text.trim().split('\n');
-  const headers = rows[0].split(',');
+const langSelect = document.getElementById("lang-select");
+langSelect.addEventListener("change", e => setLanguage(e.target.value));
 
-  const data = [];
-  for (let i = 1; i < rows.length; i++) {
-    const row = rows[i].split(/,(?=(?:[^"]*"[^"]*")*[^"]*$)/); // handle commas in quotes
-    const item = {};
-    headers.forEach((h, j) => {
-      item[h.trim()] = row[j]?.replace(/^"|"$/g, '').trim() || "";
-    });
-    data.push(item);
-  }
-  return data;
-}
-
-// ================= APPLY STATIC TEXT =================
-function applyTextMarkers(lang) {
-  const langPack = staticText[lang] || staticText['en'];
-  document.querySelectorAll('[data-lang]').forEach(el => {
-    const key = el.getAttribute('data-lang');
-    if (langPack[key]) el.innerHTML = langPack[key];
+function setLanguage(lang) {
+  const elements = document.querySelectorAll("[data-lang]");
+  elements.forEach(el => {
+    const key = el.getAttribute("data-lang");
+    if(languageData[lang] && languageData[lang][key]) {
+      el.innerHTML = languageData[lang][key];
+    }
   });
 }
 
-// ================= RENDER EXPERIENCE DETAILS =================
-function renderExperienceDetails(data, lang = 'en') {
-  const sections = ['academic', 'research', 'professional'];
+// Initialize language
+setLanguage("en");
 
-  sections.forEach(sec => {
-    const container = document.getElementById(`${sec}-details`) || document.getElementById(`${sec}-details`);
-    const detailSection = document.getElementById(`${sec}-details`);
-    if (!detailSection) return;
+// ============================
+// ===== LOAD CSV DATA =======
+// ============================
+function loadCSV() {
+  fetch('data/portfolio_data.csv')
+    .then(response => response.text())
+    .then(csvText => {
+      const data = Papa.parse(csvText, { header: true, skipEmptyLines: true }).data;
+      console.log("CSV data:", data); // check if it loaded correctly
+      populateExperience(data);
+    })
+    .catch(err => console.error("Error loading CSV:", err));
+}
 
-    const filtered = data
-      .filter(item => item.section === sec)
-      .sort((a, b) => Number(a.order || 0) - Number(b.order || 0));
+// Populate experience summary columns and details
+function populateExperience(data) {
+  const academicList = document.querySelector("#academic-details ul");
+  const researchList = document.querySelector("#research-details ul");
+  const professionalList = document.querySelector("#professional-details ul");
 
-    let html = '<ul>';
-    filtered.forEach(item => {
-      const details = item[`details_${lang}`] || item.details_en || "";
-      const links = item.links
-        ? item.links.split(',').map(link => `<a href="${link.trim()}" target="_blank">🔗</a>`).join(' ')
-        : "";
-      html += `
-        <li>
-          <strong>${item.participation}</strong> – ${item.institution}
-          <br><em>${item.branch}</em>
-          <br><span>${item.start} – ${item.finish}</span>
-          <p>${details}</p>
-          <div class="links">${links}</div>
-        </li>
-      `;
-    });
-    html += '</ul>';
-    detailSection.innerHTML = html;
+  // Clear existing lists
+  academicList.innerHTML = "";
+  researchList.innerHTML = "";
+  professionalList.innerHTML = "";
+
+  data.forEach(item => {
+    const li = document.createElement("li");
+    li.innerHTML = `<strong>${item.participation}</strong> – ${item.institution}, ${item.start} to ${item.finish}${item.branch ? ", " + item.branch : ""}${item.details ? " | " + item.details : ""}${item.links ? ` | <a href="${item.links}" target="_blank">Link</a>` : ""}`;
+
+    if(item.category.toLowerCase() === "academic") academicList.appendChild(li);
+    else if(item.category.toLowerCase() === "research") researchList.appendChild(li);
+    else if(item.category.toLowerCase() === "professional") professionalList.appendChild(li);
   });
 }
 
-// ================= RENDER PROJECTS =================
-function renderProjects(data, lang = 'en') {
-  const container = document.querySelector('.project-grid');
-  if (!container) return;
+// Initialize
+loadCSV();
 
-  const projects = data.filter(d => d.section === 'projects').sort((a,b)=>Number(a.order||0)-Number(b.order||0));
-  let html = '';
-  projects.forEach(p => {
-    const details = p[`details_${lang}`] || p.details_en || '';
-    html += `
-      <div class="project-card">
-        <h4>${p.participation}</h4>
-        <p>${details}</p>
-        <div class="links">${p.links ? p.links.split(',').map(l=>`<a href="${l.trim()}" target="_blank">🔗</a>`).join(' ') : ''}</div>
-      </div>
-    `;
-  });
-  container.innerHTML = html;
-}
-
-// ================= HERO BACKGROUND CAROUSEL =================
-function initHeroCarousel(images = []) {
-  if (!images.length) return;
-  const heroBg = document.getElementById("hero-bg");
-  let current = 0;
-  function changeBackground() {
-    heroBg.style.backgroundImage = `url(${images[current]})`;
-    current = (current + 1) % images.length;
-  }
-  changeBackground();
-  setInterval(changeBackground, 6000);
-}
-
-// ================= LANGUAGE SWITCHER =================
-function initLanguageSwitcher() {
-  const langSelect = document.getElementById('lang-select');
-  if (!langSelect) return;
-
-  langSelect.addEventListener('change', (e) => {
-    currentLang = e.target.value;
-    applyTextMarkers(currentLang);
-    renderExperienceDetails(portfolioData, currentLang);
-    renderProjects(portfolioData, currentLang);
-  });
-}
-
-// ================= INITIALIZATION =================
-async function init() {
-  portfolioData = await loadCSV('data/portfolio_data.csv');
-
-  applyTextMarkers(currentLang);
-  renderExperienceDetails(portfolioData, currentLang);
-  renderProjects(portfolioData, currentLang);
-  initLanguageSwitcher();
-  initHeroCarousel([
-    "images/bg1.jpg",
-    "images/bg2.jpg",
-    "images/bg3.jpg",
-    "images/bg4.jpg"
-  ]);
-
-  const yearEl = document.getElementById('year');
-  if (yearEl) yearEl.textContent = new Date().getFullYear();
-}
-
-// ================= START =================
-init();
+// ============================
+// ===== CURRENT YEAR ========
+// ============================
+document.getElementById("year").textContent = new Date().getFullYear();

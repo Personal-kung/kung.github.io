@@ -1,135 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Name | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-  <!-- ===== HEADER ===== -->
-  <header>
-    <nav class="navbar">
-      <div class="logo" data-lang="name">Kelvin Kung</div>
-      <ul class="nav-links">
-        <li><a href="#about" data-lang="nav-about">About</a></li>
-        <li><a href="#experience" data-lang="nav-exp">Experience</a></li>
-        <li><a href="#projects" data-lang="nav-projects">Projects</a></li>
-        <li><a href="#contact" data-lang="nav-contact">Contact</a></li>
-      </ul>
-      <!-- Language selector -->
-      <select id="lang-select">
-        <option value="en">EN</option>
-        <option value="zh">中文</option>
-        <option value="ja">日本語</option>
-        <option value="es">ES</option>
-      </select>
-    </nav>
-  </header>
+    <!-- ===== HEADER ===== -->
+    <header>
+        <nav class="navbar">
+            <div class="logo" data-lang="name">Kelvin Kung</div>
+            <ul class="nav-links">
+                <li><a href="#about" data-lang="nav-about">About</a></li>
+                <li><a href="#experience" data-lang="nav-exp">Experience</a></li>
+                <li><a href="#projects" data-lang="nav-projects">Projects</a></li>
+                <li><a href="#contact" data-lang="nav-contact">Contact</a></li>
+            </ul>
+            <!-- Language selector -->
+            <select id="lang-select">
+                <option value="en">EN</option>
+                <option value="zh">中文</option>
+                <option value="ja">日本語</option>
+                <option value="es">ES</option>
+            </select>
+        </nav>
+    </header>
 
-  <!-- ===== HERO ===== -->
-  <section class="hero" id="hero">
-    <div class="hero-bg" id="hero-bg"></div>
-    <div class="hero-content">
-      <h1 data-lang="hero-title">Hello, I'm <span>Your Name</span></h1>
-      <p data-lang="hero-sub">Academic • Professional • Researcher</p>
-      <div class="hero-buttons">
-        <a href="#projects" class="btn" data-lang="hero-btn-work">View Work</a>
-        <a href="#contact" class="btn secondary" data-lang="hero-btn-contact">Get in Touch</a>
-      </div>
-    </div>
-  </section>
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+        <div class="hero-bg" id="hero-bg"></div>
+        <div class="hero-content">
+            <h1 data-lang="hero-title">Hello, I'm <span>Your Name</span></h1>
+            <p data-lang="hero-sub">Academic • Professional • Researcher</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn" data-lang="hero-btn-work">View Work</a>
+                <a href="#contact" class="btn secondary" data-lang="hero-btn-contact">Get in Touch</a>
+            </div>
+        </div>
+    </section>
 
-  <!-- ===== ABOUT ===== -->
-  <section class="about" id="about">
-    <h2 data-lang="about-title">About Me</h2>
-    <p data-lang="about-text">
-      I’m a [your role or title] focused on [research interests or domain].
-      My work bridges academic research and practical applications, creating
-      impactful solutions and collaborations.
-    </p>
-  </section>
+    <!-- ===== ABOUT ===== -->
+    <section class="about" id="about">
+        <h2 data-lang="about-title">About Me</h2>
+        <p data-lang="about-text">
+            I’m a [your role or title] focused on [research interests or domain].
+            My work bridges academic research and practical applications, creating
+            impactful solutions and collaborations.
+        </p>
+    </section>
 
-  <!-- ===== EXPERIENCE SUMMARY ===== -->
-<section class="experience-summary" id="experience-summary">
-  <h2 data-lang="exp-title">Experience</h2>
-  <div class="exp-columns">
-    <!-- Academic -->
-    <div class="exp-col">
-      <h3 data-lang="exp-academic">Academic</h3>
-      <p data-lang="exp-academic-summary">
-        Degrees, teaching, and academic achievements in [your field]. Focused on fostering innovation through education and mentorship.
-      </p>
-      <a href="#academic-details" class="btn small">See More →</a>
-    </div>
+    <!-- ===== EXPERIENCE SUMMARY ===== -->
+    <section class="experience-summary" id="experience-summary">
+        <h2 data-lang="exp-title">Experience</h2>
+        <div class="exp-columns">
+            <!-- Academic -->
+            <div class="exp-col">
+                <h3 data-lang="exp-academic">Academic</h3>
+                <p data-lang="exp-academic-summary">
+                    Degrees, teaching, and academic achievements in [your field]. Focused on fostering innovation
+                    through education and mentorship.
+                </p>
+                <a href="#academic-details" class="btn small">See More →</a>
+            </div>
 
-    <!-- Research -->
-    <div class="exp-col">
-      <h3 data-lang="exp-research">Research</h3>
-      <p data-lang="exp-research-summary">
-        Publications, collaborations, and ongoing investigations in [specific research areas]. Dedicated to advancing knowledge and practical discovery.
-      </p>
-      <a href="#research-details" class="btn small">See More →</a>
-    </div>
+            <!-- Research -->
+            <div class="exp-col">
+                <h3 data-lang="exp-research">Research</h3>
+                <p data-lang="exp-research-summary">
+                    Publications, collaborations, and ongoing investigations in [specific research areas]. Dedicated to
+                    advancing knowledge and practical discovery.
+                </p>
+                <a href="#research-details" class="btn small">See More →</a>
+            </div>
 
-    <!-- Professional -->
-    <div class="exp-col">
-      <h3 data-lang="exp-professional">Professional</h3>
-      <p data-lang="exp-professional-summary">
-        Real-world industry roles, consulting, and applied work bridging scientific rigor with technological innovation.
-      </p>
-      <a href="#professional-details" class="btn small">See More →</a>
-    </div>
-  </div>
-</section>
+            <!-- Professional -->
+            <div class="exp-col">
+                <h3 data-lang="exp-professional">Professional</h3>
+                <p data-lang="exp-professional-summary">
+                    Real-world industry roles, consulting, and applied work bridging scientific rigor with technological
+                    innovation.
+                </p>
+                <a href="#professional-details" class="btn small">See More →</a>
+            </div>
+        </div>
+    </section>
 
-<!-- ===== ACADEMIC DETAILS ===== -->
-<section class="exp-details" id="academic-details">
-  <h2 data-lang="exp-academic">Academic</h2>
-  <!-- JS will populate this section from CSV -->
-</section>
+    <!-- ===== ACADEMIC DETAILS ===== -->
+    <section class="exp-details" id="academic-details">
+        <h2 data-lang="exp-academic">Academic</h2>
+        <!-- JS will populate this section from CSV -->
+    </section>
 
-<!-- ===== RESEARCH DETAILS ===== -->
-<section class="exp-details" id="research-details">
-  <h2 data-lang="exp-research">Research</h2>
-  <!-- JS will populate this section from CSV -->
-</section>
+    <!-- ===== RESEARCH DETAILS ===== -->
+    <section class="exp-details" id="research-details">
+        <h2 data-lang="exp-research">Research</h2>
+        <!-- JS will populate this section from CSV -->
+    </section>
 
-<!-- ===== PROFESSIONAL DETAILS ===== -->
-<section class="exp-details" id="professional-details">
-  <h2 data-lang="exp-professional">Professional</h2>
-  <!-- JS will populate this section from CSV -->
-</section>
+    <!-- ===== PROFESSIONAL DETAILS ===== -->
+    <section class="exp-details" id="professional-details">
+        <h2 data-lang="exp-professional">Professional</h2>
+        <!-- JS will populate this section from CSV -->
+    </section>
 
 
 
-  <!-- ===== PROJECTS ===== -->
-  <section class="projects" id="projects">
-    <h2 data-lang="projects-title">Projects & Highlights</h2>
-    <div class="project-grid">
-      <div class="project-card">
-        <h4>Project Title</h4>
-        <p>Short description of your work or collaboration.</p>
-      </div>
-    </div>
-  </section>
+    <!-- ===== PROJECTS ===== -->
+    <section class="projects" id="projects">
+        <h2 data-lang="projects-title">Projects & Highlights</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h4>Project Title</h4>
+                <p>Short description of your work or collaboration.</p>
+            </div>
+        </div>
+    </section>
 
-  <!-- ===== CONTACT ===== -->
-  <section class="contact" id="contact">
-    <h2 data-lang="contact-title">Contact</h2>
-    <p data-lang="contact-text">Interested in working or collaborating with me?</p>
-    <div class="contact-links">
-      <a href="mailto:youremail@example.com">Email</a>
-      <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
-      <a href="https://github.com/yourusername" target="_blank">GitHub</a>
-    </div>
-  </section>
+    <!-- ===== CONTACT ===== -->
+    <section class="contact" id="contact">
+        <h2 data-lang="contact-title">Contact</h2>
+        <p data-lang="contact-text">Interested in working or collaborating with me?</p>
+        <div class="contact-links">
+            <a href="mailto:youremail@example.com">Email</a>
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+            <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+        </div>
+    </section>
 
-  <!-- ===== FOOTER ===== -->
-  <footer>
-    <p>© <span id="year"></span> <span data-lang="footer-name">Your Name</span>.</p>
-  </footer>
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>© <span id="year"></span> <span data-lang="footer-name">Your Name</span>.</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <script src="script.js"></script>
 
-  <script src="script.js"></script>
 </body>
+
 </html>
