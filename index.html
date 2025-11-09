@@ -33,7 +33,7 @@
     <section class="hero" id="hero">
         <div class="hero-bg" id="hero-bg"></div>
         <div class="hero-content">
-            <h1 data-lang="hero-title">Hello, I'm <span>Your Name</span></h1>
+            <h1 data-lang="hero-title">Hi, I'm <span>Your Name</span></h1>
             <p data-lang="hero-sub">Academic • Professional • Researcher</p>
             <div class="hero-buttons">
                 <a href="#projects" class="btn" data-lang="hero-btn-work">View Work</a>
@@ -45,13 +45,45 @@
 
     <!-- ===== ABOUT ===== -->
     <section class="about" id="about">
-        <h2 data-lang="about-title">About Me</h2>
-        <p data-lang="about-text">
-            I’m a [your role or title] focused on [research interests or domain].
-            My work bridges academic research and practical applications, creating
-            impactful solutions and collaborations.
-        </p>
+        <div class="about-content">
+            <h2 data-lang="about-title">About Me</h2>
+            <p data-lang="about-intro">
+                Hello! I'm <strong>Your Name</strong>, a passionate and dedicated Electrical and Electronics Engineer.
+                I've been working in the field since May 2022, focusing on both electrical and electronic systems
+                design, with an emphasis on innovation and real-world applications.
+            </p>
+            <p data-lang="about-body">
+                Throughout my career, I've had the opportunity to design and install complex electrical systems,
+                including lightning rods, grounding systems, and reactive capacitors compensation systems. I've worked
+                on organizing and setting benchmarks for nationwide electricity controls in universities, utilizing
+                SCADA systems and Power BI to enhance decision-making processes.
+            </p>
+            <p data-lang="about-body">
+                I have conducted and organized power quality analysis tests across both public and private sectors
+                nationwide. Additionally, I have experience designing and overseeing high-voltage systems (13.8kV and
+                derivatives) ensuring safety and efficiency in electrical distribution.
+            </p>
+            <p data-lang="about-body">
+                On the electronic side, I have worked on several innovative projects, including electromechanical
+                teleoperation, spectral analysis for watermelons, and the development of the first Panamanian patent for
+                nanoelectrical circuits. I've also designed a scoring board for the university's baseball field and
+                contributed to multiple international publications and conferences, including IEEE and Neurocomputing
+                (Elsevier).
+            </p>
+            <p data-lang="about-body">
+                I am honored to have been invited as a judge for international competitions in Europe and America.
+                Furthermore, I have been involved in designing and building low-cost robotic kits for public schools to
+                help students develop robotics skills. I have also contributed to specialized electronics projects aimed
+                at assisting disabled people, such as developing a smart wheelchair for paraplegic individuals.
+            </p>
+            <p data-lang="about-conclusion">
+                I'm always looking for new opportunities to apply my knowledge and skills in innovative ways. If you'd
+                like to know more about my work or collaborate, feel free to explore my projects or get in touch!
+            </p>
+        </div>
     </section>
+
+
 
     <!-- ===== EXPERIENCE SUMMARY ===== -->
     <section class="experience-summary" id="experience-summary">
@@ -100,7 +132,7 @@
 
     <!-- ===== ACADEMIC DETAILS ===== -->
     <section class="exp-details" id="academic-details">
-        <h2>Academic</h2>
+        <h2 data-lang="academic-details">Academic</h2>
         <ul>
             <!-- JS will insert <li> items here -->
         </ul>
@@ -108,7 +140,7 @@
 
     <!-- ===== RESEARCH DETAILS ===== -->
     <section class="exp-details" id="research-details">
-        <h2>Research</h2>
+        <h2 data-lang="research-details">Research</h2>
         <ul>
             <!-- JS will insert <li> items here -->
         </ul>
@@ -116,23 +148,26 @@
 
     <!-- ===== PROFESSIONAL DETAILS ===== -->
     <section class="exp-details" id="professional-details">
-        <h2>Professional</h2>
+        <h2 data-lang="professional-details">Professional</h2>
         <ul>
             <!-- JS will insert <li> items here -->
         </ul>
     </section>
 
 
-    <!-- ===== PROJECTS ===== -->
-    <section class="projects" id="projects">
-        <h2 data-lang="projects-title">Projects & Highlights</h2>
-        <div class="project-grid">
-            <div class="project-card">
-                <h4>Project Title</h4>
-                <p>Short description of your work or collaboration.</p>
+    <!-- ===== PROJECTS CAROUSEL ===== -->
+    <section class="projects-carousel" id="projects-carousel">
+        <h2 data-lang="projects-title">Projects</h2>
+        <div class="carousel-container">
+            <div class="carousel-items" id="carousel-items">
+                <!-- Project items will be dynamically inserted here -->
             </div>
+            <!-- Carousel navigation buttons -->
+            <button class="carousel-btn prev-btn" id="prev-btn">&#10094;</button>
+            <button class="carousel-btn next-btn" id="next-btn">&#10095;</button>
         </div>
     </section>
+
 
     <!-- ===== CONTACT ===== -->
     <section class="contact" id="contact">

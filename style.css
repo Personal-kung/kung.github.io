@@ -186,6 +186,35 @@ header {
   color: #fff;
 }
 
+/* ===== About ===== */
+.about {
+  padding: 3rem 1rem;
+  background-color: var(--bg-color);
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.about-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.2rem;
+  color:  #ccc;
+}
+
+.about-content strong {
+  color: var(--accent-color);
+}
+
+.about-content em {
+  font-style: italic;
+  color: var(--primary-color);
+}
+
+
 /* ===== Sections ===== */
 section {
   padding: 6rem 1rem;
@@ -277,7 +306,7 @@ li {
   flex-direction: column;
   align-items: center;
   width: 250px;
-  background: #f7f7f7;
+  background: var(--secondary-color);
   border-radius: 8px;
   padding: 1.5rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -295,7 +324,7 @@ li {
 
 .collab-description p {
   font-size: 0.9rem;
-  color: #555;
+  color: #ccc;
 }
 
 .collab-photo img {
@@ -362,6 +391,69 @@ li {
 .project-card:hover {
   transform: translateY(-5px);
 }
+
+.projects-carousel {
+  padding: 2rem;
+  text-align: center;
+}
+
+.carousel-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-items {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel-item {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.carousel-item .project-description {
+  width: 48%;
+}
+
+.carousel-item .project-image {
+  width: 48%;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  font-size: 2rem;
+  padding: 1rem;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
+
+.project-description {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.project-image img {
+  width: 100%;
+  border-radius: 8px;
+}
+
 
 /* ===== Contact ===== */
 .contact-links {

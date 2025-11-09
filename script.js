@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
       "nav-exp": "Experience",
       "nav-projects": "Projects",
       "nav-contact": "Contact",
-      "hero-title": "Hello, I'm <span>Kelvin Kung</span>",
+      "hero-title": "Greetings, I'm <span>Kelvin Kung</span>",
       "hero-sub": "Academic • Professional • Researcher",
       "hero-btn-work": "View Work",
       "hero-btn-contact": "Get in Touch",
@@ -27,6 +27,9 @@ document.addEventListener("DOMContentLoaded", () => {
       "exp-academic": "Academic",
       "exp-research": "Researcher",
       "exp-professional": "Professional",
+      "academic-details": "Academic",
+      "research-details": "Researcher",
+      "professional-details": "Professional",
       "projects-title": "Projects & Highlights",
       "contact-title": "Contact",
       "contact-text": "Interested in working or collaborating with me?",
@@ -39,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
       "nav-exp": "Experiencia",
       "nav-projects": "Proyectos",
       "nav-contact": "Contacto",
-      "hero-title": "Hola, soy <span>Kelvin Kung</span>",
+      "hero-title": "Saludos, <span>Kelvin Kung</span>",
       "hero-sub": "Académico • Profesional • Investigador",
       "hero-btn-work": "Ver Trabajo",
       "hero-btn-contact": "Contactar",
@@ -49,6 +52,9 @@ document.addEventListener("DOMContentLoaded", () => {
       "exp-academic": "Académico",
       "exp-research": "Investigador",
       "exp-professional": "Profesional",
+      "academic-details": "Académico",
+      "research-details": "Investigador",
+      "professional-details": "Profesional",
       "projects-title": "Proyectos & Destacados",
       "contact-title": "Contacto",
       "contact-text": "¿Interesado en trabajar o colaborar conmigo?",
@@ -56,12 +62,12 @@ document.addEventListener("DOMContentLoaded", () => {
       "collab-title": "Profesionales con los que he colaborado"
     },
     zh: {
-      name: "Kelvin Kung",
+      name: "龚颖贤",
       "nav-about": "关于",
       "nav-exp": "经验",
       "nav-projects": "项目",
       "nav-contact": "联系",
-      "hero-title": "你好，我是 <span>Kelvin Kung</span>",
+      "hero-title": "你好，我是 <span>龚颖贤</span>",
       "hero-sub": "学术 • 职业 • 研究者",
       "hero-btn-work": "查看作品",
       "hero-btn-contact": "联系我",
@@ -71,19 +77,22 @@ document.addEventListener("DOMContentLoaded", () => {
       "exp-academic": "学术",
       "exp-research": "研究者",
       "exp-professional": "职业",
+      "academic-details": "学术",
+      "research-details": "研究者",
+      "professional-details": "职业",
       "projects-title": "项目与亮点",
       "contact-title": "联系",
       "contact-text": "有兴趣与我合作或工作吗？",
-      "footer-name": "Kelvin Kung",
-      "collab-title": "Professionals I've Worked With"
+      "footer-name": "龚颖贤",
+      "collab-title": "与我合作的专业人士"
     },
     ja: {
-      name: "Kelvin Kung",
+      name: "クンケルビン",
       "nav-about": "概要",
       "nav-exp": "経験",
       "nav-projects": "プロジェクト",
       "nav-contact": "連絡先",
-      "hero-title": "こんにちは、私は <span>Kelvin Kung</span>",
+      "hero-title": "よろしく、私は <span>クンケルビン</span>",
       "hero-sub": "学術 • プロフェッショナル • 研究者",
       "hero-btn-work": "作品を見る",
       "hero-btn-contact": "お問い合わせ",
@@ -93,11 +102,14 @@ document.addEventListener("DOMContentLoaded", () => {
       "exp-academic": "学術",
       "exp-research": "研究者",
       "exp-professional": "プロフェッショナル",
+      "academic-details": "学術",
+      "research-details": "研究者",
+      "professional-details": "プロフェッショナル",
       "projects-title": "プロジェクト & ハイライト",
       "contact-title": "連絡先",
       "contact-text": "一緒に働いたり協力したりしませんか？",
-      "footer-name": "Kelvin Kung",
-      "collab-title": "Professionals I've Worked With"
+      "footer-name": "クンケルビン",
+      "collab-title": "私が一緒に働いた専門家"
     }
   };
 
@@ -105,9 +117,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function applyLanguage(lang) {
     document.querySelectorAll("[data-lang]").forEach(el => {
-      const key = el.getAttribute("data-lang");
+      const key = el.getAttribute("data-lang");      
       if (translations[lang][key]) el.innerHTML = translations[lang][key];
     });
+    updateLanguageContent(lang);
   }
 
   langSelect.addEventListener("change", e => applyLanguage(e.target.value));
@@ -221,7 +234,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
   // Call the loadCSV function to load and display the data
-  loadCSV();
+  // loadCSV();
 
   // Listen for language change and reload data
   document.getElementById('lang-select').addEventListener('change', function () {
@@ -246,7 +259,7 @@ document.addEventListener("DOMContentLoaded", () => {
     "images/image12.jpg",
     "images/image13.png"
   ];
-  // console.log("Image retreating successfully")
+  
   if (!heroBg) {
     console.error("⚠️ hero-bg element not found.");
     return;
@@ -257,13 +270,9 @@ document.addEventListener("DOMContentLoaded", () => {
   // Function to change background image
   const changeBackgroundImage = () => {
     const imageUrl = `url(${heroImages[current]})`;
-    // console.log("Setting background image:", imageUrl);  // Log the image URL
-
+    
     heroBg.style.backgroundImage = imageUrl;
     heroBg.style.opacity = 1;  // Fade in effect
-
-    // Check if the background image is being set correctly
-    // console.log(heroBg.style.backgroundImage);
   };
 
   // Set the initial background
@@ -275,11 +284,54 @@ document.addEventListener("DOMContentLoaded", () => {
     changeBackgroundImage();
   }, 4000);
 
+  // ===== About me =====
+  function updateLanguageContent(language) {
+    const langElements = document.querySelectorAll("[data-lang]");
+
+    // Fetch language data (you can also use a JSON file or another method to load this)
+    fetch('/data/about.csv')  // Adjust the path based on your setup
+      .then(response => response.text())
+      .then(data => {
+        const parsedData = parseCSV(data);  // You will need to implement a CSV parser if not already done
+
+        langElements.forEach(element => {
+          const key = element.getAttribute('data-lang');
+          const translatedText = parsedData[key] ? parsedData[key][language] : element.textContent;
+
+          // Use innerHTML to allow HTML tags to be rendered
+          element.innerHTML = translatedText || element.innerHTML;
+        });
+      });
+  }
+
+  function parseCSV(csvText) {
+    const rows = csvText.split("\n");
+    const headers = rows[0].split(",");
+
+    // Parse the CSV into a key-value structure
+    const languageData = {};
+
+    rows.slice(1).forEach(row => {
+      const columns = row.split("|");
+      const key = columns[0];
+
+      // Map the language columns to their corresponding language
+      languageData[key] = {
+        en: columns[1],
+        zh: columns[2],
+        ja: columns[3],
+        es: columns[4]
+      };
+    });
+
+    return languageData;
+  }
+
   // ===== Data loading for collaborators =====
   // Function to load collaboration data from CSV and create carousel items
   function loadCollaborationData() {
     // Fetch the CSV file containing the collaboration data
-    Papa.parse('/data/collaboration.csv', {
+    Papa.parse('/data/collaborations.csv', {
       download: true,
       header: true,
       dynamicTyping: true,
@@ -336,5 +388,165 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   // Call the function to load collaboration data when the page is loaded
   loadCollaborationData()
+
+  // ===== Detect the users default language =====
+  function detectUserLanguage() {
+    const userLang = navigator.language || navigator.userLanguage; // e.g., "en", "zh-CN", "ja", etc.
+
+    // Convert language code to match your supported languages (e.g., "en" => "en", "zh" => "zh", etc.)
+    let language = "en"; // Default to English
+    if (userLang.includes("zh")) {
+      language = "zh"; // Chinese
+    } else if (userLang.includes("ja")) {
+      language = "ja"; // Japanese
+    } else if (userLang.includes("es")) {
+      language = "es"; // Spanish
+    }
+    return language;
+  }
+
+  // Load the appropriate language data based on the user's language
+  function setLanguage() {
+    const language = detectUserLanguage();
+    loadLanguageData(language); // Function to load your CSV or translation data
+    // Optionally, you can also update a language selector if needed
+    document.getElementById("lang-select").value = language;
+  }
+
+  function loadLanguageData(language) {
+    // Load the appropriate language file or data
+    applyLanguage(language)
+    loadCSV();
+    updateLanguageContent(language);
+    // Here, you would load and apply the translations, for example from a CSV or JSON file
+    // You can also call the function that updates the text on your website accordingly
+  }
+
+  //forcing language change
+  setLanguage();
+
+  // ===== Projects carousel =====
+  function loadProjectsCarousel() {
+    const projectCsvUrl = '/data/projects.csv'; // Path to your CSV file
+    Papa.parse(projectCsvUrl, {
+      download: true,
+      header: true,
+      dynamicTyping: true,
+      complete: function (results) {
+        const projects = results.data;
+        createCarouselItems(projects);
+      },
+      error: function (error) {
+        console.error('Error loading projects CSV:', error);
+      }
+    });
+  }
+
+  // Create carousel items dynamically
+  function createCarouselItems(projects) {
+    const carouselContainer = document.getElementById('carousel-items');
+    carouselContainer.innerHTML = '';  // Clear any existing content
+
+    // Get the current language setting
+    const currentLang = getCurrentLanguage(); // Assuming you have a function that detects the language (e.g., 'en', 'zh', 'ja', 'es')
+
+    projects.forEach(project => {
+      // Create the carousel item div
+      const carouselItem = document.createElement('div');
+      carouselItem.classList.add('carousel-item');
+
+      // Create the project description section
+      const descriptionDiv = document.createElement('div');
+      descriptionDiv.classList.add('project-description');
+
+      // Dynamically select the correct description based on the current language
+      let description = '';
+
+      switch (currentLang) {
+        case 'en':
+          description = project.details_eng;
+          break;
+        case 'zh':
+          description = project.details_zh;
+          break;
+        case 'ja':
+          description = project.details_ja;
+          break;
+        case 'es':
+          description = project.details_es;
+          break;
+        default:
+          description = project.details_eng; // Fallback to English if the language is unknown
+      }
+
+      // Set the inner HTML for the description
+      descriptionDiv.innerHTML = `
+      <h3>${project.title}</h3>
+      <p>${description}</p>
+    `;
+
+      // Create the project image section
+      const imageDiv = document.createElement('div');
+      imageDiv.classList.add('project-image');
+      imageDiv.innerHTML = `<img src="${project.image_url}" alt="${project.title}" />`;
+
+      // Append description and image to the carousel item
+      carouselItem.appendChild(descriptionDiv);
+      carouselItem.appendChild(imageDiv);
+
+      // Append the carousel item to the container
+      carouselContainer.appendChild(carouselItem);
+    });
+
+    // Initialize the carousel navigation
+    initializeCarousel();
+  }
+
+  // Initialize carousel navigation
+  function initializeCarousel() {
+    let currentIndex = 0;
+    const carouselItems = document.querySelectorAll('.carousel-item');
+    const totalItems = carouselItems.length;
+
+    // Show the first item
+    updateCarouselDisplay(currentIndex);
+
+    // Attach event listeners for previous and next buttons
+    document.getElementById('prev-btn').addEventListener('click', () => {
+      if (currentIndex > 0) {
+        currentIndex--;
+        updateCarouselDisplay(currentIndex);
+      }
+    });
+
+    document.getElementById('next-btn').addEventListener('click', () => {
+      if (currentIndex < totalItems - 1) {
+        currentIndex++;
+        updateCarouselDisplay(currentIndex);
+      }
+    });
+
+    function updateCarouselDisplay(index) {
+      const carouselItems = document.querySelectorAll('.carousel-item');
+      const carouselContainer = document.getElementById('carousel-items');
+
+      // Update carousel container to show the correct item
+      carouselContainer.style.transform = `translateX(-${index * 100}%)`;
+    }
+  }
+
+  // Call the function to load the project carousel after page load
+  window.onload = function () {
+    loadProjectsCarousel();
+  };
+
+  // Function to detect the current language (assuming you have a method for this)
+  function getCurrentLanguage() {
+    // This could be done based on the user's browser language, URL path, or other factors.
+    // Here’s a simple example of detecting language from the URL query parameter (e.g., ?lang=en, ?lang=zh, etc.)
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get('lang') || 'en';  // Default to English if no 'lang' parameter is found
+  }
+
 
 });
