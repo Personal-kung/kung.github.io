@@ -1,0 +1,256 @@
+:root {
+  --bg-color: #0d0d0d;
+  --text-color: #e6e6e6;
+  --accent-color: #4fc3f7;
+  --secondary-color: #2a2a2a;
+  --font-main: 'Inter', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: var(--font-main);
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+/* ===== Navbar ===== */
+header {
+  background-color: rgba(13, 13, 13, 0.9);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: var(--text-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: var(--accent-color);
+}
+
+/* ===== Hero ===== */
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+
+.hero h1 span {
+  color: var(--accent-color);
+}
+
+.hero-buttons {
+  margin-top: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--accent-color);
+  color: #000;
+  text-decoration: none;
+  border-radius: 4px;
+  margin: 0.5rem;
+  transition: opacity 0.3s ease;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn.secondary {
+  background-color: transparent;
+  border: 1px solid var(--accent-color);
+  color: var(--accent-color);
+}
+
+/* ===== Sections ===== */
+section {
+  padding: 6rem 1rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  text-align: center;
+  color: var(--accent-color);
+}
+
+p, li {
+  color: var(--text-color);
+  font-size: 1rem;
+}
+
+.exp-category {
+  margin-bottom: 2rem;
+}
+
+.exp-category h3 {
+  margin-bottom: 0.5rem;
+  color: var(--accent-color);
+}
+
+/* ===== EXPERIENCE SUMMARY ===== */
+.experience-summary {
+  text-align: center;
+  padding: 6rem 1rem;
+  background-color: var(--secondary-color);
+}
+
+.exp-columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 2rem auto 0;
+}
+
+.exp-col {
+  background-color: #141414;
+  padding: 2rem;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  text-align: left;
+}
+
+.exp-col:hover {
+  transform: translateY(-5px);
+}
+
+.exp-col h3 {
+  color: var(--accent-color);
+  margin-bottom: 1rem;
+}
+
+.exp-col p {
+  font-size: 0.95rem;
+  color: #ccc;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+.btn.small {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+}
+
+/* ===== DETAILED SECTIONS ===== */
+.exp-details {
+  padding: 6rem 1rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.exp-details h2 {
+  text-align: center;
+  color: var(--accent-color);
+  margin-bottom: 2rem;
+}
+
+.exp-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.exp-details li {
+  margin-bottom: 1rem;
+  background: var(--secondary-color);
+  padding: 1rem;
+  border-radius: 6px;
+  line-height: 1.5;
+}
+
+/* ===== Projects ===== */
+.project-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.project-card {
+  background-color: var(--secondary-color);
+  padding: 1.5rem;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+/* ===== Contact ===== */
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.contact-links a {
+  color: var(--accent-color);
+  text-decoration: none;
+  border: 1px solid var(--accent-color);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.contact-links a:hover {
+  background-color: var(--accent-color);
+  color: #000;
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  border-top: 1px solid var(--secondary-color);
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 700px) {
+  .nav-links {
+    display: none;
+  }
+}
