@@ -237,17 +237,16 @@ document.addEventListener("DOMContentLoaded", () => {
     "images/image2.jpg",
     "images/image3.JPG",
     "images/image4.jpg",
-    "images/image5.JPG",
+    "images/image5.jpg",
     "images/image6.jpg",
-    "images/image7.JPG",
-    "images/image8.JPG",
-    "images/image9.JPG",
-    "images/image10.JPG",
-    "images/image11.JPG",
-    "images/image12.JPG",
-    "images/image13.JPG",
+    "images/image7.jpg",
+    "images/image8.jpg",
+    "images/image10.png",
+    "images/image11.png",
+    "images/image12.jpg",
+    "images/image13.png"
   ];
-  console.log("Image retreating successfully")
+  // console.log("Image retreating successfully")
   if (!heroBg) {
     console.error("⚠️ hero-bg element not found.");
     return;
@@ -258,13 +257,13 @@ document.addEventListener("DOMContentLoaded", () => {
   // Function to change background image
   const changeBackgroundImage = () => {
     const imageUrl = `url(${heroImages[current]})`;
-    console.log("Setting background image:", imageUrl);  // Log the image URL
+    // console.log("Setting background image:", imageUrl);  // Log the image URL
 
     heroBg.style.backgroundImage = imageUrl;
     heroBg.style.opacity = 1;  // Fade in effect
 
     // Check if the background image is being set correctly
-    console.log(heroBg.style.backgroundImage);
+    // console.log(heroBg.style.backgroundImage);
   };
 
   // Set the initial background
@@ -276,6 +275,7 @@ document.addEventListener("DOMContentLoaded", () => {
     changeBackgroundImage();
   }, 4000);
 
+  // ===== Data loading for collaborators =====
   // Function to load collaboration data from CSV and create carousel items
   function loadCollaborationData() {
     // Fetch the CSV file containing the collaboration data
@@ -308,16 +308,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
           // Get the description based on the current language
           const lang = document.documentElement.lang || 'en'; // Default to 'en' if no language is set
-          const descriptionKey = `description_${lang}`;
           descriptionColumn.innerHTML = `
-          <h3>${item.name}</h3>
-          <p>${item[descriptionKey]}</p>
+          <h3>${item.first_name} ${item.last_name}</h3>
+          <p><strong>Academic Grade:</strong> ${item.academic_grade}</p>
+          <p><strong>Institution:</strong> ${item.institution}</p>
+          <p><strong>Branch:</strong> ${item.branch}</p>
+          <p><strong>Country:</strong> ${item.country}</p>
         `;
 
           // Create the right column (photo)
           const photoColumn = document.createElement('div');
           photoColumn.classList.add('collab-photo');
-          photoColumn.innerHTML = `<img src="${item.photo_url}" alt="${item.name}'s Photo">`;
+          photoColumn.innerHTML = `<img src="${item.image_url}" alt="${item.first_name} ${item.last_name}">`;
 
           // Append both columns to the collab item
           collabItem.appendChild(descriptionColumn);
@@ -332,7 +334,6 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   }
-
   // Call the function to load collaboration data when the page is loaded
   loadCollaborationData()
 
