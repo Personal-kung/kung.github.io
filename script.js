@@ -1,5 +1,11 @@
 // Wait for the DOM to fully load
 document.addEventListener("DOMContentLoaded", () => {
+  // Helper function to format and compare dates (assuming dates are in 'YYYY-MM-DD' format)
+  function parseDate(dateString) {
+    const [month, day, year] = dateString.split('/');  // Split by '/'
+    return new Date(year, month - 1, day); // month is 0-based
+  }
+
   // Set current year in footer
   document.getElementById("year").textContent = new Date().getFullYear();
 
@@ -18,10 +24,14 @@ document.addEventListener("DOMContentLoaded", () => {
       "about-title": "About Me",
       "about-text": "I’m a [your role] focused on [your interests].",
       "exp-title": "Experience",
+      "exp-academic": "Academic",
+      "exp-research": "Researcher",
+      "exp-professional": "Professional",
       "projects-title": "Projects & Highlights",
       "contact-title": "Contact",
       "contact-text": "Interested in working or collaborating with me?",
-      "footer-name": "Kelvin Kung"
+      "footer-name": "Kelvin Kung",
+      "collab-title": "Professionals I've Worked With"
     },
     es: {
       name: "Kelvin Kung",
@@ -36,10 +46,14 @@ document.addEventListener("DOMContentLoaded", () => {
       "about-title": "Sobre Mí",
       "about-text": "Soy [tu rol] enfocado en [tus intereses].",
       "exp-title": "Experiencia",
+      "exp-academic": "Académico",
+      "exp-research": "Investigador",
+      "exp-professional": "Profesional",
       "projects-title": "Proyectos & Destacados",
       "contact-title": "Contacto",
       "contact-text": "¿Interesado en trabajar o colaborar conmigo?",
-      "footer-name": "Kelvin Kung"
+      "footer-name": "Kelvin Kung",
+      "collab-title": "Profesionales con los que he colaborado"
     },
     zh: {
       name: "Kelvin Kung",
@@ -54,10 +68,14 @@ document.addEventListener("DOMContentLoaded", () => {
       "about-title": "关于我",
       "about-text": "我是[你的角色]，专注于[你的兴趣]。",
       "exp-title": "经验",
+      "exp-academic": "学术",
+      "exp-research": "研究者",
+      "exp-professional": "职业",
       "projects-title": "项目与亮点",
       "contact-title": "联系",
       "contact-text": "有兴趣与我合作或工作吗？",
-      "footer-name": "Kelvin Kung"
+      "footer-name": "Kelvin Kung",
+      "collab-title": "Professionals I've Worked With"
     },
     ja: {
       name: "Kelvin Kung",
@@ -72,10 +90,14 @@ document.addEventListener("DOMContentLoaded", () => {
       "about-title": "私について",
       "about-text": "私は[あなたの役割]で、[あなたの関心]に注力しています。",
       "exp-title": "経験",
+      "exp-academic": "学術",
+      "exp-research": "研究者",
+      "exp-professional": "プロフェッショナル",
       "projects-title": "プロジェクト & ハイライト",
       "contact-title": "連絡先",
       "contact-text": "一緒に働いたり協力したりしませんか？",
-      "footer-name": "Kelvin Kung"
+      "footer-name": "Kelvin Kung",
+      "collab-title": "Professionals I've Worked With"
     }
   };
 
@@ -91,113 +113,227 @@ document.addEventListener("DOMContentLoaded", () => {
   langSelect.addEventListener("change", e => applyLanguage(e.target.value));
   applyLanguage(langSelect.value);
 
-  // ----- CSV Loader -----
-  const csvPath = "data/portfolio_data.csv";
+  // ===== CSV data loading =====
+  function loadCSV() {
+    const csvPath = "data/portfolio_data.csv";
 
-  fetch(csvPath)
-    .then(response => {
-      if (!response.ok) throw new Error("CSV file not found");
-      return response.text();
-    })
-    .then(csvText => {
-      const parsed = Papa.parse(csvText, { header: true, skipEmptyLines: true });
-      const data = parsed.data;
-      console.log("✅ CSV data parsed:", data);
+    fetch(csvPath)
+      .then(response => {
+        if (!response.ok) throw new Error("CSV file not found");
+        return response.text();
+      })
+      .then(csvText => {
+        // Parse the CSV data
+        const parsedData = Papa.parse(csvText, {
+          header: true, // CSV headers are present
+          skipEmptyLines: true // Skip empty lines
+        }).data;
+        // Group the data by category
+        const groupedData = groupByCategory(parsedData);
 
-      // Get section references
-      const academicUL = document.querySelector("#academic-details ul");
-      const researchUL = document.querySelector("#research-details ul");
-      const professionalUL = document.querySelector("#professional-details ul");
+        // Sort the data from the most recent to the oldest (by finish date)
+        parsedData.sort((a, b) => parseDate(b.finish) - parseDate(a.finish));
 
-      if (!academicUL || !researchUL || !professionalUL) {
-        console.error("❌ One or more <ul> targets not found in HTML!");
-        return;
+        // Get the selected language
+        const selectedLang = document.getElementById('lang-select').value;
+
+        // Sort and display the 5 most recent items for each category
+        displayData(groupedData, selectedLang);
+      })
+      .catch(err => console.error("❌ Error loading CSV:", err));
+  }
+
+  // Group data by category
+  function groupByCategory(data) {
+    const grouped = {
+      academic: [],
+      research: [],
+      professional: []
+    };
+
+    data.forEach(item => {
+      const category = item.category.toLowerCase(); // 'academic', 'research', 'professional'
+      if (grouped[category]) {
+        grouped[category].push(item);
       }
+    });
 
-      // Helper to make <li> safely
-      const createListItem = (item) => {
-        const li = document.createElement("li");
-        li.innerHTML = `
-      ${item.finish || "?"}
-        <strong>${item.participation || "Untitled"}</strong> 
-        – ${item.institution || "Unknown Institution"}, 
-        <br>${item.details_en || ""}
-        ${item.links ? `<br><a href="${item.links}" target="_blank">More info</a>` : ""}
-      `;
-        return li;
-      };
+    // Sort each category's data from most recent to oldest
+    for (let category in grouped) {
+      grouped[category].sort((a, b) => parseDate(b.finish) - parseDate(a.finish));
+    }
 
-      // Loop through each row
-      data.forEach(item => {
-        if (!item.branch) return; // skip if branch empty
-        console.log("Branch found:", `"${item.category}"`);
-        switch (item.category.trim().toLowerCase()) {
-          case "academic":
-            academicUL.appendChild(createListItem(item));
-            break;
-          case "research":
-            researchUL.appendChild(createListItem(item));
-            break;
-          case "professional":
-            professionalUL.appendChild(createListItem(item));
-            break;
-          default:
-            console.warn(`⚠️ Unknown branch: ${item.category}`);
-        }
-      });
-    })
-    .catch(err => console.error("❌ Error loading CSV:", err));
+    return grouped;
+  }
 
-  // ===== HERO BACKGROUND CAROUSEL (dynamic) =====
-  document.addEventListener("DOMContentLoaded", () => {
-    const heroBg = document.getElementById("hero-bg");
+  //Function to display data on the website
+  function displayData(groupedData, selectedLang) {
+    // Get section references
+    const academicUL = document.querySelector("#academic-details ul");
+    const researchUL = document.querySelector("#research-details ul");
+    const professionalUL = document.querySelector("#professional-details ul");
 
-    if (!heroBg) {
-      console.warn("⚠️ hero-bg element not found.");
+    if (!academicUL || !researchUL || !professionalUL) {
+      console.error("❌ One or more <ul> targets not found in HTML!");
       return;
     }
 
-    // ---- Define your image paths here ----
-    const heroImages = [
-      "images/image1.jpg",
-      "images/image2.jpg",
-    ];
+    // Clear the current content in the sections
+    academicUL.innerHTML = '';
+    researchUL.innerHTML = '';
+    professionalUL.innerHTML = '';
 
-    // Create carousel container
-    const carousel = document.createElement("div");
-    carousel.classList.add("carousel");
+    // Display the 5 most recent entries for each category
+    displayCategoryEntries(academicUL, groupedData.academic, selectedLang);
+    displayCategoryEntries(researchUL, groupedData.research, selectedLang);
+    displayCategoryEntries(professionalUL, groupedData.professional, selectedLang);
+  }
 
-    // Dynamically create <img> tags
-    heroImages.forEach((src, index) => {
-      const img = document.createElement("img");
-      img.src = src;
-      img.alt = `Background ${index + 1}`;
-      img.className = "carousel-image";
-      if (index === 0) img.classList.add("active");
-      carousel.appendChild(img);
+  // Function to display the top 5 entries for each category
+  function displayCategoryEntries(section, categoryData, selectedLang) {
+    // Only show the first 5 entries
+    const top5 = categoryData.slice(0, 5);
+    top5.forEach(item => {
+      // Get the description based on the selected language
+      let description;
+      switch (selectedLang) {
+        case 'zh':
+          description = item.details_zh;  // Chinese
+          break;
+        case 'ja':
+          description = item.details_ja;  // Japanese
+          break;
+        case 'es':
+          description = item.details_es;  // Spanish
+          break;
+        default:
+          description = item.details_en; // Default to English
+      }
+
+      const entryHtml = `
+                <li>
+                    <strong>${item.finish}</strong> – ${item.institution} – ${item.branch} – ${item.participation}
+                    <p>${description}</p>
+                    ${item.links ? `<a href="${item.links}" target="_blank">More Info</a>` : ''}
+                </li>
+            `;
+      section.innerHTML += entryHtml;
     });
+  }
+  // Call the loadCSV function to load and display the data
+  loadCSV();
 
-    // Insert carousel into hero background div
-    heroBg.appendChild(carousel);
-
-    // ---- Carousel logic ----
-    const images = carousel.querySelectorAll(".carousel-image");
-    let current = 0;
-
-    // Preload images
-    images.forEach(img => {
-      const preload = new Image();
-      preload.src = img.src;
-    });
-
-    // Function to switch images
-    function showNextImage() {
-      images[current].classList.remove("active");
-      current = (current + 1) % images.length;
-      images[current].classList.add("active");
-    }
-
-    // Auto-change every 6 seconds
-    setInterval(showNextImage, 6000);
+  // Listen for language change and reload data
+  document.getElementById('lang-select').addEventListener('change', function () {
+    loadCSV();
   });
+
+  // ===== HERO BACKGROUND CAROUSEL (dynamic) =====
+  const heroBg = document.getElementById("hero-bg");
+
+  // Array of image paths (make sure these are correct relative paths)
+  const heroImages = [
+    "images/image1.JPG",
+    "images/image2.jpg",
+    "images/image3.JPG",
+    "images/image4.jpg",
+    "images/image5.JPG",
+    "images/image6.jpg",
+    "images/image7.JPG",
+    "images/image8.JPG",
+    "images/image9.JPG",
+    "images/image10.JPG",
+    "images/image11.JPG",
+    "images/image12.JPG",
+    "images/image13.JPG",
+  ];
+  console.log("Image retreating successfully")
+  if (!heroBg) {
+    console.error("⚠️ hero-bg element not found.");
+    return;
+  }
+
+  let current = 0;
+
+  // Function to change background image
+  const changeBackgroundImage = () => {
+    const imageUrl = `url(${heroImages[current]})`;
+    console.log("Setting background image:", imageUrl);  // Log the image URL
+
+    heroBg.style.backgroundImage = imageUrl;
+    heroBg.style.opacity = 1;  // Fade in effect
+
+    // Check if the background image is being set correctly
+    console.log(heroBg.style.backgroundImage);
+  };
+
+  // Set the initial background
+  changeBackgroundImage();
+
+  // Change the background every 4 seconds
+  setInterval(() => {
+    current = (current + 1) % heroImages.length;
+    changeBackgroundImage();
+  }, 4000);
+
+  // Function to load collaboration data from CSV and create carousel items
+  function loadCollaborationData() {
+    // Fetch the CSV file containing the collaboration data
+    Papa.parse('/data/collaboration.csv', {
+      download: true,
+      header: true,
+      dynamicTyping: true,
+      complete: function (results) {
+        const collabData = results.data;
+
+        // Get the carousel container
+        const carouselContainer = document.querySelector('.collab-carousel');
+
+        if (!carouselContainer) {
+          console.error('Collaboration carousel container not found!');
+          return;
+        }
+
+        // Clear any existing content in the carousel
+        carouselContainer.innerHTML = '';
+
+        // Loop through the collaboration data and create the carousel items
+        collabData.forEach(item => {
+          const collabItem = document.createElement('div');
+          collabItem.classList.add('collab-item');
+
+          // Create the left column (description/abstract)
+          const descriptionColumn = document.createElement('div');
+          descriptionColumn.classList.add('collab-description');
+
+          // Get the description based on the current language
+          const lang = document.documentElement.lang || 'en'; // Default to 'en' if no language is set
+          const descriptionKey = `description_${lang}`;
+          descriptionColumn.innerHTML = `
+          <h3>${item.name}</h3>
+          <p>${item[descriptionKey]}</p>
+        `;
+
+          // Create the right column (photo)
+          const photoColumn = document.createElement('div');
+          photoColumn.classList.add('collab-photo');
+          photoColumn.innerHTML = `<img src="${item.photo_url}" alt="${item.name}'s Photo">`;
+
+          // Append both columns to the collab item
+          collabItem.appendChild(descriptionColumn);
+          collabItem.appendChild(photoColumn);
+
+          // Append the collab item to the carousel
+          carouselContainer.appendChild(collabItem);
+        });
+      },
+      error: function (error) {
+        console.error('Error loading CSV:', error);
+      }
+    });
+  }
+
+  // Call the function to load collaboration data when the page is loaded
+  loadCollaborationData()
+
 });
