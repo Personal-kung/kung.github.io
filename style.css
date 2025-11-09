@@ -100,6 +100,72 @@ header {
   color: var(--accent-color);
 }
 
+/* === HERO BACKGROUND CAROUSEL (ADDED) === */
+.hero {
+  position: relative;
+  /* allow layering */
+  height: 100vh;
+  overflow: hidden;
+  /* hide image edges */
+  color: white;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 0 1rem;
+}
+
+.hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
+}
+
+.carousel-image.active {
+  opacity: 1;
+}
+
+/* Dark overlay for readability */
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+  /* adjust darkness */
+  z-index: 2;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 3;
+  /* above overlay */
+  color: #fff;
+}
+
 /* ===== Sections ===== */
 section {
   padding: 6rem 1rem;
@@ -114,7 +180,8 @@ h2 {
   color: var(--accent-color);
 }
 
-p, li {
+p,
+li {
   color: var(--text-color);
   font-size: 1rem;
 }

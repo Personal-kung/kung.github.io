@@ -100,47 +100,104 @@ document.addEventListener("DOMContentLoaded", () => {
       return response.text();
     })
     .then(csvText => {
-      const data = Papa.parse(csvText, { header: true, skipEmptyLines: true }).data;
-      // console.log("CSV data loaded:", data);
+      const parsed = Papa.parse(csvText, { header: true, skipEmptyLines: true });
+      const data = parsed.data;
+      console.log("✅ CSV data parsed:", data);
 
-      const sections = {
-        Academic: document.querySelector("#academic-details ul"),
-        Research: document.querySelector("#research-details ul"),
-        Professional: document.querySelector("#professional-details ul")
-      };
+      // Get section references
+      const academicUL = document.querySelector("#academic-details ul");
+      const researchUL = document.querySelector("#research-details ul");
+      const professionalUL = document.querySelector("#professional-details ul");
 
-      if (!sections.Academic || !sections.Research || !sections.Professional) {
-        console.error("One or more target sections not found in HTML!");
+      if (!academicUL || !researchUL || !professionalUL) {
+        console.error("❌ One or more <ul> targets not found in HTML!");
         return;
       }
-      console.log(Papa)
-      // Populate sections
-      data.forEach(row => {
-        if (!row.branch) return;
+
+      // Helper to make <li> safely
+      const createListItem = (item) => {
         const li = document.createElement("li");
-        li.innerHTML = `<strong>${row.participation}</strong> – ${row.institution}, ${row.start} to ${row.finish} <br> ${row.details} ${row.links ? `<a href="${row.links}" target="_blank">Link</a>` : ""}`;
-        if (sections[row.branch]) sections[row.branch].appendChild(li);
+        li.innerHTML = `
+      ${item.finish || "?"}
+        <strong>${item.participation || "Untitled"}</strong> 
+        – ${item.institution || "Unknown Institution"}, 
+        <br>${item.details_en || ""}
+        ${item.links ? `<br><a href="${item.links}" target="_blank">More info</a>` : ""}
+      `;
+        return li;
+      };
+
+      // Loop through each row
+      data.forEach(item => {
+        if (!item.branch) return; // skip if branch empty
+        console.log("Branch found:", `"${item.category}"`);
+        switch (item.category.trim().toLowerCase()) {
+          case "academic":
+            academicUL.appendChild(createListItem(item));
+            break;
+          case "research":
+            researchUL.appendChild(createListItem(item));
+            break;
+          case "professional":
+            professionalUL.appendChild(createListItem(item));
+            break;
+          default:
+            console.warn(`⚠️ Unknown branch: ${item.category}`);
+        }
       });
     })
-    .catch(err => console.error("Error loading CSV:", err));
+    .catch(err => console.error("❌ Error loading CSV:", err));
 
-  // ----- Carousel (sample) -----
-  const carouselImages = [
-    "images/hero1.jpg",
-    "images/hero2.jpg",
-    "images/hero3.jpg",
-    "images/hero4.jpg"
-  ];
+  // ===== HERO BACKGROUND CAROUSEL (dynamic) =====
+  document.addEventListener("DOMContentLoaded", () => {
+    const heroBg = document.getElementById("hero-bg");
 
-  const heroBg = document.getElementById("hero-bg");
-  let currentIndex = 0;
+    if (!heroBg) {
+      console.warn("⚠️ hero-bg element not found.");
+      return;
+    }
 
-  function updateCarousel() {
-    if (!heroBg) return;
-    heroBg.style.backgroundImage = `url('${carouselImages[currentIndex]}')`;
-    currentIndex = (currentIndex + 1) % carouselImages.length;
-  }
+    // ---- Define your image paths here ----
+    const heroImages = [
+      "images/image1.jpg",
+      "images/image2.jpg",
+    ];
 
-  // updateCarousel();
-  // setInterval(updateCarousel, 5000); // change every 5 sec
+    // Create carousel container
+    const carousel = document.createElement("div");
+    carousel.classList.add("carousel");
+
+    // Dynamically create <img> tags
+    heroImages.forEach((src, index) => {
+      const img = document.createElement("img");
+      img.src = src;
+      img.alt = `Background ${index + 1}`;
+      img.className = "carousel-image";
+      if (index === 0) img.classList.add("active");
+      carousel.appendChild(img);
+    });
+
+    // Insert carousel into hero background div
+    heroBg.appendChild(carousel);
+
+    // ---- Carousel logic ----
+    const images = carousel.querySelectorAll(".carousel-image");
+    let current = 0;
+
+    // Preload images
+    images.forEach(img => {
+      const preload = new Image();
+      preload.src = img.src;
+    });
+
+    // Function to switch images
+    function showNextImage() {
+      images[current].classList.remove("active");
+      current = (current + 1) % images.length;
+      images[current].classList.add("active");
+    }
+
+    // Auto-change every 6 seconds
+    setInterval(showNextImage, 6000);
+  });
 });
