@@ -1,9 +1,9 @@
 first_name,last_name,academic_grade,country,institution,branch,image_url
 Xiaoquing,Wen,PhD,Japan,Kyushu Institute of Technology (Kyutech),Wen Lab,"/images/wenXiaoquin.jpg"
 Danilo,Caceres Hernandez,PhD,Panama,Universidad Tecnologica de Panama (UTP),Laboratorio de Sistemas Inteligentes (LabSi),"/images/danilo.caceres.jpg"
-Vanessa Lisbeth,Quintero Cedeño,PhD,Panama,Universidad Tecnologica de Panama (UTP),,"/images/vanessa.quintero1.jpg"
+Vanessa Lisbeth,Quintero Cedeño,PhD,Panama,Universidad Tecnologica de Panama (UTP),Grupo de Investigación en sostenibilidad energética y telecomunicaciones (GISENT),"/images/vanessa.quintero1.jpg"
 José Iván,Isaza González,PhD,Panama,Universidad Tecnologica de Panama (UTP),,"images/jose.isaza.jpeg"
-Choi,Jehwan,PhD student,South Corea,Busan National University,Intelligent systems (ISLab),
-Ignacio Jacinto,Chang Jordan,PhD,Panama,Universidad Tecnologica de Panama (UTP),,
+Jehwan,Choi,PhD student,South Corea,Busan National University,Intelligent systems (ISLab),"images/jehwan.choi.png"
+Ignacio Jacinto,Chang Jordan,PhD,Panama,Universidad Tecnologica de Panama (UTP),,"images/ignacio_chang.jpg"
 João Nuno,De Oliveira e Silva,PhD,Portugal,Universidade de Lisboa,Departamento de Engenharia Eletrotécnica e de Computadores,"images/joao.silva.jpeg"
 Elida,De Obaldia,PhD,Panama,Universidad Tecnologica de Panama (UTP),,"/images/elida.obaldia.jpeg"
