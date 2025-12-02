@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your Name | Portfolio</title>
+    <title>Kelvin Kung | Portfolio</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -15,7 +15,7 @@
             <div class="logo" data-lang="name">Kelvin Kung</div>
             <ul class="nav-links">
                 <li><a href="#about" data-lang="nav-about">About</a></li>
-                <li><a href="#experience" data-lang="nav-exp">Experience</a></li>
+                <li><a href="#experience-summary" data-lang="nav-exp">Experience</a></li>
                 <li><a href="#projects" data-lang="nav-projects">Projects</a></li>
                 <li><a href="#contact" data-lang="nav-contact">Contact</a></li>
             </ul>
@@ -48,39 +48,63 @@
     <section class="about" id="about">
         <div class="about-content">
             <h2 data-lang="about-title">About Me</h2>
-            <p data-lang="about-intro">
-                Hello! I'm <strong>Your Name</strong>, a passionate and dedicated Electrical and Electronics Engineer.
-                I've been working in the field since May 2022, focusing on both electrical and electronic systems
-                design, with an emphasis on innovation and real-world applications.
-            </p>
-            <p data-lang="about-body">
-                Throughout my career, I've had the opportunity to design and install complex electrical systems,
-                including lightning rods, grounding systems, and reactive capacitors compensation systems. I've worked
-                on organizing and setting benchmarks for nationwide electricity controls in universities, utilizing
-                SCADA systems and Power BI to enhance decision-making processes.
-            </p>
-            <p data-lang="about-body1">
-                I have conducted and organized power quality analysis tests across both public and private sectors
-                nationwide. Additionally, I have experience designing and overseeing high-voltage systems (13.8kV and
-                derivatives) ensuring safety and efficiency in electrical distribution.
-            </p>
-            <p data-lang="about-body2">
-                On the electronic side, I have worked on several innovative projects, including electromechanical
-                teleoperation, spectral analysis for watermelons, and the development of the first Panamanian patent for
-                nanoelectrical circuits. I've also designed a scoring board for the university's baseball field and
-                contributed to multiple international publications and conferences, including IEEE and Neurocomputing
-                (Elsevier).
-            </p>
-            <p data-lang="about-body3">
-                I am honored to have been invited as a judge for international competitions in Europe and America.
-                Furthermore, I have been involved in designing and building low-cost robotic kits for public schools to
-                help students develop robotics skills. I have also contributed to specialized electronics projects aimed
-                at assisting disabled people, such as developing a smart wheelchair for paraplegic individuals.
-            </p>
-            <p data-lang="about-conclusion">
-                I'm always looking for new opportunities to apply my knowledge and skills in innovative ways. If you'd
-                like to know more about my work or collaborate, feel free to explore my projects or get in touch!
-            </p>
+            <div style="display: flex; gap: 20px; line-height: 1.6;">
+                <!-- Column 1 -->
+                <div style="flex: 1;">
+                    <p data-lang="about-intro">
+                        Kelvin Kung is an Electrical and Electronics Engineer. Currently researching Very Large System
+                        Integration (VLSI) testing in Kyushu Institute of Technology
+                    </p>
+                    <p data-lang="about-body">
+                        Kelvin worked in Technological University of Panama (2022-2025) focusing on high voltage
+                        electrical
+                        systems
+                        design, with an emphasis on innovation and real-world applications.
+                        Throughout his career, he designed and installed complex electrical systems,
+                        including lightning rods, grounding systems, and reactive capacitors compensation systems. He
+                        set
+                        benchmarks for nationwide electricity controls in universities, utilizing
+                        SCADA systems and Power BI to enhance decision-making processes.
+                    </p>
+                    <p data-lang="about-body1">
+                        Kelvin conducted and organized power quality analysis tests across both public and private
+                        sectors
+                        nationwide. Additionally, I have experience designing and overseeing high-voltage systems
+                        (13.8kV
+                        and
+                        derivatives) ensuring safety and efficiency in electrical distribution.
+                    </p>
+                </div>
+
+                <!-- Column 2 -->
+                <div style="flex: 1;">
+                    <p data-lang="about-body2">
+                        On the electronic side, he has worked on several innovative projects, including
+                        electromechanical
+                        teleoperation, spectral analysis for watermelons, and the development of the first Panamanian
+                        patent
+                        for
+                        nanoelectrical circuits. Kelvin has also designed a scoring board for the university's baseball
+                        field and
+                        contributed to multiple international publications and conferences, including IEEE and
+                        Neurocomputing
+                        (Elsevier).
+                    </p>
+                    <p data-lang="about-body3">
+                        In 2023 and 2024 Kelvin served as a judge for international competitions in Europe and America.
+                        Furthermore, he has designed and build low-cost robotic kits for public schools
+                        to
+                        help students develop robotics skills. He also contributed to specialized electronics projects
+                        aimed
+                        at assisting disabled people, such as developing a smart wheelchair for paraplegic individuals.
+                    </p>
+                    <p data-lang="about-conclusion">
+                        Kelvin received his B.S. in Electrical and Electronics Engineering from Technological University
+                        of
+                        Panama (2022)
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -122,18 +146,69 @@
         </div>
     </section>
 
-    <!-- ===== PROJECTS CAROUSEL =====
+    <!-- ===== PROJECTS CAROUSEL ===== -->
     <section class="projects-carousel" id="projects-carousel">
         <h2 data-lang="projects-title">Projects</h2>
-        <div class="carousel-container">
-            <div class="carousel-items" id="carousel-items">
-                <!-- Project items will be dynamically inserted here -->
-            </div>
-            <!-- Carousel navigation buttons -->
-            <button class="carousel-btn prev-btn" id="prev-btn">&#10094;</button>
-            <button class="carousel-btn next-btn" id="next-btn">&#10095;</button>
-        </div>
-    </section> -->
+        <table style="width: 100%; border-collapse: collapse; margin-top: 2rem;">
+            <thead>
+                <tr style="background-color: var(--secondary-color);">
+                    <th style="padding: 1rem; text-align: center;">Project Name</th>
+                    <th style="padding: 1rem; text-align: center;">Implemented Technologies</th>
+                    <th style="padding: 1rem; text-align: center;">Preview</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <!-- ===== PROJECT 1: STEM CAMP ===== -->
+                <tr>
+                    <td style="padding: 1rem; text-align:left">
+                        <a href="campamento.html" style="color: var(--accent-color); text-decoration: none;">
+                            Technology Camp for Young People in STEM
+                        </a>
+                    </td>
+                    <td style="padding: 1rem;">Python<br>MicroPython<br>ESP32<br>VS Code</td>
+                    <td style="padding: 1rem;">
+                        <model-viewer src="modelos 3d/prototipo.glb" alt="A 3D astronaut model" auto-rotate
+                            camera-controls shadow-intensity="1" exposure="1.1"></model-viewer>
+                    </td>
+                </tr>
+
+                <!-- ===== PROJECT 2: Diamond Thin-Film Battery Coatings ===== -->
+                <tr>
+                    <td style="padding: 1rem;text-align:left">
+                        <a href="ultrananocristalino.html" style="color: var(--accent-color); text-decoration: none;">
+                            Technological development for the new generation of lithium-ion batteries through
+                            ultrananocrystalline diamond thin film coatings
+                        </a>
+                    </td>
+                    <td style="padding: 1rem;">Python<br>Matlab<br>Excel</td>
+                </tr>
+
+                <!-- ===== PROJECT 3: Wireless Sensor Nodes & Battery Health ===== -->
+                <tr>
+                    <td style="padding: 1rem;text-align:left">
+                        <a href="agro.html" style="color: var(--accent-color); text-decoration: none;">
+                            Guidelines for Decision Making in the Operation of Sensor Networks Used in the Agricultural
+                            Sector Considering the Battery Health Status
+                        </a>
+                    </td>
+                    <td style="padding: 1rem;">Arduino</td>
+                </tr>
+
+                <!-- ===== PROJECT 4: Panamá Rural Conectado ===== -->
+                <tr>
+                    <td style="padding: 1rem;text-align:left">
+                        <a href="panamarural.html" style="color: var(--accent-color); text-decoration: none;">
+                            Connected Rural Panama: Sustainable Technological Solutions Applied to Digital Connectivity
+                            and Social Inclusion
+                        </a>
+                    </td>
+                    <td style="padding: 1rem;">Excel<br>Arduino<br>Analizadores de redes</td>
+                </tr>
+            </tbody>
+        </table>
+        
+    </section>
 
 
     <!-- ===== COLLABORATION SECTION ===== -->
