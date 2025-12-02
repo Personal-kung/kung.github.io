@@ -297,8 +297,6 @@ document.addEventListener("DOMContentLoaded", () => {
         langElements.forEach(element => {
           const key = element.getAttribute('data-lang');
           const translatedText = parsedData[key] ? parsedData[key][language] : element.textContent;
-
-          // Use innerHTML to allow HTML tags to be rendered
           element.innerHTML = translatedText || element.innerHTML;
         });
       });
