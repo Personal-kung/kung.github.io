@@ -233,6 +233,40 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
+    //from json to project table
+    function jsonToTable(jsonData, containerId) {
+        const language = document.getElementById("lang-select").value;
+        let table = "<table style='width: 100%; border-collapse: collapse; margin-top: 2rem;'>";
+
+        fetch(jsonData)  // Ensure this is the correct path to your JSON file
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                table += "<thead><tr style='background-color: var(--secondary-color);'>";
+
+                //headers
+                const headers = ["Project Name", "Summary"]
+                headers.forEach(header => {
+                    table += `<th style="padding: 1rem; text-align: center;">${header}</th>`;
+                });
+                table += "</tr></thead>";
+                table += "<tbody>";
+                //body 
+                data.forEach(row => {
+                    table += "<tr style='padding: 1rem; text-align:left'>";
+                    table += `<td><a href="details.html?projectId=${row["id"]}" target="_blank" style="color: var(--accent-color); text-decoration: none;">${row["title"][language]}</a></td>`;
+                    table += `<td>${row["summary"][language]}</td>`;
+                    table += "</tr>";
+                });
+                table += "</tbody></table>";
+                document.getElementById(containerId).innerHTML = table;
+            })
+    }
+
     function updateAboutSection() {
         const language = document.getElementById("lang-select").value;
 
@@ -281,6 +315,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function initializeAllData() {
         const lang = document.getElementById("lang-select").value;
         updateAboutSection();
+        jsonToTable("./data/projects.json", "tableContainer"); //loads the projects data
         loadCSVData("data/collaborations.csv", "collaborations", updateCollaborationsSection);
         loadCSVData("data/portfolio_data.csv", "portfolio", updatePortfolioSection);
         //updating all other visual elements
