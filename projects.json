@@ -1,0 +1,1104 @@
+[
+    {
+        "id": 5,
+        "title": {
+            "en": "Technology Camp for Young People in STEM",
+            "zh": "面向青少年的STEM科技营",
+            "ja": "STEM分野の若者のためのテクノロジーキャンプ",
+            "es": "Campamento Tecnológico para Jóvenes en STEM"
+        },
+        "summary": {
+            "en": "Our Technological Camp for Teenagers in STEM equips young learners with foundational skills in programming and circuitry, using real-world tools in sensors and instrumentation. Designed to promote inclusion and gender equality, the program opens doors to electrical engineering pathways. 80% of students enrolled in electrical-related careers afterward.",
+            "zh": "我们的青少年STEM科技营旨在通过传感器和仪器等实际工具,为年轻的学习者提供编程和电路方面的基础技能。该项目旨在促进包容性和性别平等,并为学生开启通往电气工程领域的大门。80%的学生在项目结束后从事了与电气相关的职业",
+            "ja": "STEM分野のティーンエイジャー向けテクノロジーキャンプでは、センサーや計測機器といった実社会で使われるツールを用いて、プログラミングと回路の基礎スキルを若い学習者に身につけさせます。インクルージョンとジェンダー平等を促進することを目的としたこのプログラムは、電気工学分野への道を開きます。その効果は明からで、受講生の80%がその後、電気関連の職業に就いています",
+            "es": "Nuestro Campamento Tecnológico para Adolescentes en STEM proporciona a los jóvenes estudiantes habilidades fundamentales en programación y circuitos, utilizando herramientas prácticas en sensores e instrumentación. Diseñado para promover la inclusión y la igualdad de género, el programa abre las puertas a carreras de ingeniería eléctrica. 80 % de los estudiantes se matricularon posteriormente en carreras relacionadas con la electricidad."
+        },
+        "tags": {
+            "en": [
+                "<strong>📟 Sensors & Instrumentation</strong>",
+                "<strong>🎓 Education Technology</strong>"
+            ],
+            "es": [
+                "<strong>📟 Sensors & Instrumentation</strong>",
+                "<strong>🎓 Education Technology</strong>"
+            ],
+            "zh": [
+                "<strong>📟 传感器与仪器仪表</strong>",
+                "<strong>🎓 教育科技</strong>"
+            ],
+            "ja": [
+                "<strong>📟 センサーと計測機器</strong>",
+                "<strong>🎓 教育テクノロジー</strong>"
+            ]
+        },
+        "timeline": {
+            "en": [
+                "2022 November (First participation)",
+                "Octubre 2023 (Second participation)",
+                "Mayo 2024 (Third participation)"
+            ],
+            "zh": [
+                "2022年11月 (第一回)",
+                "2023年10月 (第二回)",
+                "2024年5月 (第三回)"
+            ],
+            "ja": [
+                "2022年11月 (第一回)",
+                "2023年10月 (第二回)",
+                "2024年5月 (第三回)"
+            ],
+            "es": [
+                "Noviembre 2022 (Primera vez)",
+                "Octubre 2023 (Segunda vez)",
+                "Mayo 2024 (Tercera vez)"
+            ]
+        },
+        "problem": {
+            "en": "Since the 2020 pandemic, enrollment in the Technological University of Panama (UTP) electrical engineering faculty has declined at an alarming rate. Internal studies revealed that many new students struggle with mathematical reasoning and programming, mainly due to poor school preparation and limited exposure to technical tools. <br><br> Additionally, female representation in these careers remains significantly lower than male participation. To address these barriers, the university created <em>Technology Camp for Young People in STEM</em>, a program designed to strengthen math and programming skills for female high-school students and inspire them to consider careers in electrical engineering",
+            "zh": "自2020年新冠疫情爆发以来,巴拿马科技大学(UTP) 电气工程专业的入学人数以惊人的速度下降。内部调查显示,许多新生在数学推理和编程方面存在困难,这主要是由于学校教育不足以及接触技术工具的机会有限。<br><br>此外,从事这些职业的女性比例仍然远低于男性。为了克服这些障碍,该大学设立了<em>面向青少年STEM领域科技营</em>,旨在加强高中女生的数学和编程技能,并鼓励她们考虑从事电气工程相关职业",
+            "ja": "2020年のパンデミック以降、パナマ工科大学(UTP) の電気工学部の入学者数は驚くべき速さで減少しています。内部調査によると、多くの新入生が数学的推論やプログラミングに苦労していることが明らかになりました。これは主に、学校での準備不足と技術ツールへの露出不足が原因です。<br><br>さらに、これらの職業における女性の比率は、男性に比べて依然として大幅に低いままです。こうした障壁に対処するため、大学は「STEM分野の若者のためのテクノロジーキャンプ」を創設しました。これは、女子高校生の数学とプログラミングスキルを強化し、電気工学分野でのキャリアを検討するよう促すプログラムです",
+            "es": "Desde la pandemia de 2020, la matrícula en la facultad de ingeniería eléctrica de la Universidad Tecnológica de Panamá (UTP) ha disminuido a un ritmo alarmante. Estudios internos revelaron que muchos estudiantes nuevos tienen dificultades con el razonamiento matemático y la programación, principalmente debido a la escasa preparación académica y la limitada exposición a herramientas técnicas. <br><br>Además, la representación femenina en estas carreras sigue siendo significativamente menor que la masculina. Para abordar estas barreras, la universidad creó el <em>Campamento Tecnológico para Jóvenes en STEM</em>, un programa diseñado para fortalecer las habilidades matemáticas y de programación de las estudiantes de secundaria e inspirarlas a considerar carreras en ingeniería eléctrica>"
+        },
+        "quote": {
+            "en": "Empowering young ladies with the skills and confidence to pursue electrical engineering",
+            "zh": "赋予年轻女性从事电气工程所需的技能和信心",
+            "ja": "少女性に電気工学を追求するためのスキルと自信を与える",
+            "es": "Empoderando a las jóvenes con las habilidades y la confianza para dedicarse a las carreras de ingeniería eléctrica."
+        },
+        "joined": {
+            "en": "I volunteered for this project to support the programming division. With my experience in real-world electronic and software projects, I wanted to help students develop confidence and discover the creativity and opportunities within STEM fields.",
+            "zh": "我自愿参与这个项目,为编程部门提供支持。凭借我在实际电子和软件项目方面的经验,我希望帮助学生建立自信,并发现STEM领域的创造力和发展机遇。",
+            "ja": "プログラミング部門をサポートするために、このプロジェクトにボランティアとして参加しました。実社会での電子工学やソフトウェアのプロジェクト経験を活かし、生徒たちが自信を育み、STEM分野における創造性と可能性を発見できるよう支援したいと考えました。",
+            "es": "Me ofrecí como voluntario para este proyecto en apoyo a la división de programación. Con mi experiencia en proyectos aplicados de electrónica y software, quería ayudar a los estudiantes a desarrollar confianza y a descubrir la creatividad y las oportunidades que ofrecen las áreas STEM."
+        },
+        "approach": {
+            "en": "I designed and led the programming and hardware workshops. To ensure accessibility and hands-on learning, I chose an open-source and practical toolset: <ul> <li><strong>Python</strong> for its simplicity and versatility</li> <li><strong>ESP32 microcontrollers</strong> for hardware, wireless communication, and digital electronics</li> <li><strong>MicroPython + VS Code</strong> for a unified programming and testing workflow</li> </ul> <p>Students built small interactive systems, connected sensors, and wrote their first Python scripts. The focus was on learning through experimentation and making abstract concepts tangible. </p>",
+            "es": "Diseñé y dirigí los talleres de programación y hardware. Para garantizar la accesibilidad y el aprendizaje práctico, elegí un conjunto de herramientas prácticas y de código abierto:　<ul> <li><strong>Python</strong> por su simplicidad y versatilidad</li> <li><strong>Microcontroladores ESP32</strong> para hardware, comunicación inalámbrica y electrónica digital</li> <li><strong>MicroPython + VS Code</strong> para un flujo de trabajo unificado de programación y pruebas</li> </ul> <p> Los estudiantes construyeron pequeños sistemas interactivos, conectaron sensores y escribieron sus primeros scripts en Python. El enfoque se centró en el aprendizaje mediante la experimentación y la materialización de conceptos abstractos. </p>",
+            "zh": "我设计并带领了编程和硬件工作坊。为了确保学习的可及性和实践性,我选择了一套开源且实用的工具集：<ul> <li><strong>Python</strong>,因为它简单易用且功能多样</li> <li><strong>ESP32 微控制器</strong>,用于硬件、无线通信和数字电子领域</li> <li><strong>MicroPython + VS Code</strong>,用于实现统一的编程和测试工作流程</li> </ul> <p>学生们搭建了小型交互式系统,连接了传感器,并编写了他们的第一个 Python 脚本。重点在于通过实验进行学习,并将抽象概念具象化。</p>",
+            "ja": "プログラミングとハードウェアのワークショップを企画・実施しました。アクセシビリティと実践的な学習環境を確保するため、オープンソースで実用的なツールセットを選択しました。<ul> <li><strong>Python</strong> はシンプルさと汎用性を重視しました</li> <li><strong>ESP32 マイクロコントローラー</strong> はハードウェア、無線通信、デジタルエレクトロニクスに使用しました</li> <li><strong>MicroPython + VS Code</strong> はプログラミングとテストのワークフローを統一しました</li> </ul> <p> 生徒たちは小さなインタラクティブシステムを構築し、センサーを接続し、初めての Python スクリプトを作成しました。実験を通して学び、抽象的な概念を具体的なものにすることに重点が置かれました。</p>"
+        },
+        "outcome": {
+            "en": "The results were remarkable. Out of the original <strong>15 participants 12 were enrolled into the electrical engineering faculty</strong> and selected engineering as their chosen field of study. <br><br> The success of the camp attracted interest from private equity groups, who later in 2023 and 2024 expanded and replicated the program across the country—reaching a much wider audience and continuing to promote STEM careers among young women.",
+            "zh": "结果令人瞩目。最初的15名参与者中,有12人被电气工程学院录取,并选择工程学作为他们的专业方向。<br><br>夏令营的成功吸引了私募股权集团的关注,他们在2023年和2024年将该项目推广到全国各地,覆盖了更广泛的受众,并持续鼓励年轻女性投身STEM(科学、技术、工程和数学)领域。",
+            "ja": "結果は目覚ましいものでした。当初の<strong>参加者15名のうち、12名が電気工学部に入学</strong>し、工学を専攻分野として選択しました。<br><br> このキャンプの成功はプライベートエクイティグループの関心を集め、その後2023年と2024年にはプログラムを全国に拡大・再現しました。これにより、より幅広い対象者にリーチし、若い女性のSTEMキャリアの促進を継続しています。",
+            "es": "Los resultados fueron extraordinarios. De las <strong>15 participantes originales, 12 se matricularon en carreras de la facultad de ingeniería eléctrica</strong> y eligieron la ingeniería como su campo de estudio. <br><br> El éxito del campamento atrajo el interés de grupos de capital privado, quienes en 2023 y 2024 posteriormente expandieron y replicaron el programa en todo el país, llegando a un público mucho más amplio y promoviendo las carreras STEM entre las jóvenes."
+        },
+        "collaborator": {
+            "data": [
+                {
+                    "name": "Dra. Vanessa Quintero",
+                    "email": "vanessa.quintero1@utp.ac.pa",
+                    "roles": {
+                        "en": "Executive Director",
+                        "es": "Directora Ejecutiva",
+                        "zh": "执行董事",
+                        "ja": "常務取締役"
+                    }
+                },
+                {
+                    "name": "Dra. Jessica Guevara",
+                    "email": "jessica.guevara@utp.ac.pa",
+                    "roles": {
+                        "en": "Executive Director",
+                        "es": "Directora Ejecutiva",
+                        "zh": "执行董事",
+                        "ja": "常務取締役"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "id": 12,
+        "title": {
+            "en": "Technological development for the next generation of lithium-ion batteries by means of Ultrananocrystalline Diamond thin film coatings",
+            "zh": "通过超纳米晶金刚石薄膜涂层实现新一代锂离子电池的技术开发",
+            "ja": "超ナノ結晶ダイヤモンド薄膜コーティングによる新世代リチウムイオン電池の技術開発",
+            "es": "Desarrollo tecnológico para la nueva generación de baterías de ion-litio por medio de recubrimientos de películas delgadas de Diamante Ultrananocristalino"
+        },
+        "summary": {
+            "en": "With lithium supplies under growing pressure due to the boom in battery production, innovative solutions are more important than ever. Our research aims to deliver exactly that: a new class of lithium batteries that are <strong>10× longer-lasting</strong> and more compact, paving the way for smarter, more sustainable energy storage.",
+            "zh": "随着电池生产蓬勃发展,锂供应面临越来越大的压力,因此创新解决方案比以往任何时候都更加重要。我们的研究旨在提供这样的解决方案：一种新型锂电池,其续航时间是现有<strong>电池的10倍</strong>,体积更小,从而为更智能、更可持续的储能方式铺平道路。",
+            "ja": "バッテリー生産の急増によりリチウム供給が逼迫する中、革新的なソリューションがこれまで以上に重要になっています。私たちの研究はまさにそれを実現することを目指しています。それは、<strong>10倍長持ち</strong>でよりコンパクトな、よりスマートで持続可能なエネルギー貯蔵への道を開く、新しいクラスのリチウムバッテリーです。",
+            "es": "Con la creciente presión sobre el suministro de litio debido al auge en la producción de baterías, las soluciones innovadoras cobran más importancia que nunca. Nuestra investigación busca precisamente eso: una nueva clase de baterías de litio <strong>10 veces más duraderas</strong> y más compactas, allanando el camino para un almacenamiento de energía más inteligente y sostenible."
+        },
+        "tags": {
+            "en": [
+                "<strong>🖥️ Embedded Systems</strong>",
+                "<strong>📊 Systems Engineering</strong>",
+                "<strong>📈 Future Technologies</strong>"
+            ],
+            "es": [
+                "<strong>🖥️ Sistemas Embebidos</strong>",
+                "<strong>📊 Ingeniería de Sistemas</strong>",
+                "<strong>📈 Tecnologías del Futuro</strong>"
+            ],
+            "zh": [
+                "<strong>🖥️嵌入式系统</strong>",
+                "<strong>📊系统工程</strong>",
+                "<strong>📈未来技术</strong>"
+            ],
+            "ja": [
+                "<strong>🖥️ 組み込みシステム</strong>",
+                "<strong>📊 システムエンジニアリング</strong>",
+                "<strong>📈 未来のテクノロジー</strong>"
+            ]
+        },
+        "timeline": {
+            "en": "August 2021 - March 2020",
+            "es": "Agosto 2021 - Marzo 2020",
+            "zh": "2021年8月 - 2020年3月",
+            "ja": "2021年8月 - 2020年3月"
+        },
+        "problem": {
+            "en": "The high demand for lithium for the production of LiBs (Lithium-based Batteries) has put the Earth's crust at a critical point with respect to this element, a fact further aggravated by the short lifecycle of such devices, due to their limited charge/discharge cycles,impacting both technological and environmental scales.<br><br>To address these challenges, this project aimed to produce a new generation of lithium-ion batteries with protective thin films of Ultrananocrystalline Diamond (UNCD/N-UNCD) on anodes and cathodes. This protective system prevents chemical degradation during cycles, targeting a ≥10x improvement in battery lifespan while maintaining or exceeding current energy density.<br><br> The development integrates N-UNCD films with nanocarbons and metallic matrices, enhancing both safety and performance. The technology is intended to positively impact the environmental and economic conservation of the energy and electronics industry in Panama.",
+            "es": "La alta demanda de litio para la producción de baterías de litio (LiB) ha situado a la corteza terrestre en un punto crítico con respecto a este elemento. Este hecho se agrava aún más por el corto ciclo de vida de estos dispositivos, debido a sus limitados ciclos de carga y descarga, lo que impacta tanto a escala tecnológica como ambiental.<br><br>Para abordar estos desafíos, este proyecto se propuso producir una nueva generación de baterías de iones de litio con películas delgadas protectoras de diamante ultrananocristalino (UNCD/N-UNCD) en ánodos y cátodos. Este sistema protector previene la degradación química durante los ciclos, con el objetivo de aumentar la vida útil de la batería en ≥10 veces, manteniendo o superando la densidad energética actual.<br><br>El desarrollo integra películas N-UNCD con nanocarbonos y matrices metálicas, mejorando tanto la seguridad como el rendimiento. Esta tecnología busca impactar positivamente en la conservación ambiental y económica de la industria energética y electrónica en Panamá.",
+            "zh": "锂离子电池(LiBs)生产对锂的巨大需求已使地球地壳的锂资源濒临枯竭,而锂离子电池寿命短(充放电循环次数有限)进一步加剧了这一问题,对技术和环境都造成了影响。<br><br>为了应对这些挑战,本项目旨在开发新一代锂离子电池,其正负极均覆有超纳米晶金刚石(UNCD/N-UNCD)保护薄膜。该保护系统可防止循环过程中发生化学降解,目标是在保持或超越现有能量密度的同时,将电池寿命提高至少10倍。<br><br>该研发项目将N-UNCD薄膜与纳米碳和金属基体相结合,从而提升了电池的安全性和性能。这项技术有望对巴拿马能源和电子行业的环境和经济效益产生积极影响",
+            "ja": "LiB(リチウムベースバッテリー)生産用のリチウム需要の高まりは、この元素に関して地殻を危機的な状況に陥れています。さらに、充放電サイクルの制限によるデバイスのライフサイクルの短さもこの状況を悪化させ、技術面と環境面の両方に影響を及ぼしています。<br><br>これらの課題に対処するため、本プロジェクトは、陽極と陰極に超ナノ結晶ダイヤモンド(UNCD/N-UNCD)の保護薄膜を用いた新世代のリチウムイオンバッテリーの製造を目指しました。この保護システムは、サイクル中の化学的劣化を防ぎ、現在のエネルギー密度を維持または上回りながら、バッテリー寿命を10倍以上向上させることを目指しています。<br>この開発では、N-UNCDフィルムをナノカーボンと金属マトリックスと統合し、安全性と性能の両方を向上させます。この技術は、パナマのエネルギーおよびエレクトロニクス産業の環境保全と経済保全にプラスの影響を与えることを目的としています。"
+        },
+        "quote": {
+            "en": "Developing next-generation lithium-ion batteries with enhanced lifespan, performance, and safety.",
+            "es": "Desarrollo de baterías de iones de litio de próxima generación con mayor vida útil, rendimiento y seguridad",
+            "zh": "开发具有更长寿命、更高性能和更强安全性的下一代锂离子电池",
+            "ja": "寿命、性能、安全性を向上させた次世代リチウムイオン電池の開発"
+        },
+        "joined": {
+            "en": "I contributed to the research project by supporting both the technical and experimental workflows. My role included developing programming solutions, assembling battery systems, and creating data-organization and visualization scripts that enabled clearer analysis and more efficient decision-making. These combined skills helped streamline the project and improve overall research output.",
+            "es": "Contribuí al proyecto de investigación apoyando los flujos de trabajo técnicos y experimentales. Mi función incluía desarrollar soluciones de programación, ensamblar sistemas de baterías y crear scripts de organización y visualización de datos que permitieron un análisis más claro y una toma de decisiones más eficiente. La combinación de estas habilidades ayudó a optimizar el proyecto y a mejorar los resultados generales de la investigación.",
+            "zh": "我通过支持技术和实验流程,为该研究项目做出了贡献。我的工作包括开发编程解决方案、组装电池系统,以及创建数据整理和可视化脚本,从而实现更清晰的分析和更高效的决策。这些技能的综合运用,有助于简化项目流程并提高整体研究成果。",
+            "ja": "私は、技術面と実験面の両方のワークフローをサポートすることで、研究プロジェクトに貢献しました。私の役割には、プログラミングソリューションの開発、バッテリーシステムの組み立て、そしてより明確な分析と効率的な意思決定を可能にするデータ整理・可視化スクリプトの作成が含まれていました。これらのスキルを組み合わせることで、プロジェクトの効率化と研究成果全体の向上に貢献しました。"
+        },
+        "approach": {
+            "en": "<p>To streamline data analysis and improve reproducibility, I focused on automation and visualization:</p><ul><li>Automated data processing using <strong>Python</strong></li><li>Standardized naming, organization, and data analysis with <strong>Excel Macros</strong></li><li>Created visual charts for material compositions, voltage, and layer structure</li></ul><p>This approach allowed the team to track experimental results efficiently and maintain consistency across multiple battery builds.</p>",
+            "es": "<p>Para optimizar el análisis de datos y mejorar la reproducibilidad, me centré en la automatización y la visualización:</p><ul><li>Procesamiento automatizado de datos con Python</strong></li><li>Nomenclatura, organización y análisis de datos estandarizados con macros de Excel</strong></li><li>Gráficos visuales creados para composiciones de materiales, voltaje y estructura de capas</li></ul><p>Este enfoque permitió al equipo realizar un seguimiento eficiente de los resultados experimentales y mantener la coherencia en múltiples construcciones de baterías.</p>",
+            "zh": "<p>为了简化数据分析并提高可复现性,我专注于自动化和可视化：</p><ul><li>使用<strong>Python</strong></li>实现数据自动化处理</li>使用<strong>Excel宏</strong></li>实现命名、组织和数据分析的标准化</li>创建材料成分、电压和层结构的可视化图表</li></ul><p>这种方法使团队能够高效地跟踪实验结果,并在多个电池构建中保持一致性。</p>",
+            "ja": "<p>データ分析を効率化し、再現性を向上させるために、自動化と視覚化に重点を置きました。</p><ul><li> <strong>Python</strong> を使用したデータ処理の自動化</li><li> <strong>Excel マクロ</strong> を使用した命名、整理、データ分析の標準化</li><li> 材料組成、電圧、層構造の視覚的なチャートの作成</li></ul><p>このアプローチにより、チームは実験結果を効率的に追跡し、複数のバッテリービルド間で一貫性を維持することができました。</p>"
+        },
+        "outcome": {
+            "en": "Successfully produced <strong>30 functional batteries</strong> with the new N-UNCD technology. These batteries were further implemented in subsequent studies of similar nature, demonstrating reproducibility and effectiveness of the protective coatings.",
+            "es": "Se produjeron con éxito <strong> 30 baterías funcionales</strong> con la nueva tecnología N-UNCD. Estas baterías se implementaron en estudios posteriores de naturaleza similar, demostrando la reproducibilidad y eficacia de los recubrimientos protectores.",
+            "zh": "利用新型N-UNCD技术成功制备了<strong>30个功能性电池</strong>。这些电池随后被应用于类似性质的后续研究中,证明了保护涂层的可重复性和有效性。",
+            "ja": "新しいN-UNCD技術を用いて<strong>30個の機能的な電池</strong>の製造に成功しました。これらの電池はその後の同様の研究に応用され、保護コーティングの再現性と有効性が実証されました。"
+        },
+        "collaborator": {
+            "data": [
+                {
+                    "name": "Dra. Elida Isabel De Obaldia Villarreal",
+                    "email": "elida.deobaldia@utp.ac.pa",
+                    "roles": {
+                        "en": "Principal Investigator (PI)",
+                        "es": "Investigadora Principal (IP)",
+                        "zh": "执行董事",
+                        "ja": "常務取締役"
+                    }
+                },
+                {
+                    "name": "Dra. Vanessa Quintero",
+                    "email": "vanessa.quintero1@utp.ac.pa",
+                    "roles": {
+                        "en": "Co-Investigator (Co-IP)",
+                        "es": "Co-Investigador (Co-IP)",
+                        "zh": "执行董事",
+                        "ja": "常務取締役"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "id": 7,
+        "title": {
+            "en": "Guidelines for Decision Making in the Operation of Sensor Networks Used in the Agricultural Sector Considering the Battery Health Status",
+            "zh": "考虑电池健康状况的农业领域传感器网络运行决策指南",
+            "ja": "農業分野で使用されるセンサーネットワークの運用における意思決定ガイドライン - バッテリーの健康状態を考慮したガイドライン",
+            "es": "Directrices para la Toma de Decisiones en el Funcionamiento de Redes de Sensores utilizadas en el Sector Agropecuario considerando el Estado de Salud de la Batería"
+        },
+        "summary": {
+            "en": "Define a new set of guidelines to drive smarter decisions in sensor networks, lowering energy consumption by strategically considering the battery life that keeps these devices running",
+            "zh": "制定一套新的指导方针,以推动传感器网络中更智能的决策,通过战略性地考虑维持这些设备运行的电池寿命来降低能耗。",
+            "ja": "センサーネットワークにおけるよりスマートな意思決定を推進するための新しいガイドラインを定義し、これらのデバイスを稼働させ続けるバッテリー寿命を戦略的に考慮することでエネルギー消費を削減します。",
+            "es": "Definir un nuevo conjunto de pautas para impulsar decisiones más inteligentes en redes de sensores, reduciendo el consumo de energía al considerar estratégicamente la duración de la batería que mantiene estos dispositivos en funcionamiento."
+        },
+        "tags": {
+            "en": [
+                "<strong>🌱 Environmental Monitoring</strong>",
+                "<strong>📟 Sensors & Instrumentation</strong>",
+                "<strong>🔋 Energy Systems</strong>"
+            ],
+            "es": [
+                "<strong>🌱 Monitoreo Ambiental</strong>",
+                "<strong>📟 Sensores e Instrumentación</strong>",
+                "<strong>🔋 Sistemas de Energía</strong>"
+            ],
+            "zh": [
+                "<strong>🌱环境监测</strong>",
+                "<strong>📟传感器和仪器</strong>",
+                "<strong>🔋能源系统</strong>"
+            ],
+            "ja": [
+                "<strong>🌱環境モニタリング</strong>",
+                "<strong>📟センサーと計測機器</strong>",
+                "<strong>🔋エネルギーシステム</strong>"
+            ]
+        },
+        "timeline": {
+            "en": "August 2021 - March 2020",
+            "es": "Agosto 2021 - Marzo 2020",
+            "zh": "2021年8月 - 2020年3月",
+            "ja": "2021年8月 - 2020年3月"
+        },
+        "problem": {
+            "en": "The goal of this project is to establish guidelines for decision-making in the use of sensor networks to reduce energy consumption by considering the lifespan of the batteries powering these devices.<br><br> Dra. Quintero, the project's principal investigator, emphasized the importance of establishing rules for battery usage to optimize sensor networks. These rules can be applied to other technological applications. She also expressed her gratitude to all contributors to the project's development.",
+            "es": "El objetivo de este proyecto es establecer directrices para la toma de decisiones en el uso de redes de sensores con el fin de reducir el consumo energético, considerando la vida útil de las baterías que alimentan estos dispositivos.<br><br>La Dra. Quintero, investigadora principal del proyecto, destacó la importancia de establecer reglas para el uso de baterías con el fin de optimizar las redes de sensores. Estas reglas pueden aplicarse a otras aplicaciones tecnológicas. También expresó su agradecimiento a todos los que contribuyeron al desarrollo del proyecto.",
+            "zh": "本项目旨在制定传感器网络使用决策指南,通过考虑电池寿命来降低能耗。<br><br>项目首席研究员昆特罗博士强调了制定电池使用规则以优化传感器网络的重要性。这些规则也可应用于其他技术应用。她还对所有为项目开发做出贡献的人员表示感谢。",
+            "ja": "このプロジェクトの目標は、センサーネットワークの利用において、デバイスに電力を供給するバッテリーの寿命を考慮し、エネルギー消費を削減するための意思決定ガイドラインを確立することです。<br><br> プロジェクトの主任研究者であるキンテロ博士は、センサーネットワークを最適化するためにバッテリー使用に関するルールを確立することの重要性を強調しました。これらのルールは他の技術アプリケーションにも適用できます。また、彼女はプロジェクトの開発に貢献したすべての人々に感謝の意を表しました。"
+        },
+        "quote": {
+            "en": "Optimizing energy use in sensor networks by considering battery health in agricultural applications",
+            "es": "Optimización del uso de energía en redes de sensores considerando la salud de la batería en aplicaciones agrícolas",
+            "zh": "在农业应用中,通过考虑电池健康状况来优化传感器网络的能源利用。",
+            "ja": "農業アプリケーションにおけるバッテリーの状態を考慮して、センサー ネットワークのエネルギー使用を最適化します。"
+        },
+        "joined": {
+            "en": "I contributed to the project by developing the Arduino programming needed to reliably read and process sensor data, including voltage, current, and NPK measurements. I also designed and 3D-printed a custom casing that securely housed the full system, improving durability and mobility. These efforts helped create a functional, user-ready prototype.",
+            "es": "Contribuí al proyecto desarrollando la programación de Arduino necesaria para leer y procesar de forma fiable los datos de los sensores, incluyendo mediciones de voltaje, corriente y NPK. También diseñé e imprimí en 3D una carcasa personalizada que albergaba de forma segura todo el sistema, mejorando su durabilidad y movilidad. Estos esfuerzos contribuyeron a crear un prototipo funcional y listo para usar.",
+            "zh": "我为该项目贡献了力量,开发了用于可靠读取和处理传感器数据(包括电压、电流和氮磷钾含量测量值)的Arduino程序。我还设计并3D打印了一个定制外壳,用于安全地容纳整个系统,从而提高了系统的耐用性和便携性。这些努力最终促成了一个功能齐全、可供用户使用的原型机的诞生。",
+            "ja": "私は、電圧、電流、NPK測定などのセンサーデータを確実に読み取り・処理するために必要なArduinoプログラミングを開発することで、このプロジェクトに貢献しました。また、システム全体を安全に収納し、耐久性と可動性を向上させるカスタムケースを設計・3Dプリントしました。これらの取り組みにより、機能的ですぐに使用できるプロトタイプを作成することができました。"
+        },
+        "approach": {
+            "en": "<strong>Electronics & Programming:</strong> I wrote an Arduino script to collect raw data from the equipment and format it appropriately for the intended studies.",
+            "es": "<strong>Electrónica y programación:</strong> Escribí un script de Arduino para recopilar datos sin procesar del equipo y formatearlo adecuadamente para los estudios previstos.",
+            "zh": "<strong>电子与编程：</strong>我编写了一个 Arduino 脚本,用于从设备收集原始数据并将其格式化为适合预期研究的格式。",
+            "ja": "<strong>エレクトロニクスとプログラミング:</strong> 機器から生データを収集し、目的の研究に合わせて適切にフォーマットするための Arduino スクリプトを作成しました。"
+        },
+        "outcome": {
+            "en": "A field prototype was implemented to test realistic scenarios, allowing for the correct determination of parameters. This enabled a completely isolated system to reliably control and collect data.",
+            "es": "Se implementó un prototipo de campo para probar escenarios realistas, lo que permitió la correcta determinación de los parámetros. Esto permitió que un sistema completamente aislado controlara y recopilara datos de forma fiable.",
+            "zh": "为了测试实际应用场景,我们搭建了一个现场原型系统,从而能够准确确定各项参数。这使得我们能够构建一个完全独立的系统,可靠地控制和采集数据。",
+            "ja": "現実的なシナリオをテストするためにフィールドプロトタイプを実装し、パラメータの正確な決定を可能にしました。これにより、完全に分離されたシステムで信頼性の高い制御とデータ収集が可能になりました。"
+        },
+        "collaborator": {
+            "data": [
+                {
+                    "name": "Dra. Vanessa Quintero",
+                    "email": "vanessa.quintero1@utp.ac.pa",
+                    "roles": {
+                        "en": "Principal Investigator (PI)",
+                        "es": "Investigadora Principal (IP)",
+                        "zh": "首席研究员(PI)",
+                        "ja": "主任研究者(PI)"
+                    }
+                },
+                {
+                    "name": "Ing. Luis Mendoza",
+                    "email": "",
+                    "roles": {
+                        "en": "Technical Assistant",
+                        "es": "Asistente técnico",
+                        "zh": "技术助理",
+                        "ja": "テクニカルアシスタント"
+                    }
+                },
+                {
+                    "name": "Ing. Manuel Ceron",
+                    "email": "",
+                    "roles": {
+                        "en": "Technical Assistant",
+                        "es": "Asistente técnico",
+                        "zh": "技术助理",
+                        "ja": "テクニカルアシスタント"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "id": 10,
+        "title": {
+            "en": "Smart Classification System for Citrullus Lanatus (Citrullus lanatus) for Export Using Image Processing",
+            "zh": "基于图像处理的西瓜 (Citrullus lanatus) 出口智能分类系统",
+            "ja": "画像処理を用いた輸出向けスイカ(Citrullus Lanatus)のインテリジェント分類システム",
+            "es": "Sistema Inteligente de Clasificación de la (Citrullus Lanatus) sandía para Exportación Empleando Procesamiento de Imágenes"
+        },
+        "summary": {
+            "en": "The team developed a smart classification watermelon system for rural farmer that enabled to improve international markets exportation",
+            "zh": "该团队为农村农民开发了一种智能西瓜分类系统,该系统有助于提高西瓜的国际市场出口量。",
+            "ja": "チームは、農村農家向けにスマートなスイカ分類システムを開発し、国際市場への輸出を改善しました。",
+            "es": "El equipo desarrolló un sistema de clasificación inteligente de sandías para agricultores rurales que permitió mejorar la exportación a los mercados internacionales."
+        },
+        "tags": {
+            "en": [
+                "<strong>📟 Sensors & Instrumentation</strong>",
+                "<strong>♻️ Sustainable Technologies</strong>",
+                "<strong>💡 Innovation</strong>"
+            ],
+            "es": [
+                "<strong>📟 Sensores e Instrumentación</strong>",
+                "<strong>♻️ Tecnologías sostenibles</strong>",
+                "<strong>💡 Innovación</strong>"
+            ],
+            "zh": [
+                "<strong>📟 传感器和仪器</strong>",
+                "<strong>♻️ 可持续技术</strong>",
+                "<strong>💡 创新</strong>"
+            ],
+            "ja": [
+                "<strong>📟 センサーと計測機器</strong>",
+                "<strong>♻️ 持続可能な技術</strong>",
+                "<strong>🔋 エネルギーシステム</strong>"
+            ]
+        },
+        "timeline": {
+            "en": "June 2022 - December 2019",
+            "es": "Junio 2022 - Diciembre 2019",
+            "zh": "2022年6月 - 2019年12月",
+            "ja": "2022年6月 - 2019年12月"
+        },
+        "problem": {
+            "en": "In recent years, the Republic of Panama, through its agricultural policies, has promoted the export of non-traditional products. This proposal seeks to develop an intelligent system for classifying watermelon fruit. To achieve this, open-source hardware and software technologies will be used to automate the selection process while complying with required sanitary and phytosanitary standards. The objective is to develop a prototype for real-time fruit classification using expert systems technology. This aims to increase the productivity and competitiveness of the agricultural sector by developing an advanced system that prevents losses due to harvesting outside the optimal period (due to insufficient ripeness or premature harvesting). The expert system will consider parameters such as size, appearance, and, very importantly, color.",
+            "es": "En los últimos años la República de Panamá a través de sus políticas agropecuarias ha impulsado la exportación de productos no tradicionales. En este caso, la propuesta busca el desarrollo de un sistema inteligente de clasificación del fruto de la sandía. Para esto, se utilizarán tecnologías de hardware y software libre que permitan automatizar el proceso de selección cumpliendo con las normas sanitarias y fito-sanitarias requeridas. Como objetivo se busca desarrollar un prototipo para la clasificación del fruto en tiempo real empleando la tecnología de sistemas expertos, Buscando con ello incrementar la productividad y competitividad de los sectores productivos al desarrollar un sistema avanzado que permita evitar por ejemplo perdidas debido a la cosecha fuera del período adecuado (grado de madurez o cosecha antes del período). Para el desarrollo del sistema experto se tomarán en cuenta parámetros como lo son el tamaño, apariencia y muy importante el color, tamaño.",
+            "zh": "近年来,巴拿马共和国通过其农业政策,大力促进非传统产品的出口。本提案旨在开发一套智能西瓜分类系统。为此,我们将采用开源硬件和软件技术,在符合相关卫生和植物检疫标准的前提下,实现西瓜分类过程的自动化。目标是利用专家系统技术,开发一个实时水果分类原型系统。该系统旨在通过开发先进的采摘技术,避免因采摘时间不当(例如成熟度不足或过早采摘)造成的损失,从而提高农业部门的生产力和竞争力。该专家系统将考虑西瓜的大小、外观以及颜色等参数。",
+            "ja": "パナマ共和国は近年、農業政策を通じて非伝統的農産物の輸出を促進しています。本提案は、スイカの果実を選別するためのインテリジェントシステムの開発を目指します。この実現にあたり、オープンソースのハードウェアおよびソフトウェア技術を活用し、必要な衛生および植物検疫基準を遵守しながら選別プロセスを自動化します。目標は、エキスパートシステム技術を用いたリアルタイム果実選別のプロトタイプを開発することです。これにより、最適期外(熟度不足または早期収穫)での収穫による損失を防ぐ高度なシステムを開発することで、農業部門の生産性と競争力の向上を目指します。エキスパートシステムは、サイズ、外観、そして特に重要な色といったパラメータを考慮します。"
+        },
+        "quote": {
+            "en": "We harness the power of open-source technology and expert systems, automating watermelon sorting to increase productivity, reduce waste, and meet global trade standards, creating a more competitive and promising future for your farmers.",
+            "es": "Al aprovechar el poder de la tecnología de código abierto y los sistemas expertos, Panamá está revolucionando su sector agrícola, automatizando la clasificación de sandías en tiempo real para impulsar la productividad, reducir el desperdicio y cumplir con los estándares globales, a la vez que garantiza un futuro más competitivo y prometedor para sus agricultores.",
+            "zh": "我们利用开源技术和专家系统的力量,实现西瓜分拣自动化,从而提高生产力、减少浪费并符合全球贸易标准,为您的农民创造更具竞争力和更有前景的未来。",
+            "ja": "当社はオープンソース テクノロジーとエキスパート システムの力を活用し、スイカの選別を自動化して生産性の向上、廃棄物の削減、国際貿易基準の遵守を実現し、農家にとってより競争力のある、将来有望な未来を創造します。"
+        },
+        "joined": {
+            "en": "I joined this project in order to further discover the applications of electronics, 3D modelling and programming into an existing industry, an even better an industry that has little to no automatizations as is the watermelon agricultural businessess in panama",
+            "es": "Me uní a este proyecto con el fin de descubrir más a fondo las aplicaciones de la electrónica, el modelado 3D y la programación en una industria existente, y aún mejor en una industria que tiene poca o ninguna automatización como es el negocio agrícola de sandía en Panamá.",
+            "zh": "我加入这个项目是为了进一步探索电子技术、3D建模和编程在现有行业中的应用,尤其是像巴拿马西瓜种植业这样几乎没有自动化的行业",
+            "ja": "私はこのプロジェクトに参加して、既存の産業、しかもパナマのスイカ農業のように自動化がほとんどまたは全く行われていない産業へのエレクトロニクス、3Dモデリング、プログラミングの応用をさらに探求したいと考えました。"
+        },
+        "approach": {
+            "en": "The 3D modelling allowed to preview the system and execute simulations that aided in selecting the materials, and optimal position for the camera, spectroscopy sensor and lighting, as well how to properly configure the output of the conveyor belt in order to properly arrange the sensors location, lighting and dimensions needed for the conveyor to work properly before even buying the first screw",
+            "es": "El modelado 3D permitió previsualizar el sistema y ejecutar simulaciones que ayudaron a seleccionar los materiales, la posición óptima de la cámara, el sensor de espectroscopia y la iluminación, así como configurar correctamente la salida de la cinta transportadora para disponer adecuadamente la ubicación de los sensores, la iluminación y las dimensiones necesarias para que el transportador funcione correctamente antes incluso de comprar el primer tornillo.",
+            "zh": "3D建模技术能够预览系统并执行模拟,从而帮助选择材料,确定相机、光谱传感器和照明的最佳位置,以及如何正确配置传送带的输出,以便在购买第一个螺杆之前,就能合理安排传感器位置、照明和传送带正常运行所需的尺寸。",
+            "ja": "3Dモデリングにより、システムをプレビューし、シミュレーションを実行することが可能となり、材料の選択、カメラ、分光センサー、照明の最適な位置、そしてコンベアベルトの出力を適切に構成して、最初のネジを購入する前にコンベアが適切に動作するために必要なセンサーの位置、照明、寸法を適切に配置する方法などに役立つことができました"
+        },
+        "outcome": {
+            "en": "We built two (2) fully functioning classification conveyor belts, able to classify watermelons by color and sugar content (using spectroscopy) into three (3) categories: National consumption, International Consumption and unfit for consumption. The classification system was able to classify <strong>100 watermelon per minute </strong>. Curretly one of the conveyor belt is in Technological University of Panama (UTP) being implemented in application engineering for students to experiment and learn about visual computing and electromechanical systems",
+            "es": "Construimos dos (2) cintas transportadoras de clasificación completamente funcionales, capaces de clasificar sandías por color y contenido de azúcar (mediante espectroscopía) en tres (3) categorías: consumo nacional, consumo internacional y no aptas para el consumo. El sistema de clasificación logró clasificar 100 sandías por minuto. Actualmente, una de las cintas transportadoras se encuentra en la Universidad Tecnológica de Panamá (UTP) y se está implementando en ingeniería aplicada para que los estudiantes experimenten y aprendan sobre computación visual y sistemas electromecánicos.",
+            "zh": "我们建造了两条功能齐全的西瓜分级传送带,能够根据颜色和糖分含量(采用光谱法)将西瓜分为三类：国内消费品、国际消费品和不适宜食用品。该分级系统每分钟可处理<strong>100个西瓜</strong>。目前,其中一条传送带已安装在巴拿马科技大学 (UTP),用于学生在应用工程课程中进行实验,以学习视觉计算和机电系统相关知识。",
+            "ja": "スイカを色と糖度(分光分析法を使用)で3つのカテゴリー(国内消費用、国際消費用、食用不適)に分類できる、完全に機能する分類コンベアベルトを2台製作しました。この分類システムは、<strong>1分間に100個のスイカ</strong>を分類することができました。現在、コンベアベルトの1台はパナマ工科大学(UTP)の応用工学科に設置されており、学生がビジュアルコンピューティングと電気機械システムについて実験・学習できるようにしています。"
+        },
+        "collaborator": {
+            "data": [
+                {
+                    "name": "Dr. Danilo Caceres-Hernandez",
+                    "email": "danilo.caceres@utp.ac.pa",
+                    "roles": {
+                        "en": "Principal Investigator (PI)",
+                        "es": "Investigadora Principal (IP)",
+                        "zh": "首席研究员(PI)",
+                        "ja": "主任研究者(PI)"
+                    }
+                },
+                {
+                    "name": "Dr. Anel Henry Royo",
+                    "email": "anel.henry@utp.ac.pa",
+                    "roles": {
+                        "en": "Principal Investigator (PI)",
+                        "es": "Investigadora Principal (IP)",
+                        "zh": "首席研究员(PI)",
+                        "ja": "主任研究者(PI)"
+                    }
+                },
+                {
+                    "name": "Dr. Kang-Hyun Jo",
+                    "email": "acejo@ulsan.ac.kr",
+                    "roles": {
+                        "en": "Principal Investigator (PI)",
+                        "es": "Investigadora Principal (IP)",
+                        "zh": "首席研究员(PI)",
+                        "ja": "主任研究者(PI)"
+                    }
+                }
+            ]
+        },
+        "tools": [
+            "Raspberry pi 3 Model B",
+            "VNC Server",
+            "Autodesk Fusion360",
+            "Eagle",
+            "Cura"
+        ],
+        "3D models": "modelos_3d/watermelon_vision.glb"
+    },
+    {
+        "id": 11,
+        "title": {
+            "en": "Teleoperated system for robotic arm with low cost hardware (bachelor thesis)",
+            "zh": "基于低成本硬件的机器人手臂远程操作系统(学士论文) ",
+            "ja": "低コストハードウェアによるロボットアームの遠隔操作システム(学士論文) ",
+            "es": "Diseño de un sistema de control teleoperado para un brazo robótico (tesis de licenciatura)"
+        },
+        "summary": {
+            "en": "Kelvin created and provided an interfaces that enable to integrate internet teleoperation control for 'old' electromechanical equipment",
+            "zh": "Kelvin 创建并提供了接口,使“传统”机电设备能够集成互联网远程操作控制。",
+            "ja": "ケルビン は、古い電気機械機器のインターネット遠隔操作制御の統合を可能にするインターフェイスを作成し、提供しました。",
+            "es": "Kelvin creó y proporcionó interfaces que permiten integrar el control de teleoperación por Internet para equipos electromecánicos 'antiguos'."
+        },
+        "tags": {
+            "en": [
+                "<strong>🎓 Education Technology</strong>",
+                "<strong>🤖 Robotics</strong>",
+                "<strong>🛠️ Electromechanical Systems</strong>"
+            ],
+            "es": [
+                "<strong>🎓 Tecnología Educativa</strong>",
+                "<strong>🤖 Robótica</strong>",
+                "<strong>🛠️ Sistemas Electromecánicos</strong>"
+            ],
+            "zh": [
+                "<strong>🎓 教育科技</strong>",
+                "<strong>🤖 机器人技术</strong>",
+                "<strong>🛠️ 机电系统</strong>"
+            ],
+            "ja": [
+                "<strong>🎓 教育テクノロジー</strong>",
+                "<strong>🤖 ロボティクス</strong>",
+                "<strong>🛠️ 電気機械システム</strong>"
+            ]
+        },
+        "timeline": {
+            "en": "April 2022 - August 2021",
+            "es": "Abril 2022 - Agosto 2021",
+            "zh": "2022年4月 - 2021年8月",
+            "ja": "2022年4月 - 2021年8月"
+        },
+        "problem": {
+            "en": "As a result of the COVID-19 pandemic, the Panamanian economy experienced a decline in economic activity, which ECLAC estimates at -11% for 2020, significantly impacting labor-intensive sectors. By the third quarter of the year, the GDP had fallen by 20.4%, according to the National Institute of Statistics and Census. Due to the current situation in the country, private companies, autonomous and semi-autonomous entities, as well as the government, have implemented teleworking, regulated in Panama through Executive Decree No. 133 of September 16, 2020. This involves performing work primarily at the employee's home or a location of their choosing, as an alternative to working in person at the company's workplace. This change was reflected in all service sectors, especially in education at all levels. Panama is considered a service-oriented country, and we rank among the top 10 countries in Latin America in terms of competitiveness and technology adoption. While it's true that the country already possesses robotic equipment to perform various tasks and duties, we still face the challenge of relying on on-site personnel to operate this equipment. Therefore, to demonstrate the use of robotic equipment, we intend to utilize the Gryphon robotic arm. To control it, we aim to create a low-cost system, a combination of electronics and programmable boards.",
+            "es": "A raíz de la pandemia por COVID-19 la economía panameña tuvo una caída en el nivel de la actividad económica que CEPAL estima en -11% para el 2020, afectando sensiblemente actividades que emplean mucha fuerza de trabajo. Hasta el tercer trimestre del año, la caída del PIB fue de -20.4% según el Instituto Nacional de Estadísticas y Censos. Debido a la situación actual en el país la empresa privada, entidades autónomas, semiautónoma, así como el gobierno han implemento el teletrabajo, reglamentado en el país a través del Decreto Ejecutivo número 133 del 16 de septiembre de 2020. El mismo consiste en la prestación de la actividad laboral se realice de manera preponderante en el domicilio del trabajador o en el lugar libremente elegido por este, de modo alternativo a su desarrollo presencial en el centro de trabajo de la empresa, este cambio se vio reflejado en todas la áreas de servicio en especial en el sector educativo en todos sus niveles. Panamá es considerado un país de servicio, y nos encontramos dentro de los 10 mejores países en la región latinoamericana en cuanto a la competitividad y adopción de tecnologías,si bien es cierto como país ya contamos con equipo robótico para desempeñar las diversas tareas y labores pertinentes, aún estamos en la difícil situación de depender de la presencialidad para el manejo de estos equipos. Es por ello por lo que, para representar el uso de equipo robótico se pretende hacer uso del brazo robótico Gryphon. Para hacer control de este, se desea crear un sistema de bajo costo, una combinación de electrónica y tarjetas programables",
+            "zh": "受新冠肺炎疫情影响,巴拿马经济活动下滑,据拉美经委会估计,2020年经济活动下降了11%,劳动密集型行业受到的冲击尤为严重。根据巴拿马国家统计和人口普查局的数据,截至2020年第三季度,巴拿马国内生产总值(GDP)下降了20.4%。鉴于当前形势,私营企业、自治和半自治实体以及政府部门都已实施远程办公,相关规定由2020年9月16日颁布的第133号行政法令在巴拿马生效。远程办公是指员工主要在家中或自行选择的其他地点工作,以替代在公司办公场所的现场办公。这一变化影响了所有服务行业,尤其​​是在各级教育领域。巴拿马被认为是一个服务型国家,在拉丁美洲的竞争力和技术应用方面位列前十。虽然我国已拥有可执行各种任务的机器人设备,但我们仍然面临着依赖现场人员操作这些设备的挑战。因此,为了演示机器人设备的应用,我们计划采用 Gryphon 机械臂。为了控制它,我们的目标是创建一个低成本的系统,该系统结合了电子元件和可编程电路板。",
+            "ja": "COVID-19パンデミックの結果、パナマ経済は経済活動の低下を経験し、ECLACは2020年の成長率を-11%と推定し、労働集約型セクターに大きな影響を与えました。国立統計・国勢調査研究所によると、同年第3四半期までにGDPは20.4%減少しました。国の現状を受けて、民間企業、自治体および半自治体の団体、そして政府は、2020年9月16日の大統領令第133号を通じてパナマで規制されているテレワークを実施しています。これは、会社の職場で直接働く代わりに、主に従業員の自宅または選択した場所で仕事をすることを意味します。この変化はすべてのサービス部門、特にあらゆるレベルの教育に反映されました。パナマはサービス指向の国とみなされており、競争力とテクノロジーの採用においてラテンアメリカのトップ10カ国にランクされています。我が国には既に様々な作業や任務を遂行するためのロボット機器が整備されていますが、これらの機器の操作を現場の人員に頼るという課題が依然として存在します。そこで、ロボット機器の活用を実証するため、グリフォン・ロボットアームを活用する予定です。制御には、電子機器とプログラマブルボードを組み合わせた低コストのシステムを構築することを目指しています。"
+        },
+        "quote": {
+            "en": "In a Panama adapting to the new reality, technology becomes an ally in overcoming challenges. With a low-cost and easily replicable system, we seek to democratize the remote control of robotic equipment, opening a future where distance is not an obstacle to productivity, even in times of crisis",
+            "es": "En un Panamá que se adapta a la nueva realidad, la tecnología se convierte en aliada para superar desafíos. Con un sistema de bajo costo y fácil replicabilidad, buscamos democratizar el control remoto de equipos robóticos, abriendo un futuro donde la distancia no sea un obstáculo para la productividad, incluso en tiempos de crisis",
+            "zh": "在巴拿马适应新现实的过程中,科技成为克服挑战的盟友。我们希望通过低成本且易于复制的系统,普及机器人设备的远程控制,从而开创一个即使在危机时期,距离也不会成为生产力障碍的未来。",
+            "ja": "新たな現実に適応するパナマにおいて、テクノロジーは課題克服の強力な味方となります。低コストで容易に複製可能なシステムにより、ロボット機器の遠隔操作を民主化し、危機的状況下でも距離が生産性の妨げにならない未来を切り開きます。"
+        },
+        "joined": {
+            "en": [],
+            "es": [],
+            "zh": [],
+            "ja": []
+        },
+        "approach": {
+            "es": "Considerando la existencia y funcionalidad de equipos electromecanicos, para este caso especifico el brazo robotico Gryphon, se busco la manera de utilizar hardware de bajo costo y software libre (open source) que permitieran una facil implementacion pero que a su vez la replicabilidad para implementaciones futuras en otros equipos de la misma naturaleza. Posteriormente se procedio a analizar las señales de entrada (para mover los motores) y de salida (los sensores) y crear la circuiteria necesaria para que procesar y limpiar las señales desde y hacia el brazo robotico.",
+            "en": [],
+            "zh": [],
+            "ja": []
+        },
+        "outcome": {
+            "en": "A custom-built power electronics system designed to control a robotic arm over the internet. Using low-cost hardware like the Raspberry Pi 4 and open-source software, a system was created to interface with the robotic arm via a custom Printed Circuit Board (PCB). This 'bridge' not only allowed remote control but was also cost-effective, with materials totaling around $200 USD.<br>The system uses a VNC server on the Raspberry Pi to establish a virtual connection, with the added advantage of wireless controls, making it ideal for both academic and industrial applications. Testing showed impressive results, with a latency of just 19ms, proving its effectiveness for remote operation. The prototype demonstrates that affordable, accessible technology can enable teleoperated control systems that overcome barriers of distance, whether in academia during a pandemic or in industrial settings where physical presence is not always possible.In summary, this project highlights how low-cost, readily available tools can be leveraged to provide a seamless interface for controlling electromechanical equipment, making it a valuable solution for both educational and industrial environments—no matter the distance.",
+            "es": "Un sistema de electrónica de potencia a medida, diseñado para controlar un brazo robótico a través de internet. Utilizando hardware de bajo coste como la Raspberry Pi 4 y software de código abierto, se creó un sistema que interactúa con el brazo robótico mediante una placa de circuito impreso (PCB) personalizada. Este 'puente' no solo permitió el control remoto, sino que también resultó rentable, con materiales que costaron alrededor de 200 USD. El sistema utiliza un servidor VNC en la Raspberry Pi para establecer una conexión virtual, con la ventaja adicional de los controles inalámbricos, lo que lo hace ideal tanto para aplicaciones académicas como industriales. Las pruebas arrojaron resultados impresionantes, con una latencia de tan solo 19 ms, lo que demuestra su eficacia para la operación remota. El prototipo demuestra que una tecnología asequible y accesible puede permitir sistemas de control teleoperados que superan las barreras de la distancia, ya sea en el ámbito académico durante una pandemia o en entornos industriales donde la presencia física no siempre es posible.<br>En resumen, este proyecto destaca cómo se pueden aprovechar herramientas de bajo coste y fácil acceso para proporcionar una interfaz fluida para el control de equipos electromecánicos, lo que lo convierte en una solución valiosa tanto para entornos educativos como industriales, sin importar la distancia.",
+            "zh": "这是一个定制的电力电子系统,旨在通过互联网控制机械臂。该系统利用树莓派 4 等低成本硬件和开源软件,通过定制的印刷电路板 (PCB) 与机械臂进行交互。这个“桥梁”不仅实现了远程控制,而且成本低廉,材料总成本仅约 200 美元。<br>该系统使用树莓派上的 VNC 服务器建立虚拟连接,并具备无线控制的优势,使其成为学术和工业应用的理想选择。测试结果令人印象深刻,延迟仅为 19 毫秒,证明了其远程操作的有效性。该原型表明,经济实惠且易于使用的技术可以实现远程控制系统,克服距离障碍,无论是在疫情期间的学术界,还是在无法始终保持现场协作的工业环境中。<br>总之,该项目突出展示了如何利用低成本、易于获取的工具为机电设备控制提供无缝接口,使其成为教育和工业环境的宝贵解决方案——无论距离远近。",
+            "ja": "インターネット経由でロボットアームを制御するために設計された、カスタムメイドのパワーエレクトロニクスシステム。Raspberry Pi 4などの低価格ハードウェアとオープンソースソフトウェアを使用し、カスタムプリント基板(PCB)を介してロボットアームとインターフェースするシステムを構築しました。この「ブリッジ」は、遠隔操作を可能にするだけでなく、材料費も約200米ドルと非常にコスト効率に優れています。<br>このシステムは、Raspberry Pi上のVNCサーバーを使用して仮想接続を確立し、ワイヤレス制御という利点も備えているため、学術用途と産業用途の両方に最適です。テストでは、わずか19ミリ秒の遅延という優れた結果が得られ、遠隔操作における有効性が実証されました。このプロトタイプは、手頃な価格で入手可能なテクノロジーによって、パンデミック中の学術現場でも、物理的な立ち会いが必ずしも可能ではない産業現場でも、距離の障壁を克服する遠隔操作制御システムを実現できることを実証しています。要約すると、このプロジェクトは、低コストですぐに利用できるツールを活用して、電気機械装置を制御するためのシームレスなインターフェースを提供する方法を強調し、距離に関係なく、教育環境と産業環境の両方にとって価値のあるソリューションにします。"
+        }
+    },
+    {
+        "id": 9,
+        "title": {
+            "en": "Dynamic modeling of the Medical-Hospital System in response to the Covid-19 pandemic in Panama as a monitoring system",
+            "zh": "巴拿马医疗医院系统应对新冠疫情的动态建模及其作为监测系统",
+            "ja": "パナマにおける新型コロナウイルス感染症パンデミックへの対応のための医療・病院システムの動的モデリング(モニタリングシステムとして) ",
+            "es": "Modelado dinámico del Sistema Médico-Hospitalario ante la pandemia Covid-19 en Panamá como sistema de Monitoreo"
+        },
+        "summary": {
+            "en": "COVID-19 sparked a worldwide push for technologies that could curb the virus and strengthen healthcare responses. Panama’s initial models projected case growth but lacked insight into medical and logistical resource needs. This project proposes a predictive simulation system that integrates these factors, enabling smarter planning and optimized healthcare responses for future pandemic scenarios.",
+            "zh": "新冠疫情在全球范围内引发了对能够遏制病毒传播并加强医疗卫生应对措施的技术的迫切需求。巴拿马最初的模型预测了病例增长,但缺乏对医疗和后勤资源需求的深入洞察。本项目提出了一种预测性模拟系统,该系统整合了这些因素,从而能够针对未来的疫情情景进行更智能的规划和更优化的医疗卫生应对措施。",
+            "ja": "COVID-19は、ウイルスの蔓延を抑制し、医療対応を強化する技術を求める世界的な動きを引き起こしました。パナマの初期のモデルは感染者数の増加を予測していましたが、医療資源と物流資源のニーズに関する洞察が不足していました。本プロジェクトでは、これらの要因を統合した予測シミュレーションシステムを提案し、将来のパンデミックシナリオにおいて、よりスマートな計画立案と医療対応の最適化を可能にします。",
+            "es": "La COVID-19 desencadenó un impulso mundial a la creación de tecnologías que pudieran frenar el virus y fortalecer la respuesta sanitaria. Los modelos iniciales de Panamá proyectaban un crecimiento de casos, pero carecían de información sobre las necesidades de recursos médicos y logísticos. Este proyecto propone un sistema de simulación predictiva que integra estos factores, lo que permite una planificación más inteligente y respuestas sanitarias optimizadas para futuros escenarios de pandemia."
+        },
+        "tags": {
+            "en": [
+                "<strong>🩺 Digital Health</strong>",
+                "<strong>🔁 Automation</strong>",
+                "<strong>🖥️ Embedded Systems</strong>"
+            ],
+            "es": [
+                "<strong>🩺 デジタルヘルス</strong>",
+                "<strong>🔁 オートメーション</strong>",
+                "<strong>🖥️ 組み込みシステム</strong>"
+            ],
+            "zh": [
+                "<strong>🩺 数字医疗</strong>",
+                "<strong>🔁 自动化</strong>",
+                "<strong>🖥️ 嵌入式系统</strong>"
+            ],
+            "ja": [
+                "<strong>🩺 デジタルヘルス</strong>",
+                "<strong>🔁 オートメーション</strong>",
+                "<strong>🖥️ 組み込みシステム</strong>"
+            ]
+        },
+        "timeline": {
+            "en": "August 2022 - January 2021",
+            "es": "Agosto 2022 - Enero 2021",
+            "zh": "2022年8月 - 2021年1月",
+            "ja": "2022年8月 - 2021年1月"
+        },
+        "problem": {
+            "en": "The main problem is the lack of comprehensive and validated models that allow for predicting and effectively managing the demand on the Panamanian medical and hospital system during a pandemic. Although mathematical models and technological efforts exist, many do not adequately consider the real-world constraints and local factors that influence the transmission and treatment of COVID-19. This limits the ability to optimize critical resources and anticipate points of saturation in the healthcare system. The absence of adaptive tools increases uncertainty and hinders timely decision-making. As a result, the system faces risks of inefficiency and collapse in the face of changing pandemic scenarios.",
+            "es": "El principal problema es la falta de modelos integrales y validados que permitan predecir y gestionar eficazmente la demanda del sistema médico-hospitalario panameño durante una pandemia.<br>Aunque existen modelos matemáticos y esfuerzos tecnológicos, muchos no consideran adecuadamente las restricciones reales y factores locales que influyen en la transmisión y atención del COVID-19.<br>Esto limita la capacidad de optimizar recursos críticos y anticipar puntos de saturación del sistema de salud.<br>La ausencia de herramientas adaptativas aumenta la incertidumbre y dificulta la toma de decisiones oportunas.<br>Como resultado, el sistema enfrenta riesgos de ineficiencia y colapso ante escenarios cambiantes de la pandemia.",
+            "zh": "主要问题在于缺乏全面且经过验证的模型，无法预测和有效管理巴拿马医疗和医院系统在疫情期间的需求。尽管存在一些数学模型和技术手段，但许多模型和手段并未充分考虑影响新冠病毒传播和治疗的现实限制和本地因素。这限制了优化关键资源和预测医疗系统饱和点的能力。缺乏适应性工具加剧了不确定性，并阻碍了及时决策。因此，面对不断变化的疫情形势，该系统面临着效率低下和崩溃的风险。",
+            "ja": "主な問題は、パンデミック発生時のパナマの医療・病院システムへの需要を予測し、効果的に管理することを可能にする、包括的かつ検証済みのモデルが不足していることです。数理モデルや技術的取り組みは存在しますが、その多くはCOVID-19の感染拡大と治療に影響を与える現実世界の制約や地域要因を適切に考慮していません。そのため、重要なリソースを最適化し、医療システムの飽和点を予測する能力が制限されています。適応型ツールの欠如は不確実性を高め、タイムリーな意思決定を妨げています。その結果、パンデミックのシナリオが変化する中で、システムは非効率性と崩壊のリスクに直面しています。"
+        },
+        "quote": {
+            "en": "The lack of predictive and optimization models adapted to the Panamanian context hinders efficient management of the resources of the medical-hospital system during the pandemic.",
+            "es": "La carencia de modelos predictivos y de optimización adaptados al contexto panameño impide una gestión eficiente de los recursos del sistema médico-hospitalario durante la pandemia.",
+            "zh": "由于缺乏适合巴拿马国情的预测和优化模型，疫情期间医疗卫生系统资源的有效管理受到阻碍。",
+            "ja": "パナマの状況に適応した予測モデルと最適化モデルの欠如は、パンデミック中の医療病院システムのリソースの効率的な管理を妨げています。"
+        },
+        "joined": {
+            "en": "I initially joined this project for an internship to apply my engineering knowledge. I stayed on because I was drawn to its applications in the healthcare sector. Through this project, I had the opportunity to learn about logistics systems, data cleaning, and integration with predictive systems.",
+            "es": "Inicialmente me uni a este proyecto para realizar una pasantia y aplicar mis conocimientos de ingenieria. Me quede en el proyecto porque me llamo la atencion las aplicaciones en el sector de salud. En dicho proyecto tuve oportunidad de aprender de sistemas de logisticas, limpieza de datos e integracion con sistemas predictivos",
+            "zh": "我最初加入这个项目是为了实习，运用我的工程知识。后来，我被它在医疗保健领域的应用所吸引，便留了下来。通过这个项目，我有机会学习物流系统、数据清洗以及与预测系统的集成。",
+            "ja": "当初、エンジニアリングの知識を活かすためのインターンシップとしてこのプロジェクトに参加しました。ヘルスケア分野への応用に魅力を感じ、そのまま参加を続けました。このプロジェクトを通じて、物流システム、データクリーニング、予測システムとの統合について学ぶ機会を得ました。"
+        },
+        "approach": {
+            "en": [],
+            "es": [],
+            "zh": [],
+            "ja": []
+        },
+        "outcome": {
+            "en": [],
+            "es": [],
+            "zh": [],
+            "ja": []
+        },
+        "collaborator": {
+            "data": [
+                {
+                    "name": "Dr. Ignacio Chang",
+                    "email": "ignacio.chang@utp.ac.pa",
+                    "roles": {
+                        "en": "Principal Investigator (PI)",
+                        "es": "Investigador Principal (IP)",
+                        "zh": "首席研究员(PI)",
+                        "ja": "主任研究者(PI)"
+                    }
+                }                
+            ]
+        }
+    },
+    {
+        "id": 8,
+        "title": {
+            "en": "LABSI INSIGHTS",
+            "zh": "LABSI INSIGHTS",
+            "ja": "LABSI INSIGHTS",
+            "es": "LABSI INSIGHTS"
+        },
+        "summary": {
+            "en": "To inspire public school students to engage with science and robotics, this project partnered with national universities to introduce them to technological disciplines and collaborative learning. The initiative led to the design and construction of 14 robotic systems, giving students hands-on experience. Through these systems, participants developed programming logic and problem-solving skills using Python.",
+            "zh": "为了激发公立学校学生对科学和机器人的兴趣,本项目与多所国立大学合作,向他们介绍技术学科和协作学习。该项目促成了14套机器人系统的设计和建造,为学生提供了实践经验。通过这些系统,参与者运用Python语言培养了编程逻辑和问题解决能力。",
+            "ja": "公立学校の生徒に科学とロボット工学への関心を高めるため、このプロジェクトは国立大学と提携し、技術分野と協働学習を紹介しました。この取り組みでは、14のロボットシステムの設計・構築が行われ、生徒は実践的な学習体験を得ることができました。これらのシステムを通して、参加者はPythonを用いたプログラミングロジックと問題解決能力を身につけました。",
+            "es": "Para inspirar a los estudiantes de escuelas públicas a involucrarse con la ciencia y la robótica, este proyecto se asoció con universidades nacionales para introducirlos en disciplinas tecnológicas y el aprendizaje colaborativo. La iniciativa condujo al diseño y la construcción de 14 sistemas robóticos, brindando a los estudiantes experiencia práctica. A través de estos sistemas, los participantes desarrollaron lógica de programación y habilidades de resolución de problemas con Python."
+        },
+        "tags": {
+            "en": [
+                "<strong>🎓 Education Technology</strong>",
+                "<strong>🤖 Robotics</strong>",
+                "<strong>🛠️ Prototyping & Fabrication</strong>"
+            ],
+            "es": [
+                "<strong>🎓 Tecnología Educativa</strong>",
+                "<strong>🤖 Robótica</strong>",
+                "<strong>🛠️ Prototipado y Fabricación</strong>"
+            ],
+            "zh": [
+                "<strong>🎓 教育科技</strong>",
+                "<strong>🤖 机器人技术</strong>",
+                "<strong>🛠️ 原型制作与制造</strong>"
+            ],
+            "ja": [
+                "<strong>🎓 教育テクノロジー</strong>",
+                "<strong>🤖 ロボティクス</strong>",
+                "<strong>🛠️ プロトタイピングと製造</strong>"
+            ]
+        },
+        "timeline": {
+            "en": "November 2022 - May 2022",
+            "es": "Noviembre 2022 - Mayo 2022",
+            "zh": "2022年11月 - 2022年5月",
+            "ja": "2022年11月 - 2022年5月"
+        },
+        "problem": {
+            "en": "Despite the growing number of robotics competitions in Panama, participation is largely limited to private schools that can afford well-established branded robotics kits, which come with high acquisition costs and ongoing maintenance expenses such as mandatory internet subscriptions. As a result, most public schools are excluded due to budget constraints. Although government institutions have made efforts to increase the involvement of public schools in these competitions, progress has been minimal because there are no robotics kits currently available that are both affordable and open source, preventing equitable access and sustainable adoption in the public education system.",
+            "es": "A pesar del creciente número de competencias de robótica en Panamá, la participación se limita en gran medida a escuelas privadas que pueden costear kits de robótica de marcas reconocidas, los cuales conllevan altos costos de adquisición y gastos de mantenimiento continuo, como las suscripciones obligatorias a internet. Como resultado, la mayoría de las escuelas públicas quedan excluidas debido a limitaciones presupuestarias. Si bien las instituciones gubernamentales han realizado esfuerzos para aumentar la participación de las escuelas públicas en estas competencias, el progreso ha sido mínimo debido a la falta de kits de robótica asequibles y de código abierto, lo que impide el acceso equitativo y la adopción sostenible en el sistema educativo público.",
+            "zh": "尽管巴拿马的机器人竞赛数量不断增长,但参赛学校主要限于能够负担得起成熟品牌机器人套件的​​私立学校。这些套件购置成本高昂,且需要持续维护,例如强制性的网络订阅。因此,大多数公立学校由于预算限制而被排除在外。虽然政府机构已努力提高公立学校参与这些竞赛的积极性,但进展甚微,因为目前市面上缺乏价格合理且开源的机器人套件,这阻碍了公立教育系统公平地获取和可持续地推广机器人技术。",
+            "ja": "パナマではロボット工学コンテストが増加しているものの、参加は主に、有名ブランドのロボットキットを購入できる私立学校に限られています。これらのキットは高額な購入費用に加え、インターネット接続の義務化など、継続的な維持費もかかります。その結果、予算の制約から公立学校の多くが参加を断念せざるを得ない状況となっています。政府機関は公立学校のロボット工学コンテストへの参加促進に取り組んできましたが、現状では手頃な価格でオープンソースのロボットキットがないため、進展はごくわずかです。そのため、公立教育システムにおける公平なアクセスと持続可能な導入が阻害されています。"
+        },
+        "quote": {
+            "en": "LASBI INSIGHT was created to drive the future of educational robotics, taking programming and innovation to new heights. Through virtual training and the development of prototypes at RoboCup Junior Panama, we prepare future creative minds to transform learning into a unique technological experience",
+            "es": "LASBI INSIGHT nace para impulsar el futuro de la robótica educativa, llevando la programación y la innovación a nuevas alturas. A través de capacitaciones virtuales y el desarrollo de prototipos en la RoboCup Junior Panamá, preparamos a las futuras mentes creativas para transformar el aprendizaje en una experiencia tecnológica única.",
+            "zh": "LASBI INSIGHT 的创立旨在推动教育机器人技术的未来发展,将编程和创新提升到新的高度。通过虚拟培训和在 RoboCup Junior Panama 大赛上开发原型,我们培养未来的创新人才,将学习转化为独特的科技体验。",
+            "ja": "LASBI INSIGHTは、プログラミングとイノベーションを新たな高みへと引き上げ、教育用ロボット工学の未来を推進するために設立されました。RoboCup Junior Panamaでのバーチャルトレーニングとプロトタイプ開発を通じて、学習を独自のテクノロジー体験へと変える未来のクリエイティブな人材を育成します。"
+        },
+        "joined": {
+            "en": "I joined this project as a 3D designer and electronic engineer to contribute my hands-on experience in designing and building robotic systems toward the development of an accessible and sustainable solution. Having built several robots myself, I recognized the importance of creating a product that is not only fully functional, but also modular and easily configurable, allowing components to be added or removed as needed. My motivation was to help design a future-proof robotics platform that supports adaptability, long-term use, and educational growth, while maintaining low costs to ensure it remains accessible to a broader range of schools, particularly within the public education sector.",
+            "es": "Me uní a este proyecto como diseñador 3D e ingeniero electrónico para aportar mi experiencia práctica en el diseño y la construcción de sistemas robóticos al desarrollo de una solución accesible y sostenible. Tras haber construido varios robots, reconocí la importancia de crear un producto que no solo fuera completamente funcional, sino también modular y fácilmente configurable, permitiendo añadir o quitar componentes según fuera necesario. Mi motivación era ayudar a diseñar una plataforma robótica con visión de futuro que favoreciera la adaptabilidad, el uso a largo plazo y el crecimiento educativo, manteniendo a la vez un coste bajo para garantizar su accesibilidad a un mayor número de escuelas, especialmente en el sector de la educación pública.",
+            "zh": "我以3D设计师和电子工程师的身份加入这个项目,希望贡献我在机器人系统设计和构建方面的实践经验,助力开发出易于使用且可持续的解决方案。我曾亲手搭建过多个机器人,深知打造一款功能齐全、模块化且易于配置的产品至关重要,这样才能根据需要添加或移除组件。我的目标是帮助设计一个面向未来的机器人平台,使其具备适应性强、可长期使用且能促进教育发展的特点,同时保持低成本,确保更多学校,特别是公立教育机构,能够负担得起。",
+            "ja": "私は3Dデザイナー兼電子工学エンジニアとしてこのプロジェクトに参加し、ロボットシステムの設計・構築における実践的な経験を活かし、アクセスしやすく持続可能なソリューションの開発に貢献したいと考えています。私自身も複数のロボットを製作した経験から、完全な機能だけでなく、モジュール式で簡単に構成でき、必要に応じてコンポーネントを追加・削除できる製品の開発の重要性を認識しています。私の目標は、適応性、長期使用、そして教育の発展を支える、将来を見据えたロボットプラットフォームの設計に貢献することで、特に公立教育機関において、より幅広い学校が利用できるよう低コストを維持することでした。"
+        },
+        "approach": {
+            "en": "The project leverages open-source technologies such as Raspberry Pi and Arduino for electronics and programming, ensuring flexibility, affordability, and long-term sustainability. Existing commercial toys were repurposed for the robot’s physical structure, including the body and wheels, to further reduce costs while maintaining reliability. To support future scalability and relevance, Python was selected as the primary programming language. All sensors were chosen based on their compatibility with the Arduino platform, guaranteeing wide availability, reliable supply chains, and extensive online documentation. Additionally, instructional resources and tutorials were curated and adapted into concise Spanish-language video formats to facilitate effective teaching and learning for students.",
+            "es": "El proyecto aprovecha tecnologías de código abierto como Raspberry Pi y Arduino para la electrónica y la programación, garantizando flexibilidad, asequibilidad y sostenibilidad a largo plazo. Se readaptaron juguetes comerciales existentes para la estructura física del robot, incluyendo el cuerpo y las ruedas, con el fin de reducir aún más los costos y mantener la confiabilidad. Para facilitar la escalabilidad y la relevancia futuras, se seleccionó Python como lenguaje de programación principal. Todos los sensores se seleccionaron en función de su compatibilidad con la plataforma Arduino, lo que garantiza una amplia disponibilidad, cadenas de suministro confiables y una extensa documentación en línea. Además, se seleccionaron recursos instructivos y tutoriales, que se adaptaron a formatos de video concisos en español para facilitar la enseñanza y el aprendizaje efectivos de los estudiantes.",
+            "zh": "该项目利用树莓派和Arduino等开源技术进行电子元件和编程,确保了灵活性、经济性和长期可持续性。机器人的物理结构,包括机身和轮子,均采用现有商用玩具改造而成,从而在保证可靠性的同时进一步降低成本。为了支持未来的扩展性和相关性,项目选择Python作为主要编程语言。所有传感器均基于其与Arduino平台的兼容性进行选择,从而保证了广泛的可用性、可靠的供应链和丰富的在线文档。此外,项目还精心整理了教学资源和教程,并将其改编成简洁的西班牙语视频格式,以方便学生进行有效的教学和学习。",
+            "ja": "このプロジェクトでは、Raspberry PiやArduinoといったオープンソース技術を電子工学とプログラミングに活用することで、柔軟性、手頃な価格、そして長期的な持続可能性を確保しています。ロボットのボディや車輪などの物理的な構造には、既存の市販玩具を再利用することで、信頼性を維持しながらコストをさらに削減しました。将来の拡張性と妥当性を確保するため、主要なプログラミング言語にはPythonを選択しました。すべてのセンサーは、Arduinoプラットフォームとの互換性に基づいて選定されており、幅広い入手性、信頼性の高いサプライチェーン、そして充実したオンラインドキュメントが保証されています。さらに、学生にとって効果的な教育と学習を促進するため、指導リソースとチュートリアルを厳選し、簡潔なスペイン語のビデオ形式にアレンジしました。"
+        },
+        "outcome": {
+            "en": "<ul><strong>1. Development of Educational Robotics Teams</strong><li>Construction and delivery of <strong>14 fully functional robots</strong>, geared towards practical programming learning.</li><li>Implementation of a working platform that allows students to apply concepts of algorithms, sensors, actuators, and basic control.</li><li>Promotion of autonomous learning and interest in STEM disciplines among participating students.</li></u><br><strong>2. LABSI INSIGHTS Project: Training and Technical Support</strong><ul><li>Development of a virtual training program in <strong>programming and educational robotics</strong></li><li>Improvement of the technical and conceptual performance of teams participating in national competitions</li><li>Structuring the project in two phases, through which <strong>three versions of robots</strong> were designed, culminating in an optimized educational prototype to facilitate the teaching of robotics in secondary education.</li></ul><br>The agreement has generated a significant impact on the educational process of Panamanian students by:<ul><li>Integrating innovative technological resources in the classroom</li><li>Stimulating interest in STEM careers, especially in engineering</li><li>Strengthening ties between academic institutions and the educational community</li><li>Contributing to Panama's positioning in global educational robotics initiatives such as <strong>RoboCup Junior</strong></li></u>",
+            "es": "<ul><strong>1. Desarrollo de Equipos Robóticos Educativos</strong><li>Construcción y entrega de <strong>14 robots completamente funcionales</strong>, orientados al aprendizaje práctico de la programación.</li><li>Implementación de una plataforma de trabajo que permite a los estudiantes aplicar conceptos de algoritmia, sensores, actuadores y control básico.</li><li>Fomento del aprendizaje autónomo y del interés por disciplinas STEM entre los estudiantes participantes.</li></u><br><strong>2. Proyecto LABSI INSIGHTS: Capacitación y Acompañamiento Técnico</strong><ul><li>Desarrollo de un programa formativo virtual en <strong>programación y robótica educativa</strong></li><li>Mejora del desempeño técnico y conceptual de los equipos que participan en competencias nacionales</li><li>Estructuración del proyecto en dos fases de trabajo, mediante las cuales se diseñaron <strong>tres versiones de robots</strong>, culminando en un prototipo educativo optimizado para facilitar la enseñanza de la robótica en educación media.</li></ul><br>El convenio ha generado un impacto significativo en el proceso formativo de estudiantes panameños al:<ul><li>Integrar recursos tecnológicos innovadores en el aula</li><li>Estimular el interés por carreras STEM, especialmente en ingeniería</li><li>Fortalecer lazos entre instituciones académicas y la comunidad educativa</li><li>Contribuir al posicionamiento de Panamá en iniciativas mundiales de robótica educativa como la <strong>RoboCup Junior</strong></li></u>",
+            "zh": "<ul><strong>1. 教育机器人团队的组建</strong><li>建造并交付<strong>14台功能齐全的机器人</strong>,旨在促进实践编程学习。</li><li>搭建一个工作平台,使学生能够应用算法、传感器、执行器和基本控制等概念。</li><li>促进参与学生的自主学习能力和对STEM学科的兴趣。</li></u><br><strong>2. LABSI INSIGHTS 项目：培训和技术支持</strong><ul><li>开发<strong>编程和教育机器人</strong></li><li>提升参加全国比赛的团队的技术和概念水平</li><li>项目分为两个阶段,设计了<strong>三个版本的机器人</strong>,最终形成一个优化的教育原型,以促进中学机器人教学。</li></ul><br>该协议对巴拿马学生的教育过程产生了重大影响,具体体现在：<ul><li>将创新技术资源融入课堂</li><li>激发学生对 STEM 职业的兴趣,尤其是工程领域</li><li>加强学术机构与教育界之间的联系</li><li>提升巴拿马在全球教育机器人倡议(例如<strong>RoboCup Junior</strong></li></u>)中的地位</strong></li></ul>",
+            "ja": "<ul><strong>1. 教育用ロボット チームの開発</strong><li>実践的なプログラミング学習を目的とした <strong>完全に機能するロボット 14 台</strong> の構築と納品。</li><li>学生がアルゴリズム、センサー、アクチュエーター、基本的な制御の概念を適用できる実用的なプラットフォームの実装。</li><li>参加する学生の自律学習と STEM 分野への関心の促進。</li></u><br><strong>2. LABSI INSIGHTS プロジェクト：トレーニングと技術サポート</strong><ul><li>プログラミングと教育用ロボット工学の仮想トレーニング プログラムの開発</strong></li><li>全国大会に参加するチームの技術的および概念的なパフォーマンスの向上</li><li>プロジェクトを 2 つのフェーズに分割し、それを通じて <strong>3 つのバージョンのロボット</strong>を設計し、中等教育におけるロボット工学の教育を容易にするための最適化された教育用プロトタイプを完成させました。</li></ul><br>この契約は、以下の点でパナマの学生の教育プロセスに大きな影響を与えました。<ul><li>革新的な技術リソースを教室に統合する</li><li>STEM 関連のキャリア、特にエンジニアリングへの関心を高める</li><li>学術機関と教育コミュニティの関係を強化する</li><li><strong>RoboCup Junior</strong>などの世界的な教育用ロボット工学イニシアチブにおけるパナマの地位向上に貢献する</li></u>"
+        },
+        "collaborator": {
+            "data": [
+                {
+                    "name": "Dr. Danilo Caceres-Hernandez",
+                    "email": "danilo.caceres@utp.ac.pa",
+                    "roles": {
+                        "en": "Executive Director",
+                        "es": "Director Ejecutiv",
+                        "zh": "执行董事",
+                        "ja": "常務取締役"
+                    }
+                },
+                {
+                    "name": "Ing. Luis Mendoza",
+                    "email": "",
+                    "roles": {
+                        "en": "Manufacturing engineer",
+                        "es": "Ingeniero de manufactura",
+                        "zh": "制造工程师",
+                        "ja": "製造エンジニア"
+                    }
+                },
+                {
+                    "name": "Ing. Manuel Ceron",
+                    "email": "",
+                    "roles": {
+                        "en": "Software Developer",
+                        "es": "Desarrollador de software",
+                        "zh": "软件开发人员",
+                        "ja": "ソフトウェア開発者"
+                    }
+                },
+                {
+                    "name": "Ing. Juan Rodriguez",
+                    "email": "",
+                    "roles": {
+                        "en": "Technical Assistant",
+                        "es": "Asistente técnico",
+                        "zh": "技术助理",
+                        "ja": "テクニカルアシスタント"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "title": {
+            "en": "ROBOCUP RESCUE MAZE 2024",
+            "zh": "ROBOCUP RESCUE MAZE 2024",
+            "ja": "ROBOCUP RESCUE MAZE 2024 迷路の中を進む「メイズ」",
+            "es": "ROBOCUP RESCUE MAZE 2024"
+        },
+        "summary": {
+            "en": "Maze 2024 offered high school students an exciting introduction to technology and engineering, inviting them to program robots that navigated a maze in real time. As LabSi members applied 3D design, PCB development, and autonomous vehicle skills to build the challenge, participants engaged in programming, strategy, and teamwork. The experience fostered creativity, critical thinking, and decision-making under pressure. With events like this, LabSi encourages curiosity and a passion for engineering careers.",
+            "zh": "Maze 2024 为高中生们提供了一个激动人心的科技与工程入门体验,邀请他们编写程序控制机器人穿越实时迷宫。LabSi 的成员们运用 3D 设计、PCB 开发和自动驾驶车辆等技能来搭建挑战项目,而参与者们则着重学习编程、策略制定和团队协作。这次经历极大地提升了他们的创造力、批判性思维和抗压决策能力。通过此类活动,LabSi 激发了学生们对工程职业的好奇心和热情。",
+            "ja": "Maze 2024は、高校生にテクノロジーとエンジニアリングへの刺激的な入門体験を提供し、リアルタイムの迷路を進むロボットのプログラミングに挑戦してもらいました。LabSiのメンバーは3D設計、PCB開発、自律走行車のスキルを駆使して課題に取り組む一方、参加者はコーディング、戦略性、そしてチームワークに取り組みました。この経験を通して、創造性、批判的思考力、そしてプレッシャーの下での意思決定能力が向上しました。このようなイベントを通して、LabSiはエンジニアリングのキャリアへの好奇心と情熱を刺激しています。",
+            "es": "Maze 2024 ofreció a estudiantes de secundaria una emocionante introducción a la tecnología y la ingeniería, invitándolos a programar robots que navegaban por un laberinto en tiempo real. Mientras los miembros de LabSi aplicaban diseño 3D, desarrollo de PCB y habilidades de vehículos autónomos para construir el desafío, los participantes abordaron la programación, la estrategia y el trabajo en equipo. La experiencia impulsó la creatividad, el pensamiento crítico y la toma de decisiones bajo presión. Con eventos como este, LabSi fomenta la curiosidad y la pasión por las carreras de ingeniería."
+        },
+        "tags": {
+            "en": [
+                "<strong>🎓 Education Technology</strong>",
+                "<strong>📱 Smart Devices</strong>"
+            ],
+            "es": [
+                "<strong>🎓 Tecnología Educativa</strong>",
+                "<strong>📱 Dispositivos Inteligentes</strong>"
+            ],
+            "zh": [
+                "<strong>🎓 教育科技</strong>",
+                "<strong>📱 智能设备</strong>"
+            ],
+            "ja": [
+                "<strong>🎓 教育テクノロジー</strong>",
+                "<strong>📱 スマートデバイス</strong>"
+            ]
+        },
+        "timeline": {
+            "en": "October 2024 - May 2024",
+            "es": "Octubre 2024 - Mayo 2024",
+            "zh": "2024年10月 - 2024年5月",
+            "ja": "2024年10月 - 2024年5月"
+        },
+        "problem": {
+            "en": "The maze-solving competition, held as part of the Electrical Engineering Faculty (FIE) congress, focused on promoting creativity and critical thinking. For the organizers, members of LabSi, this event served as a practical exercise in 3D design, PCB (printed circuit board) development, and the implementation of miniature autonomous vehicles, or 'carts,' used in the competition. This experience allowed UTP students to apply their engineering knowledge in a real-world environment, honing their skills in hardware modeling and development. Meanwhile, the high school students who participated in Maze 2024 enjoyed the experience of programming a pre-designed prototype in real time, facing the challenge of solving a maze through programming and strategic decision-making. This activity aimed not only to strengthen their programming and teamwork skills but also to foster problem-solving and decision-making abilities under pressure—essential elements in the world of engineering and technology.",
+            "es": "La competencia de resolución de laberintos, desarrollada como parte del congreso de la Facultad de Ingeniería Eléctrica (FIE), se enfocó en promover la creatividad y el pensamiento crítico. Por un lado, para los organizadores, miembros del LabSi, este evento sirvió como un ejercicio práctico en el diseño 3D, el desarrollo de PCBs (placas de circuito impreso) y la implementación de vehículos autónomos en miniatura, o “carritos”, que fueron utilizados en la competencia. Esta experiencia permitió a los estudiantes de la UTP aplicar sus conocimientos de ingeniería en un entorno real, perfeccionando sus habilidades en modelado y desarrollo de hardware. <br> Por otro lado, los estudiantes de secundaria, quienes fueron los participantes de Maze 2024, disfrutaron de la experiencia de programar en tiempo real un prototipo ya diseñado, enfrentando el reto de resolver un laberinto mediante la programación y la toma de decisiones estratégicas. Esta actividad buscó no solo fortalecer sus competencias en programación y trabajo en equipo, sino también impulsar en ellos habilidades de resolución de problemas y toma de decisiones bajo presión, elementos esenciales en el mundo de la ingeniería y la tecnología.",
+            "zh": "作为电子工程学院(FIE)大会的一部分,迷宫解谜竞赛旨在促进创造力和批判性思维的发展。对于组织者——LabSi的成员来说,此次活动是一次实践机会,让他们有机会运用3D设计、PCB(印刷电路板)开发以及微型自主车辆(或称“小车”)的实现。此次经历使UTP的学生能够在真实环境中应用工程知识,磨练硬件建模和开发技能。同时,参加“迷宫2024”竞赛的高中生们也体验到了实时编程预先设计的原型,并通过编程和策略性决策来应对迷宫解谜的挑战。这项活动不仅旨在增强他们的编程和团队合作能力,更重要的是培养他们在压力下的解决问题和决策能力——这些都是工程技术领域不可或缺的要素。",
+            "ja": "電気工学部(FIE)大会の一環として開催された迷路解きコンテストは、創造性と批判的思考力の育成に重点を置いていました。主催者であるLabSiのメンバーにとって、このイベントは3D設計、PCB(プリント基板)開発、そしてコンテストで使用される小型自律走行車(カート)の実装といった実践的な演習となりました。この経験を通して、UTPの学生はエンジニアリングの知識を現実世界の環境で応用し、ハードウェアモデリングと開発のスキルを磨くことができました。一方、Maze 2024に参加した高校生たちは、事前に設計されたプロトタイプをリアルタイムでプログラミングする体験を楽しみ、プログラミングと戦略的意思決定を通して迷路を解くという課題に取り組みました。この活動は、プログラミングスキルとチームワークスキルの強化だけでなく、エンジニアリングとテクノロジーの世界で不可欠な要素である、プレッシャーの下での問題解決能力と意思決定能力を育成することを目的としていました。"
+        },
+        "quote": {
+            "en": "The maze-solving competition, held as part of the Electrical Engineering Faculty (FIE) congress, focused on promoting creativity and critical thinking. For the organizers, members of LabSi, this event served as a practical exercise in 3D design, PCB (printed circuit board) development, and the implementation of miniature autonomous vehicles, or 'carts,' used in the competition. This experience allowed UTP students to apply their engineering knowledge in a real-world environment, honing their skills in hardware modeling and development. Meanwhile, the high school students who participated in Maze 2024 enjoyed the experience of programming a pre-designed prototype in real time, facing the challenge of solving a maze through programming and strategic decision-making. This activity aimed not only to strengthen their programming and teamwork skills but also to foster problem-solving and decision-making abilities under pressure—essential elements in the world of engineering and technology.",
+            "es": "Esta actividad, diseñada para desafiar las habilidades de estudiantes de secundaria, fue una oportunidad única para fomentar el interés en carreras tecnológicas e ingenieriles a través de una experiencia práctica y colaborativa.",
+            "zh": "作为电子工程学院(FIE)大会的一部分,迷宫解谜竞赛旨在促进创造力和批判性思维的发展。对于组织者——LabSi的成员来说,此次活动是一次实践机会,让他们有机会运用3D设计、PCB(印刷电路板)开发以及微型自主车辆(或称“小车”)的实现。此次经历使UTP的学生能够在真实环境中应用工程知识,磨练硬件建模和开发技能。同时,参加“迷宫2024”竞赛的高中生们也体验到了实时编程预先设计的原型,并通过编程和策略性决策来应对迷宫解谜的挑战。这项活动不仅旨在增强他们的编程和团队合作能力,更重要的是培养他们在压力下的解决问题和决策能力——这些都是工程技术领域不可或缺的要素。",
+            "ja": "電気工学部(FIE)大会の一環として開催された迷路解きコンテストは、創造性と批判的思考力の育成に重点を置いていました。主催者であるLabSiのメンバーにとって、このイベントは3D設計、PCB(プリント基板)開発、そしてコンテストで使用される小型自律走行車(カート)の実装といった実践的な演習となりました。この経験を通して、UTPの学生はエンジニアリングの知識を現実世界の環境で応用し、ハードウェアモデリングと開発のスキルを磨くことができました。一方、Maze 2024に参加した高校生たちは、事前に設計されたプロトタイプをリアルタイムでプログラミングする体験を楽しみ、プログラミングと戦略的意思決定を通して迷路を解くという課題に取り組みました。この活動は、プログラミングスキルとチームワークスキルの強化だけでなく、エンジニアリングとテクノロジーの世界で不可欠な要素である、プレッシャーの下での問題解決能力と意思決定能力を育成することを目的としていました。"
+        },
+        "joined": {
+            "en": "I joined this project contributing my expertise in application programming using Power Apps to build the competition's evaluation, time control and scoring system; the system was able to update scores in real time.",
+            "es": "Me uni a este proyecto aportando my experticia en programacion de aplicaciones utilizando Power Apps para construir el sistema de evaluacion, control de tiempo y puntuacion de la competencia, el sistema era capaz de actualizar los puntajes en tiempo real.",
+            "zh": "我运用我在 Power Apps 应用程序编程方面的专业知识加入了这个项目，构建了比赛的评估、时间控制和评分系统；该系统能够实时更新分数。",
+            "ja": "私はこのプロジェクトに参加し、Power Apps を使用したアプリケーション プログラミングの専門知識を活かして、コンテスト評価、時間管理、採点システムを構築しました。このシステムでは、スコアをリアルタイムで更新することができました。"
+        },
+        "approach": {
+            "en": "Considering the existence of three (3) judges for each competition and the multiple parameters for each competition round, each judge is able to evaluate according to their own criteria and preferences using the mobile application. The designed platform was able to collect the evaluations from each judge, average them, and calculate the relevant results for each team in real time.",
+            "es": "Considerando la existencia de tres (3) jurados para cada competencia y la multiplicidad de parametros por cada ronda de competencias, cada jurado es capaz de evaluar a traves de la aplicacion movil a su gusto y criterio. La plataforma diseñada fue capaz de tomar las evaluaciones de cada uno de los jurados, promediarlas y calcular los resultados pertinentes para cada uno de los equipos en tiempo real.",
+            "zh": "考虑到每项比赛设有三 (3) 位评委，且每轮比赛都有多个评判标准，每位评委都可以使用移动应用程序，根据自身的评判标准和偏好进行评估。该平台能够收集每位评委的评估结果，计算平均值，并实时得出每支队伍的最终成绩。",
+            "ja": "各競技には3名の審査員がおり、各ラウンドには複数のパラメータが設定されているため、各審査員はモバイルアプリケーションを用いて、それぞれの基準と好みに基づいて評価を行うことができます。設計されたプラットフォームは、各審査員からの評価を収集し、平均化し、各チームの関連結果をリアルタイムで計算することができました。"
+        },
+        "outcome": {
+            "en": "A nationwide competition was held in multiple stages, culminating in a grand finale at the engineering congress. Organizers, competitors, and guests alike were delighted with the results. The competition ran smoothly and yielded transparent and tangible outcomes.",
+            "es": "Se llevo una competencia con un alcance nacional en multiples etapas, las cuales finalizaron en una gran competencia en el congreso de ingenieria, donde tanto los organizadores, competidores e invitados se fueron complicidos de los resultados obtenidos. Una competencia fluida y con resultados transparentes y tangibles.",
+            "zh": "这项全国性竞赛分多个阶段进行，最终在工程大会上举行了盛大的决赛。组织者、参赛选手和来宾都对比赛结果感到满意。比赛进行得非常顺利，并取得了透明且切实可见的成果。",
+            "ja": "全国規模のコンテストは複数の段階を経て開催され、エンジニアリング会議でグランドフィナーレを迎えました。主催者、出場者、そして来場者全員が結果に満足し、コンテストは円滑に進行し、透明性と目に見える成果が得られました。"
+        }
+    },
+    {
+        "id": 0,
+        "title": {
+            "en": "UTP Energy Dashboard",
+            "zh": "UTP能源委员会",
+            "ja": "UTPエネルギー委員会",
+            "es": "Tablero energetico de la UTP"
+        },
+        "summary": {
+            "en": "Our dashboard transforms raw electrical data into actionable insights, improving cost control, energy efficiency, and sustainability. It compares the past 20 years of electrical usage with the university’s expanding buildings and infrastructure. This foundation now guides decisions on new equipment, load planning, and future growth.",
+            "zh": "我们的仪表盘将原始电力数据转化为可执行的洞察,从而改善成本控制、提高能源效率并增强可持续性。它将过去 20 年的用电量与大学不断扩建的建筑和基础设施进行对比。这一基础如今指导着新设备购置、负荷规划和未来发展方面的决策。",
+            "ja": "当社のダッシュボードは、生の電力データを実用的なインサイトに変換し、コスト管理、エネルギー効率、持続可能性を向上させます。過去20年間の電力使用量と、大学の拡張する建物やインフラを比較します。この基盤は、新しい機器、負荷計画、そして将来の成長に関する意思決定の指針となっています。",
+            "es": "Nuestro panel transforma los datos eléctricos sin procesar en información práctica, mejorando el control de costos, la eficiencia energética y la sostenibilidad. Compara el consumo eléctrico de los últimos 20 años con la expansión de los edificios y la infraestructura de la universidad. Esta base ahora guía las decisiones sobre nuevos equipos, la planificación de la carga y el crecimiento futuro."
+        },
+        "tags": {
+            "en": [
+                "<strong>🔋 Energy Systems</strong>",
+                "<strong>📊 Systems Engineering</strong>"
+            ],
+            "es": [
+                "<strong>🔋 Sistemas de Energía</strong>",
+                "<strong>📊 Ingeniería de Sistemas</strong>"
+            ],
+            "zh": [
+                "<strong>🔋 能源系统</strong>",
+                "<strong>📊 系统工程</strong>"
+            ],
+            "ja": [
+                "<strong>🔋 エネルギーシステム</strong>",
+                "<strong>📊 システムエンジニアリング</strong>"
+            ]
+        },
+        "timeline": {
+            "en": "March 2025 - June 2023",
+            "es": "Marzo 2025- Junio 2023",
+            "zh": "2025年3月-2023年6月",
+            "ja": "2025年3月 - 2023年6月"
+        },
+        "problem": {
+            "en": "As part of energy management, an intelligent dashboard has been set up that allows visualization of important electrical parameters, both historically and to make predictions of future consumption.",
+            "es": "Como parte de la gestión energética se ha levantado un tablero inteligente que permite visualizar los parámetros eléctricos de importancia, tanto de manera histórica como para hacer predicciones de consumos futuros. ",
+            "zh": "作为能源管理的一部分，我们建立了一个智能仪表盘，可以可视化重要的电气参数，既可以查看历史数据，也可以预测未来的用电量。",
+            "ja": "エネルギー管理の一環として、重要な電気パラメータを視覚化して履歴を把握し、将来の消費量を予測できるインテリジェント ダッシュボードが設定されました。"
+        },
+        "quote": {
+            "en": [],
+            "es": [],
+            "zh": [],
+            "ja": []
+        },
+        "joined": {
+            "en": [],
+            "es": [],
+            "zh": [],
+            "ja": []
+        },
+        "approach": {
+            "en": [],
+            "es": [],
+            "zh": [],
+            "ja": []
+        },
+        "outcome": {
+            "en": [],
+            "es": [],
+            "zh": [],
+            "ja": []
+        }
+    },
+    {
+        "id": 3,
+        "title": {
+            "en": "UTP softball stadium",
+            "zh": "UTP垒球场",
+            "ja": "UTPソフトボールスタジアム",
+            "es": "Estadio de Softball UTP"
+        },
+        "summary": {
+            "en": "The university’s new softball stadium was envisioned to enhance student life, strengthen campus culture, and elevate the institution’s profile. Designed as a multi-purpose venue, it supports athletics while hosting major events like commencements and concerts. By providing high-quality facilities, it promotes student well-being, skill development, and community engagement. The stadium also fosters lasting school spirit and pride across generations.",
+            "zh": "大学新建的垒球场旨在丰富学生生活,增强校园文化,并提升学校形象。这座多功能场馆不仅支持体育运动,还能举办毕业典礼、音乐会等大型活动。通过提供高质量的设施,它促进了学生的身心健康、技能发展和社区参与。此外,该场馆还能培养代代相传的学校精神和自豪感。",
+            "ja": "大学の新しいソフトボールスタジアムは、学生生活の充実、キャンパス文化の強化、そして大学の知名度向上を目的として構想されました。多目的会場として設計されたこのスタジアムは、スポーツ活動をサポートするだけでなく、卒業式やコンサートといった主要イベントの開催にも役立ちます。質の高い施設を提供することで、学生の幸福、スキル開発、そして地域社会への貢献を促進します。また、このスタジアムは、世代を超えて永続的な大学精神と誇りを育む場でもあります。",
+            "es": "El nuevo estadio de sóftbol de la universidad fue concebido para enriquecer la vida estudiantil, fortalecer la cultura del campus y elevar la imagen de la institución. Diseñado como un recinto multiusos, apoya el atletismo y, al mismo tiempo, alberga importantes eventos como graduaciones y conciertos. Al ofrecer instalaciones de alta calidad, promueve el bienestar estudiantil, el desarrollo de habilidades y la participación comunitaria. El estadio también fomenta el espíritu y el orgullo universitarios a lo largo de las generaciones."
+        },
+        "tags": {
+            "en": [
+                "<strong>🛠️ Prototyping & Fabrication</strong>",
+                "<strong>🔁 Automation</strong>"
+            ],
+            "es": [
+                "<strong>🛠️ Prototipado y Fabricación</strong>",
+                "<strong>🔁 Automatización</strong>"
+            ],
+            "zh": [
+                "<strong>🛠️原型制作与制造</strong>",
+                "<strong>🔁自动化</strong>"
+            ],
+            "ja": [
+                "<strong>🛠️ プロトタイピングと製造</strong>",
+                "<strong>🔁 自動化</strong>"
+            ]
+        },
+        "timeline": {
+            "en": "March 2025 - October 2023",
+            "es": "Marzo 2025 - Octubre 2023",
+            "zh": "2025年3月 - 2023年10月",
+            "ja": "2025年3月 - 2023年10月"
+        },
+        "problem": {
+            "en": [],
+            "es": [],
+            "zh": [],
+            "ja": []
+        },
+        "quote": {
+            "en": [],
+            "es": [],
+            "zh": [],
+            "ja": []
+        },
+        "joined": {
+            "en": [],
+            "es": [],
+            "zh": [],
+            "ja": []
+        },
+        "approach": {
+            "en": [],
+            "es": [],
+            "zh": [],
+            "ja": []
+        },
+        "outcome": {
+            "en": [],
+            "es": [],
+            "zh": [],
+            "ja": []
+        }
+    },
+    {
+        "id": 1,
+        "title": {
+            "en": "Connected Rural Panama: Sustainable Technological Solutions Applied to Digital Connectivity and Social Inclusion",
+            "zh": "互联互通的巴拿马农村：应用于数字连接和社会包容的可持续技术解决方案",
+            "ja": "パナマの農村地域におけるデジタルコネクティビティと社会的包摂に応用された持続可能な技術ソリューション",
+            "es": "Panamá Rural conectado: Soluciones Tecnológicas sostenibles aplicadas a la Conectividad Digital e Inclusión Social"
+        },
+        "summary": {
+            "en": "This project addresses the digital divide that limits learning opportunities in rural Panama by assessing current connectivity gaps and social inclusion challenges. Through precise measurements and mapping of telecommunications infrastructure, it identifies areas lacking coverage and their potential for connection. The study provides essential data to guide sustainable technological solutions and digital literacy initiatives, enabling future projects such as remote education, smart agriculture, telemedicine, and e-commerce.",
+            "zh": "本项目旨在通过评估巴拿马农村地区当前的网络连接差距和社会包容性挑战,解决限制农村地区学习机会的数字鸿沟问题。通过对电信基础设施进行精确测量和测绘,本项目识别出缺乏覆盖的区域及其连接潜力。该研究提供了指导可持续技术解决方案和数字素养提升计划的关键数据,从而为远程教育、智慧农业、远程医疗和电子商务等未来项目奠定基础。",
+            "ja": "このプロジェクトは、パナマの農村部における学習機会を阻害するデジタルデバイドに対処するため、現状の接続ギャップと社会的包摂の課題を評価します。通信インフラの正確な測定とマッピングにより、カバレッジが不足している地域と、その地域における接続の可能性を特定します。この研究は、持続可能な技術ソリューションとデジタルリテラシー向上のための取り組みを導くための重要なデータを提供し、遠隔教育、スマート農業、遠隔医療、eコマースといった将来のプロジェクトを可能にします。",
+            "es": "Este proyecto aborda la brecha digital que limita las oportunidades de aprendizaje en las zonas rurales de Panamá mediante la evaluación de las brechas de conectividad actuales y los desafíos de inclusión social. Mediante mediciones precisas y el mapeo de la infraestructura de telecomunicaciones, se identifican las zonas con falta de cobertura y su potencial de conexión. El estudio proporciona datos esenciales para orientar soluciones tecnológicas sostenibles e iniciativas de alfabetización digital, impulsando proyectos futuros como la educación a distancia, la agricultura inteligente, la telemedicina y el comercio electrónico."
+        },
+        "tags": {
+            "en": [
+                "<strong>🌐 Rural Connectivity</strong>",
+                "<strong>⚡ Electronics</strong>",
+                "<strong>📡 Telecommunications</strong>"
+            ],
+            "es": [
+                "<strong>🌐 Conectividad Rural</strong>",
+                "<strong>⚡ Electronica</strong>",
+                "<strong>📡 Telecommunicaciones</strong>"
+            ],
+            "zh": [
+                "<strong>🌐 农村连接</strong>",
+                "<strong>⚡ 电子产品</strong>",
+                "<strong>📡 电信</strong>"
+            ],
+            "ja": [
+                "<strong>🌐 農村地域の接続性</strong>",
+                "<strong>⚡ エレクトロニクス</strong>",
+                "<strong>📡 通信</strong>"
+            ]
+        },
+        "timeline": {
+            "en": "March 2025 - August 2022",
+            "es": "Marzo 2025 - August 2022",
+            "zh": "2025年3月 - 2022年8月",
+            "ja": "2025年3月 - 2022年8月"
+        },
+        "problem": {
+            "en": "The inherent inequalities in access to technology and tools threaten to exacerbate the global  learning crisis. Students with limited support for home learning have few means to support their education. <br> <br>  This project investigates the current state of rural connectivity in Panama and aims to provide  technological resources equitably to strengthen teaching, accelerate internet access, and improve  social inclusion. <br> <br>  By collecting reliable information, the project generates infrastructure maps using data on  telecommunications networks, identifies areas without coverage, and develops sustainable solutions  for digital literacy and community development. Applications include education for all, smart  agriculture, telemedicine, and e-commerce.",
+            "es": "Las desigualdades inherentes en el acceso a la tecnología y las herramientas amenazan con exacerbar la crisis mundial del aprendizaje. Los estudiantes con apoyo limitado para el aprendizaje en casa tienen pocos recursos para financiar su educación. <br><br>Este proyecto investiga el estado actual de la conectividad rural en Panamá y busca proporcionar recursos tecnológicos de manera equitativa para fortalecer la enseñanza, acelerar el acceso a internet y mejorar la inclusión social. <br><br>Mediante la recopilación de información confiable, el proyecto genera mapas de infraestructura utilizando datos de redes de telecomunicaciones, identifica áreas sin cobertura y desarrolla soluciones sostenibles para la alfabetización digital y el desarrollo comunitario. Las aplicaciones incluyen educación para todos, agricultura inteligente, telemedicina y comercio electrónico.",
+            "zh": "技术和工具获取方面固有的不平等加剧了全球学习危机。缺乏居家学习支持的学生几乎没有资源来支持他们的学业。<br><br>本项目旨在调查巴拿马农村地区的网络连接现状,并致力于公平地提供技术资源,以加强教学、加快互联网接入并促进社会包容。<br><br>本项目通过收集可靠信息,利用电信网络数据生成基础设施地图,识别网络覆盖盲区,并开发可持续的数字素养和社区发展解决方案。应用领域包括全民教育、智慧农业、远程医疗和电子商务。",
+            "ja": "テクノロジーとツールへのアクセスにおける根深い不平等は、世界的な学習危機を悪化させる恐れがあります。自宅学習のサポートが限られている生徒は、学習を支援する手段が限られています。<br> <br> このプロジェクトは、パナマの農村部における接続性の現状を調査し、教育の強化、インターネットアクセスの加速、そして社会的包摂の向上のために、技術リソースを公平に提供することを目指しています。<br> <br> 信頼性の高い情報を収集することで、このプロジェクトは通信ネットワークのデータを用いてインフラマップを作成し、カバーされていない地域を特定し、デジタルリテラシーとコミュニティ開発のための持続可能なソリューションを開発します。その応用分野には、すべての人のための教育、スマート農業、遠隔医療、電子商取引などがあります。"
+        },
+        "quote": {
+            "en": "Promoting digital inclusion and sustainable technological solutions in rural areas of Panama",
+            "es": "Promoviendo la inclusión digital y soluciones tecnológicas sostenibles en zonas rurales de Panamá.",
+            "zh": "在巴拿马农村地区推广数字包容和可持续技术解决方案。",
+            "ja": "パナマの農村地域におけるデジタル包摂と持続可能な技術ソリューションの推進。"
+        },
+        "joined": {
+            "en": [],
+            "es": [],
+            "zh": [],
+            "ja": []
+        },
+        "approach": {
+            "en": "<ul><li><strong>Electrical Engineering:</strong> Collected geographical information to determine optimal locations for solar panels, wind turbines, and lightning protection systems to prevent electrocutions or system malfunctions. </li><br><li> <strong>Electronics Engineering:</strong> Created simulations to evaluate the impact of IoT device integration on the energy quality of the local power grid, ensuring stable and safe operation of all connected systems. </li></ul>",
+            "es": "<ul><li><strong>Ingeniería Eléctrica:</strong> Recopilé información geográfica para determinar las ubicaciones óptimas para paneles solares, turbinas eólicas y sistemas de protección contra rayos para evitar electrocuciones o fallas del sistema. </li><br><li><strong>Ingeniería Electrónica:</strong> Creé simulaciones para evaluar el impacto de la integración de dispositivos IoT en la calidad energética de la red eléctrica local, garantizando así el funcionamiento estable y seguro de todos los sistemas conectados. </li></ul>",
+            "zh": "<ul><li><strong>电气工程：</strong> 收集地理信息,以确定太阳能电池板、风力涡轮机和防雷系统的最佳位置,防止触电或系统故障。</li><br><li> <strong>电子工程：</strong> 创建仿真模型,评估物联网设备集成对本地电网能源质量的影响,确保所有连接系统的稳定安全运行。</li></ul>",
+            "ja": "<ul><li><strong>電気工学:</strong> 感電やシステムの誤動作を防ぐために、太陽光パネル、風力タービン、避雷システムの最適な設置場所を決定するための地理情報を収集しました。</li><br><li> <strong>電子工学:</strong> IoT デバイスの統合が地域の電力網のエネルギー品質に与える影響を評価するためのシミュレーションを作成し、接続されているすべてのシステムの安定した安全な運用を確保しました。</li></ul>"
+        },
+        "outcome": {
+            "en": "A successful plan was implemented and is currently under study for community deployment starting January 2026. The project provides a roadmap for improving connectivity, energy sustainability, and technological inclusion in rural Panama.",
+            "es": "Se implementó un plan exitoso que actualmente se encuentra en implementación comunitaria a partir de enero de 2026. El proyecto proporciona una hoja de ruta para mejorar la conectividad, la sostenibilidad energética y la inclusión tecnológica en las zonas rurales de Panamá.",
+            "zh": "一项成功的计划已经实施,目前正在研究从2026年1月开始在社区推广实施。该项目为改善巴拿马农村地区的网络连接、能源可持续性和技术普及提供了路线图。",
+            "ja": "計画は成功裡に実施され、現在、2026年1月からのコミュニティ展開に向けて検討が進められています。このプロジェクトは、パナマの農村部における接続性、エネルギーの持続可能性、テクノロジーの包摂性を向上させるロードマップを提供します。"
+        },
+        "collaborator": {
+            "data": [
+                {
+                    "name": "Dr. José Iván Isaza González",
+                    "email": "jose.isaza@utp.ac.pa",
+                    "roles": {
+                        "en": "Principal Investigator (PI)",
+                        "es": "Investigador Principal (IP)",
+                        "zh": "首席研究员(PI)",
+                        "ja": "主任研究者(PI)"
+                    }
+                },
+                {
+                    "name": "Dra. Yarisel Núñez Bernal",
+                    "email": "yarisel.nunez@utp.ac.pa",
+                    "roles": {
+                        "en": "Co-Investigator (Co-IP)",
+                        "es": "Co-Investigador (Co-IP)",
+                        "zh": "合作研究者(Co-IP)",
+                        "ja": "共同研究者(Co-IP)"
+                    }
+                },
+                {
+                    "name": "Dr. Ismael Camargo Henríquez",
+                    "email": "ismael.camargo@utp.ac.pa",
+                    "roles": {
+                        "en": "Co-Investigator (Co-IP)",
+                        "es": "Co-Investigador (Co-IP)",
+                        "zh": "合作研究者(Co-IP)",
+                        "ja": "共同研究者(Co-IP)"
+                    }
+                },
+                {
+                    "name": "Mgtr. Doranse Hurtado",
+                    "email": "doranse.hurtado@utp.ac.pa",
+                    "roles": {
+                        "en": "Co-Investigator (Co-IP)",
+                        "es": "Co-Investigador (Co-IP)",
+                        "zh": "合作研究者(Co-IP)",
+                        "ja": "共同研究者(Co-IP)"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "id": 6,
+        "title": {
+            "en": "Smart Assistive Wheelchair for Paraplegic Users",
+            "zh": "适用于截瘫用户的智能辅助轮椅",
+            "ja": "下半身麻痺患者向けスマート補助車椅子",
+            "es": "Silla de ruedas inteligente para usuarios parapléjicos"
+        },
+        "summary": {
+            "en": "The team transformed a standard hospital wheelchair into an affordable smart mobility device by adding custom sensors and motor control, enabling paraplegic users to move independently without external assistance.",
+            "zh": "该团队通过添加定制传感器和电机控制装置,将标准的医院轮椅改造成价格实惠的智能移动设备,使截瘫患者无需外部帮助即可独立移动。",
+            "ja": "チームは、カスタムセンサーとモーター制御を追加することで、標準的な病院用車椅子を手頃な価格のスマート移動デバイスに変え、下半身麻痺のユーザーが外部からの支援なしに自立して移動できるようにしました。",
+            "es": "El equipo transformó una silla de ruedas de hospital estándar en un dispositivo de movilidad inteligente asequible al agregar sensores personalizados y control de motor, lo que permite a los usuarios parapléjicos moverse independientemente sin asistencia externa."
+        },
+        "tags": {
+            "en": [
+                "<strong>🦾 Assistive Technologies</strong>",
+                "<strong>♻️ Sustainable Technologies</strong>",
+                "<strong>🛠️ Electromechanical Systems</strong>"
+            ],
+            "es": [
+                "<strong>🌐 Conectividad Rural</strong>",
+                "<strong>⚡ Electronica</strong>",
+                "<strong>📡 Telecommunicaciones</strong>"
+            ],
+            "zh": [
+                "<strong>🦾 辅助技术</strong>",
+                "<strong>♻️ 可持续技术</strong>",
+                "<strong>🛠️ 机电系统</strong"
+            ],
+            "ja": [
+                "<strong>🦾 支援技術</strong>",
+                "<strong>♻️ 持続可能な技術</strong>",
+                "<strong>🛠️ 電気機械システム</strong>"
+            ]
+        },
+        "timeline": {
+            "en": [],
+            "es": [],
+            "zh": [],
+            "ja": []
+        },
+        "problem": {
+            "en": [],
+            "es": [],
+            "zh": [],
+            "ja": []
+        },
+        "quote": {
+            "en": [],
+            "es": [],
+            "zh": [],
+            "ja": []
+        },
+        "joined": {
+            "en": [],
+            "es": [],
+            "zh": [],
+            "ja": []
+        },
+        "approach": {
+            "en": [],
+            "es": [],
+            "zh": [],
+            "ja": []
+        },
+        "outcome": {
+            "en": [],
+            "es": [],
+            "zh": [],
+            "ja": []
+        }
+    }
+]
