@@ -307,6 +307,7 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap:16px;
   width: 250px;
   background: var(--secondary-color);
   border-radius: 8px;
@@ -316,6 +317,7 @@ li {
 
 .collab-description {
   margin-bottom: 1rem;
+  flex:1;
 }
 
 .collab-description h3 {
@@ -329,13 +331,21 @@ li {
   color: #ccc;
 }
 
-.collab-photo img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 50%;
-  border: 3px solid var(--accent-color);
-  object-fit: cover;
+.collab-photo {
+  width: 200px;     /* fixed container size */
+  height: 200px;
+  overflow: hidden; /* hides overflow if image is larger */
+  flex-shrink: 0;   /* prevents shrinking in flex layouts */
 }
+
+.collab-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;      /* key property */
+  object-position: center;
+  border-radius: 70%;     /* optional: circular photos */
+}
+
 
 /* Make it responsive */
 @media (max-width: 768px) {
