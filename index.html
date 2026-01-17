@@ -34,7 +34,7 @@
         <div class="hero-bg" id="hero-bg">
         </div>
         <div class="hero-content">
-            <h1 data-lang="hero-title">Hi, I'm <span>Your Name</span></h1>
+            <h1 data-lang="hero-title">Hi, I'm <span>Kelvin Kung</span></h1>
             <p data-lang="hero-sub">Academic • Professional • Researcher</p>
             <div class="hero-buttons">
                 <a href="#projects" class="btn" data-lang="hero-btn-work">View Work</a>
@@ -42,7 +42,6 @@
             </div>
         </div>
     </section>
-
 
     <!-- ===== ABOUT ===== -->
     <section class="about" id="about">
@@ -108,44 +107,6 @@
         </div>
     </section>
 
-
-
-    <!-- ===== EXPERIENCE SUMMARY ===== -->
-    <section class="experience-summary" id="experience-summary">
-        <h2 data-lang="exp-title">Experience</h2>
-        <div class="exp-columns">
-            <!-- Academic -->
-            <div class="exp-col">
-                <h3 data-lang="exp-academic">Academic</h3>
-                <p data-lang="exp-academic-summary">
-                    Degrees, teaching, and academic achievements in [your field]. Focused on fostering innovation
-                    through education and mentorship.
-                </p>
-                <a href="#academic-details" class="btn small">See More →</a>
-            </div>
-
-            <!-- Research -->
-            <div class="exp-col">
-                <h3 data-lang="exp-research">Research</h3>
-                <p data-lang="exp-research-summary">
-                    Publications, collaborations, and ongoing investigations in [specific research areas]. Dedicated to
-                    advancing knowledge and practical discovery.
-                </p>
-                <a href="#research-details" class="btn small">See More →</a>
-            </div>
-
-            <!-- Professional -->
-            <div class="exp-col">
-                <h3 data-lang="exp-professional">Professional</h3>
-                <p data-lang="exp-professional-summary">
-                    Real-world industry roles, consulting, and applied work bridging scientific rigor with technological
-                    innovation.
-                </p>
-                <a href="#professional-details" class="btn small">See More →</a>
-            </div>
-        </div>
-    </section>
-
     <!-- ===== PROJECTS TABLE =====-->
     <section class="projects" id="projects">
         <h2 data-lang="projects-title">Projects</h2>
@@ -162,35 +123,82 @@
         </div>
     </section>
 
+    <!-- ===== EXPERIENCE SUMMARY ===== -->
+    <section class="experience-summary" id="experience-summary">
+        <h2 data-lang="exp-title">Experience</h2>
+        <div class="exp-columns">
+            <!-- Academic -->
+            <div class="exp-col">
+                <h3 data-lang="exp-academic">Academic</h3>
+                <p data-lang="exp-academic-summary">
+                    Degrees, teaching, and academic achievements in Electrical and Electronics Engineering. Focused on
+                    fostering innovation
+                    through education and mentorship.
+                </p>
+            </div>
 
-    <!-- ===== ACADEMIC DETAILS ===== -->
-    <section class="exp-details" id="academic-details">
-        <h2 data-lang="academic-details">Academic</h2>
-        <ul>
-            <!-- JS will insert <li> items here -->
-        </ul>
+            <!-- Research -->
+            <div class="exp-col">
+                <h3 data-lang="exp-research">Research</h3>
+                <p data-lang="exp-research-summary">
+                    Publications, collaborations, and ongoing investigations in applied electronics. Dedicated to
+                    advancing knowledge and practical discovery.
+                </p>
+            </div>
+
+            <!-- Professional -->
+            <div class="exp-col">
+                <h3 data-lang="exp-professional">Professional</h3>
+                <p data-lang="exp-professional-summary">
+                    Real-world industry roles, consulting, and applied work bridging scientific rigor with technological
+                    innovation.
+                </p>
+            </div>
+
+        </div>
     </section>
 
-    <!-- ===== RESEARCH DETAILS ===== -->
-    <section class="exp-details" id="research-details">
-        <h2 data-lang="research-details">Research</h2>
-        <ul>
-            <!-- JS will insert <li> items here -->
-        </ul>
-    </section>
+    <!-- ===== PROJECTS SUMMARY ===== -->
+    <section>
+        <!-- Filter buttons -->
+        <div class="button-row">
+            <button onclick="filterData('all')" data-lang="filter-all">All</button>
+            <button onclick="filterData('Professional')" data-lang="filter-prof">Professional</button>
+            <button onclick="filterData('Research')" data-lang="filter-rese">Research</button>
+            <button onclick="filterData('Academic')" data-lang="filter-acad">Academics</button>
+        </div>
 
-    <!-- ===== PROFESSIONAL DETAILS ===== -->
-    <section class="exp-details" id="professional-details">
-        <h2 data-lang="professional-details">Professional</h2>
-        <ul>
-            <!-- JS will insert <li> items here -->
-        </ul>
+        <!-- View mode buttons -->
+        <div class="button-row">
+            <button onclick="switchViewMode('timeline')" data-lang="filter-time">Timeline View</button>
+            <button onclick="switchViewMode('accordion')" data-lang="filter-acco">Accordion View</button>
+            <button onclick="switchViewMode('interactive')" data-lang="filter-inte">Interactive View</button>
+        </div>
+
+        <!-- Timeline View -->
+        <div class="timeline active" id="timeline-view">
+            <h2 data-lang="filter-time-title">Timeline View</h2>
+            <div id="timeline-container" class="timeline-container"></div>
+        </div>
+
+        <!-- Accordion View -->
+        <div class="accordion" id="accordion-view">
+            <h2 data-lang="filter-acco-title">Accordion View</h2>
+            <div id="accordion-container"></div>
+        </div>
+
+        
+        <!-- Interactive View -->
+        <div class="interactive" id="interactive-view">
+            <h2 data-lang="filter-inte-title">Interactive View</h2>
+            <div id="interactive-container"></div>
+        </div>
     </section>
 
     <!-- ===== CONTACT ===== -->
     <section class="contact" id="contact">
         <h2 data-lang="contact-title">Contact</h2>
-        <p data-lang="contact-text">Interested in working or collaborating with me?</p>
+        <p data-lang="contact-text" ; style="text-align: center;">Interested in working or collaborating with me?</p>
         <div class="contact-links">
             <a href="mailto:youremail@example.com">Email</a>
             <a href="https://github.com/yourusername" target="_blank">GitHub</a>
@@ -199,10 +207,10 @@
 
     <!-- ===== FOOTER ===== -->
     <footer>
-        <p>© <span id="year"></span> <span data-lang="footer-name">Your Name</span>.</p>
-    </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+        <p>© <span id="year"></span> <span data-lang="footer-name">Kelvin Kung</span>.</p>
+    </footer>    
     <script src="script.js"></script>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
 
 </body>
 
