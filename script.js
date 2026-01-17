@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "images/image6.jpg",
         "images/image7.jpg",
         "images/image8.jpg",
-        "images/image10.png",
+        "images/image10.jpg",
         "images/image11.png",
         "images/image12.jpg",
         "images/image13.png"
