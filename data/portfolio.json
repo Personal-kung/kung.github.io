@@ -29,8 +29,8 @@
         },
         "details": {
             "en": "Maze 2024 Championship",
-            "zh": "ロボットコンテスト「Maze 2024」第8回電気工学学会",
-            "ja": "“Maze 2024”机器人竞赛 第八届电气工程学院大会",
+            "zh": "2024年迷宫锦标赛",
+            "ja": "メイズ2024チャンピオンシップ",
             "es": "Concurso de robótica \"Maze 2024\" VIII Congreso de la Facultad de Ingenieria Eléctrica"
         }
     },
@@ -53,7 +53,7 @@
         "institution": {
             "en": "Institute of Electrical and Electronics Engineers (IEEE)",
             "es": "Instituto de Ingenieros Eléctricos y Electrónicos (IEEE)",
-            "zh": "電機電子工程師學會 (IEEE)",
+            "zh": "电气与电子工程师协会（IEEE）",
             "ja": "アイ・トリプル・イー (IEEE)"
         },
         "branch": {
@@ -64,8 +64,8 @@
         },
         "details": {
             "en": "Articulated Robotic Arm Control System Upgrade Using Low Cost Computer",
-            "zh": "低コストコンピュータを使用した多関節ロボットアーム制御システムのアップグレード",
-            "ja": "使用低成本计算机升级关节机器人手臂控制系统",
+            "ja": "低コストコンピュータを使用した多関節ロボットアーム制御システムのアップグレード",
+            "zh": "使用低成本计算机升级关节机器人手臂控制系统",
             "es": "Sistema de Control de brazo robotico articulado utilizando Computadoras de Bajo Costo"
         }
     },
@@ -87,7 +87,7 @@
         "institution": {
             "en": "Institute of Electrical and Electronics Engineers (IEEE)",
             "es": "Instituto de Ingenieros Eléctricos y Electrónicos (IEEE)",
-            "zh": "電機電子工程師學會 (IEEE)",
+            "zh": "电气与电子工程师协会（IEEE）",
             "ja": "アイ・トリプル・イー (IEEE)"
         },
         "branch": {
@@ -98,8 +98,8 @@
         },
         "details": {
             "en": "Articulated Robotic Arm Control System Upgrade Using Low Cost Computer with Computer Vision",
-            "zh": "コンピュータビジョンを使用した低コストコンピュータによる多関節ロボットアーム制御システムのアップグレード",
-            "ja": "使用计算机视觉的低成本计算机升级关节机器人手臂控制系统",
+            "ja": "コンピュータビジョンを使用した低コストコンピュータによる多関節ロボットアーム制御システムのアップグレード",
+            "zh": "使用计算机视觉的低成本计算机升级关节机器人手臂控制系统",
             "es": "Sistema de Control de brazo robotico articulado utilizando Computadoras de Bajo Costo con Vision Artificial"
         },
         "links": "https://ieeexplore.ieee.org/document/10517541"
@@ -123,8 +123,8 @@
         "branch": "Google",
         "details": {
             "en": "Crash Course on Python",
-            "zh": "Python集中講座",
-            "ja": "Python速成课程",
+            "ja": "Python集中講座",
+            "zh": "Python速成课程",
             "es": "Crash Course on Python"
         },
         "links": ""
@@ -147,7 +147,7 @@
         "institution": {
             "en": "Institute of Electrical and Electronics Engineers (IEEE)",
             "es": "Instituto de Ingenieros Eléctricos y Electrónicos (IEEE)",
-            "zh": "電機電子工程師學會 (IEEE)",
+            "zh": "电气与电子工程师协会（IEEE）",
             "ja": "アイ・トリプル・イー (IEEE)"
         },
         "branch": {
@@ -158,8 +158,8 @@
         },
         "details": {
             "en": "Semiconductor development from idea to product",
-            "zh": "アイデアから製品への半導体開発",
-            "ja": "半导体从概念到产品开发",
+            "ja": "アイデアから製品への半導体開発",
+            "zh": "半导体从概念到产品开发",
             "es": "Desarrollo de semiconductores desde la idea al producto"
         },
         "links": "https://attend.ieee.org/conescapan-2024/wp-content/uploads/sites/614/PROGRAMA-TECNICO-CONESCAPAN-XLI-OFICIAL.pdf"
@@ -182,7 +182,7 @@
         "institution": {
             "en": "Institute of Electrical and Electronics Engineers (IEEE)",
             "es": "Instituto de Ingenieros Eléctricos y Electrónicos (IEEE)",
-            "zh": "電機電子工程師學會 (IEEE)",
+            "zh": "电气与电子工程师协会（IEEE）",
             "ja": "アイ・トリプル・イー (IEEE)"
         },
         "branch": {
@@ -193,8 +193,8 @@
         },
         "details": {
             "en": "Design and Implementation of a Smart System for Watermelon Recognition",
-            "zh": "スイカ認識のためのスマートシステム設計と実装",
-            "ja": "西瓜识别智能系统的设计与实现",
+            "ja": "スイカ認識のためのスマートシステム設計と実装",
+            "zh": "西瓜识别智能系统的设计与实现",
             "es": "Diseño e Implementacion de un Sistema Inteligente para Reconocimiento de Sandias"
         },
         "links": "https://ieeexplore.ieee.org/document/8942610"
@@ -228,8 +228,8 @@
         },
         "details": {
             "en": "Electrical and Electronics engineer",
-            "zh": "電気電子工学エンジニア",
-            "ja": "电气电子工程师",
+            "ja": "電気電子工学エンジニア",
+            "zh": "电气电子工程师",
             "es": "Ingeniero Electrico y Electronico"
         },
         "links": ""
@@ -263,8 +263,8 @@
         },
         "details": {
             "en": "Electrical and Electronics engineer",
-            "zh": "電気電子工学エンジニア",
-            "ja": "电气电子工程师",
+            "ja": "電気電子工学エンジニア",
+            "zh": "电气电子工程师",
             "es": "Ingeniero Electrico y Electronico"
         },
         "links": ""
@@ -288,8 +288,8 @@
         "branch": "Mentes brillantes",
         "details": {
             "en": "First nanometric chip nationwide",
-            "zh": "国内初のナノメートルチップ開発",
-            "ja": "开发国内首个纳米芯片",
+            "ja": "国内初のナノメートルチップ開発",
+            "zh": "开发国内首个纳米芯片",
             "es": "Desarrollado el primer chip nanométrico del país"
         },
         "links": "https://www.youtube.com/watch?v=ebZfFIfHy0w"
@@ -313,8 +313,8 @@
         "branch": "",
         "details": {
             "en": "Fundamentals of Deep Learning",
-            "zh": "深層学習の基礎",
-            "ja": "深度学习基础",
+            "ja": "深層学習の基礎",
+            "zh": "深度学习基础",
             "es": "Fundamentos of Deep Learning"
         },
         "links": ""
@@ -338,8 +338,8 @@
         "branch": "Google",
         "details": {
             "en": "How google does machine learning",
-            "zh": "Googleの機械学習の方法",
-            "ja": "谷歌如何进行机器学习",
+            "ja": "Googleの機械学習の方法",
+            "zh": "谷歌如何进行机器学习",
             "es": "Como Google hace machine learning"
         },
         "links": ""
@@ -362,7 +362,7 @@
         "institution": {
             "en": "Institute of Electrical and Electronics Engineers (IEEE)",
             "es": "Instituto de Ingenieros Eléctricos y Electrónicos (IEEE)",
-            "zh": "電機電子工程師學會 (IEEE)",
+            "zh": "电气与电子工程师协会（IEEE）",
             "ja": "アイ・トリプル・イー (IEEE)"
         },
         "branch": {
@@ -373,8 +373,8 @@
         },
         "details": {
             "en": "IC Manufacturing and global tendencies",
-            "zh": "IC製造と世界的動向",
-            "ja": "集成电路制造及全球趋势",
+            "ja": "IC製造と世界的動向",
+            "zh": "集成电路制造及全球趋势",
             "es": "Fabricación de un IC y las tendencias mundiales"
         },
         "links": ""
@@ -408,8 +408,8 @@
         },
         "details": {
             "en": "II Research Forum in Electrical Engineering FI2E-2024",
-            "zh": "第2回電気工学研究フォーラム FI2E-2024",
-            "ja": "第二届电气工程研究论坛 FI2E-2024",
+            "ja": "第2回電気工学研究フォーラム FI2E-2024",
+            "zh": "第二届电气工程研究论坛 FI2E-2024",
             "es": "II foro de investigación en ingeniería eléctrica FI2E-2024"
         },
         "links": ""
@@ -462,7 +462,7 @@
         "institution": {
             "en": "Institute of Electrical and Electronics Engineers (IEEE)",
             "es": "Instituto de Ingenieros Eléctricos y Electrónicos (IEEE)",
-            "zh": "電機電子工程師學會 (IEEE)",
+            "zh": "电气与电子工程师协会（IEEE）",
             "ja": "アイ・トリプル・イー (IEEE)"
         },
         "branch": {
@@ -473,8 +473,8 @@
         },
         "details": {
             "en": "Integrated Circuit Design",
-            "zh": "集積回路設計",
-            "ja": "集成电路设计",
+            "ja": "集積回路設計",
+            "zh": "集成电路设计",
             "es": "Diseño de circuitos integrados"
         },
         "links": "https://edu.ieee.org/pa-utp/curso-diseno-de-circuitos-integrados/"
@@ -498,8 +498,8 @@
         "branch": "Networking Academy",
         "details": {
             "en": "Introduccion a IoT",
-            "zh": "IoT入門",
-            "ja": "物联网入门",
+            "ja": "IoT入門",
+            "zh": "物联网入门",
             "es": "Introduccion a IoT"
         },
         "links": ""
@@ -523,8 +523,8 @@
         "branch": "",
         "details": {
             "en": "Cibersecurity Introduction",
-            "zh": "サイバーセキュリティ入門",
-            "ja": "网络安全入门",
+            "ja": "サイバーセキュリティ入門",
+            "zh": "网络安全入门",
             "es": "Introduccion a la Seguridad Cibernetica"
         },
         "links": ""
@@ -548,8 +548,8 @@
         "branch": "Networking Academy",
         "details": {
             "en": "Introduction to Networks",
-            "zh": "ネットワーク入門",
-            "ja": "网络入门",
+            "ja": "ネットワーク入門",
+            "zh": "网络入门",
             "es": "Introduction to Networks"
         },
         "links": ""
@@ -583,8 +583,8 @@
         },
         "details": {
             "en": "IX FIE Congress - Semicondutors",
-            "zh": "第9回FIE会議 - 半導体",
-            "ja": "第九届FIE大会 - 半导体",
+            "ja": "第9回FIE会議 - 半導体",
+            "zh": "第九届FIE大会 - 半导体",
             "es": "IX Congreso FIE - Semiconductores"
         },
         "links": ""
@@ -608,8 +608,8 @@
         "branch": "Robocup Maze",
         "details": {
             "en": "Judge",
-            "zh": "審査員",
-            "ja": "评审",
+            "ja": "審査員",
+            "zh": "评审",
             "es": "Jurado"
         },
         "links": ""
@@ -633,8 +633,8 @@
         "branch": "Robocup Maze",
         "details": {
             "en": "Judge",
-            "zh": "審査員",
-            "ja": "评审",
+            "ja": "審査員",
+            "zh": "评审",
             "es": "jurado"
         },
         "links": ""
@@ -668,8 +668,8 @@
         },
         "details": {
             "en": "MEXT scholar",
-            "zh": "MEXT奨学生",
-            "ja": "文部科学省奖学金获得者",
+            "zh": "MEXT文部科学省学者",
+            "ja": "文部科学省奨学生",
             "es": "Becario MEXT"
         },
         "links": ""
@@ -685,14 +685,14 @@
         "finish": "7/24/2024",
         "participation": {
             "en": "Judge",
-            "zh": "審査員",
-            "ja": "评审",
+            "ja": "審査員",
+            "zh": "评审",
             "es": "jurado"
         },
         "institution": {
             "en": "Institute of Electrical and Electronics Engineers (IEEE)",
             "es": "Instituto de Ingenieros Eléctricos y Electrónicos (IEEE)",
-            "zh": "電機電子工程師學會 (IEEE)",
+            "zh": "电气与电子工程师协会（IEEE）",
             "ja": "アイ・トリプル・イー (IEEE)"
         },
         "branch": {
@@ -703,8 +703,8 @@
         },
         "details": {
             "en": "Technical comitee member",
-            "zh": "技術委員会メンバー",
-            "ja": "技术委员会成员",
+            "ja": "技術委員会メンバー",
+            "zh": "技术委员会成员",
             "es": "miembro de comite tecnico"
         },
         "links": "https://attend.ieee.org/conescapan-2024/miembros-del-comite-tecnico/"
@@ -758,8 +758,8 @@
         "branch": "",
         "details": {
             "en": "Drone operator",
-            "zh": "遠隔操縦航空機(RPA)オペレーター",
-            "ja": "无人机遥控操作员",
+            "ja": "遠隔操縦航空機(RPA)オペレーター",
+            "zh": "无人机遥控操作员",
             "es": "Operador de Aeronaves Pilotadas a Distancias RPA"
         },
         "links": ""
@@ -782,7 +782,7 @@
         "institution": {
             "en": "Institute of Electrical and Electronics Engineers (IEEE)",
             "es": "Instituto de Ingenieros Eléctricos y Electrónicos (IEEE)",
-            "zh": "電機電子工程師學會 (IEEE)",
+            "zh": "电气与电子工程师协会(IEEE)",
             "ja": "アイ・トリプル・イー (IEEE)"
         },
         "branch": {
@@ -793,8 +793,8 @@
         },
         "details": {
             "en": "Panamas First semiconductor",
-            "zh": "パナマ初の半導体",
-            "ja": "巴拿马首个半导体",
+            "zh": "巴拿马首个半导体",
+            "ja": "パナマ初の半導体",
             "es": "Primer semiconductor de panama"
         },
         "links": "https://www.instagram.com/p/C8IGj-IIj2m/"
@@ -828,8 +828,8 @@
         },
         "details": {
             "en": "Python orientado a sistemas embebidos",
-            "zh": "組み込みシステム向けPython",
-            "ja": "面向嵌入式系统的Python",
+            "zh": "面向嵌入式系统的Python",
+            "ja": "組み込みシステム向けPython",
             "es": "Python orientado a sistemas embebidos"
         },
         "links": "https://utp.ac.pa/seminario-taller-python-orientado-sistemas-embebidos"
@@ -888,8 +888,8 @@
         },
         "details": {
             "en": "Redes de sensores para el monitoreo de cultivos agricolas",
-            "zh": "農業作物監視用センサーネットワーク",
-            "ja": "农作物监测传感网络",
+            "zh": "农作物监测传感网络",
+            "ja": "農業作物監視用センサーネットワーク",
             "es": "Redes de sensores para el monitoreo de cultivos agricolas"
         },
         "links": "https://www.senacyt.gob.pa/la-senacyt-realiza-cafe-cientifico-redes-de-sensores-para-el-monitoreo-de-cultivos-agricolas/"
@@ -958,8 +958,8 @@
         },
         "details": {
             "en": "RobotiFest UCR",
-            "zh": "ロボティフェストUCR",
-            "ja": "RobotiFest UCR",
+            "zh": "哥斯达黎加大学机器人节",
+            "ja": "ロボティフェストUCR",
             "es": "RobotiFest UCR"
         },
         "links": ""
@@ -977,7 +977,7 @@
         "institution": {
             "en": "Institute of Electrical and Electronics Engineers (IEEE)",
             "es": "Instituto de Ingenieros Eléctricos y Electrónicos (IEEE)",
-            "zh": "電機電子工程師學會 (IEEE)",
+            "zh": "电气与电子工程师协会（IEEE）",
             "ja": "アイ・トリプル・イー (IEEE)"
         },
         "branch": {
@@ -1172,7 +1172,7 @@
         "institution": {
             "en": "Institute of Electrical and Electronics Engineers (IEEE)",
             "es": "Instituto de Ingenieros Eléctricos y Electrónicos (IEEE)",
-            "zh": "電機電子工程師學會 (IEEE)",
+            "zh": "电气与电子工程师协会（IEEE）",
             "ja": "アイ・トリプル・イー (IEEE)"
         },
         "branch": {
@@ -1183,8 +1183,8 @@
         },
         "details": {
             "en": "Technical foundation about Integrated Circuit Design",
-            "zh": "集積回路設計の技術基礎",
-            "ja": "集成电路设计的技术基础",
+            "zh": "集成电路设计的技术基础",
+            "ja": "集積回路設計の技術基礎",
             "es": "Fundamentos técnicos del diseño de circuitos integrados"
         },
         "links": "https://r9.ieee.org/panama/event/workshop-fundamentos-tecnicos-del-diseno-de-circuitos-integrados/"
@@ -1218,8 +1218,8 @@
         },
         "details": {
             "en": "Tecnologias Disruptivas e Investigación aplicada al Servicio del Emprendimiento y de la Innovación",
-            "zh": "起業とイノベーションのための破壊的技術と応用研究",
-            "ja": "服务创业与创新的颠覆性技术与应用研究",
+            "ja": "起業とイノベーションのための破壊的技術と応用研究",
+            "zh": "服务创业与创新的颠覆性技术与应用研究",
             "es": "Tecnologias Disruptivas e Investigación aplicada al Servicio del Emprendimiento y de la Innovación"
         },
         "links": ""
@@ -1242,7 +1242,7 @@
         "institution": {
             "en": "Institute of Electrical and Electronics Engineers (IEEE)",
             "es": "Instituto de Ingenieros Eléctricos y Electrónicos (IEEE)",
-            "zh": "電機電子工程師學會 (IEEE)",
+            "zh": "电气与电子工程师协会（IEEE）",
             "ja": "アイ・トリプル・イー (IEEE)"
         },
         "branch": {
@@ -1253,8 +1253,8 @@
         },
         "details": {
             "en": "Teleopration control system design for a robotic arm",
-            "zh": "ロボットアーム遠隔操作制御システム設計",
-            "ja": "远程控制机器人手臂系统设计",
+            "ja": "ロボットアーム遠隔操作制御システム設計",
+            "zh": "远程控制机器人手臂系统设计",
             "es": "Diseño de un sistema de control teleoperado para un brazo robotico"
         },
         "links": ""
@@ -1283,8 +1283,8 @@
         "branch": "",
         "details": {
             "en": "Universidad Tecnologica de Panama (UTP) first panamanian university with a patented semiconductor",
-            "zh": "Universidad Tecnologica de Panama (UTP)がパナマ初の半導体特許出願大学",
-            "ja": "Universidad Tecnologica de Panama (UTP)是巴拿马首个申请半导体专利的大学",
+            "ja": "Universidad Tecnologica de Panama (UTP)がパナマ初の半導体特許出願大学",
+            "zh": "Universidad Tecnologica de Panama (UTP)是巴拿马首个申请半导体专利的大学",
             "es": "Universidad Tecnologica de Panama (UTP) primera universidad panameña en solicitar el registro de una patente de invención de un semiconductor"
         },
         "links": "https://utp.ac.pa/utp-primera-universidad-panamena-en-solicitar-el-registro-de-una-patente-de-invencion-de-un"
@@ -1302,7 +1302,7 @@
         "institution": {
             "en": "Institute of Electrical and Electronics Engineers (IEEE)",
             "es": "Instituto de Ingenieros Eléctricos y Electrónicos (IEEE)",
-            "zh": "電機電子工程師學會 (IEEE)",
+            "zh": "电气与电子工程师协会（IEEE）",
             "ja": "アイ・トリプル・イー (IEEE)"
         },
         "branch": {
@@ -1313,8 +1313,8 @@
         },
         "details": {
             "en": "Vice president",
-            "zh": "副会長",
-            "ja": "副总裁",
+            "ja": "副会長",
+            "zh": "副总裁",
             "es": "vice presidente"
         },
         "links": ""
@@ -1337,14 +1337,14 @@
         "institution": {
             "en": "Institute of Electrical and Electronics Engineers (IEEE)",
             "es": "Instituto de Ingenieros Eléctricos y Electrónicos (IEEE)",
-            "zh": "電機電子工程師學會 (IEEE)",
+            "zh": "电气与电子工程师协会（IEEE）",
             "ja": "アイ・トリプル・イー (IEEE)"
         },
         "branch": "Electronic Devices Society (EDS)",
         "details": {
             "en": "VLSI bootcamp",
-            "zh": "VLSIブートキャンプ",
-            "ja": "VLSI训练营",
+            "ja": "VLSIブートキャンプ",
+            "zh": "VLSI训练营",
             "es": "Taller VLSI"
         },
         "links": ""
@@ -1367,7 +1367,7 @@
         "institution": {
             "en": "Institute of Electrical and Electronics Engineers (IEEE)",
             "es": "Instituto de Ingenieros Eléctricos y Electrónicos (IEEE)",
-            "zh": "電機電子工程師學會 (IEEE)",
+            "zh": "电气与电子工程师协会（IEEE）",
             "ja": "アイ・トリプル・イー (IEEE)"
         },
         "branch": {
@@ -1378,8 +1378,8 @@
         },
         "details": {
             "en": "Webinar: Seguridad y proteccion contra el arco electrico",
-            "zh": "ウェビナー: アーク防護と安全対策",
-            "ja": "网络研讨会：电弧保护与安全",
+            "ja": "ウェビナー: アーク防護と安全対策",
+            "zh": "网络研讨会：电弧保护与安全",
             "es": "Webinar: Seguridad y proteccion contra el arco electrico"
         },
         "links": ""
@@ -1402,7 +1402,7 @@
         "institution": {
             "en": "Institute of Electrical and Electronics Engineers (IEEE)",
             "es": "Instituto de Ingenieros Eléctricos y Electrónicos (IEEE)",
-            "zh": "電機電子工程師學會 (IEEE)",
+            "zh": "电气与电子工程师协会（IEEE）",
             "ja": "アイ・トリプル・イー (IEEE)"
         },
         "branch": {
@@ -1413,8 +1413,8 @@
         },
         "details": {
             "en": "Workshop on PCB Design and System Integration",
-            "zh": "PCB設計およびシステム統合ワークショップ",
-            "ja": "PCB设计与系统集成工作坊",
+            "ja": "PCB設計およびシステム統合ワークショップ",
+            "zh": "PCB设计与系统集成工作坊",
             "es": "Taller en integracion y diseño de PCB"
         },
         "links": ""

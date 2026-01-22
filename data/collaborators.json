@@ -16,14 +16,14 @@
         },
         "zh": {
             "Title": "博士",
-            "University": "Instituto Tecnologico de Kyushu (Kyutech)",
-            "Branch": "Laboratorio Wen",
+            "University": "九州工业大学",
+            "Branch": "温实验室",
             "Country": "日本"
         },
         "ja": {
             "Title": "博士",
             "University": "九州工業大学",
-            "Branch": "Laboratorio Wen",
+            "Branch": "温研究所",
             "Country": "日本"
         }
     },
