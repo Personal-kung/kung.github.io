@@ -65,6 +65,12 @@ document.addEventListener("DOMContentLoaded", () => {
             "hero-btn-work": "View Work",
             "hero-btn-contact": "Get in Touch",
             "about-title": "About Me",
+            "about-intro": "Kelvin Kung is an Electrical and Electronics Engineer. Currently researching Very Large System Integration (VLSI) testing in Kyushu Institute of Technology",
+            "about-body": "Kelvin worked in Technological University of Panama (2022-2025) focusing on high voltage electrical systems design, with an emphasis on innovation and real-world applications. Throughout his career, he designed and installed complex electrical systems, including lightning rods, grounding systems, and reactive capacitors compensation systems. He set benchmarks for nationwide electricity controls in universities, utilizing SCADA systems and Power BI to enhance decision-making processes.",
+            "about-body1": "Kelvin conducted and organized power quality analysis tests across both public and private sectors nationwide. Additionally, I have experience designing and overseeing high-voltage systems (13.8kV and derivatives) ensuring safety and efficiency in electrical distribution.",
+            "about-body2": "On the electronic side, he has worked on several innovative projects, including electromechanical teleoperation, spectral analysis for watermelons, and the development of the first Panamanian patent for nanoelectrical circuits. Kelvin has also designed a scoring board for the university's baseball field and contributed to multiple international publications and conferences, including IEEE and Neurocomputing (Elsevier).",
+            "about-body3": "In 2023 and 2024 Kelvin served as judge for Robocup Jr. international competitions in Europe and America. Furthermore, he has designed and build low-cost robotic kits for public schools to help students develop robotics skills. He also contributed to specialized electronics projects aimed at assisting disabled people, such as developing a smart wheelchair for paraplegic individuals.",
+            "about-conclusion": "Kelvin received his B.S. in Electrical and Electronics Engineering from Technological University of Panama (2022)",
             "exp-title": "Experience",
             "exp-academic": "Academic",
             "exp-research": "Researcher",
@@ -72,7 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
             "academic-details": "Academic",
             "research-details": "Researcher",
             "professional-details": "Professional",
-            "projects-title": "Projects & Highlights",
+            "projects-title": "Highlights",
             "contact-title": "Contact",
             "contact-text": "Interested in working or collaborating with me?",
             "footer-name": "Kelvin Kung",
@@ -102,6 +108,12 @@ document.addEventListener("DOMContentLoaded", () => {
             "hero-btn-work": "Ver Trabajo",
             "hero-btn-contact": "Contactar",
             "about-title": "Acerca de mi",
+            "about-intro": "Kelvin Kung es Ingeniero Eléctrico y Electrónico. Actualmente investiga las pruebas de Integración de Sistemas Muy Grandes (VLSI <i>Very Large System Integration</i>) en el Instituto Tecnológico de Kyushu.",
+            "about-body": "Kelvin trabajó en la Universidad Tecnológica de Panamá (2022-2025), enfocándose en el diseño de sistemas eléctricos de media y alta tensión, con énfasis en la innovación y las aplicaciones prácticas. A lo largo de su carrera, diseñó e instaló sistemas eléctricos complejos, incluyendo pararrayos, sistemas de puesta a tierra y sistemas de compensación de condensadores reactivos. Estableció puntos de referencia para los controles eléctricos a nivel nacional en universidades, utilizando sistemas SCADA y Power BI para optimizar los procesos de toma de decisiones.",
+            "about-body1": "Kelvin realizó y organizó pruebas de análisis de calidad de energía en los sectores público y privado de todo el país. Además, tiene experiencia en el diseño y la supervisión de sistemas de alta tensión (13.8 kV y derivados), garantizando la seguridad y la eficiencia en la distribución eléctrica.",
+            "about-body2": "En el ámbito electrónico, ha trabajado en varios proyectos innovadores, incluyendo teleoperación electromecánica, análisis espectral para sandías y el desarrollo de la primera patente panameña para circuitos nanoeléctricos. Kelvin también diseñó un marcador para el campo de béisbol de la universidad y colaboró ​​en múltiples publicaciones y conferencias internacionales, incluyendo IEEE y Neurocomputing (Elsevier).",
+            "about-body3": "En 2023 y 2024, Kelvin fue jurado en las competiciones de Robocup Jr. en Europa y América. Además, diseñó y construyó kits robóticos de bajo costo para escuelas públicas, ayudando a los estudiantes a desarrollar habilidades robóticas. También contribuyó a proyectos electrónicos especializados para ayudar a personas con discapacidad, como el desarrollo de una silla de ruedas inteligente para personas parapléjicas.",
+            "about-conclusion": "Kelvin obtuvo su licenciatura en Ingeniería Eléctrica y Electrónica en la Universidad Tecnológica de Panamá (2022)",
             "exp-title": "Experiencia",
             "exp-academic": "Académico",
             "exp-research": "Investigador",
@@ -109,7 +121,7 @@ document.addEventListener("DOMContentLoaded", () => {
             "academic-details": "Académico",
             "research-details": "Investigador",
             "professional-details": "Profesional",
-            "projects-title": "Proyectos & Destacados",
+            "projects-title": "Proyectos Destacados",
             "contact-title": "Contacto",
             "contact-text": "¿Interesado en trabajar o colaborar conmigo?",
             "footer-name": "Kelvin Kung",
@@ -139,6 +151,12 @@ document.addEventListener("DOMContentLoaded", () => {
             "hero-btn-work": "查看作品",
             "hero-btn-contact": "联系我",
             "about-title": "关于我",
+            "about-intro": "龚颖贤是一名电气与电子工程师,目前在九州工业大学从事超大型系统集成(VLSI)测试方面的研究。",
+            "about-body": "凯尔文于2022年至2025年在巴拿马科技大学工作,专注于高压电力系统设计,尤其注重创新和实际应用。在他的职业生涯中,他设计并安装了复杂的电力系统,包括避雷针、接地系统和无功电容补偿系统。他利用SCADA系统和Power BI来优化决策流程,为全国高校的电力控制树立了标杆。",
+            "about-body1": "颖贤负责组织和开展全国范围内的公共和私营部门的电能质量分析测试。此外,我拥有设计和监管高压系统(13.8kV及其衍生电压)的经验,确保配电的安全性和效率。",
+            "about-body2": "在电子领域,他参与了多个创新项目,包括机电远程操控、西瓜光谱分析以及巴拿马首个纳米电路专利的开发。凯尔文还为大学棒球场设计了记分牌,并为包括IEEE和《神经计算》(爱思唯尔出版社)在内的多家国际期刊和会议撰稿。",
+            "about-body3": "2023年和2024年,凯尔文担任了欧洲和美洲Robocup Jr.国际机器人大赛的评委。此外,他还为公立学校设计并制造了低成本的机器人套件,以帮助学生培养机器人技能。他还参与了一些旨在帮助残疾人士的专用电子产品项目,例如为截瘫患者开发智能轮椅。",
+            "about-conclusion": "颖贤于2022年获得巴拿马科技大学电气与电子工程学士学位。",
             "exp-title": "经验",
             "exp-academic": "学术",
             "exp-research": "研究者",
@@ -146,7 +164,7 @@ document.addEventListener("DOMContentLoaded", () => {
             "academic-details": "学术",
             "research-details": "研究者",
             "professional-details": "职业",
-            "projects-title": "项目与亮点",
+            "projects-title": "亮点",
             "contact-title": "联系",
             "contact-text": "有兴趣与我合作或工作吗？",
             "footer-name": "龚颖贤",
@@ -176,6 +194,12 @@ document.addEventListener("DOMContentLoaded", () => {
             "hero-btn-work": "作品を見る",
             "hero-btn-contact": "お問い合わせ",
             "about-title": "私について",
+            "about-intro": "クン・ケルビンさんは電気電子工学のエンジニアです。現在、九州工業大学で超大規模システム統合(VLSI)のテストに関する研究を行っています。",
+            "about-body": "クンさんはパナマ工科大学(2022～2025年)に勤務し、高電圧電気システムの設計、特にイノベーションと実社会への応用に重点を置いて研究を行いました。キャリアを通じて、避雷針、接地システム、リアクタンスコンデンサ補償システムなど、複雑な電気システムの設計・設置に携わりました。SCADAシステムとPower BIを活用した意思決定プロセスの改善により、全国の大学における電力制御のベンチマークを確立しました。",
+            "about-body1": "クンさんは、全国の公共部門と民間部門の両方で電力品質分析試験を実施・運営してきました。さらに、配電の安全性と効率性を確保する高電圧システム(13.8kVおよび派生電圧)の設計と監督の経験も豊富です。",
+            "about-body2": "電子工学分野では、電気機械遠隔操作、スイカのスペクトル分析、パナマ初のナノ電気回路特許取得など、数々の革新的なプロジェクトに携わってきました。また、大学野球場のスコアボードの設計や、IEEEやNeurocomputing(ELSEVIER)など、複数の国際的な出版物や会議への寄稿も行っています。",
+            "about-body3": "クンさんは2023年と2024年に、ヨーロッパとアメリカで開催された国際大会「ロボカップ・ジュニア」の審査員を務めました。さらに、公立学校向けに低価格のロボットキットを設計・構築し、生徒のロボット工学スキル向上を支援しました。また、下半身麻痺者向けのスマート車椅子の開発など、障害者支援を目的とした専門的な電子機器プロジェクトにも貢献しました。",
+            "about-conclusion": "クンさんはパナマ工科大学で電気電子工学の学士号を取得しました(2022年)",
             "exp-title": "経験",
             "exp-academic": "学術",
             "exp-research": "研究者",
@@ -183,7 +207,7 @@ document.addEventListener("DOMContentLoaded", () => {
             "academic-details": "学術",
             "research-details": "研究者",
             "professional-details": "プロフェッショナル",
-            "projects-title": "プロジェクト & ハイライト",
+            "projects-title": "ハイライト",
             "contact-title": "連絡先",
             "contact-text": "一緒に働いたり協力したりしませんか？",
             "footer-name": "クンケルビン",
@@ -203,108 +227,6 @@ document.addEventListener("DOMContentLoaded", () => {
             "filter-inte-title": "インタラクティブ表示"
         }
     };
-    //--- Multi-language about section --------------
-    const about = [
-        {
-            title: "about-title",
-            en: "About Me",
-            zh: "关于我",
-            ja: "私について",
-            es: "Acerca de mí"
-        },
-        {
-            title: "about-intro",
-            en: "Kelvin Kung is an Electrical and Electronics Engineer. Currently researching Very Large System Integration (VLSI) testing in Kyushu Institute of Technology",
-            zh: "您好！我是<strong>龚颖贤</strong>,一位充满热情、兢兢业业的电气与电子工程师。自2022年5月以来,我一直从事电气和电子系统设计工作,尤其注重创新和实际应用",
-            ja: "クンケルビンは電気電子工学エンジニアです。現在「九州工業大学」で超大規模システム統合（VLSI）試験の研究に取り組んでいます。",
-            es: "Kelvin Kung es Ingeniero Eléctrico y Electrónico. Actualmente investiga las pruebas de Integración de Sistemas Muy Grandes (VLSI <i>Very Large System Integration</i>) en el Instituto Tecnológico de Kyushu."
-        },
-        {
-            title: "about-body",
-            en: "Kelvin worked in Technological University of Panama (2022-2025) focusing on high voltage electrical systems design, with an emphasis on innovation and real-world applications. Throughout his career, he designed and installed complex electrical systems, including lightning rods, grounding systems, and reactive capacitors compensation systems. He set benchmarks for nationwide electricity controls in universities, utilizing SCADA systems and Power BI to enhance decision-making processes.",
-            zh: "在我的职业生涯中,我曾有机会设计和安装复杂的电气系统,包括避雷针、接地系统和无功电容补偿系统。我曾参与组织和制定全国性大学电力控制的基准,并利用SCADA系统和Power BI来优化决策流程",
-            ja: "これまでのキャリアを通して、避雷針、接地システム、リアクトルコンデンサ補償システムなど、複雑な電気システムの設計と設置に携わってきました。また、大学において、SCADAシステムとPower BIを活用して意思決定プロセスを強化し、全国規模の電力制御のベンチマーク設定と組織化に取り組んできました。",
-            es: "Kelvin trabajó en la Universidad Tecnológica de Panamá (2022-2025), enfocándose en el diseño de sistemas eléctricos de media y alta tensión, con énfasis en la innovación y las aplicaciones prácticas. A lo largo de su carrera, diseñó e instaló sistemas eléctricos complejos, incluyendo pararrayos, sistemas de puesta a tierra y sistemas de compensación de condensadores reactivos. Estableció puntos de referencia para los controles eléctricos a nivel nacional en universidades, utilizando sistemas SCADA y Power BI para optimizar los procesos de toma de decisiones."
-        },
-        {
-            title: "about-body1",
-            en: "Kelvin conducted and organized power quality analysis tests across both public and private sectors nationwide. Additionally, I have experience designing and overseeing high-voltage systems (13.8kV and derivatives) ensuring safety and efficiency in electrical distribution.",
-            zh: "我曾在全国范围内组织和开展公共和私营部门的电能质量分析测试。此外,我拥有设计和监管高压系统（13.8kV及其衍生电压）的经验,确保配电的安全性和效率",
-            ja: "全国の公共部門と民間部門の両方で電力品質分析テストを実施・組織化してきました。さらに、配電の安全性と効率性を確保する高電圧システム（13.8kVおよび派生電圧）の設計と監視の経験もあります。",
-            es: "Kelvin realizó y organizó pruebas de análisis de calidad de energía en los sectores público y privado de todo el país. Además, tiene experiencia en el diseño y la supervisión de sistemas de alta tensión (13.8 kV y derivados), garantizando la seguridad y la eficiencia en la distribución eléctrica."
-        },
-        {
-            title: "about-body2",
-            en: "On the electronic side, he has worked on several innovative projects, including electromechanical teleoperation, spectral analysis for watermelons, and the development of the first Panamanian patent for nanoelectrical circuits. Kelvin has also designed a scoring board for the university's baseball field and contributed to multiple international publications and conferences, including IEEE and Neurocomputing (Elsevier).",
-            zh: "在电子领域,我参与了多个创新项目,包括机电远程操控、西瓜光谱分析以及巴拿马首个纳米电路专利的开发。我还为大学棒球场设计了记分牌,并为包括IEEE和Neurocomputing（Elsevier）在内的多家国际期刊和会议做出了贡献。",
-            ja: "電子工学分野では、電気機械遠隔操作、スイカのスペクトル分析、パナマ初のナノ電気回路特許の開発など、いくつかの革新的なプロジェクトに携わってきました。また、大学の野球場のスコアボードを設計し、IEEEやNeurocomputing（Elsevier）など、複数の国際的な出版物や会議に貢献してきました。",
-            es: "En el ámbito electrónico, ha trabajado en varios proyectos innovadores, incluyendo teleoperación electromecánica, análisis espectral para sandías y el desarrollo de la primera patente panameña para circuitos nanoeléctricos. Kelvin también diseñó un marcador para el campo de béisbol de la universidad y colaboró ​​en múltiples publicaciones y conferencias internacionales, incluyendo IEEE y Neurocomputing (Elsevier)."
-        },
-        {
-            title: "about-body3",
-            en: "In 2023 and 2024 Kelvin served as judge for Robocup Jr. international competitions in Europe and America. Furthermore, he has designed and build low-cost robotic kits for public schools to help students develop robotics skills. He also contributed to specialized electronics projects aimed at assisting disabled people, such as developing a smart wheelchair for paraplegic individuals.",
-            zh: "我很荣幸受邀担任欧美国际竞赛的评委。此外,我还参与了为公立学校设计和制造低成本机器人套件的​​工作,以帮助学生培养机器人技能。我还参与了一些旨在帮助残疾人士的专用电子项目,例如为截瘫患者开发智能轮椅。",
-            ja: "ヨーロッパやアメリカで開催された国際大会の審査員に招かれたことを光栄に思います。さらに、公立学校向けに、生徒のロボット工学スキル向上を支援するための低価格ロボットキットの設計・製作にも携わってきました。また、下半身麻痺の方のためのスマート車椅子の開発など、障害者支援を目的とした専門的なエレクトロニクスプロジェクトにも貢献してきました。",
-            es: "En 2023 y 2024, Kelvin fue jurado en las competiciones de Robocup Jr. en Europa y América. Además, diseñó y construyó kits robóticos de bajo costo para escuelas públicas, ayudando a los estudiantes a desarrollar habilidades robóticas. También contribuyó a proyectos electrónicos especializados para ayudar a personas con discapacidad, como el desarrollo de una silla de ruedas inteligente para personas parapléjicas."
-        },
-        {
-            title: "about-conclusion",
-            en: "Kelvin received his B.S. in Electrical and Electronics Engineering from Technological University of Panama (2022)",
-            zh: "我一直在寻找新的机会,以创新的方式运用我的知识和技能。如果您想了解更多关于我的工作或寻求合作,欢迎浏览我的项目或与我联系！",
-            ja: "私は常に、自分の知識とスキルを革新的な方法で応用できる新しい機会を探しています。私の仕事についてもっと知りたい方、コラボレーションをご希望の方は、お気軽に私のプロジェクトをご覧いただくか、ご連絡ください。",
-            es: "Kelvin obtuvo su licenciatura en Ingeniería Eléctrica y Electrónica en la Universidad Tecnológica de Panamá (2022)"
-        }
-    ];
-
-    //to add into the github page
-    function jsonToTable(jsonData, containerId) {
-        const language = document.getElementById("lang-select").value;
-        let table = "<table style='width: 100%; border-collapse: collapse; margin-top: 2rem;'>";
-
-        fetch(jsonData)  // Ensure this is the correct path to your JSON file
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                return response.json();
-            })
-            .then(data => {
-                table += "<thead><tr style='background-color: var(--secondary-color);'>";
-
-                //headers
-                const headers = ["Project Name", "Summary"]
-                headers.forEach(header => {
-                    table += `<th style="padding: 1rem; text-align: center;">${header}</th>`;
-                });
-                table += "</tr></thead>";
-                table += "<tbody>";
-                //body 
-                data.forEach(row => {
-                    table += "<tr style='padding: 1rem; border:5px solid #999; text-align:left'>";
-                    table += `<td><a href="details.html?projectId=${row["id"]}" target="_blank" style="color: var(--accent-color); text-decoration: none;">${row["title"][language]}</a></td>`;
-                    table += `<td>${row["summary"][language]}</td>`;
-                    table += "</tr>";
-                });
-                table += "</tbody></table>";
-                document.getElementById(containerId).innerHTML = table;
-            })
-    }
-
-    function updateAboutSection() {
-        const language = document.getElementById("lang-select").value;
-
-        const langElements = document.querySelectorAll("[data-lang]");
-
-        langElements.forEach(element => {
-            const key = element.getAttribute('data-lang');
-            about.forEach(item => {
-                if (key === item["title"]) {
-                    const translatedText = item[language] ? item[language] : element.textContent;
-                    element.innerHTML = translatedText || element.innerHTML;
-                }
-            })
-        });
-    }
 
     function updateCollaborationsSection() {
         const container = document.querySelector(".collab-carousel");
@@ -344,244 +266,274 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // ---------------------- PORTFOLIO VIEW FUNCTIONS ----------------------
+    /* =========================
+       GLOBAL STATE
+    ========================== */
+    let data = [], filtered = [];
+    const $ = s => document.querySelector(s);
+    const $$ = s => document.querySelectorAll(s);
+    const langSelect = $("#lang-select");
 
-    // Language helper for portfolio fields
-    function getTranslatedField(field) {
-        const lang = document.getElementById('lang-select').value;
-        if (typeof field === 'object' && !Array.isArray(field)) {
-            return field[lang] || Object.values(field)[0];
-        }
-        return field;
-    }
+    /* =========================
+       UTILITIES
+    ========================== */
 
-    // Filter portfolio data
-    function filterData(category) {
-        if (category === 'all') {
-            filteredData = [...data];
-        } else {
-            filteredData = data.filter(item =>
-                (typeof item.category === 'object' ? item.category.en : item.category) === category
+    /** Get current selected language */
+    const lang = () => langSelect.value;
+
+    /** Translate object field by language */
+    const tField = f =>        
+        typeof f === "object" && !Array.isArray(f)
+            ? f[lang()] || Object.values(f)[0]
+            : f;
+
+    /** Format date (supports 'today') */
+    const formatDate = d =>
+        new Intl.DateTimeFormat(lang(), {
+            weekday: "short", month: "long", day: "numeric", year: "numeric"
+        }).format(d.toLowerCase() === "today" ? new Date() : new Date(d));
+
+    /** Sort projects by finish date desc */
+    const sortByDate = arr =>
+        arr.sort((a, b) =>
+            (b.finish.toLowerCase() === "today" ? new Date() : new Date(b.finish)) -
+            (a.finish.toLowerCase() === "today" ? new Date() : new Date(a.finish))
+        );
+
+    /** Generate links button group */
+    const renderLinks = links =>
+        links && typeof links === "object"
+            ? `<div class="btn-group">
+          ${Object.entries(links)
+                .map(([l, u]) => `<a href="${u}" target="_blank" class="btn">More info in ${l}</a>`)
+                .join("")}
+         </div>`
+            : "";
+
+    /** Generate optional profile image */
+    const renderImage = (src, cls, alt) =>
+        src
+            ? `<div class="${cls}">
+           <img src="${src}" alt="${alt}" loading="lazy"/>
+         </div>`
+            : "";
+
+    /** Fetch JSON helper */
+    const fetchJSON = url =>
+        fetch(url).then(r => {
+            if (!r.ok) throw new Error(`Failed to load ${url}`);
+            return r.json();
+        });
+
+    /* =========================
+       TABLE GENERATOR
+    ========================== */
+
+    /**
+     * Render JSON file into table
+     * @param {string} url
+     * @param {string} containerId
+     */
+    const jsonToTable = (url, containerId) => {
+        fetchJSON(url).then(rows => {
+            const html = `
+        <table style="width:100%;border-collapse:collapse;margin-top:2rem;">
+          <thead>
+            <tr style="background:var(--secondary-color);">
+              <th style="padding:1rem;text-align:center;">Project Name</th>
+              <th style="padding:1rem;text-align:center;">Summary</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${rows.map(r => `
+              <tr style="border:5px solid #999;">
+                <td>
+                  <a href="details.html?projectId=${r.id}" target="_blank"
+                     style="color:var(--accent-color);text-decoration:none;">
+                     ${r.title[lang()]}
+                  </a>
+                </td>
+                <td>${r.summary[lang()]}</td>
+              </tr>
+            `).join("")}
+          </tbody>
+        </table>`;
+            $("#" + containerId).innerHTML = html;
+        });
+    };
+
+    /* =========================
+       PORTFOLIO FILTERING
+    ========================== */
+
+    /**
+     * Filter projects by category
+     * @param {string} category
+     */
+    const filterData = category => {
+        filtered = category === "all"
+            ? [...data]
+            : data.filter(i =>
+                (typeof i.category === "object" ? i.category.en : i.category) === category
             );
-        }
+        sortByDate(filtered);
+        renderActiveView();
+    };
 
-        // Sort filteredData by most recent first
-        filteredData.sort((a, b) => {
-            const dateA = a.finish.toLowerCase() === 'today' ? new Date() : new Date(a.finish);
-            const dateB = b.finish.toLowerCase() === 'today' ? new Date() : new Date(b.finish);
-            return dateB - dateA;
+    /** Detect active view */
+    const getActiveView = () =>
+        $(".timeline.active") ? "timeline"
+            : $(".accordion.active") ? "accordion"
+                : "interactive";
+
+    /** Switch UI mode */
+    const switchViewMode = mode => {
+        ["timeline", "accordion", "interactive"]
+            .forEach(v => $("." + v)?.classList.remove("active"));
+        $("." + mode)?.classList.add("active");
+        renderActiveView();
+    };
+
+    /** Render current active view */
+    const renderActiveView = () => {
+        const view = getActiveView();
+        view === "timeline" ? renderTimeline()
+            : view === "accordion" ? renderAccordion()
+                : renderInteractive();
+    };
+
+    /* =========================
+       VIEW RENDERERS
+    ========================== */
+
+    const renderTimeline = () => {
+        const c = $("#timeline-container");
+        if (!c) return;
+        c.innerHTML = "";
+        sortByDate(filtered).forEach((i, idx) => {            
+            c.innerHTML += `
+        <div class="timeline-item ${idx % 2 ? "right" : "left"}">
+          <div class="timeline-content clickable-card"
+               data-href="details1.html?projectId=${i.id}">
+            ${renderImage(i.profile_image, "timeline-profile-image", tField(i.title))}
+            <h3>${tField(i.title)}</h3>
+            <p class="institution">${tField(i.institution)}</p>
+            <p>${tField(i.participation)}</p>
+            <p class="date">${formatDate(i.finish)}</p>
+            ${renderLinks(i.links)}
+          </div>
+        </div>`;
         });
+    };
 
-        const activeView =
-            document.querySelector('.timeline')?.classList.contains('active') ? 'timeline' :
-                document.querySelector('.accordion')?.classList.contains('active') ? 'accordion' :
-                    'interactive';
+    const renderAccordion = () => {
+        const c = $("#accordion-container");
+        if (!c) return;
+        c.innerHTML = "";
+        if (!filtered.length) return c.innerHTML = "<p>No projects found.</p>";
 
-        switchViewMode(activeView);
-    }
-
-    // Switch portfolio views
-    function switchViewMode(viewMode) {
-        document.querySelector('.timeline')?.classList.remove('active');
-        document.querySelector('.accordion')?.classList.remove('active');
-        document.querySelector('.interactive')?.classList.remove('active');
-
-        if (viewMode === 'timeline') {
-            document.querySelector('.timeline')?.classList.add('active');
-            renderTimeline();
-        } else if (viewMode === 'accordion') {
-            document.querySelector('.accordion')?.classList.add('active');
-            renderAccordion();
-        } else {
-            document.querySelector('.interactive')?.classList.add('active');
-            renderInteractive();
-        }
-    }
-
-    function formatDate(dateStr) {
-        const lang = document.getElementById("lang-select").value;
-        const date = dateStr.toLowerCase() === 'today' ? new Date() : new Date(dateStr);
-        return new Intl.DateTimeFormat(lang, {
-            weekday: 'short',
-            month: 'long',
-            day: 'numeric',
-            year: 'numeric'
-        }).format(date);
-    }
-
-    function renderTimeline() {
-        const container = document.getElementById('timeline-container');
-        if (!container) return;
-
-        container.innerHTML = '';
-
-        // Sort filteredData by most recent first
-        filteredData.sort((a, b) => {
-            const dateA = a.finish.toLowerCase() === 'today' ? new Date() : new Date(a.finish);
-            const dateB = b.finish.toLowerCase() === 'today' ? new Date() : new Date(b.finish);
-            return dateB - dateA;
-        });
-
-        filteredData.forEach((item, index) => {
-            const side = index % 2 === 0 ? 'left' : 'right';
-            const moreInfoButton = item.links ?
-                `<a href="${item.links}" target="_blank" class="btn">More Info</a>` : '';
-
-            const timelineItem = document.createElement('div');
-            timelineItem.classList.add('timeline-item', side);
-            timelineItem.innerHTML = `
-            <h3>${getTranslatedField(item.details)}</h3>
-            <p><strong>${getTranslatedField(item.institution)}</strong></p>
-            <p>${getTranslatedField(item.participation)}</p>
-            <p><em>${formatDate(item.finish)}</em></p>
-            ${moreInfoButton}
-        `;
-            container.appendChild(timelineItem);
-        });
-    }
-
-    function renderAccordion() {
-        const container = document.getElementById('accordion-container');
-        container.innerHTML = '';
-
-        if (!filteredData || filteredData.length === 0) {
-            container.innerHTML = '<p>No projects found.</p>';
-            return;
-        }
-
-        // Group projects by localized institution
         const groups = {};
-        filteredData.forEach(item => {
-            const institution = getTranslatedField(item.institution); // localized institution
-            if (!groups[institution]) groups[institution] = [];
-            groups[institution].push(item);
+        filtered.forEach(i => {
+            const key = tField(i.institution);
+            (groups[key] ||= []).push(i);
         });
 
-        // Create accordion items for each institution
-        for (const institution in groups) {
-            const categoryDiv = document.createElement('div');
-            categoryDiv.className = 'accordion-category';
-
-            const header = document.createElement('h3');
-            header.textContent = institution;
-            categoryDiv.appendChild(header);
-
-            // Container for the projects under this institution
-            const itemsContainer = document.createElement('div');
-            itemsContainer.className = 'accordion-items show'; // visible by default
-
-            // Display each project in a grid inside this institution
-            groups[institution].forEach(item => {
-                const moreInfoButton = item.links ?
-                    `<a href="${item.links}" target="_blank" class="btn small">More Info</a>` : '';
-
-                const projectDiv = document.createElement('div');
-                projectDiv.className = 'accordion-project';
-                projectDiv.innerHTML = `
-                <h4>${getTranslatedField(item.details)}</h4>
-                <p><strong>${getTranslatedField(item.participation)}</strong></p>
-                <p><em>${formatDate(item.finish)}</em></p>                
-                ${moreInfoButton}
-            `;
-                itemsContainer.appendChild(projectDiv);
-            });
-
-            categoryDiv.appendChild(itemsContainer);
-            container.appendChild(categoryDiv);
-
-            // Optional: toggle visibility when clicking the institution header
-            header.addEventListener('click', () => {
-                itemsContainer.classList.toggle('show');
-            });
-        }
-    }
-
-    function renderInteractive() {
-        const container = document.getElementById('interactive-container');
-        container.innerHTML = '';
-
-        if (!filteredData || filteredData.length === 0) {
-            container.innerHTML = '<p style="color:#888;">No projects found.</p>';
-            return;
-        }
-
-        // Sort by most recent
-        filteredData.sort((a, b) => new Date(b.finish) - new Date(a.finish));
-
-        filteredData.forEach(item => {
-            const category = getTranslatedField(item.category);
-            const moreInfoButton = item.links ?
-                `<a href="${item.links}" target="_blank" class="btn small">More Info</a>` : '';
-
-            const card = document.createElement('div');
-            card.className = `interactive-card category-${category.replace(/\s+/g, '-')}`;
-            card.innerHTML = `
-            <div class="card-content">
-                <h4>${getTranslatedField(item.details)}</h4>
-                <p><strong>${getTranslatedField(item.participation)}</strong></p>
-                <p class="institution">${getTranslatedField(item.institution)}</p>
-                <p class="dates">${formatDate(item.finish)}</p>
-                ${moreInfoButton}
-            </div>
-        `;
-            container.appendChild(card);
+        Object.entries(groups).forEach(([inst, items]) => {
+            const block = document.createElement("div");
+            block.className = "accordion-category";
+            block.innerHTML = `
+        <h3>${inst}</h3>
+        <div class="accordion-items show">
+          ${items.map(i => `
+            <div class="accordion-project">
+              ${renderImage(i.profile_image, "accordion-profile-image", tField(i.title))}
+              <h4>${tField(i.title)}</h4>
+              <p><strong>${tField(i.participation)}</strong></p>
+              <p><em>${formatDate(i.finish)}</em></p>
+              ${renderLinks(i.links)}
+            </div>`).join("")}
+        </div>`;
+            block.querySelector("h3")
+                .addEventListener("click", () =>
+                    block.querySelector(".accordion-items").classList.toggle("show"));
+            c.appendChild(block);
         });
-    }
+    };
 
+    const renderInteractive = () => {
+        const c = $("#interactive-container");
+        if (!c) return;
+        c.innerHTML = "";
+        if (!filtered.length)
+            return c.innerHTML = '<p style="color:#888;">No projects found.</p>';
 
-
-    // Load portfolio JSON
-    function loadPortfolioData() {
-        fetch('./data/portfolio.json')
-            .then(response => {
-                if (!response.ok) throw new Error('Failed to load JSON data');
-                return response.json();
-            })
-            .then(json => {
-                data = [...json];
-                filteredData = [...json];
-                filterData('all');
-                switchViewMode('timeline');
-            })
-            .catch(err => console.error('Error loading portfolio JSON:', err));
-    }
-
-    // ---------------------- INITIALIZATION ----------------------
-    function initializeAllData() {
-        const lang = document.getElementById("lang-select").value;
-        updateAboutSection();  // existing
-        jsonToTable("./data/projects.json", "tableContainer");  // existing
-        updateCollaborationsSection()
-        loadPortfolioData();  // <-- integrated portfolio loader
-        document.querySelectorAll("[data-lang]").forEach(el => {
-            const key = el.getAttribute("data-lang");
-            if (translations[lang][key]) el.innerHTML = translations[lang][key];
+        sortByDate(filtered).forEach(i => {
+            c.innerHTML += `
+        <div class="interactive-card clickable-card category-${i.category.en}"
+             data-href="details1.html?projectId=${i.id}">
+          ${renderImage(i.profile_image, "interactive-profile-image", tField(i.title))}
+          <div class="card-content">
+            <h4>${tField(i.title)}</h4>
+            <p><strong>${tField(i.participation)}</strong></p>
+            <p class="institution">${tField(i.institution)}</p>
+            <p class="dates">${formatDate(i.finish)}</p>
+            ${renderLinks(i.links)}
+          </div>
+        </div>`;
         });
-    }
+    };
 
-    // ---------------------- LANGUAGE HANDLING ----------------------
-    function detectUserLanguage() {
-        const userLang = navigator.language || navigator.userLanguage;
-        let language = "en";
-        if (userLang.includes("zh")) language = "zh";
-        else if (userLang.includes("ja")) language = "ja";
-        else if (userLang.includes("es")) language = "es";
-        return language;
-    }
+    /* =========================
+       LANGUAGE + INIT
+    ========================== */
 
-    function setLanguage() {
-        const language = detectUserLanguage();
-        document.getElementById("lang-select").value = language;
-        initializeAllData();
-    }
+    /** Detect browser language */
+    const detectLang = () =>
+        navigator.language?.includes("zh") ? "zh"
+            : navigator.language?.includes("ja") ? "ja"
+                : navigator.language?.includes("es") ? "es"
+                    : "en";
 
-    document.getElementById("lang-select").addEventListener("change", e => {
-        initializeAllData();
+    /** Apply translations */
+    const applyTranslations = translations => {
+        $$("[data-lang]").forEach(el => {
+            const key = el.dataset.lang;            
+            if (translations[lang()]?.[key])
+                el.innerHTML = translations[lang()][key];
+        });
+    };
+
+    /** Initialize app */
+    function init() {        
+        applyTranslations(translations);
+        jsonToTable("data/project_info.json", "tableContainer");
+        updateCollaborationsSection();
+        fetchJSON("data/information.json").then(j => {
+            data = filtered = j;
+            filterData("all");
+            switchViewMode("timeline");
+        });
+    };
+
+    /* =========================
+       EVENTS
+    ========================== */
+
+    document.addEventListener("click", e => {
+        if (e.target.closest("a,.btn")) return;
+        const card = e.target.closest(".clickable-card");
+        if (card?.dataset.href) window.open(card.dataset.href, "_blank");
     });
 
-    // ---------------------- EXPOSE FUNCTIONS GLOBALLY ----------------------
+    langSelect.addEventListener("change", () => init(window.translations));
     window.switchViewMode = switchViewMode;
     window.filterData = filterData;
 
-    // ---------------------- INITIAL LOAD ----------------------
-    setLanguage();
+    /* =========================
+       START
+    ========================== */
+
+    langSelect.value = detectLang();
+    init(window.translations);
+
 });

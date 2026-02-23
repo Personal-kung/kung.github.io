@@ -171,3 +171,72 @@ model-viewer {
   width: 500px;
   height: 500px;
 }
+
+.links-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    font-family: var(--font-main);
+    color: var(--text-color);
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.links-table th,
+.links-table td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--bg-color);
+    text-align: left;
+}
+
+.links-table th {
+    background-color: var(--secondary-color);
+    font-weight: 600;
+    color: var(--accent-color);
+}
+
+.links-table td {
+    color: var(--text-color);
+}
+
+.links-table a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+.links-table a:hover {
+    color: #81d4fa; /* slightly lighter accent on hover */
+    text-decoration: underline;
+}
+
+/* Optional: Zebra rows for readability */
+.links-table tbody tr:nth-child(even) {
+    background-color: #1a1a1a;
+}
+
+/* testing for adding images carousel */
+/* ===== GOOGLE-STYLE JUSTIFIED GALLERY ===== */
+.justified-gallery {
+  width: 100%;
+}
+
+.justified-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.justified-row img {
+  display: block;
+  border-radius: 8px;
+  object-fit: contain;
+  transition: transform .25s ease, box-shadow .25s ease;
+  cursor: pointer;
+}
+
+.justified-row img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 18px rgba(0,0,0,0.18);
+}
