@@ -3,54 +3,43 @@ let filteredData = [];  // A copy of the data for filtering purposes
 
 // Wait for the DOM to fully load
 document.addEventListener("DOMContentLoaded", () => {
-    // Helper function to format and compare dates (assuming dates are in 'YYYY-MM-DD' format)
-    function parseDate(dateString) {
-        const [month, day, year] = dateString.split('/');  // Split by '/'
-        return new Date(year, month - 1, day); // month is 0-based
-    }
+
 
     // Set current year in footer
     document.getElementById("year").textContent = new Date().getFullYear();
 
-    // ===== HERO BACKGROUND CAROUSEL (dynamic) =====
-    const heroBg = document.getElementById("hero-bg");
+    async function loadProfiles() {
+        const grid = document.getElementById("tileGrid");
+        if (!grid) return;
 
-    // Array of image paths (make sure these are correct relative paths)
-    const heroImages = [
-        "images/image1.JPG",
-        "images/image2.jpg",
-        "images/image3.JPG",
-        "images/image4.jpg",
-        "images/image5.jpg",
-        "images/image6.jpg",
-        "images/image7.jpg",
-        "images/image8.jpg",
-        "images/image10.jpg",
-        "images/image11.png",
-        "images/image12.jpg",
-        "images/image13.png"
-    ];
+        try {
+            const response = await fetch("data/information.json");
+            const data = await response.json();
+            const profiles = Array.isArray(data) ? data : data.profiles;
+            if (!profiles) return;
 
-    if (!heroBg) {
-        console.error("⚠️ hero-bg element not found.");
-        return;
+            const fragment = document.createDocumentFragment();
+
+            profiles.forEach(profile => {
+                if (!profile.profile_image) return;
+
+                const tile = document.createElement("div");
+                tile.className = "tile";
+
+                const img = document.createElement("img");
+                img.src = profile.profile_image;
+                img.loading = "lazy";
+
+                tile.appendChild(img);
+                fragment.appendChild(tile);
+            });
+
+            grid.appendChild(fragment);
+
+        } catch (error) {
+            console.error("Error loading images:", error);
+        }
     }
-
-    let current = 0;
-
-    // Function to change background image
-    const changeBackgroundImage = () => {
-        const imageUrl = `url(${heroImages[current]})`;
-
-        heroBg.style.backgroundImage = imageUrl;
-        heroBg.style.opacity = 1;  // Fade in effect
-    };
-
-    // Change the background every 4 seconds
-    setInterval(() => {
-        current = (current + 1) % heroImages.length;
-        changeBackgroundImage();
-    }, 8000);
 
     // ----- Multi-language support -----
     const translations = {
@@ -64,7 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
             "hero-sub": "Academic • Professional • Researcher",
             "hero-btn-work": "View Work",
             "hero-btn-contact": "Get in Touch",
-            "about-title": "About Me",
+            "about-title": "Kelvin Kung",
             "about-intro": "Kelvin Kung is an Electrical and Electronics Engineer. Currently researching Very Large System Integration (VLSI) testing in Kyushu Institute of Technology",
             "about-body": "Kelvin worked in Technological University of Panama (2022-2025) focusing on high voltage electrical systems design, with an emphasis on innovation and real-world applications. Throughout his career, he designed and installed complex electrical systems, including lightning rods, grounding systems, and reactive capacitors compensation systems. He set benchmarks for nationwide electricity controls in universities, utilizing SCADA systems and Power BI to enhance decision-making processes.",
             "about-body1": "Kelvin conducted and organized power quality analysis tests across both public and private sectors nationwide. Additionally, I have experience designing and overseeing high-voltage systems (13.8kV and derivatives) ensuring safety and efficiency in electrical distribution.",
@@ -107,7 +96,7 @@ document.addEventListener("DOMContentLoaded", () => {
             "hero-sub": "Académico • Profesional • Investigador",
             "hero-btn-work": "Ver Trabajo",
             "hero-btn-contact": "Contactar",
-            "about-title": "Acerca de mi",
+            "about-title": "Kelvin Kung",
             "about-intro": "Kelvin Kung es Ingeniero Eléctrico y Electrónico. Actualmente investiga las pruebas de Integración de Sistemas Muy Grandes (VLSI <i>Very Large System Integration</i>) en el Instituto Tecnológico de Kyushu.",
             "about-body": "Kelvin trabajó en la Universidad Tecnológica de Panamá (2022-2025), enfocándose en el diseño de sistemas eléctricos de media y alta tensión, con énfasis en la innovación y las aplicaciones prácticas. A lo largo de su carrera, diseñó e instaló sistemas eléctricos complejos, incluyendo pararrayos, sistemas de puesta a tierra y sistemas de compensación de condensadores reactivos. Estableció puntos de referencia para los controles eléctricos a nivel nacional en universidades, utilizando sistemas SCADA y Power BI para optimizar los procesos de toma de decisiones.",
             "about-body1": "Kelvin realizó y organizó pruebas de análisis de calidad de energía en los sectores público y privado de todo el país. Además, tiene experiencia en el diseño y la supervisión de sistemas de alta tensión (13.8 kV y derivados), garantizando la seguridad y la eficiencia en la distribución eléctrica.",
@@ -150,7 +139,7 @@ document.addEventListener("DOMContentLoaded", () => {
             "hero-sub": "学术 • 职业 • 研究者",
             "hero-btn-work": "查看作品",
             "hero-btn-contact": "联系我",
-            "about-title": "关于我",
+            "about-title": "龚颖贤",
             "about-intro": "龚颖贤是一名电气与电子工程师,目前在九州工业大学从事超大型系统集成(VLSI)测试方面的研究。",
             "about-body": "凯尔文于2022年至2025年在巴拿马科技大学工作,专注于高压电力系统设计,尤其注重创新和实际应用。在他的职业生涯中,他设计并安装了复杂的电力系统,包括避雷针、接地系统和无功电容补偿系统。他利用SCADA系统和Power BI来优化决策流程,为全国高校的电力控制树立了标杆。",
             "about-body1": "颖贤负责组织和开展全国范围内的公共和私营部门的电能质量分析测试。此外,我拥有设计和监管高压系统(13.8kV及其衍生电压)的经验,确保配电的安全性和效率。",
@@ -193,7 +182,7 @@ document.addEventListener("DOMContentLoaded", () => {
             "hero-sub": "学術 • プロフェッショナル • 研究者",
             "hero-btn-work": "作品を見る",
             "hero-btn-contact": "お問い合わせ",
-            "about-title": "私について",
+            "about-title": "クン・ケルビンについて",
             "about-intro": "クン・ケルビンさんは電気電子工学のエンジニアです。現在、九州工業大学で超大規模システム統合(VLSI)のテストに関する研究を行っています。",
             "about-body": "クンさんはパナマ工科大学(2022～2025年)に勤務し、高電圧電気システムの設計、特にイノベーションと実社会への応用に重点を置いて研究を行いました。キャリアを通じて、避雷針、接地システム、リアクタンスコンデンサ補償システムなど、複雑な電気システムの設計・設置に携わりました。SCADAシステムとPower BIを活用した意思決定プロセスの改善により、全国の大学における電力制御のベンチマークを確立しました。",
             "about-body1": "クンさんは、全国の公共部門と民間部門の両方で電力品質分析試験を実施・運営してきました。さらに、配電の安全性と効率性を確保する高電圧システム(13.8kVおよび派生電圧)の設計と監督の経験も豊富です。",
@@ -282,7 +271,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const lang = () => langSelect.value;
 
     /** Translate object field by language */
-    const tField = f =>        
+    const tField = f =>
         typeof f === "object" && !Array.isArray(f)
             ? f[lang()] || Object.values(f)[0]
             : f;
@@ -410,7 +399,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const c = $("#timeline-container");
         if (!c) return;
         c.innerHTML = "";
-        sortByDate(filtered).forEach((i, idx) => {            
+        sortByDate(filtered).forEach((i, idx) => {
             c.innerHTML += `
         <div class="timeline-item ${idx % 2 ? "right" : "left"}">
           <div class="timeline-content clickable-card"
@@ -497,14 +486,14 @@ document.addEventListener("DOMContentLoaded", () => {
     /** Apply translations */
     const applyTranslations = translations => {
         $$("[data-lang]").forEach(el => {
-            const key = el.dataset.lang;            
+            const key = el.dataset.lang;
             if (translations[lang()]?.[key])
                 el.innerHTML = translations[lang()][key];
         });
     };
 
     /** Initialize app */
-    function init() {        
+    function init() {
         applyTranslations(translations);
         jsonToTable("data/project_info.json", "tableContainer");
         updateCollaborationsSection();
@@ -513,6 +502,7 @@ document.addEventListener("DOMContentLoaded", () => {
             filterData("all");
             switchViewMode("timeline");
         });
+        loadProfiles();
     };
 
     /* =========================

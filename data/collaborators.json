@@ -1,26 +1,30 @@
 [
     {
-        "name": "Wen Xiaoqing",
         "image_url":"images/wenXiaoquin.jpg",
+        "webpage":"https://www.vlab.cse.kyutech.ac.jp/~wen/index.htm",
         "en": {
+            "name": "Wen Xiaoqing",
             "Title": "PhD",
             "University": "Kyushu Institute of Technology (Kyutech)",
             "Branch": "Wen Lab",
             "Country": "Japan"
         },
         "es": {
+            "name": "Wen Xiaoqing",
             "Title": "Dr.",
             "University": "Instituto Tecnologico de Kyushu (Kyutech)",
             "Branch": "Laboratorio Wen",
             "Country": "Japón"
         },
         "zh": {
+            "name": "温暁青",
             "Title": "博士",
             "University": "九州工业大学",
             "Branch": "温实验室",
             "Country": "日本"
         },
         "ja": {
+            "name": "温暁青",
             "Title": "博士",
             "University": "九州工業大学",
             "Branch": "温研究所",
@@ -28,15 +32,16 @@
         }
     },
     {
-        "name": "Danilo Caceres-Hernandez",
         "image_url":"images/danilo.caceres.jpg",
         "en": {
+            "name": "Danilo Caceres-Hernandez",
             "Title": "PhD",
             "University": "Technological University of Panama (UTP)",
             "Branch": "Smart System Labs (LabSI)",
             "Country": "Panama"
         },
         "es": {
+            "name": "Danilo Cáceres-Hernandez",
             "Title": "Dr.",
             "University": "Universidad Tecnológica de Panamá (UTP)",
             "Branch": "Laboratorio de Sistemas Inteligentes (LabSI)",
