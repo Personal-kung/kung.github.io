@@ -63,7 +63,7 @@ header {
 .banner {
   width: 100vw;
   /* full width even if parent is centered */
-  max-height: 500px;
+  max-height: 600px;
   /* optional height cap */
   overflow: hidden;
   /* crop vertical overflow */
@@ -181,7 +181,7 @@ header {
 
 section {
   padding: 6rem 1rem;
-  max-width: 1000px;
+  max-width: 1500px;
   margin: auto
 }
 
