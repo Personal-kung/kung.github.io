@@ -358,7 +358,6 @@ model-viewer {
 /* ================= TIMELINE WRAPPER ================= */
 .timeline {
   position: relative;
-  max-width: 1100px;
   margin: 0 auto;
   padding: 3rem 1rem;
 }
@@ -634,7 +633,7 @@ model-viewer {
 /* INTERACTIVE VIEW */
 #interactive-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(3,1fr);
   gap: 1.5rem;
   padding: 1rem
 }

@@ -234,15 +234,13 @@ document.addEventListener("DOMContentLoaded", () => {
             })
             .then(collaborators => {
                 collaborators.forEach(item => {
-                    const localized = item[language] || item["en"]; // fallback to English
-
                     const div = document.createElement("div");
                     div.className = "collab-item";
                     div.innerHTML = `
                     <div class="collab-description">
-                        <h3>${item.name}</h3>
-                        <p><strong>${localized.Title}</strong> — ${localized.University}</p>
-                        <p>${localized.Branch}, ${localized.Country}</p>
+                        <h3>${tField(item.name)}</h3>
+                        <p><strong>${tField(item.title)}</strong> — ${tField(item.university)}</p>
+                        <p>${(tField(item?.branch) ?? "") && `${tField(item?.branch)}, `} ${tField(item.country)}</p>
                     </div>
                     <div class="collab-photo">
                         <img src="${item.image_url}" alt="${item.name}">
