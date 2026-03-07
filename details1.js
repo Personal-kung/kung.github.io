@@ -16,9 +16,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const formatDate = d =>
     !d ? "" :
-    new Intl.DateTimeFormat(lang(), {
-      weekday: "short", month: "long", day: "numeric", year: "numeric"
-    }).format(d.toLowerCase?.() === "today" ? new Date() : new Date(d));
+      new Intl.DateTimeFormat(lang(), {
+        weekday: "short", month: "long", day: "numeric", year: "numeric"
+      }).format(d.toLowerCase?.() === "today" ? new Date() : new Date(d));
 
   const fetchJSON = url =>
     fetch(url).then(r => r.ok ? r.json() : Promise.reject(url));
@@ -36,15 +36,15 @@ document.addEventListener("DOMContentLoaded", () => {
   const renderLinks = links =>
     links && Object.keys(links).length
       ? table(
-          `<thead><tr><th>Link</th><th>URL</th></tr></thead>`,
-          Object.entries(links).map(([l, u]) =>
-            `<tr>
+        `<thead><tr><th>Link</th><th>URL</th></tr></thead>`,
+        Object.entries(links).map(([l, u]) =>
+          `<tr>
                <td>${l}</td>
                <td><a href="${u}" target="_blank" rel="noopener">${u}</a></td>
              </tr>`
-          ),
-          "links-table"
-        )
+        ),
+        "links-table"
+      )
       : "";
 
   const renderCollaborators = list =>
@@ -52,12 +52,12 @@ document.addEventListener("DOMContentLoaded", () => {
       ? `
         <h3>Project Collaborators</h3>
         ${table(
-          `<thead>
+        `<thead>
              <tr>
                <th>Name</th><th>Role</th><th>Email</th>
              </tr>
            </thead>`,
-          list.map(i => `
+        list.map(i => `
             <tr>
               <td>${t(i?.name)}</td>
               <td>${t(i?.roles)}</td>
@@ -65,8 +65,8 @@ document.addEventListener("DOMContentLoaded", () => {
                   ${i?.email || ""}
               </a></td>
             </tr>
-          `)
-        )}
+          `), "links-table"
+      )}
       `
       : "";
 
@@ -82,8 +82,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const renderContent = obj =>
     obj && typeof obj === "object"
       ? Object.entries(obj)
-          .filter(([, v]) => v && (!Array.isArray(v) || v.length))
-          .map(([k, v]) => `
+        .filter(([, v]) => v && (!Array.isArray(v) || v.length))
+        .map(([k, v]) => `
             <div class="content-section section-${k}">
               <h3>${k[0].toUpperCase() + k.slice(1)}</h3>
               <${k === "quote" ? "blockquote" : "p"}>
@@ -91,7 +91,7 @@ document.addEventListener("DOMContentLoaded", () => {
               </${k === "quote" ? "blockquote" : "p"}>
             </div>
           `)
-          .join("")
+        .join("")
       : "";
 
   /* ================= GALLERY ================= */
@@ -109,7 +109,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     Promise.all(imgs.map(img =>
       img.complete ? img :
-      new Promise(res => img.onload = () => res(img))
+        new Promise(res => img.onload = () => res(img))
     )).then(images => {
 
       let rows = [], row = [], aspect = 0;
@@ -166,7 +166,11 @@ document.addEventListener("DOMContentLoaded", () => {
           ${renderGallery(p.images)}
           <section class="abstract">
             <strong>${t(p.tags)}</strong><br>
-            ${formatDate(p.finish)} - ${formatDate(p.start)}<br>
+            ${p.finish
+            ? p.start
+              ? `${formatDate(p.finish)} - ${formatDate(p.start)}`
+              : formatDate(p.finish)
+            : ""}<br>
             <i>${t(p.summary)}</i>
           </section>
           <section class="details">
@@ -186,7 +190,7 @@ document.addEventListener("DOMContentLoaded", () => {
   /* ================= LANGUAGE ================= */
 
   const detectLang = () =>
-    ["zh","ja","es"].find(l => navigator.language?.includes(l)) || "en";
+    ["zh", "ja", "es"].find(l => navigator.language?.includes(l)) || "en";
 
   const applyTranslations = () =>
     $$("[data-lang]").forEach(el => {
