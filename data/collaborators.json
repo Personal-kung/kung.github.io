@@ -1,259 +1,240 @@
 [
     {
-        "image_url":"images/wenXiaoquin.jpg",
-        "webpage":"https://www.vlab.cse.kyutech.ac.jp/~wen/index.htm",
-        "en": {
-            "name": "Wen Xiaoqing",
-            "Title": "PhD",
-            "University": "Kyushu Institute of Technology (Kyutech)",
-            "Branch": "Wen Lab",
-            "Country": "Japan"
+        "image_url": "images/wenXiaoquin.jpg",
+        "webpage": "https://www.vlab.cse.kyutech.ac.jp/~wen/index.htm",
+        "name": {
+            "en": "Xiaoqing Wen",
+            "es": "Xiaoqing Wen",
+            "zh": "温暁青",
+            "ja": "温暁青"
         },
-        "es": {
-            "name": "Wen Xiaoqing",
-            "Title": "Dr.",
-            "University": "Instituto Tecnologico de Kyushu (Kyutech)",
-            "Branch": "Laboratorio Wen",
-            "Country": "Japón"
+        "title": {
+            "en": "PhD",
+            "es": "Dr.",
+            "zh": "博士",
+            "ja": "博士"
         },
-        "zh": {
-            "name": "温暁青",
-            "Title": "博士",
-            "University": "九州工业大学",
-            "Branch": "温实验室",
-            "Country": "日本"
+        "university": {
+            "en": "Kyushu Institute of Technology (Kyutech)",
+            "es": "Instituto Tecnologico de Kyushu (Kyutech)",
+            "zh": "九州工业大学",
+            "ja": "九州工業大学"
         },
-        "ja": {
-            "name": "温暁青",
-            "Title": "博士",
-            "University": "九州工業大学",
-            "Branch": "温研究所",
-            "Country": "日本"
+        "branch": {
+            "en": "Wen Lab",
+            "es": "Laboratorio Wen",
+            "zh": "温实验室",
+            "ja": "温研究所"
+        },
+        "country": {
+            "en": "Japan",
+            "es": "Japón",
+            "zh": "日本",
+            "ja": "日本"
         }
     },
     {
-        "image_url":"images/danilo.caceres.jpg",
-        "en": {
-            "name": "Danilo Caceres-Hernandez",
-            "Title": "PhD",
-            "University": "Technological University of Panama (UTP)",
-            "Branch": "Smart System Labs (LabSI)",
-            "Country": "Panama"
+        "image_url": "images/danilo.caceres.jpg",
+        "webpage":"https://sistemasinteligentes.utp.ac.pa",
+        "name": {
+            "en": "Danilo Caceres-Hernandez",
+            "es": "Danilo Cáceres-Hernandez"
         },
-        "es": {
-            "name": "Danilo Cáceres-Hernandez",
-            "Title": "Dr.",
-            "University": "Universidad Tecnológica de Panamá (UTP)",
-            "Branch": "Laboratorio de Sistemas Inteligentes (LabSI)",
-            "Country": "Panamá"
+        "title": {
+            "en": "PhD",
+            "es": "Dr.",
+            "zh": "博士",
+            "ja": "博士"
         },
-        "zh": {
-            "Title": "博士",
-            "University": "巴拿马科技大学 (UTP)",
-            "Branch": "智能系统实验室 (LabSI)",
-            "Country": "巴拿马"
+        "university": {
+            "en": "Technological University of Panama (UTP)",
+            "es": "Universidad Tecnológica de Panamá (UTP)",
+            "zh": "巴拿马科技大学 (UTP)",
+            "ja": "パナマ工科大学 (UTP)"
         },
-        "ja": {
-            "Title": "博士",
-            "University": "パナマ工科大学 (UTP)",
-            "Branch": "インテリジェントシステム研究所 (LabSI)",
-            "Country": "パナマ"
+        "branch": {
+            "en": "Smart System Labs (LabSI)",
+            "es": "Laboratorio de Sistemas Inteligentes (LabSI)",
+            "zh": "智能系统实验室 (LabSI)",
+            "ja": "インテリジェントシステム研究所 (LabSI)"
+        },
+        "country": {
+            "en": "Panama",
+            "es": "Panamá",
+            "zh": "巴拿马",
+            "ja": "パナマ"
         }
     },
     {
         "name": "Vanessa Lisbeth Quintero Cedeño",
-        "image_url":"images/vanessa.quintero1.jpg",
-        "en": {
-            "Title": "PhD",
-            "University": "Technological University of Panama (UTP)",
-            "Branch": "Research Group on Energy Sustainability and Telecommunications (GISENT)",
-            "Country": "Panama"
+        "image_url": "images/vanessa.quintero1.jpg",
+        "title": {
+            "en": "PhD",
+            "es": "Dra.",
+            "zh": "博士",
+            "ja": "博士"
         },
-        "es": {
-            "Title": "Dra.",
-            "University": "Universidad Tecnológica de Panamá (UTP)",
-            "Branch": "Grupo de Investigación en sostenibilidad energética y telecomunicaciones (GISENT)",
-            "Country": "Panamá"
+        "university": {
+            "en": "Technological University of Panama (UTP)",
+            "es": "Universidad Tecnológica de Panamá (UTP)",
+            "zh": "巴拿马科技大学 (UTP)",
+            "ja": "パナマ工科大学 (UTP)"
         },
-        "zh": {
-            "Title": "博士",
-            "University": "巴拿马科技大学 (UTP)",
-            "Branch": "能源可持续性和电信研究小组(GISENT)",
-            "Country": "巴拿马"
+        "branch": {
+            "en": "Research Group on Energy Sustainability and Telecommunications (GISENT)",
+            "es": "Grupo de Investigación en Sostenibilidad Energética y Telecomunicaciones (GISENT)",
+            "zh": "能源可持续性和电信研究小组(GISENT)",
+            "ja": "エネルギーの持続可能性と通信に関する研究グループ(GISENT)"
         },
-        "ja": {
-            "Title": "博士",
-            "University": "パナマ工科大学(UTP)",
-            "Branch": "エネルギーの持続可能性と通信に関する研究グループ(GISENT)",
-            "Country": "パナマ"
+        "country": {
+            "en": "Panama",
+            "es": "Panamá",
+            "zh": "巴拿马",
+            "ja": "パナマ"
         }
     },
     {
         "name": "José Iván Isaza González",
-        "image_url":"images/jose.isaza.jpeg",
-        "en": {
-            "Title": "PhD",
-            "University": "Technological University of Panama (UTP)",
-            "Branch": "",
-            "Country": "Panama"
+        "image_url": "images/jose.isaza.jpeg",
+        "title": {
+            "en": "PhD",
+            "es": "Dr.",
+            "zh": "博士",
+            "ja": "博士"
         },
-        "es": {
-            "Title": "Dr.",
-            "University": "Universidad Tecnológica de Panamá (UTP)",
-            "Branch": "",
-            "Country": "Panamá"
+        "university": {
+            "en": "Technological University of Panama (UTP)",
+            "es": "Universidad Tecnológica de Panamá (UTP)",
+            "zh": "巴拿马科技大学 (UTP)",
+            "ja": "パナマ工科大学 (UTP)"
         },
-        "zh": {
-            "Title": "博士",
-            "University": "巴拿马科技大学 (UTP)",
-            "Branch": "",
-            "Country": "巴拿马"
-        },
-        "ja": {
-            "Title": "博士",
-            "University": "パナマ工科大学(UTP)",
-            "Branch": "",
-            "Country": "パナマ"
+        "country": {
+            "en": "Panama",
+            "es": "Panamá",
+            "zh": "巴拿马",
+            "ja": "パナマ"
         }
     },
     {
         "name": "Jehwan Choi",
-        "image_url":"images/jehwan.choi.png",
-        "en": {
-            "Title": "PhD student",
-            "University": "Busan National University",
-            "Branch": "Intelligent systems (ISLab)",
-            "Country": "South Korea"
+        "image_url": "images/jehwan.choi.png",
+        "title": {
+            "en": "PhD student",
+            "es": "Estudiante de Dr.",
+            "zh": "博士学生",
+            "ja": "博士学生"
         },
-        "es": {
-            "Title": "Estudiante de Dr.",
-            "University": "Universidad Nacional de Busan",
-            "Branch": "Sistemas Inteligentes (ISLab)",
-            "Country": "Corea del Sur"
+        "university": {
+            "en": "University of Ulsan",
+            "es": "Universidad de Ulsan",
+            "zh": "蔚山大學",
+            "ja": "蔚山大学校"
         },
-        "zh": {
-            "Title": "博士学生",
-            "University": "巴拿马科技大学 (UTP)",
-            "Branch": "智能系统实 (ISLab)",
-            "Country": "韩国"
+        "branch": {
+            "en": "Intelligent systems (ISLab)",
+            "es": "Sistemas inteligentes (ISLab)",
+            "zh": "智能系统(ISLab)",
+            "ja": "インテリジェントシステム(ISLab)"
         },
-        "ja": {
-            "Title": "博士学生",
-            "University": "パナマ工科大学 (UTP)",
-            "Branch": "インテリジェントシステム (ISLab)",
-            "Country": "韓国"
+        "country": {
+            "en": "South Korea",
+            "es": "Corea del Sur",
+            "zh": "韓国",
+            "ja": "韓国"
         }
     },
     {
         "name": "Ignacio Jacinto Chang Jordan",
-        "image_url":"images/ignacio_chang.jpg",
-        "en": {
-            "Title": "PhD",
-            "University": "Technological University of Panama (UTP)",
-            "Branch": "",
-            "Country": "Panama"
+        "image_url": "images/ignacio_chang.jpg",
+        "title": {
+            "en": "PhD",
+            "es": "Dr.",
+            "zh": "博士",
+            "ja": "博士"
         },
-        "es": {
-            "Title": "Dr.",
-            "University": "Universidad Tecnológica de Panamá (UTP)",
-            "Branch": "",
-            "Country": "Panamá"
+        "university": {
+            "en": "Technological University of Panama (UTP)",
+            "es": "Universidad Tecnológica de Panamá (UTP)",
+            "zh": "巴拿马科技大学 (UTP)",
+            "ja": "パナマ工科大学 (UTP)"
         },
-        "zh": {
-            "Title": "博士",
-            "University": "巴拿马科技大学 (UTP)",
-            "Branch": "",
-            "Country": "巴拿马"
-        },
-        "ja": {
-            "Title": "博士",
-            "University": "パナマ工科大学(UTP)",
-            "Branch": "",
-            "Country": "パナマ"
+        "country": {
+            "en": "Panama",
+            "es": "Panamá",
+            "zh": "巴拿马",
+            "ja": "パナマ"
         }
     },
     {
         "name": "João Nuno De Oliveira e Silva",
-        "image_url":"images/joao.silva.jpeg",
-        "en": {
-            "Title": "PhD",
-            "University": "Lisboa University",
-            "Branch": "",
-            "Country": "Panama"
+        "image_url": "images/joao.silva.jpeg",
+        "title": {
+            "en": "PhD",
+            "es": "Dr.",
+            "zh": "博士",
+            "ja": "博士"
         },
-        "es": {
-            "Title": "Dr.",
-            "University": "Universidade de Lisboa",
-            "Branch": "",
-            "Country": "Panamá"
+        "university": {
+            "en": "Lisboa University",
+            "es": "Universidade de Lisboa",
+            "zh": "里斯本大学",
+            "ja": "リスボン大学"
         },
-        "zh": {
-            "Title": "博士",
-            "University": "里斯本大学",
-            "Branch": "",
-            "Country": "葡萄牙"
-        },
-        "ja": {
-            "Title": "博士",
-            "University": "リスボン大学",
-            "Branch": "",
-            "Country": "ポルトガル"
+        "country": {
+            "en": "Portugal",
+            "es": "Portugal",
+            "zh": "葡萄牙",
+            "ja": "ポルトガル"
         }
     },
     {
         "name": "Elida De Obaldia",
-        "image_url":"images/elida.obaldia.jpeg",
-        "en": {
-            "Title": "PhD",
-            "University": "Technological University of Panama (UTP)",
-            "Branch": "",
-            "Country": "Panama"
+        "image_url": "images/elida.obaldia.jpeg",
+        "title": {
+            "en": "PhD",
+            "es": "Dr.",
+            "zh": "博士",
+            "ja": "博士"
         },
-        "es": {
-            "Title": "Dra.",
-            "University": "Universidad Tecnológica de Panamá (UTP)",
-            "Branch": "",
-            "Country": "Panamá"
+        "university": {
+            "en": "Technological University of Panama (UTP)",
+            "es": "Universidad Tecnológica de Panamá (UTP)",
+            "zh": "巴拿马科技大学 (UTP)",
+            "ja": "パナマ工科大学 (UTP)"
         },
-        "zh": {
-            "Title": "博士",
-            "University": "巴拿马科技大学 (UTP)",
-            "Branch": "",
-            "Country": "巴拿马"
-        },
-        "ja": {
-            "Title": "博士",
-            "University": "パナマ工科大学(UTP)",
-            "Branch": "",
-            "Country": "パナマ"
+        "country": {
+            "en": "Panama",
+            "es": "Panamá",
+            "zh": "巴拿马",
+            "ja": "パナマ"
         }
     },
     {
         "name": "Jessica Yarelys Guevara Cedeño",
-        "image_url":"images/jessica_guevara.jpeg",
-        "en": {
-            "Title": "PhD",
-            "University": "Technological University of Panama (UTP)",
-            "Branch": "Center for Multidisciplinary Studies in Science, Engineering and Technology (CEMCIT AIP)",
-            "Country": "Panama"
+        "image_url": "images/jessica_guevara.jpeg",
+        "title": {
+            "en": "PhD",
+            "es": "Dra.",
+            "zh": "博士",
+            "ja": "博士"
         },
-        "es": {
-            "Title": "Dra.",
-            "University": "Universidad Tecnológica de Panamá (UTP)",
-            "Branch": "Centro de Estudios Multidisciplinarios en Ciencias-Ingeniería y Tecnología (CEMCIT AIP)",
-            "Country": "Panamá"
+        "university": {
+            "en": "Technological University of Panama (UTP)",
+            "es": "Universidad Tecnológica de Panamá (UTP)",
+            "zh": "巴拿马科技大学 (UTP)",
+            "ja": "パナマ工科大学 (UTP)"
         },
-        "zh": {
-            "Title": "博士",
-            "University": "巴拿马科技大学 (UTP)",
-            "Branch": "科学、工程和技术多学科研究中心 (CEMCIT AIP)",
-            "Country": "巴拿马"
+        "branch": {
+            "en": "Center for Multidisciplinary Studies in Science, Engineering and Technology (CEMCIT AIP)",
+            "es": "Centro de Estudios Multidisciplinarios en Ciencias-Ingeniería y Tecnología (CEMCIT AIP)",
+            "zh": "科学、工程和技术多学科研究中心 (CEMCIT AIP)",
+            "ja": "科学、工学、技術における学際研究センター (CEMCIT AIP)"
         },
-        "ja": {
-            "Title": "博士",
-            "University": "パナマ工科大学 (UTP)",
-            "Branch": "科学、工学、技術における学際研究センター (CEMCIT AIP)",
-            "Country": "パナマ"
+        "country": {
+            "en": "Panama",
+            "es": "Panamá",
+            "zh": "巴拿马",
+            "ja": "パナマ"
         }
     }
 ]
