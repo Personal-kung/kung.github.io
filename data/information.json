@@ -611,13 +611,12 @@
     },
     "profile_image": "images/tesis.jpg",
     "images": [
-      "images/tesis.jpg",
       "images/tesis1.jpg",
       "images/tesis2.jpg",
-      "images/tesis3.jpg",
       "images/tesis4.jpg",
       "images/tesis5.jpg",
-      "images/tesis6.jpg"
+      "images/tesis6.jpg",
+      "images/tesis.jpg"
     ]
   },
   {
@@ -2009,7 +2008,7 @@
       "ja": "研究"
     },
     "tags": [],
-    "start": "",
+    "start": null,
     "finish": "11/5/2025",
     "quote": null,
     "links": "",
@@ -2376,10 +2375,10 @@
       "es": "IX Congreso FIE - Semiconductores"
     },
     "summary": {
-      "en": "Panama is accelerating its semiconductor industry with a $105M national strategy over five years, supported by Senacyt, MIC, universities, and private partners. The initiative focuses on local capabilities in design, assembly, testing, and packaging of devices, involving major companies and global collaborations. Global semiconductor leaders like Samsung, Intel, and TSMC are investing billions in new factories to meet rising demand.",
-      "es": "Panamá impulsa su industria de semiconductores con una estrategia nacional de 105 millones de dólares durante cinco años, apoyada por Senacyt, MIC, universidades y socios privados. La iniciativa se centra en capacidades locales en diseño, ensamblaje, prueba y empaquetado de dispositivos, involucrando a grandes empresas y colaboraciones internacionales. Líderes mundiales como Samsung, Intel y TSMC invierten miles de millones en nuevas fábricas para satisfacer la creciente demanda.",
-      "zh": "巴拿马正在通过为期五年、总额1.05亿美元的国家战略加速半导体产业发展,由Senacyt、MIC、大学和私营合作伙伴支持。该计划侧重于本地设计、组装、测试和封装能力,涵盖主要公司和全球合作。全球半导体领导者如三星、英特尔和台积电正在投入数十亿美元建设新工厂以应对增长的需求。",
-      "ja": "パナマは、Senacyt、MIC、大学、民間パートナーの支援の下、5年間で1億500万ドルの国家戦略により半導体産業を加速しています。この取り組みは、設計、組立、テスト、パッケージングの国内能力に焦点を当て、主要企業や国際的な協力を含みます。サムスン、インテル、TSMCなどの世界的半導体企業は、需要増に対応するため新工場に数十億ドルを投資しています。"
+      "en": "This presentation masterfully bridges the gap between complex silicon engineering and the strategic rise of Central America as a global semiconductor hub. It maps the journey from design to final packaging, highlighting how regional players are now competing alongside global titans like TSMC and Samsung.",
+      "es": "Esta presentación vincula la ingeniería compleja con el ascenso de Centroamérica como centro logístico de semiconductores, detallando el proceso desde el diseño hasta el empaque final junto a líderes como TSMC y Samsung.",
+      "zh": "本演讲将复杂的工程与中美洲作为半导体物流中心的崛起联系起来，详细阐述了从设计到最终封装的流程，并重点介绍了台积电和三星等行业领军者。",
+      "ja": "このプレゼンテーションは、複雑なエンジニアリングと半導体物流拠点としての中央アメリカの台頭を結びつけ、TSMCやSamsungといったリーダー企業とともに、設計から最終パッケージングまでのプロセスを詳述しています。"
     },
     "category": {
       "en": "Professional",
@@ -2391,30 +2390,18 @@
     "start": "",
     "finish": "10/15/2025",
     "content": {
-      "problem": {
-        "en": "Despite growing global demand for semiconductors, Panama lacks a fully developed local ecosystem for semiconductor design, fabrication, testing, and assembly, which limits its ability to compete in the high-tech sector.",
-        "es": "A pesar de la creciente demanda global de semiconductores, Panamá carece de un ecosistema local totalmente desarrollado para el diseño, fabricación, prueba y ensamblaje de semiconductores, lo que limita su competitividad en el sector de alta tecnología.",
-        "zh": "尽管全球对半导体需求增长,巴拿马在半导体设计、制造、测试和组装方面仍缺乏完善的本地生态系统,这限制了其在高科技领域的竞争力。",
-        "ja": "世界的な半導体需要が増加しているにもかかわらず、パナマには半導体の設計、製造、テスト、組立のための十分に整備された国内エコシステムがなく、ハイテク分野での競争力が制限されています。"
-      },
-      "approach": {
-        "en": "The National Semiconductor Strategy allocates $105M over five years to develop local semiconductor capabilities. It promotes open design collaborations with private companies like Amazon, Google, Apple, and NVIDIA, as well as nonprofit initiatives like IEEE and SwissChips. The approach also includes partnerships with global manufacturers such as TSMC, Samsung, GlobalFoundries, and SMIC for fabrication, testing, and assembly.",
-        "es": "La Estrategia Nacional de Semiconductores asigna 105 millones de dólares durante cinco años para desarrollar capacidades locales. Promueve colaboraciones de diseño abierto con empresas privadas como Amazon, Google, Apple y NVIDIA, así como iniciativas sin fines de lucro como IEEE y SwissChips. También incluye asociaciones con fabricantes globales como TSMC, Samsung, GlobalFoundries y SMIC para fabricación, prueba y ensamblaje.",
-        "zh": "国家半导体战略在五年内投入1.05亿美元以发展本地半导体能力。它推动与Amazon、Google、Apple、NVIDIA等私营公司以及IEEE、SwissChips等非营利组织的开放设计合作,同时与台积电、三星、GlobalFoundries和中芯国际等全球制造商在制造、测试和组装方面建立合作。",
-        "ja": "国家半導体戦略は、5年間で1億500万ドルを投入し国内半導体能力を開発します。Amazon、Google、Apple、NVIDIAなどの民間企業やIEEE、SwissChipsなどの非営利団体とのオープンデザイン協力を促進し、TSMC、Samsung、GlobalFoundries、SMICなどの世界的製造業者との製造、テスト、組立でのパートナーシップも含まれます。"
-      },
-      "outcome": {
-        "en": "The initiative is expected to establish Panama as a competitive player in the semiconductor sector, strengthen local talent, foster innovation, and attract international collaborations and investments, aligning with global industry trends.",
-        "es": "Se espera que la iniciativa consolide a Panamá como un actor competitivo en el sector de semiconductores, fortalezca el talento local, fomente la innovación y atraiga colaboraciones e inversiones internacionales, alineándose con las tendencias globales de la industria.",
-        "zh": "该计划预计将使巴拿马成为半导体行业的竞争性参与者,增强本地人才,促进创新,并吸引国际合作与投资,与全球行业趋势保持一致。",
-        "ja": "この取り組みにより、パナマは半導体分野で競争力のあるプレーヤーとなり、国内人材の強化、イノベーションの促進、国際的な協力と投資の誘致が期待され、世界的な業界動向に沿うことができます。"
+      "details": {
+        "en": "The global semiconductor landscape is shifting, and Central America is emerging as a critical frontier. Your presentation highlights how nations like <strong>Costa Rica</strong> and <strong>Panama</strong> are no longer just onlookers; they are becoming strategic \"nearshoring\" hubs for the high-stakes world of microchips. By leveraging the <strong>U.S. CHIPS Act</strong> and the <strong>ITSI Fund</strong>, these countries are carving out a specialized niche in the global supply chain, transforming the region into a vital link for Western technological security.<br><br>Understanding this industry requires a look at the \"Idea to Product\" journey, a complex lifecycle that your work breaks down with precision. You navigated the technical gauntlet from initial <strong>logic design</strong> to the physical reality of <strong>fabrication</strong>, before diving into the essential \"back-end\" phases. In this ecosystem, the magic happens during <strong>assembly, testing, and packaging (ATP)</strong>—the precise moments where a raw silicon wafer is transformed into a protected, functional component ready for a smartphone or an electric vehicle.<br><br>No discussion on semiconductors is complete without the industry titans, and your presentation spotlighted the \"Big Four\" that currently dictate global capacity. From <strong>TSMC’s</strong> unrivaled precision in Taiwan and <strong>Samsung’s</strong> powerhouse innovation in South Korea, to the strategic foundry services of <strong>GlobalFoundries</strong> in the USA and the rapid scaling of <strong>SMIC</strong> in China, you provided a clear map of where the world’s most advanced hardware is born.<br><br>The focus on <strong>Fabricación, Prueba y Ensamblaje</strong> (Manufacturing, Testing, and Assembly) serves as a bridge between these global giants and the local potential in Central America. As companies seek to diversify away from concentrated Asian hubs, the region’s growing workforce and specialized labs—like the recently established facilities in Costa Rica—are proving that the next generation of \"Intel Inside\" might just have a \"Made in Central America\" story behind it.<br><br>Ultimately, your presentation serves as a roadmap for an industry in transition. By connecting the granular steps of chip design with the geopolitical shifts of 2026, you’ve illustrated why the silicon race is no longer just about speed, but about <strong>resilience and regional partnership</strong>.",
+        "es": "Centroamérica está emergiendo como una frontera crítica en la industria de semiconductores. Tu presentación destaca cómo la región se transforma en un centro estratégico de \"nearshoring\", aprovechando incentivos globales para convertirse en un eslabón vital de la seguridad tecnológica occidental.<br><br>El recorrido \"de la idea al producto\" desglosa con precisión desde el diseño lógico hasta la fabricación, culminando en las etapas cruciales de <strong>ensamblaje, prueba y empaque (ATP)</strong>. Es en este punto donde el silicio se convierte en un componente funcional listo para el mercado global.<br><br>Analizaste a los titanes de la industria: la precisión de <strong>TSMC</strong> (Taiwán), la innovación de <strong>Samsung</strong> (Corea del Sur), los servicios de fundición de <strong>GlobalFoundries</strong> (EE. UU.) y la escala de <strong>SMIC</strong> (China). Estas potencias definen el estándar que las nuevas regiones buscan alcanzar.<br><br>La conexión entre la fabricación local y estos gigantes globales demuestra que Centroamérica tiene el potencial de albergar laboratorios especializados y mano de obra avanzada. El futuro de la tecnología ya no solo se diseña en el norte, sino que se fortalece en el corazón de las Américas.<br><br>Tu trabajo ilustra que la carrera por el silicio en 2026 no se trata solo de velocidad, sino de <strong>resiliencia y alianzas regionales</strong>.",
+        "zh": "中美洲正成为半导体行业的关键前沿。您的演讲展示了该地区如何转变为战略性的“近岸外包”中心，利用全球激励措施成为西方技术安全的重要环节。<br><br>从“创意到产品”的流程精确地分解了从逻辑设计到制造的每一步，最终汇聚在<strong>组装、测试和封装 (ATP)</strong> 这些关键阶段。正是在这里，硅片转化为了面向全球市场的多功能组件。<br><br>分析涵盖了行业巨头：台湾的 <strong>TSMC</strong>（台积电）、韩国的 <strong>Samsung（三星）</strong>、美国的 <strong>GlobalFoundries</strong>（格芯）以及中国的 <strong>SMIC</strong>（中芯国际）。这些力量定义了新兴地区力争达到的标准。<br><br>当地制造与这些全球巨头的联系表明，中美洲具有容纳专业实验室和高级劳动力潜力的优势。技术的未来不仅是在北方设计的，也在美洲的心脏地带得到加强。<br><br>您的工作表明，2026年的硅片之争不仅关乎速度，更关乎<strong>韧性与区域伙伴关系</strong>。",
+        "ja": "中央アメリカは半導体産業における重要なフロンティアとして台頭しています。あなたのプレゼンテーションは、この地域がいかに戦略的な「ニアショアリング」拠点へと変貌し、世界のインセンティブを活用して西側の技術安全保障の不可欠な輪となっているかを明らかにしています。<br><br>「アイデアから製品へ」のプロセスは、論理設計から製造、そして<strong>組立・テスト・パッケージング（ATP）</strong>という極めて重要な段階まで、精密に分析されています。この段階を経て、シリコンは世界市場向けの機能的なコンポーネントへと生まれ変わります。<br><br>業界の巨頭についても触れられています。台湾の<strong>TSMC</strong>、韓国の<strong>Samsung</strong>、米国の<strong>GlobalFoundries</strong>、そして中国の<strong>SMIC</strong>です。これらの勢力は、新興地域が目指すべき基準を定義しています。<br><br>現地の製造拠点とこれらのグローバル企業との連携は、中央アメリカが専門的なラボや高度な労働力を受け入れるポテンシャルを秘めていることを証明しています。テクノロジーの未来はもはや北半球だけで設計されるものではなく、米州の中心で強化されているのです。<br><br>あなたのプレゼンテーションは、2026年の半導体競争が単なるスピードの争いではなく、<strong>レジリエンス（回復力）と地域的なパートナーシップ</strong>の争いであることを示しています。<br><br>"
       }
     },
     "quote": {
-      "en": "Panama is powering its semiconductor future with innovation, partnerships, and global collaboration.",
-      "es": "Panamá impulsa su futuro en semiconductores con innovación, alianzas y colaboración global.",
-      "zh": "巴拿马以创新、合作与全球协作推动半导体未来。",
-      "ja": "パナマは、イノベーション、パートナーシップ、グローバルな協力で半導体の未来を切り開く。"
+      "en": "In the race for technological sovereignty, Central America is transforming from a geographic bridge into a digital backbone for the global semiconductor supply chain.",
+      "es": "En la carrera por la soberanía tecnológica, Centroamérica está pasando de ser un puente geográfico a ser la columna vertebral digital de la cadena de suministro global.",
+      "zh": "在技术主权的竞争中，中美洲正从地理桥梁转变为全球半导体供应链的数字骨干。",
+      "ja": "技術主権をめぐる競争において、中央アメリカは地理的な架け橋から、グローバルな半導体サプライチェーンのデジタルなバックボーンへと進化を遂げています。"
     },
     "links": "",
     "collaborators": [],
@@ -3931,7 +3918,7 @@
     },
     "profile_image": "images/patente.JPG",
     "images": [
-      "images/patente1.jpg",      
+      "images/patente1.jpg",
       "images/patente2.jpg",
       "images/patente3.jpg",
       "images/tablero.jpeg",
@@ -4519,13 +4506,13 @@
         "es": "Los clientes logran un ahorro significativo de tiempo y costos, reducen los ciclos de verificación y obtienen ASICs de calidad industrial con soporte de desarrollo confiable y consistente. Los socios académicos se benefician mediante la capacitación y el desarrollo curricular, alcanzando a cientos de estudiantes y docentes.",
         "zh": "客户实现了显著的时间和成本节省,缩短验证周期,并通过可靠且一致的开发支持获得行业质量的ASIC。学术合作伙伴通过培训和课程开发获益,覆盖数百名学生和讲师。",
         "ja": "クライアントは、時間とコストの大幅な節約を達成し、検証サイクルを短縮し、信頼性の高い一貫した開発サポートにより業界品質のASICを獲得できます。学術パートナーは、トレーニングとカリキュラム開発を通じて、数百人の学生や講師に恩恵をもたらします。"
-      },
-      "quote": {
-        "en": "Accelerate your chip development with reliable ASIC expertise—save time, reduce costs, and achieve first-time-right results.",
-        "es": "Acelera el desarrollo de tus chips con experiencia confiable en ASIC: ahorra tiempo, reduce costos y logra resultados correctos a la primera.",
-        "zh": "利用可靠的ASIC专业知识加速芯片开发——节省时间,降低成本,实现一次成功。",
-        "ja": "信頼できるASICの専門知識でチップ開発を加速—時間を節約し、コストを削減し、初回成功を実現。"
       }
+    },
+    "quote": {
+      "en": "Accelerate your chip development with reliable ASIC expertise—save time, reduce costs, and achieve first-time-right results.",
+      "es": "Acelera el desarrollo de tus chips con experiencia confiable en ASIC: ahorra tiempo, reduce costos y logra resultados correctos a la primera.",
+      "zh": "利用可靠的ASIC专业知识加速芯片开发——节省时间,降低成本,实现一次成功。",
+      "ja": "信頼できるASICの専門知識でチップ開発を加速—時間を節約し、コストを削減し、初回成功を実現。"
     },
     "links": "",
     "collaborators": []
@@ -4583,6 +4570,70 @@
     "images": [
       "images/spaceselfie.jpg",
       "images/spaceselfie1.jpg"
+    ]
+  },
+  {
+    "id": 58,
+    "title": {
+      "en": "17th LSI Test Seminar",
+      "zh": "第十七届LSI测试研讨会",
+      "ja": "第17回 LSI テストセミナー",
+      "es": "17º Seminario de Pruebas LSI"
+    },
+    "summary": {
+      "en": "The 2026 LSI Test Seminar provided a comprehensive overview of current advancements in integrated circuit testing and security. It effectively bridged the gap between theoretical fault detection models and practical industrial applications through expert-led presentations. Attendees gained valuable insights into both the optimization of hardware verification and the innovative use of data augmentation in sensor-based studies.",
+      "es": "El Seminario de Pruebas LSI 2026 ofreció una visión general de los avances actuales en pruebas y seguridad de circuitos integrados. Conectó eficazmente los modelos teóricos de detección de fallos con las aplicaciones industriales prácticas mediante presentaciones dirigidas por expertos. Los asistentes adquirieron información valiosa sobre la optimización de la verificación de hardware y el uso innovador de la aumentación de datos en estudios basados ​​en sensores.",
+      "zh": "2026 年 LSI 测试研讨会全面概述了集成电路测试和安全领域的最新进展。研讨会通过专家主讲，有效地弥合了理论故障检测模型与实际工业应用之间的差距。与会者深入了解了硬件验证的优化以及在基于传感器的研究中创新性地使用数据增强技术。",
+      "ja": "2026 LSIテストセミナーでは、集積回路のテストとセキュリティにおける最新の進歩について包括的な概要が提供されました。専門家によるプレゼンテーションを通じて、理論的な故障検出モデルと実際の産業アプリケーションとの間のギャップを効果的に埋めることができました。参加者は、ハードウェア検証の最適化と、センサーベースの研究におけるデータ拡張の革新的な活用の両方について貴重な知見を得ました。"
+    },
+    "category": {
+      "en": "Research",
+      "es": "Investigación",
+      "zh": "研究",
+      "ja": "研究"
+    },
+    "tags": [],
+    "start": null,
+    "finish": "3/3/2026",
+    "content": {
+      "details": {
+        "en": "The 2026 LSI Test Seminar featured a series of technical presentations focused on advancing hardware testing methodologies and architectural security. The morning sessions addressed RISC-V processor pseudo-random testing and the optimization of control signal sequences through datapath time-expansion models. Following the midday break, the focus shifted toward industrial applications, with a detailed overview of the EVA100 system and its startup documentation provided by Advantest Kyushu Systems, as well as an international perspective on securing reconfigurable scan networks presented by Erik Larsson of Lund University. <br><br>The afternoon sessions continued with deep dives into fault detection efficiency and innovative data analysis applications. Researchers discussed methods to accelerate multi-target fault test generation and techniques to improve the estimation of distinguishable fault pairs using multiplexer don't-care inputs. The seminar concluded with a multidisciplinary study on motion classification, highlighting how audio data augmentation can enhance learning datasets for acceleration sensors in sports analysis. These presentations highlighted the diverse intersections between academic research, industrial testing tools, and sensor-based machine learning applications.",
+        "es": "El Seminario de Pruebas LSI 2026 incluyó una serie de presentaciones técnicas centradas en el avance de las metodologías de pruebas de hardware y la seguridad arquitectónica. Las sesiones de la mañana abordaron las pruebas pseudoaleatorias del procesador RISC-V y la optimización de las secuencias de señales de control mediante modelos de expansión temporal de rutas de datos. Tras el descanso del mediodía, el enfoque se centró en las aplicaciones industriales, con una descripción detallada del sistema EVA100 y su documentación de inicio, proporcionada por Advantest Kyushu Systems, así como una perspectiva internacional sobre la seguridad de las redes de escaneo reconfigurables, presentada por Erik Larsson, de la Universidad de Lund. <br><br>Las sesiones de la tarde continuaron con análisis profundos de la eficiencia de la detección de fallos y las aplicaciones innovadoras del análisis de datos. Los investigadores debatieron métodos para acelerar la generación de pruebas de fallos multiobjetivo y técnicas para mejorar la estimación de pares de fallos distinguibles mediante entradas de multiplexor indiferentes. El seminario concluyó con un estudio multidisciplinario sobre la clasificación de movimiento, destacando cómo la aumentación de datos de audio puede mejorar los conjuntos de datos de aprendizaje para sensores de aceleración en el análisis deportivo. Estas presentaciones destacaron las diversas intersecciones entre la investigación académica, las herramientas de pruebas industriales y las aplicaciones de aprendizaje automático basadas en sensores.",
+        "zh": "2026 年 LSI 测试研讨会举办了一系列技术报告，重点关注硬件测试方法和架构安全性的改进。上午的会议探讨了 RISC-V 处理器的伪随机测试以及如何通过数据通路时间扩展模型优化控制信号序列。午休后，会议重点转向工业应用，Advantest Kyushu Systems 公司详细介绍了 EVA100 系统及其启动文档，隆德大学的 Erik Larsson 则从国际视角介绍了可重构扫描网络的安全保障。<br><br>下午的会议继续深入探讨故障检测效率和创新数据分析应用。研究人员讨论了加速多目标故障测试生成的方法，以及利用多路复用器无关输入改进可区分故障对估计的技术。研讨会最后以一项关于运动分类的多学科研究作结，重点介绍了音频数据增强如何增强运动分析中加速度传感器的学习数据集。这些报告突显了学术研究、工业测试工具和基于传感器的机器学习应用之间的多元交叉领域。",
+        "ja": "2026 LSIテストセミナーでは、ハードウェアテスト手法の進化とアーキテクチャセキュリティに焦点を当てた一連の技術プレゼンテーションが行われました。午前中のセッションでは、RISC-Vプロセッサの擬似ランダムテストと、データパス時間展開モデルによる制御信号シーケンスの最適化について説明されました。正午の休憩後、焦点は産業用アプリケーションに移り、アドバンテスト九州システムズによるEVA100システムとそのスタートアップドキュメントの詳細な概要、そしてルンド大学のErik Larsson氏による再構成可能なスキャンネットワークのセキュリティに関する国際的な視点が紹介されました。<br><br>午後のセッションでは、障害検出の効率化と革新的なデータ分析アプリケーションについて深く掘り下げました。研究者たちは、マルチターゲット障害テストの生成を加速する方法や、マルチプレクサのドントケア入力を用いて識別可能な障害ペアの推定を改善する手法について議論しました。セミナーは、モーション分類に関する学際的な研究で締めくくられ、スポーツ分析における加速度センサーの学習データセットを音声データ拡張がどのように強化できるかが強調されました。これらのプレゼンテーションでは、学術研究、産業用テストツール、センサーベースの機械学習アプリケーション間の多様な交差点が強調されました。"
+      }
+    },
+    "quote": {
+      "en": "Gaining valuable insights into both the optimization of hardware verification and the innovative use of data augmentation in sensor-based studies with research and real industry products.",
+      "es": "Obtener información valiosa tanto sobre la optimización de la verificación de hardware como sobre el uso innovador del aumento de datos en estudios basados ​​en sensores con investigaciones y productos industriales reales.",
+      "zh": "通过研究和实际工业产品，深入了解硬件验证的优化以及基于传感器的研究中数据增强的创新应用。",
+      "ja": "研究と実際の業界製品を使用したセンサーベースの研究におけるハードウェア検証の最適化とデータ拡張の革新的な使用の両方について貴重な洞察を得ます。"
+    },
+    "links": null,
+    "collaborators": [],
+    "institution": {
+      "en": "Kyushu Institute of Technology (KYUTECH)",
+      "es":"Instituto Tecnológico de Kyushu (KYUTECH)",
+      "zh":"九州工业大学(KYUTECH)",
+      "ja": "九州工業大学"
+    },
+    "branch": {
+      "en": "Wen Lab",
+      "es":"Laboratorio Wen",
+      "zh":"温实验室",
+      "ja":"温研究室"
+    },
+    "participation": {
+      "en": "Participant",
+      "es": "Participante",
+      "zh": "参与者",
+      "ja": "参加者"
+    },
+    "profile_image": "images/LSI_セミ1.jpg",
+    "images": [
+      "images/LSI_セミ1.jpg",
+      "images/LSI_セミ2.jpg",
+      "images/LSI_セミ3.jpg"
     ]
   }
 ]
