@@ -162,6 +162,7 @@
     },
     "start": "10/1/2020",
     "finish": "8/31/2021",
+    "financing": "$120,000 USD",
     "content": {
       "problem": {
         "en": "The high demand for lithium for the production of LiBs (Lithium-based Batteries) has put the Earth's crust at a critical point with respect to this element, a fact further aggravated by the short lifecycle of such devices, due to their limited charge/discharge cycles,impacting both technological and environmental scales.<br><br>To address these challenges, this project aimed to produce a new generation of lithium-ion batteries with protective thin films of Ultrananocrystalline Diamond (UNCD/N-UNCD) on anodes and cathodes. This protective system prevents chemical degradation during cycles, targeting a ≥10x improvement in battery lifespan while maintaining or exceeding current energy density.<br><br> The development integrates N-UNCD films with nanocarbons and metallic matrices, enhancing both safety and performance. The technology is intended to positively impact the environmental and economic conservation of the energy and electronics industry in Panama.",
@@ -416,6 +417,7 @@
     },
     "start": "8/13/2019",
     "finish": "8/30/2022",
+    "financing":"$60,000 USD",
     "content": {
       "problem": {
         "en": "In recent years, the Republic of Panama, through its agricultural policies, has promoted the export of non-traditional products. This proposal seeks to develop an intelligent system for classifying watermelon fruit. To achieve this, open-source hardware and software technologies will be used to automate the selection process while complying with required sanitary and phytosanitary standards. The objective is to develop a prototype for real-time fruit classification using expert systems technology. This aims to increase the productivity and competitiveness of the agricultural sector by developing an advanced system that prevents losses due to harvesting outside the optimal period (due to insufficient ripeness or premature harvesting). The expert system will consider parameters such as size, appearance, and, very importantly, color.",
