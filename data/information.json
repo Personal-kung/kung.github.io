@@ -241,7 +241,8 @@
       "images/battery4.jpg",
       "images/battery5.jpg",
       "images/battery6.jpg"
-    ]
+    ],
+    "Product": "Electronics"
   },
   {
     "id": 2,
@@ -371,7 +372,8 @@
     "images": [
       "images/redes_sensores1.jpeg",
       "images/redes_sensores2.jpeg"
-    ]
+    ],
+    "Product": "Research & Engineering"
   },
   {
     "id": 3,
@@ -417,7 +419,7 @@
     },
     "start": "8/13/2019",
     "finish": "8/30/2022",
-    "financing":"$60,000 USD",
+    "financing": "$60,000 USD",
     "content": {
       "problem": {
         "en": "In recent years, the Republic of Panama, through its agricultural policies, has promoted the export of non-traditional products. This proposal seeks to develop an intelligent system for classifying watermelon fruit. To achieve this, open-source hardware and software technologies will be used to automate the selection process while complying with required sanitary and phytosanitary standards. The objective is to develop a prototype for real-time fruit classification using expert systems technology. This aims to increase the productivity and competitiveness of the agricultural sector by developing an advanced system that prevents losses due to harvesting outside the optimal period (due to insufficient ripeness or premature harvesting). The expert system will consider parameters such as size, appearance, and, very importantly, color.",
@@ -506,7 +508,8 @@
       "images/sandia1.jpg",
       "images/sandia2.jpg",
       "images/sandia3.jpg"
-    ]
+    ],
+    "Product": "Research & Engineering"
   },
   {
     "id": 4,
@@ -619,7 +622,8 @@
       "images/tesis5.jpg",
       "images/tesis6.jpg",
       "images/tesis.jpg"
-    ]
+    ],
+    "Product": "Robotics"
   },
   {
     "id": 5,
@@ -732,7 +736,8 @@
       "images/minsa.jpg",
       "images/minsa1.jpg",
       "images/minsa2.jpg"
-    ]
+    ],
+    "Product": "Electronics"
   },
   {
     "id": 6,
@@ -877,7 +882,8 @@
       "images/labsi_insight3.jpg",
       "images/labsi_insight4.jpg",
       "images/labsi_insight5.jpg"
-    ]
+    ],
+    "Product": "Robotics"
   },
   {
     "id": 7,
@@ -1030,10 +1036,10 @@
       "es": "Tablero energetico de la UTP"
     },
     "summary": {
-      "en": "Our dashboard transforms raw electrical data into actionable insights, improving cost control, energy efficiency, and sustainability. It compares the past 20 years of electrical usage with the university's expanding buildings and infrastructure. This foundation now guides decisions on new equipment, load planning, and future growth.",
-      "zh": "我们的仪表盘将原始电力数据转化为可执行的洞察,从而改善成本控制、提高能源效率并增强可持续性。它将过去 20 年的用电量与大学不断扩建的建筑和基础设施进行对比。这一基础如今指导着新设备购置、负荷规划和未来发展方面的决策。",
-      "ja": "当社のダッシュボードは、生の電力データを実用的なインサイトに変換し、コスト管理、エネルギー効率、持続可能性を向上させます。過去20年間の電力使用量と、大学の拡張する建物やインフラを比較します。この基盤は、新しい機器、負荷計画、そして将来の成長に関する意思決定の指針となっています。",
-      "es": "Nuestro panel transforma los datos eléctricos sin procesar en información práctica, mejorando el control de costos, la eficiencia energética y la sostenibilidad. Compara el consumo eléctrico de los últimos 20 años con la expansión de los edificios y la infraestructura de la universidad. Esta base ahora guía las decisiones sobre nuevos equipos, la planificación de la carga y el crecimiento futuro."
+      "en": "A Power BI intelligence platform that transforms fragmented electrical billing records into a unified data model — enabling cross-campus energy benchmarking, cost optimization, anomaly detection, and strategic energy management across multiple regional centers and facilities. Supports budgeting, sustainability initiatives, and informed decision-making with clear visibility into consumption, demand, and expenditure trends over time.",
+      "zh": "一个将分散的电费账单数据整合为统一数据模型的 Power BI 智能平台——支持跨校区能源基准测试、成本优化、异常检测以及多个区域中心和设施的战略性能源管理。通过清晰呈现用电量、需求和支出随时间的变化趋势，为预算编制、可持续发展举措和知情决策提供支撑。",
+      "ja": "断片化した電気料金請求データを統合データモデルへと変換するPower BIインテリジェンスプラットフォーム。複数の地域センターにわたるキャンパス間エネルギーベンチマーキング、コスト最適化、異常検出、戦略的エネルギー管理を実現。消費量・需要・支出の経時的な傾向を明確に可視化し、予算策定・サステナビリティ推進・意思決定を支援します。",
+      "es": "Una plataforma de inteligencia en Power BI que transforma registros de facturación eléctrica fragmentados en un modelo de datos unificado — habilitando benchmarking energético entre campus, optimización de costos, detección de anomalías y gestión estratégica de energía en múltiples centros y sedes regionales. Apoya la presupuestación, iniciativas de sostenibilidad y la toma de decisiones informada con visibilidad clara sobre tendencias de consumo, demanda y gasto a lo largo del tiempo."
     },
     "category": {
       "en": "Professional",
@@ -1044,48 +1050,52 @@
     "tags": {
       "en": [
         "<strong>🔋 Energy Systems</strong>",
-        "<strong>📊 Systems Engineering</strong>"
+        "<strong>📊 Data Analytics &amp; BI</strong>",
+        "<strong>🔁 Automation</strong>"
       ],
       "es": [
         "<strong>🔋 Sistemas de Energía</strong>",
-        "<strong>📊 Ingeniería de Sistemas</strong>"
+        "<strong>📊 Analítica de Datos &amp; BI</strong>",
+        "<strong>🔁 Automatización</strong>"
       ],
       "zh": [
         "<strong>🔋 能源系统</strong>",
-        "<strong>📊 系统工程</strong>"
+        "<strong>📊 数据分析与商业智能</strong>",
+        "<strong>🔁 自动化</strong>"
       ],
       "ja": [
         "<strong>🔋 エネルギーシステム</strong>",
-        "<strong>📊 システムエンジニアリング</strong>"
+        "<strong>📊 データ分析 &amp; BI</strong>",
+        "<strong>🔁 自動化</strong>"
       ]
     },
     "start": "8/23/2022",
     "finish": "4/1/2025",
     "content": {
       "problem": {
-        "en": "The Technological University of Panama (UTP) was founded in 1981 as the first university dedicated to engineering in the Republic of Panama. As of 2022 (41 years), the university lacked a historical record of electricity billing that reflected the growth in electricity consumption across its various regional campuses and buildings; only invoice data in PDF format was available. The problem: \"Historical billing data in PDF documents, but without the possibility of extracting analysis or creating predictions for the future.\"",
-        "es": "La universidad tecnologica de panama (UTP) fue fundada en 1981 como la primera universidad dedicada a la ingenieria en la republica de panama. Al 2022 (41 años) la universidad no tenia un historial de la facturacion electrica que reflejara el crecimiento electrico en funcion de las distintas sedes regionales o edificaciones, solo se tenia la data de facturas en PDF. El problema \"Facturacion historica en documentos PDF pero sin posibilidad de extraer analisis o crear predicciones para el futuro\"",
-        "zh": "巴拿马科技大学(UTP)成立于1981年,是巴拿马共和国第一所工程类大学。截至2022年(建校41年),该大学缺乏反映其各个区域校区和建筑用电量增长情况的电力账单历史记录；仅有PDF格式的账单数据。问题在于:虽然有PDF格式的历史账单数据,但无法从中提取分析数据或进行未来预测。",
-        "ja": "パナマ工科大学(UTP)は、パナマ共和国で最初の工学系大学として1981年に設立されました。2022年(41年目)現在、同大学には、各地域のキャンパスや建物における電力消費量の増加を反映した電気料金の履歴記録が存在せず、PDF形式の請求書データしか入手できませんでした。問題は、過去の請求データはPDF文書で入手できるものの、そこから分析結果を抽出したり、将来の予測を立てたりすることができないという点です。"
+        "en": "Energy billing, demand, and consumption data were fragmented across multiple meters, regional centers, and billing periods — making holistic analysis virtually impossible. The Technological University of Panama (UTP) had no structured data model and no visual intelligence layer: only raw PDF invoices dating back to 1981, with no way to extract trends, compare campuses, or plan budgets scientifically.<br><br>High-consumption and high-cost locations were buried in raw records, and anomalies such as zero-consumption entries or abnormal demand values were undetectable without manual review of hundreds of rows across multiple fiscal periods.",
+        "es": "Los datos de facturación energética, demanda y consumo estaban fragmentados entre múltiples medidores, centros regionales y períodos de facturación, haciendo prácticamente imposible un análisis integral. La Universidad Tecnológica de Panamá (UTP) no contaba con un modelo de datos estructurado ni una capa de inteligencia visual: solo facturas PDF en bruto desde 1981, sin posibilidad de extraer tendencias, comparar sedes o planificar presupuestos científicamente.<br><br>Los centros de mayor consumo y costo quedaban enterrados en registros brutos, y anomalías como entradas de consumo cero o valores de demanda anormales eran indetectables sin revisar manualmente cientos de filas en múltiples períodos fiscales.",
+        "zh": "电费账单、需求和用电量数据分散于多个电表、区域中心和计费周期中，使全面分析几乎无从实现。巴拿马科技大学(UTP)既没有结构化数据模型，也没有可视化智能层：仅有可追溯至1981年的原始PDF账单，无法提取趋势、对比校区或科学规划预算。<br><br>高用电量和高成本地点被淹没在原始记录中，而零用电量、零成本或异常需求值等异常情况，若不人工逐行审查数百条多财年记录，根本无法发现。",
+        "ja": "エネルギー請求・需要・消費データが複数の電力計、地域センター、請求期間にまたがって断片化しており、包括的な分析は事実上不可能でした。パナマ工科大学(UTP)には構造化されたデータモデルも視覚的インテリジェンス層も存在せず、1981年まで遡る生のPDF請求書しかなく、傾向の抽出・キャンパス比較・科学的な予算策定は行えませんでした。<br><br>消費量・コストの高い拠点は生データの中に埋もれ、消費ゼロや異常な需要値などの異常値は、複数会計年度にわたる数百行を手動でレビューしなければ検出できませんでした。"
       },
       "approach": {
-        "en": "With the assistance of students and assistants, information was extracted from PDF invoices and tabulated in the necessary columns for presentation in Power BI. This involved comparing historical electricity data, the historical construction data for new physical spaces, and the historical electricity tariff schedule for the country (in Panama, electricity prices change every six months).<br>In Power BI, an intelligent dashboard was built that presents historical information (starting in 2022) and can classify the data based on company, time period, regional headquarters, and electricity breakdown.",
-        "es": "Con la asistencia de estudiantes y asistentes se extrajo la informacion de las facturas en PDF y se tabulo la informacion en las columnas necesarias para hacer la presentacion de data en PoweBi, haciendo el constraste entre la data historica electrica, el historico de construccion de nuevos espacios fisicos y el tarifario historico de la electricidad en el pais (en panama el precio de electricidad cambia cada 6 meses).<br>En power bi se construyo un tablero inteligente capaz de presenta la informacion historica (a partir del 2022) capaz de clasificar la informacion en funcion de empresas, tiempo, sede regional y desglose electrico. ",
-        "zh": "在学生和助教的协助下,我们从PDF发票中提取信息,并将其整理成表格,以便在Power BI中进行展示。这包括比较历史用电数据、新建实体空间的历史建设数据以及该国的历史电价表(巴拿马的电价每六个月调整一次)。在Power BI中,我们构建了一个智能仪表板,用于展示历史信息(始于2022年),并可根据公司、时间段、区域总部和用电明细对数据进行分类。",
-        "ja": "学生とアシスタントの協力を得て、PDF形式の請求書から情報を抽出し、Power BIでの表示に必要な列に表形式でまとめました。この作業では、過去の電力データ、新規建設予定地の過去の建設データ、そしてパナマの過去の電気料金表(パナマでは電気料金は6ヶ月ごとに変更されます)を比較しました。<br>Power BIでは、過去の情報(2022年以降)を表示し、企業、期間、地域本部、電力の内訳に基づいてデータを分類できるインテリジェントなダッシュボードが構築されました。"
+        "en": "<p>The solution was built on a four-layer data engineering and visualization stack:</p><ul><li><strong>Microsoft Excel</strong> — served as the primary source dataset, consolidating raw electrical billing records (kWh, kW demand, and cost $) from all regional centers and billing periods.</li><li><strong>Power Query (ETL)</strong> — performed all extraction, transformation, and loading: cleaning inconsistencies, normalizing billing periods, and structuring meter readings by Centro/Sede, semester, and season.</li><li><strong>DAX (Data Analysis Expressions)</strong> — powered all calculated measures including kWh consumption aggregations, kW demand tracking, cost rollups, and conditional logic for outlier and anomaly detection across periods.</li><li><strong>Power BI</strong> — delivered interactive dashboards that rank top-consuming and highest-cost centers, surface zero-consumption and zero-cost anomalies, and enable drill-down by region, meter, time period, and billing cycle.</li></ul>",
+        "es": "<p>La solución se construyó sobre una pila de cuatro capas de ingeniería de datos y visualización:</p><ul><li><strong>Microsoft Excel</strong> — como conjunto de datos fuente principal, consolidando registros brutos de facturación (kWh, demanda en kW y costo $) de todos los centros regionales y períodos.</li><li><strong>Power Query (ETL)</strong> — realizó toda la extracción, transformación y carga: limpieza de inconsistencias, normalización de períodos de facturación y estructuración de lecturas por Centro/Sede, semestre y temporada.</li><li><strong>DAX (Data Analysis Expressions)</strong> — impulsó todas las medidas calculadas: agregaciones de consumo en kWh, seguimiento de demanda en kW, totales de costo y lógica condicional para detección de anomalías entre períodos.</li><li><strong>Power BI</strong> — entregó dashboards interactivos que clasifican los centros de mayor consumo y costo, identifican anomalías de consumo y costo cero, y habilitan la exploración por región, medidor, período y ciclo de facturación.</li></ul>",
+        "zh": "<p>该解决方案基于四层数据工程与可视化技术栈构建：</p><ul><li><strong>Microsoft Excel</strong> — 作为主要数据源，整合来自所有区域中心和计费周期的原始电费账单记录（kWh、kW需求和成本$）。</li><li><strong>Power Query（ETL）</strong> — 负责全部数据提取、转换与加载：清理数据不一致性、规范化计费周期，并按中心/校区、学期和季节对电表读数进行结构化处理。</li><li><strong>DAX（数据分析表达式）</strong> — 驱动所有计算指标，包括kWh用电量汇总、kW需求追踪、成本汇总，以及跨周期异常值检测的条件逻辑。</li><li><strong>Power BI</strong> — 提供交互式仪表板，对高用电量和高成本中心进行排名，呈现零用电量和零成本异常，并支持按地区、电表、时间段和计费周期进行下钻分析。</li></ul>",
+        "ja": "<p>このソリューションは4層からなるデータエンジニアリングと可視化スタックの上に構築されました：</p><ul><li><strong>Microsoft Excel</strong> — 全地域センター・全期間の生の電気料金請求データ（kWh・kW需要・コスト$）を統合するプライマリデータソース。</li><li><strong>Power Query（ETL）</strong> — 全データ抽出・変換・ロードを担当。不整合のクリーニング、請求期間の正規化、センター/拠点・学期・季節ごとの電力計測値の構造化を実施。</li><li><strong>DAX（Data Analysis Expressions）</strong> — kWh消費の集計、kW需要の追跡、コスト集計、および期間をまたぐ外れ値・異常値検出の条件ロジックを含む全計算メジャーを実現。</li><li><strong>Power BI</strong> — 消費量・コストの上位センターのランキング、ゼロ消費・ゼロコスト異常の検出、地域・電力計・期間・請求サイクル別ドリルダウンを可能にするインタラクティブダッシュボードを提供。</li></ul>"
       },
       "outcome": {
-        "en": "With this new tool, starting in 2024, university authorities were able to make new forecasts based on structured information that also allowed them to establish new regulations for the purchase of new electrical equipment as well as establish energy saving measures that represented a decrease in electricity consumption of 20%, money that allowed the purchase of new university equipment and adaptations of physical spaces.",
-        "es": "Con esta nueva herramienta, a partir del 2024, las autoridades de la universidad fueron capaces de hacer nuevos pronosticos basados en informacion estructurada que permitio tambien establecer nuevas regulaciones para la compra de nuevos equipos electricos tambien como establecer medidas de ahorro energetico que representaron una disminucion en consumo electrico del 20%, dinero que permitio la compra de nuevos equipos universitarios y adeucaciones de espacios fisicos.",
-        "zh": "借助这一新工具,从 2024 年开始,大学管理部门能够根据结构化信息做出新的预测,从而制定购买新电气设备的新规定,并制定节能措施,使电力消耗减少 20%,节省下来的资金可以用于购买新的大学设备和改造物理空间。",
-        "ja": "この新しいツールにより、大学当局は2024年以降、構造化された情報に基づいて新たな予測を立てることができるようになり、新しい電気機器の購入に関する新しい規制を確立するとともに、電力消費量を20%削減する省エネ対策を確立し、新しい大学の機器の購入と物理的なスペースの改造を可能にする資金を確保できるようになりました。"
+        "en": "The dashboard enabled university authorities to benchmark energy consumption and costs across all regional campuses in a single view. Anomalies previously invisible in raw records were surfaced within minutes, accelerating audit and corrective cycles. The structured data model directly supported the creation of annual energy budgets grounded in measurable, scientific criteria — contributing to a <strong>20% reduction in electricity consumption</strong> and freeing funds for equipment acquisition and facility improvements starting in 2024.",
+        "es": "El dashboard permitió a las autoridades universitarias comparar el consumo energético y los costos en todos los campus regionales en una sola vista. Las anomalías antes invisibles en los registros brutos quedaban al descubierto en minutos, acelerando los ciclos de auditoría y corrección. El modelo de datos estructurado respaldó directamente la elaboración de presupuestos energéticos anuales basados en criterios científicos y medibles, contribuyendo a una <strong>reducción del 20% en el consumo eléctrico</strong> y liberando fondos para adquisición de equipos y mejoras de instalaciones a partir de 2024.",
+        "zh": "该仪表板使大学管理层能够在单一视图中对所有区域校区的能源消耗和成本进行基准对比。原始记录中此前不可见的异常在数分钟内即可被发现，大幅加速了审计和整改周期。结构化数据模型直接支持了以可衡量的科学标准为基础的年度能源预算编制，从2024年起贡献了<strong>电力消耗降低20%</strong>的成果，并释放资金用于设备采购和设施改善。",
+        "ja": "このダッシュボードにより、大学当局は全地域キャンパスのエネルギー消費量とコストを単一ビューでベンチマーキングできるようになりました。生データでは見えなかった異常値が数分以内に検出され、監査と是正サイクルが大幅に加速されました。構造化されたデータモデルは、科学的かつ測定可能な基準に基づいた年次エネルギー予算の策定を直接支援し、2024年以降の<strong>電力消費量20%削減</strong>に貢献、設備調達と施設改善のための資金確保につながりました。"
       }
     },
     "quote": {
-      "en": "Transforming historical information into strategic intelligence: UTP can now forecast electricity consumption, optimize resources and establish policies that generate energy savings of 20%, freeing up funds for innovation and university expansion.",
-      "es": "Transformando información histórica en inteligencia estratégica: la UTP ahora puede pronosticar consumo eléctrico, optimizar recursos y establecer políticas que generan ahorro energético del 20%, liberando fondos para innovación y expansión universitaria.",
-      "zh": "将历史信息转化为战略情报:UTP现在可以预测电力消耗,优化资源,并制定政策,从而节省20%的能源,释放资金用于创新和大学扩张。",
-      "ja": "過去の情報を戦略的情報に変換: UTP は電力消費を予測し、リソースを最適化し、20% のエネルギー節約を生み出すポリシーを確立して、イノベーションと大学の拡張のための資金を解放できるようになりました。"
+      "en": "Raw billing data became a strategic asset — revealing which campuses drive costs, where anomalies hide, and how to budget energy with scientific precision.",
+      "es": "Los datos brutos de facturación se convirtieron en un activo estratégico: revelando qué campus impulsan los costos, dónde se ocultan las anomalías y cómo presupuestar la energía con precisión científica.",
+      "zh": "原始账单数据成为战略资产——揭示哪些校区推高成本、异常隐藏在何处，以及如何以科学精度规划能源预算。",
+      "ja": "生の請求データが戦略的資産へと変わりました——どのキャンパスがコストを押し上げているか、異常はどこに潜んでいるか、そして科学的精度でエネルギー予算を策定する方法を明らかにしました。"
     },
     "links": {
       "UTP": "https://fie.utp.ac.pa/gestion-energetica-fie-utp",
@@ -1130,7 +1140,8 @@
     "profile_image": "images/dashboard.png",
     "images": [
       "images/dashboard.png"
-    ]
+    ],
+    "Product": "Dashboards"
   },
   {
     "id": 9,
@@ -1268,7 +1279,8 @@
       "images/rural3.jpg",
       "images/rural6.jpg",
       "images/rural5.jpg"
-    ]
+    ],
+    "Product": "Electronics"
   },
   {
     "id": 10,
@@ -1374,7 +1386,8 @@
       "images/silla_inteligente2.jpg",
       "images/silla_inteligente3.jpg",
       "images/silla_inteligente4.jpg"
-    ]
+    ],
+    "Product": "Research & Engineering"
   },
   {
     "id": 11,
@@ -1449,7 +1462,8 @@
     "images": [
       "images/conescapan2.jpg",
       "images/conescapan1.jpg"
-    ]
+    ],
+    "Product": "Robotics"
   },
   {
     "id": 12,
@@ -1524,6 +1538,7 @@
     },
     "profile_image": "images/concapan.png",
     "images": [
+      "images/concapan.png",
       "images/concapan1.jpg",
       "images/concapan2.jpg",
       "images/concapan3.jpg"
@@ -1607,7 +1622,8 @@
       "images/conescapan2024_1.jpg",
       "images/conescapan2024_2.jpg",
       "images/conescapan2024_3.jpg"
-    ]
+    ],
+    "Product": "Research & Engineering"
   },
   {
     "id": 14,
@@ -1718,7 +1734,8 @@
       "images/hsi.png",
       "images/hsi1.png",
       "images/hsi2.png"
-    ]
+    ],
+    "Product": "Research & Engineering"
   },
   {
     "id": 15,
@@ -1769,7 +1786,6 @@
       "zh": "电气电子工程师",
       "es": "Ingeniero Eléctrico y Electrónico"
     },
-    "highlight": 4,
     "summary": null,
     "category": {
       "en": "Professional",
@@ -1804,7 +1820,8 @@
       "zh": "工程师",
       "ja": "エンジニア"
     },
-    "images": []
+    "images": [],
+    "Product": "Research & Engineering"
   },
   {
     "id": 17,
@@ -1870,7 +1887,8 @@
       "ja": "スピーカー"
     },
     "profile_image": "images/telemetro.png",
-    "images": []
+    "images": [],
+    "Product": "Research & Engineering"
   },
   {
     "id": 18,
@@ -2033,7 +2051,8 @@
       "zh": "报告人",
       "ja": "スピーカー"
     },
-    "images": []
+    "images": [],
+    "Product": "Research & Engineering"
   },
   {
     "id": 21,
@@ -2110,7 +2129,8 @@
     "images": [
       "images/FIE_1.jpg",
       "images/FIE_2.jpg"
-    ]
+    ],
+    "Product": "Research & Engineering"
   },
   {
     "id": 22,
@@ -2183,7 +2203,8 @@
       "zh": "讲师",
       "ja": "インストラクター"
     },
-    "images": []
+    "images": [],
+    "Product": "Research & Engineering"
   },
   {
     "id": 23,
@@ -2425,7 +2446,8 @@
       "zh": "报告人",
       "ja": "スピーカー"
     },
-    "images": []
+    "images": [],
+    "Product": "Research & Engineering"
   },
   {
     "id": 27,
@@ -2495,7 +2517,8 @@
       "images/robocup2023_3.jpg",
       "images/robocup2023_4.jpg",
       "images/robocup2023_5.jpg"
-    ]
+    ],
+    "Product": "Research & Engineering"
   },
   {
     "id": 28,
@@ -2567,7 +2590,8 @@
       "images/robocup2024_4.jpg",
       "images/robocup2024_5.jpg",
       "images/robocup2024_6.jpg"
-    ]
+    ],
+    "Product": "Research & Engineering"
   },
   {
     "id": 29,
@@ -2681,7 +2705,8 @@
       "ja": "评审",
       "es": "Jurado"
     },
-    "images": []
+    "images": [],
+    "Product": "Research & Engineering"
   },
   {
     "id": 31,
@@ -2712,7 +2737,8 @@
       "zh": "参与者",
       "ja": "参加者"
     },
-    "images": []
+    "images": [],
+    "Product": "Research & Engineering"
   },
   {
     "id": 32,
@@ -2786,7 +2812,8 @@
       "ja": "作家"
     },
     "profile_image": "images/semiconductor.png",
-    "images": []
+    "images": [],
+    "Product": "Research & Engineering"
   },
   {
     "id": 33,
@@ -2864,7 +2891,8 @@
       "images/python_embebidos.jpg",
       "images/python_embebidos1.jpg",
       "images/python_embebidos2.jpg"
-    ]
+    ],
+    "Product": "Research & Engineering"
   },
   {
     "id": 34,
@@ -3005,7 +3033,8 @@
       "images/neurocomputing2.png",
       "images/neurocomputing1.jpg",
       "images/neurocomputing.jpg"
-    ]
+    ],
+    "Product": "Research & Engineering"
   },
   {
     "id": 35,
@@ -3093,7 +3122,8 @@
     "images": [
       "images/agricolas1.jpg",
       "images/agricolas2.jpg"
-    ]
+    ],
+    "Product": "Research & Engineering"
   },
   {
     "id": 36,
@@ -3323,7 +3353,8 @@
       "zh": "秘书",
       "es": "secretario"
     },
-    "images": []
+    "images": [],
+    "Product": "Research & Engineering"
   },
   {
     "id": 39,
@@ -3463,7 +3494,8 @@
       "ja": "スピーカー"
     },
     "profile_image": "images/digital.png",
-    "images": []
+    "images": [],
+    "Product": "Research & Engineering"
   },
   {
     "id": 41,
@@ -3537,7 +3569,8 @@
       "ja": "スピーカー"
     },
     "profile_image": "images/semillas.jpg",
-    "images": []
+    "images": [],
+    "Product": "Research & Engineering"
   },
   {
     "id": 42,
@@ -3615,7 +3648,8 @@
       "images/ssci.jpg",
       "images/ssci1.jpg",
       "images/ssci2.jpg"
-    ]
+    ],
+    "Product": "Research & Engineering"
   },
   {
     "id": 43,
@@ -3657,7 +3691,8 @@
     "images": [
       "images/diplan1.jpg",
       "images/diplan.jpg"
-    ]
+    ],
+    "Product": "Dashboards"
   },
   {
     "id": 44,
@@ -3730,7 +3765,8 @@
       "zh": "报告人",
       "ja": "スピーカー"
     },
-    "images": []
+    "images": [],
+    "Product": "Research & Engineering"
   },
   {
     "id": 45,
@@ -3773,7 +3809,8 @@
       "zh": "报告人",
       "ja": "スピーカー"
     },
-    "images": []
+    "images": [],
+    "Product": "Research & Engineering"
   },
   {
     "id": 46,
@@ -3844,7 +3881,16 @@
       "zh": "报告人",
       "ja": "スピーカー"
     },
-    "images": []
+    "profile_image": "images/tesis.jpg",
+    "images": [
+      "images/tesis1.jpg",
+      "images/tesis2.jpg",
+      "images/tesis4.jpg",
+      "images/tesis5.jpg",
+      "images/tesis6.jpg",
+      "images/tesis.jpg"
+    ],
+    "Product": "Robotics"
   },
   {
     "id": 47,
@@ -3926,7 +3972,8 @@
       "images/tablero.jpeg",
       "images/tablero3.jpeg",
       "images/tablero2.jpeg"
-    ]
+    ],
+    "Product": "Research & Engineering"
   },
   {
     "id": 48,
@@ -3967,7 +4014,8 @@
       "ja": "副总裁",
       "es": "Vice presidente"
     },
-    "images": []
+    "images": [],
+    "Product": "Research & Engineering"
   },
   {
     "id": 49,
@@ -4033,7 +4081,8 @@
       "zh": "学生",
       "ja": "学生"
     },
-    "images": []
+    "images": [],
+    "Product": "Research & Engineering"
   },
   {
     "id": 50,
@@ -4106,7 +4155,8 @@
       "zh": "参与者",
       "ja": "参加者"
     },
-    "images": []
+    "images": [],
+    "Product": "Research & Engineering"
   },
   {
     "id": 51,
@@ -4153,7 +4203,8 @@
       "images/PCB2.JPG",
       "images/PCB3.JPG",
       "images/PCB4.JPG"
-    ]
+    ],
+    "Product": "Research & Engineering"
   },
   {
     "id": 52,
@@ -4398,7 +4449,6 @@
       "zh": "文部科学省奖学金获得者",
       "es": "Estudiante MEXT"
     },
-    "highlight": 3,
     "summary": null,
     "category": {
       "en": "Academic",
@@ -4560,6 +4610,7 @@
       "YouTube": "https://www.youtube.com/watch?v=qr1AvisQcV8",
       "CrunchLabs": "https://space.crunchlabs.com"
     },
+    "highlight": 2,
     "collaborators": [],
     "institution": "CrunchLabs",
     "participation": {
@@ -4572,7 +4623,8 @@
     "images": [
       "images/spaceselfie.jpg",
       "images/spaceselfie1.jpg"
-    ]
+    ],
+    "Product": "Research & Engineering"
   },
   {
     "id": 58,
@@ -4615,15 +4667,15 @@
     "collaborators": [],
     "institution": {
       "en": "Kyushu Institute of Technology (KYUTECH)",
-      "es":"Instituto Tecnológico de Kyushu (KYUTECH)",
-      "zh":"九州工业大学(KYUTECH)",
+      "es": "Instituto Tecnológico de Kyushu (KYUTECH)",
+      "zh": "九州工业大学(KYUTECH)",
       "ja": "九州工業大学"
     },
     "branch": {
       "en": "Wen Lab",
-      "es":"Laboratorio Wen",
-      "zh":"温实验室",
-      "ja":"温研究室"
+      "es": "Laboratorio Wen",
+      "zh": "温实验室",
+      "ja": "温研究室"
     },
     "participation": {
       "en": "Participant",
@@ -4636,6 +4688,449 @@
       "images/LSI_セミ1.jpg",
       "images/LSI_セミ2.jpg",
       "images/LSI_セミ3.jpg"
+    ],
+    "Product": "Research & Engineering"
+  },
+  {
+    "id": 59,
+    "title": {
+      "en": "Luxury Touch Massage — Serverless Booking & Admin Platform",
+      "zh": "Luxury Touch Massage — 无服务器预约与管理平台",
+      "ja": "Luxury Touch Massage — サーバーレス予約・管理プラットフォーム",
+      "es": "Luxury Touch Massage — Plataforma Serverless de Reservas y Administración"
+    },
+    "summary": {
+      "en": "A two-sided cloud-native platform replacing a fragile local Node.js server: a real-time customer booking website (HTML/CSS/Vanilla JS) and a cross-platform Flutter admin app (iOS · Android · Web · macOS), both powered by Firebase Firestore with zero servers to maintain, offline-first resilience, and a headless CMS that lets the business owner update pricing and services live in under one second.",
+      "zh": "一个双端云原生平台，取代了原本脆弱的本地 Node.js 服务器：一个实时客户预约网站（HTML/CSS/Vanilla JS）和一个跨平台 Flutter 管理应用（iOS · Android · Web · macOS），两者均由 Firebase Firestore 驱动，无需维护任何服务器，具备离线优先的弹性设计，并内置无头 CMS，让业主能够在一秒内实时更新价格和服务项目。",
+      "ja": "脆弱なローカルNode.jsサーバーを置き換えるクラウドネイティブの二面プラットフォーム：リアルタイム顧客予約ウェブサイト（HTML/CSS/Vanilla JS）とクロスプラットフォームFlutter管理アプリ（iOS・Android・Web・macOS）を、Firebase Firestoreで統合。サーバー管理ゼロ、オフラインファースト設計、およびヘッドレスCMSにより、オーナーが1秒以内に価格とサービスをライブ更新できます。",
+      "es": "Una plataforma cloud-native de dos lados que reemplaza un frágil servidor local Node.js: un sitio web de reservas en tiempo real para clientes (HTML/CSS/Vanilla JS) y una app administrativa Flutter multiplataforma (iOS · Android · Web · macOS), ambas impulsadas por Firebase Firestore sin servidores que mantener, con resiliencia offline-first y un CMS headless que permite al propietario actualizar precios y servicios en vivo en menos de un segundo."
+    },
+    "category": {
+      "en": "Professional",
+      "es": "Profesional",
+      "zh": "专业的",
+      "ja": "プロフェッショナル"
+    },
+    "tags": {
+      "en": [
+        "<strong>☁️ Serverless Architecture</strong>",
+        "<strong>📱 Cross-Platform Development</strong>",
+        "<strong>🔁 Real-Time Systems</strong>",
+        "<strong>🗂️ Headless CMS</strong>"
+      ],
+      "es": [
+        "<strong>☁️ Arquitectura Serverless</strong>",
+        "<strong>📱 Desarrollo Multiplataforma</strong>",
+        "<strong>🔁 Sistemas en Tiempo Real</strong>",
+        "<strong>🗂️ CMS Headless</strong>"
+      ],
+      "zh": [
+        "<strong>☁️ 无服务器架构</strong>",
+        "<strong>📱 跨平台开发</strong>",
+        "<strong>🔁 实时系统</strong>",
+        "<strong>🗂️ 无头内容管理系统</strong>"
+      ],
+      "ja": [
+        "<strong>☁️ サーバーレスアーキテクチャ</strong>",
+        "<strong>📱 クロスプラットフォーム開発</strong>",
+        "<strong>🔁 リアルタイムシステム</strong>",
+        "<strong>🗂️ ヘッドレスCMS</strong>"
+      ]
+    },
+    "start": "2/1/2025",
+    "finish": "4/1/2026",
+    "content": {
+      "problem": {
+        "en": "Luxury Touch Massage operated on a locally-hosted Node.js/Express server — a single point of failure that was expensive to maintain, impossible to scale, and required developer involvement for every pricing or service update. The business owner had no digital tool to manage bookings, and the customer experience was entirely manual: phone calls, emails, and back-and-forth confirmation threads. <br><br>A modern replacement was needed that could eliminate server infrastructure costs, empower the non-technical owner to self-manage their business in real time, and deliver a seamless booking experience to customers — all without requiring a developer's involvement after launch.",
+        "es": "Luxury Touch Massage operaba con un servidor Node.js/Express alojado localmente: un único punto de fallo costoso de mantener, imposible de escalar y que requería la participación de un desarrollador para cada actualización de precios o servicios. El propietario no contaba con ninguna herramienta digital para gestionar reservas, y la experiencia del cliente era completamente manual: llamadas telefónicas, correos electrónicos e interminables hilos de confirmación. <br><br>Se necesitaba un reemplazo moderno que pudiera eliminar los costos de infraestructura de servidores, empoderar al propietario no técnico para autogestionar su negocio en tiempo real y ofrecer una experiencia de reserva sin fricciones a los clientes, todo sin requerir la intervención de un desarrollador después del lanzamiento.",
+        "zh": "Luxury Touch Massage 依赖于本地托管的 Node.js/Express 服务器——这是一个单点故障源，维护成本高昂，无法扩展，且每次更新定价或服务项目都需要开发人员介入。业主没有任何数字工具来管理预约，客户体验完全依赖人工：电话、电子邮件以及来回的确认流程。<br><br>迫切需要一个现代化的替代方案，能够消除服务器基础设施成本，赋能非技术背景的业主实时自主管理业务，并为客户提供流畅的预约体验——且在上线后无需开发人员的持续介入。",
+        "ja": "Luxury Touch Massageは、ローカルホストのNode.js/Expressサーバーで運営されていました。これは単一障害点であり、維持費が高く、スケールが不可能で、価格やサービスの更新のたびに開発者の関与が必要でした。オーナーには予約を管理するデジタルツールがなく、顧客体験は完全に手動：電話、メール、何度もやり取りする確認作業でした。<br><br>サーバーインフラコストを排除し、非技術系のオーナーがリアルタイムで自分のビジネスを自己管理でき、顧客にシームレスな予約体験を提供できる——しかもローンチ後に開発者の関与を必要としない——現代的な代替ソリューションが必要でした。"
+      },
+      "approach": {
+        "en": "<p>The system was deliberately split into two independent, cloud-native layers:</p><ul><li><strong>Firebase Firestore (Serverless Backend)</strong> — replaced the local server entirely. Real-time sync, automatic scaling, 99.99% SLA, and no DevOps overhead. Firebase Security Rules protect all business data from unauthorized public access.</li><li><strong>Customer Website (HTML / CSS / Vanilla JS)</strong> — subscribes to a Firestore <code>.onSnapshot</code> real-time stream, so any update made in the admin app instantly propagates to the live site without a page refresh or redeployment. The booking form is conditional and intelligent, guiding customers through context-sensitive questions based on their selected package.</li><li><strong>Admin Flutter App (iOS · Android · Web · macOS)</strong> — built from a single Dart codebase and deployed to four platforms simultaneously. Features three core modules: <em>Incoming Requests</em> (live booking pipeline with one-tap approval, rescheduling, and location assignment), <em>Approved Bookings</em> (searchable historical log with self-service CSV export via a Kotlin platform channel on Android and native browser download on Web), and <em>Settings</em> (a headless CMS enabling the owner to update branding, service menus, pricing, and durations live — reflected on the customer site in real time).</li><li><strong>Offline-First Design</strong> — Firestore <code>persistenceEnabled</code> caching stores a full local copy of all data, allowing the owner to approve bookings and restructure menus without internet connectivity. All changes burst-sync automatically on reconnection.</li></ul>",
+        "es": "<p>El sistema fue dividido deliberadamente en dos capas independientes y nativas de la nube:</p><ul><li><strong>Firebase Firestore (Backend Serverless)</strong> — reemplazó el servidor local por completo. Sincronización en tiempo real, escalado automático, SLA del 99,99% y sin gastos de DevOps. Las reglas de seguridad de Firebase protegen todos los datos del negocio contra accesos públicos no autorizados.</li><li><strong>Sitio Web del Cliente (HTML / CSS / Vanilla JS)</strong> — se suscribe a un flujo en tiempo real de Firestore <code>.onSnapshot</code>, de modo que cualquier actualización en la app de administración se propaga instantáneamente al sitio en vivo sin recargar la página ni redesplegar. El formulario de reservas es condicional e inteligente, guiando a los clientes a través de preguntas contextuales según el paquete seleccionado.</li><li><strong>App Admin Flutter (iOS · Android · Web · macOS)</strong> — construida desde una única base de código Dart y desplegada en cuatro plataformas simultáneamente. Incluye tres módulos principales: <em>Solicitudes Entrantes</em> (pipeline de reservas en vivo con aprobación de un toque, reprogramación y asignación de ubicación), <em>Reservas Aprobadas</em> (registro histórico con exportación CSV self-service mediante un canal de plataforma Kotlin en Android y descarga nativa en Web), y <em>Configuración</em> (un CMS headless que permite actualizar marca, menús de servicios, precios y duraciones en vivo).</li><li><strong>Diseño Offline-First</strong> — el caché de Firestore con <code>persistenceEnabled</code> almacena una copia local de todos los datos, permitiendo al propietario aprobar reservas y reestructurar menús sin conexión a internet. Todos los cambios se sincronizan automáticamente al reconectarse.</li></ul>",
+        "zh": "<p>系统被刻意拆分为两个独立的云原生层：</p><ul><li><strong>Firebase Firestore（无服务器后端）</strong> — 完全取代了本地服务器。实时同步、自动扩展、99.99% SLA，无需 DevOps 开销。Firebase 安全规则保护所有业务数据免受未授权的公开访问。</li><li><strong>客户网站（HTML / CSS / Vanilla JS）</strong> — 订阅 Firestore 的 <code>.onSnapshot</code> 实时数据流，管理应用中的任何更新都会立即反映到线上网站，无需刷新页面或重新部署。预约表单具备条件逻辑，根据客户选择的套餐智能引导其填写相关问题。</li><li><strong>管理员 Flutter 应用（iOS · Android · Web · macOS）</strong> — 基于单一 Dart 代码库构建，同时部署到四个平台。包含三个核心模块：<em>待处理请求</em>（实时预约流水线，支持一键审批、改期和分配服务地点）、<em>已审批预约</em>（可搜索历史记录，支持通过 Android Kotlin 平台通道本地写入&quot;下载&quot;文件夹的一键 CSV 导出，以及 Web 端的浏览器原生下载），以及<em>设置</em>（无头 CMS，让业主实时更新品牌、服务菜单、定价和时长，立即反映在客户网站上）。</li><li><strong>离线优先设计</strong> — Firestore 的 <code>persistenceEnabled</code> 本地缓存存储所有数据的完整本地副本，使业主无需网络连接即可审批预约和调整菜单。恢复连接后，所有变更将自动批量同步至云端。</li></ul>",
+        "ja": "<p>システムは意図的に2つの独立したクラウドネイティブ層に分割されました：</p><ul><li><strong>Firebase Firestore（サーバーレスバックエンド）</strong> — ローカルサーバーを完全に置き換え。リアルタイム同期、自動スケーリング、99.99% SLA、DevOpsオーバーヘッドなし。Firebase Security Rulesがすべてのビジネスデータを不正なパブリックアクセスから保護します。</li><li><strong>顧客向けウェブサイト（HTML / CSS / Vanilla JS）</strong> — Firestoreの<code>.onSnapshot</code>リアルタイムストリームを購読するため、管理アプリで行われた変更はページリロードや再デプロイなしに即座にライブサイトへ反映されます。予約フォームは条件付きで、選択したパッケージに応じてコンテキスト依存の質問で顧客を誘導します。</li><li><strong>管理Flutterアプリ（iOS・Android・Web・macOS）</strong> — 単一のDartコードベースから構築し、4プラットフォームに同時展開。3つのコアモジュール：<em>受信リクエスト</em>（ワンタップ承認・再スケジュール・場所割り当て付きのライブ予約パイプライン）、<em>承認済み予約</em>（検索可能な履歴ログ＋AndroidではKotlinプラットフォームチャンネル経由でネイティブDownloadsフォルダへ、WebではブラウザネイティブダウンロードでのCSV自己サービスエクスポート）、<em>設定</em>（ブランディング・サービスメニュー・価格・所要時間をリアルタイム更新できるヘッドレスCMS）。</li><li><strong>オフラインファースト設計</strong> — Firestoreの<code>persistenceEnabled</code>キャッシュが全データのローカルコピーを保存するため、インターネット接続なしで承認や設定変更が可能。再接続時に全変更が自動的にクラウドへ同期。</li></ul>"
+      },
+      "outcome": {
+        "en": "The platform completely eliminated the single point of failure represented by the local server, achieving the business owner's goal of total operational independence from a developer. Key outcomes include: server infrastructure cost reduced to near-zero (pay-per-use Firebase); price and service updates now take <strong>under 1 second</strong> (previously required developer involvement and redeployment); the admin app runs natively on <strong>iOS, Android, Web, and macOS</strong> from a single codebase; booking confirmation is instant and in-app; historical data is self-service exportable as CSV in one tap; and the system maintains full functionality even without an internet connection thanks to offline-first Firestore caching.",
+        "es": "La plataforma eliminó por completo el punto único de falla representado por el servidor local, logrando el objetivo del propietario de total independencia operativa respecto a un desarrollador. Los resultados clave incluyen: costo de infraestructura de servidor reducido a casi cero (Firebase de pago por uso); actualizaciones de precios y servicios en <strong>menos de 1 segundo</strong> (antes requerían intervención del desarrollador y redespliegue); la app de administración corre nativamente en <strong>iOS, Android, Web y macOS</strong> desde un solo codebase; la confirmación de reservas es instantánea y en la app; los datos históricos son exportables como CSV en un toque; y el sistema mantiene plena funcionalidad incluso sin conexión a internet.",
+        "zh": "该平台彻底消除了本地服务器所代表的单点故障，实现了业主无需依赖开发人员即可完全自主运营的目标。主要成果包括：服务器基础设施成本降至接近零（Firebase 按需付费）；价格和服务更新现在只需<strong>不到 1 秒</strong>（此前需要开发人员介入并重新部署）；管理应用可从单一代码库原生运行于 <strong>iOS、Android、Web 和 macOS</strong> 四个平台；预约确认即时在应用内完成；历史数据一键自助导出为 CSV；得益于离线优先的 Firestore 缓存，系统在无网络连接时仍可完整运行。",
+        "ja": "このプラットフォームはローカルサーバーが抱えていた単一障害点を完全に排除し、オーナーが開発者から完全に独立して運営できるという目標を達成しました。主な成果：サーバーインフラコストをほぼゼロに削減（Firebase従量課金）；価格・サービス更新が<strong>1秒未満</strong>で反映（以前は開発者の関与と再デプロイが必要）；管理アプリが単一コードベースから<strong>iOS・Android・Web・macOS</strong>でネイティブ動作；予約確認がアプリ内で即時完了；履歴データがワンタップでCSV自己サービスエクスポート可能；オフラインファーストのFirestoreキャッシュにより、インターネット接続なしでもシステムが完全機能する。"
+      }
+    },
+    "quote": {
+      "en": "Zero servers, four platforms, one codebase — a business owner now runs their entire operation from their phone, and every update they make appears on the live customer site in under one second.",
+      "es": "Cero servidores, cuatro plataformas, un solo codebase — un propietario ahora gestiona toda su operación desde su teléfono, y cada actualización que realiza aparece en el sitio del cliente en menos de un segundo.",
+      "zh": "零服务器、四个平台、一套代码库——业主现在用手机管理整个运营，每一次更新都在不到一秒内出现在客户端网站上。",
+      "ja": "サーバーゼロ、4プラットフォーム、単一コードベース——オーナーはスマートフォン一台で全業務を管理し、あらゆる更新が1秒未満でライブ顧客サイトに反映されます。"
+    },
+    "links": {
+      "Customers website": "https://booking-c0.web.app"
+    },
+    "collaborators": [],
+    "institution": {
+      "en": "Luxury Touch Massage (Private Client)",
+      "es": "Luxury Touch Massage (Cliente Privado)",
+      "zh": "Luxury Touch Massage（私人客户）",
+      "ja": "Luxury Touch Massage（プライベートクライアント）"
+    },
+    "branch": {
+      "en": "Full-Stack Engineering — Serverless · Flutter · Firebase",
+      "es": "Ingeniería Full-Stack — Serverless · Flutter · Firebase",
+      "zh": "全栈工程 — 无服务器 · Flutter · Firebase",
+      "ja": "フルスタックエンジニアリング — サーバーレス・Flutter・Firebase"
+    },
+    "participation": {
+      "en": "Full-Stack Developer",
+      "es": "Desarrollador Full-Stack",
+      "zh": "全栈开发工程师",
+      "ja": "フルスタック開発者"
+    },
+    "profile_image": "images/junko-san_massage4.png",
+    "images": [
+      "images/junko-san_massage1.png",
+      "images/junko-san_massage2.png",
+      "images/junko-san_massage3.png",
+      "images/junko-san_massage4.png"
+    ],
+    "Product": "Programming"
+  },
+  {
+    "id": 60,
+    "title": {
+      "en": "Master Student",
+      "zh": "硕士生",
+      "ja": "修士生",
+      "es": "Estudiante de Maestría"
+    },
+    "summary": {
+      "en": "After IC design, testing becomes the critical gatekeeper for functionality and quality. <br>This project explored VLSI test generation, combining theory with hands-on implementation.<br>Custom ATPG tools proved functional but highlighted clear performance gaps versus industry solutions.",
+      "es": "Tras el diseño de circuitos integrados, las pruebas se convierten en el factor clave para la funcionalidad y la calidad.<br>Este proyecto exploró la generación de pruebas VLSI, combinando la teoría con la implementación práctica.<br>Las herramientas ATPG personalizadas demostraron ser funcionales, pero presentaron claras deficiencias de rendimiento en comparación con las soluciones del sector.",
+      "ja": "IC設計後、テストは機能性と品質を左右する重要な鍵となります<br>このプロジェクトでは、理論と実践的な実装を組み合わせ、VLSIテスト生成を探求しました。<br>カスタムATPGツールは機能することが実証されましたが、業界標準のソリューションと比較してパフォーマンスに明らかなギャップがあることが分かりました。",
+      "zh": "集成电路设计完成后,测试成为确保功能和质量的关键环节。<br>本项目探索了超大规模集成电路(VLSI)测试生成方法,并将理论与实践相结合。<br>定制的自动测试生成(ATPG)工具功能完善,但也暴露出与行业解决方案相比存在明显的性能差距。"
+    },
+    "category": {
+      "en": "Academic",
+      "es": "Academia",
+      "zh": "学术的",
+      "ja": "アカデミック"
+    },
+    "tags": {
+      "en": [
+        "📊 Systems Engineering",
+        "🖥️ Embedded Systems",
+        "📈 Future Technologies"
+      ],
+      "es": [
+        "📊 Ingeniería de Sistemas",
+        "🖥️ Sistemas Embebidos",
+        "📈 Tecnologías del Futuro"
+      ],
+      "ja": [
+        "📊 システム工学",
+        "🖥️ 組み込みシステム",
+        "📈 未来技術"
+      ],
+      "zh": [
+        "📊 系统工程",
+        "🖥️ 嵌入式系统",
+        "📈 未来技术"
+      ]
+    },
+    "start": "4/1/2025",
+    "finish": "today",
+    "content": {
+      "problem": {
+        "en": "Ensuring post-design integrated circuits operate correctly requires efficient and scalable test generation. Existing academic implementations often struggle to match the performance of commercial-grade VLSI testing tools.",
+        "es": "Para garantizar el correcto funcionamiento de los circuitos integrados tras el diseño, se requiere una generación de pruebas eficiente y escalable. Las implementaciones académicas existentes a menudo tienen dificultades para igualar el rendimiento de las herramientas de prueba VLSI comerciales.",
+        "ja": "設計後の集積回路が正しく動作することを保証するには、効率的でスケーラブルなテスト生成が必要です。既存の学術的な実装では、商用グレードのVLSIテストツールの性能に匹敵することが難しい場合が多くあります。",
+        "zh": "确保集成电路设计完成后能够正确运行,需要高效且可扩展的测试用例生成。现有的学术实现方案通常难以达到商用级超大规模集成电路(VLSI)测试工具的性能水平。"
+      },
+      "approach": {
+        "en": "During the research period, automatic test pattern generation systems were developed using Python 3.12 and Jupyter Notebooks. The work focused on stuck-at fault models, ATPG, fault collapsing, test compaction, PODEM, SAT-based Boolean testing, and PPSFP, evaluated across 10 circuits ranging from 6 to 2,500 logic gates.",
+        "es": "Durante el período de investigación, se desarrollaron sistemas automáticos de generación de patrones de prueba utilizando Python 3.12 y Jupyter Notebooks. El trabajo se centró en modelos de falla atascada, ATPG, colapso de fallas, compactación de pruebas, PODEM, pruebas booleanas basadas en SAT y PPSFP, evaluados en 10 circuitos con entre 6 y 2500 puertas lógicas.",
+        "ja": "研究期間中、Python 3.12とJupyter Notebookを用いて自動テストパターン生成システムを開発しました。この研究では、縮退故障モデル、ATPG、故障コラプシング、テスト圧縮、PODEM、SATベースのブールテスト、PPSFPに焦点を当て、6ゲートから2,500ゲートまでの10個の回路で評価を行いました。",
+        "zh": "在研究期间,我们使用 Python 3.12 和 Jupyter Notebook 开发了自动测试模式生成系统。研究重点包括固定故障模型、自动测试模式生成 (ATPG)、故障折叠、测试压缩、PODEM、基于 SAT 的布尔测试以及 PPSFP,并在 10 个逻辑门数量从 6 到 2500 不等的电路中进行了评估。"
+      },
+      "outcome": {
+        "en": "The implemented tools successfully generated and executed tests, with runtimes ranging from milliseconds to minutes depending on circuit size. While functional, performance lagged behind industrial tools, opening a clear path for future optimization and research.",
+        "es": "Las herramientas implementadas generaron y ejecutaron pruebas con éxito, con tiempos de ejecución que oscilaban entre milisegundos y minutos, dependiendo del tamaño del circuito. Si bien eran funcionales, su rendimiento se quedó por debajo del de las herramientas industriales, lo que abrió un camino claro para futuras optimizaciones e investigaciones.",
+        "ja": "実装されたツールは、回路サイズに応じて数ミリ秒から数分間の実行時間でテストを生成・実行しました。機能的には問題なく動作しましたが、パフォーマンスは産業用ツールに比べて劣っており、今後の最適化と研究への道筋が開かれました。",
+        "zh": "所实现的工具成功生成并执行了测试,运行时间从几毫秒到几分钟不等,具体取决于电路规模。虽然功能齐全,但性能仍落后于工业级工具,这为未来的优化和研究指明了方向。"
+      }
+    },
+    "quote": {
+      "en": "Developing ATPG systems revealed both the power and the limits of academic VLSI testing tools.<br>The performance gap with industry solutions now drives the next phase of optimization and research.",
+      "zh": "ATPG系统的开发既展现了学术界VLSI测试工具的强大功能,也揭示了其局限性。与行业解决方案的性能差距,推动了下一阶段的优化和研究。",
+      "es": "El desarrollo de sistemas ATPG reveló tanto el potencial como los límites de las herramientas académicas de pruebas VLSI. La brecha de rendimiento con las soluciones de la industria impulsa ahora la siguiente fase de optimización e investigación.",
+      "ja": "ATPGシステムの開発により、学術的VLSIテストツールの威力と限界が明らかになりました。業界標準のソリューションとのパフォーマンスギャップが、最適化と研究の次の段階へと繋がっています。"
+    },
+    "links": "",
+    "collaborators": [
+      {
+        "name": {
+          "en": "Wen Xiaoqin",
+          "es": "Xiaoqin Wen",
+          "zh": "温暁青",
+          "ja": "温暁青"
+        },
+        "email": "wen@csn.kyutech.ac.jp",
+        "roles": {
+          "en": "Academic supervisor",
+          "es": "Supervisor académico",
+          "zh": "指导教师",
+          "ja": "指導教員"
+        }
+      }
+    ],
+    "institution": {
+      "en": "Kyushu Institute of Technology (KYUTECH)",
+      "es": "Instituto Tecnológico de Kyushu (KYUTECH)",
+      "zh": "九州工业大学(KYUTECH)",
+      "ja": "九州工業大学(KYUTECH)"
+    },
+    "branch": {
+      "es": "Laboratorio Wen",
+      "en": "Wen Lab",
+      "zh": "温实验室",
+      "ja": "温研究室"
+    },
+    "participation": {
+      "en": "Student",
+      "es": "Estudiante",
+      "zh": "学生",
+      "ja": "学生"
+    },
+    "images": []
+  },
+  {
+    "id": 61,
+    "title": {
+      "en": "UTP Physical Infrastructure Capacity Study — Power Platform",
+      "zh": "UTP 实体基础设施容量研究——Power Platform",
+      "ja": "UTP 物理インフラキャパシティ調査——Power Platform",
+      "es": "Estudio de Capacidad Física Instalada UTP — Power Platform"
+    },
+    "summary": {
+      "en": "A Microsoft Power Platform pipeline that digitizes the physical infrastructure audit of the Technological University of Panama: field surveyors capture structured data on 70+ attributes per space using a custom Power Apps form; Power Automate automatically processes and writes records to a central Excel dataset; and a Power BI dashboard transforms ~400 records across 7 campuses into actionable intelligence for institutional planning, maintenance prioritization, and infrastructure investment decisions.",
+      "zh": "一套微软 Power Platform 全链路方案，用于巴拿马科技大学实体基础设施审计的数字化：现场调查人员通过定制 Power Apps 表单采集每个空间超过70个属性的结构化数据；Power Automate 自动处理并将记录写入中央 Excel 数据集；Power BI 仪表板将7个校区约400条记录转化为可执行洞见，支持机构规划、维护优先级排序和基础设施投资决策。",
+      "ja": "パナマ工科大学の物理インフラ監査をデジタル化するMicrosoft Power Platformパイプライン：現場調査員がカスタムPower Appsフォームで各スペース70以上の属性の構造化データを収集し、Power Automateが自動処理してExcelデータセットに書き込み、Power BIダッシュボードが7キャンパスにわたる約400件のレコードを機関計画・設備保全優先順位付け・インフラ投資決定のための実用的インサイトへと変換します。",
+      "es": "Un pipeline completo en Microsoft Power Platform que digitaliza la auditoría de infraestructura física de la Universidad Tecnológica de Panamá: encuestadores de campo capturan datos estructurados de más de 70 atributos por espacio mediante un formulario personalizado en Power Apps; Power Automate procesa automáticamente y escribe los registros en un dataset centralizado en Excel; y un dashboard de Power BI transforma ~400 registros en 7 campus en inteligencia accionable para planificación institucional, gestión de mantenimiento y decisiones de inversión en infraestructura."
+    },
+    "category": {
+      "en": "Professional",
+      "es": "Profesional",
+      "zh": "专业的",
+      "ja": "プロフェッショナル"
+    },
+    "tags": {
+      "en": [
+        "<strong>📊 Data Analytics & BI</strong>",
+        "<strong>🏗️ Infrastructure Management</strong>",
+        "<strong>🔁 Automation</strong>"
+      ],
+      "es": [
+        "<strong>📊 Analítica de Datos & BI</strong>",
+        "<strong>🏗️ Gestión de Infraestructura</strong>",
+        "<strong>🔁 Automatización</strong>"
+      ],
+      "zh": [
+        "<strong>📊 数据分析与商业智能</strong>",
+        "<strong>🏗️ 基础设施管理</strong>",
+        "<strong>🔁 自动化</strong>"
+      ],
+      "ja": [
+        "<strong>📊 データ分析 & BI</strong>",
+        "<strong>🏗️ インフラ管理</strong>",
+        "<strong>🔁 自動化</strong>"
+      ]
+    },
+    "start": "3/1/2024",
+    "finish": "1/29/2026",
+    "content": {
+      "problem": {
+        "en": "The Technological University of Panama (UTP) — with 7 regional campuses spanning the entire country — had no unified digital system to capture, aggregate, or analyse the physical state of its installed infrastructure. Data on room dimensions, structural conditions, ventilation systems, lighting, furniture, and equipment was either unrecorded or scattered across disconnected manual formats.<br><br>Without a structured dataset, institutional planning decisions — from maintenance scheduling and investment prioritization to infrastructure audits and sustainability reporting — were made without measurable, verifiable evidence of the real physical capacity of each campus.",
+        "es": "La Universidad Tecnológica de Panamá (UTP) — con 7 campus regionales distribuidos en todo el país — no contaba con ningún sistema digital unificado para capturar, consolidar o analizar el estado físico de su infraestructura instalada. Los datos sobre dimensiones de espacios, condiciones estructurales, sistemas de ventilación, iluminación, mobiliario y equipamiento o no estaban registrados o se encontraban dispersos en formatos manuales desconectados.<br><br>Sin un dataset estructurado, las decisiones de planificación institucional — desde la programación de mantenimiento y la priorización de inversiones hasta las auditorías de infraestructura y los reportes de sostenibilidad — se tomaban sin evidencia medible y verificable de la capacidad física real de cada campus.",
+        "zh": "巴拿马科技大学（UTP）拥有遍布全国的7个区域校区，却没有统一的数字系统来采集、汇总或分析其已安装基础设施的实际状况。关于空间尺寸、结构状况、通风系统、照明、家具和设备的数据，要么未被记录，要么分散于各自独立的人工格式之中。<br><br>缺乏结构化数据集，机构规划决策——从维护计划和投资优先级排序，到基础设施审计和可持续发展报告——均无法依托对各校区实际物理容量的可衡量、可核实证据来进行。",
+        "ja": "パナマ工科大学（UTP）は全国に7つの地域キャンパスを有しているにもかかわらず、設置インフラの物理的状態を収集・集約・分析するための統一されたデジタルシステムがありませんでした。スペースの寸法、構造状態、換気システム、照明、家具、設備に関するデータは、未記録のままであるか、互いに連携しない手動フォーマットに散在していました。<br><br>構造化されたデータセットがなければ、保守スケジュールや投資優先順位付けからインフラ監査・サステナビリティ報告に至るまで、機関計画上の意思決定は各キャンパスの実際の物理キャパシティに関する測定可能・検証可能な根拠なしに行われてしまいます。"
+      },
+      "approach": {
+        "en": "<p>A three-stage end-to-end pipeline was built entirely on the Microsoft Power Platform:</p><ul><li><strong>Power Apps (Field Data Capture)</strong> — A custom mobile-ready form was designed and deployed to field surveyors. Each submission captures 70+ structured attributes per space: location (campus, building, floor, faculty), physical dimensions (length, width, area, windows, doors), structural condition (walls, ceiling, floor, paint), ventilation and climatization (AC type, BTU capacity, unit count), lighting (type, luminous intensity in lux, quantity, damaged units), furniture and equipment (chairs, desks, tables, laptops, desktops, specialized equipment), and occupancy.</li><li><strong>Power Automate (Automated Processing)</strong> — Every Power Apps submission triggers an automated flow that processes, validates, and writes the record to a centralized Excel workbook stored on SharePoint/OneDrive, eliminating manual transcription and ensuring real-time data availability.</li><li><strong>Power BI (Visualization & Decision Intelligence)</strong> — The Excel dataset feeds a Power BI dashboard that provides cross-campus comparisons, space utilization analysis, condition heat-maps, recurring defect identification (structural cracks, humidity staining, ceiling failure, paint deterioration), and infrastructure investment prioritization views across all 7 campuses and multiple building types.</li></ul>",
+        "es": "<p>Se construyó un pipeline completo de tres etapas sobre Microsoft Power Platform:</p><ul><li><strong>Power Apps (Captura de datos en campo)</strong> — Se diseñó y desplegó un formulario mobile-ready personalizado para los encuestadores de campo. Cada envío captura más de 70 atributos estructurados por espacio: ubicación (campus, edificio, nivel, facultad), dimensiones físicas (largo, ancho, área, ventanas, puertas), condición estructural (paredes, cielo raso, piso, pintura), ventilación y climatización (tipo de aire, capacidad BTU, cantidad de unidades), iluminación (tipo, potencia lumínica en lux, cantidad, dañadas), mobiliario y equipamiento (sillas, escritorios, mesas, laptops, desktops, equipos especiales) y ocupación.</li><li><strong>Power Automate (Procesamiento automático)</strong> — Cada envío de Power Apps dispara un flujo automatizado que procesa, valida y escribe el registro en un libro de Excel centralizado almacenado en SharePoint/OneDrive, eliminando la transcripción manual y garantizando la disponibilidad de datos en tiempo real.</li><li><strong>Power BI (Visualización e inteligencia de decisiones)</strong> — El dataset de Excel alimenta un dashboard de Power BI que provee comparativas inter-campus, análisis de utilización de espacios, mapas de calor de condiciones, identificación de defectos recurrentes (fisuras estructurales, manchas de humedad, caída del cielo raso, descascarillamiento de pintura) y vistas de priorización de inversión en infraestructura en los 7 campus.</li></ul>",
+        "zh": "<p>基于 Microsoft Power Platform 构建了三阶段端到端流水线：</p><ul><li><strong>Power Apps（现场数据采集）</strong> — 设计并部署了面向现场调查人员的自定义移动端表单。每次提交采集每个空间超过70个结构化属性：位置（校区、建筑、楼层、院系）、物理尺寸（长、宽、面积、窗、门）、结构状况（墙壁、天花板、地板、油漆）、通风与空调（空调类型、BTU容量、机组数量）、照明（类型、照度（lx）、数量、损坏数量）、家具与设备（椅子、办公桌、桌子、笔记本、台式机、专用设备）以及占用人数。</li><li><strong>Power Automate（自动化处理）</strong> — 每次 Power Apps 提交都触发自动化流，对记录进行处理、验证，并写入存储在 SharePoint/OneDrive 的中央 Excel 工作簿，彻底消除人工转录，确保数据实时可用。</li><li><strong>Power BI（可视化与决策智能）</strong> — Excel 数据集为 Power BI 仪表板提供数据源，支持跨校区比较、空间利用率分析、状况热图、反复出现的缺陷识别（结构裂缝、潮湿渍迹、天花板脱落、油漆剥落），以及所有7个校区的基础设施投资优先级视图。</li></ul>",
+        "ja": "<p>Microsoft Power Platform上にエンドツーエンドの3段階パイプラインを構築しました：</p><ul><li><strong>Power Apps（現場データ収集）</strong> — 現場調査員向けのカスタムモバイル対応フォームを設計・展開。各提出で1スペースあたり70以上の構造化属性を収集：所在地（キャンパス・建物・フロア・学部）、物理寸法（縦・横・面積・窓・扉）、構造状態（壁・天井・床・塗装）、換気・空調（エアコンタイプ・BTU容量・台数）、照明（種類・照度（lx）・数量・故障数）、家具・設備（椅子・デスク・テーブル・ノートPC・デスクトップ・専門機器）、および占有人数。</li><li><strong>Power Automate（自動処理）</strong> — Power Appsの提出ごとに自動フローがトリガーされ、記録を処理・検証してSharePoint/OneDrive上の中央Excelワークブックに書き込み、手動転記を排除しリアルタイムのデータ可用性を確保。</li><li><strong>Power BI（可視化と意思決定インテリジェンス）</strong> — Excelデータセットを基にPower BIダッシュボードがキャンパス間比較、スペース利用率分析、コンディションヒートマップ、反復的欠陥の特定（構造亀裂・湿気染み・天井崩落・塗装剥離）、7キャンパス全体のインフラ投資優先順位付けビューを提供。</li></ul>"
+      },
+      "outcome": {
+        "en": "The pipeline successfully digitized the physical infrastructure audit of UTP's 7 campuses, generating a structured dataset of approximately 400 records with a 70-column schema spanning 2024–2026. The resulting Power BI dashboard now serves as the institution's authoritative reference for institutional planning, maintenance management, infrastructure investment prioritization, and regulatory transparency — with results formally presented by DIPLAN (UTP's institutional planning directorate) and publicly reported by the university.",
+        "es": "El pipeline digitalizó exitosamente la auditoría de infraestructura física de los 7 campuses de la UTP, generando un dataset estructurado de aproximadamente 400 registros con un esquema de 70 columnas que abarca 2024–2026. El dashboard de Power BI resultante sirve ahora como referencia institucional autorizada para planificación institucional, gestión de mantenimiento, priorización de inversiones en infraestructura y transparencia regulatoria — con resultados presentados formalmente por la DIPLAN (Dirección de Planificación Institucional de la UTP) y reportados públicamente por la universidad.",
+        "zh": "该流水线成功完成了UTP 7个校区物理基础设施审计的数字化，生成了涵盖2024年至2026年、约400条记录、70列模式的结构化数据集。由此产生的 Power BI 仪表板现已成为机构规划、维护管理、基础设施投资优先级排序和合规透明度的权威参考——相关成果由UTP的机构规划部门 DIPLAN 正式发布并对外公开报告。",
+        "ja": "このパイプラインはUTPの7キャンパスの物理インフラ監査のデジタル化に成功し、2024年〜2026年の期間にわたる約400件・70列スキーマの構造化データセットを生成しました。結果として得られたPower BIダッシュボードは現在、機関計画、設備保全管理、インフラ投資優先順位付け、および規制上の透明性確保のための機関としての権威ある参照情報源として機能しており、成果はUTPの機関計画局（DIPLAN）によって正式に発表・公開報告されています。"
+      }
+    },
+    "quote": {
+      "en": "From clipboards to cloud intelligence — 400 physical spaces across 7 campuses, fully digitized, analyzed, and ready to drive infrastructure decisions.",
+      "es": "De planillas en papel a inteligencia en la nube — 400 espacios físicos en 7 campus, completamente digitalizados, analizados y listos para impulsar decisiones de infraestructura.",
+      "zh": "从纸质表格到云端智能——7个校区400个物理空间，全面数字化、分析完毕，随时驱动基础设施决策。",
+      "ja": "紙の調査票からクラウドインテリジェンスへ——7キャンパス400の物理スペースを完全デジタル化・分析し、インフラ意思決定を支える準備が整いました。"
+    },
+    "links": {
+      "UTP DIPLAN": "https://utp.ac.pa/diplan-presenta-avances-del-estudio-de-capacidad-fisica-instalada"
+    },
+    "collaborators": [
+      {
+        "name": "Mgtr. Maryuri Quintero",
+        "email": "maryuri.quintero@utp.ac.pa",
+        "roles": {
+          "en": "Executive Director",
+          "es": "Directora Ejecutiva",
+          "zh": "执行董事",
+          "ja": "常務取締役"
+        }
+      },
+      {
+        "name": "Ing. Dania Serrano",
+        "email": "dania.serrano@utp.ac.pa",
+        "roles": {
+          "en": "Engineer",
+          "es": "Ingeniera",
+          "zh": "工程师",
+          "ja": "エンジニア"
+        }
+      },
+      {
+        "name": "Ing. Humberto De Buc",
+        "email": "humberto.debuc@utp.ac.pa",
+        "roles": {
+          "en": "Engineer",
+          "es": "Ingeniero",
+          "zh": "工程师",
+          "ja": "エンジニア"
+        }
+      }
+    ],
+    "institution": {
+      "en": "Technological University of Panama (UTP)",
+      "es": "Universidad Tecnológica de Panama (UTP)",
+      "ja": "パナマ工科大学(UTP)",
+      "zh": "巴拿马科技大学(UTP)"
+    },
+    "branch": {
+      "en": "Institutional Planning Directorate (DIPLAN)",
+      "es": "Dirección de Planificación Institucional (DIPLAN)",
+      "zh": "机构规划局（DIPLAN）",
+      "ja": "機関計画局（DIPLAN）"
+    },
+    "participation": {
+      "en": "Electrical and Electronics Engineer",
+      "es": "Ingeniero Eléctrico y Electrónico",
+      "zh": "电气电子工程师",
+      "ja": "電気電子工学エンジニア"
+    },
+    "profile_image": "images/capacidad_instalada.png",
+    "images": [
+      "images/capacidad_instalada.png",
+      "images/capacidad_instalada1.jpg",
+      "images/capacidad_instalada2.png",
+      "images/capacidad_instalada3.png"
+    ],
+    "Product": "Dashboards"
+  },
+  {
+    "id": 62,
+    "title": {
+      "en": "University Transport Management System — Power Platform",
+      "es": "Sistema de Gestión de Transporte Universitario — Power Platform",
+      "zh": "大学运输管理系统——Power Platform",
+      "ja": "大学輸送管理システム——Power Platform"
+    },
+    "summary": {
+      "en": "An enterprise low-code solution that digitizes the end-to-end lifecycle of institutional transport: from multi-role request capturing via Power Apps to automated fleet assignment logic with Power Automate, centralized in SharePoint, and visualized through Power BI for fleet optimization and resource planning.",
+      "es": "Una solución enterprise low-code que digitaliza el ciclo de vida completo del transporte institucional: desde la captura de solicitudes multi-rol mediante Power Apps hasta la lógica automatizada de asignación de flota con Power Automate, centralizado en SharePoint y visualizado en Power BI para la optimización de recursos.",
+      "zh": "一套企业级低代码解决方案，实现了机构运输全生命周期的数字化：从通过 Power Apps 进行的多角色请求采集，到使用 Power Automate 实现的自动化车队分配逻辑，统一存储于 SharePoint，并通过 Power BI 进行可视化，以实现车队优化和资源规划。",
+      "ja": "機関輸送のライフサイクル全体をデジタル化するエンタープライズ向けローコードソリューション：Power Appsによるマルチロールの要求収集から、Power Automateによる自動車両割り当てロジック、SharePointでの中央管理、そして車両最適化とリソース計画のためのPower BIによる可視化までを網羅します。"
+    },
+    "category": {
+      "en": "Professional",
+      "es": "Profesional",
+      "zh": "专业的",
+      "ja": "プロフェッショナル"
+    },
+    "tags": {
+      "en": [
+        "<strong>🚍 Fleet Management</strong>",
+        "<strong>⚙️ Workflow Automation</strong>",
+        "<strong>📈 Operational Analytics</strong>"
+      ],
+      "es": [
+        "<strong>🚍 Gestión de Flota</strong>",
+        "<strong>⚙️ Automatización de Procesos</strong>",
+        "<strong>📈 Analítica Operativa</strong>"
+      ],
+      "zh": [
+        "<strong>🚍 车队管理</strong>",
+        "<strong>⚙️ 工作流自动化</strong>",
+        "<strong>📈 运营分析</strong>"
+      ],
+      "ja": [
+        "<strong>🚍 車両管理</strong>",
+        "<strong>⚙️ ワークフロー自動化</strong>",
+        "<strong>📈 運用アナリティクス</strong>"
+      ]
+    },
+    "start": "06/01/2024",
+    "finish": "today",
+    "content": {
+      "problem": {
+        "en": "The Technological University of Panama required a centralized system to manage transport logistics across various administrative and academic units. Manual scheduling led to fleet underutilization, lack of traceability for mission-critical trips, and fragmented data regarding driver assignments and fuel/maintenance planning.",
+        "es": "La Universidad Tecnológica de Panamá requería un sistema centralizado para gestionar la logística de transporte entre diversas unidades administrativas y académicas. La programación manual provocaba subutilización de la flota, falta de trazabilidad en misiones críticas y datos fragmentados sobre asignaciones de conductores y planificación de mantenimiento.",
+        "zh": "巴拿马科技大学需要一个中央系统来管理各行政和学术部门的运输物流。人工调度导致车队利用率不足、关键任务行程缺乏可追溯性，以及关于驾驶员分配和燃料/维护规划的数据碎片化。",
+        "ja": "パナマ工科大学は、さまざまな管理・学術部門にわたる輸送ロジックを管理するための集中システムを必要としていました。手動のスケジューリングにより、車両の過小利用、ミッションクリティカルな移動のトレーサビリティ不足、運転手の割り当てや燃料・保守計画に関するデータの断片化が発生していました。"
+      },
+      "approach": {
+        "en": "<p>A modular architecture was implemented to handle high-concurrency requests:</p><ul><li><strong>Power Apps (Dual-App Interface)</strong> — Developed two distinct interfaces: one for faculty/staff to submit complex mission requests and a specialized 'Admin Console' for logistics managers to perform driver-vehicle binding.</li><li><strong>Power Automate (Asynchronous Logic)</strong> — Built a 2-flow engine responsible for data normalization, automated document generation for per-diem support, and real-time state synchronization.</li><li><strong>SharePoint (Operational Repository)</strong> — Utilized specialized lists as a relational data store for mission logs.</li><li><strong>Power BI (Fleet Intelligence)</strong> — Designed a dashboard to track 'intra-province' vs 'inter-province' trends and vehicle utilization rates.</li></ul>",
+        "es": "<p>Se implementó una arquitectura modular para manejar solicitudes de alta concurrencia:</p><ul><li><strong>Power Apps (Interfaz Dual)</strong> — Se desarrollaron dos interfaces distintas: una para que el personal registre solicitudes complejas y una 'Consola de Administración' para que los gestores logísticos realicen el vínculo conductor-vehículo.</li><li><strong>Power Automate (Lógica Asíncrona)</strong> — Motor de 2 flujos encargado de la normalización de datos, generación automática de documentación para viáticos y sincronización de estados.</li><li><strong>SharePoint (Repositorio Operativo)</strong> — Listas especializadas utilizadas como almacén de datos relacionales para bitácoras de misiones.</li><li><strong>Power BI (Fleet Intelligence)</strong> — Dashboard para rastrear tendencias inter-provinciales y tasas de utilización de vehículos.</li></ul>",
+        "zh": "<p>实施了模块化架构以处理高并发请求：</p><ul><li><strong>Power Apps（双应用界面）</strong> — 开发了两个不同的界面：一个供教职员工提交复杂的任务请求，另一个是专为物流经理设计的“管理控制台”，用于执行驾驶员与车辆的绑定。</li><li><strong>Power Automate（异步逻辑）</strong> — 构建了一个双流引擎，负责数据标准化、差旅补贴（viáticos）支持文件的自动生成以及实时状态同步。</li><li><strong>SharePoint（运营库）</strong> — 利用专门的列表作为任务日志的关系型数据存储。</li><li><strong>Power BI（车队智能）</strong> — 设计了仪表板，用于追踪“省内”与“跨省”趋势以及车辆利用率。</li></ul>",
+        "ja": "<p>高コンカレンシーな要求に対応するため、モジュール式アーキテクチャを実装しました：</p><ul><li><strong>Power Apps（デュアルアプリインターフェース）</strong> — 教職員が複雑なミッション要求を送信するためのインターフェースと、ロジスティクス管理者が運転手と車両の紐付けを行うための専門的な「管理コンソール」の2つを開発。</li><li><strong>Power Automate（非同期ロジック）</strong> — データの正規化、日当（viáticos）支援用のドキュメント自動生成、およびリアルタイムの状態同期を担当する2つのフローエンジンを構築。</li><li><strong>SharePoint（運用リポジトリ）</strong> — ミッションログのリレーショナルデータストアとして専用リストを利用。</li><li><strong>Power BI（車両インテリジェンス）</strong> — 「州内」対「州外」の傾向や車両利用率を追跡するダッシュボードを設計。</li></ul>"
+      },
+      "outcome": {
+        "en": "The system successfully eliminated paper-based scheduling, providing 100% traceability for institutional missions. It optimized fleet coordination between the Víctor Levi Sasso Campus and regional sites, resulting in enhanced administrative transparency for resource allocation.",
+        "es": "El sistema eliminó exitosamente la programación en papel, brindando un 100% de trazabilidad a las misiones institucionales. Optimizó la coordinación de flota entre el Campus Víctor Levi Sasso y sedes regionales, resultando en una mayor transparencia administrativa en la asignación de recursos.",
+        "zh": "该系统成功消除了纸质调度，为机构任务提供了100%的可追溯性。它优化了 Víctor Levi Sasso 校区与区域中心之间的车队协调，从而提高了资源分配的行政透明度。",
+        "ja": "システムは紙ベースのスケジューリングを完全に排除し、機関ミッションの100%のトレーサビリティを実現しました。Víctor Levi Sassoキャンパスと地域拠点の間の車両調整を最適化し、リソース割り当てにおける管理上の透明性を向上させました。"
+      }
+    },
+    "quote": {
+      "en": "Centralizing logistics through low-code: transforming fragmented transport requests into a unified, data-driven fleet operation.",
+      "es": "Centralizando la logística mediante low-code: transformando solicitudes fragmentadas en una operación de flota unificada y basada en datos.",
+      "zh": "通过低代码实现物流集中化：将碎片化的运输请求转化为统一的、数据驱动的车队运营。",
+      "ja": "ローコードによるロジスティクスの集約：断片的な輸送要求を、統一されたデータ駆動型の車両運用へと変革します。"
+    },
+    "links": {
+      "Institution": "https://utp.ac.pa/"
+    },
+    "institution": {
+      "en": "Technological University of Panama (UTP)",
+      "es": "Universidad Tecnológica de Panamá (UTP)",
+      "zh": "巴拿马科技大学 (UTP)",
+      "ja": "パナマ工科大学 (UTP)"
+    },
+    "branch": {
+      "en": "Transport Department",
+      "es": "Departamento de Transporte",
+      "zh": "运输部",
+      "ja": "輸送部門"
+    },
+    "participation": {
+      "en": "Lead Solutions Architect & Full-Stack Developer",
+      "es": "Arquitecto de Soluciones & Desarrollador Full-Stack",
+      "zh": "首席解决方案架构师与全栈开发人员",
+      "ja": "リードソリューションアーキテクト兼フルスタック開発者"
+    },
+    "Product": "Programming",
+    "images": [
+      "images/aplicacion_transporte.png",
+      "images/aplicacion_transporte1.png"
     ]
   }
 ]

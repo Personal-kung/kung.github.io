@@ -270,9 +270,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     /** Translate object field by language */
     const tField = f =>
-        typeof f === "object" && !Array.isArray(f)
+        f && typeof f === "object" && !Array.isArray(f)
             ? f[lang()] || Object.values(f)[0]
-            : f;
+            : (f || "");
 
     /** Format date (supports 'today') */
     const formatDate = d =>
@@ -470,6 +470,144 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     };
 
+
+    /* =========================
+       NEW ENHANCEMENTS
+    ========================== */
+
+    function updateDynamicFooter() {
+        const ftEmail = document.getElementById("footer-email");
+        const ftGithub = document.getElementById("footer-github");
+        if (!ftEmail || !ftGithub) return;
+        const currentLang = langSelect.value;
+        if (currentLang === "zh" || currentLang === "ja") {
+            ftEmail.href = "mailto:kelvinmext1@gmail.com";
+            ftGithub.href = "https://github.com/Personal-kung";
+        } else {
+            ftEmail.href = "mailto:kelvin.kung@utp.ac.pa";
+            ftGithub.href = "https://github.com/kelvinutp";
+        }
+    }
+
+    function renderHighlights() {
+        const hc = document.getElementById("highlights-container");
+        if (!hc) return;
+
+        let highlights = data.filter(d => d.highlight).sort((a, b) => a.highlight - b.highlight);
+
+        const fallbackDescs = {
+            6: {
+                en: "Explore the intersection of hardware and software with innovative robotics solutions designed to improve academic access and foster new avenues of technical discovery.",
+                es: "Explora la intersección de hardware y software con soluciones robóticas innovadoras diseñadas para mejorar el acceso académico y fomentar nuevas vías de descubrimiento técnico.",
+                zh: "探索硬件与软件的交叉领域，通过创新的机器人解决方案旨在提高学术界的可及性并促进技术发现的新途径。",
+                ja: "ハードウェアとソフトウェアの交差点を探求し、学問のアクセスを改善し、技術的発見の新しい道を開くために設計された革新的なロボティクスソリューション。"
+            }
+        };
+
+        hc.innerHTML = highlights.map(i => {
+            let desc = tField(i.summary) || (fallbackDescs[i.id] ? fallbackDescs[i.id][lang()] : "");
+            return `
+            <div class="highlight-card clickable-card" data-href="details1.html?projectId=${i.id}">
+                <div class="highlight-image">
+                    <img src="${i.profile_image}" alt="highlight" loading="lazy">
+                </div>
+                <div class="highlight-content">
+                    <h3>${tField(i.title)}</h3>
+                    <p>${desc}</p>
+                </div>
+            </div>`;
+        }).join('');
+    }
+
+    function renderPortfolios() {
+        const pt = document.getElementById("portfolios-track");
+        if (!pt) return;
+
+        const productsMap = {};
+        data.forEach(d => {
+            const catEn = d.category ? (d.category.en || d.category) : '';
+            if (catEn === 'Research' || catEn === 'Professional') {
+                if (d.Product && !productsMap[d.Product]) {
+                    productsMap[d.Product] = true;
+                }
+            }
+        });
+
+        const products = Object.keys(productsMap);
+        if (products.length === 0) return;
+
+        const productInfo = {
+            "Robotics": {
+                img: "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&q=80&w=600",
+                desc: {
+                    en: "Cutting-edge electromechanical systems and automated machines driving the future of industry.",
+                    es: "Sistemas electromecánicos de vanguardia y máquinas automatizadas impulsando el futuro de la industria.",
+                    zh: "推动行业未来的尖端机电系统和自动化机器。",
+                    ja: "産業の未来を牽引する最先端の電気機械システムと自動化機械。"
+                }
+            },
+            "Dashboards": {
+                img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600",
+                desc: {
+                    en: "Robust monitoring, SCADA setups, and data visualization bridging hardware with human insights.",
+                    es: "Monitoreo robusto, configuraciones SCADA y visualización de datos uniendo el hardware con conocimientos humanos.",
+                    zh: "强大的监控、SCADA设置和数据可视化，连接硬件与人类洞察。",
+                    ja: "堅牢な監視、SCADA設定、データ可視化によりハードウェアと人間の洞察を結びつける。"
+                }
+            },
+            "Programming": {
+                img: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=600",
+                desc: {
+                    en: "Scalable software solutions, from enterprise-level integrations to intricate machine logic.",
+                    es: "Soluciones de software escalables, desde integraciones a nivel empresarial hasta lógica de máquina intricada.",
+                    zh: "从企业级集成到复杂机器逻辑的可扩展软件解决方案。",
+                    ja: "企業レベルの統合から複雑な機械ロジックまで、拡張性のあるソフトウェアソリューション。"
+                }
+            },
+            "Electronics": {
+                img: "https://cdn.rohde-schwarz.com/image/market-segments/industry-components-and-research-electronic-design-electronic-design-keyvisual-rohde-schwarz_200_104856_2880_1620_6.jpg",
+                desc: {
+                    en: "High-precision embedded systems, PCBs, and advanced energy technologies solving real-world challenges.",
+                    es: "Sistemas embebidos de alta precisión, PCBs y tecnologías energéticas avanzadas resolviendo desafíos del mundo real.",
+                    zh: "解决现实挑战的高精度嵌入式系统、PCB及先进能源技术。",
+                    ja: "現実世界の課題を解決する高精度な組み込みシステム、PCB、最先端のエネルギー技術。"
+                }
+            },
+            "Smart Systems": {
+                img: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=600",
+                desc: {
+                    en: "Intelligent analytics, modeling, and algorithm development bridging theoretical research with practical utility.",
+                    es: "Análisis inteligente, modelado y desarrollo de algoritmos uniendo la investigación teórica con la utilidad práctica.",
+                    zh: "连接理论研究与实用价值的智能分析、建模及算法开发。",
+                    ja: "理論研究と実用性を結びつけるインテリジェントな分析、モデリング、アルゴリズム開発。"
+                }
+            },
+            "Research & Engineering": {
+                img: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=600",
+                desc: {
+                    en: "Specialized initiatives pushing the boundaries of scientific inquiry and applied technology.",
+                    es: "Iniciativas especializadas superando los límites de la investigación científica y la tecnología aplicada.",
+                    zh: "突破科学探究与应用技术边界的专业项目。",
+                    ja: "科学的探求と応用技術の境界を押し広げる専門的な取り組み。"
+                }
+            }
+        };
+
+        pt.innerHTML = products.map(p => {
+            const info = productInfo[p] || productInfo["Research & Engineering"];
+            return `
+            <div class="portfolio-card" onclick="window.open('portfolio_summary.html?product='+encodeURIComponent('${p}'), '_blank')">
+                <div class="p-img-wrapper">
+                    <img src="${info.img}" alt="${p}" loading="lazy">
+                </div>
+                <div class="p-content">
+                    <h3>${p}</h3>
+                    <p>${info.desc[lang()]}</p>
+                </div>
+            </div>`;
+        }).join('');
+    }
+
     /* =========================
        LANGUAGE + INIT
     ========================== */
@@ -493,15 +631,18 @@ document.addEventListener("DOMContentLoaded", () => {
     /** Initialize app */
     function init() {
         applyTranslations(translations);
-        jsonToTable("data/project_info.json", "tableContainer");
+        updateDynamicFooter();
+        // jsonToTable("data/project_info.json", "tableContainer");
         updateCollaborationsSection();
         fetchJSON("data/information.json").then(j => {
             data = filtered = j;
             filterData("all");
             switchViewMode("timeline");
+            renderHighlights();
+            renderPortfolios();
         });
         loadProfiles();
-    };
+    }
 
     /* =========================
        EVENTS
@@ -513,7 +654,10 @@ document.addEventListener("DOMContentLoaded", () => {
         if (card?.dataset.href) window.open(card.dataset.href, "_blank");
     });
 
-    langSelect.addEventListener("change", () => init(window.translations));
+    langSelect.addEventListener("change", () => {
+        init(window.translations);
+        updateDynamicFooter();
+    });
     window.switchViewMode = switchViewMode;
     window.filterData = filterData;
 
