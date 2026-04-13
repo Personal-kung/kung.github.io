@@ -63,7 +63,7 @@ header {
 .banner {
   width: 100vw;
   /* full width even if parent is centered */
-  max-height: 600px;
+  max-height: 800px;
   /* optional height cap */
   overflow: hidden;
   /* crop vertical overflow */
@@ -846,4 +846,39 @@ model-viewer {
 .portfolio-card p {
     font-size: 0.9rem;
     color: #cfcfcf;
+}
+/* Apply Highlight Section theme to Stats Section */
+.stats-section {
+    padding: 80px 20px;    
+    border-top: 1px solid rgba(0,0,0,0.05);
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.stats-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.stat-item {
+    text-align: center;
+    flex: 1;
+    min-width: 200px;
+}
+
+.stat-number {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--accent-color, #007bff); /* Match your highlight accent color */
+    margin-bottom: 10px;
+}
+
+.stat-label {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-muted, #666);
 }

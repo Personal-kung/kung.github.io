@@ -35,7 +35,7 @@
     },
     {
         "image_url": "images/danilo.caceres.jpg",
-        "webpage":"https://sistemasinteligentes.utp.ac.pa",
+        "webpage": "https://orcid.org/0000-0002-1786-5778",
         "name": {
             "en": "Danilo Caceres-Hernandez",
             "es": "Danilo Cáceres-Hernandez"
@@ -212,6 +212,7 @@
     {
         "name": "Jessica Yarelys Guevara Cedeño",
         "image_url": "images/jessica_guevara.jpeg",
+        "webpage": "https://orcid.org/0000-0002-7273-6848",
         "title": {
             "en": "PhD",
             "es": "Dra.",

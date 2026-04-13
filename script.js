@@ -84,7 +84,11 @@ document.addEventListener("DOMContentLoaded", () => {
             "filter-acco": "Accordion",
             "filter-acco-title": "Accordion View",
             "filter-inte": "Interactive",
-            "filter-inte-title": "Interactive View"
+            "filter-inte-title": "Interactive View",
+            "stats-projects": "Projects",
+            "stats-collaborators": "Collaborators",
+            "stats-institutions": "Institutions",
+            "brand-title": "Global Partners & Institutions"
         },
         es: {
             "name": "Kelvin Kung",
@@ -127,7 +131,11 @@ document.addEventListener("DOMContentLoaded", () => {
             "filter-acco": "Acordeón",
             "filter-acco-title": "Vista Acordeón",
             "filter-inte": "Interactivo",
-            "filter-inte-title": "Vista Interactiva"
+            "filter-inte-title": "Vista Interactiva",
+            "stats-projects": "Proyectos",
+            "stats-collaborators": "Colaboradores",
+            "stats-institutions": "Instituciones",
+            "brand-title": "Alianzas Globales e Instituciones"
         },
         zh: {
             "name": "龚颖贤",
@@ -170,7 +178,11 @@ document.addEventListener("DOMContentLoaded", () => {
             "filter-acco": "折叠式",
             "filter-acco-title": "折叠式视图",
             "filter-inte": "交互式",
-            "filter-inte-title": "交互式视图"
+            "filter-inte-title": "交互式视图",
+            "stats-projects": "项目",
+            "stats-collaborators": "合作伙伴",
+            "stats-institutions": "合作机构",
+            "brand-title": "全球合作伙伴与机构"
         },
         ja: {
             "name": "クンケルビン",
@@ -213,15 +225,50 @@ document.addEventListener("DOMContentLoaded", () => {
             "filter-acco": "アコーディオン",
             "filter-acco-title": "アコーディオン表示",
             "filter-inte": "インタラクティブ",
-            "filter-inte-title": "インタラクティブ表示"
+            "filter-inte-title": "インタラクティブ表示",
+            "stats-projects": "プロジェクト",
+            "stats-collaborators": "協力者",
+            "stats-institutions": "所属機関",
+            "brand-title": "連携機関・ブランド"
         }
     };
 
+    /** Animated counter function */
+    function animateValue(obj, start, end, duration) {
+        let startTimestamp = null;
+        const step = (timestamp) => {
+            if (!startTimestamp) startTimestamp = timestamp;
+            const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+            obj.innerHTML = Math.floor(progress * (end - start) + start);
+            if (progress < 1) {
+                window.requestAnimationFrame(step);
+            }
+        };
+        window.requestAnimationFrame(step);
+    }
+
+    /** Setup IntersectionObserver for stats */
+    function setupStatsAnimation(p, c, i) {
+        const section = document.getElementById("stats-section");
+        if (!section) return;
+        const observer = new IntersectionObserver((entries) => {
+            if (entries[0].isIntersecting) {
+                animateValue(document.getElementById("count-projects"), 1, p, 2000);
+                animateValue(document.getElementById("count-collabs"), 1, c, 2000);
+                animateValue(document.getElementById("count-institutions"), 1, i, 2000);
+                observer.unobserve(section);
+            }
+        }, { threshold: 0.5 });
+        observer.observe(section);
+    }    
+
     function updateCollaborationsSection() {
         const container = document.querySelector(".collab-carousel");
-        if (!container) return console.warn("No collab-carousel container found.");
+        const showcaseContainer = document.getElementById("institution-logos");
+        if (!container) return;
 
         container.innerHTML = "";
+        const uniqueInstitutions = new Set();
 
         // Get selected language
         const language = document.getElementById("lang-select").value;
@@ -234,20 +281,44 @@ document.addEventListener("DOMContentLoaded", () => {
             })
             .then(collaborators => {
                 collaborators.forEach(item => {
+                    const inst = tField(item.university);
+                    if (inst) uniqueInstitutions.add(inst);
+
                     const div = document.createElement("div");
-                    div.className = "collab-item";
+                    const hasWebsite = item.webpage && item.webpage.trim() !== "";
+                    div.className = "collab-item" + (hasWebsite ? " has-link" : "");
+                    
+                    if (hasWebsite) {                        
+                        div.style.cursor = "pointer";
+                        div.addEventListener("click", () => window.open(item.webpage, "_blank"));
+                    }
+
                     div.innerHTML = `
                     <div class="collab-description">
                         <h3>${tField(item.name)}</h3>
-                        <p><strong>${tField(item.title)}</strong> — ${tField(item.university)}</p>
-                        <p>${(tField(item?.branch) ?? "") && `${tField(item?.branch)}, `} ${tField(item.country)}</p>
+                        <p><strong>${tField(item.title)}</strong> — ${inst}</p>
+                        ${hasWebsite ? '<a href="#" target="_blank" class="visit-link">' : ''}
+                        <p>${(tField(item?.branch) ?? "") && `${tField(item?.branch)}, `} ${tField(item.country)}</p>                        
                     </div>
                     <div class="collab-photo">
                         <img src="${item.image_url}" alt="${item.name}">
-                    </div>
+                    ${hasWebsite ? '</a>' : ''}</div>
                 `;
                     container.appendChild(div);
                 });
+
+                // Update Stats and Showcase once collaborator data is ready
+                const projectsCount = data.filter(item => {
+                    const cat = (item.category?.en || item.category || "").toLowerCase();
+                    return cat === "professional" || cat === "research";
+                }).length;
+                const collabsCount = collaborators.length;
+                const instCount = uniqueInstitutions.size;
+                setupStatsAnimation(projectsCount, collabsCount, instCount);
+
+                if (showcaseContainer) {
+                    renderInstitutionShowcase(uniqueInstitutions, showcaseContainer);
+                }
             })
             .catch(err => console.error("Error loading collaborators:", err));
     }
@@ -632,14 +703,14 @@ document.addEventListener("DOMContentLoaded", () => {
     function init() {
         applyTranslations(translations);
         updateDynamicFooter();
-        // jsonToTable("data/project_info.json", "tableContainer");
-        updateCollaborationsSection();
         fetchJSON("data/information.json").then(j => {
             data = filtered = j;
             filterData("all");
             switchViewMode("timeline");
             renderHighlights();
             renderPortfolios();
+            // Load collaborations after projects to ensure data is available for counters
+            updateCollaborationsSection();
         });
         loadProfiles();
     }
