@@ -2,235 +2,258 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kelvin Kung | Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ===== SEO ===== -->
+  <title>Kelvin Kung | Electrical Engineer & VLSI Researcher</title>
+  <meta name="description" content="Kelvin Kung — Electrical & Electronics Engineer, VLSI researcher at Kyushu Institute of Technology. Expert in high-voltage systems, embedded electronics, semiconductor fabrication, and international engineering competitions." />
+  <meta name="keywords" content="Kelvin Kung, electrical engineer, VLSI, Kyushu, Panama, semiconductor, PCB, robotics, IEEE, research" />
+  <meta name="author" content="Kelvin Kung" />
+  <meta name="robots" content="index, follow" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="shortcut icon" href="favicon.svg" />
+
+  <!-- ===== Open Graph ===== -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Kelvin Kung | Electrical Engineer & VLSI Researcher" />
+  <meta property="og:description" content="Portfolio of Kelvin Kung — engineer, researcher, and international collaborator across Panama and Japan." />
+  <meta property="og:url" content="https://kung.github.io/" />
+  <meta property="og:image" content="images/thumbnails/patente.webp" />
+
+  <!-- ===== Fonts ===== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <!-- ===== HEADER ===== -->
-    <header>
-        <nav class="navbar">
-            <div class="logo" data-lang="name">Kelvin Kung</div>
-            <ul class="nav-links">
-                <li><a href="#about" data-lang="nav-about">About</a></li>
-                <li><a href="#experience-summary" data-lang="nav-exp">Experience</a></li>
-                <li><a href="#projects" data-lang="nav-projects">Projects</a></li>
-                <li><a href="#contact" data-lang="nav-contact">Contact</a></li>
-            </ul>
-            <!-- Language selector -->
-            <select id="lang-select">
-                <option value="en">EN</option>
-                <option value="zh">中文</option>
-                <option value="ja">日本語</option>
-                <option value="es">ES</option>
-            </select>
-        </nav>
-    </header>
 
-    <section class="banner">
-        <div class="tile-grid" id="tileGrid"></div>
-    </section>
+  <!-- ===== NAVIGATION ===== -->
+  <header role="banner">
+    <nav class="navbar" aria-label="Main navigation">
+      <a href="#" class="logo" data-lang="name" aria-label="Home">Kelvin Kung</a>
+      <ul class="nav-links" role="list">
+        <li><a href="#about"            data-lang="nav-about">About</a></li>
+        <li><a href="#experience-summary" data-lang="nav-exp">Experience</a></li>
+        <li><a href="#projects"         data-lang="nav-projects">Projects</a></li>
+        <li><a href="#contact"          data-lang="nav-contact">Contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <select id="lang-select" aria-label="Language selector">
+          <option value="en">EN</option>
+          <option value="zh">中文</option>
+          <option value="ja">日本語</option>
+          <option value="es">ES</option>
+        </select>
+        <button class="nav-menu-btn" id="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
 
-    <!-- ===== ABOUT ===== -->
-    <section class="about" id="about">
-        <div class="about-content">
-            <h2 data-lang="about-title">About Me</h2>
-            <div style="display: flex; gap: 20px; line-height: 1.6;">
-                <!-- Column 1 -->
-                <div style="flex: 1;">
-                    <p data-lang="about-intro">
-                        Kelvin Kung is an Electrical and Electronics Engineer. Currently researching Very Large System
-                        Integration (VLSI) testing in Kyushu Institute of Technology
-                    </p>
-                    <p data-lang="about-body">
-                        Kelvin worked in Technological University of Panama (2022-2025) focusing on high voltage
-                        electrical
-                        systems
-                        design, with an emphasis on innovation and real-world applications.
-                        Throughout his career, he designed and installed complex electrical systems,
-                        including lightning rods, grounding systems, and reactive capacitors compensation systems. He
-                        set
-                        benchmarks for nationwide electricity controls in universities, utilizing
-                        SCADA systems and Power BI to enhance decision-making processes.
-                    </p>
-                    <p data-lang="about-body1">
-                        Kelvin conducted and organized power quality analysis tests across both public and private
-                        sectors
-                        nationwide. Additionally, I have experience designing and overseeing high-voltage systems
-                        (13.8kV
-                        and
-                        derivatives) ensuring safety and efficiency in electrical distribution.
-                    </p>
-                </div>
+  <!-- ===== HERO / BANNER ===== -->
+  <section class="banner" id="home" aria-label="Hero banner">
 
-                <!-- Column 2 -->
-                <div style="flex: 1;">
-                    <p data-lang="about-body2">
-                        On the electronic side, he has worked on several innovative projects, including
-                        electromechanical
-                        teleoperation, spectral analysis for watermelons, and the development of the first Panamanian
-                        patent
-                        for
-                        nanoelectrical circuits. Kelvin has also designed a scoring board for the university's baseball
-                        field and
-                        contributed to multiple international publications and conferences, including IEEE and
-                        Neurocomputing
-                        (Elsevier).
-                    </p>
-                    <p data-lang="about-body3">
-                        In 2023 and 2024 Kelvin served as a judge for international competitions in Europe and America.
-                        Furthermore, he has designed and build low-cost robotic kits for public schools
-                        to
-                        help students develop robotics skills. He also contributed to specialized electronics projects
-                        aimed
-                        at assisting disabled people, such as developing a smart wheelchair for paraplegic individuals.
-                    </p>
-                    <p data-lang="about-conclusion">
-                        Kelvin received his B.S. in Electrical and Electronics Engineering from Technological University
-                        of
-                        Panama (2022)
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- Animated mosaic pulled from project images by script.js -->
+    <div class="tile-grid" id="tileGrid" role="presentation" aria-hidden="true"></div>
 
-    <!-- ===== STATS SUMMARY ===== -->
-    <section class="stats-section" id="stats-section">
-        <div class="stats-container">
-            <div class="stat-item">
-                <div class="stat-number" id="count-projects">0</div>
-                <div class="stat-label" data-lang="stats-projects">Projects</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-number" id="count-collabs">0</div>
-                <div class="stat-label" data-lang="stats-collaborators">Worked with Collaborators</div>
-            </div>
-            <div class="stat-item">
-                <div class="stat-number" id="count-institutions">0</div>
-                <div class="stat-label" data-lang="stats-institutions">Institutions</div>
-            </div>
-        </div>
-    </section>
+    <!-- Gradient overlay with name + role + CTA — injected by script.js -->
+    <!-- #hero-overlay is created dynamically to stay in sync with language changes -->
 
-    <!-- ===== HIGHLIGHTS ===== -->
-    <section class="highlights-section" id="highlights">
-        <h2 data-lang="highlights-title">Highlights</h2>
-        <div id="highlights-container">
-            <!-- Filled dynamically by JavaScript -->
-        </div>
-    </section>
+    <!-- Static fallback text visible before JS -->
+    <noscript>
+      <div class="hero-text hero-text--static">
+        <h1>Kelvin Kung</h1>
+        <p>Electrical Engineer · VLSI Researcher · International Collaborator</p>
+      </div>
+    </noscript>
 
-    <!-- ===== PORTFOLIOS (PRODUCTS CAROUSEL) ===== -->
-    <section class="portfolios-section" id="portfolios">
-        <h2 data-lang="portfolios-title">Product Portfolios</h2>
-        <p data-lang="portfolios-subtitle" style="text-align: center; margin-bottom: 2rem;">Explore grouped products from my professional and research trajectory</p>
-        <div class="carousel-wrapper">
-            <div class="portfolios-track" id="portfolios-track">
-                <!-- Filled dynamically by JavaScript -->
-            </div>
-        </div>
-    </section>
+  </section>
 
-    <!-- ===== COLLABORATION SECTION ===== -->
-    <section class="collaboration" id="collaboration">
-        <h2 data-lang="collab-title">Professionals I've Worked With</h2>
-        <div class="collab-carousel">
-            <!-- Carousel items will be inserted by JS -->
-        </div>
-    </section>
+  <!-- ===== ABOUT ===== -->
+  <section class="about" id="about" aria-labelledby="about-heading">
+    <div class="about-content">
+      <h2 id="about-heading" data-lang="about-title">Kelvin Kung</h2>
+      <div class="about-grid">
 
-
-    <!-- ===== EXPERIENCE SUMMARY ===== -->
-    <section class="experience-summary" id="experience-summary">
-        <h2 data-lang="exp-title">Experience</h2>
-        <div class="exp-columns">
-            <!-- Academic -->
-            <div class="exp-col">
-                <h3 data-lang="exp-academic">Academic</h3>
-                <p data-lang="exp-academic-summary">
-                    Degrees, teaching, and academic achievements in Electrical and Electronics Engineering. Focused on
-                    fostering innovation
-                    through education and mentorship.
-                </p>
-            </div>
-
-            <!-- Research -->
-            <div class="exp-col">
-                <h3 data-lang="exp-research">Research</h3>
-                <p data-lang="exp-research-summary">
-                    Publications, collaborations, and ongoing investigations in applied electronics. Dedicated to
-                    advancing knowledge and practical discovery.
-                </p>
-            </div>
-
-            <!-- Professional -->
-            <div class="exp-col">
-                <h3 data-lang="exp-professional">Professional</h3>
-                <p data-lang="exp-professional-summary">
-                    Real-world industry roles, consulting, and applied work bridging scientific rigor with technological
-                    innovation.
-                </p>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- ===== PROJECTS SUMMARY ===== -->
-    <section>
-        <!-- Filter buttons -->
-        <div class="button-row">
-            <button onclick="filterData('all')" data-lang="filter-all">All</button>
-            <button onclick="filterData('Professional')" data-lang="filter-prof">Professional</button>
-            <button onclick="filterData('Research')" data-lang="filter-rese">Research</button>
-            <button onclick="filterData('Academic')" data-lang="filter-acad">Academics</button>
+        <!-- Column 1 -->
+        <div>
+          <p data-lang="about-intro"></p>
+          <p data-lang="about-body"></p>
+          <p data-lang="about-body1"></p>
         </div>
 
-        <!-- View mode buttons -->
-        <div class="button-row">
-            <button onclick="switchViewMode('timeline')" data-lang="filter-time">Timeline View</button>
-            <button onclick="switchViewMode('accordion')" data-lang="filter-acco">Accordion View</button>
-            <button onclick="switchViewMode('interactive')" data-lang="filter-inte">Interactive View</button>
+        <!-- Column 2 -->
+        <div>
+          <p data-lang="about-body2"></p>
+          <p data-lang="about-body3"></p>
+          <p class="about-conclusion" data-lang="about-conclusion"></p>
         </div>
 
-        <!-- Timeline View -->
-        <div class="timeline active" id="timeline-view">
-            <h2 data-lang="filter-time-title">Timeline View</h2>
-            <div id="timeline-container" class="timeline-container"></div>
-        </div>
+      </div>
+    </div>
+  </section>
 
-        <!-- Accordion View -->
-        <div class="accordion" id="accordion-view">
-            <h2 data-lang="filter-acco-title">Accordion View</h2>
-            <div id="accordion-container"></div>
-        </div>
+  <!-- ===== STATS ===== -->
+  <section class="stats-section" id="stats-section" aria-label="Statistics">
+    <div class="stats-container">
+      <div class="stat-item">
+        <div class="stat-number" id="count-projects">0</div>
+        <div class="stat-label" data-lang="stats-projects">Projects</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number" id="count-collabs">0</div>
+        <div class="stat-label" data-lang="stats-collaborators">Collaborators</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number" id="count-institutions">0</div>
+        <div class="stat-label" data-lang="stats-institutions">Institutions</div>
+      </div>
+    </div>
+  </section>
 
+  <!-- ===== HIGHLIGHTS ===== -->
+  <section class="highlights-section" id="highlights" aria-labelledby="highlights-heading">
+    <h2 id="highlights-heading" data-lang="highlights-title">Highlights</h2>
+    <div id="highlights-container" role="list">
+      <!-- Filled dynamically -->
+    </div>
+  </section>
 
-        <!-- Interactive View -->
-        <div class="interactive" id="interactive-view">
-            <h2 data-lang="filter-inte-title">Interactive View</h2>
-            <div id="interactive-container"></div>
-        </div>
-    </section>
+  <!-- ===== PRODUCT PORTFOLIOS ===== -->
+  <section class="portfolios-section" id="portfolios" aria-labelledby="portfolios-heading">
+    <h2 id="portfolios-heading" data-lang="portfolios-title">Product Portfolios</h2>
+    <p class="section-subtitle" data-lang="portfolios-subtitle">Explore grouped products from my professional and research trajectory</p>
+    <div class="carousel-wrapper">
+      <div class="portfolios-track" id="portfolios-track" role="list">
+        <!-- Filled dynamically -->
+      </div>
+    </div>
+  </section>
 
-    <section class="contact" id="contact">
-        <h2 data-lang="contact-title">Contact</h2>
-        <p data-lang="contact-text" style="text-align: center;">Interested in working or collaborating with me?</p>
-        <div class="contact-links">
-            <a href="mailto:kelvin.kung@utp.ac.pa" id="footer-email">Email</a>
-            <a href="https://github.com/kelvinutp" target="_blank" id="footer-github">GitHub</a>
-        </div>
-    </section>
+  <!-- ===== COLLABORATORS ===== -->
+  <section class="collaboration" id="collaboration" aria-labelledby="collab-heading">
+    <h2 id="collab-heading" data-lang="collab-title">Professionals I've Worked With</h2>
+    <div class="collab-carousel" role="list">
+      <!-- Filled dynamically -->
+    </div>
+  </section>
 
-    <!-- ===== FOOTER ===== -->
-    <footer>
-        <p>© <span id="year"></span> <span data-lang="footer-name">Kelvin Kung</span>.</p>
-    </footer>
-    <script src="script.js"></script>
-    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+  <!-- ===== EXPERIENCE SUMMARY ===== -->
+  <section class="experience-summary" id="experience-summary" aria-labelledby="exp-heading">
+    <h2 id="exp-heading" data-lang="exp-title">Experience</h2>
+    <div class="exp-columns">
+
+      <article class="exp-col" aria-label="Academic experience">
+        <h3 data-lang="exp-academic">Academic</h3>
+        <p data-lang="exp-academic-summary"></p>
+      </article>
+
+      <article class="exp-col" aria-label="Research experience">
+        <h3 data-lang="exp-research">Research</h3>
+        <p data-lang="exp-research-summary"></p>
+      </article>
+
+      <article class="exp-col" aria-label="Professional experience">
+        <h3 data-lang="exp-professional">Professional</h3>
+        <p data-lang="exp-professional-summary"></p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS SECTION ===== -->
+  <section id="projects" aria-labelledby="projects-heading">
+    <h2 id="projects-heading" class="sr-only">Projects</h2>
+
+    <!-- Category filters -->
+    <div class="button-row" role="group" aria-label="Filter by category">
+      <button id="btn-all"  onclick="filterData('all')"          data-lang="filter-all"  class="active-btn">All</button>
+      <button id="btn-prof" onclick="filterData('Professional')" data-lang="filter-prof">Professional</button>
+      <button id="btn-res"  onclick="filterData('Research')"     data-lang="filter-rese">Research</button>
+      <button id="btn-acad" onclick="filterData('Academic')"     data-lang="filter-acad">Academic</button>
+    </div>
+
+    <!-- View mode buttons -->
+    <div class="button-row" role="group" aria-label="View mode">
+      <button id="btn-time" onclick="switchViewMode('timeline')"    data-lang="filter-time"  class="active-btn">Timeline</button>
+      <button id="btn-acco" onclick="switchViewMode('accordion')"   data-lang="filter-acco">Accordion</button>
+      <button id="btn-inte" onclick="switchViewMode('interactive')" data-lang="filter-inte">Interactive</button>
+    </div>
+
+    <!-- Timeline View -->
+    <div class="timeline active" id="timeline-view" role="region" aria-label="Timeline view">
+      <h3 class="view-title" data-lang="filter-time-title">Timeline View</h3>
+      <div id="timeline-container" class="timeline-container"></div>
+    </div>
+
+    <!-- Accordion View -->
+    <div class="accordion" id="accordion-view" role="region" aria-label="Accordion view">
+      <h3 class="view-title" data-lang="filter-acco-title">Accordion View</h3>
+      <div id="accordion-container"></div>
+    </div>
+
+    <!-- Interactive View -->
+    <div class="interactive" id="interactive-view" role="region" aria-label="Interactive view">
+      <h3 class="view-title" data-lang="filter-inte-title">Interactive View</h3>
+      <div id="interactive-container"></div>
+    </div>
+
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact" aria-labelledby="contact-heading">
+    <h2 id="contact-heading" data-lang="contact-title">Contact</h2>
+    <p data-lang="contact-text">Interested in working or collaborating with me?</p>
+    <div class="contact-links">
+      <a href="mailto:kelvin.kung@utp.ac.pa" id="footer-email" class="btn">Email</a>
+      <a href="https://github.com/kelvinutp" target="_blank" rel="noopener" id="footer-github" class="btn btn-ghost">GitHub</a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer role="contentinfo">
+    <p>© <span id="year"></span> <span data-lang="footer-name">Kelvin Kung</span>. All rights reserved.</p>
+  </footer>
+
+  <!-- ===== SCRIPTS ===== -->
+  <script src="script.js"></script>
+
+  <script>
+    // Mobile menu toggle
+    const menuToggle = document.getElementById("menu-toggle");
+    const navLinks   = document.querySelector(".nav-links");
+    if (menuToggle && navLinks) {
+      menuToggle.addEventListener("click", () => {
+        const open = navLinks.classList.toggle("open");
+        menuToggle.setAttribute("aria-expanded", open);
+      });
+    }
+
+    // Category/view button active state
+    function setActive(groupSelector, clickedId) {
+      document.querySelectorAll(groupSelector + " button").forEach(b => b.classList.remove("active-btn"));
+      const el = document.getElementById(clickedId);
+      if (el) el.classList.add("active-btn");
+    }
+    document.querySelectorAll(".button-row button").forEach(btn => {
+      btn.addEventListener("click", function() {
+        const row = this.closest(".button-row");
+        row.querySelectorAll("button").forEach(b => b.classList.remove("active-btn"));
+        this.classList.add("active-btn");
+      });
+    });
+
+    // Navbar scroll effect
+    const header = document.querySelector("header");
+    window.addEventListener("scroll", () => {
+      header.classList.toggle("scrolled", window.scrollY > 40);
+    }, { passive: true });
+  </script>
 
 </body>
-
 </html>

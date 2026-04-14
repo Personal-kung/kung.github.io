@@ -2,49 +2,109 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project Details</title>
-  <link rel="stylesheet" href="details.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ===== SEO ===== -->
+  <title>Project Details | Kelvin Kung</title>
+  <meta name="description" content="Detailed engineering and research project breakdown by Kelvin Kung." />
+  <meta name="author" content="Kelvin Kung" />
+  <meta name="robots" content="noindex, follow" />
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="shortcut icon" href="favicon.svg" />
+
+  <!-- ===== Fonts ===== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
 </head>
 
-<body>
-  <!-- ===== HEADER ===== -->
-  <header>
-    <nav class="navbar">
-      <div class="logo">Kelvin Kung</div>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#contact">Contact</a></li>
+<body class="details-page">
+
+  <!-- ===== NAVIGATION ===== -->
+  <header role="banner">
+    <nav class="navbar" aria-label="Main navigation">
+      <a href="index.html" class="logo" data-lang="name" aria-label="Home">Kelvin Kung</a>
+      <ul class="nav-links" role="list">
+        <li><a href="index.html#about"            data-lang="nav-about">About</a></li>
+        <li><a href="index.html#experience-summary" data-lang="nav-exp">Experience</a></li>
+        <li><a href="index.html#projects"         data-lang="nav-projects">Projects</a></li>
+        <li><a href="index.html#contact"          data-lang="nav-contact">Contact</a></li>
       </ul>
-      <select id="lang-select">
-        <option value="en">EN</option>
-        <option value="zh">中文</option>
-        <option value="ja">日本語</option>
-        <option value="es">ES</option>
-      </select>
+      <div class="nav-right">
+        <select id="lang-select" aria-label="Language selector">
+          <option value="en">EN</option>
+          <option value="zh">中文</option>
+          <option value="ja">日本語</option>
+          <option value="es">ES</option>
+        </select>
+        <button class="nav-menu-btn" id="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
     </nav>
   </header>
 
-  <div class="details" id="projectContent"></div>
+  <!-- ===== PROJECT HERO ===== -->
+  <section class="banner banner--details" id="projectHero" aria-label="Project banner">
+    <!-- Blurred mosaic or single hero image background injected by details.js -->
+    <div class="tile-grid" id="tileGrid" role="presentation" aria-hidden="true"></div>
+    
+    <div id="hero-overlay">
+        <!-- Project Title and Summary injected here -->
+    </div>
+  </section>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main class="details-main">
+    <div class="details-card" id="projectContent">
+        <!-- Detailed content, gallery, and tables injected here by details.js -->
+        <div class="loading-state" style="text-align:center; padding: 4rem; opacity: 0.5;">
+            <p>Loading project details...</p>
+        </div>
+    </div>
+  </main>
 
   <!-- ===== CONTACT ===== -->
-  <section class="contact" id="contact">
-    <h2 data-lang="contact-title">Contact</h2>
+  <section class="contact" id="contact" aria-labelledby="contact-heading">
+    <h2 id="contact-heading" data-lang="contact-title">Contact</h2>
     <p data-lang="contact-text">Interested in working or collaborating with me?</p>
     <div class="contact-links">
-      <a href="mailto:youremail@example.com">Email</a>
-      <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+      <a href="mailto:kelvin.kung@utp.ac.pa" id="footer-email" class="btn">Email</a>
+      <a href="https://github.com/kelvinutp" target="_blank" rel="noopener" id="footer-github" class="btn btn-ghost">GitHub</a>
     </div>
   </section>
 
   <!-- ===== FOOTER ===== -->
-  <footer>
-    <p>© <span id="year"></span> <span data-lang="footer-name">Your Name</span>.</p>
+  <footer role="contentinfo">
+    <p>© <span id="year"></span> <span data-lang="footer-name">Kelvin Kung</span>. All rights reserved.</p>
   </footer>
+
+  <!-- ===== SCRIPTS ===== -->
   <script src="details.js"></script>
-  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+
+  <script>
+    // Mobile menu toggle
+    const menuToggle = document.getElementById("menu-toggle");
+    const navLinks   = document.querySelector(".nav-links");
+    if (menuToggle && navLinks) {
+      menuToggle.addEventListener("click", () => {
+        const open = navLinks.classList.toggle("open");
+        menuToggle.setAttribute("aria-expanded", open);
+      });
+    }
+
+    // Navbar scroll effect
+    const header = document.querySelector("header");
+    window.addEventListener("scroll", () => {
+      header.classList.toggle("scrolled", window.scrollY > 40);
+    }, { passive: true });
+    
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 
 </body>
-
 </html>

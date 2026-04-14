@@ -8,10 +8,10 @@
       "es": "Campamento Tecnológico para Jóvenes en STEM"
     },
     "summary": {
-      "en": "Our Technological Camp for Teenagers in STEM equips young learners with foundational skills in programming and circuitry, using real-world tools in sensors and instrumentation. Designed to promote inclusion and gender equality, the program opens doors to electrical Engineering pathways. 80% of Students enrolled in electrical-related careers afterward.",
-      "zh": "我们的青少年STEM科技营旨在通过传感器和仪器等实际工具,为年轻的学习者提供编程和电路方面的基础技能。该项目旨在促进包容性和性别平等,并为学生开启通往电气工程领域的大门。80%的学生在项目结束后从事了与电气相关的职业",
-      "ja": "STEM分野のティーンエイジャー向けテクノロジーキャンプでは、センサーや計測機器といった実社会で使われるツールを用いて、プログラミングと回路の基礎スキルを若い学習者に身につけさせます。インクルージョンとジェンダー平等を促進することを目的としたこのプログラムは、電気工学分野への道を開きます。その効果は明からで、受講生の80%がその後、電気関連の職業に就いています",
-      "es": "Nuestro Campamento Tecnológico para Adolescentes en STEM proporciona a los jóvenes Estudiantes habilidades fundamentales en programación y circuitos, utilizando herramientas prácticas en sensores e instrumentación. Diseñado para promover la inclusión y la igualdad de género, el programa abre las puertas a carreras de ingeniería eléctrica. 80 % de los Estudiantes se matricularon posteriormente en carreras relacionadas con la electricidad."
+      "en": "Expanded the STEM program to the Chiriqui Regional Center, tailoring modules for local agricultural-tech interests.",
+      "es": "Expandió el programa STEM al Centro Regional de Chiriquí, adaptando módulos para intereses agrotecnológicos locales.",
+      "zh": "将STEM项目扩展到奇里基地区中心,为当地农业技术兴趣定制了模块。",
+      "ja": "STEMプログラムをチリキ地域センターに拡大。現地の農業技術への関心に合わせたモジュールを構築。"
     },
     "category": {
       "en": "Academic",
@@ -21,42 +21,50 @@
     },
     "tags": {
       "en": [
-        "<strong>📟 Sensors & Instrumentation</strong>",
-        "<strong>🎓 Education Technology</strong>"
+        "outreach",
+        "chiriqui",
+        "hardware",
+        "mentoring"
       ],
       "es": [
-        "<strong>📟 Sensors & Instrumentation</strong>",
-        "<strong>🎓 Education Technology</strong>"
+        "outreach",
+        "chiriqui",
+        "hardware",
+        "mentoring"
       ],
       "zh": [
-        "<strong>📟 传感器与仪器仪表</strong>",
-        "<strong>🎓 教育科技</strong>"
+        "outreach",
+        "chiriqui",
+        "hardware",
+        "mentoring"
       ],
       "ja": [
-        "<strong>📟 センサーと計測機器</strong>",
-        "<strong>🎓 教育テクノロジー</strong>"
+        "outreach",
+        "chiriqui",
+        "hardware",
+        "mentoring"
       ]
     },
     "start": "9/9/2023",
     "finish": "10/7/2023",
     "content": {
       "problem": {
-        "en": "Since the 2020 pandemic, enrollment in the Technological University of Panama (UTP) electrical Engineering faculty has declined at an alarming rate. Internal studies revealed that many new Students struggle with mathematical reasoning and programming, mainly due to poor school preparation and limited exposure to technical tools. <br><br> Additionally, female representation in these careers remains significantly lower than male participation. To address these barriers, the university created <em>Technology Camp for Young People in STEM</em>, a program designed to strengthen math and programming skills for female high-school Students and inspire them to consider careers in electrical Engineering",
-        "zh": "自2020年新冠疫情爆发以来,巴拿马科技大学(UTP) 电气工程专业的入学人数以惊人的速度下降。内部调查显示,许多新生在数学推理和编程方面存在困难,这主要是由于学校教育不足以及接触技术工具的机会有限。<br><br>此外,从事这些职业的女性比例仍然远低于男性。为了克服这些障碍,该大学设立了<em>面向青少年STEM领域科技营</em>,旨在加强高中女生的数学和编程技能,并鼓励她们考虑从事电气工程相关职业",
-        "ja": "2020年のパンデミック以降、パナマ工科大学(UTP) の電気工学部の入学者数は驚くべき速さで減少しています。内部調査によると、多くの新入生が数学的推論やプログラミングに苦労していることが明らかになりました。これは主に、学校での準備不足と技術ツールへの露出不足が原因です。<br><br>さらに、これらの職業における女性の比率は、男性に比べて依然として大幅に低いままです。こうした障壁に対処するため、大学はSTEM分野の若者のためのテクノロジーキャンプを創設しました。これは、女子高校生の数学とプログラミングスキルを強化し、電気工学分野でのキャリアを検討するよう促すプログラムです",
-        "es": "Desde la pandemia de 2020, la matrícula en la facultad de ingeniería eléctrica de la Universidad Tecnológica de Panamá (UTP) ha disminuido a un ritmo alarmante. Estudios internos revelaron que muchos Estudiantes nuevos tienen dificultades con el razonamiento matemático y la programación, principalmente debido a la escasa preparación académica y la limitada exposición a herramientas técnicas. <br><br>Además, la representación femenina en estas carreras sigue siendo significativamente menor que la masculina. Para abordar estas barreras, la universidad creó el <em>Campamento Tecnológico para Jóvenes en STEM</em>, un programa diseñado para fortalecer las habilidades matemáticas y de programación de las Estudiantes de secundaria e inspirarlas a considerar carreras en ingeniería eléctrica>"
+        "en": "Since the 2020 pandemic, enrollment in the Technological University of Panama (UTP) electrical Engineering faculty has declined at an alarming rate. Internal studies revealed that many new Students struggle with mathematical reasoning and programming, mainly due to poor school preparation and limited exposure to technical tools.  Additionally, female representation in these careers remains significantly lower than male participation. To address these barriers, the university created Technology Camp for Young People in STEM, a program designed to strengthen math and programming skills for female high-school Students and inspire them to consider careers in electrical Engineering",
+        "zh": "自2020年新冠疫情爆发以来,巴拿马科技大学(UTP) 电气工程专业的入学人数以惊人的速度下降。内部调查显示,许多新生在数学推理和编程方面存在困难,这主要是由于学校教育不足以及接触技术工具的机会有限。此外,从事这些职业的女性比例仍然远低于男性。为了克服这些障碍,该大学设立了面向青少年STEM领域科技营,旨在加强高中女生的数学和编程技能,并鼓励她们考虑从事电气工程相关职业",
+        "ja": "2020年のパンデミック以降、パナマ工科大学(UTP) の電気工学部の入学者数は驚くべき速さで減少しています。内部調査によると、多くの新入生が数学的推論やプログラミングに苦労していることが明らかになりました。これは主に、学校での準備不足と技術ツールへの露出不足が原因です。さらに、これらの職業における女性の比率は、男性に比べて依然として大幅に低いままです。こうした障壁に対処するため、大学はSTEM分野の若者のためのテクノロジーキャンプを創設しました。これは、女子高校生の数学とプログラミングスキルを強化し、電気工学分野でのキャリアを検討するよう促すプログラムです",
+        "es": "Desde la pandemia de 2020, la matrícula en la facultad de ingeniería eléctrica de la Universidad Tecnológica de Panamá (UTP) ha disminuido a un ritmo alarmante. Estudios internos revelaron que muchos Estudiantes nuevos tienen dificultades con el razonamiento matemático y la programación, principalmente debido a la escasa preparación académica y la limitada exposición a herramientas técnicas. Además, la representación femenina en estas carreras sigue siendo significativamente menor que la masculina. Para abordar estas barreras, la universidad creó el Campamento Tecnológico para Jóvenes en STEM, un programa diseñado para fortalecer las habilidades matemáticas y de programación de las Estudiantes de secundaria e inspirarlas a considerar carreras en ingeniería eléctrica>"
       },
       "approach": {
-        "en": "I designed and led the programming and hardware workshops. To ensure accessibility and hands-on learning, I chose an open-source and practical toolset: <ul> <li><strong>Python</strong> for its simplicity and versatility</li> <li><strong>ESP32 microcontrollers</strong> for hardware, wireless communication, and digital electronics</li> <li><strong>MicroPython + VS Code</strong> for a unified programming and testing workflow</li> </ul> <p>Students built small interactive systems, connected sensors, and wrote their first Python scripts. The focus was on learning through experimentation and making abstract concepts tangible. </p>",
-        "es": "Diseñé y dirigí los talleres de programación y hardware. Para garantizar la accesibilidad y el aprendizaje práctico, elegí un conjunto de herramientas prácticas y de código abierto:　<ul> <li><strong>Python</strong> por su simplicidad y versatilidad</li> <li><strong>Microcontroladores ESP32</strong> para hardware, comunicación inalámbrica y electrónica digital</li> <li><strong>MicroPython + VS Code</strong> para un flujo de trabajo unificado de programación y pruebas</li> </ul> <p> Los Estudiantes construyeron pequeños sistemas interactivos, conectaron sensores y escribieron sus primeros scripts en Python. El enfoque se centró en el aprendizaje mediante la experimentación y la materialización de conceptos abstractos. </p>",
-        "zh": "我设计并带领了编程和硬件工作坊。为了确保学习的可及性和实践性,我选择了一套开源且实用的工具集:<ul> <li><strong>Python</strong>,因为它简单易用且功能多样</li> <li><strong>ESP32 微控制器</strong>,用于硬件、无线通信和数字电子领域</li> <li><strong>MicroPython + VS Code</strong>,用于实现统一的编程和测试工作流程</li> </ul> <p>学生们搭建了小型交互式系统,连接了传感器,并编写了他们的第一个 Python 脚本。重点在于通过实验进行学习,并将抽象概念具象化。</p>",
-        "ja": "プログラミングとハードウェアのワークショップを企画・実施しました。アクセシビリティと実践的な学習環境を確保するため、オープンソースで実用的なツールセットを選択しました。<ul> <li><strong>Python</strong> はシンプルさと汎用性を重視しました</li> <li><strong>ESP32 マイクロコントローラー</strong> はハードウェア、無線通信、デジタルエレクトロニクスに使用しました</li> <li><strong>MicroPython + VS Code</strong> はプログラミングとテストのワークフローを統一しました</li> </ul> <p> 生徒たちは小さなインタラクティブシステムを構築し、センサーを接続し、初めての Python スクリプトを作成しました。実験を通して学び、抽象的な概念を具体的なものにすることに重点が置かれました。</p>"
+        "en": "I designed and led the programming and hardware workshops. To ensure accessibility and hands-on learning, I chose an open-source and practical toolset:  Python for its simplicity and versatility ESP32 microcontrollers for hardware, wireless communication, and digital electronics MicroPython + VS Code for a unified programming and testing workflow  Students built small interactive systems, connected sensors, and wrote their first Python scripts. The focus was on learning through experimentation and making abstract concepts tangible.",
+        "es": "Diseñé y dirigí los talleres de programación y hardware. Para garantizar la accesibilidad y el aprendizaje práctico, elegí un conjunto de herramientas prácticas y de código abierto:　 Python por su simplicidad y versatilidad Microcontroladores ESP32 para hardware, comunicación inalámbrica y electrónica digital MicroPython + VS Code para un flujo de trabajo unificado de programación y pruebas   Los Estudiantes construyeron pequeños sistemas interactivos, conectaron sensores y escribieron sus primeros scripts en Python. El enfoque se centró en el aprendizaje mediante la experimentación y la materialización de conceptos abstractos.",
+        "zh": "我设计并带领了编程和硬件工作坊。为了确保学习的可及性和实践性,我选择了一套开源且实用的工具集: Python,因为它简单易用且功能多样 ESP32 微控制器,用于硬件、无线通信和数字电子领域 MicroPython + VS Code,用于实现统一的编程和测试工作流程  学生们搭建了小型交互式系统,连接了传感器,并编写了他们的第一个 Python 脚本。重点在于通过实验进行学习,并将抽象概念具象化。",
+        "ja": "プログラミングとハードウェアのワークショップを企画・実施しました。アクセシビリティと実践的な学習環境を確保するため、オープンソースで実用的なツールセットを選択しました。 Python はシンプルさと汎用性を重視しました ESP32 マイクロコントローラー はハードウェア、無線通信、デジタルエレクトロニクスに使用しました MicroPython + VS Code はプログラミングとテストのワークフローを統一しました   生徒たちは小さなインタラクティブシステムを構築し、センサーを接続し、初めての Python スクリプトを作成しました。実験を通して学び、抽象的な概念を具体的なものにすることに重点が置かれました。"
       },
       "outcome": {
-        "en": "The results were remarkable. Out of the original <strong>15 Participants 12 were enrolled into the electrical Engineering faculty</strong> and selected Engineering as their chosen field of study. <br><br> The success of the camp attracted interest from private equity groups, who later in 2023 and 2024 expanded and replicated the program across the country—reaching a much wider audience and continuing to promote STEM careers among young women.",
-        "zh": "结果令人瞩目。最初的15名参与者中,有12人被电气工程学院录取,并选择工程学作为他们的专业方向。<br><br>夏令营的成功吸引了私募股权集团的关注,他们在2023年和2024年将该项目推广到全国各地,覆盖了更广泛的受众,并持续鼓励年轻女性投身STEM(科学、技术、工程和数学)领域。",
-        "ja": "結果は目覚ましいものでした。当初の<strong>参加者15名のうち、12名が電気工学部に入学</strong>し、工学を専攻分野として選択しました。<br><br> このキャンプの成功はプライベートエクイティグループの関心を集め、その後2023年と2024年にはプログラムを全国に拡大・再現しました。これにより、より幅広い対象者にリーチし、若い女性のSTEMキャリアの促進を継続しています。",
-        "es": "Los resultados fueron extraordinarios. De las <strong>15 Participantes originales, 12 se matricularon en carreras de la facultad de ingeniería eléctrica</strong> y eligieron la ingeniería como su campo de estudio. <br><br> El éxito del campamento atrajo el interés de grupos de capital privado, quienes en 2023 y 2024 posteriormente expandieron y replicaron el programa en todo el país, llegando a un público mucho más amplio y promoviendo las carreras STEM entre las jóvenes."
+        "en": "The results were remarkable. Out of the original 15 Participants 12 were enrolled into the electrical Engineering faculty and selected Engineering as their chosen field of study.  The success of the camp attracted interest from private equity groups, who later in 2023 and 2024 expanded and replicated the program across the country—reaching a much wider audience and continuing to promote STEM careers among young women.",
+        "zh": "结果令人瞩目。最初的15名参与者中,有12人被电气工程学院录取,并选择工程学作为他们的专业方向。夏令营的成功吸引了私募股权集团的关注,他们在2023年和2024年将该项目推广到全国各地,覆盖了更广泛的受众,并持续鼓励年轻女性投身STEM(科学、技术、工程和数学)领域。",
+        "ja": "結果は目覚ましいものでした。当初の参加者15名のうち、12名が電気工学部に入学し、工学を専攻分野として選択しました。 このキャンプの成功はプライベートエクイティグループの関心を集め、その後2023年と2024年にはプログラムを全国に拡大・再現しました。これにより、より幅広い対象者にリーチし、若い女性のSTEMキャリアの促進を継続しています。",
+        "es": "Los resultados fueron extraordinarios. De las 15 Participantes originales, 12 se matricularon en carreras de la facultad de ingeniería eléctrica y eligieron la ingeniería como su campo de estudio.  El éxito del campamento atrajo el interés de grupos de capital privado, quienes en 2023 y 2024 posteriormente expandieron y replicaron el programa en todo el país, llegando a un público mucho más amplio y promoviendo las carreras STEM entre las jóvenes."
       }
     },
     "quote": {
@@ -116,7 +124,8 @@
       "images/STEM2023_4.jpg",
       "images/STEM2023_5.jpg",
       "images/STEM2023_6.jpg"
-    ]
+    ],
+    "visible": false
   },
   {
     "id": 1,
@@ -232,17 +241,18 @@
       "zh": "程序员兼电子工程师",
       "ja": "プログラマー＆電子エンジニア"
     },
-    "profile_image": "images/battery.png",
+    "profile_image": "images/thumbnails/battery.webp",
     "images": [
-      "images/battery.png",
-      "images/battery1.jpg",
+      "images/webp/battery.webp",
+      "images/webp/battery1.webp",
       "images/battery2.jpg",
       "images/battery3.jpg",
-      "images/battery4.jpg",
-      "images/battery5.jpg",
+      "images/webp/battery4.webp",
+      "images/webp/battery5.webp",
       "images/battery6.jpg"
     ],
-    "Product": "Electronics"
+    "Product": "Electronics",
+    "visible": true
   },
   {
     "id": 2,
@@ -368,12 +378,13 @@
       "zh": "程序员兼电子工程师",
       "ja": "プログラマー＆電子エンジニア"
     },
-    "profile_image": "images/redes_sensores.jpeg",
+    "profile_image": "images/thumbnails/redes_sensores.webp",
     "images": [
-      "images/redes_sensores1.jpeg",
-      "images/redes_sensores2.jpeg"
+      "images/webp/redes_sensores1.webp",
+      "images/webp/redes_sensores2.webp"
     ],
-    "Product": "Research & Engineering"
+    "Product": "Research & Engineering",
+    "visible": true
   },
   {
     "id": 3,
@@ -502,14 +513,15 @@
       "zh": "3D设计师",
       "ja": "3Dデザイナー"
     },
-    "profile_image": "images/sandia.jpg",
+    "profile_image": "images/thumbnails/sandia.webp",
     "images": [
-      "images/sandia.jpg",
-      "images/sandia1.jpg",
-      "images/sandia2.jpg",
-      "images/sandia3.jpg"
+      "images/webp/sandia.webp",
+      "images/webp/sandia1.webp",
+      "images/webp/sandia2.webp",
+      "images/webp/sandia3.webp"
     ],
-    "Product": "Research & Engineering"
+    "Product": "Research & Engineering",
+    "visible": true
   },
   {
     "id": 4,
@@ -614,16 +626,17 @@
       "zh": "电气与电子工程师(学士论文)",
       "ja": "電気電子工学エンジニア(学士論文)"
     },
-    "profile_image": "images/tesis.jpg",
+    "profile_image": "images/thumbnails/tesis.webp",
     "images": [
-      "images/tesis1.jpg",
-      "images/tesis2.jpg",
-      "images/tesis4.jpg",
-      "images/tesis5.jpg",
-      "images/tesis6.jpg",
-      "images/tesis.jpg"
+      "images/webp/tesis1.webp",
+      "images/webp/tesis2.webp",
+      "images/webp/tesis4.webp",
+      "images/webp/tesis5.webp",
+      "images/webp/tesis6.webp",
+      "images/webp/tesis.webp"
     ],
-    "Product": "Robotics"
+    "Product": "Robotics",
+    "visible": true
   },
   {
     "id": 5,
@@ -731,13 +744,14 @@
       "ja": "電気電子工学エンジニア",
       "es": "Ingeniero Eléctrico y Electrónico"
     },
-    "profile_image": "images/minsa.jpg",
+    "profile_image": "images/thumbnails/minsa.webp",
     "images": [
-      "images/minsa.jpg",
-      "images/minsa1.jpg",
-      "images/minsa2.jpg"
+      "images/webp/minsa.webp",
+      "images/webp/minsa1.webp",
+      "images/webp/minsa2.webp"
     ],
-    "Product": "Electronics"
+    "Product": "Electronics",
+    "visible": true
   },
   {
     "id": 6,
@@ -874,16 +888,17 @@
       "zh": "电气电子工程师",
       "es": "Ingeniero Eléctrico y Electrónico"
     },
-    "profile_image": "images/labsi_insight.png",
+    "profile_image": "images/thumbnails/labsi_insight.webp",
     "images": [
-      "images/labsi_insight.png",
-      "images/labsi_insight1.jpg",
-      "images/labsi_insight2.jpg",
-      "images/labsi_insight3.jpg",
-      "images/labsi_insight4.jpg",
-      "images/labsi_insight5.jpg"
+      "images/webp/labsi_insight.webp",
+      "images/webp/labsi_insight1.webp",
+      "images/webp/labsi_insight2.webp",
+      "images/webp/labsi_insight3.webp",
+      "images/webp/labsi_insight4.webp",
+      "images/webp/labsi_insight5.webp"
     ],
-    "Product": "Robotics"
+    "Product": "Robotics",
+    "visible": true
   },
   {
     "id": 7,
@@ -1025,7 +1040,8 @@
       "zh": "程序员兼电子工程师",
       "ja": "プログラマー＆電子エンジニア"
     },
-    "images": []
+    "images": [],
+    "visible": false
   },
   {
     "id": 8,
@@ -1137,11 +1153,12 @@
       "zh": "电气电子工程师",
       "es": "Ingeniero Eléctrico y Electrónico"
     },
-    "profile_image": "images/dashboard.png",
+    "profile_image": "images/thumbnails/dashboard.webp",
     "images": [
-      "images/dashboard.png"
+      "images/webp/dashboard.webp"
     ],
-    "Product": "Dashboards"
+    "Product": "Dashboards",
+    "visible": true
   },
   {
     "id": 9,
@@ -1271,16 +1288,17 @@
       "zh": "电气电子工程师",
       "es": "Ingeniero Eléctrico y Electrónico"
     },
-    "profile_image": "images/rural.jpg",
+    "profile_image": "images/thumbnails/rural.webp",
     "images": [
-      "images/rural.jpg",
-      "images/rural1.jpg",
-      "images/rural2.jpg",
-      "images/rural3.jpg",
-      "images/rural6.jpg",
-      "images/rural5.jpg"
+      "images/webp/rural.webp",
+      "images/webp/rural1.webp",
+      "images/webp/rural2.webp",
+      "images/webp/rural3.webp",
+      "images/webp/rural6.webp",
+      "images/webp/rural5.webp"
     ],
-    "Product": "Electronics"
+    "Product": "Electronics",
+    "visible": true
   },
   {
     "id": 10,
@@ -1291,10 +1309,10 @@
       "es": "Silla de ruedas inteligente para usuarios parapléjicos"
     },
     "summary": {
-      "en": "The team transformed a standard hospital wheelchair into an affordable smart mobility device by adding custom sensors and motor control, enabling paraplegic users to move independently without external assistance.",
-      "zh": "该团队通过添加定制传感器和电机控制装置,将标准的医院轮椅改造成价格实惠的智能移动设备,使截瘫患者无需外部帮助即可独立移动。",
-      "ja": "チームは、カスタムセンサーとモーター制御を追加することで、標準的な病院用車椅子を手頃な価格のスマート移動デバイスに変え、下半身麻痺のユーザーが外部からの支援なしに自立して移動できるようにしました。",
-      "es": "El equipo transformó una silla de ruedas de hospital estándar en un dispositivo de movilidad inteligente asequible al agregar sensores personalizados y control de motor, lo que permite a los usuarios parapléjicos moverse independientemente sin asistencia externa."
+      "en": "Engineered a low-cost assistive wheelchair for paraplegic users, integrating sensors and autonomous navigation.",
+      "es": "Diseñó una silla de ruedas asistida de bajo costo para usuarios parapléjicos, integrando sensores y navegación autónoma.",
+      "zh": "为截瘫用户设计了一款低成本辅助轮椅,集成了传感器和自主导航功能。",
+      "ja": "センサーと自律走行を統合し、下半身麻痺者向けに低コストの介助用車椅子を開発。"
     },
     "category": {
       "en": "Professional",
@@ -1304,29 +1322,52 @@
     },
     "tags": {
       "en": [
-        "<strong>🦾 Assistive Technologies</strong>",
-        "<strong>♻️ Sustainable Technologies</strong>",
-        "<strong>🛠️ Electromechanical Systems</strong>"
+        "assistive tech",
+        "embedded",
+        "robotics",
+        "smarthomes"
       ],
       "es": [
-        "<strong>🌐 Conectividad Rural</strong>",
-        "<strong>⚡ Electronica</strong>",
-        "<strong>📡 Telecommunicaciones</strong>"
+        "assistive tech",
+        "embedded",
+        "robotics",
+        "smarthomes"
       ],
       "zh": [
-        "<strong>🦾 辅助技术</strong>",
-        "<strong>♻️ 可持续技术</strong>",
-        "<strong>🛠️ 机电系统</strong"
+        "assistive tech",
+        "embedded",
+        "robotics",
+        "smarthomes"
       ],
       "ja": [
-        "<strong>🦾 支援技術</strong>",
-        "<strong>♻️ 持続可能な技術</strong>",
-        "<strong>🛠️ 電気機械システム</strong>"
+        "assistive tech",
+        "embedded",
+        "robotics",
+        "smarthomes"
       ]
     },
     "start": null,
     "finish": "8/31/2021",
-    "content": {},
+    "content": {
+      "problem": {
+        "en": "Commercial electric wheelchairs are prohibitively expensive for low-income patients in developing regions.",
+        "es": "Las sillas de ruedas eléctricas comerciales son prohibitivamente costosas para pacientes de bajos ingresos.",
+        "zh": "对于开发中地区低收入患者来说,商业电动轮椅的价格昂贵得令人望而却步。",
+        "ja": "市販の電動車椅子は、開発途上地域の低所得患者にとって非常に高価でした。"
+      },
+      "approach": {
+        "en": "Developed a modular add-on system using DC motors and ultrasonic sensors; implemented joystick and voice command controls.",
+        "es": "Desarrolló un sistema modular adicional utilizando motores DC y sensores ultrasónicos.",
+        "zh": "使用直流电机和超音波传感器开发了模块化附加系统;实现了摇杆和语音命令控制。",
+        "ja": "DCモータと超音波センサを使用したモジュール式アドオンシステムを開発。ジョイスティックと音声コマンドによる制御を実装。"
+      },
+      "outcome": {
+        "en": "Functional prototype demonstrating significant cost reduction (approx 1/5th of market price); provided independent mobility for test users.",
+        "es": "Prototipo funcional que demuestra una reducción de costos significativa; proporcionó movilidad independiente.",
+        "zh": "功能性原型证明了成本的大幅降低(约为市场价格的1/5);为测试用户提供了独立的移动能力。",
+        "ja": "市場価格の約1/5という大幅なコスト削減を実証する機能プロトタイプを製作。テストユーザーに自立した移動手段を提供。"
+      }
+    },
     "quote": {
       "en": [],
       "es": [],
@@ -1387,7 +1428,8 @@
       "images/silla_inteligente3.jpg",
       "images/silla_inteligente4.jpg"
     ],
-    "Product": "Research & Engineering"
+    "Product": "Research & Engineering",
+    "visible": false
   },
   {
     "id": 11,
@@ -1458,12 +1500,13 @@
       "zh": "报告人",
       "ja": "スピーカー"
     },
-    "profile_image": "images/conescapan1.jpg",
+    "profile_image": "images/thumbnails/conescapan1.webp",
     "images": [
-      "images/conescapan2.jpg",
-      "images/conescapan1.jpg"
+      "images/webp/conescapan2.webp",
+      "images/webp/conescapan1.webp"
     ],
-    "Product": "Robotics"
+    "Product": "Robotics",
+    "visible": true
   },
   {
     "id": 12,
@@ -1536,13 +1579,14 @@
       "zh": "作者",
       "ja": "著者"
     },
-    "profile_image": "images/concapan.png",
+    "profile_image": "images/thumbnails/concapan.webp",
     "images": [
-      "images/concapan.png",
-      "images/concapan1.jpg",
-      "images/concapan2.jpg",
-      "images/concapan3.jpg"
-    ]
+      "images/webp/concapan.webp",
+      "images/webp/concapan1.webp",
+      "images/webp/concapan2.webp",
+      "images/webp/concapan3.webp"
+    ],
+    "visible": true
   },
   {
     "id": 13,
@@ -1616,14 +1660,15 @@
       "zh": "报告人",
       "ja": "スピーカー"
     },
-    "profile_image": "images/conescapan2024.jpg",
+    "profile_image": "images/thumbnails/conescapan2024.webp",
     "images": [
-      "images/conescapan2024.jpg",
-      "images/conescapan2024_1.jpg",
-      "images/conescapan2024_2.jpg",
-      "images/conescapan2024_3.jpg"
+      "images/webp/conescapan2024.webp",
+      "images/webp/conescapan2024_1.webp",
+      "images/webp/conescapan2024_2.webp",
+      "images/webp/conescapan2024_3.webp"
     ],
-    "Product": "Research & Engineering"
+    "Product": "Research & Engineering",
+    "visible": true
   },
   {
     "id": 14,
@@ -1729,13 +1774,14 @@
       "zh": "作者",
       "ja": "作家"
     },
-    "profile_image": "images/hsi.png",
+    "profile_image": "images/thumbnails/hsi.webp",
     "images": [
-      "images/hsi.png",
-      "images/hsi1.png",
-      "images/hsi2.png"
+      "images/webp/hsi.webp",
+      "images/webp/hsi1.webp",
+      "images/webp/hsi2.webp"
     ],
-    "Product": "Research & Engineering"
+    "Product": "Research & Engineering",
+    "visible": true
   },
   {
     "id": 15,
@@ -1745,14 +1791,44 @@
       "zh": "电气电子工程师",
       "es": "Ingeniero Eléctrico y Electrónico"
     },
-    "summary": null,
+    "summary": {
+      "en": "Completed B.S. in Electrical and Electronics Engineering at UTP, focusing on power systems and automation.",
+      "es": "Licenciado en Ingeniería Eléctrica y Electrónica en la UTP, con enfoque en sistemas de potencia y automatización.",
+      "zh": "在巴拿马科技大学(UTP)完成电气与电子工程学士学位,专注于电力系统和自动化。",
+      "ja": "パナマ工科大学(UTP)で電気電子工学の学士号を取得。電力システムと自動化を専攻。"
+    },
     "category": {
       "en": "Academic",
       "es": "Academia",
       "zh": "学术的",
       "ja": "アカデミック"
     },
-    "tags": [],
+    "tags": {
+      "en": [
+        "electrical engineering",
+        "utp",
+        "automation",
+        "electronics"
+      ],
+      "es": [
+        "electrical engineering",
+        "utp",
+        "automation",
+        "electronics"
+      ],
+      "zh": [
+        "electrical engineering",
+        "utp",
+        "automation",
+        "electronics"
+      ],
+      "ja": [
+        "electrical engineering",
+        "utp",
+        "automation",
+        "electronics"
+      ]
+    },
     "start": "1/4/2016",
     "finish": "7/13/2022",
     "quote": null,
@@ -1776,7 +1852,28 @@
       "zh": "学生",
       "ja": "学生"
     },
-    "images": []
+    "images": [],
+    "visible": false,
+    "content": {
+      "problem": {
+        "en": "The transition from theoretical physics to complex power system design requires deep technical rigorousness and practical laboratory integration.",
+        "es": "La transición de la física teórica al diseño de sistemas de potencia complejos requiere un profundo rigor técnico e integración práctica en el laboratorio.",
+        "zh": "从理论物理到复杂电力系统设计的过渡需要深厚的技术严谨性和实践实验室整合。",
+        "ja": "理論物理学から複雑な電力システム設計への移行には、高度な技術的厳密さと実践的な研究室での統合が必要です。"
+      },
+      "approach": {
+        "en": "Maintained high academic standing while participating in research labs like LabSI, focusing on PCB design, sensors, and instrumentation.",
+        "es": "Mantuvo un alto nivel académico mientras participaba en laboratorios de investigación como LabSI, enfocándose en diseño de PCB, sensores e instrumentación.",
+        "zh": "在保持优异学习成绩的同时,参与了LabSI等研究实验室,专注于PCB设计、传感器和仪器仪表。",
+        "ja": "LabSIなどの研究室に参加し、PCB設計、センサー、計測機器に焦点を当てながら、高い学業成績を維持しました。"
+      },
+      "outcome": {
+        "en": "Awarded degree with honors; developed foundational skills in circuit simulation, control systems, and electronics which paved the way for international research.",
+        "es": "Título obtenido con honores; desarrolló habilidades fundamentales en simulación de circuitos, sistemas de control y electrónica.",
+        "zh": "以优异成绩获得学位;在电路仿真、控制系统和电子学方面建立了坚实的基础,为国际研究打下了基础。",
+        "ja": "優秀な成績で学位を取得。回路シミュレーション、制御システム、電子工学の基礎スキルを習得し、国際的な研究への道を切り拓きました。"
+      }
+    }
   },
   {
     "id": 16,
@@ -1786,14 +1883,44 @@
       "zh": "电气电子工程师",
       "es": "Ingeniero Eléctrico y Electrónico"
     },
-    "summary": null,
+    "summary": {
+      "en": "Professional Electrical Engineer at UTP's DINAGEA, managing energy audits and infrastructure projects.",
+      "es": "Ingeniero Eléctrico Profesional en DINAGEA (UTP), gestionando auditorías energéticas y proyectos de infraestructura.",
+      "zh": "在巴拿马科技大学(UTP)的DINAGEA担任专业电气工程师,管理能源审计和基础设施项目。",
+      "ja": "パナマ工科大学(UTP)のDINAGEAでプロフェッショナル電気エンジニアとして勤務し、エネルギー監査やインフラプロジェクトを管理。"
+    },
     "category": {
       "en": "Professional",
       "es": "Profesional",
       "zh": "专业的",
       "ja": "プロフェッショナル"
     },
-    "tags": [],
+    "tags": {
+      "en": [
+        "energy audit",
+        "infrastructure",
+        "project management",
+        "electrical design"
+      ],
+      "es": [
+        "energy audit",
+        "infrastructure",
+        "project management",
+        "electrical design"
+      ],
+      "zh": [
+        "energy audit",
+        "infrastructure",
+        "project management",
+        "electrical design"
+      ],
+      "ja": [
+        "energy audit",
+        "infrastructure",
+        "project management",
+        "electrical design"
+      ]
+    },
     "start": "5/23/2023",
     "finish": "4/3/2025",
     "problem": null,
@@ -1821,7 +1948,28 @@
       "ja": "エンジニア"
     },
     "images": [],
-    "Product": "Research & Engineering"
+    "Product": "Research & Engineering",
+    "visible": false,
+    "content": {
+      "problem": {
+        "en": "University facilities faced inefficiencies in energy consumption and needed modernization of electrical distribution systems.",
+        "es": "Las instalaciones universitarias enfrentaban ineficiencias en el consumo de energía y necesitaban una modernización de los sistemas de distribución eléctrica.",
+        "zh": "大学设施面临能源效率低下的问题,需要对配电系统进行现代化改造。",
+        "ja": "大学施設はエネルギー消費の非効率性に直面しており、配電システムの近代化が必要でした。"
+      },
+      "approach": {
+        "en": "Performed on-site audits, designed technical specifications for lighting and power upgrades, and supervised project implementation across multiple regional centers.",
+        "es": "Realizó auditorías in situ, diseñó especificaciones técnicas para mejoras de iluminación y potencia, y supervisó la implementación de proyectos.",
+        "zh": "进行了现场审计,设计了照明和电力升级的技术规范,并监督了多个区域中心的工程实施。",
+        "ja": "現地監査を実施し、照明と電力アップグレードの技術仕様を設計し、複数の地域センターでプロジェクトの実施を監督しました。"
+      },
+      "outcome": {
+        "en": "Improved operational efficiency and safety across campus infrastructure; established robust documentation standards for future maintenance.",
+        "es": "Mejora de la eficiencia operativa y seguridad; estableció estándares de documentación sólidos para el mantenimiento futuro.",
+        "zh": "提高了校园基础设施的运营效率和安全性;为未来的维护建立了完善的文件记录标准。",
+        "ja": "キャンパスインフラの運営効率と安全性を向上。将来の保守のための強固なドキュメント規格を確立しました。"
+      }
+    }
   },
   {
     "id": 17,
@@ -1832,10 +1980,10 @@
       "es": "Desarrollado el primer chip nanométrico del país"
     },
     "summary": {
-      "en": "The collaborator received recognition for designing and fabricating the country's first nanometric chip, and was featured in an interview on Telemetro Reporta's Mentes Brillantes as well as acknowledged by IEEE for explaining the significance and industry implications of this achievement.",
-      "es": "El colaborador recibió reconocimiento por el diseño y fabricación del primer chip nanométrico del país, fue entrevistado en el programa Mentes Brillantes de Telemetro Reporta y reconocido por la IEEE, donde explicó el significado de este logro y sus proyecciones en la industria de semiconductores en Panamá.",
-      "zh": "该合作者因设计和制造该国首个纳米级芯片而获得表彰,并在 Telemetro Reporta 的Mentes Brillantes节目中接受了采访,同时受 IEEE 认可,阐述了这一成就的意义及其对巴拿马半导体行业的影响。",
-      "ja": "この協力者は国内初のナノメートルチップの設計と製造に対して表彰され、Mentes Brillantes(Telemetro Reporta)のインタビューに出演し、この成果の意義とパナマの半導体産業への展望を IEEE にて説明し評価されました。"
+      "en": "National recognition for the design and fabrication of Panama's first nanometric chip (180nm process).",
+      "es": "Reconocimiento nacional por el diseño y fabricación del primer chip nanométrico de Panamá (proceso de 180nm).",
+      "zh": "因设计和制造巴拿马首个纳米级芯片(180纳米工艺)而获得的国家认可。",
+      "ja": "パナマ初のナノメートルチップ(180nmプロセス)の設計と製造に対する国家的評価。"
     },
     "category": {
       "en": "Professional",
@@ -1843,27 +1991,52 @@
       "zh": "专业的",
       "ja": "プロフェッショナル"
     },
-    "tags": [],
+    "tags": {
+      "en": [
+        "semiconductor",
+        "180nm",
+        "asic",
+        "panama"
+      ],
+      "es": [
+        "semiconductor",
+        "180nm",
+        "asic",
+        "panama"
+      ],
+      "zh": [
+        "semiconductor",
+        "180nm",
+        "asic",
+        "panama"
+      ],
+      "ja": [
+        "semiconductor",
+        "180nm",
+        "asic",
+        "panama"
+      ]
+    },
     "start": "",
     "finish": "6/20/2024",
     "content": {
       "problem": {
-        "en": "There was a lack of domestic expertise and recognition in the field of advanced semiconductor design and manufacturing, which hindered Panama's visibility and competitiveness in the global semiconductor industry.",
-        "es": "Había una falta de experiencia y reconocimiento nacional en el diseño y fabricación avanzada de semiconductores, lo que obstaculizaba la visibilidad y competitividad de Panamá en la industria global de semiconductores.",
-        "zh": "国内在先进半导体设计和制造领域缺乏专业知识和认可,这阻碍了巴拿马在全球半导体行业的知名度和竞争力。",
-        "ja": "先進的な半導体設計および製造の分野で国内の専門知識と認知が欠けており、それがパナマの世界の半導体産業における可視性と競争力を阻んでいました。"
+        "en": "The absence of local microelectronic manufacturing forced dependency on imported components and limited the scope of domestic hardware innovation.",
+        "es": "La ausencia de manufactura microelectrónica local obligaba a depender de componentes importados y limitaba la innovación nacional.",
+        "zh": "由于缺乏本地微电子制造能力,被迫依赖进口组件,限制了国内硬件创新的范围。",
+        "ja": "現地のマイクロエレクトロニクス製造能力の欠如により、輸入部品への依存を余儀なくされ、国内のハードウェア革新の範囲が制限されていました。"
       },
       "approach": {
-        "en": "The collaborator led the design and fabrication of the first nanometric chip in the country, shared insights in a media interview, and engaged with IEEE to articulate the broader significance and future impact of the innovation.",
-        "es": "El colaborador lideró el diseño y fabricación del primer chip nanométrico del país, compartió conocimientos en una entrevista mediática y colaboró con la IEEE para articular el significado más amplio y el impacto futuro de la innovación.",
-        "zh": "该合作者负责领导国内首个纳米芯片的设计和制造,在媒体采访中分享见解,并与 IEEE 合作阐述这一创新的更广泛意义及未来影响。",
-        "ja": "この協力者は国内初のナノメートルチップの設計と製造を主導し、メディアのインタビューで見識を共有し、IEEE と協力してこの革新のより広範な意義と将来の影響を説明しました。"
+        "en": "Utilized advanced EDA tools to design a binary-to-hexadecimal decoder; collaborated with international foundries for tape-out.",
+        "es": "Utilizó herramientas EDA avanzadas para diseñar un decodificador binario a hexadecimal; colaboró con fundiciones internacionales.",
+        "zh": "利用先进的EDA工具设计了二进制到十六进制解码器;并与国际代工厂合作进行了流片。",
+        "ja": "高度なEDAツールを使用してバイナリ-16進デコーダを設計。国際的なファウンドリと協力してテープアウトを実施。"
       },
       "outcome": {
-        "en": "The achievement brought national recognition to advanced semiconductor capabilities, promoted industry awareness through media and IEEE engagement, and underscored future development prospects in Panama's semiconductor sector.",
-        "es": "El logro trajo reconocimiento nacional a las capacidades en semiconductores avanzados, promovió la concientización de la industria a través de los medios y la participación de la IEEE, y destacó las perspectivas de desarrollo futuro del sector de semiconductores en Panamá.",
-        "zh": "这一成就为先进半导体能力带来了国家级认可,通过媒体和 IEEE 的参与提升了行业意识,并强调了巴拿马半导体行业未来的发展前景。",
-        "ja": "この成果は高度な半導体技術への国内認知をもたらし、メディアと IEEE を通じて業界への意識を高め、パナマの半導体セクターの将来の発展展望を強調しました。"
+        "en": "Proven functionality of domestic design at the nanometer scale; featured in multiple media outlets as a milestone for Panamanian engineering.",
+        "es": "Funcionalidad probada de diseño nacional a escala nanométrica; destacado en medios como un hito para la ingeniería panameña.",
+        "zh": "证明了国家级纳米级设计的可行性;作为巴拿马工程史上的里程碑被多家媒体报道。",
+        "ja": "ナノメートル規模の国産設計の機能性を実証。パナマのエンジニアリングにおける画期的成果として複数のメディアで取り上げられました。"
       }
     },
     "quote": {
@@ -1888,7 +2061,8 @@
     },
     "profile_image": "images/telemetro.png",
     "images": [],
-    "Product": "Research & Engineering"
+    "Product": "Research & Engineering",
+    "visible": false
   },
   {
     "id": 18,
@@ -1899,10 +2073,10 @@
       "es": "Fundamentos of Deep Learning"
     },
     "summary": {
-      "en": "This course provides a hands-on introduction to deep learning and its real-world applications across industries such as healthcare, retail, and automotive. Participants learn how to train neural networks using modern frameworks like PyTorch and apply techniques such as CNNs, data augmentation, and transfer learning. Through practical exercises and a final project, students build confidence to develop their own AI-powered solutions.",
-      "es": "Este curso ofrece una introducción práctica al aprendizaje profundo y sus aplicaciones reales en industrias como salud, comercio minorista y automotriz. Los participantes aprenden a entrenar redes neuronales utilizando frameworks modernos como PyTorch y aplican técnicas como CNNs, aumento de datos y transferencia de aprendizaje. A través de ejercicios prácticos y un proyecto final, los estudiantes desarrollan la confianza para crear sus propias soluciones basadas en IA.",
-      "zh": "本课程提供深度学习及其在医疗、零售和汽车等行业中实际应用的实践性介绍。学员将学习使用 PyTorch 等现代框架训练神经网络,并应用卷积神经网络、数据增强和迁移学习等技术。通过实践练习和最终项目,学员能够建立开发人工智能解决方案的信心。",
-      "ja": "本コースは、医療、小売、自動車などの業界における実社会での応用を通じて、ディープラーニングの実践的な入門を提供します。受講者は PyTorch などの最新フレームワークを用いてニューラルネットワークを訓練し、CNN、データ拡張、転移学習などの技術を活用します。実践演習と最終プロジェクトを通じて、独自のAIソリューションを開発する自信を身につけます。"
+      "en": "Mastered foundational deep learning techniques using PyTorch, focusing on CNNs and computer vision tasks.",
+      "es": "Dominó técnicas fundamentales de aprendizaje profundo con PyTorch, enfocándose en CNN y tareas de visión computacional.",
+      "zh": "掌握了使用PyTorch的基础深度学习技术,专注于卷积神经网络(CNN)和计算机视觉任务。",
+      "ja": "PyTorchを用いたディープラーニングの基礎技術を習得。CNNとコンピュータビジョンタスクに焦点を当てる。"
     },
     "category": {
       "en": "Academic",
@@ -1910,27 +2084,52 @@
       "zh": "学术的",
       "ja": "アカデミック"
     },
-    "tags": [],
+    "tags": {
+      "en": [
+        "deep learning",
+        "pytorch",
+        "nvidia",
+        "ai"
+      ],
+      "es": [
+        "deep learning",
+        "pytorch",
+        "nvidia",
+        "ai"
+      ],
+      "zh": [
+        "deep learning",
+        "pytorch",
+        "nvidia",
+        "ai"
+      ],
+      "ja": [
+        "deep learning",
+        "pytorch",
+        "nvidia",
+        "ai"
+      ]
+    },
     "start": "",
     "finish": "6/14/2022",
     "content": {
       "problem": {
-        "en": "Organizations increasingly rely on AI, yet many professionals lack the practical skills to design, train, and deploy deep learning models effectively. There is a need for structured, hands-on training that bridges theory and real-world AI implementation.",
-        "es": "Las organizaciones dependen cada vez más de la IA, pero muchos profesionales carecen de las habilidades prácticas para diseñar, entrenar e implementar modelos de aprendizaje profundo de manera efectiva. Existe la necesidad de una formación estructurada y práctica que conecte la teoría con la implementación real de la IA.",
-        "zh": "随着各行业对人工智能的依赖日益增强,许多专业人士仍缺乏有效设计、训练和部署深度学习模型的实践技能。因此,需要系统化且实践导向的培训来弥合理论与实际应用之间的差距。",
-        "ja": "AIへの依存が高まる中、多くの専門家はディープラーニングモデルを効果的に設計・訓練・導入するための実践的スキルを十分に備えていません。理論と実社会での実装を結びつける体系的かつ実践的なトレーニングが求められています。"
+        "en": "Traditional rule-based computer vision struggles with variability in non-structured medical or industrial imagery.",
+        "es": "La visión computacional tradicional basada en reglas tiene dificultades con la variabilidad en imágenes no estructuradas.",
+        "zh": "传统的基于规则的计算机视觉难以处理非结构化医疗或工业图像中的变异性。",
+        "ja": "従来のルールベースのコンピュータビジョンは、非構造化された医療・産業画像のばらつきへの対応が困難でした。"
       },
       "approach": {
-        "en": "The course combines theoretical foundations with applied exercises using PyTorch. Participants train computer vision models, apply convolutional neural networks, enhance datasets through data augmentation, and leverage transfer learning and large language models. A structured agenda—including hands-on labs, pre-trained model integration, and a final object classification project—ensures experiential learning.",
-        "es": "El curso combina fundamentos teóricos con ejercicios prácticos utilizando PyTorch. Los participantes entrenan modelos de visión por computadora, aplican redes neuronales convolucionales, mejoran conjuntos de datos mediante aumento de datos y aprovechan la transferencia de aprendizaje y los modelos de lenguaje de gran escala. Una agenda estructurada con laboratorios prácticos, integración de modelos preentrenados y un proyecto final de clasificación de objetos garantiza un aprendizaje experiencial.",
-        "zh": "课程将理论基础与基于 PyTorch 的实践练习相结合。学员将训练计算机视觉模型,应用卷积神经网络,通过数据增强提升数据集,并利用迁移学习和大型语言模型。结构化的课程安排包括实践实验、预训练模型集成以及最终的目标分类项目,确保体验式学习。",
-        "ja": "本コースは理論的基礎と PyTorch を用いた実践演習を組み合わせています。受講者はコンピュータビジョンモデルを訓練し、畳み込みニューラルネットワークを適用し、データ拡張でデータセットを強化し、転移学習や大規模言語モデルを活用します。ハンズオン演習、事前学習済みモデルの統合、最終的な物体分類プロジェクトを含む体系的な構成により、実践的な学習を実現します。"
+        "en": "Implemented neural networks for object classification; applied data augmentation and transfer learning to optimize model accuracy.",
+        "es": "Implementó redes neuronales para clasificación de objetos; aplicó aumento de datos y transferencia de aprendizaje.",
+        "zh": "实现了用于目标分类的神经网络;应用了数据增强和迁移学习来优化模型准确率。",
+        "ja": "物体分類のためのニューラルネットワークを実装。データ拡張と転移学習を適用してモデルの精度を最適化。"
       },
       "outcome": {
-        "en": "Participants gain the technical competence to build and optimize deep learning models for computer vision and NLP tasks. By the end of the course, they complete a functional object classification project, understand modern AI workflows, and are prepared to initiate their own AI development projects.",
-        "es": "Los participantes adquieren la competencia técnica para construir y optimizar modelos de aprendizaje profundo para tareas de visión por computadora y procesamiento de lenguaje natural. Al finalizar el curso, completan un proyecto funcional de clasificación de objetos, comprenden los flujos de trabajo modernos de IA y están preparados para iniciar sus propios proyectos de desarrollo en IA.",
-        "zh": "学员将获得构建和优化深度学习模型(包括计算机视觉和自然语言处理任务)的技术能力。课程结束时,学员将完成一个可运行的目标分类项目,理解现代人工智能工作流程,并具备启动自主AI开发项目的能力。",
-        "ja": "受講者は、コンピュータビジョンや自然言語処理タスク向けのディープラーニングモデルを構築・最適化する技術力を習得します。コース終了時には、実用的な物体分類プロジェクトを完成させ、最新のAIワークフローを理解し、自身のAI開発プロジェクトを開始できる準備が整います。"
+        "en": "Achieved proficient classification performance on unseen datasets; gained skills to integrate AI logic into embedded engineering systems.",
+        "es": "Logró un rendimiento de clasificación eficiente; obtuvo habilidades para integrar lógica de IA en sistemas embebidos.",
+        "zh": "在未知数据集上实现了卓越的分类性能;获得了将AI逻辑整合到嵌入式工程系统中的技能。",
+        "ja": "未知のデータセットに対して優れた分類性能を達成。AIロジックを組み込みエンジニアリングシステムに統合するスキルを習得。"
       }
     },
     "quote": {
@@ -1949,7 +2148,8 @@
       "zh": "参与者",
       "ja": "参加者"
     },
-    "images": []
+    "images": [],
+    "visible": false
   },
   {
     "id": 19,
@@ -1960,10 +2160,10 @@
       "es": "Como Google hace machine learning"
     },
     "summary": {
-      "en": "\"How Google Does Machine Learning\" is a Coursera course that teaches practical, production-ready ML methodologies using Google Cloud tools such as Vertex AI and TensorFlow. It focuses on problem formulation, data preparation, model training, and deployment across the full ML lifecycle. The course also emphasizes responsible AI practices and Google's data-driven strategy.",
-      "es": "\"How Google Does Machine Learning\" es un curso de Coursera que enseña metodologías prácticas y orientadas a producción utilizando herramientas de Google Cloud como Vertex AI y TensorFlow. Se enfoca en la formulación de problemas, preparación de datos, entrenamiento y despliegue de modelos a lo largo del ciclo completo de ML. Además, enfatiza prácticas de IA responsable y la estrategia basada en datos de Google.",
-      "zh": "《How Google Does Machine Learning》是 Coursera 上的一门课程,教授使用 Google Cloud 工具(如 Vertex AI 和 TensorFlow)的实用型、面向生产环境的机器学习方法。课程涵盖问题定义、数据准备、模型训练与部署的完整生命周期,并强调负责任的人工智能实践和数据驱动战略。",
-      "ja": "How Google Does Machine Learningは、Courseraで提供されるコースで、Vertex AIやTensorFlowなどのGoogle Cloudツールを活用した実践的かつ本番環境対応の機械学習手法を学びます。問題定義、データ準備、モデルの学習とデプロイまで、MLのライフサイクル全体を網羅し、責任あるAIの実践も重視しています。"
+      "en": "Achieved certification in 'How Google Does Machine Learning', mastering production-ready ML workflows on GCP.",
+      "es": "Certificación obtenida en 'How Google Does Machine Learning', dominando flujos de trabajo de ML en GCP.",
+      "zh": "获得《谷歌如何进行机器学习》认证,掌握了Google Cloud Platform上的生产级机器学习工作流程。",
+      "ja": "「How Google Does Machine Learning」の認定を取得。GCP上での本番環境対応のMLワークフローを習得。"
     },
     "category": {
       "en": "Academic",
@@ -1971,7 +2171,32 @@
       "zh": "学术的",
       "ja": "アカデミック"
     },
-    "tags": [],
+    "tags": {
+      "en": [
+        "google cloud",
+        "mlops",
+        "tensorflow",
+        "vertex ai"
+      ],
+      "es": [
+        "google cloud",
+        "mlops",
+        "tensorflow",
+        "vertex ai"
+      ],
+      "zh": [
+        "google cloud",
+        "mlops",
+        "tensorflow",
+        "vertex ai"
+      ],
+      "ja": [
+        "google cloud",
+        "mlops",
+        "tensorflow",
+        "vertex ai"
+      ]
+    },
     "start": "",
     "finish": "11/15/2021",
     "content": {
@@ -2010,7 +2235,8 @@
       "zh": "学生",
       "ja": "学生"
     },
-    "images": []
+    "images": [],
+    "visible": false
   },
   {
     "id": 20,
@@ -2020,14 +2246,44 @@
       "zh": "集成电路制造及全球趋势",
       "es": "Fabricación de un IC y las tendencias mundiales"
     },
-    "summary": null,
+    "summary": {
+      "en": "Invited speaker by IEEE CASS on global tendencies in Integrated Circuit manufacturing and its impact on emerging markets.",
+      "es": "Orador invitado por IEEE CASS sobre tendencias globales en la fabricación de circuitos integrados.",
+      "zh": "受IEEE CASS邀请,就集成电路制造的全球趋势及其对新兴市场的影响发表演讲。",
+      "ja": "集積回路製造の世界的動向と新興市場への影響について、IEEE CASSの招待スピーカーとして登壇。"
+    },
     "category": {
       "en": "Research",
       "es": "Investigación",
       "zh": "研究",
       "ja": "研究"
     },
-    "tags": [],
+    "tags": {
+      "en": [
+        "semiconductor",
+        "global trends",
+        "ieee cass",
+        "manufacturing"
+      ],
+      "es": [
+        "semiconductor",
+        "global trends",
+        "ieee cass",
+        "manufacturing"
+      ],
+      "zh": [
+        "semiconductor",
+        "global trends",
+        "ieee cass",
+        "manufacturing"
+      ],
+      "ja": [
+        "semiconductor",
+        "global trends",
+        "ieee cass",
+        "manufacturing"
+      ]
+    },
     "start": null,
     "finish": "11/5/2025",
     "quote": null,
@@ -2052,7 +2308,28 @@
       "ja": "スピーカー"
     },
     "images": [],
-    "Product": "Research & Engineering"
+    "Product": "Research & Engineering",
+    "visible": false,
+    "content": {
+      "problem": {
+        "en": "Emerging markets often face barriers in accessing state-of-the-art semiconductor manufacturing knowledge and global industry trends.",
+        "es": "Los mercados emergentes a menudo enfrentan barreras para acceder al conocimiento de fabricación de semiconductores.",
+        "zh": "新兴市场在获取最先进的半导体制造知识和全球行业趋势方面往往面临障碍。",
+        "ja": "新興市場は、最先端の半導体製造知識や世界の業界動向にアクセスする際の障壁に直面することがよくあります。"
+      },
+      "approach": {
+        "en": "Delivered a comprehensive overview of the silicon lifecycle, focusing on nearshoring opportunities in Central America and the evolution of FinFET technologies.",
+        "es": "Presentó una visión integral del ciclo de vida del silicio, enfocándose en oportunidades en Centroamérica.",
+        "zh": "全面概述了硅生命周期,重点关注了中美洲的近岸外包机会以及FinFET技术的发展。",
+        "ja": "シリコンのライフサイクルを包括的に概説し、中央アメリカにおけるニアショアリングの機会とFinFET技術の進化に焦点を当てました。"
+      },
+      "outcome": {
+        "en": "Equipped local engineers with strategic insights into the global supply chain; fostered a roadmap for regional microelectronic development.",
+        "es": "Equipó a ingenieros locales con conocimientos estratégicos; fomentó una hoja de ruta para el desarrollo microelectrónico.",
+        "zh": "为当地工程师提供了全球供应链的战略见解;制定了区域微电子发展路线图。",
+        "ja": "現地のエンジニアにグローバル・サプライチェーンに関する戦略的な洞察を提供。地域のマイクロエレクトロニクス開発のロードマップを推進。"
+      }
+    }
   },
   {
     "id": 21,
@@ -2125,12 +2402,13 @@
       "zh": "参与者",
       "ja": "参加者"
     },
-    "profile_image": "images/FIE_1.jpg",
+    "profile_image": "images/thumbnails/FIE_1.webp",
     "images": [
-      "images/FIE_1.jpg",
-      "images/FIE_2.jpg"
+      "images/webp/FIE_1.webp",
+      "images/webp/FIE_2.webp"
     ],
-    "Product": "Research & Engineering"
+    "Product": "Research & Engineering",
+    "visible": true
   },
   {
     "id": 22,
@@ -2141,10 +2419,10 @@
       "es": "Diseño de circuitos integrados"
     },
     "summary": {
-      "en": "The Integrated Circuit Design course provides a comprehensive understanding of the principles and techniques used in creating integrated circuits (ICs). It covers foundational concepts through advanced methodologies with a strong practical orientation. Participants learn to design, simulate, and verify ICs in a professional engineering environment.",
-      "es": "El curso de Diseño de Circuitos Integrados ofrece una comprensión integral de los principios y técnicas utilizadas en la creación de circuitos integrados (ICs). Abarca desde conceptos fundamentales hasta metodologías avanzadas con un enfoque práctico. Los participantes aprenden a diseñar, simular y verificar ICs en un entorno profesional de ingeniería.",
-      "zh": "集成电路设计课程系统讲解了集成电路(IC)设计所涉及的原理与技术,从基础概念到高级方法,并强调实践应用。学员将在专业工程环境中学习设计、仿真和验证集成电路。",
-      "ja": "集積回路設計コースは、IC(集積回路)の設計に用いられる原理と技術を包括的に学ぶことを目的としています。基礎から高度な手法までを網羅し、実践重視のアプローチを採用しています。受講者は専門的な環境でICの設計、シミュレーション、検証を行う方法を習得します。"
+      "en": "Led an intensive course on Integrated Circuit Design for IEEE IAS, covering CMOS logic and EDA workflows.",
+      "es": "Dirigió un curso intensivo sobre Diseño de Circuitos Integrados para IEEE IAS.",
+      "zh": "为IEEE IAS领导了一门集成电路设计的强化课程,涵盖CMOS逻辑和EDA工作流程。",
+      "ja": "IEEE IAS向けの集積回路設計の集中コースを担当。CMOSロジックとEDAワークフローを網羅。"
     },
     "category": {
       "en": "Research",
@@ -2152,7 +2430,32 @@
       "zh": "研究",
       "ja": "研究"
     },
-    "tags": [],
+    "tags": {
+      "en": [
+        "ic design",
+        "eda",
+        "instructor",
+        "ieee"
+      ],
+      "es": [
+        "ic design",
+        "eda",
+        "instructor",
+        "ieee"
+      ],
+      "zh": [
+        "ic design",
+        "eda",
+        "instructor",
+        "ieee"
+      ],
+      "ja": [
+        "ic design",
+        "eda",
+        "instructor",
+        "ieee"
+      ]
+    },
     "start": "4/30/2024",
     "finish": "4/13/2024",
     "content": {
@@ -2204,7 +2507,8 @@
       "ja": "インストラクター"
     },
     "images": [],
-    "Product": "Research & Engineering"
+    "Product": "Research & Engineering",
+    "visible": false
   },
   {
     "id": 23,
@@ -2226,7 +2530,12 @@
       "zh": "学术的",
       "ja": "アカデミック"
     },
-    "tags": [],
+    "tags": {
+      "en": [],
+      "es": [],
+      "zh": [],
+      "ja": []
+    },
     "start": "",
     "finish": "4/5/2021",
     "content": {
@@ -2265,7 +2574,8 @@
       "zh": "学生",
       "ja": "学生"
     },
-    "images": []
+    "images": [],
+    "visible": false
   },
   {
     "id": 24,
@@ -2287,7 +2597,12 @@
       "zh": "学术的",
       "ja": "アカデミック"
     },
-    "tags": [],
+    "tags": {
+      "en": [],
+      "es": [],
+      "zh": [],
+      "ja": []
+    },
     "start": "",
     "finish": "3/15/2021",
     "content": {
@@ -2326,7 +2641,8 @@
       "zh": "学生",
       "ja": "学生"
     },
-    "images": []
+    "images": [],
+    "visible": false
   },
   {
     "id": 25,
@@ -2348,7 +2664,12 @@
       "zh": "学术的",
       "ja": "アカデミック"
     },
-    "tags": [],
+    "tags": {
+      "en": [],
+      "es": [],
+      "zh": [],
+      "ja": []
+    },
     "start": "",
     "finish": "5/7/2024",
     "content": {
@@ -2387,7 +2708,8 @@
       "zh": "学生",
       "ja": "学生"
     },
-    "images": []
+    "images": [],
+    "visible": false
   },
   {
     "id": 26,
@@ -2409,15 +2731,20 @@
       "zh": "专业的",
       "ja": "プロフェッショナル"
     },
-    "tags": [],
+    "tags": {
+      "en": [],
+      "es": [],
+      "zh": [],
+      "ja": []
+    },
     "start": "",
     "finish": "10/15/2025",
     "content": {
       "details": {
-        "en": "The global semiconductor landscape is shifting, and Central America is emerging as a critical frontier. Your presentation highlights how nations like <strong>Costa Rica</strong> and <strong>Panama</strong> are no longer just onlookers; they are becoming strategic \"nearshoring\" hubs for the high-stakes world of microchips. By leveraging the <strong>U.S. CHIPS Act</strong> and the <strong>ITSI Fund</strong>, these countries are carving out a specialized niche in the global supply chain, transforming the region into a vital link for Western technological security.<br><br>Understanding this industry requires a look at the \"Idea to Product\" journey, a complex lifecycle that your work breaks down with precision. You navigated the technical gauntlet from initial <strong>logic design</strong> to the physical reality of <strong>fabrication</strong>, before diving into the essential \"back-end\" phases. In this ecosystem, the magic happens during <strong>assembly, testing, and packaging (ATP)</strong>—the precise moments where a raw silicon wafer is transformed into a protected, functional component ready for a smartphone or an electric vehicle.<br><br>No discussion on semiconductors is complete without the industry titans, and your presentation spotlighted the \"Big Four\" that currently dictate global capacity. From <strong>TSMC’s</strong> unrivaled precision in Taiwan and <strong>Samsung’s</strong> powerhouse innovation in South Korea, to the strategic foundry services of <strong>GlobalFoundries</strong> in the USA and the rapid scaling of <strong>SMIC</strong> in China, you provided a clear map of where the world’s most advanced hardware is born.<br><br>The focus on <strong>Fabricación, Prueba y Ensamblaje</strong> (Manufacturing, Testing, and Assembly) serves as a bridge between these global giants and the local potential in Central America. As companies seek to diversify away from concentrated Asian hubs, the region’s growing workforce and specialized labs—like the recently established facilities in Costa Rica—are proving that the next generation of \"Intel Inside\" might just have a \"Made in Central America\" story behind it.<br><br>Ultimately, your presentation serves as a roadmap for an industry in transition. By connecting the granular steps of chip design with the geopolitical shifts of 2026, you’ve illustrated why the silicon race is no longer just about speed, but about <strong>resilience and regional partnership</strong>.",
-        "es": "Centroamérica está emergiendo como una frontera crítica en la industria de semiconductores. Tu presentación destaca cómo la región se transforma en un centro estratégico de \"nearshoring\", aprovechando incentivos globales para convertirse en un eslabón vital de la seguridad tecnológica occidental.<br><br>El recorrido \"de la idea al producto\" desglosa con precisión desde el diseño lógico hasta la fabricación, culminando en las etapas cruciales de <strong>ensamblaje, prueba y empaque (ATP)</strong>. Es en este punto donde el silicio se convierte en un componente funcional listo para el mercado global.<br><br>Analizaste a los titanes de la industria: la precisión de <strong>TSMC</strong> (Taiwán), la innovación de <strong>Samsung</strong> (Corea del Sur), los servicios de fundición de <strong>GlobalFoundries</strong> (EE. UU.) y la escala de <strong>SMIC</strong> (China). Estas potencias definen el estándar que las nuevas regiones buscan alcanzar.<br><br>La conexión entre la fabricación local y estos gigantes globales demuestra que Centroamérica tiene el potencial de albergar laboratorios especializados y mano de obra avanzada. El futuro de la tecnología ya no solo se diseña en el norte, sino que se fortalece en el corazón de las Américas.<br><br>Tu trabajo ilustra que la carrera por el silicio en 2026 no se trata solo de velocidad, sino de <strong>resiliencia y alianzas regionales</strong>.",
-        "zh": "中美洲正成为半导体行业的关键前沿。您的演讲展示了该地区如何转变为战略性的“近岸外包”中心,利用全球激励措施成为西方技术安全的重要环节。<br><br>从“创意到产品”的流程精确地分解了从逻辑设计到制造的每一步,最终汇聚在<strong>组装、测试和封装 (ATP)</strong> 这些关键阶段。正是在这里,硅片转化为了面向全球市场的多功能组件。<br><br>分析涵盖了行业巨头:台湾的 <strong>TSMC</strong>（台积电）、韩国的 <strong>Samsung（三星）</strong>、美国的 <strong>GlobalFoundries</strong>（格芯）以及中国的 <strong>SMIC</strong>（中芯国际）。这些力量定义了新兴地区力争达到的标准。<br><br>当地制造与这些全球巨头的联系表明,中美洲具有容纳专业实验室和高级劳动力潜力的优势。技术的未来不仅是在北方设计的,也在美洲的心脏地带得到加强。<br><br>您的工作表明,2026年的硅片之争不仅关乎速度,更关乎<strong>韧性与区域伙伴关系</strong>。",
-        "ja": "中央アメリカは半導体産業における重要なフロンティアとして台頭しています。あなたのプレゼンテーションは、この地域がいかに戦略的な「ニアショアリング」拠点へと変貌し、世界のインセンティブを活用して西側の技術安全保障の不可欠な輪となっているかを明らかにしています。<br><br>「アイデアから製品へ」のプロセスは、論理設計から製造、そして<strong>組立・テスト・パッケージング（ATP）</strong>という極めて重要な段階まで、精密に分析されています。この段階を経て、シリコンは世界市場向けの機能的なコンポーネントへと生まれ変わります。<br><br>業界の巨頭についても触れられています。台湾の<strong>TSMC</strong>、韓国の<strong>Samsung</strong>、米国の<strong>GlobalFoundries</strong>、そして中国の<strong>SMIC</strong>です。これらの勢力は、新興地域が目指すべき基準を定義しています。<br><br>現地の製造拠点とこれらのグローバル企業との連携は、中央アメリカが専門的なラボや高度な労働力を受け入れるポテンシャルを秘めていることを証明しています。テクノロジーの未来はもはや北半球だけで設計されるものではなく、米州の中心で強化されているのです。<br><br>あなたのプレゼンテーションは、2026年の半導体競争が単なるスピードの争いではなく、<strong>レジリエンス（回復力）と地域的なパートナーシップ</strong>の争いであることを示しています。<br><br>"
+        "en": "The global semiconductor landscape is shifting, and Central America is emerging as a critical frontier. Your presentation highlights how nations like Costa Rica and Panama are no longer just onlookers; they are becoming strategic \"nearshoring\" hubs for the high-stakes world of microchips. By leveraging the U.S. CHIPS Act and the ITSI Fund, these countries are carving out a specialized niche in the global supply chain, transforming the region into a vital link for Western technological security.Understanding this industry requires a look at the \"Idea to Product\" journey, a complex lifecycle that your work breaks down with precision. You navigated the technical gauntlet from initial logic design to the physical reality of fabrication, before diving into the essential \"back-end\" phases. In this ecosystem, the magic happens during assembly, testing, and packaging (ATP)—the precise moments where a raw silicon wafer is transformed into a protected, functional component ready for a smartphone or an electric vehicle.No discussion on semiconductors is complete without the industry titans, and your presentation spotlighted the \"Big Four\" that currently dictate global capacity. From TSMC’s unrivaled precision in Taiwan and Samsung’s powerhouse innovation in South Korea, to the strategic foundry services of GlobalFoundries in the USA and the rapid scaling of SMIC in China, you provided a clear map of where the world’s most advanced hardware is born.The focus on Fabricación, Prueba y Ensamblaje (Manufacturing, Testing, and Assembly) serves as a bridge between these global giants and the local potential in Central America. As companies seek to diversify away from concentrated Asian hubs, the region’s growing workforce and specialized labs—like the recently established facilities in Costa Rica—are proving that the next generation of \"Intel Inside\" might just have a \"Made in Central America\" story behind it.Ultimately, your presentation serves as a roadmap for an industry in transition. By connecting the granular steps of chip design with the geopolitical shifts of 2026, you’ve illustrated why the silicon race is no longer just about speed, but about resilience and regional partnership.",
+        "es": "Centroamérica está emergiendo como una frontera crítica en la industria de semiconductores. Tu presentación destaca cómo la región se transforma en un centro estratégico de \"nearshoring\", aprovechando incentivos globales para convertirse en un eslabón vital de la seguridad tecnológica occidental.El recorrido \"de la idea al producto\" desglosa con precisión desde el diseño lógico hasta la fabricación, culminando en las etapas cruciales de ensamblaje, prueba y empaque (ATP). Es en este punto donde el silicio se convierte en un componente funcional listo para el mercado global.Analizaste a los titanes de la industria: la precisión de TSMC (Taiwán), la innovación de Samsung (Corea del Sur), los servicios de fundición de GlobalFoundries (EE. UU.) y la escala de SMIC (China). Estas potencias definen el estándar que las nuevas regiones buscan alcanzar.La conexión entre la fabricación local y estos gigantes globales demuestra que Centroamérica tiene el potencial de albergar laboratorios especializados y mano de obra avanzada. El futuro de la tecnología ya no solo se diseña en el norte, sino que se fortalece en el corazón de las Américas.Tu trabajo ilustra que la carrera por el silicio en 2026 no se trata solo de velocidad, sino de resiliencia y alianzas regionales.",
+        "zh": "中美洲正成为半导体行业的关键前沿。您的演讲展示了该地区如何转变为战略性的“近岸外包”中心,利用全球激励措施成为西方技术安全的重要环节。从“创意到产品”的流程精确地分解了从逻辑设计到制造的每一步,最终汇聚在组装、测试和封装 (ATP) 这些关键阶段。正是在这里,硅片转化为了面向全球市场的多功能组件。分析涵盖了行业巨头:台湾的 TSMC（台积电）、韩国的 Samsung（三星）、美国的 GlobalFoundries（格芯）以及中国的 SMIC（中芯国际）。这些力量定义了新兴地区力争达到的标准。当地制造与这些全球巨头的联系表明,中美洲具有容纳专业实验室和高级劳动力潜力的优势。技术的未来不仅是在北方设计的,也在美洲的心脏地带得到加强。您的工作表明,2026年的硅片之争不仅关乎速度,更关乎韧性与区域伙伴关系。",
+        "ja": "中央アメリカは半導体産業における重要なフロンティアとして台頭しています。あなたのプレゼンテーションは、この地域がいかに戦略的な「ニアショアリング」拠点へと変貌し、世界のインセンティブを活用して西側の技術安全保障の不可欠な輪となっているかを明らかにしています。「アイデアから製品へ」のプロセスは、論理設計から製造、そして組立・テスト・パッケージング（ATP）という極めて重要な段階まで、精密に分析されています。この段階を経て、シリコンは世界市場向けの機能的なコンポーネントへと生まれ変わります。業界の巨頭についても触れられています。台湾のTSMC、韓国のSamsung、米国のGlobalFoundries、そして中国のSMICです。これらの勢力は、新興地域が目指すべき基準を定義しています。現地の製造拠点とこれらのグローバル企業との連携は、中央アメリカが専門的なラボや高度な労働力を受け入れるポテンシャルを秘めていることを証明しています。テクノロジーの未来はもはや北半球だけで設計されるものではなく、米州の中心で強化されているのです。あなたのプレゼンテーションは、2026年の半導体競争が単なるスピードの争いではなく、レジリエンス（回復力）と地域的なパートナーシップの争いであることを示しています。"
       }
     },
     "quote": {
@@ -2447,7 +2774,8 @@
       "ja": "スピーカー"
     },
     "images": [],
-    "Product": "Research & Engineering"
+    "Product": "Research & Engineering",
+    "visible": false
   },
   {
     "id": 27,
@@ -2458,10 +2786,10 @@
       "es": "Jurado"
     },
     "summary": {
-      "en": "RoboCup is the world's largest robotics and AI competition, bringing together 2,500 competitors and 2,000 robots from 45 countries. Since 1996, it has promoted innovation in mechatronics, computer science, electronics, mechanics, IoT, and AI through competitive leagues and collaborative research. The 26th edition will take place in Bordeaux, France, from July 4–10, 2023, continuing its mission to advance global robotics knowledge.",
-      "es": "RoboCup es la competencia más grande de robótica e inteligencia artificial del mundo, reuniendo a 2,500 competidores y 2,000 robots de 45 países. Desde 1996, promueve la innovación en mecatrónica, informática, electrónica, mecánica, IoT e IA a través de ligas competitivas e investigación colaborativa. La 26.ª edición se llevará a cabo en Burdeos, Francia, del 4 al 10 de julio de 2023, continuando su misión de avanzar el conocimiento global en robótica.",
-      "zh": "RoboCup是世界上最大的机器人与人工智能竞赛,汇聚了来自45个国家的2,500名参赛者和2,000台机器人。自1996年以来,它通过竞技联赛和合作研究促进机电、计算机科学、电子学、机械、物联网和人工智能的创新。第26届赛事将于2023年7月4日至10日在法国波尔多举行,继续推进全球机器人知识发展。",
-      "ja": "RoboCupは世界最大のロボットとAI競技会で、45か国から2,500人の競技者と2,000台のロボットが集まります。1996年以降、競技リーグや共同研究を通じて、メカトロニクス、コンピュータサイエンス、電子工学、機械工学、IoT、AIのイノベーションを促進しています。第26回大会は2023年7月4日～10日にフランス・ボルドーで開催され、世界的なロボット知識の発展を継続します。"
+      "en": "Served as a Judge at RoboCup 2023 in Bordeaux, evaluation autonomous robotics systems from 45 countries.",
+      "es": "Actuó como jurado en RoboCup 2023 en Burdeos, evaluando sistemas robóticos autónomos.",
+      "zh": "在波尔多举办的RoboCup 2023中担任评审,评估来自45个国家的自主机器人系统。",
+      "ja": "ボルドーで開催されたRoboCup 2023で審査員を務め、45カ国の自律型ロボットシステムを評価。"
     },
     "category": {
       "en": "Professional",
@@ -2469,27 +2797,52 @@
       "zh": "专业的",
       "ja": "プロフェッショナル"
     },
-    "tags": [],
+    "tags": {
+      "en": [
+        "robocup",
+        "france",
+        "judging",
+        "robotics"
+      ],
+      "es": [
+        "robocup",
+        "france",
+        "judging",
+        "robotics"
+      ],
+      "zh": [
+        "robocup",
+        "france",
+        "judging",
+        "robotics"
+      ],
+      "ja": [
+        "robocup",
+        "france",
+        "judging",
+        "robotics"
+      ]
+    },
     "start": "7/4/2023",
     "finish": "7/10/2023",
     "content": {
       "problem": {
-        "en": "Robotics and AI research faces the challenge of integrating knowledge across diverse fields and fostering collaboration among researchers worldwide, while preparing autonomous systems for real-world applications.",
-        "es": "La investigación en robótica e inteligencia artificial enfrenta el desafío de integrar conocimientos de campos diversos y fomentar la colaboración entre investigadores de todo el mundo, mientras se preparan sistemas autónomos para aplicaciones reales.",
-        "zh": "机器人与人工智能研究面临跨学科知识整合的挑战,同时需要促进全球研究人员的合作,并为实际应用准备自主系统。",
-        "ja": "ロボットとAIの研究は、多様な分野の知識を統合し、世界中の研究者間の協力を促進しつつ、自律システムを実世界の応用に備えるという課題に直面しています。"
+        "en": "Ensuring fair evaluation across diverse international teams in high-stakes autonomous robotics competitions.",
+        "es": "Garantizar una evaluación justa en diversas ligas internacionales de robótica.",
+        "zh": "在高标准的自主机器人竞赛中,确保对各国际团队的公平评估。",
+        "ja": "国際的な自律型ロボット競技会において、多様なチームに対して公正な評価を保証すること。"
       },
       "approach": {
-        "en": "RoboCup organizes competitive leagues and collaborative events that unite researchers worldwide, encouraging innovation in mechatronics, AI, IoT, electronics, mechanics, and computer science. It hosts annual international competitions and supports regional and local events throughout the year to foster knowledge exchange and practical experience.",
-        "es": "RoboCup organiza ligas competitivas y eventos colaborativos que unen a investigadores de todo el mundo, fomentando la innovación en mecatrónica, IA, IoT, electrónica, mecánica e informática. Realiza competiciones internacionales anuales y apoya eventos regionales y locales durante todo el año para promover el intercambio de conocimientos y la experiencia práctica.",
-        "zh": "RoboCup通过组织竞技联赛和合作活动,将全球研究人员聚集在一起,促进机电、人工智能、物联网、电子学、机械学和计算机科学的创新。它每年举办国际比赛,并全年支持区域和本地赛事,以促进知识交流和实践经验。",
-        "ja": "RoboCupは、競技リーグや共同イベントを通じて世界中の研究者を結集し、メカトロニクス、AI、IoT、電子工学、機械工学、コンピュータサイエンスのイノベーションを促進します。年間の国際大会を開催し、地域や国内のイベントも支援して知識交換と実践経験を育みます。"
+        "en": "Applied standardized technical rubrics to assess navigation, logic, and mechanical robustness in the Maze and Junior leagues.",
+        "es": "Aplicó rúbricas estandarizadas para evaluar navegación y robustez mecánica.",
+        "zh": "应用标准化的技术评价指标,评估迷宫(Maze)和青少年组的导航、逻辑和机械鲁棒性。",
+        "ja": "迷路(Maze)およびジュニアリーグにおいて、ナビゲーション、ロジック、機械的堅牢性を評価するための標準化された技術指標を適用。"
       },
       "outcome": {
-        "en": "The competition advances robotics and AI research globally, fosters collaboration among thousands of scientists, and inspires new technologies and applications for autonomous systems.",
-        "es": "La competencia impulsa la investigación en robótica e IA a nivel mundial, fomenta la colaboración entre miles de científicos e inspira nuevas tecnologías y aplicaciones para sistemas autónomos.",
-        "zh": "该竞赛推动全球机器人与人工智能研究,促进数千名科学家的合作,并激发自主系统的新技术和应用。",
-        "ja": "この競技会は、世界的なロボットとAI研究を前進させ、数千人の科学者の協力を促進し、自律システムの新しい技術と応用を生み出します。"
+        "en": "Contributed to the successful hosting of the world's largest AI competition; fostered knowledge exchange among young innovators.",
+        "es": "Contribuyó al éxito de la competencia de IA más grande del mundo; fomentó el intercambio de conocimientos.",
+        "zh": "为全球最大的AI竞赛成功举办做出贡献;促进了年轻创新者之间的知识交流。",
+        "ja": "世界最大のAI競技会の成功に貢献。若きイノベーター間の知識交換を促進。"
       }
     },
     "quote": {
@@ -2518,7 +2871,8 @@
       "images/robocup2023_4.jpg",
       "images/robocup2023_5.jpg"
     ],
-    "Product": "Research & Engineering"
+    "Product": "Research & Engineering",
+    "visible": false
   },
   {
     "id": 28,
@@ -2530,10 +2884,10 @@
     },
     "highlight": 0,
     "summary": {
-      "en": "RoboCup 2024 was held from July 17–21 at Genneper Parken, Eindhoven, hosting 3,000 participants from 45 countries and 300 teams across five leagues. The event showcases autonomous robots transforming industries, rescue operations, sports, and home applications. Visitors can enjoy workshops, demonstrations, and cutting-edge robotics innovations throughout the week.",
-      "es": "RoboCup 2024 se llevó a cabo del 17 al 21 de julio en Genneper Parken, Eindhoven, con 3,000 participantes de 45 países y 300 equipos en cinco ligas. El evento exhibe robots autónomos que transforman industrias, operaciones de rescate, deportes y aplicaciones domésticas. Los visitantes podrán disfrutar de talleres, demostraciones e innovaciones robóticas de vanguardia durante toda la semana.",
-      "zh": "RoboCup 2024将于7月17日至21日在埃因霍温的Genneper Parken举行,来自45个国家的3,000名参与者和300支团队将在五个赛区展开角逐。活动展示了正在改变工业、救援、体育和家庭应用的自主机器人。观众可以在整周内参与工作坊、演示和前沿机器人创新体验。",
-      "ja": "RoboCup 2024は7月17日～21日にエイントホーフェンのGenneper Parkenで開催され、45か国から3,000人の参加者と300チームが5つのリーグで競いました。イベントでは、産業、救助、スポーツ、家庭分野を変革する自律型ロボットを紹介します。来場者はワークショップ、デモ、最先端のロボット技術を1週間楽しめました。"
+      "en": "Judge for RoboCup 2024 in Eindhoven, focusing on industrial and rescue robotics applications.",
+      "es": "Jurado de RoboCup 2024 en Eindhoven, centrado en aplicaciones de robótica industrial y de rescate.",
+      "zh": "在埃因霍温举办的RoboCup 2024中担任评审,专注于工业和救援机器人应用。",
+      "ja": "エイントホーフェンで開催されたRoboCup 2024の審査員。工業・レスキューロボットの応用に焦点を当てる。"
     },
     "category": {
       "en": "Professional",
@@ -2541,27 +2895,52 @@
       "zh": "专业的",
       "ja": "プロフェッショナル"
     },
-    "tags": [],
+    "tags": {
+      "en": [
+        "robocup",
+        "netherlands",
+        "industrial robotics",
+        "autonomous systems"
+      ],
+      "es": [
+        "robocup",
+        "netherlands",
+        "industrial robotics",
+        "autonomous systems"
+      ],
+      "zh": [
+        "robocup",
+        "netherlands",
+        "industrial robotics",
+        "autonomous systems"
+      ],
+      "ja": [
+        "robocup",
+        "netherlands",
+        "industrial robotics",
+        "autonomous systems"
+      ]
+    },
     "start": "7/15/2024",
     "finish": "7/22/2024",
     "content": {
       "problem": {
-        "en": "Despite rapid advances in robotics, the challenge remains to accelerate the development of reliable, affordable autonomous robots for diverse real-world applications and to inspire global collaboration in this emerging field.",
-        "es": "A pesar de los avances rápidos en robótica, el desafío sigue siendo acelerar el desarrollo de robots autónomos confiables y asequibles para diversas aplicaciones reales e inspirar la colaboración global en este campo emergente.",
-        "zh": "尽管机器人技术快速发展,但仍面临加速开发可靠、可负担的自主机器人以应用于多种现实场景,并在全球范围内推动该新兴领域合作的挑战。",
-        "ja": "ロボット技術が急速に進展しているにもかかわらず、信頼性が高く手頃な価格の自律型ロボットを多様な実世界の用途向けに開発し、この新興分野で世界的な協力を促進することが課題となっています。"
+        "en": "Evaluating the transition of robotics from controlled lab environments to complex industrial and search-and-rescue scenarios.",
+        "es": "Evaluar la transición de la robótica de entornos controlados a escenarios industriales complejos.",
+        "zh": "评估机器人从受控实验室环境向复杂工业和搜救场景的过渡。",
+        "ja": "制御されたラボ環境から複雑な産業・捜索救助シナリオへのロボットの移行を評価すること。"
       },
       "approach": {
-        "en": "RoboCup 2024 brings together global teams to compete in five leagues—Soccer, Rescue, @Home, Junior, and Industrial—while offering workshops, demonstrations, and interactive experiences. The event promotes knowledge exchange, innovation, and public engagement in autonomous technology.",
-        "es": "RoboCup 2024 reúne a equipos de todo el mundo para competir en cinco ligas: Fútbol, Rescate, @Hogar, Junior e Industrial, mientras ofrece talleres, demostraciones y experiencias interactivas. El evento promueve el intercambio de conocimientos, la innovación y la participación del público en la tecnología autónoma.",
-        "zh": "RoboCup 2024汇聚全球团队参加五个赛区——足球、救援、@家庭、青少年和工业,同时提供工作坊、演示和互动体验。活动促进知识交流、创新及公众参与自主技术。",
-        "ja": "RoboCup 2024は、世界中のチームを集め、サッカー、レスキュー、@ホーム、ジュニア、インダストリアルの5つのリーグで競技させ、ワークショップ、デモ、インタラクティブ体験も提供します。イベントは知識交換、イノベーション、一般参加を促進します。"
+        "en": "Evaluated team performance based on real-world reliability, sensor fusion efficiency, and autonomous decision-making quality.",
+        "es": "Evaluó el desempeño de los equipos basándose en la confiabilidad real y eficiencia de los sensores.",
+        "zh": "根据实际可靠性、传感器融合效率和自主决策质量评估团队表现。",
+        "ja": "実世界での信頼性、センサフュージョンの効率、自律的な意思決定の質に基づいてチームのパフォーマンスを評価。"
       },
       "outcome": {
-        "en": "The event accelerates the development and adoption of autonomous robots, inspires innovation across industries, and engages a global audience in exploring robotics' potential for future societal applications.",
-        "es": "El evento acelera el desarrollo y la adopción de robots autónomos, inspira innovación en diversas industrias y atrae a una audiencia global para explorar el potencial de la robótica en aplicaciones futuras.",
-        "zh": "该活动加速了自主机器人的开发和应用,激发各行业创新,并吸引全球观众探索机器人在未来社会应用中的潜力。",
-        "ja": "このイベントは、自律型ロボットの開発と普及を加速し、産業全体のイノベーションを促進するとともに、世界中の参加者にロボット技術の将来の社会的応用の可能性を探求させます。"
+        "en": "Validated cutting-edge autonomous solutions; strengthened ties within the global robotics community.",
+        "es": "Validó soluciones autónomas de vanguardia; fortaleció lazos en la comunidad global de robótica.",
+        "zh": "验证了前沿的自主解决方案;加强了全球机器人社区的联系。",
+        "ja": "最先端の自律型ソリューションを検証。世界的なロボティクスコミュニティ内の結びつきを強化。"
       }
     },
     "quote": {
@@ -2591,7 +2970,8 @@
       "images/robocup2024_5.jpg",
       "images/robocup2024_6.jpg"
     ],
-    "Product": "Research & Engineering"
+    "Product": "Research & Engineering",
+    "visible": false
   },
   {
     "id": 29,
@@ -2601,14 +2981,44 @@
       "zh": "文部科学省奖学金获得者",
       "es": "Becario MEXT"
     },
-    "summary": null,
+    "summary": {
+      "en": "Prestigious Japanese government scholarship awarded for pursuit of advanced Master's research in VLSI at Kyutech.",
+      "es": "Prestigiosa beca del gobierno japonés otorgada para realizar una maestría avanzada en VLSI en Kyutech.",
+      "zh": "获得的著名日本政府奖学金,用于在九州工业大学(Kyutech)进行先进的超大规模集成电路(VLSI)硕士研究。",
+      "ja": "九州工業大学(Kyutech)でのVLSIに関する高度な修士研究を追求するために授与された、名誉ある日本政府奨学金。"
+    },
     "category": {
       "en": "Academic",
       "es": "Academia",
       "zh": "学术的",
       "ja": "アカデミック"
     },
-    "tags": [],
+    "tags": {
+      "en": [
+        "mext",
+        "japan",
+        "kyutech",
+        "semiconductor research"
+      ],
+      "es": [
+        "mext",
+        "japan",
+        "kyutech",
+        "semiconductor research"
+      ],
+      "zh": [
+        "mext",
+        "japan",
+        "kyutech",
+        "semiconductor research"
+      ],
+      "ja": [
+        "mext",
+        "japan",
+        "kyutech",
+        "semiconductor research"
+      ]
+    },
     "start": "4/8/2025",
     "finish": "today",
     "quote": null,
@@ -2632,7 +3042,28 @@
       "zh": "学生",
       "ja": "学生"
     },
-    "images": []
+    "images": [],
+    "visible": false,
+    "content": {
+      "problem": {
+        "en": "Panama has limited domestic infrastructure for advanced semiconductor research, requiring international collaboration to bridge the gap in VLSI testing and design.",
+        "es": "Panamá tiene infraestructura nacional limitada para la investigación avanzada de semiconductores, lo que requiere colaboración internacional.",
+        "zh": "巴拿马国内在先进半导体研究方面的基础设施有限,需要国际合作来弥补超大规模集成电路(VLSI)测试和设计方面的差距。",
+        "ja": "パナマには高度な半導体研究のための国内インフラが限られており、VLSIのテストと設計のギャップを埋めるためには国際的な協力が必要です。"
+      },
+      "approach": {
+        "en": "Successfully applied for the MEXT scholarship, relocating to Japan to join the Wen Lab, focused on high-performance semiconductor testing methodologies.",
+        "es": "Solicitó con éxito la beca MEXT, trasladándose a Japón para unirse al Laboratorio Wen, centrado en metodologías de prueba de semiconductores.",
+        "zh": "成功申请了MEXT奖学金,奔赴日本加入温实验室(Wen Lab),专注于高性能半导体测试方法学。",
+        "ja": "MEXT奨学金に合格し、訪日して温研究室(Wen Lab)に所属。高性能半導体テスト手法に焦点を当てています。"
+      },
+      "outcome": {
+        "en": "Direct immersion in world-class semiconductor research environment; currently contributing to the state-of-the-art in fault-aware ATPG optimization.",
+        "es": "Inmersión directa en un entorno de investigación de semiconductores de clase mundial; contribuyendo actualmente a la optimización de ATPG.",
+        "zh": "直接沉浸在世界级的半导体研究环境中;目前正为故障感知ATPG优化领域的前沿研究做出贡献。",
+        "ja": "世界クラスの半導体研究環境に従事。現在は故障を考慮したATPG最適化の最新研究に貢献しています。"
+      }
+    }
   },
   {
     "id": 30,
@@ -2643,10 +3074,10 @@
       "es": "Miembro de comite técnico"
     },
     "summary": {
-      "en": "The IEEE Panama Section organized the 41st Central America and Panama Student Convention, CONESCAPAN XLI, in 2024, gathering students and professionals in electricity, electronics, and related fields. The event featured conferences on energy, electronics, industrial applications, robotics, telecom, electromedicine, and computer systems. It fostered knowledge exchange, research, and technological innovation across the region.",
-      "es": "La Sección Panamá del IEEE organizó la Cuadragésima Primera Convención de Estudiantes de Centroamérica y Panamá, CONESCAPAN XLI, en 2024, reuniendo a estudiantes y profesionales en electricidad, electrónica y áreas afines. El evento contó con conferencias sobre energía, electrónica, aplicaciones industriales, robótica, telecomunicaciones, electromedicina y sistemas computacionales. Se fomentó el intercambio de conocimientos, la investigación y la innovación tecnológica en la región.",
-      "zh": "IEEE巴拿马分会于2024年举办了第41届中美洲及巴拿马学生大会CONESCAPAN XLI,汇集了电力、电子及相关领域的学生和专业人士。大会设有能源、电子、工业应用、机器人、通信、电医和计算机系统等主题的会议。活动促进了知识交流、科研和区域技术创新。",
-      "ja": "IEEEパナマ支部は2024年に第41回中米・パナマ学生大会CONESCAPAN XLIを開催し、電気、電子、および関連分野の学生と専門家を集めました。イベントでは、エネルギー、電子、産業応用、ロボティクス、通信、医療技術、コンピュータシステムに関する講演が行われました。地域全体で知識交換、研究、技術革新が促進されました。"
+      "en": "Member of the Technical Committee for CONESCAPAN XLI, reviewing research papers on energy and electronics.",
+      "es": "Miembro del Comité Técnico de CONESCAPAN XLI, revisando artículos de investigación en energía y electrónica.",
+      "zh": "CONESCAPAN XLI技术委员会成员,审阅能源和电子领域的研究论文。",
+      "ja": "CONESCAPAN XLI技術委員会のメンバー。エネルギーと電子工学の研究論文をレビュー。"
     },
     "category": {
       "en": "Professional",
@@ -2654,27 +3085,52 @@
       "zh": "专业的",
       "ja": "プロフェッショナル"
     },
-    "tags": [],
+    "tags": {
+      "en": [
+        "ieee",
+        "peer review",
+        "academic conference",
+        "central america"
+      ],
+      "es": [
+        "ieee",
+        "peer review",
+        "academic conference",
+        "central america"
+      ],
+      "zh": [
+        "ieee",
+        "peer review",
+        "academic conference",
+        "central america"
+      ],
+      "ja": [
+        "ieee",
+        "peer review",
+        "academic conference",
+        "central america"
+      ]
+    },
     "start": "",
     "finish": "7/24/2024",
     "content": {
       "problem": {
-        "en": "Students and professionals in Central America needed a platform to converge, share research, and stay updated on the latest technological advancements in engineering.",
-        "es": "Los estudiantes y profesionales de Centroamérica necesitaban una plataforma para converger, compartir investigaciones y mantenerse actualizados sobre los últimos avances tecnológicos en ingeniería.",
-        "zh": "中美洲的学生和专业人士需要一个平台来汇聚、分享研究,并了解工程领域的最新技术进展。",
-        "ja": "中米地域の学生と専門家は、集まり、研究を共有し、最新の技術進歩について学ぶためのプラットフォームを必要としていました。"
+        "en": "Need for rigorous peer-review to maintain high academic standards in regional student engineering conferences.",
+        "es": "Necesidad de una revisión por pares rigurosa para mantener estándares académicos altos.",
+        "zh": "需要严谨的同行评审以保持地区性学生工程会议的高学术标准。",
+        "ja": "地域の学生エンジニアリング会議において高い学術水準を維持するために、厳格な査読が必要。"
       },
       "approach": {
-        "en": "CONESCAPAN XLI organized multiple conference tracks including energy, electronics, industrial applications, robotics, telecommunications, electromedicine, and computer systems, providing presentations, workshops, and networking opportunities to foster innovation and research.",
-        "es": "CONESCAPAN XLI organizó múltiples conferencias en áreas de energía, electrónica, aplicaciones industriales, robótica, telecomunicaciones, electromedicina y sistemas computacionales, ofreciendo presentaciones, talleres y oportunidades de networking para fomentar la innovación y la investigación.",
-        "zh": "CONESCAPAN XLI组织了涵盖能源、电子、工业应用、机器人、通信、电医和计算机系统的多个会议板块,提供演讲、研讨会和交流机会,以促进创新和科研。",
-        "ja": "CONESCAPAN XLIは、エネルギー、電子、産業応用、ロボティクス、通信、医療技術、コンピュータシステムに関する複数のカンファレンストラックを開催し、プレゼンテーション、ワークショップ、ネットワーキングの機会を提供して、イノベーションと研究を促進しました。"
+        "en": "Evaluated technical merit, methodology, and innovation of submissions in Power Systems and Telecommunications.",
+        "es": "Evaluó el mérito técnico, la metodología y la innovación de las propuestas.",
+        "zh": "评估了电力系统和通信领域提交论文的技术价值、方法论和创新性。",
+        "ja": "電力システムおよび通信分野への投稿論文について、技術的価値、手法、革新性を評価。"
       },
       "outcome": {
-        "en": "The convention successfully united students and professionals, advanced research presentations, and strengthened regional collaboration, placing Central American engineering students at the forefront of technological innovation.",
-        "es": "La convención unió con éxito a estudiantes y profesionales, promovió presentaciones de investigación y fortaleció la colaboración regional, situando a los estudiantes de ingeniería de Centroamérica a la vanguardia de la innovación tecnológica.",
-        "zh": "大会成功地将学生和专业人士汇聚在一起,推动了研究展示,并加强了区域合作,使中美洲的工程学生站在技术创新的前沿。",
-        "ja": "この大会は、学生と専門家を成功裏に結集させ、研究発表を促進し、地域の協力を強化し、中米の工学学生を技術革新の最前線に位置付けました。"
+        "en": "Curated a high-quality program for hundreds of participants; promoted regional engineering excellence.",
+        "es": "Curó un programa de alta calidad para cientos de participantes; promovió la excelencia regional.",
+        "zh": "为数百名参与者策划了高质量的项目;促进了地区工程卓越。",
+        "ja": "数百人の参加者のために高品質なプログラムを編成。地域のエンジニアリングの卓越性を促進。"
       }
     },
     "quote": {
@@ -2706,7 +3162,8 @@
       "es": "Jurado"
     },
     "images": [],
-    "Product": "Research & Engineering"
+    "Product": "Research & Engineering",
+    "visible": false
   },
   {
     "id": 31,
@@ -2716,14 +3173,44 @@
       "zh": "无人机遥控操作员",
       "es": "Operador de Aeronaves Pilotadas a Distancias RPA"
     },
-    "summary": null,
+    "summary": {
+      "en": "Certified RPA Operator through MAG Flight Training, enabling professional aerial inspections and data collection.",
+      "es": "Operador de RPA certificado por MAG Flight Training, permitiendo inspecciones aéreas profesionales y recolección de datos.",
+      "zh": "通过MAG飞行训练获得的认证无人机操作员(RPA),能够进行专业的航空检查和数据采集。",
+      "ja": "MAG Flight Trainingによる認定RPAオペレーター。プロフェッショナルな空中検査とデータ収集を可能にします。"
+    },
     "category": {
       "en": "Professional",
       "es": "Profesional",
       "zh": "专业的",
       "ja": "プロフェッショナル"
     },
-    "tags": [],
+    "tags": {
+      "en": [
+        "drone",
+        "rpa",
+        "aviation",
+        "surveillance"
+      ],
+      "es": [
+        "drone",
+        "rpa",
+        "aviation",
+        "surveillance"
+      ],
+      "zh": [
+        "drone",
+        "rpa",
+        "aviation",
+        "surveillance"
+      ],
+      "ja": [
+        "drone",
+        "rpa",
+        "aviation",
+        "surveillance"
+      ]
+    },
     "start": "6/29/2024",
     "finish": "9/12/2024",
     "quote": null,
@@ -2738,7 +3225,28 @@
       "ja": "参加者"
     },
     "images": [],
-    "Product": "Research & Engineering"
+    "Product": "Research & Engineering",
+    "visible": false,
+    "content": {
+      "problem": {
+        "en": "Traditional facility monitoring and land surveys are time-consuming and pose safety risks for ground personnel.",
+        "es": "El monitoreo tradicional de instalaciones y los levantamientos topográficos consumen mucho tiempo y representan riesgos para el personal.",
+        "zh": "传统的设施监控和土地测绘费时费力,且对地面人员存在安全风险。",
+        "ja": "従来の施設監視や土地測量は時間がかかり、地上職員の安全上のリスクもありました。"
+      },
+      "approach": {
+        "en": "Completed theoretical and practical training in aerodynamics, navigation, and aeronautical regulations; mastered flight control and emergency protocols.",
+        "es": "Completó formación teórica y práctica en aerodinámica, navegación y regulaciones aeronáuticas.",
+        "zh": "完成了空气动力学、导航和航空法规方面的理论与实践培训;掌握了飞行控制和应急协议。",
+        "ja": "空気力学、航空、航空規制に関する理論・実践訓練を修了。飛行制御と緊急プロトコルを習得しました。"
+      },
+      "outcome": {
+        "en": "Officially licensed as a Remote Pilot; able to integrate aerial perspective into engineering feasibility studies and environmental monitoring.",
+        "es": "Licencia oficial de Piloto Remoto obtenida; capaz de integrar la perspectiva aérea en estudios de ingeniería.",
+        "zh": "正式获得地遥控飞行员执照;能够将航空视角融入工程可行性研究和环境监测中。",
+        "ja": "リモートパイロットとしての公的免許を取得。エンジニアリングの実現可能性調査や環境モニタリングに空撮の視点を統合。"
+      }
+    }
   },
   {
     "id": 32,
@@ -2749,10 +3257,10 @@
       "es": "Primer semiconductor de panama"
     },
     "summary": {
-      "en": "The collaborator received recognition for designing and fabricating the country's first nanometric chip, and was featured in an interview on Telemetro Reporta's Mentes Brillantes as well as acknowledged by IEEE for explaining the significance and industry implications of this achievement.",
-      "es": "El colaborador recibió reconocimiento por el diseño y fabricación del primer chip nanométrico del país, fue entrevistado en el programa Mentes Brillantes de Telemetro Reporta y reconocido por la IEEE, donde explicó el significado de este logro y sus proyecciones en la industria de semiconductores en Panamá.",
-      "zh": "该合作者因设计和制造该国首个纳米级芯片而获得表彰,并在 Telemetro Reporta 的Mentes Brillantes节目中接受了采访,同时受 IEEE 认可,阐述了这一成就的意义及其对巴拿马半导体行业的影响。",
-      "ja": "この協力者は国内初のナノメートルチップの設計と製造に対して表彰され、Mentes Brillantes(Telemetro Reporta)のインタビューに出演し、この成果の意義とパナマの半導体産業への展望を IEEE にて説明し評価されました。"
+      "en": "Author of the research behind Panama's first university semiconductor patent, specializing in nanometer-scale logic decoders.",
+      "es": "Autor de la investigación detrás de la primera patente universitaria de semiconductores de Panamá.",
+      "zh": "巴拿马首个大学半导体专利背后的研究作者,专注于纳米级逻辑解码器。",
+      "ja": "パナマ初の大学による半導体特許、ナノメートルスケールのロジックデコーダに関する研究の執筆者。"
     },
     "category": {
       "en": "Research",
@@ -2760,27 +3268,52 @@
       "zh": "研究",
       "ja": "研究"
     },
-    "tags": [],
+    "tags": {
+      "en": [
+        "vlsi design",
+        "patent",
+        "innovation",
+        "asic"
+      ],
+      "es": [
+        "vlsi design",
+        "patent",
+        "innovation",
+        "asic"
+      ],
+      "zh": [
+        "vlsi design",
+        "patent",
+        "innovation",
+        "asic"
+      ],
+      "ja": [
+        "vlsi design",
+        "patent",
+        "innovation",
+        "asic"
+      ]
+    },
     "start": "",
     "finish": "6/13/2024",
     "content": {
       "problem": {
-        "en": "There was a lack of domestic expertise and recognition in the field of advanced semiconductor design and manufacturing, which hindered Panama's visibility and competitiveness in the global semiconductor industry.",
-        "es": "Había una falta de experiencia y reconocimiento nacional en el diseño y fabricación avanzada de semiconductores, lo que obstaculizaba la visibilidad y competitividad de Panamá en la industria global de semiconductores.",
-        "zh": "国内在先进半导体设计和制造领域缺乏专业知识和认可,这阻碍了巴拿马在全球半导体行业的知名度和竞争力。",
-        "ja": "先進的な半導体設計および製造の分野で国内の専門知識と認知が欠けており、それがパナマの世界の半導体産業における可視性と競争力を阻んでいました。"
+        "en": "The need for indigenous VLSI design capabilities to foster local technical sovereignty in high-tech hardware.",
+        "es": "La necesidad de capacidades autóctonas de diseño VLSI para fomentar la soberanía técnica local.",
+        "zh": "需要本土的超大规模集成电路(VLSI)设计能力,以促进高科技硬件领域的本地技术自主性。",
+        "ja": "ハイテクハードウェアにおける現地の技術的自立を促進するために、固有のVLSI設計能力が必要。"
       },
       "approach": {
-        "en": "The collaborator led the design and fabrication of the first nanometric chip in the country, shared insights in a media interview, and engaged with IEEE to articulate the broader significance and future impact of the innovation.",
-        "es": "El colaborador lideró el diseño y fabricación del primer chip nanométrico del país, compartió conocimientos en una entrevista mediática y colaboró con la IEEE para articular el significado más amplio y el impacto futuro de la innovación.",
-        "zh": "该合作者负责领导国内首个纳米芯片的设计和制造,在媒体采访中分享见解,并与 IEEE 合作阐述这一创新的更广泛意义及未来影响。",
-        "ja": "この協力者は国内初のナノメートルチップの設計と製造を主導し、メディアのインタビューで見識を共有し、IEEE と協力してこの革新のより広範な意義と将来の影響を説明しました。"
+        "en": "Designed a custom decoder architecture in 180nm CMOS technology; conducted extensive schematic and layout simulations to ensure reliability.",
+        "es": "Diseñó una arquitectura de decodificador personalizada en tecnología CMOS de 180nm.",
+        "zh": "采用180纳米CMOS技术设计了定制解码器架构;进行了广泛的原理图和版图仿真以确保可靠性。",
+        "ja": "180nm CMOS技術を用いたカスタムデコーダアーキテクチャを設計。信頼性を確保するために大規模な回路図およびレイアウトシミュレーションを実施。"
       },
       "outcome": {
-        "en": "The achievement brought national recognition to advanced semiconductor capabilities, promoted industry awareness through media and IEEE engagement, and underscored future development prospects in Panama's semiconductor sector.",
-        "es": "El logro trajo reconocimiento nacional a las capacidades en semiconductores avanzados, promovió la concientización de la industria a través de los medios y la participación de la IEEE, y destacó las perspectivas de desarrollo futuro del sector de semiconductores en Panamá.",
-        "zh": "这一成就为先进半导体能力带来了国家级认可,通过媒体和 IEEE 的参与提升了行业意识,并强调了巴拿马半导体行业未来的发展前景。",
-        "ja": "この成果は高度な半導体技術への国内認知をもたらし、メディアと IEEE を通じて業界への意識を高め、パナマの半導体セクターの将来の発展展望を強調しました。"
+        "en": "Successful patent registration at UTP; established the feasibility of complex domestic ASIC design in Panama.",
+        "es": "Registro de patente exitoso en la UTP; estableció la viabilidad del diseño ASIC nacional.",
+        "zh": "在巴拿马科技大学(UTP)成功注册专利;确立了在巴拿马进行复杂国产ASIC设计的可行性。",
+        "ja": "パナマ工科大学(UTP)での特許登録に成功。パナマにおける複雑な国産ASIC設計の実現可能性を確立。"
       }
     },
     "quote": {
@@ -2813,7 +3346,8 @@
     },
     "profile_image": "images/semiconductor.png",
     "images": [],
-    "Product": "Research & Engineering"
+    "Product": "Research & Engineering",
+    "visible": false
   },
   {
     "id": 33,
@@ -2886,13 +3420,14 @@
       "zh": "讲师",
       "ja": "インストラクター"
     },
-    "profile_image": "images/python_embebidos.jpg",
+    "profile_image": "images/thumbnails/python_embebidos.webp",
     "images": [
-      "images/python_embebidos.jpg",
-      "images/python_embebidos1.jpg",
-      "images/python_embebidos2.jpg"
+      "images/webp/python_embebidos.webp",
+      "images/webp/python_embebidos1.webp",
+      "images/webp/python_embebidos2.webp"
     ],
-    "Product": "Research & Engineering"
+    "Product": "Research & Engineering",
+    "visible": true
   },
   {
     "id": 34,
@@ -3028,13 +3563,14 @@
       "zh": "作者",
       "ja": "作家"
     },
-    "profile_image": "images/neurocomputing.png",
+    "profile_image": "images/thumbnails/neurocomputing.webp",
     "images": [
-      "images/neurocomputing2.png",
-      "images/neurocomputing1.jpg",
-      "images/neurocomputing.jpg"
+      "images/webp/neurocomputing2.webp",
+      "images/webp/neurocomputing1.webp",
+      "images/webp/neurocomputing.webp"
     ],
-    "Product": "Research & Engineering"
+    "Product": "Research & Engineering",
+    "visible": true
   },
   {
     "id": 35,
@@ -3118,12 +3654,13 @@
       "zh": "报告人",
       "ja": "スピーカー"
     },
-    "profile_image": "images/agricolas.jpg",
+    "profile_image": "images/thumbnails/agricolas.webp",
     "images": [
-      "images/agricolas1.jpg",
-      "images/agricolas2.jpg"
+      "images/webp/agricolas1.webp",
+      "images/webp/agricolas2.webp"
     ],
-    "Product": "Research & Engineering"
+    "Product": "Research & Engineering",
+    "visible": true
   },
   {
     "id": 36,
@@ -3232,14 +3769,15 @@
       "ja": "学生"
     },
     "images": [
-      "images/research_1.jpg",
-      "images/research_2.jpg",
-      "images/research_3.jpg",
-      "images/research_4.jpg",
-      "images/research_5.jpg",
-      "images/research_6.jpg",
-      "images/research_7.jpg"
-    ]
+      "images/webp/research_1.webp",
+      "images/webp/research_2.webp",
+      "images/webp/research_3.webp",
+      "images/webp/research_4.webp",
+      "images/webp/research_5.webp",
+      "images/webp/research_6.webp",
+      "images/webp/research_7.webp"
+    ],
+    "visible": true
   },
   {
     "id": 37,
@@ -3250,10 +3788,10 @@
       "es": "RobotiFest UCR"
     },
     "summary": {
-      "en": "From November 20 to 22, 2019, the University of Costa Rica hosted RobotiFestUCR, a national robotics and open-source technology competition. High school and university students participated in challenges related to sustainability, Industry 4.0, humanoid robot programming with NAO robots, and aerospace projects. The event included workshops, demonstrations, and exhibitions open to the public to promote science, technology, and innovation.",
-      "es": "Del 20 al 22 de noviembre de 2019, la Universidad de Costa Rica organizó RobotiFestUCR, una competencia nacional de robótica y tecnología de código abierto. Estudiantes de secundaria y universitarios participaron en desafíos relacionados con sostenibilidad, Industria 4.0, programación de robots humanoides NAO y proyectos aeroespaciales. El evento incluyó talleres, demostraciones y exhibiciones abiertas al público para promover la ciencia, la tecnología y la innovación.",
-      "zh": "2019年11月20日至22日,哥斯达黎加大学举办了RobotiFestUCR全国机器人与开源技术比赛。高中生和大学生参加了与可持续发展、工业4.0、NAO类人机器人编程以及航空航天项目相关的挑战。活动包括工作坊、演示和面向公众的展览,以推广科学、技术和创新。",
-      "ja": "2019年11月20日から22日まで、コスタリカ大学で全国規模のロボティクスおよびオープンソース技術競技会RobotiFestUCRが開催されました。高校生と大学生は、持続可能性、インダストリー4.0、NAOヒューマノイドロボットのプログラミング、航空宇宙プロジェクトに関連する課題に参加しました。イベントにはワークショップ、デモンストレーション、一般公開の展示も含まれ、科学、技術、イノベーションの普及が図られました。"
+      "en": "Speaker at RobotiFest UCR in Costa Rica, presenting research on autonomous systems and open-source robotics.",
+      "es": "Orador en RobotiFest UCR en Costa Rica, presentando investigación sobre sistemas autónomos.",
+      "zh": "在哥斯达黎加举办的RobotiFest UCR中发表演讲,展示自主系统和开源机器人领域的研究。",
+      "ja": "コスタリカのRobotiFest UCRで、自律システムとオープンソースロボティクスに関する研究を発表。"
     },
     "category": {
       "en": "Academic",
@@ -3261,7 +3799,32 @@
       "zh": "学术的",
       "ja": "アカデミック"
     },
-    "tags": [],
+    "tags": {
+      "en": [
+        "robotics",
+        "costa rica",
+        "open source",
+        "autonomous systems"
+      ],
+      "es": [
+        "robotics",
+        "costa rica",
+        "open source",
+        "autonomous systems"
+      ],
+      "zh": [
+        "robotics",
+        "costa rica",
+        "open source",
+        "autonomous systems"
+      ],
+      "ja": [
+        "robotics",
+        "costa rica",
+        "open source",
+        "autonomous systems"
+      ]
+    },
     "start": "11/20/2019",
     "finish": "11/22/2019",
     "content": {
@@ -3312,7 +3875,8 @@
       "zh": "报告人",
       "ja": "スピーカー"
     },
-    "images": []
+    "images": [],
+    "visible": false
   },
   {
     "id": 38,
@@ -3322,14 +3886,44 @@
       "zh": "秘书",
       "es": "Secretario"
     },
-    "summary": null,
+    "summary": {
+      "en": "Executive Secretary for IEEE CASS Panama, coordinating society events and member engagement.",
+      "es": "Secretario Ejecutivo de IEEE CASS Panamá, coordinando eventos de la sociedad.",
+      "zh": "IEEE CASS 巴拿马执行秘书,协调分会活动和会员参与。",
+      "ja": "IEEE CASS パナマの執行書記。協会のイベントや会員のエンゲージメントを調整。"
+    },
     "category": {
       "en": "Professional",
       "es": "Profesional",
       "zh": "专业的",
       "ja": "プロフェッショナル"
     },
-    "tags": [],
+    "tags": {
+      "en": [
+        "leadership",
+        "ieee cass",
+        "governance",
+        "professional society"
+      ],
+      "es": [
+        "leadership",
+        "ieee cass",
+        "governance",
+        "professional society"
+      ],
+      "zh": [
+        "leadership",
+        "ieee cass",
+        "governance",
+        "professional society"
+      ],
+      "ja": [
+        "leadership",
+        "ieee cass",
+        "governance",
+        "professional society"
+      ]
+    },
     "start": "2/14/2024",
     "finish": "2/18/2025",
     "quote": null,
@@ -3354,7 +3948,28 @@
       "es": "secretario"
     },
     "images": [],
-    "Product": "Research & Engineering"
+    "Product": "Research & Engineering",
+    "visible": false,
+    "content": {
+      "problem": {
+        "en": "Lack of consistent communication and organized knowledge-sharing opportunities for circuits and systems professionals in Panama.",
+        "es": "Falta de comunicación constante y oportunidades de intercambio de conocimientos.",
+        "zh": "巴拿马电路与系统领域的专业人士缺乏持续的沟通和有组织的知识共享机会。",
+        "ja": "パナマにおける回路・システム専門家のための、継続的なコミュニケーションや組織的な知識共有の機会の欠如。"
+      },
+      "approach": {
+        "en": "Managed administrative logistics, communications, and digital platforms to streamline chapter operations.",
+        "es": "Gestionó la logística administrativa, las comunicaciones y las plataformas digitales.",
+        "zh": "管理行政物流、通信和数字平台以简化分会运作。",
+        "ja": "運営を効率化するため、事務的なロジスティクス、コミュニケーション、デジタルプラットフォームを管理。"
+      },
+      "outcome": {
+        "en": "Increased active membership by 15%; successfully organized 5+ technical webinars and workshops.",
+        "es": "Aumentó la membresía activa en un 15%; organizó más de 5 seminarios técnicos.",
+        "zh": "活跃会员增加了15%;成功组织了5场以上的技术在线研讨会和工作坊。",
+        "ja": "アクティブ会員を15%増加。5つ以上の技術ウェビナーやワークショップを成功裏に開催。"
+      }
+    }
   },
   {
     "id": 39,
@@ -3425,12 +4040,13 @@
       "zh": "参与者",
       "ja": "参加者"
     },
-    "profile_image": "images/huawei3.JPG",
+    "profile_image": "images/thumbnails/huawei3.webp",
     "images": [
-      "images/huawei1.jpg",
-      "images/huawei2.jpg",
-      "images/huawei3.JPG"
-    ]
+      "images/webp/huawei1.webp",
+      "images/webp/huawei2.webp",
+      "images/webp/huawei3.webp"
+    ],
+    "visible": true
   },
   {
     "id": 40,
@@ -3441,10 +4057,10 @@
       "es": "Entrevista sobre semiconductor"
     },
     "summary": {
-      "en": "As a researcher at the Universidad Tecnológica de Panamá (UTP), is the author of Panama's first university semiconductor patent: a nanometer-scale chip that converts binary signals to seven-segment outputs. The patent, registered on March 28, 2025, marks a milestone for local science and innovation and aligns with UTP's Advanced Semiconductor and Circuit Technology Center.",
-      "es": "Como investigador de la Universidad Tecnológica de Panamá (UTP), es autor de la primera patente universitaria panameña en semiconductores: un chip a escala nanométrica que convierte señales binarias en salidas de siete segmentos. La patente, registrada el 28 de marzo de 2025, marca un hito para la ciencia e innovación local y se alinea con el Centro de Tecnologías Avanzadas en Semiconductores y Circuitos de la UTP.",
-      "zh": "巴拿马科技大学(UTP)的研究员,是巴拿马首个大学半导体专利的发明者:一种纳米级芯片,将二进制信号转换为七段输出。该专利于2025年3月28日注册,标志着本地科学与创新的里程碑,并与UTP的先进半导体与电路技术中心保持一致。",
-      "ja": "パナマ工科大学(UTP)の研究者であるクン ケルビンは、パナマ初の大学半導体特許を取得しました。これは、二進信号を7セグメント出力に変換するナノメートル規模のチップです。2025年3月28日に登録され、地元の科学・イノベーションにおける画期的成果であり、UTPの先端半導体・回路技術センターと連携しています。"
+      "en": "Discussed the strategic importance and technical challenges of Panama's first university semiconductor patent on 'Vida Digital'.",
+      "es": "Analizó la importancia estratégica y los desafíos técnicos de la primera patente universitaria de semiconductores en 'Vida Digital'.",
+      "zh": "在《Vida Digital》节目中讨论了巴拿马首个大学半导体专利的战略意义和技术挑战。",
+      "ja": "「Vida Digital」において、パナマ初の大学による半導体特許の戦略的重要性と技術的課題について解説。"
     },
     "category": {
       "en": "Research",
@@ -3452,27 +4068,52 @@
       "zh": "研究",
       "ja": "研究"
     },
-    "tags": [],
+    "tags": {
+      "en": [
+        "media",
+        "outreach",
+        "patent",
+        "electronics"
+      ],
+      "es": [
+        "media",
+        "outreach",
+        "patent",
+        "electronics"
+      ],
+      "zh": [
+        "media",
+        "outreach",
+        "patent",
+        "electronics"
+      ],
+      "ja": [
+        "media",
+        "outreach",
+        "patent",
+        "electronics"
+      ]
+    },
     "start": null,
     "finish": "5/29/2025",
     "content": {
       "problem": {
-        "en": "Panama lacked the infrastructure and industry to develop and patent semiconductor technology locally, limiting opportunities for innovation and practical electronics research at a nanometer scale.",
-        "es": "Panamá carecía de la infraestructura e industria para desarrollar y patentar tecnología de semiconductores localmente, limitando las oportunidades de innovación e investigación práctica en electrónica a escala nanométrica.",
-        "zh": "巴拿马缺乏本地开发和申请半导体技术专利的基础设施和产业,这限制了纳米级电子研究和创新的机会。",
-        "ja": "パナマには半導体技術を現地で開発・特許取得するインフラや産業が不足しており、ナノメートル規模の電子研究やイノベーションの機会が制限されていました。"
+        "en": "Public awareness of the semiconductor industry and its local potential remained low, hindering investment and student interest.",
+        "es": "La conciencia pública sobre la industria de semiconductores y su potencial local era baja.",
+        "zh": "公众对半导体行业及其在本地的潜力认知度较低,阻碍了投资和学生的兴趣。",
+        "ja": "半導体産業とその現地のポテンシャルに対する公衆の意識が低く、投資や学生の関心を妨げていました。"
       },
       "approach": {
-        "en": "Kung leveraged his early interest in electronics and UTP's research labs to develop practical nanometer-scale electronic designs, including during pandemic restrictions using remote design integration. His approach focused on miniaturization to increase speed, reduce energy consumption, and eliminate the need for programming, enabling efficient, responsive devices.",
-        "es": "Kung aprovechó su interés temprano por la electrónica y los laboratorios de investigación de la UTP para desarrollar diseños electrónicos prácticos a escala nanométrica, incluso durante las restricciones de la pandemia mediante integración de diseño remoto. Su enfoque se centró en la miniaturización para aumentar la velocidad, reducir el consumo de energía y eliminar la necesidad de programación, permitiendo dispositivos eficientes y responsivos.",
-        "zh": "颖贤利用他对电子学的早期兴趣以及UTP的研究实验室开发了纳米级实用电子设计,即使在疫情限制期间也通过远程设计整合完成。他的方法专注于微型化,提高速度、降低能耗,并无需编程,实现高效、响应迅速的设备。",
-        "ja": "クンは電子工学への幼少期の関心とUTPの研究ラボを活用して、ナノメートル規模の実践的電子設計を開発しました。パンデミック中も遠隔設計統合を用いて作業を行いました。彼のアプローチは、速度向上、消費電力低減、プログラミング不要を中心に据え、効率的で応答性の高いデバイスを実現しました。"
+        "en": "Explained complex VLSI concepts in accessible language; highlighted the impact of miniaturization on IoT and future device efficiency.",
+        "es": "Explicó conceptos complejos de VLSI en lenguaje accesible; destacó el impacto de la miniaturización en el IoT.",
+        "zh": "用易懂的语言解释了复杂的超大规模集成电路(VLSI)概念;强调了微型化对物联网(IoT)和未来设备效率的影响。",
+        "ja": "複雑なVLSIの概念をわかりやすい言葉で説明。IoTや将来のデバイス効率における微細化の影響を強調しました。"
       },
       "outcome": {
-        "en": "The resulting patent demonstrates that Panama can participate in semiconductor design without needing a full local manufacturing industry. The nanometer-scale chip offers faster signal response, lower energy use, reduced heat, and smaller material requirements, positioning it for applications in IoT devices, sensors, and other edge computing systems.",
-        "es": "La patente resultante demuestra que Panamá puede participar en el diseño de semiconductores sin necesidad de una industria de manufactura local completa. El chip a escala nanométrica ofrece respuesta de señal más rápida, menor consumo de energía, menos calor y menor requerimiento de materiales, posicionándolo para aplicaciones en dispositivos IoT, sensores y otros sistemas de computación de borde.",
-        "zh": "这一专利表明巴拿马可以参与半导体设计,而无需完整的本地制造产业。纳米级芯片具有更快的信号响应、更低的能耗、更少的发热和更小的材料需求,可用于物联网设备、传感器及其他边缘计算系统。",
-        "ja": "この特許により、パナマは完全な現地製造業がなくても半導体設計に参加できることが示されました。ナノメートル規模のチップは、信号応答の高速化、エネルギー消費の低減、発熱の抑制、材料使用量の削減を実現し、IoTデバイス、センサー、その他のエッジコンピューティングシステムへの応用が可能です。"
+        "en": "Increased visibility for UTP's research initiatives; motivated a new generation of students to pursue careers in microelectronics.",
+        "es": "Mayor visibilidad para las iniciativas de investigación de la UTP; motivó a una nueva generación de estudiantes.",
+        "zh": "提高了巴拿马科技大学(UTP)研究计划的知名度;激励了新一代学生追求微电子领域的职业生涯。",
+        "ja": "UTPの研究活動の可視性を向上。新世代の学生にマイクロエレクトロニクス分野への関心を持たせました。"
       }
     },
     "quote": {
@@ -3495,7 +4136,8 @@
     },
     "profile_image": "images/digital.png",
     "images": [],
-    "Product": "Research & Engineering"
+    "Product": "Research & Engineering",
+    "visible": false
   },
   {
     "id": 41,
@@ -3506,10 +4148,10 @@
       "es": "Semillero de Investigación 2023"
     },
     "summary": {
-      "en": "On January 19, 2023, the 2023 Research Seedbed of the Faculty of Electrical Engineering was established, organized by the Intelligent Control Systems and Industrial Informatics (SCIII) research group, coordinated by Dr. Ignacio Chang, Vice Dean of Research, Postgraduate, and Extension. The multidisciplinary group includes members from all university faculties and engages students in research, extension, and technology development projects, including assistive technologies for people with disabilities and sustainable community prototypes.",
-      "es": "El 19 de enero de 2023 se constituyó el Semillero de Investigación 2023 de la Facultad de Ingeniería Eléctrica, organizado por el grupo de investigación de Sistemas de Control Inteligente e Informática Industrial (SCIII), bajo la coordinación del Dr. Ignacio Chang, Vicedecano de Investigación, Postgrado y Extensión. El grupo multidisciplinario cuenta con miembros de todas las facultades de la universidad y involucra a estudiantes en proyectos de investigación, extensión y desarrollo de tecnología, incluyendo tecnologías de asistencia para personas con discapacidad y prototipos de comunidades sostenibles.",
-      "zh": "2023年1月19日,电气工程学院2023年研究种子团队成立,由智能控制系统与工业信息学(SCIII)研究小组组织,伊格纳西奥·张博士(研究、研究生及推广副院长)协调。该多学科团队包括来自大学各学院的成员,学生参与研究、推广和技术开发项目,包括为残障人士提供辅助技术以及可持续社区原型。",
-      "ja": "2023年1月19日、電気工学部の2023年研究シードベッドが設立されました。これは、知能制御システムおよび産業情報学(SCIII)研究グループが組織し、イグナシオ・チャン博士(研究・大学院・延長担当副学部長)が調整しました。この多分野のグループは大学のすべての学部からメンバーを含み、学生は研究、普及活動、障がい者支援技術や持続可能なコミュニティのプロトタイプ開発などの技術開発プロジェクトに参加します。"
+      "en": "Instructor and speaker for the UTP Research Seedbed program, mentoring students in intelligent control systems.",
+      "es": "Instructor y orador para el programa de Semilleros de Investigación de la UTP, asesorando a estudiantes.",
+      "zh": "巴拿马科技大学(UTP)研究种子项目(Research Seedbed)的主讲人和讲师,指导学生学习智能控制系统。",
+      "ja": "パナマ工科大学(UTP)の研究シードベッドプログラムの講師・スピーカー。学生に知能制御システムを指導。"
     },
     "category": {
       "en": "Research",
@@ -3517,7 +4159,32 @@
       "zh": "研究",
       "ja": "研究"
     },
-    "tags": [],
+    "tags": {
+      "en": [
+        "mentorship",
+        "research",
+        "control systems",
+        "ieee"
+      ],
+      "es": [
+        "mentorship",
+        "research",
+        "control systems",
+        "ieee"
+      ],
+      "zh": [
+        "mentorship",
+        "research",
+        "control systems",
+        "ieee"
+      ],
+      "ja": [
+        "mentorship",
+        "research",
+        "control systems",
+        "ieee"
+      ]
+    },
     "start": "",
     "finish": "1/19/2023",
     "content": {
@@ -3570,7 +4237,8 @@
     },
     "profile_image": "images/semillas.jpg",
     "images": [],
-    "Product": "Research & Engineering"
+    "Product": "Research & Engineering",
+    "visible": false
   },
   {
     "id": 42,
@@ -3643,13 +4311,14 @@
       "zh": "报告人",
       "ja": "スピーカー"
     },
-    "profile_image": "images/ssci.jpg",
+    "profile_image": "images/thumbnails/ssci.webp",
     "images": [
-      "images/ssci.jpg",
-      "images/ssci1.jpg",
-      "images/ssci2.jpg"
+      "images/webp/ssci.webp",
+      "images/webp/ssci1.webp",
+      "images/webp/ssci2.webp"
     ],
-    "Product": "Research & Engineering"
+    "Product": "Research & Engineering",
+    "visible": true
   },
   {
     "id": 43,
@@ -3659,14 +4328,44 @@
       "zh": "使用Power BI创建交互式仪表板工作坊",
       "es": "Taller de creación de dashboards interactivos con Power BI"
     },
-    "summary": null,
+    "summary": {
+      "en": "Completed professional workshop on Power BI for academic planning, focused on data-driven institutional decision making.",
+      "es": "Taller profesional completado sobre Power BI para la planificación académica.",
+      "zh": "完成了用于学术规划的Power BI专业工作坊,专注于数据驱动的机构决策。",
+      "ja": "アカデミックプランニングのためのPower BIプロフェッショナルワークショップを修了。データ駆動型の組織的意思決定に焦点。"
+    },
     "category": {
       "en": "Professional",
       "es": "Profesional",
       "zh": "专业的",
       "ja": "プロフェッショナル"
     },
-    "tags": [],
+    "tags": {
+      "en": [
+        "data analytics",
+        "power bi",
+        "planning",
+        "business intelligence"
+      ],
+      "es": [
+        "data analytics",
+        "power bi",
+        "planning",
+        "business intelligence"
+      ],
+      "zh": [
+        "data analytics",
+        "power bi",
+        "planning",
+        "business intelligence"
+      ],
+      "ja": [
+        "data analytics",
+        "power bi",
+        "planning",
+        "business intelligence"
+      ]
+    },
     "start": "4/22/2024",
     "finish": "5/3/2024",
     "quote": null,
@@ -3692,7 +4391,28 @@
       "images/diplan1.jpg",
       "images/diplan.jpg"
     ],
-    "Product": "Dashboards"
+    "Product": "Dashboards",
+    "visible": false,
+    "content": {
+      "problem": {
+        "en": "Raw institutional data at UTP was underutilized due to the complexity of existing reporting tools and lack of interactive visualization.",
+        "es": "Los datos institucionales en la UTP estaban subutilizados debido a la complejidad de las herramientas de reporte.",
+        "zh": "由于现有报告工具的复杂性和缺乏交互式可视化,巴拿马科技大学(UTP)的原始机构数据未能得到充分利用。",
+        "ja": "UTPの生の組織データは、既存のレポートツールの複雑さと対話型視覚化の欠如により、十分に活用されていませんでした。"
+      },
+      "approach": {
+        "en": "Implemented ETL processes in Power BI to clean and model academic datasets; designed dynamic dashboards for tracking enrollment and graduation KPIs.",
+        "es": "Implementó procesos ETL en Power BI para limpiar y modelar conjuntos de datos académicos.",
+        "zh": "在Power BI中实施了ETL流程,对学术数据集进行清理和建模;设计了用于跟踪入学和毕业KPI的动态仪表板。",
+        "ja": "Power BIでETLプロセスを実装し、アカデミックデータセットをクレンジング・モデリング。入学・卒業のKPIを追跡するダイナミックなダッシュボードを設計。"
+      },
+      "outcome": {
+        "en": "Enabled administrators to make faster, evidence-based decisions; streamlined the annual planning cycle through automated data refreshing.",
+        "es": "Permitió a los administradores tomar decisiones basadas en evidencia; optimizó el ciclo de planificación anual.",
+        "zh": "使管理人员能够更快地做出基于证据的决策;通过自动数据刷新简化了年度规划周期。",
+        "ja": "管理者が迅速かつ証拠に基づいた意思決定を行えるように支援。自動データ更新により年間計画サイクルを効率化。"
+      }
+    }
   },
   {
     "id": 44,
@@ -3714,7 +4434,12 @@
       "zh": "研究",
       "ja": "研究"
     },
-    "tags": [],
+    "tags": {
+      "en": [],
+      "es": [],
+      "zh": [],
+      "ja": []
+    },
     "start": "",
     "finish": "12/14/2024",
     "content": {
@@ -3766,7 +4491,8 @@
       "ja": "スピーカー"
     },
     "images": [],
-    "Product": "Research & Engineering"
+    "Product": "Research & Engineering",
+    "visible": false
   },
   {
     "id": 45,
@@ -3776,14 +4502,44 @@
       "zh": "服务创业与创新的颠覆性技术与应用研究",
       "es": "Tecnologias Disruptivas e Investigación aplicada al Servicio del Emprendimiento y de la Innovación"
     },
-    "summary": null,
+    "summary": {
+      "en": "Presented on 'Disruptive Technologies' at the XI Engineering Congress, exploring AI and IoT integration in industry.",
+      "es": "Presentación sobre 'Tecnologías Disruptivas' en el XI Congreso de Ingeniería.",
+      "zh": "在第十一届工程大会上发表了关于“颠覆性技术”的演讲,探讨了AI和IoT在工业中的集成。",
+      "ja": "第11回エンジニアリング会議で「破壊的技術」について発表。産業界におけるAIとIoTの統合を探求。"
+    },
     "category": {
       "en": "Professional",
       "es": "Profesional",
       "zh": "专业的",
       "ja": "プロフェッショナル"
     },
-    "tags": [],
+    "tags": {
+      "en": [
+        "innovation",
+        "industry 4.0",
+        "iot",
+        "ai"
+      ],
+      "es": [
+        "innovation",
+        "industry 4.0",
+        "iot",
+        "ai"
+      ],
+      "zh": [
+        "innovation",
+        "industry 4.0",
+        "iot",
+        "ai"
+      ],
+      "ja": [
+        "innovation",
+        "industry 4.0",
+        "iot",
+        "ai"
+      ]
+    },
     "start": "",
     "finish": "9/19/2024",
     "quote": null,
@@ -3810,7 +4566,28 @@
       "ja": "スピーカー"
     },
     "images": [],
-    "Product": "Research & Engineering"
+    "Product": "Research & Engineering",
+    "visible": false,
+    "content": {
+      "problem": {
+        "en": "Traditional industrial sectors in the Azuero region needed to identify concrete applications for AI and IoT to remain competitive in the digital age.",
+        "es": "Los sectores industriales tradicionales en Azuero necesitaban identificar aplicaciones concretas de IA e IoT.",
+        "zh": "阿苏埃罗地区的传统工业部门需要确定AI和IoT的具体应用,以在数字时代保持竞争力。",
+        "ja": "アズエロ地域の伝統的な産業分野は、デジタル時代に競争力を維持するために、AIとIoTの具体的な応用例を特定する必要がありました。"
+      },
+      "approach": {
+        "en": "Showcased case studies of smart sensor integration and predictive maintenance; demonstrated how disruptive tech can lower operational costs for local SMEs.",
+        "es": "Presentó estudios de caso sobre integración de sensores inteligentes y mantenimiento predictivo.",
+        "zh": "展示了智能传感器集成和预测性维护的案例研究;演示了颠覆性技术如何降低当地中小企业的运营成本。",
+        "ja": "スマートセンサーの統合と予兆保全のケーススタディを紹介。破壊的技術がいかに現地のSMEの運営コストを削減できるかを実証。"
+      },
+      "outcome": {
+        "en": "Inspired local business leaders to adopt pilot digital transformation projects; bridge the gap between academic research and industrial application.",
+        "es": "Inspiró a líderes empresariales locales; cerró la brecha entre la investigación y la aplicación industrial.",
+        "zh": "激励当地商界领袖采用数字化转型试点项目;弥合了学术研究与工业应用之间的差距。",
+        "ja": "現地のビジネスリーダーにデジタルトランスフォーメーションのパイロットプロジェクトの採用を促し、学術研究と産業応用のギャップを埋めました。"
+      }
+    }
   },
   {
     "id": 46,
@@ -3881,16 +4658,17 @@
       "zh": "报告人",
       "ja": "スピーカー"
     },
-    "profile_image": "images/tesis.jpg",
+    "profile_image": "images/thumbnails/tesis.webp",
     "images": [
-      "images/tesis1.jpg",
-      "images/tesis2.jpg",
-      "images/tesis4.jpg",
-      "images/tesis5.jpg",
-      "images/tesis6.jpg",
-      "images/tesis.jpg"
+      "images/webp/tesis1.webp",
+      "images/webp/tesis2.webp",
+      "images/webp/tesis4.webp",
+      "images/webp/tesis5.webp",
+      "images/webp/tesis6.webp",
+      "images/webp/tesis.webp"
     ],
-    "Product": "Robotics"
+    "Product": "Robotics",
+    "visible": true
   },
   {
     "id": 47,
@@ -3964,14 +4742,15 @@
       "zh": "作者",
       "ja": "作家"
     },
-    "profile_image": "images/patente.JPG",
+    "profile_image": "images/thumbnails/patente.webp",
     "images": [
-      "images/patente1.jpg",
-      "images/patente2.jpg",
-      "images/patente3.jpg",
-      "images/tablero.jpeg"
+      "images/webp/patente1.webp",
+      "images/webp/patente2.webp",
+      "images/webp/patente3.webp",
+      "images/webp/tablero.webp"
     ],
-    "Product": "Research & Engineering"
+    "Product": "Research & Engineering",
+    "visible": true
   },
   {
     "id": 48,
@@ -3981,14 +4760,44 @@
       "zh": "副总裁",
       "es": "Vice presidente"
     },
-    "summary": null,
+    "summary": {
+      "en": "Vice President of IEEE IAS Student Branch at UTP, leading industrial application focused initiatives.",
+      "es": "Vicepresidente de la rama estudiantil IEEE IAS en la UTP, liderando iniciativas industriales.",
+      "zh": "巴拿马科技大学(UTP) IEEE IAS 学生分会副主席,领导以工业应用为中心的倡议。",
+      "ja": "パナマ工科大学(UTP) IEEE IAS学生支部の副代表。産業応用を重視したイニシアチブを主導。"
+    },
     "category": {
       "en": "Professional",
       "es": "Profesional",
       "zh": "专业的",
       "ja": "プロフェッショナル"
     },
-    "tags": [],
+    "tags": {
+      "en": [
+        "leadership",
+        "ieee ias",
+        "student branch",
+        "industry 4.0"
+      ],
+      "es": [
+        "leadership",
+        "ieee ias",
+        "student branch",
+        "industry 4.0"
+      ],
+      "zh": [
+        "leadership",
+        "ieee ias",
+        "student branch",
+        "industry 4.0"
+      ],
+      "ja": [
+        "leadership",
+        "ieee ias",
+        "student branch",
+        "industry 4.0"
+      ]
+    },
     "start": "1/12/2023",
     "finish": "2/18/2025",
     "quote": null,
@@ -4013,7 +4822,28 @@
       "es": "Vice presidente"
     },
     "images": [],
-    "Product": "Research & Engineering"
+    "Product": "Research & Engineering",
+    "visible": false,
+    "content": {
+      "problem": {
+        "en": "The student branch lacked structured professional development programs that connected academic theory with industrial electrical standards.",
+        "es": "La rama estudiantil carecía de programas de desarrollo profesional que conectaran la teoría con los estándares industriales.",
+        "zh": "该学生分会缺乏将学术理论与工业电气标准联系起来的系统化职业发展项目。",
+        "ja": "学生支部には、学術理論と産業用電気規格を結びつける体系的な専門能力開発プログラムが不足していました。"
+      },
+      "approach": {
+        "en": "Organized site visits to power plants and substations; coordinated technical workshops on motor control and industrial automation for 50+ members.",
+        "es": "Organizó visitas a plantas de energía y coordinó talleres técnicos sobre control de motores.",
+        "zh": "组织了对发电厂和变电站的实地考察;为50多名会员协调了关于电机控制和工业自动化的技术工作坊。",
+        "ja": "発電所や変電所への視察を企画。50名以上の会員向けに、モータ制御と産業オートメーションに関する技術ワークショップを調整。"
+      },
+      "outcome": {
+        "en": "Strengthened the bridge between students and industry partners; improved member technical competency in practical electrical engineering applications.",
+        "es": "Fortaleció el vínculo entre estudiantes y socios industriales; mejoró la competencia técnica de los miembros.",
+        "zh": "加强了学生与行业伙伴之间的桥梁;提高了会员在实际电气工程应用中的技术能力。",
+        "ja": "学生と業界パートナーとの架け橋を強化。実践的な電気工学応用における会員の技術能力を向上。"
+      }
+    }
   },
   {
     "id": 49,
@@ -4024,10 +4854,10 @@
       "es": "Taller VLSI"
     },
     "summary": {
-      "en": "The IEEE Latin American Electron Devices Conference (LAEDC) is a premier event organized by the IEEE Electron Devices Society (EDS), aimed at bringing together industry and academic specialists in all electron device fields. The 2025 sixth edition will be held in-person and will include a strong focus on technology-driven humanitarian projects and STEM education. The conference targets students, young researchers, and practitioners, requiring authors to present in-person and engage with live questions. Accepted papers will be submitted to the IEEE Xplore Digital Library, meeting the required scope and quality standards.",
-      "es": "La Conferencia Latinoamericana de Dispositivos Electrónicos (LAEDC) de IEEE es un evento de primer nivel organizado por la Sociedad de Dispositivos Electrónicos (EDS) del IEEE, que reúne a especialistas de la industria y el ámbito académico en todos los campos de dispositivos electrónicos. La sexta edición de 2025 se realizará de manera presencial e incluirá un enfoque fuerte en proyectos humanitarios basados en tecnología y en educación STEM. La conferencia está dirigida a estudiantes, jóvenes investigadores y profesionales, requiriendo que los autores presenten en persona y respondan preguntas en tiempo real. Los trabajos aceptados se someterán a la Biblioteca Digital IEEE Xplore cumpliendo los estándares de alcance y calidad requeridos.",
-      "zh": "IEEE拉丁美洲电子器件大会(LAEDC)是IEEE电子器件协会(EDS)组织的顶级会议,旨在汇聚工业界和学术界在所有电子器件领域的专家。2025年第六届将以线下形式举办,并强调技术驱动的人道主义项目和STEM教育。会议面向学生、青年研究人员和从业人员,要求作者现场展示并回答实时问题。被接受的论文将提交至IEEE Xplore数字图书馆,符合其范围和质量要求。",
-      "ja": "IEEEラテンアメリカ電子デバイス会議(LAEDC)は、IEEE電子デバイス協会(EDS)が主催する主要なイベントで、産業界および学術界の電子デバイス分野の専門家を集めます。2025年第6回大会は対面で開催され、技術ベースの人道プロジェクトやSTEM教育に重点を置きます。会議は学生、若手研究者、実務者を対象としており、著者は現地で発表し、ライブで質問に応答する必要があります。採択論文はIEEE Xploreデジタルライブラリに提出され、範囲と品質の基準を満たす必要があります。"
+      "en": "Intensive participant in the IEEE EDS VLSI bootcamp, mastering advanced digital design and RTL verification.",
+      "es": "Participante intensivo en el bootcamp de VLSI de IEEE EDS, dominando el diseño digital avanzado.",
+      "zh": "参加了IEEE EDS举办的VLSI强化训练营,掌握了先进的数字设计和RTL验证技术。",
+      "ja": "IEEE EDS VLSIブートキャンプに参加。高度なデジタル設計とRTL検証を習得。"
     },
     "category": {
       "en": "Research",
@@ -4035,7 +4865,32 @@
       "zh": "研究",
       "ja": "研究"
     },
-    "tags": [],
+    "tags": {
+      "en": [
+        "vlsi",
+        "rtl",
+        "verification",
+        "ieee eds"
+      ],
+      "es": [
+        "vlsi",
+        "rtl",
+        "verification",
+        "ieee eds"
+      ],
+      "zh": [
+        "vlsi",
+        "rtl",
+        "verification",
+        "ieee eds"
+      ],
+      "ja": [
+        "vlsi",
+        "rtl",
+        "verification",
+        "ieee eds"
+      ]
+    },
     "start": "7/14/2023",
     "finish": "9/3/2023",
     "content": {
@@ -4080,7 +4935,8 @@
       "ja": "学生"
     },
     "images": [],
-    "Product": "Research & Engineering"
+    "Product": "Research & Engineering",
+    "visible": false
   },
   {
     "id": 50,
@@ -4091,10 +4947,10 @@
       "es": "Webinar: Seguridad y proteccion contra el arco electrico"
     },
     "summary": {
-      "en": "The IEEE Technical Society on Industrial Applications, Panama Section, invites members to an event focused on the fundamentals of Arc Flash, including its nature, risk analysis, protection strategies, and first aid. The goal is to promote safety awareness and best practices among members through expert guidance.",
-      "es": "La Sociedad Técnica de Aplicaciones Industriales, Sección Panamá del IEEE, invita a sus miembros a un evento enfocado en los fundamentos de un Arco Eléctrico, incluyendo su naturaleza, análisis de riesgos, estrategias de protección y primeros auxilios. El objetivo es promover la seguridad y las mejores prácticas entre los miembros mediante orientación experta.",
-      "zh": "IEEE巴拿马工业应用技术学会邀请会员参加关于电弧的基础知识活动,包括电弧的性质、风险分析、防护措施和急救。目的是通过专家指导提升会员的安全意识和最佳实践。",
-      "ja": "IEEEパナマ支部 工業応用技術学会は、会員を対象にアークフラッシュの基本(性質、リスク分析、保護対策、応急処置)に関するイベントに招待します。専門家の指導を通じて、安全意識とベストプラクティスを促進することを目的としています。"
+      "en": "Expert training on electric arc safety and protection, focusing on industrial electrical hazards and prevention.",
+      "es": "Capacitación experta sobre seguridad y protección contra arcos eléctricos.",
+      "zh": "关于电弧安全与防护的专家培训,专注于工业电气危害及预防。",
+      "ja": "アークフラッシュの安全と保護に関する専門トレーニング。産業用電気の危険性と予防に焦点。"
     },
     "category": {
       "en": "Professional",
@@ -4102,7 +4958,32 @@
       "zh": "专业的",
       "ja": "プロフェッショナル"
     },
-    "tags": [],
+    "tags": {
+      "en": [
+        "safety",
+        "industrial",
+        "preventive maintenance",
+        "ieee ias"
+      ],
+      "es": [
+        "safety",
+        "industrial",
+        "preventive maintenance",
+        "ieee ias"
+      ],
+      "zh": [
+        "safety",
+        "industrial",
+        "preventive maintenance",
+        "ieee ias"
+      ],
+      "ja": [
+        "safety",
+        "industrial",
+        "preventive maintenance",
+        "ieee ias"
+      ]
+    },
     "start": "",
     "finish": "1/31/2023",
     "content": {
@@ -4154,7 +5035,8 @@
       "ja": "参加者"
     },
     "images": [],
-    "Product": "Research & Engineering"
+    "Product": "Research & Engineering",
+    "visible": false
   },
   {
     "id": 51,
@@ -4164,14 +5046,44 @@
       "zh": "PCB设计与系统集成工作坊",
       "es": "Taller en integracion y diseño de PCB"
     },
-    "summary": null,
+    "summary": {
+      "en": "Hands-on workshop on multi-layer PCB design and manufacturing for high-speed signal integrity.",
+      "es": "Taller práctico sobre diseño y fabricación de PCB multicapa.",
+      "zh": "关于高速信号完整性的多层PCB设计与制造实践工作坊。",
+      "ja": "高速信号の整合性を確保するための多層PCB設計と製造に関する実践ワークショップ。"
+    },
     "category": {
       "en": "Professional",
       "es": "Profesional",
       "zh": "专业的",
       "ja": "プロフェッショナル"
     },
-    "tags": [],
+    "tags": {
+      "en": [
+        "pcb design",
+        "altium",
+        "hardware",
+        "engineering"
+      ],
+      "es": [
+        "pcb design",
+        "altium",
+        "hardware",
+        "engineering"
+      ],
+      "zh": [
+        "pcb design",
+        "altium",
+        "hardware",
+        "engineering"
+      ],
+      "ja": [
+        "pcb design",
+        "altium",
+        "hardware",
+        "engineering"
+      ]
+    },
     "start": "10/16/2019",
     "finish": "10/18/2019",
     "quote": null,
@@ -4202,7 +5114,28 @@
       "images/PCB3.JPG",
       "images/PCB4.JPG"
     ],
-    "Product": "Research & Engineering"
+    "Product": "Research & Engineering",
+    "visible": false,
+    "content": {
+      "problem": {
+        "en": "Junior engineers often struggle with high-speed signal integrity and electromagnetic interference in multi-layer PCB designs.",
+        "es": "Los ingenieros principiantes a menudo tienen dificultades con la integridad de la señal en diseños de PCB multicapa.",
+        "zh": "初级工程师在多层PCB设计中往往难以处理高速信号完整性和电磁干扰问题。",
+        "ja": "若手エンジニアは、多層PCB設計における高速信号の整合性や電磁干渉に苦労することがよくあります。"
+      },
+      "approach": {
+        "en": "Led practical sessions using Altium Designer; focused on layer stack-up optimization, impedance matching, and decoupling strategies.",
+        "es": "Dirigió sesiones prácticas con Altium Designer; enfocado en la optimización del stack-up de capas.",
+        "zh": "带领使用Altium Designer的实践课程;专注于层堆叠优化、阻抗匹配和去耦策略。",
+        "ja": "Altium Designerを使用した実践セッションを担当。レイヤースタックアップの最適化、インピーダンスマッチング、デカップリング戦略に焦点。"
+      },
+      "outcome": {
+        "en": "Participants successfully designed and routed a functional 4-layer microcontroller board; validated signal integrity through simulation.",
+        "es": "Los participantes diseñaron una placa de microcontrolador de 4 capas funcional; validaron la integridad de la señal.",
+        "zh": "参与者成功设计并布线了一块功能性的4层微控制器板;通过仿真验证了信号完整性。",
+        "ja": "参加者が4層のマイクロコントローラ基板を正常に設計・配線。シミュレーションにより信号整合性を検証。"
+      }
+    }
   },
   {
     "id": 52,
@@ -4213,10 +5146,10 @@
       "es": "Campamento Tecnológico para Jóvenes en STEM"
     },
     "summary": {
-      "en": "Our Technological Camp for Teenagers in STEM equips young learners with foundational skills in programming and circuitry, using real-world tools in sensors and instrumentation. Designed to promote inclusion and gender equality, the program opens doors to electrical Engineering pathways. 80% of Students enrolled in electrical-related careers afterward.",
-      "zh": "我们的青少年STEM科技营旨在通过传感器和仪器等实际工具,为年轻的学习者提供编程和电路方面的基础技能。该项目旨在促进包容性和性别平等,并为学生开启通往电气工程领域的大门。80%的学生在项目结束后从事了与电气相关的职业",
-      "ja": "STEM分野のティーンエイジャー向けテクノロジーキャンプでは、センサーや計測機器といった実社会で使われるツールを用いて、プログラミングと回路の基礎スキルを若い学習者に身につけさせます。インクルージョンとジェンダー平等を促進することを目的としたこのプログラムは、電気工学分野への道を開きます。その効果は明からで、受講生の80%がその後、電気関連の職業に就いています",
-      "es": "Nuestro Campamento Tecnológico para Adolescentes en STEM proporciona a los jóvenes Estudiantes habilidades fundamentales en programación y circuitos, utilizando herramientas prácticas en sensores e instrumentación. Diseñado para promover la inclusión y la igualdad de género, el programa abre las puertas a carreras de ingeniería eléctrica. 80 % de los Estudiantes se matricularon posteriormente en carreras relacionadas con la electricidad."
+      "en": "Pioneered the STEM Technology Camp pilot at UTP's main campus, introducing girls to basic electronics and coding.",
+      "es": "Pionero del campamento tecnológico STEM en el campus principal de la UTP, introduciendo a niñas a la electrónica básica.",
+      "zh": "在巴拿马科技大学(UTP)主校区发起了STEM科技营试点项目,向女孩介绍基础电子学和编程。",
+      "ja": "UTPメインキャンパスでSTEMテクノロジーキャンプのパイロットプログラムを先導し、女子学生に基礎電子工学とコーディングを紹介。"
     },
     "category": {
       "en": "Academic",
@@ -4226,42 +5159,50 @@
     },
     "tags": {
       "en": [
-        "<strong>📟 Sensors & Instrumentation</strong>",
-        "<strong>🎓 Education Technology</strong>"
+        "stem",
+        "education",
+        "python",
+        "esp32"
       ],
       "es": [
-        "<strong>📟 Sensors & Instrumentation</strong>",
-        "<strong>🎓 Education Technology</strong>"
+        "stem",
+        "education",
+        "python",
+        "esp32"
       ],
       "zh": [
-        "<strong>📟 传感器与仪器仪表</strong>",
-        "<strong>🎓 教育科技</strong>"
+        "stem",
+        "education",
+        "python",
+        "esp32"
       ],
       "ja": [
-        "<strong>📟 センサーと計測機器</strong>",
-        "<strong>🎓 教育テクノロジー</strong>"
+        "stem",
+        "education",
+        "python",
+        "esp32"
       ]
     },
     "start": null,
     "finish": "5/22/2022",
     "content": {
       "problem": {
-        "en": "Since the 2020 pandemic, enrollment in the Technological University of Panama (UTP) electrical Engineering faculty has declined at an alarming rate. Internal studies revealed that many new Students struggle with mathematical reasoning and programming, mainly due to poor school preparation and limited exposure to technical tools. <br><br> Additionally, female representation in these careers remains significantly lower than male participation. To address these barriers, the university created <em>Technology Camp for Young People in STEM</em>, a program designed to strengthen math and programming skills for female high-school Students and inspire them to consider careers in electrical Engineering",
-        "zh": "自2020年新冠疫情爆发以来,巴拿马科技大学(UTP) 电气工程专业的入学人数以惊人的速度下降。内部调查显示,许多新生在数学推理和编程方面存在困难,这主要是由于学校教育不足以及接触技术工具的机会有限。<br><br>此外,从事这些职业的女性比例仍然远低于男性。为了克服这些障碍,该大学设立了<em>面向青少年STEM领域科技营</em>,旨在加强高中女生的数学和编程技能,并鼓励她们考虑从事电气工程相关职业",
-        "ja": "2020年のパンデミック以降、パナマ工科大学(UTP) の電気工学部の入学者数は驚くべき速さで減少しています。内部調査によると、多くの新入生が数学的推論やプログラミングに苦労していることが明らかになりました。これは主に、学校での準備不足と技術ツールへの露出不足が原因です。<br><br>さらに、これらの職業における女性の比率は、男性に比べて依然として大幅に低いままです。こうした障壁に対処するため、大学はSTEM分野の若者のためのテクノロジーキャンプを創設しました。これは、女子高校生の数学とプログラミングスキルを強化し、電気工学分野でのキャリアを検討するよう促すプログラムです",
-        "es": "Desde la pandemia de 2020, la matrícula en la facultad de ingeniería eléctrica de la Universidad Tecnológica de Panamá (UTP) ha disminuido a un ritmo alarmante. Estudios internos revelaron que muchos Estudiantes nuevos tienen dificultades con el razonamiento matemático y la programación, principalmente debido a la escasa preparación académica y la limitada exposición a herramientas técnicas. <br><br>Además, la representación femenina en estas carreras sigue siendo significativamente menor que la masculina. Para abordar estas barreras, la universidad creó el <em>Campamento Tecnológico para Jóvenes en STEM</em>, un programa diseñado para fortalecer las habilidades matemáticas y de programación de las Estudiantes de secundaria e inspirarlas a considerar carreras en ingeniería eléctrica>"
+        "en": "Since the 2020 pandemic, enrollment in the Technological University of Panama (UTP) electrical Engineering faculty has declined at an alarming rate. Internal studies revealed that many new Students struggle with mathematical reasoning and programming, mainly due to poor school preparation and limited exposure to technical tools.  Additionally, female representation in these careers remains significantly lower than male participation. To address these barriers, the university created Technology Camp for Young People in STEM, a program designed to strengthen math and programming skills for female high-school Students and inspire them to consider careers in electrical Engineering",
+        "zh": "自2020年新冠疫情爆发以来,巴拿马科技大学(UTP) 电气工程专业的入学人数以惊人的速度下降。内部调查显示,许多新生在数学推理和编程方面存在困难,这主要是由于学校教育不足以及接触技术工具的机会有限。此外,从事这些职业的女性比例仍然远低于男性。为了克服这些障碍,该大学设立了面向青少年STEM领域科技营,旨在加强高中女生的数学和编程技能,并鼓励她们考虑从事电气工程相关职业",
+        "ja": "2020年のパンデミック以降、パナマ工科大学(UTP) の電気工学部の入学者数は驚くべき速さで減少しています。内部調査によると、多くの新入生が数学的推論やプログラミングに苦労していることが明らかになりました。これは主に、学校での準備不足と技術ツールへの露出不足が原因です。さらに、これらの職業における女性の比率は、男性に比べて依然として大幅に低いままです。こうした障壁に対処するため、大学はSTEM分野の若者のためのテクノロジーキャンプを創設しました。これは、女子高校生の数学とプログラミングスキルを強化し、電気工学分野でのキャリアを検討するよう促すプログラムです",
+        "es": "Desde la pandemia de 2020, la matrícula en la facultad de ingeniería eléctrica de la Universidad Tecnológica de Panamá (UTP) ha disminuido a un ritmo alarmante. Estudios internos revelaron que muchos Estudiantes nuevos tienen dificultades con el razonamiento matemático y la programación, principalmente debido a la escasa preparación académica y la limitada exposición a herramientas técnicas. Además, la representación femenina en estas carreras sigue siendo significativamente menor que la masculina. Para abordar estas barreras, la universidad creó el Campamento Tecnológico para Jóvenes en STEM, un programa diseñado para fortalecer las habilidades matemáticas y de programación de las Estudiantes de secundaria e inspirarlas a considerar carreras en ingeniería eléctrica>"
       },
       "approach": {
-        "en": "I designed and led the programming and hardware workshops. To ensure accessibility and hands-on learning, I chose an open-source and practical toolset: <ul> <li><strong>Python</strong> for its simplicity and versatility</li> <li><strong>ESP32 microcontrollers</strong> for hardware, wireless communication, and digital electronics</li> <li><strong>MicroPython + VS Code</strong> for a unified programming and testing workflow</li> </ul> <p>Students built small interactive systems, connected sensors, and wrote their first Python scripts. The focus was on learning through experimentation and making abstract concepts tangible. </p>",
-        "es": "Diseñé y dirigí los talleres de programación y hardware. Para garantizar la accesibilidad y el aprendizaje práctico, elegí un conjunto de herramientas prácticas y de código abierto:　<ul> <li><strong>Python</strong> por su simplicidad y versatilidad</li> <li><strong>Microcontroladores ESP32</strong> para hardware, comunicación inalámbrica y electrónica digital</li> <li><strong>MicroPython + VS Code</strong> para un flujo de trabajo unificado de programación y pruebas</li> </ul> <p> Los Estudiantes construyeron pequeños sistemas interactivos, conectaron sensores y escribieron sus primeros scripts en Python. El enfoque se centró en el aprendizaje mediante la experimentación y la materialización de conceptos abstractos. </p>",
-        "zh": "我设计并带领了编程和硬件工作坊。为了确保学习的可及性和实践性,我选择了一套开源且实用的工具集:<ul> <li><strong>Python</strong>,因为它简单易用且功能多样</li> <li><strong>ESP32 微控制器</strong>,用于硬件、无线通信和数字电子领域</li> <li><strong>MicroPython + VS Code</strong>,用于实现统一的编程和测试工作流程</li> </ul> <p>学生们搭建了小型交互式系统,连接了传感器,并编写了他们的第一个 Python 脚本。重点在于通过实验进行学习,并将抽象概念具象化。</p>",
-        "ja": "プログラミングとハードウェアのワークショップを企画・実施しました。アクセシビリティと実践的な学習環境を確保するため、オープンソースで実用的なツールセットを選択しました。<ul> <li><strong>Python</strong> はシンプルさと汎用性を重視しました</li> <li><strong>ESP32 マイクロコントローラー</strong> はハードウェア、無線通信、デジタルエレクトロニクスに使用しました</li> <li><strong>MicroPython + VS Code</strong> はプログラミングとテストのワークフローを統一しました</li> </ul> <p> 生徒たちは小さなインタラクティブシステムを構築し、センサーを接続し、初めての Python スクリプトを作成しました。実験を通して学び、抽象的な概念を具体的なものにすることに重点が置かれました。</p>"
+        "en": "I designed and led the programming and hardware workshops. To ensure accessibility and hands-on learning, I chose an open-source and practical toolset:  Python for its simplicity and versatility ESP32 microcontrollers for hardware, wireless communication, and digital electronics MicroPython + VS Code for a unified programming and testing workflow  Students built small interactive systems, connected sensors, and wrote their first Python scripts. The focus was on learning through experimentation and making abstract concepts tangible.",
+        "es": "Diseñé y dirigí los talleres de programación y hardware. Para garantizar la accesibilidad y el aprendizaje práctico, elegí un conjunto de herramientas prácticas y de código abierto:　 Python por su simplicidad y versatilidad Microcontroladores ESP32 para hardware, comunicación inalámbrica y electrónica digital MicroPython + VS Code para un flujo de trabajo unificado de programación y pruebas   Los Estudiantes construyeron pequeños sistemas interactivos, conectaron sensores y escribieron sus primeros scripts en Python. El enfoque se centró en el aprendizaje mediante la experimentación y la materialización de conceptos abstractos.",
+        "zh": "我设计并带领了编程和硬件工作坊。为了确保学习的可及性和实践性,我选择了一套开源且实用的工具集: Python,因为它简单易用且功能多样 ESP32 微控制器,用于硬件、无线通信和数字电子领域 MicroPython + VS Code,用于实现统一的编程和测试工作流程  学生们搭建了小型交互式系统,连接了传感器,并编写了他们的第一个 Python 脚本。重点在于通过实验进行学习,并将抽象概念具象化。",
+        "ja": "プログラミングとハードウェアのワークショップを企画・実施しました。アクセシビリティと実践的な学習環境を確保するため、オープンソースで実用的なツールセットを選択しました。 Python はシンプルさと汎用性を重視しました ESP32 マイクロコントローラー はハードウェア、無線通信、デジタルエレクトロニクスに使用しました MicroPython + VS Code はプログラミングとテストのワークフローを統一しました   生徒たちは小さなインタラクティブシステムを構築し、センサーを接続し、初めての Python スクリプトを作成しました。実験を通して学び、抽象的な概念を具体的なものにすることに重点が置かれました。"
       },
       "outcome": {
-        "en": "The results were remarkable. Out of the original <strong>15 Participants 12 were enrolled into the electrical Engineering faculty</strong> and selected Engineering as their chosen field of study. <br><br> The success of the camp attracted interest from private equity groups, who later in 2023 and 2024 expanded and replicated the program across the country—reaching a much wider audience and continuing to promote STEM careers among young women.",
-        "zh": "结果令人瞩目。最初的15名参与者中,有12人被电气工程学院录取,并选择工程学作为他们的专业方向。<br><br>夏令营的成功吸引了私募股权集团的关注,他们在2023年和2024年将该项目推广到全国各地,覆盖了更广泛的受众,并持续鼓励年轻女性投身STEM(科学、技术、工程和数学)领域。",
-        "ja": "結果は目覚ましいものでした。当初の<strong>参加者15名のうち、12名が電気工学部に入学</strong>し、工学を専攻分野として選択しました。<br><br> このキャンプの成功はプライベートエクイティグループの関心を集め、その後2023年と2024年にはプログラムを全国に拡大・再現しました。これにより、より幅広い対象者にリーチし、若い女性のSTEMキャリアの促進を継続しています。",
-        "es": "Los resultados fueron extraordinarios. De las <strong>15 Participantes originales, 12 se matricularon en carreras de la facultad de ingeniería eléctrica</strong> y eligieron la ingeniería como su campo de estudio. <br><br> El éxito del campamento atrajo el interés de grupos de capital privado, quienes en 2023 y 2024 posteriormente expandieron y replicaron el programa en todo el país, llegando a un público mucho más amplio y promoviendo las carreras STEM entre las jóvenes."
+        "en": "The results were remarkable. Out of the original 15 Participants 12 were enrolled into the electrical Engineering faculty and selected Engineering as their chosen field of study.  The success of the camp attracted interest from private equity groups, who later in 2023 and 2024 expanded and replicated the program across the country—reaching a much wider audience and continuing to promote STEM careers among young women.",
+        "zh": "结果令人瞩目。最初的15名参与者中,有12人被电气工程学院录取,并选择工程学作为他们的专业方向。夏令营的成功吸引了私募股权集团的关注,他们在2023年和2024年将该项目推广到全国各地,覆盖了更广泛的受众,并持续鼓励年轻女性投身STEM(科学、技术、工程和数学)领域。",
+        "ja": "結果は目覚ましいものでした。当初の参加者15名のうち、12名が電気工学部に入学し、工学を専攻分野として選択しました。 このキャンプの成功はプライベートエクイティグループの関心を集め、その後2023年と2024年にはプログラムを全国に拡大・再現しました。これにより、より幅広い対象者にリーチし、若い女性のSTEMキャリアの促進を継続しています。",
+        "es": "Los resultados fueron extraordinarios. De las 15 Participantes originales, 12 se matricularon en carreras de la facultad de ingeniería eléctrica y eligieron la ingeniería como su campo de estudio.  El éxito del campamento atrajo el interés de grupos de capital privado, quienes en 2023 y 2024 posteriormente expandieron y replicaron el programa en todo el país, llegando a un público mucho más amplio y promoviendo las carreras STEM entre las jóvenes."
       }
     },
     "quote": {
@@ -4313,7 +5254,8 @@
       "ja": "インストラクター",
       "zh": "讲师"
     },
-    "images": []
+    "images": [],
+    "visible": false
   },
   {
     "id": 53,
@@ -4324,10 +5266,10 @@
       "es": "Campamento Tecnológico para Jóvenes en STEM"
     },
     "summary": {
-      "en": "Our Technological Camp for Teenagers in STEM equips young learners with foundational skills in programming and circuitry, using real-world tools in sensors and instrumentation. Designed to promote inclusion and gender equality, the program opens doors to electrical Engineering pathways. 80% of Students enrolled in electrical-related careers afterward.",
-      "zh": "我们的青少年STEM科技营旨在通过传感器和仪器等实际工具,为年轻的学习者提供编程和电路方面的基础技能。该项目旨在促进包容性和性别平等,并为学生开启通往电气工程领域的大门。80%的学生在项目结束后从事了与电气相关的职业",
-      "ja": "STEM分野のティーンエイジャー向けテクノロジーキャンプでは、センサーや計測機器といった実社会で使われるツールを用いて、プログラミングと回路の基礎スキルを若い学習者に身につけさせます。インクルージョンとジェンダー平等を促進することを目的としたこのプログラムは、電気工学分野への道を開きます。その効果は明からで、受講生の80%がその後、電気関連の職業に就いています",
-      "es": "Nuestro Campamento Tecnológico para Adolescentes en STEM proporciona a los jóvenes Estudiantes habilidades fundamentales en programación y circuitos, utilizando herramientas prácticas en sensores e instrumentación. Diseñado para promover la inclusión y la igualdad de género, el programa abre las puertas a carreras de ingeniería eléctrica. 80 % de los Estudiantes se matricularon posteriormente en carreras relacionadas con la electricidad."
+      "en": "Delivered advanced IoT and robotics modules in Chiriqui, focusing on cloud integration and autonomous systems.",
+      "es": "Impartió módulos avanzados de IoT y robótica en Chiriquí, enfocándose en integración en la nube.",
+      "zh": "在奇里基教授了先进的物联网和机器人模块,专注于云集成和自主系统。",
+      "ja": "チリキで高度なIoTおよびロボティクスモジュールを実施。クラウド統合と自律システムに焦点を当てる。"
     },
     "category": {
       "en": "Academic",
@@ -4337,42 +5279,50 @@
     },
     "tags": {
       "en": [
-        "<strong>📟 Sensors & Instrumentation</strong>",
-        "<strong>🎓 Education Technology</strong>"
+        "iot",
+        "robotics",
+        "automation",
+        "advanced stem"
       ],
       "es": [
-        "<strong>📟 Sensors & Instrumentation</strong>",
-        "<strong>🎓 Education Technology</strong>"
+        "iot",
+        "robotics",
+        "automation",
+        "advanced stem"
       ],
       "zh": [
-        "<strong>📟 传感器与仪器仪表</strong>",
-        "<strong>🎓 教育科技</strong>"
+        "iot",
+        "robotics",
+        "automation",
+        "advanced stem"
       ],
       "ja": [
-        "<strong>📟 センサーと計測機器</strong>",
-        "<strong>🎓 教育テクノロジー</strong>"
+        "iot",
+        "robotics",
+        "automation",
+        "advanced stem"
       ]
     },
     "start": null,
     "finish": "5/22/2024",
     "content": {
       "problem": {
-        "en": "Since the 2020 pandemic, enrollment in the Technological University of Panama (UTP) electrical Engineering faculty has declined at an alarming rate. Internal studies revealed that many new Students struggle with mathematical reasoning and programming, mainly due to poor school preparation and limited exposure to technical tools. <br><br> Additionally, female representation in these careers remains significantly lower than male participation. To address these barriers, the university created <em>Technology Camp for Young People in STEM</em>, a program designed to strengthen math and programming skills for female high-school Students and inspire them to consider careers in electrical Engineering",
-        "zh": "自2020年新冠疫情爆发以来,巴拿马科技大学(UTP) 电气工程专业的入学人数以惊人的速度下降。内部调查显示,许多新生在数学推理和编程方面存在困难,这主要是由于学校教育不足以及接触技术工具的机会有限。<br><br>此外,从事这些职业的女性比例仍然远低于男性。为了克服这些障碍,该大学设立了<em>面向青少年STEM领域科技营</em>,旨在加强高中女生的数学和编程技能,并鼓励她们考虑从事电气工程相关职业",
-        "ja": "2020年のパンデミック以降、パナマ工科大学(UTP) の電気工学部の入学者数は驚くべき速さで減少しています。内部調査によると、多くの新入生が数学的推論やプログラミングに苦労していることが明らかになりました。これは主に、学校での準備不足と技術ツールへの露出不足が原因です。<br><br>さらに、これらの職業における女性の比率は、男性に比べて依然として大幅に低いままです。こうした障壁に対処するため、大学はSTEM分野の若者のためのテクノロジーキャンプを創設しました。これは、女子高校生の数学とプログラミングスキルを強化し、電気工学分野でのキャリアを検討するよう促すプログラムです",
-        "es": "Desde la pandemia de 2020, la matrícula en la facultad de ingeniería eléctrica de la Universidad Tecnológica de Panamá (UTP) ha disminuido a un ritmo alarmante. Estudios internos revelaron que muchos Estudiantes nuevos tienen dificultades con el razonamiento matemático y la programación, principalmente debido a la escasa preparación académica y la limitada exposición a herramientas técnicas. <br><br>Además, la representación femenina en estas carreras sigue siendo significativamente menor que la masculina. Para abordar estas barreras, la universidad creó el <em>Campamento Tecnológico para Jóvenes en STEM</em>, un programa diseñado para fortalecer las habilidades matemáticas y de programación de las Estudiantes de secundaria e inspirarlas a considerar carreras en ingeniería eléctrica>"
+        "en": "Since the 2020 pandemic, enrollment in the Technological University of Panama (UTP) electrical Engineering faculty has declined at an alarming rate. Internal studies revealed that many new Students struggle with mathematical reasoning and programming, mainly due to poor school preparation and limited exposure to technical tools.  Additionally, female representation in these careers remains significantly lower than male participation. To address these barriers, the university created Technology Camp for Young People in STEM, a program designed to strengthen math and programming skills for female high-school Students and inspire them to consider careers in electrical Engineering",
+        "zh": "自2020年新冠疫情爆发以来,巴拿马科技大学(UTP) 电气工程专业的入学人数以惊人的速度下降。内部调查显示,许多新生在数学推理和编程方面存在困难,这主要是由于学校教育不足以及接触技术工具的机会有限。此外,从事这些职业的女性比例仍然远低于男性。为了克服这些障碍,该大学设立了面向青少年STEM领域科技营,旨在加强高中女生的数学和编程技能,并鼓励她们考虑从事电气工程相关职业",
+        "ja": "2020年のパンデミック以降、パナマ工科大学(UTP) の電気工学部の入学者数は驚くべき速さで減少しています。内部調査によると、多くの新入生が数学的推論やプログラミングに苦労していることが明らかになりました。これは主に、学校での準備不足と技術ツールへの露出不足が原因です。さらに、これらの職業における女性の比率は、男性に比べて依然として大幅に低いままです。こうした障壁に対処するため、大学はSTEM分野の若者のためのテクノロジーキャンプを創設しました。これは、女子高校生の数学とプログラミングスキルを強化し、電気工学分野でのキャリアを検討するよう促すプログラムです",
+        "es": "Desde la pandemia de 2020, la matrícula en la facultad de ingeniería eléctrica de la Universidad Tecnológica de Panamá (UTP) ha disminuido a un ritmo alarmante. Estudios internos revelaron que muchos Estudiantes nuevos tienen dificultades con el razonamiento matemático y la programación, principalmente debido a la escasa preparación académica y la limitada exposición a herramientas técnicas. Además, la representación femenina en estas carreras sigue siendo significativamente menor que la masculina. Para abordar estas barreras, la universidad creó el Campamento Tecnológico para Jóvenes en STEM, un programa diseñado para fortalecer las habilidades matemáticas y de programación de las Estudiantes de secundaria e inspirarlas a considerar carreras en ingeniería eléctrica>"
       },
       "approach": {
-        "en": "I designed and led the programming and hardware workshops. To ensure accessibility and hands-on learning, I chose an open-source and practical toolset: <ul> <li><strong>Python</strong> for its simplicity and versatility</li> <li><strong>ESP32 microcontrollers</strong> for hardware, wireless communication, and digital electronics</li> <li><strong>MicroPython + VS Code</strong> for a unified programming and testing workflow</li> </ul> <p>Students built small interactive systems, connected sensors, and wrote their first Python scripts. The focus was on learning through experimentation and making abstract concepts tangible. </p>",
-        "es": "Diseñé y dirigí los talleres de programación y hardware. Para garantizar la accesibilidad y el aprendizaje práctico, elegí un conjunto de herramientas prácticas y de código abierto:　<ul> <li><strong>Python</strong> por su simplicidad y versatilidad</li> <li><strong>Microcontroladores ESP32</strong> para hardware, comunicación inalámbrica y electrónica digital</li> <li><strong>MicroPython + VS Code</strong> para un flujo de trabajo unificado de programación y pruebas</li> </ul> <p> Los Estudiantes construyeron pequeños sistemas interactivos, conectaron sensores y escribieron sus primeros scripts en Python. El enfoque se centró en el aprendizaje mediante la experimentación y la materialización de conceptos abstractos. </p>",
-        "zh": "我设计并带领了编程和硬件工作坊。为了确保学习的可及性和实践性,我选择了一套开源且实用的工具集:<ul> <li><strong>Python</strong>,因为它简单易用且功能多样</li> <li><strong>ESP32 微控制器</strong>,用于硬件、无线通信和数字电子领域</li> <li><strong>MicroPython + VS Code</strong>,用于实现统一的编程和测试工作流程</li> </ul> <p>学生们搭建了小型交互式系统,连接了传感器,并编写了他们的第一个 Python 脚本。重点在于通过实验进行学习,并将抽象概念具象化。</p>",
-        "ja": "プログラミングとハードウェアのワークショップを企画・実施しました。アクセシビリティと実践的な学習環境を確保するため、オープンソースで実用的なツールセットを選択しました。<ul> <li><strong>Python</strong> はシンプルさと汎用性を重視しました</li> <li><strong>ESP32 マイクロコントローラー</strong> はハードウェア、無線通信、デジタルエレクトロニクスに使用しました</li> <li><strong>MicroPython + VS Code</strong> はプログラミングとテストのワークフローを統一しました</li> </ul> <p> 生徒たちは小さなインタラクティブシステムを構築し、センサーを接続し、初めての Python スクリプトを作成しました。実験を通して学び、抽象的な概念を具体的なものにすることに重点が置かれました。</p>"
+        "en": "I designed and led the programming and hardware workshops. To ensure accessibility and hands-on learning, I chose an open-source and practical toolset:  Python for its simplicity and versatility ESP32 microcontrollers for hardware, wireless communication, and digital electronics MicroPython + VS Code for a unified programming and testing workflow  Students built small interactive systems, connected sensors, and wrote their first Python scripts. The focus was on learning through experimentation and making abstract concepts tangible.",
+        "es": "Diseñé y dirigí los talleres de programación y hardware. Para garantizar la accesibilidad y el aprendizaje práctico, elegí un conjunto de herramientas prácticas y de código abierto:　 Python por su simplicidad y versatilidad Microcontroladores ESP32 para hardware, comunicación inalámbrica y electrónica digital MicroPython + VS Code para un flujo de trabajo unificado de programación y pruebas   Los Estudiantes construyeron pequeños sistemas interactivos, conectaron sensores y escribieron sus primeros scripts en Python. El enfoque se centró en el aprendizaje mediante la experimentación y la materialización de conceptos abstractos.",
+        "zh": "我设计并带领了编程和硬件工作坊。为了确保学习的可及性和实践性,我选择了一套开源且实用的工具集: Python,因为它简单易用且功能多样 ESP32 微控制器,用于硬件、无线通信和数字电子领域 MicroPython + VS Code,用于实现统一的编程和测试工作流程  学生们搭建了小型交互式系统,连接了传感器,并编写了他们的第一个 Python 脚本。重点在于通过实验进行学习,并将抽象概念具象化。",
+        "ja": "プログラミングとハードウェアのワークショップを企画・実施しました。アクセシビリティと実践的な学習環境を確保するため、オープンソースで実用的なツールセットを選択しました。 Python はシンプルさと汎用性を重視しました ESP32 マイクロコントローラー はハードウェア、無線通信、デジタルエレクトロニクスに使用しました MicroPython + VS Code はプログラミングとテストのワークフローを統一しました   生徒たちは小さなインタラクティブシステムを構築し、センサーを接続し、初めての Python スクリプトを作成しました。実験を通して学び、抽象的な概念を具体的なものにすることに重点が置かれました。"
       },
       "outcome": {
-        "en": "The results were remarkable. Out of the original <strong>15 Participants 12 were enrolled into the electrical Engineering faculty</strong> and selected Engineering as their chosen field of study. <br><br> The success of the camp attracted interest from private equity groups, who later in 2023 and 2024 expanded and replicated the program across the country—reaching a much wider audience and continuing to promote STEM careers among young women.",
-        "zh": "结果令人瞩目。最初的15名参与者中,有12人被电气工程学院录取,并选择工程学作为他们的专业方向。<br><br>夏令营的成功吸引了私募股权集团的关注,他们在2023年和2024年将该项目推广到全国各地,覆盖了更广泛的受众,并持续鼓励年轻女性投身STEM(科学、技术、工程和数学)领域。",
-        "ja": "結果は目覚ましいものでした。当初の<strong>参加者15名のうち、12名が電気工学部に入学</strong>し、工学を専攻分野として選択しました。<br><br> このキャンプの成功はプライベートエクイティグループの関心を集め、その後2023年と2024年にはプログラムを全国に拡大・再現しました。これにより、より幅広い対象者にリーチし、若い女性のSTEMキャリアの促進を継続しています。",
-        "es": "Los resultados fueron extraordinarios. De las <strong>15 Participantes originales, 12 se matricularon en carreras de la facultad de ingeniería eléctrica</strong> y eligieron la ingeniería como su campo de estudio. <br><br> El éxito del campamento atrajo el interés de grupos de capital privado, quienes en 2023 y 2024 posteriormente expandieron y replicaron el programa en todo el país, llegando a un público mucho más amplio y promoviendo las carreras STEM entre las jóvenes."
+        "en": "The results were remarkable. Out of the original 15 Participants 12 were enrolled into the electrical Engineering faculty and selected Engineering as their chosen field of study.  The success of the camp attracted interest from private equity groups, who later in 2023 and 2024 expanded and replicated the program across the country—reaching a much wider audience and continuing to promote STEM careers among young women.",
+        "zh": "结果令人瞩目。最初的15名参与者中,有12人被电气工程学院录取,并选择工程学作为他们的专业方向。夏令营的成功吸引了私募股权集团的关注,他们在2023年和2024年将该项目推广到全国各地,覆盖了更广泛的受众,并持续鼓励年轻女性投身STEM(科学、技术、工程和数学)领域。",
+        "ja": "結果は目覚ましいものでした。当初の参加者15名のうち、12名が電気工学部に入学し、工学を専攻分野として選択しました。 このキャンプの成功はプライベートエクイティグループの関心を集め、その後2023年と2024年にはプログラムを全国に拡大・再現しました。これにより、より幅広い対象者にリーチし、若い女性のSTEMキャリアの促進を継続しています。",
+        "es": "Los resultados fueron extraordinarios. De las 15 Participantes originales, 12 se matricularon en carreras de la facultad de ingeniería eléctrica y eligieron la ingeniería como su campo de estudio.  El éxito del campamento atrajo el interés de grupos de capital privado, quienes en 2023 y 2024 posteriormente expandieron y replicaron el programa en todo el país, llegando a un público mucho más amplio y promoviendo las carreras STEM entre las jóvenes."
       }
     },
     "quote": {
@@ -4437,7 +5387,8 @@
       "images/STEM2024_9.jpg",
       "images/STEM2024_10.jpg",
       "images/STEM2024_11.jpg"
-    ]
+    ],
+    "visible": false
   },
   {
     "id": 55,
@@ -4480,14 +5431,14 @@
       "zh": "参与者",
       "ja": "参加者"
     },
-    "profile_image": "images/analog.png",
+    "profile_image": "images/thumbnails/analog.webp",
     "images": [
-      "images/analog_1.png",
-      "images/analog_2.png",
-      "images/analog_3.png",
-      "images/analog_4.png",
-      "images/analog_5.png",
-      "images/analog_6.png"
+      "images/webp/analog_1.webp",
+      "images/webp/analog_2.webp",
+      "images/webp/analog_3.webp",
+      "images/webp/analog_4.webp",
+      "images/webp/analog_5.webp",
+      "images/webp/analog_6.webp"
     ],
     "content": {
       "problem": {
@@ -4516,7 +5467,8 @@
       "ja": "信頼できるASICの専門知識でチップ開発を加速—時間を節約し、コストを削減し、初回成功を実現。"
     },
     "links": "",
-    "collaborators": []
+    "collaborators": [],
+    "visible": true
   },
   {
     "id": 57,
@@ -4568,12 +5520,13 @@
       "zh": "参与者",
       "ja": "参加者"
     },
-    "profile_image": "images/spaceselfie.jpg",
+    "profile_image": "images/thumbnails/spaceselfie.webp",
     "images": [
-      "images/spaceselfie.jpg",
-      "images/spaceselfie1.jpg"
+      "images/webp/spaceselfie.webp",
+      "images/webp/spaceselfie1.webp"
     ],
-    "Product": "Research & Engineering"
+    "Product": "Research & Engineering",
+    "visible": true
   },
   {
     "id": 58,
@@ -4632,13 +5585,14 @@
       "zh": "参与者",
       "ja": "参加者"
     },
-    "profile_image": "images/LSI_セミ1.jpg",
+    "profile_image": "images/thumbnails/LSI_セミ1.webp",
     "images": [
-      "images/LSI_セミ1.jpg",
-      "images/LSI_セミ2.jpg",
-      "images/LSI_セミ3.jpg"
+      "images/webp/LSI_セミ1.webp",
+      "images/webp/LSI_セミ2.webp",
+      "images/webp/LSI_セミ3.webp"
     ],
-    "Product": "Research & Engineering"
+    "Product": "Research & Engineering",
+    "visible": true
   },
   {
     "id": 59,
@@ -4736,14 +5690,15 @@
       "zh": "全栈开发工程师",
       "ja": "フルスタック開発者"
     },
-    "profile_image": "images/junko-san_massage4.png",
+    "profile_image": "images/thumbnails/junko-san_massage4.webp",
     "images": [
-      "images/junko-san_massage1.png",
-      "images/junko-san_massage2.png",
-      "images/junko-san_massage3.png",
-      "images/junko-san_massage4.png"
+      "images/webp/junko-san_massage1.webp",
+      "images/webp/junko-san_massage2.webp",
+      "images/webp/junko-san_massage3.webp",
+      "images/webp/junko-san_massage4.webp"
     ],
-    "Product": "Programming"
+    "Product": "Programming",
+    "visible": true
   },
   {
     "id": 60,
@@ -4754,10 +5709,10 @@
       "es": "Estudiante de Maestría"
     },
     "summary": {
-      "en": "After IC design, testing becomes the critical gatekeeper for functionality and quality. <br>This project explored VLSI test generation, combining theory with hands-on implementation.<br>Custom ATPG tools proved functional but highlighted clear performance gaps versus industry solutions.",
-      "es": "Tras el diseño de circuitos integrados, las pruebas se convierten en el factor clave para la funcionalidad y la calidad.<br>Este proyecto exploró la generación de pruebas VLSI, combinando la teoría con la implementación práctica.<br>Las herramientas ATPG personalizadas demostraron ser funcionales, pero presentaron claras deficiencias de rendimiento en comparación con las soluciones del sector.",
-      "ja": "IC設計後、テストは機能性と品質を左右する重要な鍵となります<br>このプロジェクトでは、理論と実践的な実装を組み合わせ、VLSIテスト生成を探求しました。<br>カスタムATPGツールは機能することが実証されましたが、業界標準のソリューションと比較してパフォーマンスに明らかなギャップがあることが分かりました。",
-      "zh": "集成电路设计完成后,测试成为确保功能和质量的关键环节。<br>本项目探索了超大规模集成电路(VLSI)测试生成方法,并将理论与实践相结合。<br>定制的自动测试生成(ATPG)工具功能完善,但也暴露出与行业解决方案相比存在明显的性能差距。"
+      "en": "Master's research at KYUTECH focused on optimizing VLSI test flows through fault-importance-aware strategies and adaptive, data-driven methodologies.",
+      "es": "Investigación de Maestría en KYUTECH centrada en la optimización de los flujos de prueba VLSI mediante estrategias conscientes de la importancia de las fallas y metodologías adaptativas basadas en datos.",
+      "zh": "在九州工业大学(KYUTECH)进行的硕士研究,专注于通过故障重要性感知策略和自适应数据驱动方法优化超大规模集成电路(VLSI)测试流程。",
+      "ja": "九州工業大学(KYUTECH)での修士研究。故障の重要度を考慮した戦略と適応型のデータ駆動型手法を通じて、VLSIテストフローの最適化に焦点を当てています。"
     },
     "category": {
       "en": "Academic",
@@ -4767,46 +5722,54 @@
     },
     "tags": {
       "en": [
-        "📊 Systems Engineering",
-        "🖥️ Embedded Systems",
-        "📈 Future Technologies"
+        "vlsi",
+        "atpg",
+        "dft",
+        "semiconductor",
+        "kyutech"
       ],
       "es": [
-        "📊 Ingeniería de Sistemas",
-        "🖥️ Sistemas Embebidos",
-        "📈 Tecnologías del Futuro"
-      ],
-      "ja": [
-        "📊 システム工学",
-        "🖥️ 組み込みシステム",
-        "📈 未来技術"
+        "vlsi",
+        "atpg",
+        "dft",
+        "semiconductor",
+        "kyutech"
       ],
       "zh": [
-        "📊 系统工程",
-        "🖥️ 嵌入式系统",
-        "📈 未来技术"
+        "vlsi",
+        "atpg",
+        "dft",
+        "semiconductor",
+        "kyutech"
+      ],
+      "ja": [
+        "vlsi",
+        "atpg",
+        "dft",
+        "semiconductor",
+        "kyutech"
       ]
     },
     "start": "4/1/2025",
     "finish": "today",
     "content": {
       "problem": {
-        "en": "Ensuring post-design integrated circuits operate correctly requires efficient and scalable test generation. Existing academic implementations often struggle to match the performance of commercial-grade VLSI testing tools.",
-        "es": "Para garantizar el correcto funcionamiento de los circuitos integrados tras el diseño, se requiere una generación de pruebas eficiente y escalable. Las implementaciones académicas existentes a menudo tienen dificultades para igualar el rendimiento de las herramientas de prueba VLSI comerciales.",
-        "ja": "設計後の集積回路が正しく動作することを保証するには、効率的でスケーラブルなテスト生成が必要です。既存の学術的な実装では、商用グレードのVLSIテストツールの性能に匹敵することが難しい場合が多くあります。",
-        "zh": "确保集成电路设计完成后能够正确运行,需要高效且可扩展的测试用例生成。现有的学术实现方案通常难以达到商用级超大规模集成电路(VLSI)测试工具的性能水平。"
+        "en": "Current logic test flows suffer from excessive data volume, application time, and inefficient allocation of effort, especially in advanced architectures like 3D ICs and chiplets.",
+        "es": "Los flujos de prueba lógicos actuales sufren de un volumen de datos excesivo, tiempo de aplicación y una asignación ineficiente del esfuerzo, especialmente en arquitecturas avanzadas como IC 3D y chiplets.",
+        "zh": "当前的逻辑测试流程面临数据量过大、应用时间过长以及工作分配效率低下的问题,特别是在3D IC和芯粒(chiplet)等先进架构中。",
+        "ja": "現在のロジックテストフローは、過大なデータ量、適用時間、および非効率なリソース配分に悩まされており、特に3D ICやチップレットなどの先端アーキテクチャで顕著です。"
       },
       "approach": {
-        "en": "During the research period, automatic test pattern generation systems were developed using Python 3.12 and Jupyter Notebooks. The work focused on stuck-at fault models, ATPG, fault collapsing, test compaction, PODEM, SAT-based Boolean testing, and PPSFP, evaluated across 10 circuits ranging from 6 to 2,500 logic gates.",
-        "es": "Durante el período de investigación, se desarrollaron sistemas automáticos de generación de patrones de prueba utilizando Python 3.12 y Jupyter Notebooks. El trabajo se centró en modelos de falla atascada, ATPG, colapso de fallas, compactación de pruebas, PODEM, pruebas booleanas basadas en SAT y PPSFP, evaluados en 10 circuitos con entre 6 y 2500 puertas lógicas.",
-        "ja": "研究期間中、Python 3.12とJupyter Notebookを用いて自動テストパターン生成システムを開発しました。この研究では、縮退故障モデル、ATPG、故障コラプシング、テスト圧縮、PODEM、SATベースのブールテスト、PPSFPに焦点を当て、6ゲートから2,500ゲートまでの10個の回路で評価を行いました。",
-        "zh": "在研究期间,我们使用 Python 3.12 和 Jupyter Notebook 开发了自动测试模式生成系统。研究重点包括固定故障模型、自动测试模式生成 (ATPG)、故障折叠、测试压缩、PODEM、基于 SAT 的布尔测试以及 PPSFP,并在 10 个逻辑门数量从 6 到 2500 不等的电路中进行了评估。"
+        "en": "Developed fault-importance-aware test strategies using weight-based fault modeling and adaptive test flows. Integrated fault Importance into ATPG and test compaction, focusing on scalable hierarchical and partitioned test strategies.",
+        "es": "Desarrolló estrategias de prueba conscientes de la importancia de las fallas utilizando modelos de fallas basados en peso y flujos de prueba adaptativos. Integró la importancia de las fallas en el ATPG y la compactación de pruebas.",
+        "zh": "开发了基于权重故障建模和自适应测试流的故障重要性感知测试策略。将故障重要性整合到自动测试模式生成(ATPG)和测试压缩中,专注于可扩展的分级和分区测试策略。",
+        "ja": "重みベースの故障モデリングと適応型テストフローを用いた、故障重要度を考慮したテスト戦略を開発。故障の重要度をATPGおよびテスト圧縮に統合し、スケーラブルな階層型およびパーティション型テスト戦略に焦点を当てました。"
       },
       "outcome": {
-        "en": "The implemented tools successfully generated and executed tests, with runtimes ranging from milliseconds to minutes depending on circuit size. While functional, performance lagged behind industrial tools, opening a clear path for future optimization and research.",
-        "es": "Las herramientas implementadas generaron y ejecutaron pruebas con éxito, con tiempos de ejecución que oscilaban entre milisegundos y minutos, dependiendo del tamaño del circuito. Si bien eran funcionales, su rendimiento se quedó por debajo del de las herramientas industriales, lo que abrió un camino claro para futuras optimizaciones e investigaciones.",
-        "ja": "実装されたツールは、回路サイズに応じて数ミリ秒から数分間の実行時間でテストを生成・実行しました。機能的には問題なく動作しましたが、パフォーマンスは産業用ツールに比べて劣っており、今後の最適化と研究への道筋が開かれました。",
-        "zh": "所实现的工具成功生成并执行了测试,运行时间从几毫秒到几分钟不等,具体取决于电路规模。虽然功能齐全,但性能仍落后于工业级工具,这为未来的优化和研究指明了方向。"
+        "en": "Significantly reduced test costs (time, data volume, ATE usage) while maintaining high product quality. Validated strategies across multi-core and 3D IC environments to ensure robust post-design functionality.",
+        "es": "Reducción significativa de los costos de prueba (tiempo, volumen de datos, uso de ATE) manteniendo una alta calidad del producto. Validó las estrategias en entornos de IC multi- núcleo y 3D.",
+        "zh": "在保持高产品质量的同时,显著降低了测试成本(时间、数据量、ATE使用)。在多核和3D IC环境中验证了策略,确保了设计后的鲁棒功能。",
+        "ja": "製品品質を維持しつつ、テストコスト(時間、データ量、ATE使用量)を大幅に削減。マルチコアおよび3D IC環境で戦略を検証し、設計後の堅牢な機能を保証しました。"
       }
     },
     "quote": {
@@ -4851,7 +5814,8 @@
       "zh": "学生",
       "ja": "学生"
     },
-    "images": []
+    "images": [],
+    "visible": false
   },
   {
     "id": 61,
@@ -4976,14 +5940,15 @@
       "zh": "电气电子工程师",
       "ja": "電気電子工学エンジニア"
     },
-    "profile_image": "images/capacidad_instalada.png",
+    "profile_image": "images/thumbnails/capacidad_instalada.webp",
     "images": [
-      "images/capacidad_instalada.png",
-      "images/capacidad_instalada1.jpg",
-      "images/capacidad_instalada2.png",
-      "images/capacidad_instalada3.png"
+      "images/webp/capacidad_instalada.webp",
+      "images/webp/capacidad_instalada1.webp",
+      "images/webp/capacidad_instalada2.webp",
+      "images/webp/capacidad_instalada3.webp"
     ],
-    "Product": "Dashboards"
+    "Product": "Dashboards",
+    "visible": true
   },
   {
     "id": 62,
@@ -5078,8 +6043,9 @@
     },
     "Product": "Programming",
     "images": [
-      "images/aplicacion_transporte.png",
-      "images/aplicacion_transporte1.png"
-    ]
+      "images/webp/aplicacion_transporte.webp",
+      "images/webp/aplicacion_transporte1.webp"
+    ],
+    "visible": true
   }
 ]
