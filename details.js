@@ -8,12 +8,12 @@
 
 const ProjectApp = (() => {
   let _project = null;
-  let _lang    = "en";
+  let _lang = "en";
 
-  const $   = s => document.querySelector(s);
-  const $$  = s => document.querySelectorAll(s);
+  const $ = s => document.querySelector(s);
+  const $$ = s => document.querySelectorAll(s);
   const LANG_SELECT = $("#lang-select");
-  const CONTENT_EL  = $("#projectContent");
+  const CONTENT_EL = $("#projectContent");
 
   /* ── Translations (Ported from script.js) ─────────────────────────── */
   const I18N = {
@@ -71,10 +71,10 @@ const ProjectApp = (() => {
     }
   };
 
-  const t   = key => (I18N[_lang]?.[key] ?? I18N.en[key] ?? key);
-  const tF  = f => f && typeof f === "object" && !Array.isArray(f)
-                    ? (f[_lang] ?? Object.values(f)[0] ?? "")
-                    : (f ?? "");
+  const t = key => (I18N[_lang]?.[key] ?? I18N.en[key] ?? key);
+  const tF = f => f && typeof f === "object" && !Array.isArray(f)
+    ? (f[_lang] ?? Object.values(f)[0] ?? "")
+    : (f ?? "");
 
   const formatDate = d => {
     if (!d) return "";
@@ -153,7 +153,7 @@ const ProjectApp = (() => {
 
   function renderTables() {
     const content = [];
-    
+
     // Links Table
     if (_project.links && Object.keys(_project.links).length) {
       content.push(`
@@ -161,8 +161,8 @@ const ProjectApp = (() => {
           <h3>${t('links')}</h3>
           <table class="links-table">
             <thead><tr><th>Reference</th><th>Target URL</th></tr></thead>
-            <tbody>${Object.entries(_project.links).map(([label, url]) => 
-              `<tr><td><strong>${label}</strong></td><td><a href="${url}" target="_blank" rel="noopener">${url}</a></td></tr>`).join("")}
+            <tbody>${Object.entries(_project.links).map(([label, url]) =>
+        `<tr><td><strong>${label}</strong></td><td><a href="${url}" target="_blank" rel="noopener">${url}</a></td></tr>`).join("")}
             </tbody>
           </table>
         </div>`);
@@ -175,8 +175,8 @@ const ProjectApp = (() => {
           <h3>${t('collab-title')}</h3>
           <table class="links-table">
             <thead><tr><th>Name</th><th>Role / Institution</th><th>Contact</th></tr></thead>
-            <tbody>${_project.collaborators.map(c => 
-              `<tr>
+            <tbody>${_project.collaborators.map(c =>
+        `<tr>
                 <td><strong>${tF(c.name)}</strong></td>
                 <td>${tF(c.roles) || tF(c.institution) || ""}</td>
                 <td>${c.email ? `<a href="mailto:${c.email}">${c.email}</a>` : "-"}</td>
@@ -191,7 +191,7 @@ const ProjectApp = (() => {
 
   function renderProject() {
     if (!_project) return;
-    
+
     const content = _project.content || {};
     const sections = [];
 
@@ -199,6 +199,7 @@ const ProjectApp = (() => {
     sections.push(`
       <div class="abstract-meta">
         <div><strong>Institution:</strong> ${tF(_project.institution)}</div>
+        ${_project.branch ? `<div><strong>Branch:</strong> ${tF(_project.branch)}</div>` : ""}
         <div><strong>Timeline:</strong> ${formatDate(_project.start)} — ${formatDate(_project.finish)}</div>
         <i>${tF(_project.summary)}</i>
       </div>`);
@@ -239,13 +240,13 @@ const ProjectApp = (() => {
     const em = $("#footer-email");
     const gh = $("#footer-github");
     if (em && gh) {
-       if (_lang === "zh" || _lang === "ja") {
-         em.href = "mailto:kelvinmext1@gmail.com";
-         gh.href = "https://github.com/Personal-kung";
-       } else {
-         em.href = "mailto:kelvin.kung@utp.ac.pa";
-         gh.href = "https://github.com/kelvinutp";
-       }
+      if (_lang === "zh" || _lang === "ja") {
+        em.href = "mailto:kung-gomez-kelvin2604@mail.kyutech.jp";
+        gh.href = "https://github.com/Kung-Kelvin";
+      } else {
+        em.href = "mailto:kelvin.kung@utp.ac.pa";
+        gh.href = "https://github.com/kelvinutp";
+      }
     }
   }
 
@@ -260,7 +261,7 @@ const ProjectApp = (() => {
 
     const data = await fetch("data/information.json").then(r => r.json());
     _project = data.find(p => p.id === projectId);
-    
+
     if (!_project) {
       CONTENT_EL.innerHTML = "<h2>Project not found.</h2>";
       return;
@@ -273,8 +274,10 @@ const ProjectApp = (() => {
 
   document.addEventListener("DOMContentLoaded", () => {
     const navLang = navigator.language || "";
-    LANG_SELECT.value = ["zh","ja","es"].find(l => navLang.startsWith(l)) || "en";
-    
+    const detected = ["zh", "ja", "es"].find(l => navLang.startsWith(l)) || "en";
+    LANG_SELECT.value = detected;
+    _lang = detected;
+
     LANG_SELECT.addEventListener("change", () => {
       _lang = LANG_SELECT.value;
       applyTranslations();

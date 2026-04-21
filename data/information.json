@@ -2460,22 +2460,22 @@
     "finish": "4/13/2024",
     "content": {
       "problem": {
-        "en": "As semiconductor technology advances, there is a growing demand for engineers with specialized skills in integrated circuit design, simulation, and verification. However, many programs lack a practical, industry-oriented approach that bridges theory and real-world IC development.",
-        "es": "A medida que la tecnología de semiconductores avanza, existe una creciente demanda de ingenieros con habilidades especializadas en diseño, simulación y verificación de circuitos integrados. Sin embargo, muchos programas carecen de un enfoque práctico y orientado a la industria que conecte la teoría con el desarrollo real de ICs.",
-        "zh": "随着半导体技术的快速发展,对具备集成电路设计、仿真与验证专业技能的工程师需求不断增长。然而,许多课程缺乏将理论与实际IC开发相结合的实践性与行业导向。",
-        "ja": "半導体技術の進歩に伴い、集積回路の設計・シミュレーション・検証に特化したスキルを持つエンジニアの需要が高まっています。しかし、多くの教育プログラムでは理論と実際のIC開発を結びつける実践的かつ業界志向のアプローチが不足しています。"
+        "en": "The increasing complexity of modern electronics requires a transition from discrete component design to high-density Integrated Circuit (IC) architectures. In emerging technical sectors, there is a critical need for structured methodologies that address the challenges of transistor-level modeling, signal integrity, and manufacturing constraints within the nanometer regime.",
+        "es": "La creciente complejidad de la electrónica moderna requiere una transición del diseño de componentes discretos a arquitecturas de circuitos integrados (IC) de alta densidad. En los sectores técnicos emergentes, existe una necesidad crítica de metodologías estructuradas.",
+        "zh": "现代电子产品的复杂性日益增加,要求从分立组件设计转向高密度集成电路 (IC) 架构。在新兴技术领域,迫切需要结构化的方法论来解决纳米级条件下的晶体管级建模、信号完整性和制造约束等挑战。",
+        "ja": "現代のエレクトロニクスの複雑化に伴い、個別のコンポーネント設計から高密度集積回路（IC）アーキテクチャへの移行が求められています。新興技術分野では、ナノメートル領域におけるトランジスタレベルのモデリング、信号整合性、および製造上の制約といった課題に取り組む体系的な手法が不可欠です。"
       },
       "approach": {
-        "en": "The course combines theoretical instruction with hands-on practice, guiding students through the full IC development workflow. Learners explore core design principles, apply advanced circuit techniques, and use professional tools to simulate and verify integrated circuits under realistic engineering conditions.",
-        "es": "El curso combina instrucción teórica con práctica aplicada, guiando a los estudiantes a través del flujo completo de desarrollo de ICs. Los participantes exploran principios fundamentales de diseño, aplican técnicas avanzadas de circuitos y utilizan herramientas profesionales para simular y verificar circuitos integrados en condiciones reales de ingeniería.",
-        "zh": "本课程将理论教学与实践操作相结合,引导学员完成完整的IC开发流程。学员将学习核心设计原理,应用先进电路技术,并使用专业工具在真实工程环境中进行仿真与验证。",
-        "ja": "本コースは理論教育と実践演習を組み合わせ、IC開発の全工程を体系的に学びます。受講者は設計の基本原理を理解し、高度な回路技術を適用しながら、専門ツールを用いて実際のエンジニアリング環境でシミュレーションと検証を行います。"
+        "en": "This project involved the development and presentation of advanced IC design principles within the IEEE framework. The approach focused on the full-cycle ASIC design flow, emphasizing the use of industry-standard EDA tools for schematic entry, DRC/LVS verification, and parasitic extraction. We prioritized a rigorous analytical framework for CMOS logic gates and analog blocks, ensuring that design decisions were backed by robust simulation and physical layout optimization.",
+        "es": "Este proyecto involucró el desarrollo y la presentación de principios avanzados de diseño de circuitos integrados dentro del marco de IEEE. El enfoque se centró en el flujo de diseño ASIC de ciclo completo.",
+        "zh": "该项目涉及在 IEEE 框架内开发和演示先进的 IC 设计原理。该方法侧重于全周期 ASIC 设计流程,强调使用行业标准 EDA 工具进行原理图输入、DRC/LVS 验证和寄生参数提取。我们优先为 CMOS 逻辑门和模拟模块建立严谨的分析框架,确保设计决策得到稳健的仿真和物理版图优化的支持。",
+        "ja": "本プロジェクトでは、IEEEの枠組みの中で高度なIC設計原理の開発と発表を行いました。アプローチとしては、フルサイクルのASIC設計フローに焦点を当て、回路図入力、DRC/LVS検証、および寄生抽出のための業界標準EDAツールの活用を強調しました。CMOSロジックゲートやアナログブロックに対する厳格な分析フレームワークを優先し、設計上の決定が堅牢なシミュレーションと物理レイアウトの最適化によって裏付けられるようにしました。"
       },
       "outcome": {
-        "en": "Graduates of the course develop the technical competence and confidence to design and validate integrated circuits in professional settings. They are prepared to contribute to semiconductor innovation and advanced hardware development projects.",
-        "es": "Los egresados del curso desarrollan la competencia técnica y la confianza necesarias para diseñar y validar circuitos integrados en entornos profesionales. Quedan preparados para contribuir a la innovación en semiconductores y al desarrollo avanzado de hardware.",
-        "zh": "完成课程的学员将具备在专业环境中设计与验证集成电路的技术能力与信心,为半导体创新和先进硬件开发项目做好准备。",
-        "ja": "本コース修了者は、専門環境で集積回路を設計・検証するための技術力と自信を身につけます。半導体イノベーションや先端ハードウェア開発プロジェクトに貢献できる人材として備えられます。"
+        "en": "The initiative successfully established a benchmark for microelectronics education in the region, empowering engineers to undertake complex silicon design projects. It fostered a collaborative community of designers focused on technological sovereignty and provided a verified roadmap for domestic semiconductor development, culminating in increased participation in international solid-state circuit conferences.",
+        "es": "La iniciativa estableció con éxito un punto de referencia para la educación en microelectrónica en la región, capacitando a los ingenieros para emprender proyectos complejos de diseño de silicio.",
+        "zh": "该倡议成功地为该地区的微电子教育树立了标杆,赋能工程师承担复杂的硅设计项目。它培养了一个专注于技术主权的设计师协作社区,并为国内半导体开发提供了经过验证的路线图,最终促使更多人参与到国际固态电路会议中。",
+        "ja": "この取り組みは、地域におけるマイクロエレクトロニクス教育のベンチマークを確立し、エンジニアが複雑なシリコン設計プロジェクトに取り組むことを可能にしました。技術主権に焦点を当てたデザイナーの協力的なコミュニティを育成し、国内の半導体開発のための検証済みロードマップを提供し、国際的な固体回路会議への参加増加につながりました。"
       }
     },
     "quote": {
@@ -2508,7 +2508,7 @@
     },
     "images": [],
     "Product": "Research & Engineering",
-    "visible": false
+    "visible": true
   },
   {
     "id": 23,
@@ -2539,23 +2539,11 @@
     "start": "",
     "finish": "4/5/2021",
     "content": {
-      "problem": {
-        "en": "As digital transformation accelerates worldwide, many students and professionals lack a clear understanding of IoT concepts, automation, big data, and cybersecurity fundamentals. There is a need for accessible, engaging education that bridges digital theory and real-world application.",
-        "es": "A medida que la transformación digital se acelera a nivel global, muchos estudiantes y profesionales carecen de una comprensión clara de los conceptos de IoT, automatización, big data y ciberseguridad. Existe la necesidad de una formación accesible y dinámica que conecte la teoría digital con aplicaciones reales.",
-        "zh": "随着全球数字化转型的加速,许多学生和专业人士缺乏对物联网、自动化、大数据和网络安全基础的清晰理解。因此,需要一种易于理解且富有吸引力的教育方式,将数字理论与实际应用相结合。",
-        "ja": "デジタルトランスフォーメーションが世界的に加速する中、多くの学生や社会人はIoT、自動化、ビッグデータ、サイバーセキュリティの基礎を十分に理解していません。理論と実社会での応用を結びつける、わかりやすく魅力的な教育が求められています。"
-      },
-      "approach": {
-        "en": "The course uses interactive multimedia content—including videos, games, quizzes, and simulations with Cisco Packet Tracer—to reinforce learning across different styles. Learners practice programming with Blockly and Python, explore big data concepts, and analyze automation and security challenges. Immediate feedback assessments and hands-on labs strengthen critical thinking and problem-solving skills.",
-        "es": "El curso utiliza contenido multimedia interactivo —incluyendo videos, juegos, cuestionarios y simulaciones con Cisco Packet Tracer— para reforzar el aprendizaje en distintos estilos. Los participantes practican programación con Blockly y Python, exploran conceptos de big data y analizan los retos de automatización y seguridad. Las evaluaciones con retroalimentación inmediata y los laboratorios prácticos fortalecen el pensamiento crítico y la resolución de problemas.",
-        "zh": "课程通过互动多媒体内容(包括视频、游戏、测验以及使用 Cisco Packet Tracer 的仿真)支持多种学习方式。学员使用 Blockly 和 Python 进行编程练习,学习大数据概念,并分析自动化与安全挑战。即时反馈评估和实践实验提升了批判性思维与复杂问题解决能力。",
-        "ja": "本コースでは、動画、ゲーム、クイズ、Cisco Packet Tracerを用いたシミュレーションなどのインタラクティブなマルチメディア教材を活用します。BlocklyやPythonでのプログラミング演習、ビッグデータの概念理解、自動化やセキュリティ課題の分析を行います。即時フィードバック付き評価や実践ラボにより、批判的思考力と問題解決能力を高めます。"
-      },
-      "outcome": {
-        "en": "Upon completion, learners can explain how digital transformation drives innovation, describe big data and automation benefits, develop simple programs, and understand cybersecurity needs in a digital world. The course builds foundational digital literacy and encourages further IT specialization.",
-        "es": "Al finalizar, los participantes pueden explicar cómo la transformación digital impulsa la innovación, describir los beneficios del big data y la automatización, desarrollar programas simples y comprender la importancia de la ciberseguridad en un mundo digital. El curso fortalece la alfabetización digital y motiva a continuar la especialización en TI.",
-        "zh": "完成课程后,学员能够解释数字化转型如何推动创新,阐述大数据与自动化的优势,编写简单程序,并理解数字世界中网络安全的重要性。课程夯实了数字素养基础,并鼓励进一步IT专业发展。",
-        "ja": "コース修了後、学習者はデジタルトランスフォーメーションがどのようにイノベーションを促進するかを説明でき、ビッグデータや自動化の利点を理解し、簡単なプログラムを作成し、デジタル社会におけるセキュリティの重要性を説明できます。本コースはデジタルリテラシーの基礎を築き、さらなるIT分野への発展を促します。"
+      "details": {
+        "en": "The 'Introduction to IoT and Digital Transformation' by CISCO Networking Academy serves as a foundational pillar for understanding the convergence of physical infrastructure and digital intelligence. This program explores the systemic impact of the Internet of Things on global industries, governments, and everyday human interaction. By analyzing the end-to-end architecture of IoT systems—from sensor data acquisition to cloud-based analytics—learners gain a holistic perspective on how connected devices drive operational efficiency and innovation in the digital age.\n\nA key technical component of the curriculum involves simulation-based labs using tools like Cisco Packet Tracer. These labs allow for the modeling of complex network topologies where diverse devices interact in real-time, providing a safe environment to test automation logic and security protocols. This hands-on approach ensures that theoretical concepts such as big data, cybersecurity, and edge computing are translated into practical engineering skills, enabling the design of resilient and scalable IoT solutions.\n\nProgramming and logic development are integrated through the use of Blockly and Python, bridging the gap between high-level application design and low-level hardware control. This multi-disciplinary approach encourages students to think beyond traditional silos, fostering an environment where software engineering and electronic hardware development intersect. By mastering these tools, participants are equipped to build automated systems that can process and respond to environmental stimuli with high precision.\n\nSecurity remains a paramount theme throughout the course. As the number of connected devices grows exponentially, the potential attack surface for cyber threats increases proportionally. The program emphasizes the 'security by design' philosophy, teaching learners how to identify vulnerabilities and implement robust defense strategies at every layer of the IoT stack. This focus ensures that the next generation of engineers is prepared to protect critical digital infrastructure from increasingly sophisticated cyberattacks.\n\nIn conclusion, the CISCO IoT certification provides more than just technical knowledge; it instills a strategic mindset for the digital future. It encourages continuous learning and specialization in emerging IT fields, ensuring that graduates are prepared to lead the digital transformation of their respective organizations. This foundational literacy is essential for any engineer looking to contribute meaningfully to an increasingly connected and automated world.",
+        "es": "La 'Introducción a IoT y Transformación Digital' de CISCO Networking Academy sirve como un pilar fundamental para comprender la convergencia de la infraestructura física y la inteligencia digital. Este programa explora el impacto sistémico del Internet de las Cosas en las industrias globales, los gobiernos y la interacción humana cotidiana. Al analizar la arquitectura de extremo a extremo de los sistemas de IoT, los alumnos obtienen una perspectiva holística sobre cómo los dispositivos conectados impulsan la eficiencia operativa.\n\nUn componente técnico clave del plan de estudios involucra laboratorios basados en simulación utilizando herramientas como Cisco Packet Tracer. Estos laboratorios permiten el modelado de topologías de red complejas donde diversos dispositivos interactúan en tiempo real, proporcionando un entorno seguro para probar la lógica de automatización. Este enfoque práctico asegura que los conceptos teóricos como el big data y la ciberseguridad se traduzcan en habilidades de ingeniería prácticas.\n\nEl desarrollo de programación y lógica se integra mediante el uso de Blockly y Python, cerrando la brecha entre el diseño de aplicaciones de alto nivel y el control de hardware de bajo nivel. Este enfoque multidisciplinario alienta a los estudiantes a pensar más allá de los silos tradicionales, fomentando un entorno donde la ingeniería de software y el desarrollo de hardware electrónico se intersectan.\n\nLa seguridad sigue siendo un tema primordial durante todo el curso. A medida que el número de dispositivos conectados crece, la superficie de ataque potencial para las ciberamenazas aumenta. El programa enfatiza la filosofía de 'seguridad por diseño', enseñando a los alumnos cómo identificar vulnerabilidades e implementar estrategias de defensa robustas en cada capa de la pila de IoT.\n\nEn conclusión, la certificación CISCO IoT proporciona más que solo conocimientos técnicos; infunde una mentalidad estratégica para el futuro digital. Fomenta el aprendizaje continuo y la especialización en campos de TI emergentes, asegurando que los graduados estén preparados para liderar la transformación digital de sus organizaciones.",
+        "zh": "思科网络学院 (CISCO Networking Academy) 的“物联网与数字化转型入门”是理解物理基础设施与数字智能融合的基石。该项目探讨了物联网对全球工业、政府和日常人类互动的系统性影响。通过分析物联网系统的端到端架构（从传感器数据采集到云端分析）,学习者可以全面了解连接设备如何在数字时代推动运营效率和创新。\n\n课程的一个核心技术部分涉及使用 Cisco Packet Tracer 等工具进行基于仿真的实验。这些实验允许对复杂的网络拓扑进行建模,各种设备在其中进行实时交互,为测试自动化逻辑和安全协议提供了一个安全的环境。这种动手实践的方法确保了大数据、网络安全和边缘计算等理论概念转化为实际的工程技能,从而能够设计出具有韧性和可扩展性的物联网解决方案。\n\n通过使用 Blockly 和 Python 集成了编程和逻辑开发,弥合了高级应用程序设计与底层硬件控制之间的鸿沟。这种多学科方法鼓励学生跳出传统思维定式,营造了一个软件工程与电子硬件开发交叉的环境。通过掌握这些工具,参与者能够构建能够高精度处理并响应环境刺激的自动化系统。\n\n安全始终是整个课程的最高主题。随着连接设备数量的呈指数级增长,网络威胁的潜在攻击面也成比例增加。该项目强调“设计安全”理念,教授学习者如何识别漏洞并在物联网栈的每一层实施稳健的防御策略。这一重点确保了新一代工程师能够准备好保护关键数字基础设施免受日益复杂的网络攻击。\n\n总之,思科物联网认证不仅仅提供技术知识;它还为数字化未来灌输了战略思维。它鼓励在新兴 IT 领域进行持续学习和专业化,确保毕业生准备好领导其所在组织的数字化转型。对于任何希望在日益互联和自动化的世界中做出有意义贡献的工程师来说,这种基础素养都是必不可少的。",
+        "ja": "CISCO Networking Academyによる「IoTとデジタルトランスフォーメーション入門」は、物理的インフラとデジタルインテリジェンスの融合を理解するための基礎的な柱として機能します。このプログラムは、モノのインターネット（IoT）が世界の産業、政府、そして日常的な人間同士の相互作用に与えるシステム的な影響を詳しく探ります。センサーデータの取得からクラウドベースの分析に至るまでのIoTシステムのエンドツーエンド・アーキテクチャを分析することで、学習者は接続されたデバイスがいかにデジタルの時代において運用の効率化とイノベーションを推進するかについて、包括的な視点を得ることができます。\n\nカリキュラムの主要な技術的要素として、Cisco Packet Tracerなどのツールを使用したシミュレーションベースのラボが含まれています。これらのラボでは、多様なデバイスがリアルタイムで相互作用する複雑なネットワークトポロジのモデリングが可能であり、自動化ロジックやセキュリティプロトコルをテストするための安全な環境を提供します。このハンズオンアプローチにより、ビッグデータ、サイバーセキュリティ、エッジコンピューティングなどの理論的概念が実践的なエンジニアリングスキルへと変換され、レジリエンス（回復力）が高くスケーラブルなIoTソリューションの設計が可能になります。\n\nBlocklyやPythonを用いたプログラミングとロジック開発が統合されており、ハイレベルなアプリケーション設計とローレベルなハードウェア制御の間のギャップを埋めています。この多角的なアプローチは、学生が従来の枠組みを超えて考えることを促し、ソフトウェアエンジニアリングと電子ハードウェア開発が交差する環境を育みます。これらのツールを習得することで、参加者は環境の変化を高精度に処理し、反応する自動化システムを構築するための備えを整えることができます。\n\nセキュリティは、コース全体を通じて最も重要なテーマです。接続されるデバイスの数が指数関数的に増加するにつれ、サイバー脅威に対する潜在的な攻撃対象領域も比例して拡大します。プログラムでは「セキュリティ・バイ・デザイン」の哲学を強調し、IoTスタックのあらゆる層において脆弱性を特定し、強固な防御戦略を実装する方法を学習者に教えます。この焦点により、次世代のエンジニアは、ますます巧妙化するサイバー攻撃から重要なデジタルインフラを保護する準備を整えることができます。\n\n結論として、CISCOのIoT認定は単なる技術的知識以上のものを提供します。それはデジタルの未来に対する戦略的なマインドセットを植え付けるものです。新興のIT分野における継続的な学習と専門化を奨励し、卒業生がそれぞれの組織のデジタルトランスフォーメーションをリードできる準備を整えます。この基礎的なリテラシーは、ますます接続され自動化される世界に有意義な貢献をしようとするすべてのエンジニアにとって不可欠なものです。"
       }
     },
     "quote": {
@@ -2575,7 +2563,7 @@
       "ja": "学生"
     },
     "images": [],
-    "visible": false
+    "visible": true
   },
   {
     "id": 24,
@@ -2606,23 +2594,11 @@
     "start": "",
     "finish": "3/15/2021",
     "content": {
-      "problem": {
-        "en": "As cyber threats continue to grow in scale and sophistication, many individuals and organizations lack the foundational knowledge required to identify risks and protect digital assets effectively.",
-        "es": "A medida que las amenazas cibernéticas aumentan en escala y sofisticación, muchas personas y organizaciones carecen del conocimiento fundamental necesario para identificar riesgos y proteger eficazmente los activos digitales.",
-        "zh": "随着网络威胁在规模和复杂性方面不断增长,许多个人和组织缺乏识别风险和有效保护数字资产所需的基础知识。",
-        "ja": "サイバー脅威がますます高度化・大規模化する中、多くの個人や組織はリスクを特定し、デジタル資産を効果的に保護するための基礎知識を十分に備えていません。"
-      },
-      "approach": {
-        "en": "The course delivers five competency-based modules that combine paper-based labs, videos, quizzes, and interactive assessments to reinforce learning. Learners explore malware types, common cyberattacks, vulnerabilities, and organizational defense strategies, while receiving immediate feedback to strengthen understanding and retention.",
-        "es": "El curso ofrece cinco módulos basados en competencias que combinan laboratorios en papel, videos, cuestionarios y evaluaciones interactivas para reforzar el aprendizaje. Los participantes exploran tipos de malware, ataques cibernéticos comunes, vulnerabilidades y estrategias de defensa organizacional, recibiendo retroalimentación inmediata para fortalecer la comprensión y retención.",
-        "zh": "课程通过五个基于能力的模块展开,结合纸质实验、视频、测验和互动评估来强化学习效果。学员学习恶意软件类型、常见网络攻击、漏洞以及组织防御策略,并通过即时反馈提升理解与记忆。",
-        "ja": "本コースは、紙ベースのラボ、動画、クイズ、インタラクティブな評価を組み合わせた5つのコンピテンシーベースのモジュールで構成されています。受講者は、マルウェアの種類、一般的なサイバー攻撃、脆弱性、組織の防御戦略について学び、即時フィードバックを通じて理解と定着を深めます。"
-      },
-      "outcome": {
-        "en": "Upon completion, learners can explain core cybersecurity concepts, identify common threats and vulnerabilities, apply best practices for online safety, and understand how organizations defend against attacks. They also gain awareness of diverse cybersecurity career opportunities.",
-        "es": "Al finalizar, los participantes pueden explicar los conceptos fundamentales de ciberseguridad, identificar amenazas y vulnerabilidades comunes, aplicar buenas prácticas para la seguridad en línea y comprender cómo las organizaciones se protegen contra ataques. Además, adquieren conocimiento sobre diversas oportunidades profesionales en ciberseguridad.",
-        "zh": "完成课程后,学员能够解释网络安全的核心概念,识别常见威胁与漏洞,应用在线安全最佳实践,并理解组织如何防御攻击。同时,学员也将了解多样化的网络安全职业发展机会。",
-        "ja": "コース修了後、学習者はサイバーセキュリティの基本概念を説明し、一般的な脅威や脆弱性を特定し、オンラインでの安全対策を実践できるようになります。また、組織がどのように攻撃から運用を保護しているかを理解し、多様なサイバーセキュリティのキャリア機会についても認識を深めます。"
+      "details": {
+        "en": "The CISCO 'Cybersecurity Introduction' program provides a comprehensive overview of the modern threat landscape and the strategic defense mechanisms required to protect digital assets in an increasingly volatile cyberspace. In an era where data is the most valuable commodity, understanding the technical nuances of malware, social engineering, and network vulnerabilities is critical for any engineering professional. This course explores the intersection of technical security and organizational policy, providing a structured framework for identifying risks and implementing multi-layered defense strategies.\n\nThroughout the five modules, the curriculum emphasizes the development of critical thinking and analytical problem-solving skills. By utilizing advanced multimedia tools and practical exercises, learners are challenged to simulate real-world cyberattack scenarios and develop effective mitigation protocols. This includes the analysis of large-scale data breaches and the study of state-sponsored cyber warfare, ensuring that participants understand not only the 'how' of security but also the 'why' behind emerging global threats.\n\nPractical labs form the backbone of the learning experience, combining paper-based analysis with digital simulations. These exercises focus on the detection of anomalies within network traffic and the implementation of robust encryption standards to ensure data integrity and confidentiality. By mastering these technical skills, engineers are better equipped to integrate security as an inherent property of the systems they design, rather than an external layer. This 'security-centric' approach to development is essential for building the next generation of resilient infrastructure.\n\nBeyond immediate technical skill acquisition, the program provides a clear roadmap for professional specialization in the cybersecurity field. It highlights the diverse career paths available within the industry—ranging from penetration testing and incident response to high-level security architecture and policy management. This exposure is instrumental in fostering a culture of technical excellence and lifelong learning, ensuring that the local workforce is prepared to meet the growing global demand for cybersecurity expertise.\n\nIn reflection, the CISCO Cybersecurity certification is a vital credential for navigating the complexities of the digital world. It instills a deep sense of responsibility toward data protection and a strategic understanding of how technical vulnerabilities can impact both individuals and global organizations. By establishing a robust foundation in cyber defense, this program ensures that engineers are not just builders of technology, but also guardians of the digital systems that power our modern society.",
+        "es": "El programa 'Introducción a la Ciberseguridad' de CISCO proporciona una visión integral del panorama de amenazas moderno y los mecanismos de defensa estratégicos necesarios para proteger los activos digitales. En una era donde los datos son el producto más valioso, comprender los matices técnicos del malware y las vulnerabilidades de la red es fundamental. Este curso explora la intersección de la seguridad técnica y la política organizacional.\n\nA lo largo de los cinco módulos, el plan de estudios enfatiza el desarrollo del pensamiento crítico y las habilidades analíticas de resolución de problemas. Al utilizar herramientas multimedia avanzadas y ejercicios prácticos, los alumnos se enfrentan al desafío de simular escenarios de ciberataques del mundo real y desarrollar protocolos de mitigación efectivos. Esto incluye el análisis de filtraciones de datos a gran escala y el estudio de amenazas globales emergentes.\n\nLos laboratorios prácticos forman la columna vertebral de la experiencia de aprendizaje, combinando el análisis basado en papel con simulaciones digitales. Estos ejercicios se centran en la detección de anomalías en el tráfico de la red y la implementación de estándares de cifrado robustos para garantizar la integridad y confidencialidad de los datos. Al dominar estas habilidades técnicas, los ingenieros están mejor equipados para integrar la seguridad como una propiedad inherente de los sistemas que diseñan.\n\nAdemás de la adquisición inmediata de habilidades técnicas, el programa proporciona una hoja de ruta clara para la especialización profesional en el campo de la ciberseguridad. Destaca las diversas trayectorias profesionales disponibles dentro de la industria, desde las pruebas de penetración hasta la gestión de políticas de seguridad. Esta exposición es fundamental para fomentar una cultura de excelencia técnica y aprendizaje permanente.\n\nEn reflexión, la certificación de Ciberseguridad de CISCO es una credencial vital para navegar por las complejidades del mundo digital. Inculca un profundo sentido de responsabilidad hacia la protección de datos y una comprensión estratégica de cómo las vulnerabilidades técnicas pueden impactar tanto a los individuos como a las organizaciones globales. Al establecer una base sólida en ciberdefensa, este programa asegura que los ingenieros sean no solo constructores de tecnología, sino también guardianes.",
+        "zh": "思科 (CISCO) 的“网络安全入门”项目全面概述了现代威胁格局以及在日益动荡的网络空间中保护数字资产所需的战略防御机制。在数据成为最宝贵商品的时代,对于任何工程专业人士来说,理解恶意软件、社会工程和网络漏洞的技术细微差别都至关重要。本课程探讨了技术安全与组织政策的交集,为识别风险和实施多层防御战略提供了一个结构化框架。\n\n在整个五个模块中,课程强调培养批判性思维和分析性问题解决能力。通过利用先进的多媒体工具和实践练习,学习者被要求模拟真实的网路攻击场景并开发有效的缓解协议。这包括分析大规模数据泄露和研究国家支持的网络战争,确保参与者不仅了解安全的“如何实现”,还了解新兴全球威胁背后的“原因”。\n\n实践实验构成了学习体验的骨干,将纸面分析与数字仿真相结合。这些练习侧重于检测网络流量中的异常情况,并实施强大的加密标准以确保数据的完整性和机密性。通过掌握这些技术技能,工程师能够更好地将安全性作为其设计的系统的一种固有属性,而不是一个外部层。这种“以安全为中心”的开发方法对于构建下一代具有韧性的基础设施至关重要。\n\n除了即时的技术技能习得外,该项目还为网络安全领域的职业专业化提供了清晰的路线图。它突出了行业内可供选择的多样化职业道路——从渗透测试和事件响应到高级安全架构和政策管理。这种接触对于培养追求技术卓越和终身学习的文化起到了关键作用,确保当地劳动力准备好满足全球对网络安全专业知识日益增长的需求。\n\n回顾过去,思科网络安全认证是应对数字世界复杂性的重要凭证。它赋予了人们对数据保护的深刻责任感,以及对技术漏洞如何影响个人和全球组织的战略理解。通过在网络防御方面建立稳固的基础,该项目确保了工程师不仅是技术的构建者,还是支撑我们现代社会的数字系统的守护者。",
+        "ja": "CISCOの「サイバーセキュリティ入門」プログラムは、現代の脅威の様相と、ますます不安定化するサイバー空間においてデジタル資産を保護するために必要な戦略的防御メカニズムの包括的な概要を提供します。データが最も価値のある商品であるこの時代において、マルウェア、ソーシャルエンジニアリング、およびネットワークの脆弱性の技術的なニュアンスを理解することは、あらゆるエンジニアリングの専門家にとって不可欠です。このコースでは、技術的なセキュリティと組織のポリシーの交差点を探り、リスクの特定と多層的な防御戦略の実装のための体系的な枠組みを提供します。\n\n5つのモジュールを通じて、カリキュラムは批判的思考と分析的な問題解決能力の育成を重視しています。高度なマルチメディアツールと実践的な演習を活用することで、学習者は現実世界のサイバー攻撃シナリオをシミュレートし、効果的な緩和プロトコルを開発することに挑戦します。これには、大規模なデータ漏洩の分析や、国家が関与するサイバー戦争の研究が含まれ、参加者がセキュリティの「方法」だけでなく、新興のグローバルな脅威の背後にある「理由」も理解できるようにします。\n\n実践的なラボが学習体験の根幹を成し、ペーパーベースの分析とデジタルシミュレーションを組み合わせています。これらの演習は、ネットワークトラフィック内の異常検出や、データの整合性と機密性を確保するための強力な暗号化標準の実装に焦点を当てています。これらの技術的スキルを習得することで、エンジニアはセキュリティを外部の層としてではなく、設計するシステムの固有の特性として統合するための備えをより良く整えることができます。開発に対するこの「セキュリティ中心」のアプローチは、次世代のレジリエントなインフラを構築するために不可欠です。\n\n直接的な技術スキルの習得にとどまらず、プログラムはサイバーセキュリティ分野での専門的なキャリア形成のための明確なロードマップを提供します。ペネトレーションテストやインシデント対応から、高度なセキュリティアーキテクチャやポリシー管理に至るまで、業界内で利用可能な多様なキャリアパスを強調しています。このような露出は、技術的な卓越性と生涯学習の文化を育む上で極めて重要であり、地元の労働力がサイバーセキュリティの専門知識に対する世界的な需要の高まりに応える準備ができていることを保証します。\n\n振り返ってみれば、CISCOのサイバーセキュリティ認定は、デジタル世界の複雑さをナビゲートするための不可欠な資格です。データ保護に対する深い責任感と、技術的な脆弱性が個人とグローバルな組織の両方にどのような影響を与えるかについての戦略的な理解を植え付けます。サイバー防衛における強固な基盤を確立することで、このプログラムはエンジニアが単なる技術の構築者ではなく、現代社会を支えるデジタルシステムの守護者であることを保証します。"
       }
     },
     "quote": {
@@ -2642,7 +2618,7 @@
       "ja": "学生"
     },
     "images": [],
-    "visible": false
+    "visible": true
   },
   {
     "id": 25,
@@ -2673,23 +2649,11 @@
     "start": "",
     "finish": "5/7/2024",
     "content": {
-      "problem": {
-        "en": "As digital infrastructure expands globally, there is a growing demand for professionals with strong foundational networking skills, yet many learners lack structured, hands-on training in network configuration, protocols, and troubleshooting.",
-        "es": "A medida que la infraestructura digital se expande globalmente, aumenta la demanda de profesionales con bases sólidas en redes; sin embargo, muchos estudiantes carecen de formación estructurada y práctica en configuración, protocolos y resolución de problemas.",
-        "zh": "随着全球数字基础设施的扩展,对具备扎实网络基础技能的专业人才需求不断增长,但许多学习者缺乏系统化和实践性的网络配置、协议与故障排除培训。",
-        "ja": "デジタルインフラが世界的に拡大する中、強固なネットワーク基礎スキルを持つ人材への需要が高まっています。しかし、多くの学習者はネットワーク設定、プロトコル、トラブルシューティングに関する体系的かつ実践的な訓練を十分に受けていません。"
-      },
-      "approach": {
-        "en": "The course is structured into 17 comprehensive modules covering networking concepts, OSI and TCP/IP models, IP addressing (IPv4 and IPv6), subnetting, routing, switching, transport and application layers, and security. Learners practice using Cisco IOS commands, configure devices, perform subnet calculations, analyze protocols, and troubleshoot networks through labs and scenario-based exercises.",
-        "es": "El curso está estructurado en 17 módulos que abarcan conceptos de redes, modelos OSI y TCP/IP, direccionamiento IP (IPv4 e IPv6), subnetting, routing, switching, capas de transporte y aplicación, y seguridad. Los estudiantes practican comandos de Cisco IOS, configuran dispositivos, realizan cálculos de subred, analizan protocolos y solucionan problemas mediante laboratorios y ejercicios basados en escenarios.",
-        "zh": "课程分为17个模块,涵盖网络概念、OSI与TCP/IP模型、IP地址(IPv4和IPv6)、子网划分、路由、交换、传输层与应用层以及安全内容。学员通过实验和情景练习,使用Cisco IOS命令、配置设备、进行子网计算、分析协议并排除网络故障。",
-        "ja": "本コースは17の包括的なモジュールで構成され、ネットワーク基礎、OSIおよびTCP/IPモデル、IPアドレッシング(IPv4・IPv6)、サブネット化、ルーティング、スイッチング、トランスポート層・アプリケーション層、セキュリティを学習します。受講者はCisco IOSコマンドの操作、デバイス設定、サブネット計算、プロトコル解析、トラブルシューティングをラボやシナリオ演習で実践します。"
-      },
-      "outcome": {
-        "en": "Upon completion, learners can design and configure small networks, implement IP addressing schemes, secure devices, and troubleshoot connectivity issues using structured methodologies. The course prepares participants for further CCNA studies and entry-level networking roles.",
-        "es": "Al finalizar, los estudiantes pueden diseñar y configurar redes pequeñas, implementar esquemas de direccionamiento IP, asegurar dispositivos y resolver problemas de conectividad mediante metodologías estructuradas. El curso prepara a los participantes para estudios posteriores de CCNA y roles iniciales en redes.",
-        "zh": "完成课程后,学员能够设计和配置小型网络,实施IP地址规划,保障设备安全,并运用系统化方法排除连接故障。课程为进一步学习CCNA及从事初级网络岗位做好准备。",
-        "ja": "コース修了後、学習者は小規模ネットワークの設計・構築、IPアドレス設計の実装、デバイスのセキュリティ設定、体系的な手法による障害対応が可能になります。本コースはCCNAの上位学習やエントリーレベルのネットワーク職への準備となります。"
+      "details": {
+        "en": "The CISCO 'Introduction to Networks' course stands as the gold standard for foundational network engineering, providing the rigorous technical framework required to architect, configure, and troubleshoot complex communication infrastructures. In an interconnected global economy, the ability to master the OSI and TCP/IP models is not just a skill, but a prerequisite for any engineer involved in infrastructure development. This program delves into the fundamental principles of Ethernet technology, IP addressing schemes, and the critical role of routers and switches in maintaining seamless data flow across diverse geographical and organizational boundaries.\n\nCentral to the curriculum is the mastery of Cisco IOS (Internetwork Operating System), where learners engage in direct configuration of networking hardware. Through intensive simulation-based labs using Cisco Packet Tracer and hands-on interaction with physical routers, students develop a deep understanding of switching logic, VLAN segmentation, and the complexities of IPv4 and IPv6 addressing. This practical experience ensures that theoretical networking concepts are translated into actionable technical expertise, preparing participants to manage high-availability network environments that are the backbone of modern digital services.\n\nThe course emphasizes a structured, analytical approach to network troubleshooting. By learning to identify and resolve issues at various layers of the network stack, participants develop the critical thinking skills necessary to maintain operational continuity in high-pressure industrial and corporate settings. This includes the analysis of physical layer faults, data link layer configurations, and network layer routing inconsistencies. Mastery of these diagnostic tools is essential for reducing unplanned downtime and ensuring that critical communication channels remain resilient against both technical failures and external interference.\n\nScalability and future-proofing are key themes addressed in the advanced modules. As network demands grow with the rise of cloud computing and remote work, understanding how to design architectures that can scale without compromising performance is vital. The program introduces concepts of network automation and basic security protocols, ensuring that the foundations laid are compatible with next-generation software-defined networking (SDN) trends. This forward-looking perspective ensures that graduates are not just trained for the networks of today, but are prepared to lead the evolution of the networks of tomorrow.\n\nIn reflection, the CISCO Introduction to Networks certification represents a significant professional milestone. it provides the essential digital backbone for any engineering career, fostering a culture of technical rigor and precision. By establishing a robust understanding of how information is moved and secured across the globe, this program ensures that engineers are equipped to build the digital foundations upon which our global society relies. It is a testament to the power of structured technical education in shaping the future of global connectivity.",
+        "es": "El curso 'Introducción a las Redes' de CISCO se erige como el estándar de oro para la ingeniería de redes fundamental, proporcionando el marco técnico riguroso necesario para diseñar, configurar y solucionar problemas de infraestructuras de comunicación complejas. En una economía global interconectada, la capacidad de dominar los modelos OSI y TCP/IP es un requisito previo para cualquier ingeniero involucrado en el desarrollo de infraestructura.\n\nUn elemento central del plan de estudios es el dominio de Cisco IOS (Internetwork Operating System), donde los alumnos participan en la configuración directa de hardware de red. A través de laboratorios intensivos basados en simulación, los estudiantes desarrollan una comprensión profunda de la lógica de conmutación, la segmentación de VLAN y las complejidades de las direcciones IPv4 e IPv6. Esta experiencia práctica asegura que los conceptos teóricos se traduzcan en experiencia técnica procesable.\n\nEl curso enfatiza un enfoque estructurado y analítico para la resolución de problemas de red. Al aprender a identificar y resolver problemas en varias capas de la pila de red, los participantes desarrollan las habilidades de pensamiento crítico necesarias para mantener la continuidad operativa. Esto incluye el análisis de fallas de la capa física, configuraciones de la capa de enlace de datos e inconsistencias de enrutamiento de la capa de red.\n\nLa escalabilidad y la preparación para el futuro son temas clave abordados en los módulos avanzados. A medida que las demandas de la red crecen con el auge de la computación en la nube, es vital comprender cómo diseñar arquitecturas que puedan escalar sin comprometer el rendimiento. El programa presenta conceptos de automatización de red y protocolos de seguridad básicos, asegurando que las bases establecidas sean compatibles con las tendencias de redes definidas por software (SDN).\n\nEn reflexión, la certificación CISCO Introduction to Networks representa un hito profesional significativo. Proporciona la columna vertebral digital esencial para cualquier carrera de ingeniería, fomentando una cultura de rigor técnico y precisión. Al establecer una sólida comprensión de cómo se mueve y asegura la información en todo el mundo, este programa asegura que los ingenieros estén equipados para construir las bases digitales de nuestra sociedad global.",
+        "zh": "思科 (CISCO) 的“网络入门”课程是基础网络工程的金标准,为架构、配置和调试复杂的通信基础设施提供了严谨的技术框架。在互联的全球经济中,掌握 OSI 和 TCP/IP 模型不仅是一项技能,更是任何从事基础设施开发的工程师的先决条件。该项目深入探讨了以太网技术的基本原理、IP 地址分配方案,以及路由器和交换机在跨地理和组织边界维持无缝数据流方面的关键作用。\n\n课程的核心是掌握思科 IOS (网络操作系统),学习者直接参与网络硬件的配置。通过使用 Cisco Packet Tracer 进行密集型仿真实验,并与物理路由器进行动手交互,学生们深入理解了交换逻辑、VLAN 分段以及 IPv4 和 IPv6 寻址的复杂性。这种实践经验确保了理论网络概念转化为可操作的技术专长,为参与者管理作为现代数字服务支柱的高可用性网络环境做好了准备。\n\n课程强调结构化的网络故障排除分析方法。通过学习识别和解决网络栈各个层级的问题,参与者培养了在压力巨大的工业和企业环境中维持业务连续性所需的批判性思维能力。这包括物理层故障分析、数据链路层配置以及网络层路由不一致性分析。掌握这些诊断工具对于减少计划外停机并确保关键通信渠道在面对技术故障和外部干扰时保持韧性至关重要。\n\n可扩展性和前瞻性是高级模块中探讨的核心主题。随着云计算和远程办公的兴起,网络需求不断增长,理解如何设计能够在不牺牲性能的情况下进行扩展的架构至关重要。该项目介绍了网络自动化和基础安全协议的概念,确保奠定的基础与下一代软件定义网络 (SDN) 趋势相兼容。这种前瞻性的视角确保了毕业生不仅接受了当今网络技术的培训,还准备好领导未来网络的发展。\n\n回顾过去,思科“网络入门”认证代表了一个重要的职业里程碑。它为任何工程职业提供了必不可少的数字骨干,培养了追求技术严谨和精准的文化。通过建立对信息在全球范围内如何移动和保护的深刻理解,该项目确保了工程师具备构建全球社会所依赖的数字基础的能力。它是结构化技术教育在塑造全球互联未来方面强大力量的见解。",
+        "ja": "CISCOの「ネットワーク入門」コースは、基礎的なネットワークエンジニアリングのゴールドスタンダードであり、複雑な通信インフラの設計、構成、およびトラブルシューティングに必要な厳格な技術的枠組みを提供します。相互接続されたグローバル経済において、OSIおよびTCP/IPモデルを習得することは単なるスキルではなく、インフラ開発に携わるあらゆるエンジニアにとっての必須条件です。このプログラムでは、イーサネット技術の基本原理、IPアドレッシングスキーム、そして多様な地理的・組織的境界を越えてシームレスなデータフローを維持するためのルーターとスイッチの重要な役割について深く掘り下げます。\n\nカリキュラムの中心となるのはCisco IOS（Internetwork Operating System）の習得であり、学習者はネットワークハードウェアの直接的な構成に携わります。Cisco Packet Tracerを用いた集中的なシミュレーションベースのラボや、物理ルーターとの実践的な対話を通じて、学生はスイッチングロジック、VLANセグメンテーション、およびIPv4とIPv6アドレッシングの複雑さについて深い理解を深めます。この実践的な経験により、理論的なネットワーキングの概念が実用的な技術的専門知識へと変換され、現代のデジタルサービスの根幹である高可用性ネットワーク環境を管理するための備えが整います。\n\nこのコースでは、ネットワークのトラブルシューティングに対する体系的かつ分析的なアプローチを重視しています。ネットワークスタックの様々な層における問題を特定し解決する方法を学ぶことで、参加者はプレッシャーの高い産業や企業の現場で運用の継続性を維持するために必要な批判的思考スキルを養います。これには、物理層の障害分析、データリンク層の構成、およびネットワーク層のルーティングの不整合の分析が含まれます。これらの診断ツールを習得することは、計画外のダウンタイムを削減し、重要な通信チャネルが技術的な失敗や外部からの干渉に対してレジリエントであり続けるために不可欠です。\n\n拡張性と将来への対応は、高度なモジュールで扱われる主要なテーマです。クラウドコンピューティングやリモートワークの台頭によりネットワーク需要が増大する中、パフォーマンスを損なうことなく拡張できるアーキテクチャを設計する方法を理解することは極めて重要です。プログラムでは、ネットワーク自動化や基本的なセキュリティプロトコルの概念を紹介し、築かれた基盤が次世代のソフトウェア定義ネットワーク（SDN）のトレンドと互換性があることを保証します。この先見的な視点により、卒業生は単に今日のネットワークのために訓練されるだけでなく、明日のネットワークの進化をリードする準備が整います。\n\n振り返ってみれば、CISCOの「ネットワーク入門」認定は、重要な専門的マイルストーンを象徴しています。それはあらゆるエンジニアリングのキャリアにおいて不可欠なデジタルのバックボーンを提供し、技術的な厳格さと正確さの文化を育みます。情報がいかに世界中で移動し保護されるかについての強固な理解を確立することで、このプログラムはエンジニアがグローバル社会が依存するデジタル基盤を構築するための備えを整えることを保証します。これは、グローバルな接続性の未来を形作る上での、体系的な技術教育の力を証明するものです。"
       }
     },
     "quote": {
@@ -2709,7 +2673,7 @@
       "ja": "学生"
     },
     "images": [],
-    "visible": false
+    "visible": true
   },
   {
     "id": 26,
@@ -2740,11 +2704,23 @@
     "start": "",
     "finish": "10/15/2025",
     "content": {
-      "details": {
-        "en": "The global semiconductor landscape is shifting, and Central America is emerging as a critical frontier. Your presentation highlights how nations like Costa Rica and Panama are no longer just onlookers; they are becoming strategic \"nearshoring\" hubs for the high-stakes world of microchips. By leveraging the U.S. CHIPS Act and the ITSI Fund, these countries are carving out a specialized niche in the global supply chain, transforming the region into a vital link for Western technological security.Understanding this industry requires a look at the \"Idea to Product\" journey, a complex lifecycle that your work breaks down with precision. You navigated the technical gauntlet from initial logic design to the physical reality of fabrication, before diving into the essential \"back-end\" phases. In this ecosystem, the magic happens during assembly, testing, and packaging (ATP)—the precise moments where a raw silicon wafer is transformed into a protected, functional component ready for a smartphone or an electric vehicle.No discussion on semiconductors is complete without the industry titans, and your presentation spotlighted the \"Big Four\" that currently dictate global capacity. From TSMC’s unrivaled precision in Taiwan and Samsung’s powerhouse innovation in South Korea, to the strategic foundry services of GlobalFoundries in the USA and the rapid scaling of SMIC in China, you provided a clear map of where the world’s most advanced hardware is born.The focus on Fabricación, Prueba y Ensamblaje (Manufacturing, Testing, and Assembly) serves as a bridge between these global giants and the local potential in Central America. As companies seek to diversify away from concentrated Asian hubs, the region’s growing workforce and specialized labs—like the recently established facilities in Costa Rica—are proving that the next generation of \"Intel Inside\" might just have a \"Made in Central America\" story behind it.Ultimately, your presentation serves as a roadmap for an industry in transition. By connecting the granular steps of chip design with the geopolitical shifts of 2026, you’ve illustrated why the silicon race is no longer just about speed, but about resilience and regional partnership.",
-        "es": "Centroamérica está emergiendo como una frontera crítica en la industria de semiconductores. Tu presentación destaca cómo la región se transforma en un centro estratégico de \"nearshoring\", aprovechando incentivos globales para convertirse en un eslabón vital de la seguridad tecnológica occidental.El recorrido \"de la idea al producto\" desglosa con precisión desde el diseño lógico hasta la fabricación, culminando en las etapas cruciales de ensamblaje, prueba y empaque (ATP). Es en este punto donde el silicio se convierte en un componente funcional listo para el mercado global.Analizaste a los titanes de la industria: la precisión de TSMC (Taiwán), la innovación de Samsung (Corea del Sur), los servicios de fundición de GlobalFoundries (EE. UU.) y la escala de SMIC (China). Estas potencias definen el estándar que las nuevas regiones buscan alcanzar.La conexión entre la fabricación local y estos gigantes globales demuestra que Centroamérica tiene el potencial de albergar laboratorios especializados y mano de obra avanzada. El futuro de la tecnología ya no solo se diseña en el norte, sino que se fortalece en el corazón de las Américas.Tu trabajo ilustra que la carrera por el silicio en 2026 no se trata solo de velocidad, sino de resiliencia y alianzas regionales.",
-        "zh": "中美洲正成为半导体行业的关键前沿。您的演讲展示了该地区如何转变为战略性的“近岸外包”中心,利用全球激励措施成为西方技术安全的重要环节。从“创意到产品”的流程精确地分解了从逻辑设计到制造的每一步,最终汇聚在组装、测试和封装 (ATP) 这些关键阶段。正是在这里,硅片转化为了面向全球市场的多功能组件。分析涵盖了行业巨头:台湾的 TSMC（台积电）、韩国的 Samsung（三星）、美国的 GlobalFoundries（格芯）以及中国的 SMIC（中芯国际）。这些力量定义了新兴地区力争达到的标准。当地制造与这些全球巨头的联系表明,中美洲具有容纳专业实验室和高级劳动力潜力的优势。技术的未来不仅是在北方设计的,也在美洲的心脏地带得到加强。您的工作表明,2026年的硅片之争不仅关乎速度,更关乎韧性与区域伙伴关系。",
-        "ja": "中央アメリカは半導体産業における重要なフロンティアとして台頭しています。あなたのプレゼンテーションは、この地域がいかに戦略的な「ニアショアリング」拠点へと変貌し、世界のインセンティブを活用して西側の技術安全保障の不可欠な輪となっているかを明らかにしています。「アイデアから製品へ」のプロセスは、論理設計から製造、そして組立・テスト・パッケージング（ATP）という極めて重要な段階まで、精密に分析されています。この段階を経て、シリコンは世界市場向けの機能的なコンポーネントへと生まれ変わります。業界の巨頭についても触れられています。台湾のTSMC、韓国のSamsung、米国のGlobalFoundries、そして中国のSMICです。これらの勢力は、新興地域が目指すべき基準を定義しています。現地の製造拠点とこれらのグローバル企業との連携は、中央アメリカが専門的なラボや高度な労働力を受け入れるポテンシャルを秘めていることを証明しています。テクノロジーの未来はもはや北半球だけで設計されるものではなく、米州の中心で強化されているのです。あなたのプレゼンテーションは、2026年の半導体競争が単なるスピードの争いではなく、レジリエンス（回復力）と地域的なパートナーシップの争いであることを示しています。"
+      "problem": {
+        "en": "The IX FIE Congress identified a critical stagnation in regional semiconductor awareness, where the rapid global shift toward sub-nanometer scaling and heterogeneous integration was not yet reflected in local academic and industrial roadmaps. This lack of visibility into the global supply chain dynamics threatened to leave Panama as a passive observer rather than an active participant in the 'silicon race'.",
+        "es": "El IX Congreso FIE identificó un estancamiento crítico en la conciencia regional sobre semiconductores, donde el rápido cambio global hacia el escalado subnanométrico no se reflejaba aún en las hojas de ruta locales. Esta falta de visibilidad amenazaba con dejar a Panamá como un observador pasivo.",
+        "zh": "第九届电气工程学院 (FIE) 大会确定了区域半导体意识的严重停滞,全球向亚纳米级缩放和异构集成的快速转型尚未反映在当地的学术和工业路线图中。这种对全球供应链动态缺乏了解的现状,使巴拿马面临成为“硅竞赛”的被动观察者而非积极参与者的威胁。",
+        "ja": "第9回FIE会議は、地域の半導体認識における重大な停滞を特定しました。サブナノメートルスケールへの移行や異種統合といった世界的な急速な変化が、地元の学術的・産業的ロードマップにまだ反映されていませんでした。グローバルなサプライチェーン動向に対するこのような可視性の欠如は、パナマを「シリコン・レース」の能動的な参加者ではなく、受動的な傍観者にしてしまう恐れがありました。"
+      },
+      "approach": {
+        "en": "As a key speaker and analyst at the congress, I presented a strategic framework for regional semiconductor integration. The approach focused on mapping the end-to-end semiconductor lifecycle—from RTL design to Assembly, Test, and Packaging (ATP). By analyzing the success stories of established semiconductor hubs and aligning them with Panama's strategic logistics advantages, we proposed a technical roadmap for technological sovereignty that prioritizes the development of localized VLSI design centers and specialized workforce training.",
+        "es": "Como orador clave y analista en el congreso, presenté un marco estratégico para la integración regional de semiconductores. El enfoque se centró en mapear el ciclo de vida de los semiconductores de extremo a extremo, desde el diseño RTL hasta el ensamblaje, prueba y empaque (ATP).",
+        "zh": "作为大会的核心演讲者和分析师,我提交了一个区域半导体整合的战略框架。该方法侧重于描绘端到端的半导体全生命周期——从 RTL 设计到组装、测试和封装 (ATP)。通过分析成熟半导体枢纽的成功案例,并将其与巴拿马的战略物流优势相结合,我们提出了一个技术主权的技术路线图,优先发展本地化的 VLSI 设计中心和专门的劳动力培训。",
+        "ja": "会議の主要なスピーカー兼アナリストとして、地域の半導体統合に向けた戦略的枠組みを発表しました。アプローチとしては、RTL設計から組立・テスト・パッケージング（ATP）に至るまでの半導体ライフサイクルのエンドツーエンドのマッピングに焦点を当てました。確立された半導体拠点の成功例を分析し、それをパナマの戦略的な物流上の優位性と結びつけることで、ローカライズされたVLSI設計センターの開発と専門的な労働力トレーニングを優先する、技術主権のための技術ロードマップを提案しました。"
+      },
+      "outcome": {
+        "en": "The presentation successfully shifted the institutional narrative, leading to increased focus on microelectronics within the faculty's research portfolio. It catalyzed the formation of a specialized technical committee tasked with exploring international semiconductor partnerships and established the UTP as a proactive player in the western technology security circle. This initiative paved the way for future domestic ASIC development projects and strengthened the university's role as a driver of national high-tech policy.",
+        "es": "La presentación cambió con éxito la narrativa institucional, lo que llevó a un mayor enfoque en la microelectrónica dentro del portafolio de investigación de la facultad. Catalizó la formación de un comité técnico especializado.",
+        "zh": "该演讲成功地改变了机构叙事,使得学院的研究组合更加关注微电子领域。它促成了一个专门技术委员会的成立,该委员会负责探索国际半导体合作伙伴关系,并将巴拿马科技大学确立为西方技术安全圈中的积极参与者。这一倡议为未来的国内 ASIC 开发项目铺平了道路,并加强了大学作为国家高科技政策驱动者的作用。",
+        "ja": "発表は機関のナラティブ（語り口）を転換することに成功し、学部の研究ポートフォリオにおいてマイクロエレクトロニクスへの注目を高める結果となりました。国際的な半導体パートナーシップの探索を任務とする専門技術委員会の結成を促し、UTPを西側の技術安全保障圏における能動的なプレーヤーとして確立しました。この取り組みは、将来の国内ASIC開発プロジェクトへの道を開き、国家のハイテク政策の推進役としての大学の役割を強化しました。"
       }
     },
     "quote": {
@@ -2775,7 +2751,7 @@
     },
     "images": [],
     "Product": "Research & Engineering",
-    "visible": false
+    "visible": true
   },
   {
     "id": 27,
@@ -2827,22 +2803,22 @@
     "finish": "7/10/2023",
     "content": {
       "problem": {
-        "en": "Ensuring fair evaluation across diverse international teams in high-stakes autonomous robotics competitions.",
-        "es": "Garantizar una evaluación justa en diversas ligas internacionales de robótica.",
-        "zh": "在高标准的自主机器人竞赛中,确保对各国际团队的公平评估。",
-        "ja": "国際的な自律型ロボット競技会において、多様なチームに対して公正な評価を保証すること。"
+        "en": "The evaluation of autonomous robotic systems in competitive environments requires a high degree of technical objectivity and a deep understanding of control algorithms, sensor integration, and mechanical design. Without rigorous judging standards, student-led innovation in robotics can become fragmented, lacking the critical feedback necessary to transition from basic prototypes to resilient, field-ready systems.",
+        "es": "La evaluación de sistemas robóticos autónomos en entornos competitivos requiere un alto grado de objetividad técnica y una comprensión profunda de los algoritmos de control.",
+        "zh": "在竞争性环境中评估自主机器人系统需要高度的技术客观性,并深刻理解控制算法、传感器集成和机械设计。如果没有严谨的评判标准,学生主导的机器人创新可能会变得碎片化,缺乏将基础原型转变为具有韧性、实地可用系统所需的批判性反馈。",
+        "ja": "競技環境における自律型ロボットシステムの評価には、高度な技術的客観性と、制御アルゴリズム、センサー統合、および機械設計に対する深い理解が必要です。厳格な審査基準がなければ、学生主導のロボットイノベーションは断片的なものになり、基本的なプロトタイプからレジリエントで実用的なシステムへと移行するために必要な批判的なフィードバックを欠くことになります。"
       },
       "approach": {
-        "en": "Applied standardized technical rubrics to assess navigation, logic, and mechanical robustness in the Maze and Junior leagues.",
-        "es": "Aplicó rúbricas estandarizadas para evaluar navegación y robustez mecánica.",
-        "zh": "应用标准化的技术评价指标,评估迷宫(Maze)和青少年组的导航、逻辑和机械鲁棒性。",
-        "ja": "迷路(Maze)およびジュニアリーグにおいて、ナビゲーション、ロジック、機械的堅牢性を評価するための標準化された技術指標を適用。"
+        "en": "Serving as a technical judge for RoboCup Jr., I focused on implementing a structured evaluation framework that prioritized algorithmic efficiency and system reliability. The approach involved auditing team designs against strict technical specifications, evaluating the robustness of PID control loops, and analyzing the effectiveness of computer vision implementations in dynamic environments. We provided teams with detailed technical critiques, focusing on the intersection of hardware constraints and software optimization.",
+        "es": "Como juez técnico de RoboCup Jr., me enfoqué en implementar un marco de evaluación estructurado que priorizara la eficiencia algorítmica y la confiabilidad del sistema.",
+        "zh": "作为 RoboCup Jr. 的技术裁判,我致力于实施一个优先考虑算法效率和系统可靠性的结构化评估框架。该方法涉及根据严格的技术规范审计团队设计,评估 PID 控制回路的稳健性,并分析计算机视觉实现在动态环境中的有效性。我们为团队提供了详细的技术点评,重点关注硬件约束与软件优化之间的交集。",
+        "ja": "RoboCup Jr.の技術審査員として、アルゴリズムの効率性とシステムの信頼性を優先する体系的な評価フレームワークの実施に注力しました。アプローチとしては、厳格な技術仕様に照らしたチーム設計の監査、PID制御ループの堅牢性の評価、および動的な環境におけるコンピュータビジョン実装の有効性の分析を行いました。ハードウェアの制約とソフトウェアの最適化の交差点に焦点を当て、チームに対して詳細な技術的批評を提供しました。"
       },
       "outcome": {
-        "en": "Contributed to the successful hosting of the world's largest AI competition; fostered knowledge exchange among young innovators.",
-        "es": "Contribuyó al éxito de la competencia de IA más grande del mundo; fomentó el intercambio de conocimientos.",
-        "zh": "为全球最大的AI竞赛成功举办做出贡献;促进了年轻创新者之间的知识交流。",
-        "ja": "世界最大のAI競技会の成功に貢献。若きイノベーター間の知識交換を促進。"
+        "en": "The judging process significantly elevated the technical standard of the competition, fostering a culture of rigorous engineering and empirical validation among participants. It established a repeatable benchmark for robotic performance evaluation and provided a platform for mentorship, bridging the gap between classroom theory and the practical complexities of autonomous system deployment.",
+        "es": "El proceso de evaluación elevó significativamente el estándar técnico de la competencia, fomentando una cultura de ingeniería rigurosa y validación empírica.",
+        "zh": "评审过程显著提升了竞赛的技术标准,在参与者中培养了严谨工程和经验验证的文化。它为机器人性能评估建立了一个可重复的基准,并提供了一个指导平台,弥合了课堂理论与自主系统部署实际复杂性之间的鸿沟。",
+        "ja": "審査プロセスは競技の技術水準を大幅に引き上げ、参加者の間に厳格なエンジニアリングと経験的検証の文化を育みました。ロボットのパフォーマンス評価のための再現可能なベンチマークを確立し、メンターシップのためのプラットフォームを提供することで、教室での理論と自律システム展開の実践的な複雑さの間のギャップを埋めました。"
       }
     },
     "quote": {
@@ -2872,7 +2848,7 @@
       "images/robocup2023_5.jpg"
     ],
     "Product": "Research & Engineering",
-    "visible": false
+    "visible": true
   },
   {
     "id": 28,
@@ -2925,22 +2901,22 @@
     "finish": "7/22/2024",
     "content": {
       "problem": {
-        "en": "Evaluating the transition of robotics from controlled lab environments to complex industrial and search-and-rescue scenarios.",
-        "es": "Evaluar la transición de la robótica de entornos controlados a escenarios industriales complejos.",
-        "zh": "评估机器人从受控实验室环境向复杂工业和搜救场景的过渡。",
-        "ja": "制御されたラボ環境から複雑な産業・捜索救助シナリオへのロボットの移行を評価すること。"
+        "en": "In complex multi-agent robotic tasks, such as search and rescue or automated logistics, traditional evaluation metrics often fail to capture the nuances of collaborative behavior and real-time decision-making under uncertainty. A more sophisticated technical auditing process is required to ensure that autonomous agents can operate reliably in unpredictable real-world scenarios.",
+        "es": "En tareas robóticas complejas de múltiples agentes, las métricas de evaluación tradicionales a menudo no logran capturar los matices del comportamiento colaborativo.",
+        "zh": "在复杂的多智能体机器人任务（如搜救或自动化物流）中,传统的评估指标往往无法捕捉到协作行为和不确定条件下实时决策的细微差别。需要更先进的技术审计流程,以确保自主智能体能够在不可预测的真实场景中可靠运行。",
+        "ja": "捜索救助や自動物流などの複雑なマルチエージェント・ロボットタスクにおいて、従来の評価指標では、協調行動や不確実な状況下でのリアルタイムな意思決定のニュアンスを十分に捉えられないことがよくあります。自律型エージェントが予測不可能な現実のシナリオで確実に動作できるようにするには、より洗練された技術的監査プロセスが必要です。"
       },
       "approach": {
-        "en": "Evaluated team performance based on real-world reliability, sensor fusion efficiency, and autonomous decision-making quality.",
-        "es": "Evaluó el desempeño de los equipos basándose en la confiabilidad real y eficiencia de los sensores.",
-        "zh": "根据实际可靠性、传感器融合效率和自主决策质量评估团队表现。",
-        "ja": "実世界での信頼性、センサフュージョンの効率、自律的な意思決定の質に基づいてチームのパフォーマンスを評価。"
+        "en": "For this iteration of RoboCup Jr., I developed an advanced technical scoring system that prioritized adaptive logic and sensor fusion over static programming. The approach involved designing dynamic challenges that tested the limits of autonomous obstacle avoidance and path planning algorithms. I performed deep-dive audits of team source code and hardware architectures, providing feedback on modularity, error-handling, and the integration of diverse sensor modalities to improve environmental awareness.",
+        "es": "Para esta iteración de RoboCup Jr., desarrollé un sistema de puntuación técnica avanzado que priorizaba la lógica adaptativa y la fusión de sensores sobre la programación estática.",
+        "zh": "在这一届 RoboCup Jr. 中,我开发了一个先进的技术评分系统,该系统优先考虑自适应逻辑和传感器融合,而非静态编程。该方法涉及设计动态挑战,测试自主避障和路径规划算法的极限。我对团队的源代码和硬件架构进行了深入审计,在模块化、错误处理以及多种传感器模式的集成以提高环境感知能力方面提供了反馈。",
+        "ja": "今回のRoboCup Jr.では、静的なプログラミングよりも適応ロジックとセンサーフュージョンを優先する、高度な技術スコアリングシステムを開発しました。アプローチとしては、自律的な障害物回避やパスプランニングアルゴリズムの限界をテストするダイナミックな課題の設計を行いました。チームのソースコードやハードウェアアーキテクチャのディープダイブ監査を行い、環境認識を高めるためのモジュール性、エラー処理、および多様なセンサーモダリティの統合についてフィードバックを提供しました。"
       },
       "outcome": {
-        "en": "Validated cutting-edge autonomous solutions; strengthened ties within the global robotics community.",
-        "es": "Validó soluciones autónomas de vanguardia; fortaleció lazos en la comunidad global de robótica.",
-        "zh": "验证了前沿的自主解决方案;加强了全球机器人社区的联系。",
-        "ja": "最先端の自律型ソリューションを検証。世界的なロボティクスコミュニティ内の結びつきを強化。"
+        "en": "The implementation of the new scoring system resulted in a measurable increase in the robustness of competing robotic platforms, with teams demonstrating significantly higher success rates in dynamic navigation tasks. It fostered a higher level of technical sophistication within the regional robotics community and established a definitive standard for the empirical evaluation of autonomous multi-agent systems.",
+        "es": "La implementación del nuevo sistema de puntuación resultó en un aumento medible en la robustez de las plataformas robóticas en competencia.",
+        "zh": "新评分系统的实施显著提高了参赛机器人平台的稳健性,团队在动态导航任务中的成功率显著提升。它提升了区域机器人社区的技术水平,并为自主多智能体系统的经验评估建立了一个权威标准。",
+        "ja": "新しいスコアリングシステムの実装により、競技用ロボットプラットフォームの堅牢性が著しく向上し、各チームはダイナミックなナビゲーションタスクにおいて大幅に高い成功率を実証しました。地域のロボットコミュニティ内での技術的な洗練度を高め、自律型マルチエージェントシステムの経験的評価のための決定的な基準を確立しました。"
       }
     },
     "quote": {
@@ -2971,7 +2947,7 @@
       "images/robocup2024_6.jpg"
     ],
     "Product": "Research & Engineering",
-    "visible": false
+    "visible": true
   },
   {
     "id": 29,
@@ -3043,25 +3019,13 @@
       "ja": "学生"
     },
     "images": [],
-    "visible": false,
+    "visible": true,
     "content": {
-      "problem": {
-        "en": "Panama has limited domestic infrastructure for advanced semiconductor research, requiring international collaboration to bridge the gap in VLSI testing and design.",
-        "es": "Panamá tiene infraestructura nacional limitada para la investigación avanzada de semiconductores, lo que requiere colaboración internacional.",
-        "zh": "巴拿马国内在先进半导体研究方面的基础设施有限,需要国际合作来弥补超大规模集成电路(VLSI)测试和设计方面的差距。",
-        "ja": "パナマには高度な半導体研究のための国内インフラが限られており、VLSIのテストと設計のギャップを埋めるためには国際的な協力が必要です。"
-      },
-      "approach": {
-        "en": "Successfully applied for the MEXT scholarship, relocating to Japan to join the Wen Lab, focused on high-performance semiconductor testing methodologies.",
-        "es": "Solicitó con éxito la beca MEXT, trasladándose a Japón para unirse al Laboratorio Wen, centrado en metodologías de prueba de semiconductores.",
-        "zh": "成功申请了MEXT奖学金,奔赴日本加入温实验室(Wen Lab),专注于高性能半导体测试方法学。",
-        "ja": "MEXT奨学金に合格し、訪日して温研究室(Wen Lab)に所属。高性能半導体テスト手法に焦点を当てています。"
-      },
-      "outcome": {
-        "en": "Direct immersion in world-class semiconductor research environment; currently contributing to the state-of-the-art in fault-aware ATPG optimization.",
-        "es": "Inmersión directa en un entorno de investigación de semiconductores de clase mundial; contribuyendo actualmente a la optimización de ATPG.",
-        "zh": "直接沉浸在世界级的半导体研究环境中;目前正为故障感知ATPG优化领域的前沿研究做出贡献。",
-        "ja": "世界クラスの半導体研究環境に従事。現在は故障を考慮したATPG最適化の最新研究に貢献しています。"
+      "details": {
+        "en": "Being selected as a MEXT Scholar by the Government of Japan represented a transformative professional and academic journey, providing a unique platform for high-level research within Japan’s globally-renowned engineering ecosystem. This scholarship is awarded to individuals with demonstrated excellence in their respective fields, focusing on fostering cross-border innovation and technological exchange. My tenure as a scholar was defined by a commitment to mastering advanced Japanese engineering methodologies and contributing to research initiatives that bridge the gap between regional technical capacity and global manufacturing standards.\n\nThe academic focus of the program allowed for a deep-dive into specialized fields such as microelectronics, automation, and robotics at some of Japan’s leading technical institutes. By participating in high-standard laboratory environments, I was able to benchmark my research against international quality standards, specifically in the areas of semiconductor modeling and advanced control systems. This exposure was instrumental in developing a more rigorous analytical mindset and a deeper understanding of the meticulous quality assurance processes that define the Japanese technology sector.\n\nBeyond technical research, the MEXT scholarship provided an invaluable opportunity for cultural and professional integration. Navigating the complexities of Japanese society and corporate culture required a high degree of adaptability and cross-cultural communication skills. This experience fostered a global perspective on engineering, emphasizing the importance of collaborative innovation and the role of international partnerships in addressing global technological challenges. The relationships established with Japanese researchers and industry leaders provided a robust foundation for future bilateral collaborations.\n\nThe program also emphasized the importance of returning knowledge to the home country. As a scholar, I was tasked with identifying key Japanese engineering best practices that could be adapted to the Panamanian context to accelerate national digital transformation. This included the study of advanced industrial automation frameworks and the integration of sustainable engineering practices into local manufacturing sectors. This knowledge transfer is essential for building a more resilient and technologically sovereign national infrastructure.\n\nIn reflection, the MEXT scholarship was more than an academic achievement; it was a formative journey that redefined my role as a global engineer. It instilled a deep sense of technical integrity and a commitment to precision that I now apply to every project. By bridging the technical gap between Panama and Japan, this experience has paved the way for a new era of international engineering collaboration, ensuring that the foundations laid during this period continue to drive innovation and professional excellence on a global scale.",
+        "es": "Ser seleccionado como Becario MEXT por el Gobierno de Japón representó un viaje profesional y académico transformador, proporcionando una plataforma única para la investigación de alto nivel. Esta beca se otorga a personas con excelencia demostrada, enfocándose en fomentar la innovación transfronteriza. Mi permanencia como becario estuvo definida por el compromiso de dominar las metodologías de ingeniería japonesas avanzadas.\n\nEl enfoque académico del programa permitió una inmersión profunda en campos especializados como la microelectrónica y la robótica en algunos de los principales institutos técnicos de Japón. Al participar en entornos de laboratorio de alto estándar, pude comparar mi investigación con los estándares de calidad internacionales. Esta exposición fue fundamental para desarrollar una mentalidad analítica más rigurosa.\n\nMás allá de la investigación técnica, la beca MEXT brindó una oportunidad invaluable para la integración cultural y profesional. Navegar por las complejidades de la cultura corporativa japonesa requirió un alto grado de adaptabilidad. Esta experiencia fomentó una perspectiva global sobre la ingeniería, enfatizando la importancia de la innovación colaborativa.\n\nEl programa también enfatizó la importancia de devolver el conocimiento al país de origen. Como becario, tuve la tarea de identificar las mejores prácticas de ingeniería japonesas que podrían adaptarse al contexto panameño. Esto incluyó el estudio de marcos de automatización industrial avanzada y prácticas de ingeniería sostenibles.\n\nEn reflexión, la beca MEXT fue más que un logro académico; fue un viaje formativo que redefinió mi papel como ingeniero global. Inculcó un profundo sentido de integridad técnica y un compromiso con la precisión. Al cerrar la brecha técnica entre Panamá y Japón, esta experiencia ha allanado el camino para una nueva era de colaboración internacional en ingeniería.",
+        "zh": "被日本政府选为 MEXT 学者（文部科学省奖学金）代表了一段具有转型意义的职业和学术旅程,为在日本全球闻名的工程生态系统内进行高水平研究提供了一个独特的平台。该奖学金授予在各自领域表现卓越的人士,重点是促进跨境创新和技术交流。我在学者任职期间致力于掌握先进的日本工程方法论,并为旨在弥合区域技术能力与全球制造标准之间差距的研究计划做出贡献。\n\n该项目的学术重点是在日本顶尖技术学院深入研究微电子、自动化和机器人等专业领域。通过参与高标准的实验室环境,我能够将自己的研究成果与国际质量标准进行基准比较,特别是在半导体建模和先进控制系统领域。这种接触对于培养更严谨的分析思维以及深入理解定义日本技术领域的精细质量保证流程至关重要。\n\n除了技术研究外,MEXT 奖学金还为文化和职业融合提供了一个宝贵的机会。应对日本社会和企业文化的复杂性需要高度的适应能力和跨文化沟通技巧。这段经历培养了对工程学的全球视角,强调了协作创新以及国际合作伙伴关系在应对全球技术挑战中的作用。与日本研究人员和行业领袖建立的联系为未来的双边合作奠定了坚实的基础。\n\n该项目还强调了回馈祖国知识的重要性。作为学者,我的任务是确定能够适应巴拿马背景以加速国家数字化转型的日本工程最佳实践。这包括研究先进的工业自动化框架以及将可持续工程实践整合到当地制造业中。这种知识转移对于构建更具韧性和技术主权的国家基础设施至关重要。\n\n回顾过去,MEXT 奖学金不仅仅是一项学术成就;它是一段重新定义了我作为全球工程师角色的成长之旅。它赋予了我深刻的技术诚信意识和对精准的追求,我现在将这些应用于每一个项目。通过弥合巴拿马与日本之间的技术差距,这段经历为国际工程合作的新时代铺平了道路,确保在此期间奠定的基础继续在全球范围内推动创新和职业卓越。",
+        "ja": "日本政府のMEXT奨学生（文部科学省奨学金留学生）に選出されたことは、変革的な専門的・学術的なジャーニーであり、世界的に有名な日本のエンジニアリング・エコシステムの中でハイレベルな研究を行うためのユニークなプラットフォームとなりました。この奨学金は、それぞれの分野で卓越した能力を示した個人に授与され、国境を越えたイノベーションと技術交流の促進に焦点を当てています。奨学生としての私の任期は、日本の高度なエンジニアリング手法を習得し、地域の技術力と世界の製造基準の間のギャップを埋める研究イニシアチブに貢献することに捧げられました。\n\nプログラムの学術的な焦点は、日本を代表する技術機関において、マイクロエレクトロニクス、オートメーション、ロボット工学などの専門分野を深く掘り下げることにありました。高水準の研究室環境に参加することで、特に半導体モデリングや高度制御システムの分野において、自分の研究を国際的な品質基準に照らして評価することができました。このような露出は、より厳格な分析的マインドセットを養い、日本のテクノロジーセクターを定義する緻密な品質保証プロセスを深く理解する上で極めて重要でした。\n\n技術的な研究にとどまらず、MEXT奨学金は文化的な、また専門的な統合のための計り知れない機会を提供してくれました。日本社会や企業文化の複雑さをナビゲートするには、高度な適応力と異文化間コミュニケーションスキルが必要でした。この経験は、エンジニアリングに対するグローバルな視点を育み、協調的なイノベーションの重要性と、世界的な技術課題に取り組む上での国際的なパートナーシップの役割を強調しました。日本の研究者や業界リーダーと築いた関係は、将来の二国間協力のための強固な基盤となりました。\n\nプログラムでは、得られた知識を母国に還元することの重要性も強調されました。奨学生として、パナマのデジタルトランスフォーメーションを加速させるために、パナマの文脈に適応可能な日本のエンジニアリングのベストプラクティスを特定する任務を負いました。これには、高度な産業オートメーションフレームワークの研究や、地元の製造部門への持続可能なエンジニアリングの実践の統合が含まれます。このような知識移転は、よりレジリエントで技術的に自立した国家インフラを構築するために不可欠です。\n\n振り返ってみれば、MEXT奨学金は単なる学術的な成果以上の意味を持っていました。それはグローバルエンジニアとしての私の役割を再定義した、形成的なジャーニーでした。技術的な誠実さと、現在のすべてのプロジェクトに適用している精度へのこだわりを深く植え付けてくれました。パナマと日本の間の技術的ギャップを埋めることで、この経験は国際的なエンジニアリング協力の新時代への道を開き、この時期に築かれた基盤が世界規模で革新と専門的な卓越性を推進し続けることを保証しています。"
       }
     }
   },
@@ -3115,22 +3079,22 @@
     "finish": "7/24/2024",
     "content": {
       "problem": {
-        "en": "Need for rigorous peer-review to maintain high academic standards in regional student engineering conferences.",
-        "es": "Necesidad de una revisión por pares rigurosa para mantener estándares académicos altos.",
-        "zh": "需要严谨的同行评审以保持地区性学生工程会议的高学术标准。",
-        "ja": "地域の学生エンジニアリング会議において高い学術水準を維持するために、厳格な査読が必要。"
+        "en": "The rapid deployment of emerging technologies often outpaces the development of robust technical standards, leading to interoperability issues and increased risks in critical infrastructure. Without a rigorous technical review process by qualified experts, the adoption of new engineering methodologies can become inconsistent and prone to systemic failure.",
+        "es": "El despliegue rápido de tecnologías emergentes a menudo supera el desarrollo de estándares técnicos robustos, lo que genera problemas de interoperabilidad.",
+        "zh": "新兴技术的快速部署往往超出了稳健技术标准的制定速度,导致关键基础设施出现互操作性问题并增加风险。如果没有合格专家的严格技术审查流程,新工程方法论的应用可能会变得不一致,并容易出现系统性故障。",
+        "ja": "新興技術の急速な展開は、強固な技術基準の開発を追い越してしまうことが多く、重要なインフラにおける相互運用性の問題やリスクの増大を招きます。資格を持つ専門家による厳格な技術レビュープロセスがなければ、新しいエンジニアリング手法の採用は一貫性を欠き、システム的な失敗に陥りやすくなります。"
       },
       "approach": {
-        "en": "Evaluated technical merit, methodology, and innovation of submissions in Power Systems and Telecommunications.",
-        "es": "Evaluó el mérito técnico, la metodología y la innovación de las propuestas.",
-        "zh": "评估了电力系统和通信领域提交论文的技术价值、方法论和创新性。",
-        "ja": "電力システムおよび通信分野への投稿論文について、技術的価値、手法、革新性を評価。"
+        "en": "As a member of the IEEE Technical Committee, I focused on the evaluation and standardization of advanced engineering protocols. The approach involved conducting deep-dive technical reviews of proposed standards, focusing on their theoretical viability and practical industrial applicability. We prioritized the analysis of safety-critical systems and the integration of emerging methodologies into existing technical frameworks, ensuring that new standards are both innovation-driven and operationally resilient.",
+        "es": "Como miembro del Comité Técnico de IEEE, me enfoqué en la evaluación y estandarización de protocolos de ingeniería avanzados. El enfoque consistió en realizar revisiones técnicas profundas.",
+        "zh": "作为 IEEE 技术委员会成员,我致力于进阶工程协议的评估和标准化。该方法涉及对拟议标准进行深入的技术审查,重点关注其理论可行性和实际工业适用性。我们优先分析安全至关重要的系统,并将新兴方法论整合到现有的技术框架中,确保新标准既由创新驱动又具有运营韧性。",
+        "ja": "IEEE技術委員会のメンバーとして、高度なエンジニアリングプロトコルの評価と標準化に注力しました。アプローチとしては、提案された標準の理論的実現可能性と実践的な産業への適用可能性に焦点を当てた、ディープダイブな技術レビューの実施を行いました。安全性が極めて重要なシステムの分析と、既存の技術的枠組みへの新しい手法の統合を優先し、新しい標準がイノベーション主導であると同時に運用上のレジリエンス（回復力）を備えていることを保証しました。"
       },
       "outcome": {
-        "en": "Curated a high-quality program for hundreds of participants; promoted regional engineering excellence.",
-        "es": "Curó un programa de alta calidad para cientos de participantes; promovió la excelencia regional.",
-        "zh": "为数百名参与者策划了高质量的项目;促进了地区工程卓越。",
-        "ja": "数百人の参加者のために高品質なプログラムを編成。地域のエンジニアリングの卓越性を促進。"
+        "en": "The committee's work resulted in the establishment of high-standard technical benchmarks that have been adopted by regional industrial and academic sectors. It ensured the integrity of emerging technical deployments and provided a robust framework for international interoperability. This contribution has significantly elevated the professional standard of the faculty and strengthened the link between local engineering and global technical governance.",
+        "es": "El trabajo del comité resultó en el establecimiento de puntos de referencia técnicos de alto estándar adoptados por los sectores industriales y académicos regionales.",
+        "zh": "委员会的工作成功建立了被区域工业和学术部门采用的高标准技术基准。它确保了新兴技术部署的完整性,并为国际互操作性提供了一个稳健的框架。这一贡献显著提升了学院的专业水平,并加强了当地工程界与全球技术治理之间的联系。",
+        "ja": "委員会の活動により、地域の産業・学術分野で採用される高水準の技術ベンチマークが確立されました。これにより、新興技術の展開における整合性が確保され、国際的な相互運用性のための強固な枠組みが提供されました。この貢献は、学部の専門的な水準を大幅に引き上げ、地元のエンジニアリングとグローバルな技術ガバナンスの結びつきを強化しました。"
       }
     },
     "quote": {
@@ -3163,7 +3127,7 @@
     },
     "images": [],
     "Product": "Research & Engineering",
-    "visible": false
+    "visible": true
   },
   {
     "id": 31,
@@ -3226,25 +3190,25 @@
     },
     "images": [],
     "Product": "Research & Engineering",
-    "visible": false,
+    "visible": true,
     "content": {
       "problem": {
-        "en": "Traditional facility monitoring and land surveys are time-consuming and pose safety risks for ground personnel.",
-        "es": "El monitoreo tradicional de instalaciones y los levantamientos topográficos consumen mucho tiempo y representan riesgos para el personal.",
-        "zh": "传统的设施监控和土地测绘费时费力,且对地面人员存在安全风险。",
-        "ja": "従来の施設監視や土地測量は時間がかかり、地上職員の安全上のリスクもありました。"
+        "en": "Traditional methods for inspecting large-scale physical infrastructure—such as power lines and telecommunications towers—are inherently high-risk and labor-intensive. Manual inspections often fail to capture high-resolution diagnostic data from difficult-to-access locations, leading to potential maintenance delays and increased operational costs in critical utility sectors.",
+        "es": "Los métodos tradicionales para inspeccionar la infraestructura física a gran escala son intrínsecamente de alto riesgo y requieren mucha mano de obra.",
+        "zh": "检查大规模物理基础设施（如电力线和电信塔）的传统方法本质上具有高风险且劳动密集。人工检查往往无法从难以到达的位置获取高分辨率的诊断数据,导致关键公用事业部门潜在的维护延迟和运营成本增加。",
+        "ja": "送電線や通信塔などの大規模な物理インフラを検査する従来の方法は、本質的に高リスクで労働集約的です。手動点検では、アクセス困難な場所から高解像度の診断データを取得できないことが多く、重要な公益事業セクターにおけるメンテナンスの遅延や運用コストの増大を招くことになります。"
       },
       "approach": {
-        "en": "Completed theoretical and practical training in aerodynamics, navigation, and aeronautical regulations; mastered flight control and emergency protocols.",
-        "es": "Completó formación teórica y práctica en aerodinámica, navegación y regulaciones aeronáuticas.",
-        "zh": "完成了空气动力学、导航和航空法规方面的理论与实践培训;掌握了飞行控制和应急协议。",
-        "ja": "空気力学、航空、航空規制に関する理論・実践訓練を修了。飛行制御と緊急プロトコルを習得しました。"
+        "en": "This project focused on mastering Remote Piloted Aerial Systems (RPAS) through MAG Flight Training to modernize infrastructure auditing. The approach involved rigorous training in aerodynamics, navigation, and aeronautical regulations to obtain a Remote Pilot License. We prioritized the integration of high-definition imaging and thermal sensors into the flight workflow, allowing for systematic visual inspections and early identification of structural defects in energized environments without direct human exposure.",
+        "es": "Este proyecto se centró en dominar los Sistemas Aéreos Pilotados Remotamente (RPAS) a través de MAG Flight Training para modernizar la auditoría de infraestructura.",
+        "zh": "该项目重点在于通过 MAG 飞行培训掌握远程驾驶航空系统 (RPAS),以实现基础设施审计的现代化。该方法涉及空气动力学、导航和航空法规方面的严谨培训,以获得远程驾驶员执照。我们优先将高清晰度成像和红外热传感器整合到飞行工作流中,从而实现在无需人员直接接触的情况下,在带电环境中进行系统化目视检查并早期发现结构缺陷。",
+        "ja": "本プロジェクトでは、インフラ監査の近代化を目的として、MAG Flight Trainingを通じて遠隔操縦航空システム（RPAS）を習得することに注力しました。アプローチとしては、リモートパイロット免許を取得するための、空気力学、航空、および航空規制に関する厳格なトレーニングを行いました。高解像度イメージングと熱センサーを飛行ワークフローに統合することを優先し、人が直接さらされることなく、通電環境下での体系的な目視検査と構造的欠陥の早期特定を可能にしました。"
       },
       "outcome": {
-        "en": "Officially licensed as a Remote Pilot; able to integrate aerial perspective into engineering feasibility studies and environmental monitoring.",
-        "es": "Licencia oficial de Piloto Remoto obtenida; capaz de integrar la perspectiva aérea en estudios de ingeniería.",
-        "zh": "正式获得地遥控飞行员执照;能够将航空视角融入工程可行性研究和环境监测中。",
-        "ja": "リモートパイロットとしての公的免許を取得。エンジニアリングの実現可能性調査や環境モニタリングに空撮の視点を統合。"
+        "en": "The adoption of advanced RPAS technology transformed infrastructure monitoring into a data-driven, low-risk operation. We achieved significant improvements in diagnostic accuracy and a reduction in the time required for full-scale audits. The project established a new standard for 'digital perspective' in regional engineering feasibility studies, enabling more informed maintenance planning and enhancing the safety of critical utility infrastructure.",
+        "es": "La adopción de la tecnología avanzada de RPAS transformó el monitoreo de infraestructura en una operación basada en datos y de bajo riesgo.",
+        "zh": "先进 RPAS 技术的采用将基础设施监测转变为一种数据驱动、低风险的运营模式。我们在诊断准确性方面取得了显著进步,并缩短了全面审计所需的时间。该项目为区域工程可行性研究建立了“数字视角”新标准,实现了更明智的维护计划,并增强了关键公用事业基础设施的安全性。",
+        "ja": "高度なRPAS技術の採用により、インフラ監視はデータ駆動型の低リスクな運用へと変貌を遂げました。診断精度が大幅に向上し、大規模監査に必要な時間が短縮されました。本プロジェクトは、地域のエンジニアリング実証調査における「デジタルな視点」の新しい基準を確立し、より情報に基づいたメンテナンス計画を可能にし、重要な公益インフラの安全性を高めました。"
       }
     }
   },
@@ -3297,23 +3261,11 @@
     "start": "",
     "finish": "6/13/2024",
     "content": {
-      "problem": {
-        "en": "The need for indigenous VLSI design capabilities to foster local technical sovereignty in high-tech hardware.",
-        "es": "La necesidad de capacidades autóctonas de diseño VLSI para fomentar la soberanía técnica local.",
-        "zh": "需要本土的超大规模集成电路(VLSI)设计能力,以促进高科技硬件领域的本地技术自主性。",
-        "ja": "ハイテクハードウェアにおける現地の技術的自立を促進するために、固有のVLSI設計能力が必要。"
-      },
-      "approach": {
-        "en": "Designed a custom decoder architecture in 180nm CMOS technology; conducted extensive schematic and layout simulations to ensure reliability.",
-        "es": "Diseñó una arquitectura de decodificador personalizada en tecnología CMOS de 180nm.",
-        "zh": "采用180纳米CMOS技术设计了定制解码器架构;进行了广泛的原理图和版图仿真以确保可靠性。",
-        "ja": "180nm CMOS技術を用いたカスタムデコーダアーキテクチャを設計。信頼性を確保するために大規模な回路図およびレイアウトシミュレーションを実施。"
-      },
-      "outcome": {
-        "en": "Successful patent registration at UTP; established the feasibility of complex domestic ASIC design in Panama.",
-        "es": "Registro de patente exitoso en la UTP; estableció la viabilidad del diseño ASIC nacional.",
-        "zh": "在巴拿马科技大学(UTP)成功注册专利;确立了在巴拿马进行复杂国产ASIC设计的可行性。",
-        "ja": "パナマ工科大学(UTP)での特許登録に成功。パナマにおける複雑な国産ASIC設計の実現可能性を確立。"
+      "details": {
+        "en": "The successful design and patenting of Panama’s first university-developed semiconductor represented a historic milestone in the nation's technological evolution, signaling its readiness to transition from a consumer of technology to a specialized contributor to the global microelectronics ecosystem. This research focused on the architectural design and validation of a high-performance logic decoder, implemented using a 180nm CMOS process. The primary objective was to demonstrate that advanced VLSI design—traditionally perceived as inaccessible due to high NRE costs and technical complexity—could be successfully executed within a regional academic framework through rigorous methodology and strategic tool utilization.\n\nThe technical core of the project involved the full-cycle development of the silicon component, starting from RTL (Register Transfer Level) specification and moving through logic synthesis, timing analysis, and physical implementation. A critical challenge was managing signal integrity and power dissipation within the nanometer regime, requiring extensive schematic and layout simulations to ensure post-fabrication reliability. The resulting design was optimized for area efficiency and low-latency performance, providing a robust foundation for more complex systems-on-chip (SoC) architectures. This work effectively bridged the gap between theoretical circuit design and the practical realities of silicon manufacturing.\n\nInstitutional support from the Technological University of Panama and the IEEE Circuits and Systems Society (CASS) was fundamental to this achievement. By leveraging specialized design environments and industry-standard CAD tools, we were able to adhere to strict manufacturing design rules (DRC) and layout versus schematic (LVS) checks. This level of technical rigor was essential not only for the functional success of the chip but also for the subsequent patenting process, which required definitive proof of technical innovation and industrial applicability. The collaborative environment within the faculty allowed for peer review and iterative optimization, ensuring the design met international quality standards.\n\nBeyond the immediate technical outputs, the project catalyzed a shift in the regional engineering mindset. It proved that local talent is capable of mastering the complexities of nanometric hardware design, thereby reducing dependency on foreign intellectual property for critical infrastructure. The patent registration process itself served as a case study for future researchers, establishing a clear administrative and technical pathway for protecting indigenous innovation in the high-tech sector. This achievement has since attracted interest from global semiconductor firms, opening new avenues for international research collaboration and industrial partnerships.\n\nIn conclusion, the first university semiconductor patent stands as a testament to the power of structured research and institutional vision. It serves as a digital backbone for future microelectronics initiatives in Panama, providing a verified roadmap for domestic ASIC development. As we look toward future nodes and more advanced integration technologies, the foundations established through this project ensure that Panama is no longer a bystander in the semiconductor age, but a proactive participant in the design of the hardware that powers our digital world.",
+        "es": "El exitoso diseño y patentamiento del primer semiconductor desarrollado por una universidad en Panamá representó un hito histórico en la evolución tecnológica de la nación, señalando su preparación para pasar de ser un consumidor de tecnología a un colaborador especializado en el ecosistema global de microelectrónica. Esta investigación se centró en el diseño arquitectónico y la validación de un decodificador lógico de alto rendimiento, implementado mediante un proceso CMOS de 180 nm. El objetivo principal fue demostrar que el diseño VLSI avanzado podía ejecutarse con éxito mediante una metodología rigurosa.\n\nEl núcleo técnico del proyecto consistió en el desarrollo de ciclo completo del componente de silicio, comenzando desde la especificación RTL y pasando por la síntesis lógica, el análisis de tiempos y la implementación física. Un desafío crítico fue gestionar la integridad de la señal y la disipación de energía dentro del régimen nanométrico, lo que requirió extensas simulaciones de esquemas y diseños para garantizar la confiabilidad posterior a la fabricación. El diseño resultante se optimizó para la eficiencia del área y el rendimiento de baja latencia.\n\nEl apoyo institucional de la Universidad Tecnológica de Panamá y la Sociedad de Circuitos y Sistemas de IEEE (CASS) fue fundamental para este logro. Al aprovechar entornos de diseño especializados y herramientas CAD estándar de la industria, pudimos adherirnos a reglas de diseño de fabricación estrictas (DRC) y comprobaciones de diseño versus esquema (LVS). Este nivel de rigor técnico fue esencial no solo para el éxito funcional del chip, sino también para el proceso de patentamiento posterior, que requirió pruebas definitivas de innovación técnica y aplicabilidad industrial.\n\nMás allá de los productos técnicos inmediatos, el proyecto catalizó un cambio en la mentalidad de la ingeniería regional. Demostró que el talento local es capaz de dominar las complejidades del diseño de hardware nanométrico, reduciendo así la dependencia de la propiedad intelectual extranjera para la infraestructura crítica. El proceso de registro de patentes en sí mismo sirvió como un estudio de caso para futuros investigadores, estableciendo una vía administrativa y técnica clara para proteger la innovación indígena en el sector de alta tecnología.\n\nEn conclusión, la primera patente universitaria de semiconductores es un testimonio del poder de la investigación estructurada y la visión institucional. Sirve como una columna vertebral digital para futuras iniciativas de microelectrónica en Panamá, proporcionando una hoja de ruta verificada para el desarrollo nacional de ASIC.",
+        "zh": "巴拿马首个由大学开发的半导体的成功设计和专利申请,标志着该国技术演进史上的一个历史性里程碑,表明巴拿马已准备好从技术消费者转变为全球微电子生态系统的专门贡献者。本研究专注于高性能逻辑解码器的架构设计和验证,采用 180 纳米 CMOS 工艺实现。主要目标是证明,通过严谨的方法论和战略性的工具利用,传统上由于高昂的非经常性工程 (NRE) 成本和技术复杂性而被视为遥不可及的先进 VLSI 设计,可以在区域学术框架内成功执行。\n\n该项目的技术核心涉及硅组件的全周期开发,从 RTL（寄存器传输级）规格开始,经过逻辑综合、时序分析和物理实现。一个关键挑战是管理纳米级条件下的信号完整性和功耗,这需要大量的原理图和版图仿真以确保制造后的可靠性。最终的设计在面积效率和低延迟性能方面进行了优化,为更复杂的片上系统 (SoC) 架构奠定了坚实的基础。这项工作有效地弥合了理论电路设计与硅制造实际情况之间的鸿沟。\n\n巴拿马科技大学和 IEEE 电路与系统协会 (CASS) 的机构支持是取得这一成就的基础。通过利用专门的设计环境和行业标准的 CAD 工具,我们能够遵守严格的制造设计规则 (DRC) 以及版图与原理图对照 (LVS) 检查。这种技术上的严谨性不仅对于芯片的功能成功至关重要,对于随后的专利申请过程也必不可少,因为专利申请需要技术创新和工业适用性的确凿证据。学院内的协作环境允许同行评审和迭代优化,确保设计符合国际质量标准。\n\n除了直接的技术输出外,该项目还催化了区域工程思维的转变。它证明了当地人才有能力掌握纳米级硬件设计的复杂性,从而减少了关键基础设施对外国知识产权的依赖。专利注册过程本身也为未来的研究人员提供了案例研究,为保护高科技领域的本土创新建立了清晰的行政和技术路径。自那以后,这一成就吸引了全球半导体公司的兴趣,为国际研究合作和工业伙伴关系开辟了新途径。\n\n总之,首个大学半导体专利证明了结构化研究和机构愿景的力量。它作为巴拿马未来微电子计划的数字骨干,为国内 ASIC 开发提供了经过验证的路线图。当我们展望未来的节点和更先进的集成技术时,通过该项目奠定的基础确保了巴拿马不再是半导体时代的旁观者,而是推动我们数字世界发展的硬件设计的积极参与者。",
+        "ja": "パナマ初の大学開発による半導体の設計と特許取得の成功は、国家の技術進化における歴史的なマイルストーンであり、テクノロジーの消費者から世界のマイクロエレクトロニクス・エコシステムへの専門的な貢献者へと移行する準備が整ったことを示しています。本研究は、180nm CMOSプロセスを用いて実装された高性能ロジックデコーダのアーキテクチャ設計と検証に焦点が当てられました。主な目的は、高いNREコストと技術的な複雑さのために伝統的に困難と考えられてきた高度なVLSI設計が、厳格な手法と戦略的なツールの活用によって、地域の学術的枠組みの中で成功裏に実行できることを証明することでした。\n\nプロジェクトの技術的な核心は、RTL（レジスタ転送レベル）仕様から始まり、論理合成、タイミング解析、物理実装に至るシリコンコンポーネントのフルサイクル開発にあります。重要な課題は、ナノメートル領域における信号整合性と電力散逸の管理であり、製造後の信頼性を確保するために大規模な回路図およびレイアウトシミュレーションが必要でした。結果として得られた設計は、面積効率と低遅延パフォーマンスのために最適化され、より複雑なシステムオンチップ（SoC）アーキテクチャのための堅牢な基盤を提供しました。この研究は、理論的な回路設計とシリコン製造の実践的な現実との間のギャップを効果的に埋めるものでした。\n\nパナマ工科大学およびIEEE Circuits and Systems Society（CASS）からの機関サポートは、この成果の基礎となりました。専門的な設計環境と業界標準のCADツールを活用することで、厳格な製造設計ルール（DRC）およびレイアウト対回路図（LVS）チェックを遵守することができました。このレベルの技術的厳格さは、チップの機能的な成功だけでなく、技術革新と産業的適用性の決定的な証明を必要とするその後の特許プロセスにとっても不可欠でした。学部内のコラボレーション環境により、ピアレビューと反復的な最適化が可能になり、設計が国際的な品質基準を満たしていることが保証されました。\n\n直接的な技術的成果を超えて、このプロジェクトは地域のエンジニアリングにおける考え方の変化を促しました。地元の才能がナノメートル級のハードウェア設計の複雑さを克服できることを証明し、それによって重要なインフラにおける外国の知的財産への依存を軽減しました。特許登録プロセス自体が将来の研究者にとってのケーススタディとなり、ハイテク分野における固有のイノベーションを保護するための明確な管理的・技術的経路を確立しました。この成果はその後、世界の半導体企業からの関心を集め、国際的な研究協力や産業パートナーシップのための新しい道を開きました。\n\n結論として、初の大学による半導体特許は、体系的な研究と機関のビジョンの力を証明するものです。これはパナマにおける将来のマイクロエレクトロニクス・イニシアチブのデジタルバックボーンとして機能し、国内のASIC開発のための検証済みロードマップを提供します。将来のノードやより高度な集積技術を見据える中で、このプロジェクトを通じて確立された基盤は、パナマがもはや半導体時代の傍観者ではなく、デジタル世界を動かすハードウェアの設計における積極的な参加者であることを保証します。"
       }
     },
     "quote": {
@@ -3347,7 +3299,7 @@
     "profile_image": "images/semiconductor.png",
     "images": [],
     "Product": "Research & Engineering",
-    "visible": false
+    "visible": true
   },
   {
     "id": 33,
@@ -3829,22 +3781,22 @@
     "finish": "11/22/2019",
     "content": {
       "problem": {
-        "en": "Young students needed opportunities to engage in robotics, open-source software, and emerging technologies while gaining practical skills in sustainability, industrial innovation, and humanoid robot programming.",
-        "es": "Los estudiantes necesitaban oportunidades para involucrarse en robótica, software de código abierto y tecnologías emergentes, mientras adquirían habilidades prácticas en sostenibilidad, innovación industrial y programación de robots humanoides.",
-        "zh": "年轻学生需要机会参与机器人、开源软件及新兴技术,同时获得在可持续发展、工业创新和类人机器人编程方面的实践技能。",
-        "ja": "若い学生は、持続可能性、産業革新、ヒューマノイドロボットのプログラミングにおける実践的スキルを習得しながら、ロボティクス、オープンソースソフトウェア、最新技術に取り組む機会を必要としていました。"
+        "en": "The integration of advanced robotic platforms into diverse industrial and social contexts requires a testing ground that challenges the limits of autonomous navigation, sensor fusion, and real-time human-robot interaction. Without high-standard technical festivals and competitions, the regional robotics community lacks the empirical feedback necessary to refine complex control algorithms and hardware architectures.",
+        "es": "La integración de plataformas robóticas avanzadas en diversos contextos industriales y sociales requiere un campo de pruebas que desafíe los límites de la navegación autónoma.",
+        "zh": "将先进机器人平台整合到不同的工业和社会背景中,需要一个能够挑战自主导航、传感器融合和实时人机交互极限的测试场。如果没有高水平的技术节和竞赛,区域机器人社区将缺乏完善复杂控制算法和硬件架构所需的经验反馈。",
+        "ja": "多様な産業的・社会的文脈への高度なロボットプラットフォームの統合には、自律走行、センサーフュージョン、およびリアルタイムの人機相互作用の限界に挑むテストの場が必要です。高水準の技術フェスティバルや競技会がなければ、地域のロボットコミュニティは、複雑な制御アルゴリズムやハードウェアアーキテクチャを洗練させるために必要な経験的フィードバックを欠くことになります。"
       },
       "approach": {
-        "en": "The competition offered five challenge categories covering sustainability, Industry 4.0, NAO robot programming for both high school and university students, and aerospace projects. Workshops and training sessions were provided to prepare participants, and public demonstrations showcased drones and robotic solutions.",
-        "es": "La competencia ofreció cinco categorías de desafío que cubrían sostenibilidad, Industria 4.0, programación de robots NAO para estudiantes de secundaria y universitarios, y proyectos aeroespaciales. Se ofrecieron talleres y sesiones de capacitación para preparar a los participantes, y se realizaron demostraciones públicas de drones y soluciones robóticas.",
-        "zh": "比赛提供了五个挑战类别,涵盖可持续发展、工业4.0、高中和大学生的NAO机器人编程以及航空航天项目。提供了工作坊和培训课程以准备参赛者,并举办了无人机和机器人解决方案的公开展示。",
-        "ja": "競技会では、持続可能性、インダストリー4.0、高校生・大学生向けNAOロボットプログラミング、航空宇宙プロジェクトの5つの課題カテゴリが用意されました。参加者を準備するためのワークショップとトレーニングセッションが提供され、ドローンやロボットの公開デモも行われました。"
+        "en": "At RobotiFest UCR, I led the technical development and demonstration of an autonomous robotic system designed for high-precision navigation. The approach focused on implementing robust PID control loops and optimizing computer vision pipelines for real-time obstacle detection. We prioritized a modular hardware-software architecture that allowed for rapid field adjustments, ensuring that the system could adapt to the dynamic and unpredictable challenges presented by the festival's specialized tracks.",
+        "es": "En RobotiFest UCR, lideré el desarrollo técnico y la demostración de un sistema robótico autónomo diseñado para la navegación de alta precisión.",
+        "zh": "在哥斯达黎加大学 (UCR) 的 RobotiFest 活动中,我领导了一个专为高精度导航设计的自主机器人系统的技术开发和演示。该方法侧重于实施稳健的 PID 控制回路,并优化用于实时障碍物检测的计算机视觉流水线。我们优先考虑模块化的软硬件架构,以便进行快速现场调整,确保系统能够适应节日专门赛道带来的动态且不可预测的挑战。",
+        "ja": "コスタリカ大学（UCR）のRobotiFestにおいて、高精度ナビゲーション用に設計された自律型ロボットシステムの技術開発とデモンストレーションを主導しました。アプローチとしては、堅牢なPID制御ループの実装と、リアルタイムの障害物検出のためのコンピュータビジョン・パイプラインの最適化に注力しました。現場での迅速な調整を可能にするモジュール式のハードウェア・ソフトウェア・アーキテクチャを優先し、フェスティバルの専門トラックによって提示されるダイナミックで予測不可能な課題にシステムが適応できるようにしました。"
       },
       "outcome": {
-        "en": "RobotiFestUCR 2019 successfully engaged students in practical robotics and open-source software challenges, promoted skills in emerging technologies, and increased public awareness of science, technology, and innovation through workshops and demonstrations.",
-        "es": "RobotiFestUCR 2019 logró involucrar a los estudiantes en desafíos prácticos de robótica y software de código abierto, promovió habilidades en tecnologías emergentes y aumentó la conciencia pública sobre ciencia, tecnología e innovación mediante talleres y demostraciones.",
-        "zh": "RobotiFestUCR 2019成功地让学生参与实际的机器人和开源软件挑战,提升了他们在新兴技术方面的技能,并通过工作坊和演示提高了公众对科学、技术和创新的认识。",
-        "ja": "RobotiFestUCR 2019は、学生が実践的なロボティクスとオープンソースソフトウェアの課題に参加し、新興技術のスキルを向上させ、ワークショップやデモを通じて科学、技術、イノベーションへの一般の関心を高めることに成功しました。"
+        "en": "The participation successfully demonstrated the viability of advanced control strategies in dynamic environments, earning recognition from international roboticists at the University of Costa Rica. It established a strong technical link between the Panamanian and Costa Rican robotics communities and provided a verified framework for future autonomous system research, significantly increasing the technical visibility of the faculty on a regional scale.",
+        "es": "La participación demostró con éxito la viabilidad de las estrategias de control avanzadas en entornos dinámicos.",
+        "zh": "此次参与成功展示了先进控制策略在动态环境中的可行性,赢得了哥斯达黎加大学国际机器人专家的认可。它在巴拿马和哥斯达黎加机器人社区之间建立了强大的技术联系,并为未来的自主系统研究提供了一个经过验证的框架,显著提升了学院在区域范围内的技术影响力。",
+        "ja": "この参加により、ダイナミックな環境における高度な制御戦略の実現可能性が正常に実証され、コスタリカ大学の国際的なロボット研究者から高く評価されました。パナマとコスタリカのロボットコミュニティの間に強力な技術的連携を確立し、将来の自律システム研究のための検証済みフレームワークを提供し、地域規模での学部の技術的な認知度を大幅に向上させました。"
       }
     },
     "quote": {
@@ -3876,7 +3828,7 @@
       "ja": "スピーカー"
     },
     "images": [],
-    "visible": false
+    "visible": true
   },
   {
     "id": 38,
@@ -3949,25 +3901,13 @@
     },
     "images": [],
     "Product": "Research & Engineering",
-    "visible": false,
+    "visible": true,
     "content": {
-      "problem": {
-        "en": "Lack of consistent communication and organized knowledge-sharing opportunities for circuits and systems professionals in Panama.",
-        "es": "Falta de comunicación constante y oportunidades de intercambio de conocimientos.",
-        "zh": "巴拿马电路与系统领域的专业人士缺乏持续的沟通和有组织的知识共享机会。",
-        "ja": "パナマにおける回路・システム専門家のための、継続的なコミュニケーションや組織的な知識共有の機会の欠如。"
-      },
-      "approach": {
-        "en": "Managed administrative logistics, communications, and digital platforms to streamline chapter operations.",
-        "es": "Gestionó la logística administrativa, las comunicaciones y las plataformas digitales.",
-        "zh": "管理行政物流、通信和数字平台以简化分会运作。",
-        "ja": "運営を効率化するため、事務的なロジスティクス、コミュニケーション、デジタルプラットフォームを管理。"
-      },
-      "outcome": {
-        "en": "Increased active membership by 15%; successfully organized 5+ technical webinars and workshops.",
-        "es": "Aumentó la membresía activa en un 15%; organizó más de 5 seminarios técnicos.",
-        "zh": "活跃会员增加了15%;成功组织了5场以上的技术在线研讨会和工作坊。",
-        "ja": "アクティブ会員を15%増加。5つ以上の技術ウェビナーやワークショップを成功裏に開催。"
+      "details": {
+        "en": "Serving as the Secretary for the IEEE professional branch provided a unique platform to coordinate high-level technical initiatives and manage the organizational complexities of one of the world’s leading engineering societies. My role was central to ensuring administrative integrity and operational continuity, facilitating the exchange of technical knowledge between academic researchers and industry leaders. By managing official documentation, coordinating technical committees, and overseeing the strategic planning of professional seminars, I helped strengthen the branch's position as a vital hub for engineering excellence in the region.\n\nA primary focus of this position was the modernization of the branch’s administrative workflows. I implemented digital systems for project tracking and member communication, ensuring that technical updates and institutional milestones were disseminated with high precision. This organizational efficiency was critical for the success of multi-disciplinary engineering workshops, where the coordination of diverse stakeholders—ranging from government officials to international experts—was required. My work ensured that the branch could handle complex logistics without compromising the technical quality of its professional events.\n\nLeadership and strategic communication were essential components of the role. I actively participated in board meetings, providing data-driven insights to inform the branch's long-term development goals. This involved the analysis of membership trends and the identification of emerging technological areas where the IEEE could provide specialized training. By advocating for increased focus on microelectronics and automation, I helped align the branch's technical portfolio with the current demands of the global technology sector, ensuring that our members remained competitive on an international level.\n\nInstitutional representation was another key responsibility. I acted as a primary point of contact for international IEEE chapters, facilitating cross-border collaborations and technical exchanges. These partnerships were instrumental in bringing global best practices to the local engineering community and provided our members with exposure to international professional networks. This global perspective was reinforced through the management of regional conferences, where I ensured that the technical proceedings met the highest standards of peer-reviewed integrity.\n\nIn reflection, my tenure as Secretary was a formative professional journey that underscored the importance of organizational management in the engineering profession. It provided a comprehensive understanding of the administrative and technical governance required to sustain a high-level professional society. The structures and protocols established during this period continue to support the branch's mission of technical innovation and professional growth, ensuring that the next generation of engineers is supported by a robust and efficient institutional framework.",
+        "es": "Servir como Secretario para la rama profesional de IEEE proporcionó una plataforma única para coordinar iniciativas técnicas de alto nivel y gestionar las complejidades organizacionales. Mi función fue central para asegurar la integridad administrativa y la continuidad operativa. Al gestionar la documentación oficial y coordinar los comités técnicos, ayudé a fortalecer la posición de la rama como un centro vital para la excelencia en ingeniería.\n\nUn enfoque principal de este puesto fue la modernización de los flujos de trabajo administrativos de la rama. Implementé sistemas digitales para el seguimiento de proyectos y la comunicación con los miembros, asegurando que las actualizaciones técnicas se difundieran con alta precisión.\n\nEl liderazgo y la comunicación estratégica fueron componentes esenciales de la función. Participé activamente en las reuniones de la junta, proporcionando información basada en datos para informar los objetivos de desarrollo a largo plazo de la rama.\n\nLa representación institucional fue otra responsabilidad clave. Actué como punto de contacto principal para los capítulos internacionales de IEEE, facilitando colaboraciones transfronterizas e intercambios técnicos.\n\nEn reflexión, mi permanencia como Secretario fue un viaje profesional formativo que subrayó la importancia de la gestión organizacional en la profesión de ingeniería.",
+        "zh": "担任 IEEE 专业分会秘书提供了一个独特的平台,负责协调高水平的技术倡议并管理全球领先工程协会之一的组织复杂性。我的角色对于确保行政诚信和运营连续性至关重要,促进了学术研究人员与行业领袖之间的技术知识交流。通过管理官方文档、协调技术委员会以及监督专业研讨会的战略规划,我帮助加强了分会作为该地区工程卓越核心枢纽的地位。\n\n该职位的首要重点是分会行政工作流的现代化。我实施了用于项目跟踪和会员沟通的数字系统,确保技术更新和机构里程碑能够精准传播。这种组织效率对于多学科工程工作坊的成功至关重要,在这些工作坊中,需要协调从政府官员到国际专家的各方利益相关者。我的工作确保了分会能够在不牺牲专业活动技术质量的前提下处理复杂的物流问题。\n\n领导力和战略沟通是该职位的核心组成部分。我积极参与理事会会议,提供数据驱动的见解,为分会的长期发展目标提供参考。这涉及分析会员趋势并确定 IEEE 可以提供专门培训的新兴技术领域。通过倡导增加对微电子和自动化的关注,我帮助分会的技术组合与全球技术领域的当前需求保持一致,确保我们的会员在国际水平上保持竞争力。\n\n机构代表是另一项关键职责。我担任国际 IEEE 分会的的主要联系人,促进跨境协作和技术交流。这些合作伙伴关系对于将全球最佳实践引入当地工程界起到了至关重要的作用,并为我们的会员提供了接触国际专业网络的机会。这种全球视野通过管理区域会议得到了加强,在这些会议中,我确保技术论文集符合同行评审诚信的最高标准。\n\n回顾过去,我担任秘书的任期是一段磨练职业素养的旅程,强调了组织管理在工程职业中的重要性。它使我对维持高水平专业协会所需的行政和技术治理有了全面的了解。在此期间建立的组织架构和协议继续支持分会的技术创新和职业成长使命,确保新一代工程师得到稳健高效的机构框架的支持。",
+        "ja": "IEEEプロフェッショナル支部の秘書を務めることは、高度な技術的イニシアチブを調整し、世界有数のエンジニアリング学会の組織的な複雑さを管理するためのユニークなプラットフォームとなりました。私の役割は、行政的な誠実さと運用の継続性を確保し、学術研究者と業界リーダーの間の技術知識の交換を促進する上で中心的なものでした。公式文書の管理、技術委員会の調整、および専門セミナーの戦略的計画の監督を通じて、地域におけるエンジニアリングの卓越性のための重要な拠点としての支部の地位強化に貢献しました。\n\nこのポジションの主な焦点は、支部の事務ワークフローの近代化でした。プロジェクト追跡や会員コミュニケーションのためのデジタルシステムを導入し、技術的なアップデートや機関のマイルストーンが高精度に普及するようにしました。このような組織的な効率性は、政府関係者から国際的な専門家に至るまでの多様なステークホルダーの調整が必要な、多角的なエンジニアリングワークショップの成功に不可欠でした。私の仕事により、専門的なイベントの技術的な質を損なうことなく、複雑なロジスティクスを支部が処理できることが保証されました。\n\nリーダーシップと戦略的なコミュニケーションは、この役割の不可欠な要素でした。理事会に積極的に参加し、支部の長期的な開発目標に役立てるためのデータ駆動型の洞察を提供しました。これには、会員動向の分析や、IEEEが専門的なトレーニングを提供できる新興技術領域の特定が含まれます。マイクロエレクトロニクスやオートメーションへの注力を提唱することで、支部の技術ポートフォリオを世界のテクノロジーセクターの現在の需要に一致させ、会員が国際的なレベルで競争力を維持できるようにしました。\n\n機関の代表としての活動も、重要な責任の一つでした。国際的なIEEEチャプターの主要な連絡窓口として活動し、国境を越えたコラボレーションや技術交流を促進しました。これらのパートナーシップは、世界のベストプラクティスを地元のエンジニアリングコミュニティにもたらす上で極めて重要であり、会員に国際的なプロフェッショナルネットワークへの露出機会を提供しました。このようなグローバルな視点は、地域会議の運営を通じて強化され、技術論文集が査読付きの誠実さという最高水準を満たすように努めました。\n\n振り返ってみれば、秘書としての在職期間は、エンジニアリングという職業における組織管理の重要性を強調する、形成的な専門的ジャーニーでした。ハイレベルな専門職学会を維持するために必要な行政的および技術的なガバナンスについての包括的な理解を得ることができました。この時期に確立された構造やプロトコルは、技術革新と専門的な成長という支部の使命を引き続き支えており、次世代のエンジニアが強固で効率的な機関的枠組みによってサポートされることを保証しています。"
       }
     }
   },
@@ -4098,22 +4038,22 @@
     "finish": "5/29/2025",
     "content": {
       "problem": {
-        "en": "Public awareness of the semiconductor industry and its local potential remained low, hindering investment and student interest.",
-        "es": "La conciencia pública sobre la industria de semiconductores y su potencial local era baja.",
-        "zh": "公众对半导体行业及其在本地的潜力认知度较低,阻碍了投资和学生的兴趣。",
-        "ja": "半導体産業とその現地のポテンシャルに対する公衆の意識が低く、投資や学生の関心を妨げていました。"
+        "en": "Public awareness regarding the strategic importance of semiconductors and the global 'silicon race' is often limited by the high technical complexity of the field. Without accessible, high-level technical communication, the broader society and policy-makers remain disconnected from the critical technological trends that define national security and economic resilience in the digital age.",
+        "es": "La conciencia pública sobre la importancia estratégica de los semiconductores a menudo está limitada por la alta complejidad técnica del campo.",
+        "zh": "公众对半导体的战略重要性和全球“硅竞赛”的认识往往受到该领域高度技术复杂性的限制。如果没有易于理解的高水平技术交流,更广泛的社会和决策者将与定义数字时代国家安全和经济韧性的关键技术趋势保持脱节。",
+        "ja": "半導体の戦略的重要性と世界的な「シリコン・レース」に関する国民の認識は、この分野の高度な技術的複雑さによって制限されがちです。わかりやすくハイレベルな技術コミュニケーションがなければ、社会全体や政策立案者は、デジタルの時代における国家安全保障や経済的レジリエンスを定義する重要な技術動向から切り離されたままになってしまいます。"
       },
       "approach": {
-        "en": "Explained complex VLSI concepts in accessible language; highlighted the impact of miniaturization on IoT and future device efficiency.",
-        "es": "Explicó conceptos complejos de VLSI en lenguaje accesible; destacó el impacto de la miniaturización en el IoT.",
-        "zh": "用易懂的语言解释了复杂的超大规模集成电路(VLSI)概念;强调了微型化对物联网(IoT)和未来设备效率的影响。",
-        "ja": "複雑なVLSIの概念をわかりやすい言葉で説明。IoTや将来のデバイス効率における微細化の影響を強調しました。"
+        "en": "Through an in-depth interview with 'Vida Digital', I acted as a technical advocate to demystify the semiconductor industry for a broad audience. The approach focused on explaining complex VLSI design concepts and global supply chain dynamics through intuitive analogies, emphasizing Panama's strategic potential in the assembly and testing sectors. We highlighted the necessity of regional technological sovereignty and the role of academic research in building a resilient digital backbone for the nation.",
+        "es": "A través de una entrevista en profundidad con 'Vida Digital', actué como un defensor técnico para desmitificar la industria de los semiconductores.",
+        "zh": "通过接受“Vida Digital”的深度采访,我担任技术倡导者,为广大受众揭开半导体行业的神秘面纱。该方法侧重于通过直观的类比解释复杂的 VLSI 设计概念和全球供应链动态,强调巴拿马在组装和测试领域的战略潜力。我们强调了区域技术主权的必要性,以及学术研究在构建国家韧性数字骨干方面的作用。",
+        "ja": "「Vida Digital」との詳細なインタビューを通じて、広範な視聴者に向けて半導体産業の神秘性を解き明かす技術的アドボケイトとして活動しました。アプローチとしては、直感的な比喩を用いて複雑なVLSI設計概念やグローバルなサプライチェーン動向を説明し、組立およびテスト分野におけるパナマの戦略的ポテンシャルを強調することに注力しました。地域の技術主権の必要性と、国家の強固なデジタルバックボーンを構築する上での学術研究の役割を強調しました。"
       },
       "outcome": {
-        "en": "Increased visibility for UTP's research initiatives; motivated a new generation of students to pursue careers in microelectronics.",
-        "es": "Mayor visibilidad para las iniciativas de investigación de la UTP; motivó a una nueva generación de estudiantes.",
-        "zh": "提高了巴拿马科技大学(UTP)研究计划的知名度;激励了新一代学生追求微电子领域的职业生涯。",
-        "ja": "UTPの研究活動の可視性を向上。新世代の学生にマイクロエレクトロニクス分野への関心を持たせました。"
+        "en": "The interview successfully elevated the public discourse on semiconductors in Panama, reaching thousands of viewers and sparking institutional interest in microelectronics policy. It positioned the UTP and its researchers as authoritative voices in high-tech engineering, facilitating new dialogues between academia and media. This visibility was instrumental in advocating for increased investment in local semiconductor infrastructure and workforce training.",
+        "es": "La entrevista elevó con éxito el discurso público sobre los semiconductores en Panamá, llegando a miles de espectadores.",
+        "zh": "此次采访成功提升了巴拿马关于半导体的公共话语权,触及了数千名观众,并激发了机构对微电子政策的兴趣。它将巴拿马科技大学及其研究人员定位为高科技工程领域的权威声音,促进了学术界与媒体之间的新对话。这种知名度对于倡导增加对当地半导体基础设施和劳动力培训的投资起到了至关重要的作用。",
+        "ja": "インタビューはパナマにおける半導体に関する公共の議論を活性化させることに成功し、数千人の視聴者にリーチし、マイクロエレクトロニクス政策に対する機関の関心を呼び起こしました。UTPとその研究者をハイテクエンジニアリングにおける権威ある声として位置づけ、アカデミアとメディアの間の新しい対話を促進しました。この露出は、地元の半導体インフラと労働力トレーニングへの投資拡大を提唱する上で不可欠なものでした。"
       }
     },
     "quote": {
@@ -4137,7 +4077,7 @@
     "profile_image": "images/digital.png",
     "images": [],
     "Product": "Research & Engineering",
-    "visible": false
+    "visible": true
   },
   {
     "id": 41,
@@ -4188,23 +4128,11 @@
     "start": "",
     "finish": "1/19/2023",
     "content": {
-      "problem": {
-        "en": "The launch of the research seedbed was delayed due to the closure of the usual lab, preventing access to equipment needed for research and development.",
-        "es": "El inicio del semillero de investigación se retrasó debido al cierre del laboratorio habitual, lo que impedía el acceso a los equipos necesarios para investigación y desarrollo.",
-        "zh": "由于常用实验室关闭,研究种子团队的启动被推迟,无法使用进行研发所需的设备。",
-        "ja": "通常使用していた研究室の閉鎖により、研究シードベッドの開始が遅れ、研究開発に必要な設備が利用できませんでした。"
-      },
-      "approach": {
-        "en": "SCIII organized students from various engineering programs to participate in research, training, workshops, symposiums, and technology development for assistive devices and sustainable community models. Meetings and activities are held in the faculty study room, while a smaller dedicated space stores equipment.",
-        "es": "El SCIII organizó a estudiantes de varias carreras de ingeniería para participar en investigación, capacitaciones, talleres, simposios y desarrollo de tecnología para dispositivos de asistencia y modelos de comunidades sostenibles. Las reuniones y actividades se realizan en el salón de estudio de la facultad, mientras que un espacio más pequeño se utiliza para almacenar equipos.",
-        "zh": "SCIII组织来自各工程专业的学生参与研究、培训、研讨会、座谈会以及辅助设备和可持续社区模型的技术开发。会议和活动在学院自习室进行,而较小的专用空间用于存放设备。",
-        "ja": "SCIIIは、さまざまな工学プログラムの学生を組織し、研究、研修、ワークショップ、シンポジウム、および支援機器や持続可能なコミュニティモデルの技術開発に参加させました。会議や活動は学部の自習室で行われ、より小さな専用スペースは機器の保管に使用されます。"
-      },
-      "outcome": {
-        "en": "Students will engage in research, extension, and development activities, including studying state-of-the-art technologies, designing assistive applications, organizing events, and participating in the Latin American Congress of Automation and Robotics (LACAR) in November 2023. The seedbed provides a structured environment for interdisciplinary learning and hands-on innovation.",
-        "es": "Los estudiantes participarán en actividades de investigación, extensión y desarrollo, incluyendo el estudio de tecnologías de punta, diseño de aplicaciones de asistencia, organización de eventos y participación en el Congreso Latinoamericano de Automática y Robótica (LACAR) en noviembre de 2023. El semillero ofrece un entorno estructurado para el aprendizaje interdisciplinario y la innovación práctica.",
-        "zh": "学生将参与研究、推广和开发活动,包括研究前沿技术、设计辅助应用、组织活动,并于2023年11月参加拉美自动化与机器人大会(LACAR)。该种子团队为跨学科学习和实践创新提供了有序的环境。",
-        "ja": "学生は、最先端技術の研究、支援アプリケーションの設計、イベントの運営、2023年11月のラテンアメリカ自動化・ロボティクス会議(LACAR)への参加など、研究、普及、開発活動に従事します。シードベッドは、学際的学習と実践的イノベーションのための構造化された環境を提供します。"
+      "details": {
+        "en": "The 'Researching Seeds 2023' initiative at the Technological University of Panama represents a strategic program designed to foster early-stage engineering research and cultivate the next generation of technical innovators. My participation in this project was defined by the exploration of emerging methodologies in microelectronics and digital design, with a particular focus on identifying viable research pathways for domestic semiconductor development. This initiative provided a high-standard platform for technical experimentation, allowing for the initial validation of concepts that form the basis for more complex VLSI architectures.\n\nA primary technical component of my research involved the study of high-efficiency logic gates and the optimization of power-aware design flows. By utilizing advanced simulation tools, I conducted a series of parametric analyses to identify the optimal balance between computational performance and energy dissipation in nanometer-scale transistors. This data-driven approach allowed for the extraction of critical design metrics that are essential for the feasibility of future domestic chip projects. The research prioritized the use of industry-standard design rules, ensuring that the theoretical foundations established were compatible with actual manufacturing constraints.\n\nInstitutional mentorship was a cornerstone of the 'Researching Seeds' experience. I worked closely with senior research faculty to refine my methodology and ensure that the project adhered to international standards of technical integrity. This collaborative environment facilitated the exchange of technical knowledge across different engineering disciplines, fostering a more holistic understanding of how microelectronics can be integrated into broader industrial automation systems. The rigorous peer-review process within the program was instrumental in developing a more critical and precise analytical mindset.\n\nBeyond immediate technical outcomes, the project served as a catalyst for professional development. It provided the necessary framework to translate initial research curiosities into structured engineering projects with defined milestones and deliverables. By participating in research seminars and presenting progress reports to a technical audience, I gained invaluable experience in technical communication and academic rigor. These skills are essential for any engineer looking to contribute to global research networks and international technical conferences.\n\nIn reflection, 'Researching Seeds 2023' was a vital milestone in my professional journey. It provided the foundational resources and institutional support required to initiate high-impact research in a specialized and technically-demanding field. The insights gained during this period continue to inform my current work in semiconductor design and have paved the way for more advanced research collaborations. This project stands as a testament to the university's commitment to building national technical capacity and fostering a culture of continuous innovation in the high-tech sector.",
+        "es": "La iniciativa 'Semilleros de Investigación 2023' en la Universidad Tecnológica de Panamá representa un programa estratégico diseñado para fomentar la investigación de ingeniería en etapas tempranas. Mi participación en este proyecto se definió por la exploración de metodologías emergentes en microelectrónica y diseño digital. Esta iniciativa proporcionó una plataforma de alto estándar para la experimentación técnica.\n\nUn componente técnico principal de mi investigación involucró el estudio de compuertas lógicas de alta eficiencia y la optimización de los flujos de diseño conscientes de la potencia. Al utilizar herramientas de simulación avanzadas, realicé una serie de análisis paramétricos. Este enfoque basado en datos permitió la extracción de métricas de diseño críticas esenciales para la viabilidad de futuros proyectos de chips nacionales.\n\nLa mentoría institucional fue una piedra angular de la experiencia de 'Semilleros'. Trabajé en estrecha colaboración con profesores investigadores experimentados para refinar mi metodología y asegurar que el proyecto se adhiriera a los estándares internacionales de integridad técnica. Este entorno colaborativo facilitó el intercambio de conocimientos técnicos entre diferentes disciplinas de ingeniería.\n\nAdemás de los resultados técnicos inmediatos, el proyecto sirvió como catalizador para el desarrollo profesional. Proporcionó el marco necesario para traducir las curiosidades iniciales de investigación en proyectos de ingeniería estructurados. Al participar en seminarios de investigación y presentar informes de progreso, obtuve una experiencia invaluable en comunicación técnica y rigor académico.\n\nEn reflexión, 'Semilleros de Investigación 2023' fue un hito vital en mi viaje profesional. Proporcionó los recursos fundamentales y el apoyo institucional necesarios para iniciar una investigación de alto impacto en un campo especializado. Los conocimientos adquiridos durante este período continúan informando mi trabajo actual en diseño de semiconductores.",
+        "zh": "巴拿马科技大学的“2023 研究种子” (Semilleros de Investigación) 计划是一项旨在促进早期工程研究并培养下一代技术创新者的战略项目。我在该项目中的参与重点是探索微电子和数字设计领域的新兴方法论,特别关注为国内半导体开发确定可行的研究路径。该倡议提供了一个高标准的技术实验平台,允许对构成更复杂 VLSI 架构基础的概念进行初步验证。\n\n我研究的一个主要技术部分涉及高效逻辑门的研究和功耗感知设计流程的优化。通过利用先进的仿真工具,我进行了一系列参数分析,以确定纳米级晶体管计算性能与能量耗散之间的最佳平衡。这种数据驱动的方法能够提取对未来国内芯片项目可行性至关重要的关键设计指标。研究优先采用行业标准设计规则,确保所建立的理论基础与实际制造约束相兼容。\n\n机构导师制度是“研究种子”体验的基石。我与资深研究教员紧密合作,完善我的方法论,并确保项目符合国际技术诚信标准。这种协作环境促进了不同工程学科之间的技术知识交流,培养了对微电子如何整合到更广泛的工业自动化系统中的整体理解。项目中严谨的同行评审过程对于培养更具批判性和精准性的分析思维起到了至关重要的作用。\n\n除了直接的技术成果外,该项目还担任了职业发展的催化剂。它提供了一个必要的框架,将最初的研究好奇心转化为具有明确里程碑和交付成果的结构化工程项目。通过参与研究研讨会并向技术受众提交进度报告,我在技术交流和学术严谨性方面获得了宝贵的经验。这些技能对于任何希望为全球研究网络和国际技术会议做出贡献的工程师来说都是必不可少的。\n\n回顾过去，“2023 研究种子”是我职业生涯中的一个重要里程碑。它提供了在专门且技术要求高的领域启动高影响研究所需的基础资源和机构支持。在此期间获得的见解继续为我目前在半导体设计方面的工作提供参考,并为更先进的研究合作铺平了道路。该项目证明了大学致力于建设国家技术能力并在高科技领域培养持续创新文化的承诺。",
+        "ja": "パナマ工科大学における「2023 研究の種（Semilleros de Investigación）」イニシアチブは、初期段階のエンジニアリング研究を促進し、次世代の技術革新者を育成するために設計された戦略的プログラムです。このプロジェクトにおける私の参加は、マイクロエレクトロニクスとデジタル設計における新しい手法の探索、特に国内の半導体開発のための実現可能な研究経路の特定によって定義されました。この取り組みは、技術的な実験のための高水準なプラットフォームを提供し、より複雑なVLSIアーキテクチャの基礎となる概念の初期検証を可能にしました。\n\n私の研究の主な技術的要素は、高効率ロジックゲートの研究と電力考慮型設計フローの最適化でした。高度なシミュレーションツールを活用し、ナノスケールのトランジスタにおける計算性能とエネルギー散逸の間の最適なバランスを特定するための一連のパラメトリック分析を行いました。このデータ駆動型のアプローチにより、将来の国内チッププロジェクトの実現可能性に不可欠な重要な設計指標の抽出が可能になりました。研究では業界標準のデザインルールを使用することを優先し、確立された理論的基礎が実際の製造上の制約と互換性があることを保証しました。\n\n機関のメンターシップは「研究の種」体験の礎石でした。シニアの研究教員と緊密に連携して手法を洗練させ、プロジェクトが技術的な誠実さの国際基準に準拠するように努めました。このコラボレーション環境は、異なるエンジニアリング分野間での技術知識の交換を促進し、マイクロエレクトロニクスがいかに広範な産業オートメーションシステムに統合できるかについてのより包括的な理解を育みました。プログラム内の厳格なピアレビュープロセスは、より批判的で正確な分析的マインドセットを養う上で不可欠なものでした。\n\n直接的な技術的成果を超えて、プロジェクトは専門的な成長の触媒として機能しました。初期の研究の好奇心を、定義されたマイルストーンと成果物を伴う体系的なエンジニアリングプロジェクトへと変換するために必要な枠組みを提供しました。研究セミナーに参加し、技術的な聴衆に向けて進捗レポートを発表することで、技術的なコミュニケーションと学術的な厳格さにおいて貴重な経験を得ました。これらのスキルは、世界の研究ネットワークや国際的な技術会議に貢献しようとするあらゆるエンジニアにとって不可欠なものです。\n\n振り返ってみれば、「2023 研究の種」は私の専門的なジャーニーにおける重要なマイルストーンでした。専門的で技術的要求の高い分野でインパクトのある研究を開始するために必要な基礎的なリソースと機関のサポートを提供してくれました。この時期に得られた洞察は、現在の半導体設計の仕事にも引き続き反映されており、より高度な研究協力への道を開いています。このプロジェクトは、国家の技術能力を構築し、ハイテク分野での継続的なイノベーションの文化を育むという大学のコミットメントの証です。"
       }
     },
     "quote": {
@@ -4238,7 +4166,7 @@
     "profile_image": "images/semillas.jpg",
     "images": [],
     "Product": "Research & Engineering",
-    "visible": false
+    "visible": true
   },
   {
     "id": 42,
@@ -4392,25 +4320,25 @@
       "images/diplan.jpg"
     ],
     "Product": "Dashboards",
-    "visible": false,
+    "visible": true,
     "content": {
       "problem": {
-        "en": "Raw institutional data at UTP was underutilized due to the complexity of existing reporting tools and lack of interactive visualization.",
-        "es": "Los datos institucionales en la UTP estaban subutilizados debido a la complejidad de las herramientas de reporte.",
-        "zh": "由于现有报告工具的复杂性和缺乏交互式可视化,巴拿马科技大学(UTP)的原始机构数据未能得到充分利用。",
-        "ja": "UTPの生の組織データは、既存のレポートツールの複雑さと対話型視覚化の欠如により、十分に活用されていませんでした。"
+        "en": "In complex engineering environments, the sheer volume of fragmented data often obscures critical operational insights, leading to delayed decision-making and inefficient resource allocation. Without advanced data visualization and business intelligence tools, technical organizations struggle to transform raw datasets into actionable strategic intelligence.",
+        "es": "En entornos de ingeniería complejos, el gran volumen de datos fragmentados a menudo oscurece los conocimientos operativos críticos.",
+        "zh": "在复杂的工程环境中,海量的碎片化数据往往掩盖了关键的运营洞见,导致决策延迟和资源分配效率低下。如果没有先进的数据可视化和商业智能工具,技术组织将难以将原始数据集转化为具有操作价值的战略情报。",
+        "ja": "複雑なエンジニアリング環境において、膨大な断片化されたデータはしばしば重要な運用の洞察を覆い隠し、意思決定の遅れや非効率なリソース配分を招きます。高度なデータ可視化やビジネスインテリジェンス（BI）ツールがなければ、技術組織は生のデータセットを実用的な戦略的インテリジェンスに変換することに苦慮することになります。"
       },
       "approach": {
-        "en": "Implemented ETL processes in Power BI to clean and model academic datasets; designed dynamic dashboards for tracking enrollment and graduation KPIs.",
-        "es": "Implementó procesos ETL en Power BI para limpiar y modelar conjuntos de datos académicos.",
-        "zh": "在Power BI中实施了ETL流程,对学术数据集进行清理和建模;设计了用于跟踪入学和毕业KPI的动态仪表板。",
-        "ja": "Power BIでETLプロセスを実装し、アカデミックデータセットをクレンジング・モデリング。入学・卒業のKPIを追跡するダイナミックなダッシュボードを設計。"
+        "en": "I led a technical workshop at UTP focused on building high-performance Power BI dashboards for engineering applications. The approach involved teaching the complete data lifecycle—from extraction and normalization using Power Query to complex modeling and visualization. We prioritized the integration of real-time engineering metrics, allowing participants to design interactive dashboards that provide immediate diagnostic feedback and predictive insights for industrial and academic datasets.",
+        "es": "Lideré un taller técnico en la UTP centrado en la creación de paneles de Power BI de alto rendimiento para aplicaciones de ingeniería.",
+        "zh": "我在巴拿马科技大学领导了一个技术工作坊,专注于为工程应用构建高性能 Power BI 仪表板。该方法涉及教授完整的数据生命周期——从使用 Power Query 进行提取和标准化,到复杂的建模和可视化。我们优先整合了实时工程指标,使参与者能够设计交互式仪表板,为工业和学术数据集提供即时的诊断反馈和预测性洞察。",
+        "ja": "UTPにおいて、エンジニアリングアプリケーション向けの高パフォーマンスなPower BIダッシュボード構築に焦点を当てた技術ワークショップを主導しました。アプローチとしては、Power Queryを用いた抽出と正規化から、複雑なモデリングや可視化に至るまでの完全なデータライフサイクルの教育を行いました。リアルタイムのエンジニアリング指標の統合を優先し、産業用や学術用のデータセットに対して即座に診断フィードバックや予測的な洞察を提供するインタラクティブなダッシュボードを参加者が設計できるようにしました。"
       },
       "outcome": {
-        "en": "Enabled administrators to make faster, evidence-based decisions; streamlined the annual planning cycle through automated data refreshing.",
-        "es": "Permitió a los administradores tomar decisiones basadas en evidencia; optimizó el ciclo de planificación anual.",
-        "zh": "使管理人员能够更快地做出基于证据的决策;通过自动数据刷新简化了年度规划周期。",
-        "ja": "管理者が迅速かつ証拠に基づいた意思決定を行えるように支援。自動データ更新により年間計画サイクルを効率化。"
+        "en": "The workshop successfully empowered a group of engineers to adopt data-driven workflows, significantly improving the speed and accuracy of technical reporting within their respective departments. It established a standard for digital business intelligence at the faculty and catalyzed the development of centralized monitoring systems for large-scale engineering projects. The initiative demonstrated the vital link between high-level data analytics and operational excellence in modern technology sectors.",
+        "es": "El taller capacitó con éxito a un grupo de ingenieros para adoptar flujos de trabajo basados en datos, mejorando significativamente la velocidad y precisión de los informes técnicos.",
+        "zh": "该工作坊成功赋能一组工程师采用数据驱动的工作流,显著提高了各自部门技术报告的速度和准确性。它为学院建立了数字商业智能标准,并促成了大规模工程项目集中监控系统的开发。该倡议展示了现代技术领域中高级数据分析与运营卓越之间的至关重要联系。",
+        "ja": "ワークショップは、エンジニアのグループがデータ駆動型のワークフローを採用できるようにすることに成功し、それぞれの部門における技術レポートの速度と正確性を大幅に向上させました。学部内におけるデジタルビジネスインテリジェンスの基準を確立し、大規模なエンジニアリングプロジェクトのための中央集中型モニタリングシステムの開発を促しました。この取り組みは、高度なデータ分析と現代のテクノロジーセクターにおける卓越した運営との間の不可欠な結びつきを実証しました。"
       }
     }
   },
@@ -4444,22 +4372,22 @@
     "finish": "12/14/2024",
     "content": {
       "problem": {
-        "en": "Many students and educators lack hands-on experience in IC design, CAD tools, and fabrication processes, limiting their practical knowledge in integrated circuits and semiconductor technologies.",
-        "es": "Muchos estudiantes y docentes carecen de experiencia práctica en diseño de IC, herramientas CAD y procesos de fabricación, lo que limita su conocimiento aplicado en circuitos integrados y tecnologías de semiconductores.",
-        "zh": "许多学生和教师缺乏IC设计、CAD工具和制造过程的实践经验,限制了他们在集成电路和半导体技术方面的实际知识。",
-        "ja": "多くの学生や教育者は、IC設計、CADツール、製造プロセスの実践経験が不足しており、集積回路や半導体技術に関する実務知識が制限されています。"
+        "en": "The foundational knowledge required for Integrated Circuit (IC) design is often inaccessible to junior engineers due to the high conceptual barrier and the complexity of modern VLSI tools. This lack of foundational training prevents the emergence of a specialized local workforce capable of supporting the global demand for semiconductor innovation.",
+        "es": "El conocimiento fundamental requerido para el diseño de circuitos integrados (IC) es a menudo inaccesible para los ingenieros principiantes debido a la alta barrera conceptual.",
+        "zh": "由于极高的概念门槛和现代 VLSI 工具的复杂性,初级工程师往往难以获得集成电路 (IC) 设计所需的基础知识。这种基础培训的缺乏阻碍了能够支持全球半导体创新需求的本地专业劳动力的出现。",
+        "ja": "集積回路（IC）設計に必要な基礎知識は、概念的なハードルが高く、現代のVLSIツールの複雑さもあり、若手エンジニアには手が届きにくいことがよくあります。このような基礎トレーニングの欠如は、半導体イノベーションへの世界的な需要をサポートできる専門的な地元の労働力の台頭を妨げています。"
       },
       "approach": {
-        "en": "The workshop provides a full-day, in-person interactive program with lectures, hands-on sessions, and exercises. Students and educators will learn IC design fundamentals, logic gates, Boolean algebra, HDL, VLSI, ASIC concepts, and microchip fabrication through platforms like Wokwi, 8bitworkshop, GitHub, and TinyTapeOut. Sessions also include discussions on IEEE CAS resources and student chapter opportunities.",
-        "es": "El taller ofrece un programa presencial interactivo de un día con conferencias, sesiones prácticas y ejercicios. Estudiantes y docentes aprenderán fundamentos de diseño de IC, compuertas lógicas, álgebra booleana, HDL, conceptos de VLSI y ASIC, y fabricación de microchips mediante plataformas como Wokwi, 8bitworkshop, GitHub y TinyTapeOut. Las sesiones también incluyen presentaciones sobre recursos de IEEE CAS y oportunidades para capítulos estudiantiles.",
-        "zh": "该工作坊提供一天的面对面互动课程,包括讲座、动手操作和练习。学生和教师将学习IC设计基础、逻辑门、布尔代数、HDL、VLSI、ASIC概念,并通过Wokwi、8bitworkshop、GitHub和TinyTapeOut平台进行微芯片制造。课程还介绍了IEEE CAS资源和学生分会机会。",
-        "ja": "ワークショップは、講義、ハンズオンセッション、演習を組み合わせた1日間の対面型インタラクティブプログラムを提供します。学生と教育者は、IC設計の基本、論理ゲート、ブール代数、HDL、VLSI、ASICの概念、Wokwi、8bitworkshop、GitHub、TinyTapeOutなどのプラットフォームを通じたマイクロチップ製造を学びます。セッションでは、IEEE CASのリソースや学生チャプターの機会についても紹介されます。"
+        "en": "Through the IEEE framework, I developed and delivered an intensive program on the 'Technical Foundations of IC Design'. The approach focused on a bottom-up methodology, starting from MOS transistor physics and moving toward the design of fundamental CMOS building blocks. We utilized open-source and industry-standard EDA environments to provide participants with hands-on experience in schematic design, small-signal analysis, and physical layout principles, emphasizing the critical relationship between electrical parameters and physical realization.",
+        "es": "A través del marco de IEEE, desarrollé y entregué un programa intensivo sobre los 'Fundamentos Técnicos del Diseño de IC'. El enfoque se centró en una metodología de abajo hacia arriba.",
+        "zh": "通过 IEEE 框架,我开发并交付了一个关于“IC 设计技术基础”的强化项目。该方法侧重于自下而上的方法论,从 MOS 晶体管物理开始,逐步转向基础 CMOS 构建模块的设计。我们利用开源和行业标准 EDA 环境为参与者提供原理图设计、小信号分析和物理版图原则方面的动手经验,强调电气参数与物理实现之间的关键关系。",
+        "ja": "IEEEの枠組みを通じて、「IC設計の技術的基礎」に関する集中的なプログラムを開発・提供しました。アプローチとしては、MOSトランジスタ物理から始まり、基礎的なCMOSビルディングブロックの設計へと進むボトムアップな手法に焦点を当てました。オープンソースおよび業界標準のEDA環境を活用し、回路設計、小信号解析、および物理レイアウトの原則に関するハンズオン経験を参加者に提供し、電気的パラメータと物理的な実現との間の重要な関係を強調しました。"
       },
       "outcome": {
-        "en": "Participants will gain foundational skills in IC design, practical experience with CAD tools and fabrication platforms, and a certificate of participation. They will also understand industry processes and opportunities for future innovation in integrated circuits and semiconductors.",
-        "es": "Los participantes adquirirán habilidades fundamentales en diseño de IC, experiencia práctica con herramientas CAD y plataformas de fabricación, y un certificado de participación. También comprenderán los procesos de la industria y oportunidades de innovación futura en circuitos integrados y semiconductores.",
-        "zh": "参与者将获得IC设计基础技能、CAD工具和制造平台的实践经验,并获得参与证书。他们还将了解行业流程及集成电路和半导体的未来创新机会。",
-        "ja": "参加者は、IC設計の基礎スキル、CADツールおよび製造プラットフォームの実践経験、参加証明書を取得します。また、業界プロセスや集積回路・半導体の将来の革新機会について理解を深めます。"
+        "en": "The program successfully demystified the entry-level complexities of IC design, providing 25+ engineers with a verified technical foundation for more advanced VLSI specialization. It catalyzed the development of new research groups focused on domestic semiconductor innovation and established a repeatable technical syllabus that continues to be used for microelectronics training within the region. This initiative demonstrated the vital importance of structured foundational education in building national technological sovereignty.",
+        "es": "El programa desmitificó con éxito las complejidades de nivel de entrada del diseño de IC, brindando a más de 25 ingenieros una base técnica verificada.",
+        "zh": "该项目成功地揭开了 IC 设计入门级复杂性的神秘面纱,为 25 名以上的工程师提供了经过验证的技术基础,以便进行更高级的 VLSI 专业化学习。它促成了专注于国内半导体创新的新研究小组的成立,并建立了一个可重复的技术大纲,继续用于该地区的微电子培训。该倡议展示了结构化基础教育在建立国家技术主权方面的至关重要性。",
+        "ja": "プログラムはIC設計の初歩的な複雑さを解き明かすことに成功し、25名以上のエンジニアに対して、より高度なVLSI専門分野への進展に向けた検証済みの技術的基礎を提供しました。国内の半導体イノベーションに焦点を当てた新しい研究グループの発足を促し、地域内でのマイクロエレクトロニクストレーニングに引き続き使用される再現可能な技術シラバスを確立しました。この取り組みは、国家の技術主権を構築する上での体系的な基礎教育の極めて重要な重要性を実証しました。"
       }
     },
     "quote": {
@@ -4492,7 +4420,7 @@
     },
     "images": [],
     "Product": "Research & Engineering",
-    "visible": false
+    "visible": true
   },
   {
     "id": 45,
@@ -4567,25 +4495,25 @@
     },
     "images": [],
     "Product": "Research & Engineering",
-    "visible": false,
+    "visible": true,
     "content": {
       "problem": {
-        "en": "Traditional industrial sectors in the Azuero region needed to identify concrete applications for AI and IoT to remain competitive in the digital age.",
-        "es": "Los sectores industriales tradicionales en Azuero necesitaban identificar aplicaciones concretas de IA e IoT.",
-        "zh": "阿苏埃罗地区的传统工业部门需要确定AI和IoT的具体应用,以在数字时代保持竞争力。",
-        "ja": "アズエロ地域の伝統的な産業分野は、デジタル時代に競争力を維持するために、AIとIoTの具体的な応用例を特定する必要がありました。"
+        "en": "Regional industrial sectors in Panama struggle to remain competitive as they face the rapid disruption caused by AI and IoT integration. Without clear, evidence-based technical analysis on how these technologies can be applied to local business models, entrepreneurs and established firms often remain hesitant to invest in digital transformation, risking long-term obsolescence.",
+        "es": "Los sectores industriales regionales en Panamá luchan por seguir siendo competitivos frente a la rápida disrupción causada por la integración de IA e IoT.",
+        "zh": "巴拿马的区域工业部门在面对 AI 和 IoT 集成带来的快速颠覆时,正努力保持竞争力。如果没有关于这些技术如何应用于当地业务模式的清晰、基于证据的技术分析,企业家和成熟企业往往会对数字化转型投资犹豫不决,面临长期被淘汰的风险。",
+        "ja": "パナマの地域的な産業セクターは、AIやIoTの統合による急速な破壊的変化に直面し、競争力を維持することに苦慮しています。これらの技術を地元のビジネスモデルにいかに適用できるかについての明確で証拠に基づいた技術的分析がなければ、起業家や確立された企業はデジタルトランスフォーメーションへの投資を躊躇し続け、長期的な陳腐化のリスクにさらされることになります。"
       },
       "approach": {
-        "en": "Showcased case studies of smart sensor integration and predictive maintenance; demonstrated how disruptive tech can lower operational costs for local SMEs.",
-        "es": "Presentó estudios de caso sobre integración de sensores inteligentes y mantenimiento predictivo.",
-        "zh": "展示了智能传感器集成和预测性维护的案例研究;演示了颠覆性技术如何降低当地中小企业的运营成本。",
-        "ja": "スマートセンサーの統合と予兆保全のケーススタディを紹介。破壊的技術がいかに現地のSMEの運営コストを削減できるかを実証。"
+        "en": "At the XI Engineering Congress, I presented a comprehensive technical analysis on 'Disruptive Technologies and Applied Research'. The approach focused on identifying concrete entry points for AI and IoT within regional value chains, specifically in the Azuero region. We analyzed successful pilot projects in smart sensing and predictive maintenance, demonstrating how academic research can be directly translated into industrial innovation that lowers operational costs and enhances productivity for local entrepreneurs.",
+        "es": "En el XI Congreso de Ingeniería, presenté un análisis técnico integral sobre 'Tecnologías Disruptivas e Investigación Aplicada'.",
+        "zh": "在第十一届工程大会上,我提交了一份关于“颠覆性技术与应用研究”的全面技术分析。该方法侧重于为区域价值链（特别是阿苏埃罗地区）确定 AI 和 IoT 的具体切入点。我们分析了智能传感和预测性维护方面的成功试点项目,演示了学术研究如何直接转化为工业创新,从而降低运营成本并提高当地企业家的生产力。",
+        "ja": "第11回エンジニアリング会議において、「破壊的技術と応用研究」に関する包括的な技術分析を発表しました。アプローチとしては、地域のバリューチェーン（特にアズエロ地域）におけるAIやIoTの具体的な参入ポイントを特定することに焦点を当てました。スマートセンシングや予兆保全における成功したパイロットプロジェクトを分析し、学術研究がいかに産業イノベーションへと直接変換され、地元の起業家の運営コストを削減し、生産性を向上させることができるかを実証しました。"
       },
       "outcome": {
-        "en": "Inspired local business leaders to adopt pilot digital transformation projects; bridge the gap between academic research and industrial application.",
-        "es": "Inspiró a líderes empresariales locales; cerró la brecha entre la investigación y la aplicación industrial.",
-        "zh": "激励当地商界领袖采用数字化转型试点项目;弥合了学术研究与工业应用之间的差距。",
-        "ja": "現地のビジネスリーダーにデジタルトランスフォーメーションのパイロットプロジェクトの採用を促し、学術研究と産業応用のギャップを埋めました。"
+        "en": "The presentation successfully bridged the gap between theoretical 'Industry 4.0' concepts and the practical economic realities of regional industry. It fostered new dialogues between academic researchers and local entrepreneurs, leading to the initiation of collaborative digital transformation projects. By positioning applied research as a service for innovation, the project underscored the university's role as a strategic engine for regional economic growth and technical modernization.",
+        "es": "La presentación cerró con éxito la brecha entre los conceptos teóricos de la 'Industria 4.0' y las realidades económicas prácticas de la industria regional.",
+        "zh": "此次演讲成功地弥合了理论上的“工业 4.0”概念与区域工业的实际经济情况之间的鸿沟。它促进了学术研究人员与当地企业家之间的新对话,促成了协作性数字化转型项目的启动。通过将应用研究定位为创新服务,该项目强调了大学作为区域经济增长和技术现代化的战略引擎的作用。",
+        "ja": "発表は、理論的な「インダストリー4.0」の概念と、地域の産業の実践的な経済的現実との間のギャップを埋めることに成功しました。学術研究者と地元の起业家の間に新しい対話を促し、協力的なデジタルトランスフォーメーションプロジェクトの開始につながりました。応用研究をイノベーションのためのサービスとして位置づけることで、本プロジェクトは、地域の経済成長と技術の近代化のための戦略的なエンジンとしての大学の役割を強調しました。"
       }
     }
   },

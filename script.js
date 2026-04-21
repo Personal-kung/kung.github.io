@@ -8,10 +8,11 @@
 
 /* ─── App State ──────────────────────────────────────────────────────── */
 const App = (() => {
-  let _data     = null;   // full JSON (including non-visible entries)
-  let _visible  = [];     // entries that passed validation
+  let _data = null;   // full JSON (including non-visible entries)
+  let _visible = [];     // entries that passed validation
   let _filtered = [];     // current filter slice
-  let _lang     = "en";
+  let _collabs = [];     // collaborators data
+  let _lang = "en";
 
   const LANG_SELECT = document.getElementById("lang-select");
 
@@ -200,12 +201,12 @@ const App = (() => {
   };
 
   /* ── Utilities ────────────────────────────────────────────────────── */
-  const t   = key => (I18N[_lang]?.[key] ?? I18N.en[key] ?? key);
-  const tF  = f => f && typeof f === "object" && !Array.isArray(f)
-                    ? (f[_lang] ?? Object.values(f)[0] ?? "")
-                    : (f ?? "");
-  const $   = s => document.querySelector(s);
-  const $$  = s => document.querySelectorAll(s);
+  const t = key => (I18N[_lang]?.[key] ?? I18N.en[key] ?? key);
+  const tF = f => f && typeof f === "object" && !Array.isArray(f)
+    ? (f[_lang] ?? Object.values(f)[0] ?? "")
+    : (f ?? "");
+  const $ = s => document.querySelector(s);
+  const $$ = s => document.querySelectorAll(s);
 
   const formatDate = d => {
     if (!d) return "";
@@ -224,8 +225,8 @@ const App = (() => {
   const renderLinks = links =>
     links && typeof links === "object" && Object.keys(links).length
       ? `<div class="btn-group">${Object.entries(links)
-          .map(([l, u]) => `<a href="${u}" target="_blank" rel="noopener" class="btn btn-sm">More info — ${l}</a>`)
-          .join("")}</div>`
+        .map(([l, u]) => `<a href="${u}" target="_blank" rel="noopener" class="btn btn-sm">More info — ${l}</a>`)
+        .join("")}</div>`
       : "";
 
   /* ── Data Validator ───────────────────────────────────────────────── */
@@ -234,7 +235,7 @@ const App = (() => {
     if (!e.id) return false;
     const content = e.content;
     if (!content || typeof content !== "object") return false;
-    const hasTrio    = content.problem && content.approach && content.outcome;
+    const hasTrio = content.problem && content.approach && content.outcome;
     const hasDetails = content.details;
     if (!hasTrio && !hasDetails) return false;
     return true;
@@ -280,7 +281,7 @@ const App = (() => {
     const ob = new IntersectionObserver(([e]) => {
       if (e.isIntersecting) {
         animateCount($("#count-projects"), pCount);
-        animateCount($("#count-collabs"),  cCount);
+        animateCount($("#count-collabs"), cCount);
         animateCount($("#count-institutions"), iCount);
         ob.unobserve(section);
       }
@@ -368,22 +369,22 @@ const App = (() => {
 
   /* ── Portfolio Cards ─────────────────────────────────────────────── */
   const PORTFOLIO_META = {
-    "Robotics":            { desc: { en:"Cutting-edge electromechanical systems and automated robots driving the future of industry.", es:"Sistemas electromecánicos de vanguardia y máquinas automatizadas que impulsan el futuro de la industria.", zh:"推动行业未来的尖端机电系统和自动化机器。", ja:"産業の未来を牽引する最先端の電気機械システムと自動化機械。" } },
-    "Dashboards":          { desc: { en:"Robust SCADA monitoring, Power BI analytics, and data visualization bridging hardware with human insight.", es:"Monitoreo SCADA robusto, análisis con Power BI y visualización de datos que une hardware con conocimiento humano.", zh:"强大的SCADA监控、Power BI分析和数据可视化。", ja:"堅牢なSCADA監視、Power BI分析、データ可視化。" } },
-    "Programming":         { desc: { en:"Scalable software solutions — from enterprise-level cloud integrations to precision embedded logic.", es:"Soluciones de software escalables — desde integraciones empresariales en la nube hasta lógica embebida de precisión.", zh:"从企业级云集成到精密嵌入式逻辑的可扩展软件解决方案。", ja:"企業規模のクラウド統合から精密な組み込みロジックまでのスケーラブルなソフトウェアソリューション。" } },
-    "Electronics":         { desc: { en:"High-precision PCBs, embedded systems, and advanced energy technologies solving real engineering challenges.", es:"PCBs de alta precisión, sistemas embebidos y tecnologías energéticas avanzadas que resuelven desafíos reales.", zh:"解决真实工程挑战的高精度PCB、嵌入式系统和先进能源技术。", ja:"現実の工学的課題を解決する高精度PCB、組み込みシステム、先進エネルギー技術。" } },
-    "Smart Systems":       { desc: { en:"Intelligent analytics, real-time sensing, and algorithm development bridging research with practical utility.", es:"Análisis inteligente, sensado en tiempo real y desarrollo de algoritmos que unen la investigación con la aplicación práctica.", zh:"连接研究与实用价值的智能分析、实时感知及算法开发。", ja:"研究と実用性を結びつけるインテリジェントな分析、リアルタイムセンシング、アルゴリズム開発。" } },
-    "Research & Engineering":{ desc: { en:"Specialized R&D pushing boundaries in semiconductor fabrication, VLSI testing, and scientific publication.", es:"I+D especializada que amplía los límites en fabricación de semiconductores, pruebas VLSI y publicaciones científicas.", zh:"半导体制造、VLSI测试和科学发表领域前沿的专项研发。", ja:"半導体製造、VLSIテスト、科学出版の境界を押し広げる専門的なR&D。" } },
+    "Robotics": { desc: { en: "Cutting-edge electromechanical systems and automated robots driving the future of industry.", es: "Sistemas electromecánicos de vanguardia y máquinas automatizadas que impulsan el futuro de la industria.", zh: "推动行业未来的尖端机电系统和自动化机器。", ja: "産業の未来を牽引する最先端の電気機械システムと自動化機械。" } },
+    "Dashboards": { desc: { en: "Robust SCADA monitoring, Power BI analytics, and data visualization bridging hardware with human insight.", es: "Monitoreo SCADA robusto, análisis con Power BI y visualización de datos que une hardware con conocimiento humano.", zh: "强大的SCADA监控、Power BI分析和数据可视化。", ja: "堅牢なSCADA監視、Power BI分析、データ可視化。" } },
+    "Programming": { desc: { en: "Scalable software solutions — from enterprise-level cloud integrations to precision embedded logic.", es: "Soluciones de software escalables — desde integraciones empresariales en la nube hasta lógica embebida de precisión.", zh: "从企业级云集成到精密嵌入式逻辑的可扩展软件解决方案。", ja: "企業規模のクラウド統合から精密な組み込みロジックまでのスケーラブルなソフトウェアソリューション。" } },
+    "Electronics": { desc: { en: "High-precision PCBs, embedded systems, and advanced energy technologies solving real engineering challenges.", es: "PCBs de alta precisión, sistemas embebidos y tecnologías energéticas avanzadas que resuelven desafíos reales.", zh: "解决真实工程挑战的高精度PCB、嵌入式系统和先进能源技术。", ja: "現実の工学的課題を解決する高精度PCB、組み込みシステム、先進エネルギー技術。" } },
+    "Smart Systems": { desc: { en: "Intelligent analytics, real-time sensing, and algorithm development bridging research with practical utility.", es: "Análisis inteligente, sensado en tiempo real y desarrollo de algoritmos que unen la investigación con la aplicación práctica.", zh: "连接研究与实用价值的智能分析、实时感知及算法开发。", ja: "研究と実用性を結びつけるインテリジェントな分析、リアルタイムセンシング、アルゴリズム開発。" } },
+    "Research & Engineering": { desc: { en: "Specialized R&D pushing boundaries in semiconductor fabrication, VLSI testing, and scientific publication.", es: "I+D especializada que amplía los límites en fabricación de semiconductores, pruebas VLSI y publicaciones científicas.", zh: "半导体制造、VLSI测试和科学发表领域前沿的专项研发。", ja: "半導体製造、VLSIテスト、科学出版の境界を押し広げる専門的なR&D。" } },
   };
 
   // Curated cover images per product (from validated images)
   const PORTFOLIO_COVERS = {
-    "Robotics":              "images/thumbnails/silla_inteligente1.webp",
-    "Dashboards":            "images/thumbnails/dashboard.webp",
-    "Programming":           "images/thumbnails/aplicacion_transporte.webp",
-    "Electronics":           "images/thumbnails/PCB1.webp",
-    "Smart Systems":         "images/thumbnails/analog.webp",
-    "Research & Engineering":"images/thumbnails/semiconductor.webp",
+    "Robotics": "images/thumbnails/silla_inteligente1.webp",
+    "Dashboards": "images/thumbnails/dashboard.webp",
+    "Programming": "images/thumbnails/aplicacion_transporte.webp",
+    "Electronics": "images/thumbnails/PCB1.webp",
+    "Smart Systems": "images/thumbnails/analog.webp",
+    "Research & Engineering": "images/thumbnails/semiconductor.webp",
   };
 
   function renderPortfolios() {
@@ -557,8 +558,8 @@ const App = (() => {
     const gh = $("#footer-github");
     if (!em || !gh) return;
     if (_lang === "zh" || _lang === "ja") {
-      em.href = "mailto:kelvinmext1@gmail.com";
-      gh.href = "https://github.com/Personal-kung";
+      em.href = "mailto:kung-gomez-kelvin2604@mail.kyutech.jp";
+      gh.href = "https://github.com/Kung-Kelvin";
     } else {
       em.href = "mailto:kelvin.kung@utp.ac.pa";
       gh.href = "https://github.com/kelvinutp";
@@ -578,12 +579,12 @@ const App = (() => {
     _filtered = cat === "all"
       ? [..._visible]
       : _visible.filter(i =>
-          (i.category?.en || i.category || "") === cat);
+        (i.category?.en || i.category || "") === cat);
     renderActiveView();
   }
 
   function switchViewMode(mode) {
-    ["timeline","accordion","interactive"].forEach(v => {
+    ["timeline", "accordion", "interactive"].forEach(v => {
       const el = $("." + v);
       if (el) el.classList.remove("active");
     });
@@ -611,7 +612,8 @@ const App = (() => {
       fetch("data/collaborators.json").then(r => r.json()),
     ]);
 
-    _data    = entries;    
+    _data = entries;
+    _collabs = collabs;
     _visible = entries.filter(isEntryValid);
     _filtered = [..._visible];
 
@@ -645,6 +647,7 @@ const App = (() => {
       renderHighlights();
       renderPortfolios();
       renderActiveView();
+      renderCollaborators(_collabs);
     });
 
     document.addEventListener("click", e => {
@@ -654,7 +657,7 @@ const App = (() => {
     });
 
     // Expose to HTML onclick attributes
-    window.filterData    = filterData;
+    window.filterData = filterData;
     window.switchViewMode = switchViewMode;
 
     init().catch(err => console.error("[Portfolio] Init failed:", err));
