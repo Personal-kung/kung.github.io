@@ -5975,5 +5975,95 @@
       "images/webp/aplicacion_transporte1.webp"
     ],
     "visible": true
+  },
+  {
+    "id": 63,
+    "title": {
+      "en": "2024 IEEE ICCA Hackathon",
+      "es": "2024 IEEE ICCA Hackathon",
+      "zh": "2024 IEEE ICCA 开发者大赛",
+      "ja": "2024 IEEE ICCA ハッカソン"
+    },
+    "summary": {
+      "en": "Synthesized advanced control laws and multi-agent perception to architect a robust autonomous driving system under high-pressure competitive constraints. Leveraged the IEEE ICCA platform to bridge the gap between theoretical simulation and scalable, real-world robotic coordination.",
+      "es": "Sinteticé leyes de control avanzadas y percepción multiagente para diseñar un sistema de conducción autónoma robusto bajo restricciones competitivas de alta presión. Aproveché la plataforma IEEE ICCA para tender el puente entre la simulación teórica y la coordinación robótica escalable en el mundo real.",
+      "zh": "综合应用先进的控制算法与多智能体感知技术,在极具挑战性的竞赛环境中构建了一个鲁棒的自动驾驶系统。利用 IEEE ICCA 平台,成功弥合了理论仿真与可扩展的现实世界机器人协同之间的鸿沟。",
+      "ja": "高圧な競技環境下で、高度な制御理論とマルチエージェントの知覚を統合し、堅牢な自動運転システムを構築しました。IEEE ICCAプラットフォームを活用することで、理論的なシミュレーションと実世界でのスケーラブルなロボット協調との間のギャップを埋めることに成功しました。"
+    },
+    "category": {
+      "en": "Professional",
+      "es": "Profesional",
+      "zh": "专业的",
+      "ja": "プロフェッショナル"
+    },
+    "tags": {
+      "en": [
+        "<strong>Autonomous Robotics 🤖</strong>",
+        "<strong>Control Systems 📉</strong>",
+        "<strong>Intelligent Transport 🏎️</strong>",
+        "<strong>Rapid Prototyping ⚡</strong>",
+        "<strong>IEEE Innovation 🌐</strong>"
+      ],
+      "es": [
+        "<strong>Robótica Autónoma 🤖</strong>",
+        "<strong>Sistemas de Control 📉</strong>",
+        "<strong>Transporte Inteligente 🏎️</strong>",
+        "<strong>Prototipado Rápido ⚡</strong>",
+        "<strong>Innovación IEEE 🌐</strong>"
+      ],
+      "zh": [
+        "<strong>机器人技术 🤖</strong>",
+        "<strong>控制系统 📉</strong>",
+        "<strong>智能交通 🏎️</strong>",
+        "<strong>快速原型 ⚡</strong>",
+        "<strong>IEEE 创新 🌐</strong>"
+      ],
+      "ja": [
+        "<strong>ロボット工学 🤖</strong>",
+        "<strong>制御システム 📉</strong>",
+        "<strong>インテリジェント交通 🏎️</strong>",
+        "<strong>ラピッドプロトタイピング ⚡</strong>",
+        "<strong>IEEEイノベーション 🌐</strong>"
+      ]
+    },
+    "start": "06/18/2024",
+    "finish": "06/20/2024",
+    "content": {
+      "details": {
+        "en": "The 2024 ICCA Hackathon represented a pivot point in control engineering, moving beyond isolated simulations into the complex realm of Cooperative Driving Automation (CDA). My participation centered on navigating the \"sim-to-real\" gap, specifically focusing on how multi-agent systems interact under fluctuating network constraints. This required a high-level synthesis of classic control theory and modern machine learning, demanding a solution that was both mathematically robust and computationally agile.<br><br>At the core of the challenge was the integration of perception, planning, and control. I worked extensively with specialized simulation environments to design algorithms capable of real-time trajectory optimization. This wasn't merely about avoiding obstacles; it was about synthesizing sensor data to predict the intent of other autonomous agents. The engineering complexity lay in balancing aggressive efficiency with the absolute safety protocols required by IEEE standards.<br><br>The \"hackathon\" format served as a high-pressure laboratory for iterative problem-solving. When faced with edge cases—such as sudden communication latency between vehicles—I had to pivot from ideal-state models to robust, fault-tolerant control strategies. This experience sharpened my ability to debug complex systemic behaviors that only emerge when multiple autonomous entities share a common workspace, a critical skill for any modern robotics engineer.<br><br>Beyond the technical hurdles, this project was an exercise in professional collaborative engineering. Operating within the IEEE ICCA ecosystem meant adhering to rigorous documentation and peer-review mentalities even during rapid development. My role involved translating high-level mission goals into granular, executable code, ensuring that our team's control architecture remained modular and scalable despite the ticking clock.<br><br>Ultimately, this experience facilitated a transition from understanding control theory to architecting autonomous solutions. I emerged with a profound grasp of how Intelligent Transportation Systems (ITS) can be optimized for safety and throughput. For my portfolio, this marks a demonstrated ability to take abstract mathematical concepts and forge them into functional, reliable, and innovative engineering outcomes in a competitive, global arena.",
+        "es": "El Hackathon ICCA 2024 representó un punto de inflexión en la ingeniería de control, trascendiendo las simulaciones aisladas hacia el complejo dominio de la Automatización Cooperativa de la Conducción (CDA). Mi participación se centró en abordar la brecha \"sim-to-real\", enfocándome específicamente en cómo los sistemas multiagente interactúan bajo restricciones de red fluctuantes. Esto requirió una síntesis de alto nivel entre la teoría de control clásica y el aprendizaje automático moderno, demandando una solución que fuera matemáticamente robusta y computacionalmente ágil.<br><br>El núcleo del desafío radicaba en la integración de percepción, planificación y control. Trabajé extensamente con entornos de simulación especializados para diseñar algoritmos capaces de optimización de trayectorias en tiempo real. No se trataba simplemente de evitar obstáculos; se trataba de sintetizar datos de sensores para predecir la intención de otros agentes autónomos. La complejidad técnica residía en equilibrar una eficiencia agresiva con los protocolos de seguridad absolutos exigidos por los estándares IEEE.<br><br>El formato de \"hackathon\" funcionó como un laboratorio de alta presión para la resolución iterativa de problemas. Ante casos límite—como la latencia repentina de comunicación entre vehículos—tuve que pivotar de modelos de estado ideal a estrategias de control robustas y tolerantes a fallos. Esta experiencia agudizó mi capacidad para depurar comportamientos sistémicos complejos que solo emergen cuando múltiples entidades autónomas comparten un espacio de trabajo común, una habilidad crítica para cualquier ingeniero de robótica moderno.<br><br>Más allá de los obstáculos técnicos, este proyecto fue un ejercicio de ingeniería colaborativa profesional. Operar dentro del ecosistema IEEE ICCA significó adherirse a una mentalidad rigurosa de documentación y revisión por pares incluso durante el desarrollo rápido. Mi rol implicó traducir objetivos de misión de alto nivel en código granular y ejecutable, asegurando que la arquitectura de control de nuestro equipo mantuviera la modularidad y escalabilidad a pesar del reloj en contra.<br><br>En última instancia, esta experiencia facilitó una transición desde la comprensión de la teoría de control hacia la arquitectura de soluciones autónomas. Emergí con una comprensión profunda de cómo los Sistemas de Transporte Inteligente (ITS) pueden optimizarse para la seguridad y el rendimiento. Para mi portafolio, esto marca una capacidad demostrada para tomar conceptos matemáticos abstractos y forjarlos en resultados de ingeniería funcionales, confiables e innovadores en un escenario competitivo y global.",
+        "zh": "2024年ICCA开发者大赛代表了控制工程的一个转折点,它将孤立的仿真推向了协作驾驶自动化(CDA)的复杂领域。我的参与重点在于驾驭“从仿真到现实”的差距,特别是关注多智能体系统如何在波动的网络约束下进行交互。这需要对经典控制理论与现代机器学习进行高级综合,要求解决方案既具有数学上的鲁棒性,又具有计算上的敏捷性。<br><br>挑战的核心是感知、规划和控制的集成。我广泛使用专业的仿真环境来设计能够进行实时轨迹优化的算法。这不仅仅是关于避障;更是关于综合传感器数据以预测其他自主智能体的意图。工程复杂性在于平衡激进的效率与IEEE标准要求的绝对安全协议。<br><br>“开发者大赛”的形式成为了高压下的迭代问题解决实验室。面对边缘情况——例如车辆之间突然的通信延迟——我不得不从理想状态模型转向鲁棒的容错控制策略。这次经历锻炼了我调试复杂系统行为的能力,这种行为只有在多个自主实体共享公共工作空间时才会显现,这是任何现代机器人工程师的关键技能。<br><br>除了技术障碍,这个项目也是一次专业的协作工程实践。在IEEE ICCA生态系统中运作,意味着即使在快速开发中也要遵循严格的文档和同行评审的心态。我的角色涉及将高级任务目标转化为精细的、可执行的代码,确保我们的团队的控制架构在时间压力下保持模块化和可扩展性。<br><br>最终,这次经历促进了我从理解控制理论到构建自主解决方案的转变。我获得了对智能交通系统(ITS)如何优化安全性和吞吐量的深刻理解。对于我的作品集而言,这标志着我具备了将抽象数学概念转化为竞争激烈的全球舞台上功能性、可靠性和创新性工程成果的能力。",
+        "ja": "2024年ICCAハッカソンは、制御工学における転換点であり、孤立したシミュレーションから協調運転自動化（CDA）の複雑な領域へと進みました。私の参加は、特にマルチエージェントシステムが変動するネットワーク制約下でどのように相互作用するかに焦点を当て、「シムツーリアル（シミュレーションから現実へ）」のギャップを乗り越えることに重点を置きました。これには、古典的な制御理論と最新の機械学習との高度な統合が必要であり、数学的に堅牢でありながら計算的にも機敏なソリューションが求められました。<br><br>課題の中心は、知覚、計画、制御の統合でした。私は専門のシミュレーション環境を幅広く使用し、リアルタイムの軌道最適化が可能なアルゴリズムを設計しました。これは単なる障害物回避の問題ではなく、センサーデータを合成して他の自律エージェントの意図を予測することでした。工学的な複雑さは、IEEE規格で要求される絶対的な安全プロトコルと、積極的な効率性のバランスを取ることにありました。<br><br>「ハッカソン」形式は、反復的な問題解決のための高圧な実験室として機能しました。車両間の突然の通信遅延などのエッジケースに直面した際、私は理想状態モデルから、堅牢で耐障害性のある制御戦略へと pivot（転換）する必要がありました。この経験により、複数の自律エンティティが共通のワークスペースを共有するときにのみ現れる複雑なシステム的挙動をデバッグする能力が磨かれました。これは、現代のロボット工学エンジニアにとって不可欠なスキルです。<br><br>技術的な課題を超えて、このプロジェクトは専門的な協調エンジニアリングの実践でもありました。IEEE ICCAエコシステム内で活動することは、迅速な開発中でも厳格なドキュメント化とピアレビューの精神に準拠することを意味しました。私の役割は、高度なミッションゴールを詳細で実行可能なコードに変換し、刻々と迫る時間の中でチームの制御アーキテクチャがモジュール性とスケーラビリティを維持するようにすることでした。<br><br>最終的に、この経験は制御理論の理解から自律ソリューションの設計への移行を促進しました。私は、インテリジェント交通システム（ITS）が安全性とスループットのためにどのように最適化できるかについて深い理解を得て卒業しました。私のポートフォリオにとって、これは抽象的な数学的概念を、競争の激しいグローバルな舞台で機能的、信頼性が高く、革新的な工学成果に鍛え上げる能力の実証となります。"
+      }
+    },
+    "quote": {
+      "en": "True engineering isn't just about solving the equations on the chalkboard; it’s about forcing the elegance of mathematical theory to survive the beautiful chaos of real-world autonomous interaction.",
+      "es": "La verdadera ingeniería no consiste solo en resolver ecuaciones en la pizarra; consiste en obligar a la elegancia de la teoría matemática a sobrevivir al hermoso caos de la interacción autónoma en el mundo real.",
+      "zh": "真正的工程设计不仅仅是在黑板上解方程;它是关于强迫数学理论的优雅在现实世界的自主交互的美丽混乱中生存下来。",
+      "ja": "真のエンジニアリングとは、黒板の数式を解くだけでなく、数学理論の優雅さを、現実世界の自律的な相互作用の美しい混沌の中で生き残らせることなのです。"
+    },
+    "links": {
+      "IEEE ICCA 2024": "https://entrepreneurship.ieee.org/2024_07_22_icca-hackathon-2024/"
+    },
+    "institution": {
+      "en": "IEEE Control Systems Society (CSS) / 18th International Conference on Control and Automation",
+      "es": "IEEE Control Systems Society (CSS) / 18ª Conferencia Internacional sobre Control y Automatización",
+      "zh": "IEEE 控制系统学会 (CSS) / 第十八届国际控制与自动化会议",
+      "ja": "IEEE制御システム学会 (CSS) / 第18回国際制御自動化会議"
+    },
+    "branch": {
+      "en": "Intelligent Transportation Systems & Autonomous Control",
+      "es": "Sistemas de Transporte Inteligente y Control Autónomo",
+      "zh": "智能交通系统与自主控制",
+      "ja": "インテリジェント交通システムと自律制御"
+    },
+    "participation": {
+      "en": "Lead Solutions Architect & Full-Stack Developer",
+      "es": "Arquitecto de Soluciones & Desarrollador Full-Stack",
+      "zh": "首席解决方案架构师与全栈开发人员",
+      "ja": "リードソリューションアーキテクト兼フルスタック開発者"
+    },
+    "profile_image": "images/ICCA-Hackathon-2024.webp",
+    "visible": true
   }
 ]
