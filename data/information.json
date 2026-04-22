@@ -65,13 +65,13 @@
         "zh": "结果令人瞩目。最初的15名参与者中,有12人被电气工程学院录取,并选择工程学作为他们的专业方向。夏令营的成功吸引了私募股权集团的关注,他们在2023年和2024年将该项目推广到全国各地,覆盖了更广泛的受众,并持续鼓励年轻女性投身STEM(科学、技术、工程和数学)领域。",
         "ja": "結果は目覚ましいものでした。当初の参加者15名のうち、12名が電気工学部に入学し、工学を専攻分野として選択しました。 このキャンプの成功はプライベートエクイティグループの関心を集め、その後2023年と2024年にはプログラムを全国に拡大・再現しました。これにより、より幅広い対象者にリーチし、若い女性のSTEMキャリアの促進を継続しています。",
         "es": "Los resultados fueron extraordinarios. De las 15 Participantes originales, 12 se matricularon en carreras de la facultad de ingeniería eléctrica y eligieron la ingeniería como su campo de estudio.  El éxito del campamento atrajo el interés de grupos de capital privado, quienes en 2023 y 2024 posteriormente expandieron y replicaron el programa en todo el país, llegando a un público mucho más amplio y promoviendo las carreras STEM entre las jóvenes."
+      },
+      "quote": {
+        "en": "Empowering young ladies with the skills and confidence to pursue electrical Engineering",
+        "zh": "赋予年轻女性从事电气工程所需的技能和信心",
+        "ja": "少女性に電気工学を追求するためのスキルと自信を与える",
+        "es": "Empoderando a las jóvenes con las habilidades y la confianza para dedicarse a las carreras de ingeniería eléctrica."
       }
-    },
-    "quote": {
-      "en": "Empowering young ladies with the skills and confidence to pursue electrical Engineering",
-      "zh": "赋予年轻女性从事电气工程所需的技能和信心",
-      "ja": "少女性に電気工学を追求するためのスキルと自信を与える",
-      "es": "Empoderando a las jóvenes con las habilidades y la confianza para dedicarse a las carreras de ingeniería eléctrica."
     },
     "links": {
       "UTP": "https://utp.ac.pa/inicia-el-campamento-tecnologico-en-el-centro-regional-de-chiriqui"
@@ -243,7 +243,7 @@
     },
     "profile_image": "images/thumbnails/battery.webp",
     "images": [
-      "images/webp/battery.webp",      
+      "images/webp/battery.webp",
       "images/webp/battery5.webp",
       "images/webp/battery1.webp"
     ],
@@ -581,13 +581,13 @@
         "es": "Un sistema de electrónica de potencia a medida, diseñado para controlar un brazo robótico a través de internet. Utilizando hardware de bajo coste como la Raspberry Pi 4 y software de código abierto, se creó un sistema que interactúa con el brazo robótico mediante una placa de circuito impreso (PCB) personalizada. Este 'puente' no solo permitió el control remoto, sino que también resultó rentable, con materiales que costaron alrededor de 200 USD. El sistema utiliza un servidor VNC en la Raspberry Pi para establecer una conexión virtual, con la ventaja adicional de los controles inalámbricos, lo que lo hace ideal tanto para aplicaciones académicas como industriales. Las pruebas arrojaron resultados impresionantes, con una latencia de tan solo 19 ms, lo que demuestra su eficacia para la operación remota. El prototipo demuestra que una tecnología asequible y accesible puede permitir sistemas de control teleoperados que superan las barreras de la distancia, ya sea en el ámbito académico durante una pandemia o en entornos industriales donde la presencia física no siempre es posible.<br>En resumen, este proyecto destaca cómo se pueden aprovechar herramientas de bajo coste y fácil acceso para proporcionar una interfaz fluida para el control de equipos electromecánicos, lo que lo convierte en una solución valiosa tanto para entornos educativos como industriales, sin importar la distancia.",
         "zh": "这是一个定制的电力电子系统,旨在通过互联网控制机械臂。该系统利用树莓派 4 等低成本硬件和开源软件,通过定制的印刷电路板 (PCB) 与机械臂进行交互。这个桥梁不仅实现了远程控制,而且成本低廉,材料总成本仅约 200 美元。<br>该系统使用树莓派上的 VNC 服务器建立虚拟连接,并具备无线控制的优势,使其成为学术和工业应用的理想选择。测试结果令人印象深刻,延迟仅为 19 毫秒,证明了其远程操作的有效性。该原型表明,经济实惠且易于使用的技术可以实现远程控制系统,克服距离障碍,无论是在疫情期间的学术界,还是在无法始终保持现场协作的工业环境中。<br>总之,该项目突出展示了如何利用低成本、易于获取的工具为机电设备控制提供无缝接口,使其成为教育和工业环境的宝贵解决方案——无论距离远近。",
         "ja": "インターネット経由でロボットアームを制御するために設計された、カスタムメイドのパワーエレクトロニクスシステム。Raspberry Pi 4などの低価格ハードウェアとオープンソースソフトウェアを使用し、カスタムプリント基板(PCB)を介してロボットアームとインターフェースするシステムを構築しました。このブリッジは、遠隔操作を可能にするだけでなく、材料費も約200米ドルと非常にコスト効率に優れています。<br>このシステムは、Raspberry Pi上のVNCサーバーを使用して仮想接続を確立し、ワイヤレス制御という利点も備えているため、学術用途と産業用途の両方に最適です。テストでは、わずか19ミリ秒の遅延という優れた結果が得られ、遠隔操作における有効性が実証されました。このプロトタイプは、手頃な価格で入手可能なテクノロジーによって、パンデミック中の学術現場でも、物理的な立ち会いが必ずしも可能ではない産業現場でも、距離の障壁を克服する遠隔操作制御システムを実現できることを実証しています。要約すると、このプロジェクトは、低コストですぐに利用できるツールを活用して、電気機械装置を制御するためのシームレスなインターフェースを提供する方法を強調し、距離に関係なく、教育環境と産業環境の両方にとって価値のあるソリューションにします。"
+      },
+      "quote": {
+        "en": "In a Panama adapting to the new reality, technology becomes an ally in overcoming challenges. With a low-cost and easily replicable system, we seek to democratize the remote control of robotic equipment, opening a future where distance is not an obstacle to productivity, even in times of crisis",
+        "es": "En un Panamá que se adapta a la nueva realidad, la tecnología se convierte en aliada para superar desafíos. Con un sistema de bajo costo y fácil replicabilidad, buscamos democratizar el control remoto de equipos robóticos, abriendo un futuro donde la distancia no sea un obstáculo para la productividad, incluso en tiempos de crisis",
+        "zh": "在巴拿马适应新现实的过程中,科技成为克服挑战的盟友。我们希望通过低成本且易于复制的系统,普及机器人设备的远程控制,从而开创一个即使在危机时期,距离也不会成为生产力障碍的未来。",
+        "ja": "新たな現実に適応するパナマにおいて、テクノロジーは課題克服の強力な味方となります。低コストで容易に複製可能なシステムにより、ロボット機器の遠隔操作を民主化し、危機的状況下でも距離が生産性の妨げにならない未来を切り開きます。"
       }
-    },
-    "quote": {
-      "en": "In a Panama adapting to the new reality, technology becomes an ally in overcoming challenges. With a low-cost and easily replicable system, we seek to democratize the remote control of robotic equipment, opening a future where distance is not an obstacle to productivity, even in times of crisis",
-      "es": "En un Panamá que se adapta a la nueva realidad, la tecnología se convierte en aliada para superar desafíos. Con un sistema de bajo costo y fácil replicabilidad, buscamos democratizar el control remoto de equipos robóticos, abriendo un futuro donde la distancia no sea un obstáculo para la productividad, incluso en tiempos de crisis",
-      "zh": "在巴拿马适应新现实的过程中,科技成为克服挑战的盟友。我们希望通过低成本且易于复制的系统,普及机器人设备的远程控制,从而开创一个即使在危机时期,距离也不会成为生产力障碍的未来。",
-      "ja": "新たな現実に適応するパナマにおいて、テクノロジーは課題克服の強力な味方となります。低コストで容易に複製可能なシステムにより、ロボット機器の遠隔操作を民主化し、危機的状況下でも距離が生産性の妨げにならない未来を切り開きます。"
     },
     "links": {
       "Sistemas Inteligentes": "https://sistemasinteligentes.utp.ac.pa/trabajos-de-grado/"
@@ -696,13 +696,13 @@
         "es": "Se obtuvo un modelo predictivo validado con datos nacionales e internacionales capaz de anticipar emergencias sanitarias.<br>Se desarrolló un primer prototipo de simulador para analizar la demanda de medicamentos y prevenir desabastecimientos.<br>El modelo permitió elaborar un presupuesto anual de medicamentos basado en criterios científicos y medibles.<br>La solución provee un sistema de información y monitoreo para apoyar la toma de decisiones estratégicas del MINSA.<br>El proyecto sentó las bases para su escalamiento a nivel nacional, fortaleciendo la preparación del país ante futuras emergencias sanitarias.",
         "zh": "利用国内外数据,我们构建了一个经过验证的预测模型,该模型能够预测突发公共卫生事件。<br>我们开发了第一个原型模拟器,用于分析药品需求并预防药品短缺。<br>该模型能够基于科学且可衡量的标准制定年度药品预算。<br>该解决方案提供了一个信息和监测系统,以支持卫生部(MINSA)的战略决策。<br>该项目为在全国范围内推广奠定了基础,增强了国家应对未来突发公共卫生事件的准备能力。",
         "ja": "国内外のデータを用いて、健康上の緊急事態を予測可能な、検証済みの予測モデルが構築されました。<br>医薬品の需要を分析し、不足を防ぐための最初のプロトタイプシミュレーターが開発されました。<br>このモデルにより、科学的かつ測定可能な基準に基づいて、年間医薬品予算を作成することができました。<br>このソリューションは、保健省(MINSA)の戦略的意思決定を支援する情報・モニタリングシステムを提供します。<br>このプロジェクトは、全国規模での展開の基盤を築き、将来の健康上の緊急事態に対する国の備えを強化しました。"
+      },
+      "quote": {
+        "en": "The lack of predictive and optimization models adapted to the Panamanian context hinders efficient management of the resources of the medical-hospital system during the pandemic.",
+        "es": "La carencia de modelos predictivos y de optimización adaptados al contexto panameño impide una gestión eficiente de los recursos del sistema médico-hospitalario durante la pandemia.",
+        "zh": "由于缺乏适合巴拿马国情的预测和优化模型,疫情期间医疗卫生系统资源的有效管理受到阻碍。",
+        "ja": "パナマの状況に適応した予測モデルと最適化モデルの欠如は、パンデミック中の医療病院システムのリソースの効率的な管理を妨げています。"
       }
-    },
-    "quote": {
-      "en": "The lack of predictive and optimization models adapted to the Panamanian context hinders efficient management of the resources of the medical-hospital system during the pandemic.",
-      "es": "La carencia de modelos predictivos y de optimización adaptados al contexto panameño impide una gestión eficiente de los recursos del sistema médico-hospitalario durante la pandemia.",
-      "zh": "由于缺乏适合巴拿马国情的预测和优化模型,疫情期间医疗卫生系统资源的有效管理受到阻碍。",
-      "ja": "パナマの状況に適応した予測モデルと最適化モデルの欠如は、パンデミック中の医療病院システムのリソースの効率的な管理を妨げています。"
     },
     "links": {
       "Senacyt": "https://www.senacyt.gob.pa/investigadores-panamenos-presentan-propuesta-para-el-modulado-del-sistema-medico-sanitario-de-panama/",
@@ -812,13 +812,13 @@
         "es": "<ul><strong>1. Desarrollo de Equipos Robóticos Educativos</strong><li>Construcción y entrega de <strong>14 robots completamente funcionales</strong>, orientados al aprendizaje práctico de la programación.</li><li>Implementación de una plataforma de trabajo que permite a los Estudiantes aplicar conceptos de algoritmia, sensores, actuadores y control básico.</li><li>Fomento del aprendizaje autónomo y del interés por disciplinas STEM entre los Estudiantes Participantes.</li></u><br><strong>2. Proyecto LABSI INSIGHTS: Capacitación y Acompañamiento Técnico</strong><ul><li>Desarrollo de un programa formativo virtual en <strong>programación y robótica educativa</strong></li><li>Mejora del desempeño técnico y conceptual de los equipos que participan en competencias nacionales</li><li>Estructuración del proyecto en dos fases de trabajo, mediante las cuales se diseñaron <strong>tres versiones de robots</strong>, culminando en un prototipo educativo optimizado para facilitar la enseñanza de la robótica en educación media.</li></ul><br>El convenio ha generado un impacto significativo en el proceso formativo de Estudiantes panameños al:<ul><li>Integrar recursos tecnológicos innovadores en el aula</li><li>Estimular el interés por carreras STEM, especialmente en ingeniería</li><li>Fortalecer lazos entre instituciones académicas y la comunidad educativa</li><li>Contribuir al posicionamiento de Panamá en iniciativas mundiales de robótica educativa como la <strong>RoboCup Junior</strong></li></u>",
         "zh": "<ul><strong>1. 教育机器人团队的组建</strong><li>建造并交付<strong>14台功能齐全的机器人</strong>,旨在促进实践编程学习。</li><li>搭建一个工作平台,使学生能够应用算法、传感器、执行器和基本控制等概念。</li><li>促进参与学生的自主学习能力和对STEM学科的兴趣。</li></u><br><strong>2. LABSI INSIGHTS 项目:培训和技术支持</strong><ul><li>开发<strong>编程和教育机器人</strong></li><li>提升参加全国比赛的团队的技术和概念水平</li><li>项目分为两个阶段,设计了<strong>三个版本的机器人</strong>,最终形成一个优化的教育原型,以促进中学机器人教学。</li></ul><br>该协议对巴拿马学生的教育过程产生了重大影响,具体体现在:<ul><li>将创新技术资源融入课堂</li><li>激发学生对 STEM 职业的兴趣,尤其是工程领域</li><li>加强学术机构与教育界之间的联系</li><li>提升巴拿马在全球教育机器人倡议(例如<strong>RoboCup Junior</strong></li></u>)中的地位</strong></li></ul>",
         "ja": "<ul><strong>1. 教育用ロボット チームの開発</strong><li>実践的なプログラミング学習を目的とした <strong>完全に機能するロボット 14 台</strong> の構築と納品。</li><li>学生がアルゴリズム、センサー、アクチュエーター、基本的な制御の概念を適用できる実用的なプラットフォームの実装。</li><li>参加する学生の自律学習と STEM 分野への関心の促進。</li></u><br><strong>2. LABSI INSIGHTS プロジェクト:トレーニングと技術サポート</strong><ul><li>プログラミングと教育用ロボット工学の仮想トレーニング プログラムの開発</strong></li><li>全国大会に参加するチームの技術的および概念的なパフォーマンスの向上</li><li>プロジェクトを 2 つのフェーズに分割し、それを通じて <strong>3 つのバージョンのロボット</strong>を設計し、中等教育におけるロボット工学の教育を容易にするための最適化された教育用プロトタイプを完成させました。</li></ul><br>この契約は、以下の点でパナマの学生の教育プロセスに大きな影響を与えました。<ul><li>革新的な技術リソースを教室に統合する</li><li>STEM 関連のキャリア、特にエンジニアリングへの関心を高める</li><li>学術機関と教育コミュニティの関係を強化する</li><li><strong>RoboCup Junior</strong>などの世界的な教育用ロボット工学イニシアチブにおけるパナマの地位向上に貢献する</li></u>"
+      },
+      "quote": {
+        "en": "LASBI INSIGHT was created to drive the future of educational robotics, taking programming and innovation to new heights. Through virtual training and the development of prototypes at RoboCup Junior Panama, we prepare future creative minds to transform learning into a unique technological experience",
+        "es": "LASBI INSIGHT nace para impulsar el futuro de la robótica educativa, llevando la programación y la innovación a nuevas alturas. A través de capacitaciones virtuales y el desarrollo de prototipos en la RoboCup Junior Panamá, preparamos a las futuras mentes creativas para transformar el aprendizaje en una experiencia tecnológica única.",
+        "zh": "LASBI INSIGHT 的创立旨在推动教育机器人技术的未来发展,将编程和创新提升到新的高度。通过虚拟培训和在 RoboCup Junior Panama 大赛上开发原型,我们培养未来的创新人才,将学习转化为独特的科技体验。",
+        "ja": "LASBI INSIGHTは、プログラミングとイノベーションを新たな高みへと引き上げ、教育用ロボット工学の未来を推進するために設立されました。RoboCup Junior Panamaでのバーチャルトレーニングとプロトタイプ開発を通じて、学習を独自のテクノロジー体験へと変える未来のクリエイティブな人材を育成します。"
       }
-    },
-    "quote": {
-      "en": "LASBI INSIGHT was created to drive the future of educational robotics, taking programming and innovation to new heights. Through virtual training and the development of prototypes at RoboCup Junior Panama, we prepare future creative minds to transform learning into a unique technological experience",
-      "es": "LASBI INSIGHT nace para impulsar el futuro de la robótica educativa, llevando la programación y la innovación a nuevas alturas. A través de capacitaciones virtuales y el desarrollo de prototipos en la RoboCup Junior Panamá, preparamos a las futuras mentes creativas para transformar el aprendizaje en una experiencia tecnológica única.",
-      "zh": "LASBI INSIGHT 的创立旨在推动教育机器人技术的未来发展,将编程和创新提升到新的高度。通过虚拟培训和在 RoboCup Junior Panama 大赛上开发原型,我们培养未来的创新人才,将学习转化为独特的科技体验。",
-      "ja": "LASBI INSIGHTは、プログラミングとイノベーションを新たな高みへと引き上げ、教育用ロボット工学の未来を推進するために設立されました。RoboCup Junior Panamaでのバーチャルトレーニングとプロトタイプ開発を通じて、学習を独自のテクノロジー体験へと変える未来のクリエイティブな人材を育成します。"
     },
     "links": {
       "UTP": "https://kelvinutp.github.io/LabSI-INSIGHT/",
@@ -954,13 +954,13 @@
         "es": "La competencia involucró con éxito a estudiantes de diferentes niveles educativos, proporcionó experiencia práctica en diseño de ingeniería y programación, y concluyó con un evento nacional fluido y resultados transparentes, fortaleciendo la creatividad, el trabajo en equipo y el pensamiento crítico.",
         "zh": "比赛成功吸引了各教育阶段的学生,提供了工程设计和编程的实践经验,并以顺利的全国性活动和透明的结果收官,增强了创造力、团队合作和批判性思维。",
         "ja": "競技会は教育レベルを問わず学生を成功裏に参加させ、工学設計やプログラミングの実践経験を提供し、全国規模のスムーズなイベントと透明な結果で終了し、創造力、チームワーク、批判的思考を向上させました。"
+      },
+      "quote": {
+        "en": "Maze 2024 challenged students to think, create, and code under pressure, turning engineering theory into hands-on experience.",
+        "es": "Maze 2024 desafió a los estudiantes a pensar, crear y programar bajo presión, convirtiendo la teoría de ingeniería en experiencia práctica.",
+        "zh": "Maze 2024挑战学生在压力下思考、创造和编程,将工程理论转化为实践经验。",
+        "ja": "Maze 2024は、学生がプレッシャーの中で考え、創造し、コーディングすることに挑戦し、工学理論を実践経験に変えました。"
       }
-    },
-    "quote": {
-      "en": "Maze 2024 challenged students to think, create, and code under pressure, turning engineering theory into hands-on experience.",
-      "es": "Maze 2024 desafió a los estudiantes a pensar, crear y programar bajo presión, convirtiendo la teoría de ingeniería en experiencia práctica.",
-      "zh": "Maze 2024挑战学生在压力下思考、创造和编程,将工程理论转化为实践经验。",
-      "ja": "Maze 2024は、学生がプレッシャーの中で考え、創造し、コーディングすることに挑戦し、工学理論を実践経験に変えました。"
     },
     "links": {
       "Sistemas Inteligentes": "https://sistemasinteligentes.utp.ac.pa/maze-2024-en-iestec-fomentando-el-interes-en-la-ingenieria-entre-los-jovenes/",
@@ -1101,13 +1101,13 @@
         "es": "El dashboard permitió a las autoridades universitarias comparar el consumo energético y los costos en todos los campus regionales en una sola vista. Las anomalías antes invisibles en los registros brutos quedaban al descubierto en minutos, acelerando los ciclos de auditoría y corrección. El modelo de datos estructurado respaldó directamente la elaboración de presupuestos energéticos anuales basados en criterios científicos y medibles, contribuyendo a una <strong>reducción del 20% en el consumo eléctrico</strong> y liberando fondos para adquisición de equipos y mejoras de instalaciones a partir de 2024.",
         "zh": "该仪表板使大学管理层能够在单一视图中对所有区域校区的能源消耗和成本进行基准对比。原始记录中此前不可见的异常在数分钟内即可被发现,大幅加速了审计和整改周期。结构化数据模型直接支持了以可衡量的科学标准为基础的年度能源预算编制,从2024年起贡献了<strong>电力消耗降低20%</strong>的成果,并释放资金用于设备采购和设施改善。",
         "ja": "このダッシュボードにより、大学当局は全地域キャンパスのエネルギー消費量とコストを単一ビューでベンチマーキングできるようになりました。生データでは見えなかった異常値が数分以内に検出され、監査と是正サイクルが大幅に加速されました。構造化されたデータモデルは、科学的かつ測定可能な基準に基づいた年次エネルギー予算の策定を直接支援し、2024年以降の<strong>電力消費量20%削減</strong>に貢献、設備調達と施設改善のための資金確保につながりました。"
+      },
+      "quote": {
+        "en": "Raw billing data became a strategic asset — revealing which campuses drive costs, where anomalies hide, and how to budget energy with scientific precision.",
+        "es": "Los datos brutos de facturación se convirtieron en un activo estratégico: revelando qué campus impulsan los costos, dónde se ocultan las anomalías y cómo presupuestar la energía con precisión científica.",
+        "zh": "原始账单数据成为战略资产——揭示哪些校区推高成本、异常隐藏在何处,以及如何以科学精度规划能源预算。",
+        "ja": "生の請求データが戦略的資産へと変わりました——どのキャンパスがコストを押し上げているか、異常はどこに潜んでいるか、そして科学的精度でエネルギー予算を策定する方法を明らかにしました。"
       }
-    },
-    "quote": {
-      "en": "Raw billing data became a strategic asset — revealing which campuses drive costs, where anomalies hide, and how to budget energy with scientific precision.",
-      "es": "Los datos brutos de facturación se convirtieron en un activo estratégico: revelando qué campus impulsan los costos, dónde se ocultan las anomalías y cómo presupuestar la energía con precisión científica.",
-      "zh": "原始账单数据成为战略资产——揭示哪些校区推高成本、异常隐藏在何处,以及如何以科学精度规划能源预算。",
-      "ja": "生の請求データが戦略的資産へと変わりました——どのキャンパスがコストを押し上げているか、異常はどこに潜んでいるか、そして科学的精度でエネルギー予算を策定する方法を明らかにしました。"
     },
     "links": {
       "UTP": "https://fie.utp.ac.pa/gestion-energetica-fie-utp",
@@ -1218,13 +1218,13 @@
         "es": "Se implementó un plan exitoso que actualmente se encuentra en implementación comunitaria a partir de enero de 2026. El proyecto proporciona una hoja de ruta para mejorar la conectividad, la sostenibilidad energética y la inclusión tecnológica en las zonas rurales de Panamá.",
         "zh": "一项成功的计划已经实施,目前正在研究从2026年1月开始在社区推广实施。该项目为改善巴拿马农村地区的网络连接、能源可持续性和技术普及提供了路线图。",
         "ja": "計画は成功裡に実施され、現在、2026年1月からのコミュニティ展開に向けて検討が進められています。このプロジェクトは、パナマの農村部における接続性、エネルギーの持続可能性、テクノロジーの包摂性を向上させるロードマップを提供します。"
+      },
+      "quote": {
+        "en": "Promoting digital inclusion and sustainable technological solutions in rural areas of Panama",
+        "es": "Promoviendo la inclusión digital y soluciones tecnológicas sostenibles en zonas rurales de Panamá.",
+        "zh": "在巴拿马农村地区推广数字包容和可持续技术解决方案。",
+        "ja": "パナマの農村地域におけるデジタル包摂と持続可能な技術ソリューションの推進。"
       }
-    },
-    "quote": {
-      "en": "Promoting digital inclusion and sustainable technological solutions in rural areas of Panama",
-      "es": "Promoviendo la inclusión digital y soluciones tecnológicas sostenibles en zonas rurales de Panamá.",
-      "zh": "在巴拿马农村地区推广数字包容和可持续技术解决方案。",
-      "ja": "パナマの農村地域におけるデジタル包摂と持続可能な技術ソリューションの推進。"
     },
     "links": {
       "UTP": "http://www.investigadores.utp.ac.pa/proyectos/1165"
@@ -1364,12 +1364,6 @@
         "ja": "市場価格の約1/5という大幅なコスト削減を実証する機能プロトタイプを製作。テストユーザーに自立した移動手段を提供。"
       }
     },
-    "quote": {
-      "en": [],
-      "es": [],
-      "zh": [],
-      "ja": []
-    },
     "links": "",
     "collaborators": [
       {
@@ -1468,13 +1462,13 @@
         "es": "Un sistema de electrónica de potencia a medida, diseñado para controlar un brazo robótico a través de internet. Utilizando hardware de bajo coste como la Raspberry Pi 4 y software de código abierto, se creó un sistema que interactúa con el brazo robótico mediante una placa de circuito impreso (PCB) personalizada. Este 'puente' no solo permitió el control remoto, sino que también resultó rentable, con materiales que costaron alrededor de 200 USD. El sistema utiliza un servidor VNC en la Raspberry Pi para establecer una conexión virtual, con la ventaja adicional de los controles inalámbricos, lo que lo hace ideal tanto para aplicaciones académicas como industriales. Las pruebas arrojaron resultados impresionantes, con una latencia de tan solo 19 ms, lo que demuestra su eficacia para la operación remota. El prototipo demuestra que una tecnología asequible y accesible puede permitir sistemas de control teleoperados que superan las barreras de la distancia, ya sea en el ámbito académico durante una pandemia o en entornos industriales donde la presencia física no siempre es posible.<br>En resumen, este proyecto destaca cómo se pueden aprovechar herramientas de bajo coste y fácil acceso para proporcionar una interfaz fluida para el control de equipos electromecánicos, lo que lo convierte en una solución valiosa tanto para entornos educativos como industriales, sin importar la distancia.",
         "zh": "这是一个定制的电力电子系统,旨在通过互联网控制机械臂。该系统利用树莓派 4 等低成本硬件和开源软件,通过定制的印刷电路板 (PCB) 与机械臂进行交互。这个桥梁不仅实现了远程控制,而且成本低廉,材料总成本仅约 200 美元。<br>该系统使用树莓派上的 VNC 服务器建立虚拟连接,并具备无线控制的优势,使其成为学术和工业应用的理想选择。测试结果令人印象深刻,延迟仅为 19 毫秒,证明了其远程操作的有效性。该原型表明,经济实惠且易于使用的技术可以实现远程控制系统,克服距离障碍,无论是在疫情期间的学术界,还是在无法始终保持现场协作的工业环境中。<br>总之,该项目突出展示了如何利用低成本、易于获取的工具为机电设备控制提供无缝接口,使其成为教育和工业环境的宝贵解决方案——无论距离远近。",
         "ja": "インターネット経由でロボットアームを制御するために設計された、カスタムメイドのパワーエレクトロニクスシステム。Raspberry Pi 4などの低価格ハードウェアとオープンソースソフトウェアを使用し、カスタムプリント基板(PCB)を介してロボットアームとインターフェースするシステムを構築しました。このブリッジは、遠隔操作を可能にするだけでなく、材料費も約200米ドルと非常にコスト効率に優れています。<br>このシステムは、Raspberry Pi上のVNCサーバーを使用して仮想接続を確立し、ワイヤレス制御という利点も備えているため、学術用途と産業用途の両方に最適です。テストでは、わずか19ミリ秒の遅延という優れた結果が得られ、遠隔操作における有効性が実証されました。このプロトタイプは、手頃な価格で入手可能なテクノロジーによって、パンデミック中の学術現場でも、物理的な立ち会いが必ずしも可能ではない産業現場でも、距離の障壁を克服する遠隔操作制御システムを実現できることを実証しています。要約すると、このプロジェクトは、低コストですぐに利用できるツールを活用して、電気機械装置を制御するためのシームレスなインターフェースを提供する方法を強調し、距離に関係なく、教育環境と産業環境の両方にとって価値のあるソリューションにします。"
+      },
+      "quote": {
+        "en": "In a Panama adapting to the new reality, technology becomes an ally in overcoming challenges. With a low-cost and easily replicable system, we seek to democratize the remote control of robotic equipment, opening a future where distance is not an obstacle to productivity, even in times of crisis",
+        "es": "En un Panamá que se adapta a la nueva realidad, la tecnología se convierte en aliada para superar desafíos. Con un sistema de bajo costo y fácil replicabilidad, buscamos democratizar el control remoto de equipos robóticos, abriendo un futuro donde la distancia no sea un obstáculo para la productividad, incluso en tiempos de crisis",
+        "zh": "在巴拿马适应新现实的过程中,科技成为克服挑战的盟友。我们希望通过低成本且易于复制的系统,普及机器人设备的远程控制,从而开创一个即使在危机时期,距离也不会成为生产力障碍的未来。",
+        "ja": "新たな現実に適応するパナマにおいて、テクノロジーは課題克服の強力な味方となります。低コストで容易に複製可能なシステムにより、ロボット機器の遠隔操作を民主化し、危機的状況下でも距離が生産性の妨げにならない未来を切り開きます。"
       }
-    },
-    "quote": {
-      "en": "In a Panama adapting to the new reality, technology becomes an ally in overcoming challenges. With a low-cost and easily replicable system, we seek to democratize the remote control of robotic equipment, opening a future where distance is not an obstacle to productivity, even in times of crisis",
-      "es": "En un Panamá que se adapta a la nueva realidad, la tecnología se convierte en aliada para superar desafíos. Con un sistema de bajo costo y fácil replicabilidad, buscamos democratizar el control remoto de equipos robóticos, abriendo un futuro donde la distancia no sea un obstáculo para la productividad, incluso en tiempos de crisis",
-      "zh": "在巴拿马适应新现实的过程中,科技成为克服挑战的盟友。我们希望通过低成本且易于复制的系统,普及机器人设备的远程控制,从而开创一个即使在危机时期,距离也不会成为生产力障碍的未来。",
-      "ja": "新たな現実に適応するパナマにおいて、テクノロジーは課題克服の強力な味方となります。低コストで容易に複製可能なシステムにより、ロボット機器の遠隔操作を民主化し、危機的状況下でも距離が生産性の妨げにならない未来を切り開きます。"
     },
     "links": "",
     "collaborators": [],
@@ -1545,13 +1539,13 @@
         "es": "Un sistema de electrónica de potencia a medida, diseñado para controlar un brazo robótico a través de internet. Utilizando hardware de bajo coste como la Raspberry Pi 4 y software de código abierto, se creó un sistema que interactúa con el brazo robótico mediante una placa de circuito impreso (PCB) personalizada. Este 'puente' no solo permitió el control remoto, sino que también resultó rentable, con materiales que costaron alrededor de 200 USD. El sistema utiliza un servidor VNC en la Raspberry Pi para establecer una conexión virtual, con la ventaja adicional de los controles inalámbricos, lo que lo hace ideal tanto para aplicaciones académicas como industriales. Las pruebas arrojaron resultados impresionantes, con una latencia de tan solo 19 ms, lo que demuestra su eficacia para la operación remota. El prototipo demuestra que una tecnología asequible y accesible puede permitir sistemas de control teleoperados que superan las barreras de la distancia, ya sea en el ámbito académico durante una pandemia o en entornos industriales donde la presencia física no siempre es posible.<br>En resumen, este proyecto destaca cómo se pueden aprovechar herramientas de bajo coste y fácil acceso para proporcionar una interfaz fluida para el control de equipos electromecánicos, lo que lo convierte en una solución valiosa tanto para entornos educativos como industriales, sin importar la distancia.",
         "zh": "这是一个定制的电力电子系统,旨在通过互联网控制机械臂。该系统利用树莓派 4 等低成本硬件和开源软件,通过定制的印刷电路板 (PCB) 与机械臂进行交互。这个桥梁不仅实现了远程控制,而且成本低廉,材料总成本仅约 200 美元。<br>该系统使用树莓派上的 VNC 服务器建立虚拟连接,并具备无线控制的优势,使其成为学术和工业应用的理想选择。测试结果令人印象深刻,延迟仅为 19 毫秒,证明了其远程操作的有效性。该原型表明,经济实惠且易于使用的技术可以实现远程控制系统,克服距离障碍,无论是在疫情期间的学术界,还是在无法始终保持现场协作的工业环境中。<br>总之,该项目突出展示了如何利用低成本、易于获取的工具为机电设备控制提供无缝接口,使其成为教育和工业环境的宝贵解决方案——无论距离远近。",
         "ja": "インターネット経由でロボットアームを制御するために設計された、カスタムメイドのパワーエレクトロニクスシステム。Raspberry Pi 4などの低価格ハードウェアとオープンソースソフトウェアを使用し、カスタムプリント基板(PCB)を介してロボットアームとインターフェースするシステムを構築しました。このブリッジは、遠隔操作を可能にするだけでなく、材料費も約200米ドルと非常にコスト効率に優れています。<br>このシステムは、Raspberry Pi上のVNCサーバーを使用して仮想接続を確立し、ワイヤレス制御という利点も備えているため、学術用途と産業用途の両方に最適です。テストでは、わずか19ミリ秒の遅延という優れた結果が得られ、遠隔操作における有効性が実証されました。このプロトタイプは、手頃な価格で入手可能なテクノロジーによって、パンデミック中の学術現場でも、物理的な立ち会いが必ずしも可能ではない産業現場でも、距離の障壁を克服する遠隔操作制御システムを実現できることを実証しています。要約すると、このプロジェクトは、低コストですぐに利用できるツールを活用して、電気機械装置を制御するためのシームレスなインターフェースを提供する方法を強調し、距離に関係なく、教育環境と産業環境の両方にとって価値のあるソリューションにします。"
+      },
+      "quote": {
+        "en": "In a Panama adapting to the new reality, technology becomes an ally in overcoming challenges. With a low-cost and easily replicable system, we seek to democratize the remote control of robotic equipment, opening a future where distance is not an obstacle to productivity, even in times of crisis",
+        "es": "En un Panamá que se adapta a la nueva realidad, la tecnología se convierte en aliada para superar desafíos. Con un sistema de bajo costo y fácil replicabilidad, buscamos democratizar el control remoto de equipos robóticos, abriendo un futuro donde la distancia no sea un obstáculo para la productividad, incluso en tiempos de crisis",
+        "zh": "在巴拿马适应新现实的过程中,科技成为克服挑战的盟友。我们希望通过低成本且易于复制的系统,普及机器人设备的远程控制,从而开创一个即使在危机时期,距离也不会成为生产力障碍的未来。",
+        "ja": "新たな現実に適応するパナマにおいて、テクノロジーは課題克服の強力な味方となります。低コストで容易に複製可能なシステムにより、ロボット機器の遠隔操作を民主化し、危機的状況下でも距離が生産性の妨げにならない未来を切り開きます。"
       }
-    },
-    "quote": {
-      "en": "In a Panama adapting to the new reality, technology becomes an ally in overcoming challenges. With a low-cost and easily replicable system, we seek to democratize the remote control of robotic equipment, opening a future where distance is not an obstacle to productivity, even in times of crisis",
-      "es": "En un Panamá que se adapta a la nueva realidad, la tecnología se convierte en aliada para superar desafíos. Con un sistema de bajo costo y fácil replicabilidad, buscamos democratizar el control remoto de equipos robóticos, abriendo un futuro donde la distancia no sea un obstáculo para la productividad, incluso en tiempos de crisis",
-      "zh": "在巴拿马适应新现实的过程中,科技成为克服挑战的盟友。我们希望通过低成本且易于复制的系统,普及机器人设备的远程控制,从而开创一个即使在危机时期,距离也不会成为生产力障碍的未来。",
-      "ja": "新たな現実に適応するパナマにおいて、テクノロジーは課題克服の強力な味方となります。低コストで容易に複製可能なシステムにより、ロボット機器の遠隔操作を民主化し、危機的状況下でも距離が生産性の妨げにならない未来を切り開きます。"
     },
     "links": {
       "IEEE": "https://ieeexplore.ieee.org/document/10517541"
@@ -1625,13 +1619,13 @@
         "es": "Los participantes adquirieron una comprensión integral de cómo pasar del concepto a la fabricación dentro del ecosistema de semiconductores. La presentación brindó a profesionales y estudiantes información práctica para abordar los desafíos técnicos, logísticos y de tiempo en el desarrollo de hardware.",
         "zh": "与会者全面了解了半导体生态系统中如何从概念设计过渡到产品制造。本次讲座为专业人士和学生提供了切实可行的见解,帮助他们应对硬件开发中遇到的技术、物流和时间方面的挑战。",
         "ja": "参加者は、半導体エコシステムにおけるコンセプトから製造への移行方法について包括的な理解を得ました。このプレゼンテーションは、専門家や学生に、ハードウェア開発における技術的、ロジスティックス的、そして時間的な課題を乗り越えるための実用的な洞察を提供しました。"
+      },
+      "quote": {
+        "en": "Turning an idea into a semiconductor product requires more than innovation—it demands process, precision, and patience.<br>Latin America has the talent; now it's time to build the roadmap to fabrication.",
+        "es": "Convertir una idea en un producto semiconductor requiere más que innovación: exige proceso, precisión y paciencia.<br>América Latina tiene el talento; ahora es el momento de construir la hoja de ruta hacia la fabricación.",
+        "zh": "将创意转化为半导体产品需要的不仅仅是创新——它还需要流程、精度和耐心。<br>拉丁美洲拥有人才；现在是时候制定制造路线图了。",
+        "ja": "アイデアを半導体製品に変えるには、イノベーション以上のものが必要です。プロセス、精度、そして忍耐が求められます。<br>ラテンアメリカには才能があります。今こそ、製造へのロードマップを構築する時です。"
       }
-    },
-    "quote": {
-      "en": "Turning an idea into a semiconductor product requires more than innovation—it demands process, precision, and patience.<br>Latin America has the talent; now it's time to build the roadmap to fabrication.",
-      "es": "Convertir una idea en un producto semiconductor requiere más que innovación: exige proceso, precisión y paciencia.<br>América Latina tiene el talento; ahora es el momento de construir la hoja de ruta hacia la fabricación.",
-      "zh": "将创意转化为半导体产品需要的不仅仅是创新——它还需要流程、精度和耐心。<br>拉丁美洲拥有人才；现在是时候制定制造路线图了。",
-      "ja": "アイデアを半導体製品に変えるには、イノベーション以上のものが必要です。プロセス、精度、そして忍耐が求められます。<br>ラテンアメリカには才能があります。今こそ、製造へのロードマップを構築する時です。"
     },
     "links": {
       "IEEE": "https://attend.ieee.org/conescapan-2024/wp-content/uploads/sites/614/PROGRAMA-TECNICO-CONESCAPAN-XLI-OFICIAL.pdf",
@@ -1707,13 +1701,13 @@
         "es": "El sistema de clasificación inteligente resultante identificó con éxito las características visuales distintivas de las imágenes de sandía, demostrando un reconocimiento automatizado eficaz. Este trabajo demuestra cómo el análisis digital de imágenes puede sustituir la inspección manual, mejorando la fiabilidad y la consistencia en las tareas de clasificación agrícola.",
         "zh": "由此产生的智能分类系统成功地从西瓜图像中识别出特征视觉信息,展现了高效的自动化识别能力。这项工作表明,数字图像分析可以取代人工检测,从而提高农产品分拣任务的可靠性和一致性。",
         "ja": "完成したスマート分類システムは、スイカの画像から特徴的な視覚的特徴を識別し、効果的な自動認識を実証しました。この研究は、デジタル画像解析が手作業による検査に取って代わり、農産物選別作業の信頼性と一貫性を向上させる方法を示しています。"
+      },
+      "quote": {
+        "en": "By teaching machines to see texture and color like humans do, we can transform agricultural sorting with smarter, faster decisions.<br>Automated image-based classification means more accuracy, less waste, and smarter farms.",
+        "es": "Al enseñar a las máquinas a ver la textura y el color como lo hacen los humanos, podemos transformar la clasificación agrícola con decisiones más inteligentes y rápidas.<br>La clasificación automatizada basada en imágenes significa más precisión, menos desperdicio y granjas más inteligentes.",
+        "zh": "通过教会机器像人类一样感知纹理和颜色,我们可以用更智能、更快速的决策来革新农业分拣。<br>基于图像的自动化分类意味着更高的准确率、更少的浪费和更智能的农场。",
+        "ja": "機械に人間のように質感や色を認識することを教えることで、よりスマートで迅速な判断によって農産物の選別を変革することができます。<br>自動化された画像ベースの分類は、精度の向上、無駄の削減、そしてよりスマートな農場を実現します。"
       }
-    },
-    "quote": {
-      "en": "By teaching machines to see texture and color like humans do, we can transform agricultural sorting with smarter, faster decisions.<br>Automated image-based classification means more accuracy, less waste, and smarter farms.",
-      "es": "Al enseñar a las máquinas a ver la textura y el color como lo hacen los humanos, podemos transformar la clasificación agrícola con decisiones más inteligentes y rápidas.<br>La clasificación automatizada basada en imágenes significa más precisión, menos desperdicio y granjas más inteligentes.",
-      "zh": "通过教会机器像人类一样感知纹理和颜色,我们可以用更智能、更快速的决策来革新农业分拣。<br>基于图像的自动化分类意味着更高的准确率、更少的浪费和更智能的农场。",
-      "ja": "機械に人間のように質感や色を認識することを教えることで、よりスマートで迅速な判断によって農産物の選別を変革することができます。<br>自動化された画像ベースの分類は、精度の向上、無駄の削減、そしてよりスマートな農場を実現します。"
     },
     "links": {
       "IEEE": "https://ieeexplore.ieee.org/document/8942610"
@@ -2033,13 +2027,13 @@
         "es": "Funcionalidad probada de diseño nacional a escala nanométrica; destacado en medios como un hito para la ingeniería panameña.",
         "zh": "证明了国家级纳米级设计的可行性;作为巴拿马工程史上的里程碑被多家媒体报道。",
         "ja": "ナノメートル規模の国産設計の機能性を実証。パナマのエンジニアリングにおける画期的成果として複数のメディアで取り上げられました。"
+      },
+      "quote": {
+        "en": "Achieving the first nanometric chip shows that innovation knows no borders and that Panama is ready to compete in the semiconductor age.",
+        "es": "Lograr el primer chip nanométrico demuestra que la innovación no conoce fronteras y que Panamá está listo para competir en la era de los semiconductores.",
+        "zh": "实现首个纳米级芯片表明创新无国界,巴拿马已准备好在半导体时代竞争。",
+        "ja": "初のナノメートルチップの達成は、イノベーションに国境はなく、パナマが半導体時代で競争する準備ができていることを示しています。"
       }
-    },
-    "quote": {
-      "en": "Achieving the first nanometric chip shows that innovation knows no borders and that Panama is ready to compete in the semiconductor age.",
-      "es": "Lograr el primer chip nanométrico demuestra que la innovación no conoce fronteras y que Panamá está listo para competir en la era de los semiconductores.",
-      "zh": "实现首个纳米级芯片表明创新无国界,巴拿马已准备好在半导体时代竞争。",
-      "ja": "初のナノメートルチップの達成は、イノベーションに国境はなく、パナマが半導体時代で競争する準備ができていることを示しています。"
     },
     "links": {
       "Instagram": "https://www.instagram.com/p/C8IGj-IIj2m/",
@@ -2126,13 +2120,13 @@
         "es": "Logró un rendimiento de clasificación eficiente; obtuvo habilidades para integrar lógica de IA en sistemas embebidos.",
         "zh": "在未知数据集上实现了卓越的分类性能;获得了将AI逻辑整合到嵌入式工程系统中的技能。",
         "ja": "未知のデータセットに対して優れた分類性能を達成。AIロジックを組み込みエンジニアリングシステムに統合するスキルを習得。"
+      },
+      "quote": {
+        "en": "Deep learning is not just theory—it's the engine behind real-world AI innovation. Learn it, build it, and apply it.",
+        "es": "El aprendizaje profundo no es solo teoría: es el motor detrás de la innovación real en IA. Apréndelo, constrúyelo y aplícalo.",
+        "zh": "深度学习不仅是理论,它是现实世界人工智能创新的引擎。学习它,构建它,应用它。",
+        "ja": "ディープラーニングは単なる理論ではなく、現実世界のAI革新を支える原動力です。学び、創り、応用しましょう。"
       }
-    },
-    "quote": {
-      "en": "Deep learning is not just theory—it's the engine behind real-world AI innovation. Learn it, build it, and apply it.",
-      "es": "El aprendizaje profundo no es solo teoría: es el motor detrás de la innovación real en IA. Apréndelo, constrúyelo y aplícalo.",
-      "zh": "深度学习不仅是理论,它是现实世界人工智能创新的引擎。学习它,构建它,应用它。",
-      "ja": "ディープラーニングは単なる理論ではなく、現実世界のAI革新を支える原動力です。学び、創り、応用しましょう。"
     },
     "links": "",
     "collaborators": [],
@@ -2213,13 +2207,13 @@
         "es": "Los participantes adquieren una visión estratégica sobre cómo Google operacionaliza el aprendizaje automático a gran escala y cómo aplicar estas técnicas en sus propias organizaciones. Al finalizar el curso, comprenden el ciclo completo de ML, los errores comunes y cómo desplegar soluciones responsables y listas para producción en entornos en la nube.",
         "zh": "学员将深入了解 Google 如何大规模落地机器学习,并学习如何在自身组织中应用这些技术。课程结束时,学员能够掌握端到端的 ML 生命周期、常见陷阱,以及如何在云环境中部署负责任且可投入生产的机器学习解决方案。",
         "ja": "受講者は、Googleがどのように大規模に機械学習を運用しているかを理解し、自身の組織でこれらの手法を適用する方法を学びます。コース修了時には、MLのエンドツーエンドのライフサイクルや一般的な落とし穴を理解し、クラウド環境で責任ある本番対応MLソリューションを展開できるようになります。"
+      },
+      "quote": {
+        "en": "Machine learning success isn't just about models—it's about strategy, data, and responsible deployment.",
+        "es": "El éxito en machine learning no se trata solo de modelos, sino de estrategia, datos y despliegue responsable.",
+        "zh": "机器学习的成功不仅在于模型,更在于战略、数据和负责任的部署。",
+        "ja": "機械学習の成功はモデルだけでなく、戦略、データ、そして責任ある導入にかかっています。"
       }
-    },
-    "quote": {
-      "en": "Machine learning success isn't just about models—it's about strategy, data, and responsible deployment.",
-      "es": "El éxito en machine learning no se trata solo de modelos, sino de estrategia, datos y despliegue responsable.",
-      "zh": "机器学习的成功不仅在于模型,更在于战略、数据和负责任的部署。",
-      "ja": "機械学習の成功はモデルだけでなく、戦略、データ、そして責任ある導入にかかっています。"
     },
     "links": "",
     "collaborators": [],
@@ -2368,13 +2362,13 @@
         "es": "El foro fortaleció la cultura de investigación e innovación dentro de la comunidad universitaria, amplió la colaboración entre los Centros Regionales y reafirmó el compromiso de la Facultad de Ingeniería Eléctrica de visibilizar resultados de investigación tangibles que aporten al desarrollo tecnológico de Panamá.",
         "zh": "该论坛强化了大学社区的科研与创新文化,促进了各区域校区之间的合作,并重申了电气工程学院展示可落地科研成果、推动巴拿马技术发展的承诺。",
         "ja": "本フォーラムは大学コミュニティにおける研究とイノベーションの文化を強化し、地域キャンパス間の連携を拡大するとともに、電気工学部が具体的な研究成果を通じてパナマの技術発展に貢献する姿勢を再確認しました。"
+      },
+      "quote": {
+        "en": "Research transforms students into innovators. FI2E proves that collaboration is the engine of technological progress.",
+        "es": "La investigación transforma a los estudiantes en innovadores. FI2E demuestra que la colaboración es el motor del progreso tecnológico.",
+        "zh": "科研让学生成为创新者。FI2E 证明合作是技术进步的引擎。",
+        "ja": "研究は学生をイノベーターへと変える。FI2Eは、協働こそが技術進歩の原動力であることを示しています。"
       }
-    },
-    "quote": {
-      "en": "Research transforms students into innovators. FI2E proves that collaboration is the engine of technological progress.",
-      "es": "La investigación transforma a los estudiantes en innovadores. FI2E demuestra que la colaboración es el motor del progreso tecnológico.",
-      "zh": "科研让学生成为创新者。FI2E 证明合作是技术进步的引擎。",
-      "ja": "研究は学生をイノベーターへと変える。FI2Eは、協働こそが技術進歩の原動力であることを示しています。"
     },
     "links": {
       "UTP": "https://utp.ac.pa/segundo-foro-de-investigacion-en-ingenieria-electrica-fi2e-en-el-centro-regional-de-veraguas"
@@ -2472,13 +2466,13 @@
         "es": "La iniciativa estableció con éxito un punto de referencia para la educación en microelectrónica en la región, capacitando a los ingenieros para emprender proyectos complejos de diseño de silicio.",
         "zh": "该倡议成功地为该地区的微电子教育树立了标杆,赋能工程师承担复杂的硅设计项目。它培养了一个专注于技术主权的设计师协作社区,并为国内半导体开发提供了经过验证的路线图,最终促使更多人参与到国际固态电路会议中。",
         "ja": "この取り組みは、地域におけるマイクロエレクトロニクス教育のベンチマークを確立し、エンジニアが複雑なシリコン設計プロジェクトに取り組むことを可能にしました。技術主権に焦点を当てたデザイナーの協力的なコミュニティを育成し、国内の半導体開発のための検証済みロードマップを提供し、国際的な固体回路会議への参加増加につながりました。"
+      },
+      "quote": {
+        "en": "Integrated circuit design turns ideas into silicon reality—where innovation meets precision engineering.",
+        "es": "El diseño de circuitos integrados convierte ideas en realidad de silicio, donde la innovación se une con la ingeniería de precisión.",
+        "zh": "集成电路设计将创意转化为硅芯现实,让创新与精密工程相结合。",
+        "ja": "集積回路設計はアイデアをシリコンの現実へと変え、イノベーションと精密工学を結びつけます。"
       }
-    },
-    "quote": {
-      "en": "Integrated circuit design turns ideas into silicon reality—where innovation meets precision engineering.",
-      "es": "El diseño de circuitos integrados convierte ideas en realidad de silicio, donde la innovación se une con la ingeniería de precisión.",
-      "zh": "集成电路设计将创意转化为硅芯现实,让创新与精密工程相结合。",
-      "ja": "集積回路設計はアイデアをシリコンの現実へと変え、イノベーションと精密工学を結びつけます。"
     },
     "links": {
       "IEEE": "https://edu.ieee.org/pa-utp/curso-diseno-de-circuitos-integrados/"
@@ -2540,13 +2534,13 @@
         "es": "La 'Introducción a IoT y Transformación Digital' de CISCO Networking Academy sirve como un pilar fundamental para comprender la convergencia de la infraestructura física y la inteligencia digital. Este programa explora el impacto sistémico del Internet de las Cosas en las industrias globales, los gobiernos y la interacción humana cotidiana. Al analizar la arquitectura de extremo a extremo de los sistemas de IoT, los alumnos obtienen una perspectiva holística sobre cómo los dispositivos conectados impulsan la eficiencia operativa.\n\nUn componente técnico clave del plan de estudios involucra laboratorios basados en simulación utilizando herramientas como Cisco Packet Tracer. Estos laboratorios permiten el modelado de topologías de red complejas donde diversos dispositivos interactúan en tiempo real, proporcionando un entorno seguro para probar la lógica de automatización. Este enfoque práctico asegura que los conceptos teóricos como el big data y la ciberseguridad se traduzcan en habilidades de ingeniería prácticas.\n\nEl desarrollo de programación y lógica se integra mediante el uso de Blockly y Python, cerrando la brecha entre el diseño de aplicaciones de alto nivel y el control de hardware de bajo nivel. Este enfoque multidisciplinario alienta a los estudiantes a pensar más allá de los silos tradicionales, fomentando un entorno donde la ingeniería de software y el desarrollo de hardware electrónico se intersectan.\n\nLa seguridad sigue siendo un tema primordial durante todo el curso. A medida que el número de dispositivos conectados crece, la superficie de ataque potencial para las ciberamenazas aumenta. El programa enfatiza la filosofía de 'seguridad por diseño', enseñando a los alumnos cómo identificar vulnerabilidades e implementar estrategias de defensa robustas en cada capa de la pila de IoT.\n\nEn conclusión, la certificación CISCO IoT proporciona más que solo conocimientos técnicos; infunde una mentalidad estratégica para el futuro digital. Fomenta el aprendizaje continuo y la especialización en campos de TI emergentes, asegurando que los graduados estén preparados para liderar la transformación digital de sus organizaciones.",
         "zh": "思科网络学院 (CISCO Networking Academy) 的“物联网与数字化转型入门”是理解物理基础设施与数字智能融合的基石。该项目探讨了物联网对全球工业、政府和日常人类互动的系统性影响。通过分析物联网系统的端到端架构（从传感器数据采集到云端分析）,学习者可以全面了解连接设备如何在数字时代推动运营效率和创新。\n\n课程的一个核心技术部分涉及使用 Cisco Packet Tracer 等工具进行基于仿真的实验。这些实验允许对复杂的网络拓扑进行建模,各种设备在其中进行实时交互,为测试自动化逻辑和安全协议提供了一个安全的环境。这种动手实践的方法确保了大数据、网络安全和边缘计算等理论概念转化为实际的工程技能,从而能够设计出具有韧性和可扩展性的物联网解决方案。\n\n通过使用 Blockly 和 Python 集成了编程和逻辑开发,弥合了高级应用程序设计与底层硬件控制之间的鸿沟。这种多学科方法鼓励学生跳出传统思维定式,营造了一个软件工程与电子硬件开发交叉的环境。通过掌握这些工具,参与者能够构建能够高精度处理并响应环境刺激的自动化系统。\n\n安全始终是整个课程的最高主题。随着连接设备数量的呈指数级增长,网络威胁的潜在攻击面也成比例增加。该项目强调“设计安全”理念,教授学习者如何识别漏洞并在物联网栈的每一层实施稳健的防御策略。这一重点确保了新一代工程师能够准备好保护关键数字基础设施免受日益复杂的网络攻击。\n\n总之,思科物联网认证不仅仅提供技术知识;它还为数字化未来灌输了战略思维。它鼓励在新兴 IT 领域进行持续学习和专业化,确保毕业生准备好领导其所在组织的数字化转型。对于任何希望在日益互联和自动化的世界中做出有意义贡献的工程师来说,这种基础素养都是必不可少的。",
         "ja": "CISCO Networking Academyによる「IoTとデジタルトランスフォーメーション入門」は、物理的インフラとデジタルインテリジェンスの融合を理解するための基礎的な柱として機能します。このプログラムは、モノのインターネット（IoT）が世界の産業、政府、そして日常的な人間同士の相互作用に与えるシステム的な影響を詳しく探ります。センサーデータの取得からクラウドベースの分析に至るまでのIoTシステムのエンドツーエンド・アーキテクチャを分析することで、学習者は接続されたデバイスがいかにデジタルの時代において運用の効率化とイノベーションを推進するかについて、包括的な視点を得ることができます。\n\nカリキュラムの主要な技術的要素として、Cisco Packet Tracerなどのツールを使用したシミュレーションベースのラボが含まれています。これらのラボでは、多様なデバイスがリアルタイムで相互作用する複雑なネットワークトポロジのモデリングが可能であり、自動化ロジックやセキュリティプロトコルをテストするための安全な環境を提供します。このハンズオンアプローチにより、ビッグデータ、サイバーセキュリティ、エッジコンピューティングなどの理論的概念が実践的なエンジニアリングスキルへと変換され、レジリエンス（回復力）が高くスケーラブルなIoTソリューションの設計が可能になります。\n\nBlocklyやPythonを用いたプログラミングとロジック開発が統合されており、ハイレベルなアプリケーション設計とローレベルなハードウェア制御の間のギャップを埋めています。この多角的なアプローチは、学生が従来の枠組みを超えて考えることを促し、ソフトウェアエンジニアリングと電子ハードウェア開発が交差する環境を育みます。これらのツールを習得することで、参加者は環境の変化を高精度に処理し、反応する自動化システムを構築するための備えを整えることができます。\n\nセキュリティは、コース全体を通じて最も重要なテーマです。接続されるデバイスの数が指数関数的に増加するにつれ、サイバー脅威に対する潜在的な攻撃対象領域も比例して拡大します。プログラムでは「セキュリティ・バイ・デザイン」の哲学を強調し、IoTスタックのあらゆる層において脆弱性を特定し、強固な防御戦略を実装する方法を学習者に教えます。この焦点により、次世代のエンジニアは、ますます巧妙化するサイバー攻撃から重要なデジタルインフラを保護する準備を整えることができます。\n\n結論として、CISCOのIoT認定は単なる技術的知識以上のものを提供します。それはデジタルの未来に対する戦略的なマインドセットを植え付けるものです。新興のIT分野における継続的な学習と専門化を奨励し、卒業生がそれぞれの組織のデジタルトランスフォーメーションをリードできる準備を整えます。この基礎的なリテラシーは、ますます接続され自動化される世界に有意義な貢献をしようとするすべてのエンジニアにとって不可欠なものです。"
+      },
+      "quote": {
+        "en": "Understanding IoT and digital transformation means understanding the future—connected, automated, and data-driven.",
+        "es": "Comprender IoT y la transformación digital es comprender el futuro: conectado, automatizado y basado en datos.",
+        "zh": "理解物联网与数字化转型,就是理解一个互联、自动化、数据驱动的未来。",
+        "ja": "IoTとデジタルトランスフォーメーションを理解することは、つながり、自動化され、データ主導の未来を理解することです。"
       }
-    },
-    "quote": {
-      "en": "Understanding IoT and digital transformation means understanding the future—connected, automated, and data-driven.",
-      "es": "Comprender IoT y la transformación digital es comprender el futuro: conectado, automatizado y basado en datos.",
-      "zh": "理解物联网与数字化转型,就是理解一个互联、自动化、数据驱动的未来。",
-      "ja": "IoTとデジタルトランスフォーメーションを理解することは、つながり、自動化され、データ主導の未来を理解することです。"
     },
     "links": "",
     "collaborators": [],
@@ -2595,13 +2589,13 @@
         "es": "El programa 'Introducción a la Ciberseguridad' de CISCO proporciona una visión integral del panorama de amenazas moderno y los mecanismos de defensa estratégicos necesarios para proteger los activos digitales. En una era donde los datos son el producto más valioso, comprender los matices técnicos del malware y las vulnerabilidades de la red es fundamental. Este curso explora la intersección de la seguridad técnica y la política organizacional.\n\nA lo largo de los cinco módulos, el plan de estudios enfatiza el desarrollo del pensamiento crítico y las habilidades analíticas de resolución de problemas. Al utilizar herramientas multimedia avanzadas y ejercicios prácticos, los alumnos se enfrentan al desafío de simular escenarios de ciberataques del mundo real y desarrollar protocolos de mitigación efectivos. Esto incluye el análisis de filtraciones de datos a gran escala y el estudio de amenazas globales emergentes.\n\nLos laboratorios prácticos forman la columna vertebral de la experiencia de aprendizaje, combinando el análisis basado en papel con simulaciones digitales. Estos ejercicios se centran en la detección de anomalías en el tráfico de la red y la implementación de estándares de cifrado robustos para garantizar la integridad y confidencialidad de los datos. Al dominar estas habilidades técnicas, los ingenieros están mejor equipados para integrar la seguridad como una propiedad inherente de los sistemas que diseñan.\n\nAdemás de la adquisición inmediata de habilidades técnicas, el programa proporciona una hoja de ruta clara para la especialización profesional en el campo de la ciberseguridad. Destaca las diversas trayectorias profesionales disponibles dentro de la industria, desde las pruebas de penetración hasta la gestión de políticas de seguridad. Esta exposición es fundamental para fomentar una cultura de excelencia técnica y aprendizaje permanente.\n\nEn reflexión, la certificación de Ciberseguridad de CISCO es una credencial vital para navegar por las complejidades del mundo digital. Inculca un profundo sentido de responsabilidad hacia la protección de datos y una comprensión estratégica de cómo las vulnerabilidades técnicas pueden impactar tanto a los individuos como a las organizaciones globales. Al establecer una base sólida en ciberdefensa, este programa asegura que los ingenieros sean no solo constructores de tecnología, sino también guardianes.",
         "zh": "思科 (CISCO) 的“网络安全入门”项目全面概述了现代威胁格局以及在日益动荡的网络空间中保护数字资产所需的战略防御机制。在数据成为最宝贵商品的时代,对于任何工程专业人士来说,理解恶意软件、社会工程和网络漏洞的技术细微差别都至关重要。本课程探讨了技术安全与组织政策的交集,为识别风险和实施多层防御战略提供了一个结构化框架。\n\n在整个五个模块中,课程强调培养批判性思维和分析性问题解决能力。通过利用先进的多媒体工具和实践练习,学习者被要求模拟真实的网路攻击场景并开发有效的缓解协议。这包括分析大规模数据泄露和研究国家支持的网络战争,确保参与者不仅了解安全的“如何实现”,还了解新兴全球威胁背后的“原因”。\n\n实践实验构成了学习体验的骨干,将纸面分析与数字仿真相结合。这些练习侧重于检测网络流量中的异常情况,并实施强大的加密标准以确保数据的完整性和机密性。通过掌握这些技术技能,工程师能够更好地将安全性作为其设计的系统的一种固有属性,而不是一个外部层。这种“以安全为中心”的开发方法对于构建下一代具有韧性的基础设施至关重要。\n\n除了即时的技术技能习得外,该项目还为网络安全领域的职业专业化提供了清晰的路线图。它突出了行业内可供选择的多样化职业道路——从渗透测试和事件响应到高级安全架构和政策管理。这种接触对于培养追求技术卓越和终身学习的文化起到了关键作用,确保当地劳动力准备好满足全球对网络安全专业知识日益增长的需求。\n\n回顾过去,思科网络安全认证是应对数字世界复杂性的重要凭证。它赋予了人们对数据保护的深刻责任感,以及对技术漏洞如何影响个人和全球组织的战略理解。通过在网络防御方面建立稳固的基础,该项目确保了工程师不仅是技术的构建者,还是支撑我们现代社会的数字系统的守护者。",
         "ja": "CISCOの「サイバーセキュリティ入門」プログラムは、現代の脅威の様相と、ますます不安定化するサイバー空間においてデジタル資産を保護するために必要な戦略的防御メカニズムの包括的な概要を提供します。データが最も価値のある商品であるこの時代において、マルウェア、ソーシャルエンジニアリング、およびネットワークの脆弱性の技術的なニュアンスを理解することは、あらゆるエンジニアリングの専門家にとって不可欠です。このコースでは、技術的なセキュリティと組織のポリシーの交差点を探り、リスクの特定と多層的な防御戦略の実装のための体系的な枠組みを提供します。\n\n5つのモジュールを通じて、カリキュラムは批判的思考と分析的な問題解決能力の育成を重視しています。高度なマルチメディアツールと実践的な演習を活用することで、学習者は現実世界のサイバー攻撃シナリオをシミュレートし、効果的な緩和プロトコルを開発することに挑戦します。これには、大規模なデータ漏洩の分析や、国家が関与するサイバー戦争の研究が含まれ、参加者がセキュリティの「方法」だけでなく、新興のグローバルな脅威の背後にある「理由」も理解できるようにします。\n\n実践的なラボが学習体験の根幹を成し、ペーパーベースの分析とデジタルシミュレーションを組み合わせています。これらの演習は、ネットワークトラフィック内の異常検出や、データの整合性と機密性を確保するための強力な暗号化標準の実装に焦点を当てています。これらの技術的スキルを習得することで、エンジニアはセキュリティを外部の層としてではなく、設計するシステムの固有の特性として統合するための備えをより良く整えることができます。開発に対するこの「セキュリティ中心」のアプローチは、次世代のレジリエントなインフラを構築するために不可欠です。\n\n直接的な技術スキルの習得にとどまらず、プログラムはサイバーセキュリティ分野での専門的なキャリア形成のための明確なロードマップを提供します。ペネトレーションテストやインシデント対応から、高度なセキュリティアーキテクチャやポリシー管理に至るまで、業界内で利用可能な多様なキャリアパスを強調しています。このような露出は、技術的な卓越性と生涯学習の文化を育む上で極めて重要であり、地元の労働力がサイバーセキュリティの専門知識に対する世界的な需要の高まりに応える準備ができていることを保証します。\n\n振り返ってみれば、CISCOのサイバーセキュリティ認定は、デジタル世界の複雑さをナビゲートするための不可欠な資格です。データ保護に対する深い責任感と、技術的な脆弱性が個人とグローバルな組織の両方にどのような影響を与えるかについての戦略的な理解を植え付けます。サイバー防衛における強固な基盤を確立することで、このプログラムはエンジニアが単なる技術の構築者ではなく、現代社会を支えるデジタルシステムの守護者であることを保証します。"
+      },
+      "quote": {
+        "en": "Cybersecurity begins with awareness—understand the threats, protect your data, and secure your future.",
+        "es": "La ciberseguridad comienza con la conciencia: comprende las amenazas, protege tus datos y asegura tu futuro.",
+        "zh": "网络安全始于意识——了解威胁,保护数据,守护未来。",
+        "ja": "サイバーセキュリティは意識から始まる。脅威を理解し、データを守り、未来を守ろう。"
       }
-    },
-    "quote": {
-      "en": "Cybersecurity begins with awareness—understand the threats, protect your data, and secure your future.",
-      "es": "La ciberseguridad comienza con la conciencia: comprende las amenazas, protege tus datos y asegura tu futuro.",
-      "zh": "网络安全始于意识——了解威胁,保护数据,守护未来。",
-      "ja": "サイバーセキュリティは意識から始まる。脅威を理解し、データを守り、未来を守ろう。"
     },
     "links": "",
     "collaborators": [],
@@ -2650,13 +2644,13 @@
         "es": "El curso 'Introducción a las Redes' de CISCO se erige como el estándar de oro para la ingeniería de redes fundamental, proporcionando el marco técnico riguroso necesario para diseñar, configurar y solucionar problemas de infraestructuras de comunicación complejas. En una economía global interconectada, la capacidad de dominar los modelos OSI y TCP/IP es un requisito previo para cualquier ingeniero involucrado en el desarrollo de infraestructura.\n\nUn elemento central del plan de estudios es el dominio de Cisco IOS (Internetwork Operating System), donde los alumnos participan en la configuración directa de hardware de red. A través de laboratorios intensivos basados en simulación, los estudiantes desarrollan una comprensión profunda de la lógica de conmutación, la segmentación de VLAN y las complejidades de las direcciones IPv4 e IPv6. Esta experiencia práctica asegura que los conceptos teóricos se traduzcan en experiencia técnica procesable.\n\nEl curso enfatiza un enfoque estructurado y analítico para la resolución de problemas de red. Al aprender a identificar y resolver problemas en varias capas de la pila de red, los participantes desarrollan las habilidades de pensamiento crítico necesarias para mantener la continuidad operativa. Esto incluye el análisis de fallas de la capa física, configuraciones de la capa de enlace de datos e inconsistencias de enrutamiento de la capa de red.\n\nLa escalabilidad y la preparación para el futuro son temas clave abordados en los módulos avanzados. A medida que las demandas de la red crecen con el auge de la computación en la nube, es vital comprender cómo diseñar arquitecturas que puedan escalar sin comprometer el rendimiento. El programa presenta conceptos de automatización de red y protocolos de seguridad básicos, asegurando que las bases establecidas sean compatibles con las tendencias de redes definidas por software (SDN).\n\nEn reflexión, la certificación CISCO Introduction to Networks representa un hito profesional significativo. Proporciona la columna vertebral digital esencial para cualquier carrera de ingeniería, fomentando una cultura de rigor técnico y precisión. Al establecer una sólida comprensión de cómo se mueve y asegura la información en todo el mundo, este programa asegura que los ingenieros estén equipados para construir las bases digitales de nuestra sociedad global.",
         "zh": "思科 (CISCO) 的“网络入门”课程是基础网络工程的金标准,为架构、配置和调试复杂的通信基础设施提供了严谨的技术框架。在互联的全球经济中,掌握 OSI 和 TCP/IP 模型不仅是一项技能,更是任何从事基础设施开发的工程师的先决条件。该项目深入探讨了以太网技术的基本原理、IP 地址分配方案,以及路由器和交换机在跨地理和组织边界维持无缝数据流方面的关键作用。\n\n课程的核心是掌握思科 IOS (网络操作系统),学习者直接参与网络硬件的配置。通过使用 Cisco Packet Tracer 进行密集型仿真实验,并与物理路由器进行动手交互,学生们深入理解了交换逻辑、VLAN 分段以及 IPv4 和 IPv6 寻址的复杂性。这种实践经验确保了理论网络概念转化为可操作的技术专长,为参与者管理作为现代数字服务支柱的高可用性网络环境做好了准备。\n\n课程强调结构化的网络故障排除分析方法。通过学习识别和解决网络栈各个层级的问题,参与者培养了在压力巨大的工业和企业环境中维持业务连续性所需的批判性思维能力。这包括物理层故障分析、数据链路层配置以及网络层路由不一致性分析。掌握这些诊断工具对于减少计划外停机并确保关键通信渠道在面对技术故障和外部干扰时保持韧性至关重要。\n\n可扩展性和前瞻性是高级模块中探讨的核心主题。随着云计算和远程办公的兴起,网络需求不断增长,理解如何设计能够在不牺牲性能的情况下进行扩展的架构至关重要。该项目介绍了网络自动化和基础安全协议的概念,确保奠定的基础与下一代软件定义网络 (SDN) 趋势相兼容。这种前瞻性的视角确保了毕业生不仅接受了当今网络技术的培训,还准备好领导未来网络的发展。\n\n回顾过去,思科“网络入门”认证代表了一个重要的职业里程碑。它为任何工程职业提供了必不可少的数字骨干,培养了追求技术严谨和精准的文化。通过建立对信息在全球范围内如何移动和保护的深刻理解,该项目确保了工程师具备构建全球社会所依赖的数字基础的能力。它是结构化技术教育在塑造全球互联未来方面强大力量的见解。",
         "ja": "CISCOの「ネットワーク入門」コースは、基礎的なネットワークエンジニアリングのゴールドスタンダードであり、複雑な通信インフラの設計、構成、およびトラブルシューティングに必要な厳格な技術的枠組みを提供します。相互接続されたグローバル経済において、OSIおよびTCP/IPモデルを習得することは単なるスキルではなく、インフラ開発に携わるあらゆるエンジニアにとっての必須条件です。このプログラムでは、イーサネット技術の基本原理、IPアドレッシングスキーム、そして多様な地理的・組織的境界を越えてシームレスなデータフローを維持するためのルーターとスイッチの重要な役割について深く掘り下げます。\n\nカリキュラムの中心となるのはCisco IOS（Internetwork Operating System）の習得であり、学習者はネットワークハードウェアの直接的な構成に携わります。Cisco Packet Tracerを用いた集中的なシミュレーションベースのラボや、物理ルーターとの実践的な対話を通じて、学生はスイッチングロジック、VLANセグメンテーション、およびIPv4とIPv6アドレッシングの複雑さについて深い理解を深めます。この実践的な経験により、理論的なネットワーキングの概念が実用的な技術的専門知識へと変換され、現代のデジタルサービスの根幹である高可用性ネットワーク環境を管理するための備えが整います。\n\nこのコースでは、ネットワークのトラブルシューティングに対する体系的かつ分析的なアプローチを重視しています。ネットワークスタックの様々な層における問題を特定し解決する方法を学ぶことで、参加者はプレッシャーの高い産業や企業の現場で運用の継続性を維持するために必要な批判的思考スキルを養います。これには、物理層の障害分析、データリンク層の構成、およびネットワーク層のルーティングの不整合の分析が含まれます。これらの診断ツールを習得することは、計画外のダウンタイムを削減し、重要な通信チャネルが技術的な失敗や外部からの干渉に対してレジリエントであり続けるために不可欠です。\n\n拡張性と将来への対応は、高度なモジュールで扱われる主要なテーマです。クラウドコンピューティングやリモートワークの台頭によりネットワーク需要が増大する中、パフォーマンスを損なうことなく拡張できるアーキテクチャを設計する方法を理解することは極めて重要です。プログラムでは、ネットワーク自動化や基本的なセキュリティプロトコルの概念を紹介し、築かれた基盤が次世代のソフトウェア定義ネットワーク（SDN）のトレンドと互換性があることを保証します。この先見的な視点により、卒業生は単に今日のネットワークのために訓練されるだけでなく、明日のネットワークの進化をリードする準備が整います。\n\n振り返ってみれば、CISCOの「ネットワーク入門」認定は、重要な専門的マイルストーンを象徴しています。それはあらゆるエンジニアリングのキャリアにおいて不可欠なデジタルのバックボーンを提供し、技術的な厳格さと正確さの文化を育みます。情報がいかに世界中で移動し保護されるかについての強固な理解を確立することで、このプログラムはエンジニアがグローバル社会が依存するデジタル基盤を構築するための備えを整えることを保証します。これは、グローバルな接続性の未来を形作る上での、体系的な技術教育の力を証明するものです。"
+      },
+      "quote": {
+        "en": "Strong networks build strong futures—master the fundamentals and connect the world.",
+        "es": "Las redes sólidas construyen futuros sólidos: domina los fundamentos y conecta el mundo.",
+        "zh": "稳固的网络构建稳固的未来——掌握基础,连接世界。",
+        "ja": "強固なネットワークが未来を築く。基礎を極め、世界をつなげよう。"
       }
-    },
-    "quote": {
-      "en": "Strong networks build strong futures—master the fundamentals and connect the world.",
-      "es": "Las redes sólidas construyen futuros sólidos: domina los fundamentos y conecta el mundo.",
-      "zh": "稳固的网络构建稳固的未来——掌握基础,连接世界。",
-      "ja": "強固なネットワークが未来を築く。基礎を極め、世界をつなげよう。"
     },
     "links": "",
     "collaborators": [],
@@ -2717,13 +2711,13 @@
         "es": "La presentación cambió con éxito la narrativa institucional, lo que llevó a un mayor enfoque en la microelectrónica dentro del portafolio de investigación de la facultad. Catalizó la formación de un comité técnico especializado.",
         "zh": "该演讲成功地改变了机构叙事,使得学院的研究组合更加关注微电子领域。它促成了一个专门技术委员会的成立,该委员会负责探索国际半导体合作伙伴关系,并将巴拿马科技大学确立为西方技术安全圈中的积极参与者。这一倡议为未来的国内 ASIC 开发项目铺平了道路,并加强了大学作为国家高科技政策驱动者的作用。",
         "ja": "発表は機関のナラティブ（語り口）を転換することに成功し、学部の研究ポートフォリオにおいてマイクロエレクトロニクスへの注目を高める結果となりました。国際的な半導体パートナーシップの探索を任務とする専門技術委員会の結成を促し、UTPを西側の技術安全保障圏における能動的なプレーヤーとして確立しました。この取り組みは、将来の国内ASIC開発プロジェクトへの道を開き、国家のハイテク政策の推進役としての大学の役割を強化しました。"
+      },
+      "quote": {
+        "en": "In the race for technological sovereignty, Central America is transforming from a geographic bridge into a digital backbone for the global semiconductor supply chain.",
+        "es": "En la carrera por la soberanía tecnológica, Centroamérica está pasando de ser un puente geográfico a ser la columna vertebral digital de la cadena de suministro global.",
+        "zh": "在技术主权的竞争中,中美洲正从地理桥梁转变为全球半导体供应链的数字骨干。",
+        "ja": "技術主権をめぐる競争において、中央アメリカは地理的な架け橋から、グローバルな半導体サプライチェーンのデジタルなバックボーンへと進化を遂げています。"
       }
-    },
-    "quote": {
-      "en": "In the race for technological sovereignty, Central America is transforming from a geographic bridge into a digital backbone for the global semiconductor supply chain.",
-      "es": "En la carrera por la soberanía tecnológica, Centroamérica está pasando de ser un puente geográfico a ser la columna vertebral digital de la cadena de suministro global.",
-      "zh": "在技术主权的竞争中,中美洲正从地理桥梁转变为全球半导体供应链的数字骨干。",
-      "ja": "技術主権をめぐる競争において、中央アメリカは地理的な架け橋から、グローバルな半導体サプライチェーンのデジタルなバックボーンへと進化を遂げています。"
     },
     "links": "",
     "collaborators": [],
@@ -2815,13 +2809,13 @@
         "es": "El proceso de evaluación elevó significativamente el estándar técnico de la competencia, fomentando una cultura de ingeniería rigurosa y validación empírica.",
         "zh": "评审过程显著提升了竞赛的技术标准,在参与者中培养了严谨工程和经验验证的文化。它为机器人性能评估建立了一个可重复的基准,并提供了一个指导平台,弥合了课堂理论与自主系统部署实际复杂性之间的鸿沟。",
         "ja": "審査プロセスは競技の技術水準を大幅に引き上げ、参加者の間に厳格なエンジニアリングと経験的検証の文化を育みました。ロボットのパフォーマンス評価のための再現可能なベンチマークを確立し、メンターシップのためのプラットフォームを提供することで、教室での理論と自律システム展開の実践的な複雑さの間のギャップを埋めました。"
+      },
+      "quote": {
+        "en": "RoboCup unites the world's brightest minds to push the boundaries of robotics and AI.",
+        "es": "RoboCup une a las mentes más brillantes del mundo para expandir los límites de la robótica y la IA.",
+        "zh": "RoboCup汇聚全球最聪明的头脑,推动机器人与人工智能的边界。",
+        "ja": "RoboCupは世界の最先端の頭脳を結集し、ロボットとAIの限界を押し広げる。"
       }
-    },
-    "quote": {
-      "en": "RoboCup unites the world's brightest minds to push the boundaries of robotics and AI.",
-      "es": "RoboCup une a las mentes más brillantes del mundo para expandir los límites de la robótica y la IA.",
-      "zh": "RoboCup汇聚全球最聪明的头脑,推动机器人与人工智能的边界。",
-      "ja": "RoboCupは世界の最先端の頭脳を結集し、ロボットとAIの限界を押し広げる。"
     },
     "links": {
       "Robocup": "https://2023.robocup.org/en/home/"
@@ -2913,13 +2907,13 @@
         "es": "La implementación del nuevo sistema de puntuación resultó en un aumento medible en la robustez de las plataformas robóticas en competencia.",
         "zh": "新评分系统的实施显著提高了参赛机器人平台的稳健性,团队在动态导航任务中的成功率显著提升。它提升了区域机器人社区的技术水平,并为自主多智能体系统的经验评估建立了一个权威标准。",
         "ja": "新しいスコアリングシステムの実装により、競技用ロボットプラットフォームの堅牢性が著しく向上し、各チームはダイナミックなナビゲーションタスクにおいて大幅に高い成功率を実証しました。地域のロボットコミュニティ内での技術的な洗練度を高め、自律型マルチエージェントシステムの経験的評価のための決定的な基準を確立しました。"
+      },
+      "quote": {
+        "en": "RoboCup 2024 is where autonomous robots meet innovation, excitement, and global collaboration!",
+        "es": "¡RoboCup 2024 es donde los robots autónomos se encuentran con la innovación, la emoción y la colaboración global!",
+        "zh": "RoboCup 2024是自主机器人、创新、激情与全球协作汇聚之地!",
+        "ja": "RoboCup 2024は、自律型ロボットがイノベーション、興奮、世界的協力と出会う場です!"
       }
-    },
-    "quote": {
-      "en": "RoboCup 2024 is where autonomous robots meet innovation, excitement, and global collaboration!",
-      "es": "¡RoboCup 2024 es donde los robots autónomos se encuentran con la innovación, la emoción y la colaboración global!",
-      "zh": "RoboCup 2024是自主机器人、创新、激情与全球协作汇聚之地！",
-      "ja": "RoboCup 2024は、自律型ロボットがイノベーション、興奮、世界的協力と出会う場です！"
     },
     "links": {
       "Robocup": "https://2024.robocup.org/index.html"
@@ -3091,13 +3085,13 @@
         "es": "El trabajo del comité resultó en el establecimiento de puntos de referencia técnicos de alto estándar adoptados por los sectores industriales y académicos regionales.",
         "zh": "委员会的工作成功建立了被区域工业和学术部门采用的高标准技术基准。它确保了新兴技术部署的完整性,并为国际互操作性提供了一个稳健的框架。这一贡献显著提升了学院的专业水平,并加强了当地工程界与全球技术治理之间的联系。",
         "ja": "委員会の活動により、地域の産業・学術分野で採用される高水準の技術ベンチマークが確立されました。これにより、新興技術の展開における整合性が確保され、国際的な相互運用性のための強固な枠組みが提供されました。この貢献は、学部の専門的な水準を大幅に引き上げ、地元のエンジニアリングとグローバルな技術ガバナンスの結びつきを強化しました。"
+      },
+      "quote": {
+        "en": "CONESCAPAN XLI united brilliant minds to shape the future of engineering in Central America!",
+        "es": "¡CONESCAPAN XLI unió mentes brillantes para moldear el futuro de la ingeniería en Centroamérica!",
+        "zh": "CONESCAPAN XLI汇聚智慧之才,共同塑造中美洲工程的未来!",
+        "ja": "CONESCAPAN XLIは、中米の工学の未来を形作るために優れた頭脳を結集しました!"
       }
-    },
-    "quote": {
-      "en": "CONESCAPAN XLI united brilliant minds to shape the future of engineering in Central America!",
-      "es": "¡CONESCAPAN XLI unió mentes brillantes para moldear el futuro de la ingeniería en Centroamérica!",
-      "zh": "CONESCAPAN XLI汇聚智慧之才,共同塑造中美洲工程的未来！",
-      "ja": "CONESCAPAN XLIは、中米の工学の未来を形作るために優れた頭脳を結集しました！"
     },
     "links": {
       "CONESCAPAN": "https://attend.ieee.org/conescapan-2024/miembros-del-comite-tecnico/"
@@ -3262,13 +3256,13 @@
         "es": "El exitoso diseño y patentamiento del primer semiconductor desarrollado por una universidad en Panamá representó un hito histórico en la evolución tecnológica de la nación, señalando su preparación para pasar de ser un consumidor de tecnología a un colaborador especializado en el ecosistema global de microelectrónica. Esta investigación se centró en el diseño arquitectónico y la validación de un decodificador lógico de alto rendimiento, implementado mediante un proceso CMOS de 180 nm. El objetivo principal fue demostrar que el diseño VLSI avanzado podía ejecutarse con éxito mediante una metodología rigurosa.\n\nEl núcleo técnico del proyecto consistió en el desarrollo de ciclo completo del componente de silicio, comenzando desde la especificación RTL y pasando por la síntesis lógica, el análisis de tiempos y la implementación física. Un desafío crítico fue gestionar la integridad de la señal y la disipación de energía dentro del régimen nanométrico, lo que requirió extensas simulaciones de esquemas y diseños para garantizar la confiabilidad posterior a la fabricación. El diseño resultante se optimizó para la eficiencia del área y el rendimiento de baja latencia.\n\nEl apoyo institucional de la Universidad Tecnológica de Panamá y la Sociedad de Circuitos y Sistemas de IEEE (CASS) fue fundamental para este logro. Al aprovechar entornos de diseño especializados y herramientas CAD estándar de la industria, pudimos adherirnos a reglas de diseño de fabricación estrictas (DRC) y comprobaciones de diseño versus esquema (LVS). Este nivel de rigor técnico fue esencial no solo para el éxito funcional del chip, sino también para el proceso de patentamiento posterior, que requirió pruebas definitivas de innovación técnica y aplicabilidad industrial.\n\nMás allá de los productos técnicos inmediatos, el proyecto catalizó un cambio en la mentalidad de la ingeniería regional. Demostró que el talento local es capaz de dominar las complejidades del diseño de hardware nanométrico, reduciendo así la dependencia de la propiedad intelectual extranjera para la infraestructura crítica. El proceso de registro de patentes en sí mismo sirvió como un estudio de caso para futuros investigadores, estableciendo una vía administrativa y técnica clara para proteger la innovación indígena en el sector de alta tecnología.\n\nEn conclusión, la primera patente universitaria de semiconductores es un testimonio del poder de la investigación estructurada y la visión institucional. Sirve como una columna vertebral digital para futuras iniciativas de microelectrónica en Panamá, proporcionando una hoja de ruta verificada para el desarrollo nacional de ASIC.",
         "zh": "巴拿马首个由大学开发的半导体的成功设计和专利申请,标志着该国技术演进史上的一个历史性里程碑,表明巴拿马已准备好从技术消费者转变为全球微电子生态系统的专门贡献者。本研究专注于高性能逻辑解码器的架构设计和验证,采用 180 纳米 CMOS 工艺实现。主要目标是证明,通过严谨的方法论和战略性的工具利用,传统上由于高昂的非经常性工程 (NRE) 成本和技术复杂性而被视为遥不可及的先进 VLSI 设计,可以在区域学术框架内成功执行。\n\n该项目的技术核心涉及硅组件的全周期开发,从 RTL（寄存器传输级）规格开始,经过逻辑综合、时序分析和物理实现。一个关键挑战是管理纳米级条件下的信号完整性和功耗,这需要大量的原理图和版图仿真以确保制造后的可靠性。最终的设计在面积效率和低延迟性能方面进行了优化,为更复杂的片上系统 (SoC) 架构奠定了坚实的基础。这项工作有效地弥合了理论电路设计与硅制造实际情况之间的鸿沟。\n\n巴拿马科技大学和 IEEE 电路与系统协会 (CASS) 的机构支持是取得这一成就的基础。通过利用专门的设计环境和行业标准的 CAD 工具,我们能够遵守严格的制造设计规则 (DRC) 以及版图与原理图对照 (LVS) 检查。这种技术上的严谨性不仅对于芯片的功能成功至关重要,对于随后的专利申请过程也必不可少,因为专利申请需要技术创新和工业适用性的确凿证据。学院内的协作环境允许同行评审和迭代优化,确保设计符合国际质量标准。\n\n除了直接的技术输出外,该项目还催化了区域工程思维的转变。它证明了当地人才有能力掌握纳米级硬件设计的复杂性,从而减少了关键基础设施对外国知识产权的依赖。专利注册过程本身也为未来的研究人员提供了案例研究,为保护高科技领域的本土创新建立了清晰的行政和技术路径。自那以后,这一成就吸引了全球半导体公司的兴趣,为国际研究合作和工业伙伴关系开辟了新途径。\n\n总之,首个大学半导体专利证明了结构化研究和机构愿景的力量。它作为巴拿马未来微电子计划的数字骨干,为国内 ASIC 开发提供了经过验证的路线图。当我们展望未来的节点和更先进的集成技术时,通过该项目奠定的基础确保了巴拿马不再是半导体时代的旁观者,而是推动我们数字世界发展的硬件设计的积极参与者。",
         "ja": "パナマ初の大学開発による半導体の設計と特許取得の成功は、国家の技術進化における歴史的なマイルストーンであり、テクノロジーの消費者から世界のマイクロエレクトロニクス・エコシステムへの専門的な貢献者へと移行する準備が整ったことを示しています。本研究は、180nm CMOSプロセスを用いて実装された高性能ロジックデコーダのアーキテクチャ設計と検証に焦点が当てられました。主な目的は、高いNREコストと技術的な複雑さのために伝統的に困難と考えられてきた高度なVLSI設計が、厳格な手法と戦略的なツールの活用によって、地域の学術的枠組みの中で成功裏に実行できることを証明することでした。\n\nプロジェクトの技術的な核心は、RTL（レジスタ転送レベル）仕様から始まり、論理合成、タイミング解析、物理実装に至るシリコンコンポーネントのフルサイクル開発にあります。重要な課題は、ナノメートル領域における信号整合性と電力散逸の管理であり、製造後の信頼性を確保するために大規模な回路図およびレイアウトシミュレーションが必要でした。結果として得られた設計は、面積効率と低遅延パフォーマンスのために最適化され、より複雑なシステムオンチップ（SoC）アーキテクチャのための堅牢な基盤を提供しました。この研究は、理論的な回路設計とシリコン製造の実践的な現実との間のギャップを効果的に埋めるものでした。\n\nパナマ工科大学およびIEEE Circuits and Systems Society（CASS）からの機関サポートは、この成果の基礎となりました。専門的な設計環境と業界標準のCADツールを活用することで、厳格な製造設計ルール（DRC）およびレイアウト対回路図（LVS）チェックを遵守することができました。このレベルの技術的厳格さは、チップの機能的な成功だけでなく、技術革新と産業的適用性の決定的な証明を必要とするその後の特許プロセスにとっても不可欠でした。学部内のコラボレーション環境により、ピアレビューと反復的な最適化が可能になり、設計が国際的な品質基準を満たしていることが保証されました。\n\n直接的な技術的成果を超えて、このプロジェクトは地域のエンジニアリングにおける考え方の変化を促しました。地元の才能がナノメートル級のハードウェア設計の複雑さを克服できることを証明し、それによって重要なインフラにおける外国の知的財産への依存を軽減しました。特許登録プロセス自体が将来の研究者にとってのケーススタディとなり、ハイテク分野における固有のイノベーションを保護するための明確な管理的・技術的経路を確立しました。この成果はその後、世界の半導体企業からの関心を集め、国際的な研究協力や産業パートナーシップのための新しい道を開きました。\n\n結論として、初の大学による半導体特許は、体系的な研究と機関のビジョンの力を証明するものです。これはパナマにおける将来のマイクロエレクトロニクス・イニシアチブのデジタルバックボーンとして機能し、国内のASIC開発のための検証済みロードマップを提供します。将来のノードやより高度な集積技術を見据える中で、このプロジェクトを通じて確立された基盤は、パナマがもはや半導体時代の傍観者ではなく、デジタル世界を動かすハードウェアの設計における積極的な参加者であることを保証します。"
+      },
+      "quote": {
+        "en": "Achieving the first nanometric chip shows that innovation knows no borders and that Panama is ready to compete in the semiconductor age.",
+        "es": "Lograr el primer chip nanométrico demuestra que la innovación no conoce fronteras y que Panamá está listo para competir en la era de los semiconductores.",
+        "zh": "实现首个纳米级芯片表明创新无国界,巴拿马已准备好在半导体时代竞争。",
+        "ja": "初のナノメートルチップの達成は、イノベーションに国境はなく、パナマが半導体時代で競争する準備ができていることを示しています。"
       }
-    },
-    "quote": {
-      "en": "Achieving the first nanometric chip shows that innovation knows no borders and that Panama is ready to compete in the semiconductor age.",
-      "es": "Lograr el primer chip nanométrico demuestra que la innovación no conoce fronteras y que Panamá está listo para competir en la era de los semiconductores.",
-      "zh": "实现首个纳米级芯片表明创新无国界,巴拿马已准备好在半导体时代竞争。",
-      "ja": "初のナノメートルチップの達成は、イノベーションに国境はなく、パナマが半導体時代で競争する準備ができていることを示しています。"
     },
     "links": {
       "Instagram": "https://www.instagram.com/p/C8IGj-IIj2m/"
@@ -3338,13 +3332,13 @@
         "es": "Los participantes adquirieron conocimientos prácticos en programación Python para sistemas embebidos, integrando herramientas de desarrollo y la tarjeta ESP32, mejorando su capacidad para futuros proyectos académicos y tecnológicos.",
         "zh": "参与者掌握了嵌入式系统Python编程的实践知识,整合了开发工具和ESP32板,提高了他们未来学术和技术项目的能力。",
         "ja": "参加者は、組み込みシステム向けのPythonプログラミングに関する実践的知識を習得し、開発ツールとESP32ボードを統合して、将来の学術および技術プロジェクトに対応する能力を向上させました。"
+      },
+      "quote": {
+        "en": "Empowering the next generation of embedded system developers with hands-on Python skills!",
+        "es": "¡Empoderando a la próxima generación de desarrolladores de sistemas embebidos con habilidades prácticas en Python!",
+        "zh": "通过实践Python技能赋能下一代嵌入式系统开发者!",
+        "ja": "実践的なPythonスキルで次世代の組み込みシステム開発者を育成!"
       }
-    },
-    "quote": {
-      "en": "Empowering the next generation of embedded system developers with hands-on Python skills!",
-      "es": "¡Empoderando a la próxima generación de desarrolladores de sistemas embebidos con habilidades prácticas en Python!",
-      "zh": "通过实践Python技能赋能下一代嵌入式系统开发者！",
-      "ja": "実践的なPythonスキルで次世代の組み込みシステム開発者を育成！"
     },
     "links": {
       "UTP": "https://utp.ac.pa/seminario-taller-python-orientado-sistemas-embebidos"
@@ -3418,13 +3412,13 @@
         "es": "El estudio destacó la efectividad de las tecnologías emergentes en la agricultura inteligente, demostrando cómo la IA y los métodos de sensado pueden mejorar la clasificación de frutas, la detección de enfermedades y la eficiencia en la cosecha, allanando el camino hacia sistemas agroindustriales inteligentes.",
         "zh": "研究强调了新兴技术在智能农业中的有效性,展示了人工智能和传感方法如何改进水果分类、病害检测和收获效率,为智能农业系统铺平道路。",
         "ja": "研究は、スマート農業における新興技術の有効性を強調し、AIおよびセンシング手法が果物の分類、病害検出、収穫効率をどのように改善できるかを示し、インテリジェントな農業システムへの道を開きました。"
+      },
+      "quote": {
+        "en": "AI and smart sensing are transforming agriculture—watermelons are just the beginning!",
+        "es": "La IA y el sensado inteligente están transformando la agricultura: ¡las sandías son solo el comienzo!",
+        "zh": "人工智能与智能传感正在改变农业——西瓜只是开始!",
+        "ja": "AIとスマートセンシングが農業を変革している——スイカはその始まりに過ぎない!"
       }
-    },
-    "quote": {
-      "en": "AI and smart sensing are transforming agriculture—watermelons are just the beginning!",
-      "es": "La IA y el sensado inteligente están transformando la agricultura: ¡las sandías son solo el comienzo!",
-      "zh": "人工智能与智能传感正在改变农业——西瓜只是开始！",
-      "ja": "AIとスマートセンシングが農業を変革している——スイカはその始まりに過ぎない！"
     },
     "links": {
       "ScienceDirect": "https://www.sciencedirect.com/science/article/abs/pii/S0925231223000140"
@@ -3561,13 +3555,13 @@
         "es": "El Café destacó los avances de Panamá en el uso de redes de sensores para el monitoreo agrícola y demostró cómo el diseño eficiente en energía y el monitoreo de la salud de las baterías pueden mejorar la toma de decisiones y la sostenibilidad de la red.",
         "zh": "本次咖啡活动展示了巴拿马在农业监测传感器网络方面的进展,并演示了节能设计和电池健康监测如何改善决策和网络可持续性。",
         "ja": "このカフェでは、農業モニタリング用センサーネットワークにおけるパナマの進展が強調され、エネルギー効率の良い設計とバッテリー健康モニタリングが意思決定とネットワークの持続可能性を向上させる方法が示されました。"
+      },
+      "quote": {
+        "en": "Sensor networks are reshaping Panama's agricultural monitoring for a smarter, sustainable future.",
+        "es": "Las redes de sensores están transformando el monitoreo agrícola de Panamá hacia un futuro más inteligente y sostenible.",
+        "zh": "传感器网络正在重塑巴拿马的农业监测,实现更智能、更可持续的未来。",
+        "ja": "センサーネットワークは、よりスマートで持続可能な未来のためにパナマの農業モニタリングを変革しています。"
       }
-    },
-    "quote": {
-      "en": "Sensor networks are reshaping Panama's agricultural monitoring for a smarter, sustainable future.",
-      "es": "Las redes de sensores están transformando el monitoreo agrícola de Panamá hacia un futuro más inteligente y sostenible.",
-      "zh": "传感器网络正在重塑巴拿马的农业监测,实现更智能、更可持续的未来。",
-      "ja": "センサーネットワークは、よりスマートで持続可能な未来のためにパナマの農業モニタリングを変革しています。"
     },
     "links": {
       "SENACYT": "https://www.senacyt.gob.pa/la-senacyt-realiza-cafe-cientifico-redes-de-sensores-para-el-monitoreo-de-cultivos-agricolas/"
@@ -3672,13 +3666,13 @@
         "es": "Las herramientas implementadas generaron y ejecutaron pruebas con éxito, con tiempos de ejecución que oscilaban entre milisegundos y minutos, dependiendo del tamaño del circuito. Si bien eran funcionales, su rendimiento se quedó por debajo del de las herramientas industriales, lo que abrió un camino claro para futuras optimizaciones e investigaciones.",
         "ja": "実装されたツールは、回路サイズに応じて数ミリ秒から数分間の実行時間でテストを生成・実行しました。機能的には問題なく動作しましたが、パフォーマンスは産業用ツールに比べて劣っており、今後の最適化と研究への道筋が開かれました。",
         "zh": "所实现的工具成功生成并执行了测试,运行时间从几毫秒到几分钟不等,具体取决于电路规模。虽然功能齐全,但性能仍落后于工业级工具,这为未来的优化和研究指明了方向。"
+      },
+      "quote": {
+        "en": "Developing ATPG systems revealed both the power and the limits of academic VLSI testing tools.<br>The performance gap with industry solutions now drives the next phase of optimization and research.",
+        "zh": "ATPG系统的开发既展现了学术界VLSI测试工具的强大功能,也揭示了其局限性。与行业解决方案的性能差距,推动了下一阶段的优化和研究。",
+        "es": "El desarrollo de sistemas ATPG reveló tanto el potencial como los límites de las herramientas académicas de pruebas VLSI. La brecha de rendimiento con las soluciones de la industria impulsa ahora la siguiente fase de optimización e investigación.",
+        "ja": "ATPGシステムの開発により、学術的VLSIテストツールの威力と限界が明らかになりました。業界標準のソリューションとのパフォーマンスギャップが、最適化と研究の次の段階へと繋がっています。"
       }
-    },
-    "quote": {
-      "en": "Developing ATPG systems revealed both the power and the limits of academic VLSI testing tools.<br>The performance gap with industry solutions now drives the next phase of optimization and research.",
-      "zh": "ATPG系统的开发既展现了学术界VLSI测试工具的强大功能,也揭示了其局限性。与行业解决方案的性能差距,推动了下一阶段的优化和研究。",
-      "es": "El desarrollo de sistemas ATPG reveló tanto el potencial como los límites de las herramientas académicas de pruebas VLSI. La brecha de rendimiento con las soluciones de la industria impulsa ahora la siguiente fase de optimización e investigación.",
-      "ja": "ATPGシステムの開発により、学術的VLSIテストツールの威力と限界が明らかになりました。業界標準のソリューションとのパフォーマンスギャップが、最適化と研究の次の段階へと繋がっています。"
     },
     "links": "",
     "collaborators": [
@@ -3793,13 +3787,13 @@
         "es": "La participación demostró con éxito la viabilidad de las estrategias de control avanzadas en entornos dinámicos.",
         "zh": "此次参与成功展示了先进控制策略在动态环境中的可行性,赢得了哥斯达黎加大学国际机器人专家的认可。它在巴拿马和哥斯达黎加机器人社区之间建立了强大的技术联系,并为未来的自主系统研究提供了一个经过验证的框架,显著提升了学院在区域范围内的技术影响力。",
         "ja": "この参加により、ダイナミックな環境における高度な制御戦略の実現可能性が正常に実証され、コスタリカ大学の国際的なロボット研究者から高く評価されました。パナマとコスタリカのロボットコミュニティの間に強力な技術的連携を確立し、将来の自律システム研究のための検証済みフレームワークを提供し、地域規模での学部の技術的な認知度を大幅に向上させました。"
+      },
+      "quote": {
+        "en": "RobotiFestUCR inspired young innovators to bring technology and creativity to life.",
+        "es": "RobotiFestUCR inspiró a los jóvenes innovadores a dar vida a la tecnología y la creatividad.",
+        "zh": "RobotiFestUCR激励年轻创新者将技术与创意付诸实践。",
+        "ja": "RobotiFestUCRは、若いイノベーターに技術と創造性を実現させるインスピレーションを与えました。"
       }
-    },
-    "quote": {
-      "en": "RobotiFestUCR inspired young innovators to bring technology and creativity to life.",
-      "es": "RobotiFestUCR inspiró a los jóvenes innovadores a dar vida a la tecnología y la creatividad.",
-      "zh": "RobotiFestUCR激励年轻创新者将技术与创意付诸实践。",
-      "ja": "RobotiFestUCRは、若いイノベーターに技術と創造性を実現させるインスピレーションを与えました。"
     },
     "links": {
       "UCR": "https://www.ucr.ac.cr/noticias/2019/11/19/se-viene-el-robotifestucr-2019.html"
@@ -3948,13 +3942,13 @@
         "es": "Para 2023, Seeds for the Future había involucrado a 142 países, beneficiado a más de 19,000 estudiantes, recibido más de 430 respaldos de altos funcionarios y establecido más de 500 colaboraciones con universidades, fomentando exitosamente el talento global en tecnología digital e innovación.",
         "zh": "到2023年,Seeds for the Future已覆盖142个国家,使超过19,000名学生受益,获得430多名高级官员的认可,并与500多所大学建立合作,成功培养了全球数字技术和创新人才。",
         "ja": "2023年までに、Seeds for the Futureは142か国で実施され、19,000人以上の学生が参加し、430件以上の高官の承認を得て、500以上の大学との協力を確立し、デジタル技術とイノベーションにおけるグローバル人材を育成しました。"
+      },
+      "quote": {
+        "en": "Seeds for the Future empowered young talents worldwide to innovate, collaborate, and lead in the digital era.",
+        "es": "Seeds for the Future empoderó a los jóvenes talentos de todo el mundo para innovar, colaborar y liderar en la era digital.",
+        "zh": "Seeds for the Future使全球青年人才能够在数字时代进行创新、合作与领导。",
+        "ja": "Seeds for the Futureは、世界中の若手人材にデジタル時代での革新、協力、リーダーシップの機会を提供しました。"
       }
-    },
-    "quote": {
-      "en": "Seeds for the Future empowered young talents worldwide to innovate, collaborate, and lead in the digital era.",
-      "es": "Seeds for the Future empoderó a los jóvenes talentos de todo el mundo para innovar, colaborar y liderar en la era digital.",
-      "zh": "Seeds for the Future使全球青年人才能够在数字时代进行创新、合作与领导。",
-      "ja": "Seeds for the Futureは、世界中の若手人材にデジタル時代での革新、協力、リーダーシップの機会を提供しました。"
     },
     "links": "",
     "collaborators": [],
@@ -4050,13 +4044,13 @@
         "es": "La entrevista elevó con éxito el discurso público sobre los semiconductores en Panamá, llegando a miles de espectadores.",
         "zh": "此次采访成功提升了巴拿马关于半导体的公共话语权,触及了数千名观众,并激发了机构对微电子政策的兴趣。它将巴拿马科技大学及其研究人员定位为高科技工程领域的权威声音,促进了学术界与媒体之间的新对话。这种知名度对于倡导增加对当地半导体基础设施和劳动力培训的投资起到了至关重要的作用。",
         "ja": "インタビューはパナマにおける半導体に関する公共の議論を活性化させることに成功し、数千人の視聴者にリーチし、マイクロエレクトロニクス政策に対する機関の関心を呼び起こしました。UTPとその研究者をハイテクエンジニアリングにおける権威ある声として位置づけ、アカデミアとメディアの間の新しい対話を促進しました。この露出は、地元の半導体インフラと労働力トレーニングへの投資拡大を提唱する上で不可欠なものでした。"
+      },
+      "quote": {
+        "en": "This patent proves that Panama can innovate in semiconductor design, contributing to global technology without needing a local manufacturing industry.",
+        "es": "Esta patente demuestra que Panamá puede innovar en el diseño de semiconductores, contribuyendo a la tecnología global sin necesitar una industria manufacturera local.",
+        "zh": "这项专利证明巴拿马可以在半导体设计中进行创新,即使没有本地制造产业,也能对全球科技作出贡献。",
+        "ja": "この特許は、パナマが現地製造業を持たなくても半導体設計で革新し、世界の技術に貢献できることを証明しています。"
       }
-    },
-    "quote": {
-      "en": "This patent proves that Panama can innovate in semiconductor design, contributing to global technology without needing a local manufacturing industry.",
-      "es": "Esta patente demuestra que Panamá puede innovar en el diseño de semiconductores, contribuyendo a la tecnología global sin necesitar una industria manufacturera local.",
-      "zh": "这项专利证明巴拿马可以在半导体设计中进行创新,即使没有本地制造产业,也能对全球科技作出贡献。",
-      "ja": "この特許は、パナマが現地製造業を持たなくても半導体設計で革新し、世界の技術に貢献できることを証明しています。"
     },
     "links": {
       "YouTube": "https://www.youtube.com/watch?v=aen80gIWM2w"
@@ -4129,13 +4123,13 @@
         "es": "La iniciativa 'Semilleros de Investigación 2023' en la Universidad Tecnológica de Panamá representa un programa estratégico diseñado para fomentar la investigación de ingeniería en etapas tempranas. Mi participación en este proyecto se definió por la exploración de metodologías emergentes en microelectrónica y diseño digital. Esta iniciativa proporcionó una plataforma de alto estándar para la experimentación técnica.\n\nUn componente técnico principal de mi investigación involucró el estudio de compuertas lógicas de alta eficiencia y la optimización de los flujos de diseño conscientes de la potencia. Al utilizar herramientas de simulación avanzadas, realicé una serie de análisis paramétricos. Este enfoque basado en datos permitió la extracción de métricas de diseño críticas esenciales para la viabilidad de futuros proyectos de chips nacionales.\n\nLa mentoría institucional fue una piedra angular de la experiencia de 'Semilleros'. Trabajé en estrecha colaboración con profesores investigadores experimentados para refinar mi metodología y asegurar que el proyecto se adhiriera a los estándares internacionales de integridad técnica. Este entorno colaborativo facilitó el intercambio de conocimientos técnicos entre diferentes disciplinas de ingeniería.\n\nAdemás de los resultados técnicos inmediatos, el proyecto sirvió como catalizador para el desarrollo profesional. Proporcionó el marco necesario para traducir las curiosidades iniciales de investigación en proyectos de ingeniería estructurados. Al participar en seminarios de investigación y presentar informes de progreso, obtuve una experiencia invaluable en comunicación técnica y rigor académico.\n\nEn reflexión, 'Semilleros de Investigación 2023' fue un hito vital en mi viaje profesional. Proporcionó los recursos fundamentales y el apoyo institucional necesarios para iniciar una investigación de alto impacto en un campo especializado. Los conocimientos adquiridos durante este período continúan informando mi trabajo actual en diseño de semiconductores.",
         "zh": "巴拿马科技大学的“2023 研究种子” (Semilleros de Investigación) 计划是一项旨在促进早期工程研究并培养下一代技术创新者的战略项目。我在该项目中的参与重点是探索微电子和数字设计领域的新兴方法论,特别关注为国内半导体开发确定可行的研究路径。该倡议提供了一个高标准的技术实验平台,允许对构成更复杂 VLSI 架构基础的概念进行初步验证。\n\n我研究的一个主要技术部分涉及高效逻辑门的研究和功耗感知设计流程的优化。通过利用先进的仿真工具,我进行了一系列参数分析,以确定纳米级晶体管计算性能与能量耗散之间的最佳平衡。这种数据驱动的方法能够提取对未来国内芯片项目可行性至关重要的关键设计指标。研究优先采用行业标准设计规则,确保所建立的理论基础与实际制造约束相兼容。\n\n机构导师制度是“研究种子”体验的基石。我与资深研究教员紧密合作,完善我的方法论,并确保项目符合国际技术诚信标准。这种协作环境促进了不同工程学科之间的技术知识交流,培养了对微电子如何整合到更广泛的工业自动化系统中的整体理解。项目中严谨的同行评审过程对于培养更具批判性和精准性的分析思维起到了至关重要的作用。\n\n除了直接的技术成果外,该项目还担任了职业发展的催化剂。它提供了一个必要的框架,将最初的研究好奇心转化为具有明确里程碑和交付成果的结构化工程项目。通过参与研究研讨会并向技术受众提交进度报告,我在技术交流和学术严谨性方面获得了宝贵的经验。这些技能对于任何希望为全球研究网络和国际技术会议做出贡献的工程师来说都是必不可少的。\n\n回顾过去，“2023 研究种子”是我职业生涯中的一个重要里程碑。它提供了在专门且技术要求高的领域启动高影响研究所需的基础资源和机构支持。在此期间获得的见解继续为我目前在半导体设计方面的工作提供参考,并为更先进的研究合作铺平了道路。该项目证明了大学致力于建设国家技术能力并在高科技领域培养持续创新文化的承诺。",
         "ja": "パナマ工科大学における「2023 研究の種（Semilleros de Investigación）」イニシアチブは、初期段階のエンジニアリング研究を促進し、次世代の技術革新者を育成するために設計された戦略的プログラムです。このプロジェクトにおける私の参加は、マイクロエレクトロニクスとデジタル設計における新しい手法の探索、特に国内の半導体開発のための実現可能な研究経路の特定によって定義されました。この取り組みは、技術的な実験のための高水準なプラットフォームを提供し、より複雑なVLSIアーキテクチャの基礎となる概念の初期検証を可能にしました。\n\n私の研究の主な技術的要素は、高効率ロジックゲートの研究と電力考慮型設計フローの最適化でした。高度なシミュレーションツールを活用し、ナノスケールのトランジスタにおける計算性能とエネルギー散逸の間の最適なバランスを特定するための一連のパラメトリック分析を行いました。このデータ駆動型のアプローチにより、将来の国内チッププロジェクトの実現可能性に不可欠な重要な設計指標の抽出が可能になりました。研究では業界標準のデザインルールを使用することを優先し、確立された理論的基礎が実際の製造上の制約と互換性があることを保証しました。\n\n機関のメンターシップは「研究の種」体験の礎石でした。シニアの研究教員と緊密に連携して手法を洗練させ、プロジェクトが技術的な誠実さの国際基準に準拠するように努めました。このコラボレーション環境は、異なるエンジニアリング分野間での技術知識の交換を促進し、マイクロエレクトロニクスがいかに広範な産業オートメーションシステムに統合できるかについてのより包括的な理解を育みました。プログラム内の厳格なピアレビュープロセスは、より批判的で正確な分析的マインドセットを養う上で不可欠なものでした。\n\n直接的な技術的成果を超えて、プロジェクトは専門的な成長の触媒として機能しました。初期の研究の好奇心を、定義されたマイルストーンと成果物を伴う体系的なエンジニアリングプロジェクトへと変換するために必要な枠組みを提供しました。研究セミナーに参加し、技術的な聴衆に向けて進捗レポートを発表することで、技術的なコミュニケーションと学術的な厳格さにおいて貴重な経験を得ました。これらのスキルは、世界の研究ネットワークや国際的な技術会議に貢献しようとするあらゆるエンジニアにとって不可欠なものです。\n\n振り返ってみれば、「2023 研究の種」は私の専門的なジャーニーにおける重要なマイルストーンでした。専門的で技術的要求の高い分野でインパクトのある研究を開始するために必要な基礎的なリソースと機関のサポートを提供してくれました。この時期に得られた洞察は、現在の半導体設計の仕事にも引き続き反映されており、より高度な研究協力への道を開いています。このプロジェクトは、国家の技術能力を構築し、ハイテク分野での継続的なイノベーションの文化を育むという大学のコミットメントの証です。"
+      },
+      "quote": {
+        "en": "Our seedbed equips students with interdisciplinary skills to innovate in assistive technology and sustainable community projects, bridging research and practical impact.",
+        "es": "Nuestro semillero equipa a los estudiantes con habilidades interdisciplinarias para innovar en tecnología de asistencia y proyectos de comunidades sostenibles, conectando la investigación con el impacto práctico.",
+        "zh": "我们的研究种子团队为学生提供跨学科技能,使其在辅助技术和可持续社区项目中进行创新,连接研究与实际影响。",
+        "ja": "私たちのシードベッドは、学生に学際的スキルを提供し、支援技術や持続可能なコミュニティプロジェクトでのイノベーションを促進し、研究と実践的影響を橋渡しします。"
       }
-    },
-    "quote": {
-      "en": "Our seedbed equips students with interdisciplinary skills to innovate in assistive technology and sustainable community projects, bridging research and practical impact.",
-      "es": "Nuestro semillero equipa a los estudiantes con habilidades interdisciplinarias para innovar en tecnología de asistencia y proyectos de comunidades sostenibles, conectando la investigación con el impacto práctico.",
-      "zh": "我们的研究种子团队为学生提供跨学科技能,使其在辅助技术和可持续社区项目中进行创新,连接研究与实际影响。",
-      "ja": "私たちのシードベッドは、学生に学際的スキルを提供し、支援技術や持続可能なコミュニティプロジェクトでのイノベーションを促進し、研究と実践的影響を橋渡しします。"
     },
     "links": {
       "UTP": "https://utp.ac.pa/semillero-de-investigacion-2023"
@@ -4205,13 +4199,13 @@
         "es": "El simposio fomentó la cultura de investigación, fortaleció las competencias de los estudiantes y brindó oportunidades para integrarse a grupos de investigación, mejorando la colaboración e intercambio de conocimientos en sistemas de control inteligente y robótica aplicada en América Latina.",
         "zh": "研讨会促进了研究文化,加强了学生能力,并提供了加入研究小组的机会,增强了拉美地区智能控制系统和应用机器人领域的合作与知识交流。",
         "ja": "シンポジウムは研究文化を育み、学生の能力を強化し、研究グループに参加する機会を提供し、ラテンアメリカにおけるインテリジェント制御システムと応用ロボティクスの協力と知識交換を促進しました。"
+      },
+      "quote": {
+        "en": "Events like SSCI 2022 inspire students to explore research, collaborate internationally, and innovate in assistive technologies and robotics.",
+        "es": "Eventos como SSCI 2022 inspiran a los estudiantes a explorar la investigación, colaborar internacionalmente e innovar en tecnologías de asistencia y robótica.",
+        "zh": "像SSCI 2022这样的活动激励学生探索研究、开展国际合作,并在辅助技术和机器人领域进行创新。",
+        "ja": "SSCI 2022のようなイベントは、学生に研究を探求し、国際的に協力し、支援技術やロボティクスで革新することを促します。"
       }
-    },
-    "quote": {
-      "en": "Events like SSCI 2022 inspire students to explore research, collaborate internationally, and innovate in assistive technologies and robotics.",
-      "es": "Eventos como SSCI 2022 inspiran a los estudiantes a explorar la investigación, colaborar internacionalmente e innovar en tecnologías de asistencia y robótica.",
-      "zh": "像SSCI 2022这样的活动激励学生探索研究、开展国际合作,并在辅助技术和机器人领域进行创新。",
-      "ja": "SSCI 2022のようなイベントは、学生に研究を探求し、国際的に協力し、支援技術やロボティクスで革新することを促します。"
     },
     "links": {
       "UTP": "https://utp.ac.pa/simposio-de-sistemas-de-control-inteligente-ssci-2022"
@@ -4384,13 +4378,13 @@
         "es": "El programa desmitificó con éxito las complejidades de nivel de entrada del diseño de IC, brindando a más de 25 ingenieros una base técnica verificada.",
         "zh": "该项目成功地揭开了 IC 设计入门级复杂性的神秘面纱,为 25 名以上的工程师提供了经过验证的技术基础,以便进行更高级的 VLSI 专业化学习。它促成了专注于国内半导体创新的新研究小组的成立,并建立了一个可重复的技术大纲,继续用于该地区的微电子培训。该倡议展示了结构化基础教育在建立国家技术主权方面的至关重要性。",
         "ja": "プログラムはIC設計の初歩的な複雑さを解き明かすことに成功し、25名以上のエンジニアに対して、より高度なVLSI専門分野への進展に向けた検証済みの技術的基礎を提供しました。国内の半導体イノベーションに焦点を当てた新しい研究グループの発足を促し、地域内でのマイクロエレクトロニクストレーニングに引き続き使用される再現可能な技術シラバスを確立しました。この取り組みは、国家の技術主権を構築する上での体系的な基礎教育の極めて重要な重要性を実証しました。"
+      },
+      "quote": {
+        "en": "Hands-on workshops like this empower the next generation of engineers to design, simulate, and fabricate integrated circuits with confidence.",
+        "es": "Talleres prácticos como este empoderan a la próxima generación de ingenieros para diseñar, simular y fabricar circuitos integrados con confianza.",
+        "zh": "像这样的动手工作坊使新一代工程师能够自信地设计、模拟和制造集成电路。",
+        "ja": "このようなハンズオンワークショップは、次世代のエンジニアが自信を持って集積回路を設計、シミュレーション、製造する力を与えます。"
       }
-    },
-    "quote": {
-      "en": "Hands-on workshops like this empower the next generation of engineers to design, simulate, and fabricate integrated circuits with confidence.",
-      "es": "Talleres prácticos como este empoderan a la próxima generación de ingenieros para diseñar, simular y fabricar circuitos integrados con confianza.",
-      "zh": "像这样的动手工作坊使新一代工程师能够自信地设计、模拟和制造集成电路。",
-      "ja": "このようなハンズオンワークショップは、次世代のエンジニアが自信を持って集積回路を設計、シミュレーション、製造する力を与えます。"
     },
     "links": {
       "IEEE": "https://r9.ieee.org/panama/event/workshop-fundamentos-tecnicos-del-diseno-de-circuitos-integrados/"
@@ -4554,13 +4548,13 @@
         "es": "Un sistema de electrónica de potencia a medida, diseñado para controlar un brazo robótico a través de internet. Utilizando hardware de bajo coste como la Raspberry Pi 4 y software de código abierto, se creó un sistema que interactúa con el brazo robótico mediante una placa de circuito impreso (PCB) personalizada. Este 'puente' no solo permitió el control remoto, sino que también resultó rentable, con materiales que costaron alrededor de 200 USD. El sistema utiliza un servidor VNC en la Raspberry Pi para establecer una conexión virtual, con la ventaja adicional de los controles inalámbricos, lo que lo hace ideal tanto para aplicaciones académicas como industriales. Las pruebas arrojaron resultados impresionantes, con una latencia de tan solo 19 ms, lo que demuestra su eficacia para la operación remota. El prototipo demuestra que una tecnología asequible y accesible puede permitir sistemas de control teleoperados que superan las barreras de la distancia, ya sea en el ámbito académico durante una pandemia o en entornos industriales donde la presencia física no siempre es posible.<br>En resumen, este proyecto destaca cómo se pueden aprovechar herramientas de bajo coste y fácil acceso para proporcionar una interfaz fluida para el control de equipos electromecánicos, lo que lo convierte en una solución valiosa tanto para entornos educativos como industriales, sin importar la distancia.",
         "zh": "这是一个定制的电力电子系统,旨在通过互联网控制机械臂。该系统利用树莓派 4 等低成本硬件和开源软件,通过定制的印刷电路板 (PCB) 与机械臂进行交互。这个桥梁不仅实现了远程控制,而且成本低廉,材料总成本仅约 200 美元。<br>该系统使用树莓派上的 VNC 服务器建立虚拟连接,并具备无线控制的优势,使其成为学术和工业应用的理想选择。测试结果令人印象深刻,延迟仅为 19 毫秒,证明了其远程操作的有效性。该原型表明,经济实惠且易于使用的技术可以实现远程控制系统,克服距离障碍,无论是在疫情期间的学术界,还是在无法始终保持现场协作的工业环境中。<br>总之,该项目突出展示了如何利用低成本、易于获取的工具为机电设备控制提供无缝接口,使其成为教育和工业环境的宝贵解决方案——无论距离远近。",
         "ja": "インターネット経由でロボットアームを制御するために設計された、カスタムメイドのパワーエレクトロニクスシステム。Raspberry Pi 4などの低価格ハードウェアとオープンソースソフトウェアを使用し、カスタムプリント基板(PCB)を介してロボットアームとインターフェースするシステムを構築しました。このブリッジは、遠隔操作を可能にするだけでなく、材料費も約200米ドルと非常にコスト効率に優れています。<br>このシステムは、Raspberry Pi上のVNCサーバーを使用して仮想接続を確立し、ワイヤレス制御という利点も備えているため、学術用途と産業用途の両方に最適です。テストでは、わずか19ミリ秒の遅延という優れた結果が得られ、遠隔操作における有効性が実証されました。このプロトタイプは、手頃な価格で入手可能なテクノロジーによって、パンデミック中の学術現場でも、物理的な立ち会いが必ずしも可能ではない産業現場でも、距離の障壁を克服する遠隔操作制御システムを実現できることを実証しています。要約すると、このプロジェクトは、低コストですぐに利用できるツールを活用して、電気機械装置を制御するためのシームレスなインターフェースを提供する方法を強調し、距離に関係なく、教育環境と産業環境の両方にとって価値のあるソリューションにします。"
+      },
+      "quote": {
+        "en": "In a Panama adapting to the new reality, technology becomes an ally in overcoming challenges. With a low-cost and easily replicable system, we seek to democratize the remote control of robotic equipment, opening a future where distance is not an obstacle to productivity, even in times of crisis",
+        "es": "En un Panamá que se adapta a la nueva realidad, la tecnología se convierte en aliada para superar desafíos. Con un sistema de bajo costo y fácil replicabilidad, buscamos democratizar el control remoto de equipos robóticos, abriendo un futuro donde la distancia no sea un obstáculo para la productividad, incluso en tiempos de crisis",
+        "zh": "在巴拿马适应新现实的过程中,科技成为克服挑战的盟友。我们希望通过低成本且易于复制的系统,普及机器人设备的远程控制,从而开创一个即使在危机时期,距离也不会成为生产力障碍的未来。",
+        "ja": "新たな現実に適応するパナマにおいて、テクノロジーは課題克服の強力な味方となります。低コストで容易に複製可能なシステムにより、ロボット機器の遠隔操作を民主化し、危機的状況下でも距離が生産性の妨げにならない未来を切り開きます。"
       }
-    },
-    "quote": {
-      "en": "In a Panama adapting to the new reality, technology becomes an ally in overcoming challenges. With a low-cost and easily replicable system, we seek to democratize the remote control of robotic equipment, opening a future where distance is not an obstacle to productivity, even in times of crisis",
-      "es": "En un Panamá que se adapta a la nueva realidad, la tecnología se convierte en aliada para superar desafíos. Con un sistema de bajo costo y fácil replicabilidad, buscamos democratizar el control remoto de equipos robóticos, abriendo un futuro donde la distancia no sea un obstáculo para la productividad, incluso en tiempos de crisis",
-      "zh": "在巴拿马适应新现实的过程中,科技成为克服挑战的盟友。我们希望通过低成本且易于复制的系统,普及机器人设备的远程控制,从而开创一个即使在危机时期,距离也不会成为生产力障碍的未来。",
-      "ja": "新たな現実に適応するパナマにおいて、テクノロジーは課題克服の強力な味方となります。低コストで容易に複製可能なシステムにより、ロボット機器の遠隔操作を民主化し、危機的状況下でも距離が生産性の妨げにならない未来を切り開きます。"
     },
     "links": "",
     "collaborators": [],
@@ -4636,18 +4630,18 @@
         "es": "El resultado es el primer semiconductor desarrollado por una universidad panameña, que permite la conversión puramente electrónica de señales binarias sin necesidad de programación. Tiene aplicaciones prácticas, como el control de tableros en complejos deportivos, y establece una base para futuras innovaciones en nanoelectrónica en Panamá.",
         "zh": "成果是巴拿马大学开发的首个半导体,能够纯电子地转换二进制信号,无需编程。它具有实际应用,例如控制体育综合设施的记分板,并为巴拿马纳米电子领域的进一步创新奠定基础。",
         "ja": "成果は、パナマの大学による初の半導体であり、プログラミング不要でバイナリ信号を純粋に電子的に変換できます。スポーツコンプレックスのスコアボード制御などの実用的用途があり、パナマにおけるナノエレクトロニクスのさらなる革新の基盤を築きます。"
+      },
+      "quote": {
+        "en": "This invention shows that Panama can contribute to nanoelectronic innovation and compete in the global semiconductor field.",
+        "es": "Este invento demuestra que Panamá puede contribuir a la innovación en nanoelectrónica y competir en el campo global de los semiconductores.",
+        "zh": "这项发明表明,巴拿马能够在纳米电子创新领域作出贡献,并在全球半导体领域竞争。",
+        "ja": "この発明は、パナマがナノエレクトロニクスの革新に貢献し、世界の半導体分野で競争できることを示しています。"
       }
-    },
-    "quote": {
-      "en": "This invention shows that Panama can contribute to nanoelectronic innovation and compete in the global semiconductor field.",
-      "es": "Este invento demuestra que Panamá puede contribuir a la innovación en nanoelectrónica y competir en el campo global de los semiconductores.",
-      "zh": "这项发明表明,巴拿马能够在纳米电子创新领域作出贡献,并在全球半导体领域竞争。",
-      "ja": "この発明は、パナマがナノエレクトロニクスの革新に貢献し、世界の半導体分野で競争できることを示しています。"
     },
     "links": {
       "UTP": "https://utp.ac.pa/utp-primera-universidad-panamena-en-solicitar-el-registro-de-una-patente-de-invencion-de-un",
-      "Instagram_UTPpanama": "https://www.instagram.com/p/DIMhy2xxoUG/",
-      "Instagram_UTPdgtc": "https://www.instagram.com/p/DITy342x4LR/",
+      "Instagram_UTP panama": "https://www.instagram.com/p/DIMhy2xxoUG/",
+      "Instagram_UTP DGTC": "https://www.instagram.com/p/DITy342x4LR/",
       "La Prensa": "https://www.prensa.com/sociedad/primer-semiconductor-panameno-con-patente-solicitada-chip-nanometrico-de-la-utp/",
       "YouTube": "https://www.youtube.com/watch?v=wvqAMy_IW1I",
       "TVN": "https://www.tvn-2.com/nacionales/ingeniero-revoluciona-tecnologia-kelvin-kung-chip-semiconductores-ciencia-universidad-tecnologica-de-panama_1_2184599.html"
@@ -4835,13 +4829,13 @@
         "es": "La conferencia proporciona un espacio dedicado para que los especialistas latinoamericanos en dispositivos electrónicos compartan investigaciones, colaboren en proyectos STEM y humanitarios y difundan su trabajo a través de IEEE Xplore. Fortalece las redes regionales, la participación estudiantil y el desarrollo profesional en el campo de los dispositivos electrónicos.",
         "zh": "该会议为拉丁美洲电子器件专家提供了一个专门的平台,用于分享研究、合作开展STEM和人道主义项目,并通过IEEE Xplore传播成果。它增强了区域网络、学生参与度以及电子器件领域的职业发展。",
         "ja": "この会議は、ラテンアメリカの電子デバイス専門家に研究を共有し、STEMおよび人道プロジェクトで協力し、IEEE Xploreを通じて成果を発信する専用の場を提供します。地域ネットワーク、学生参加、電子デバイス分野の専門能力開発を強化します。"
+      },
+      "quote": {
+        "en": "LAEDC unites Latin American innovators in electron devices, promoting STEM and humanitarian impact while sharing research across borders.",
+        "es": "LAEDC une a innovadores latinoamericanos en dispositivos electrónicos, promoviendo STEM y proyectos humanitarios mientras se comparte investigación más allá de fronteras.",
+        "zh": "LAEDC团结拉丁美洲电子器件创新者,推动STEM和人道主义影响,同时跨境分享研究成果。",
+        "ja": "LAEDCはラテンアメリカの電子デバイス革新者を結集し、STEMと人道的影響を促進しつつ、国境を越えて研究を共有します。"
       }
-    },
-    "quote": {
-      "en": "LAEDC unites Latin American innovators in electron devices, promoting STEM and humanitarian impact while sharing research across borders.",
-      "es": "LAEDC une a innovadores latinoamericanos en dispositivos electrónicos, promoviendo STEM y proyectos humanitarios mientras se comparte investigación más allá de fronteras.",
-      "zh": "LAEDC团结拉丁美洲电子器件创新者,推动STEM和人道主义影响,同时跨境分享研究成果。",
-      "ja": "LAEDCはラテンアメリカの電子デバイス革新者を結集し、STEMと人道的影響を促進しつつ、国境を越えて研究を共有します。"
     },
     "links": "",
     "collaborators": [],
@@ -4928,13 +4922,13 @@
         "es": "Los participantes adquieren conocimientos sobre riesgos de Arco Eléctrico, estrategias de protección y primeros auxilios, lo que permite prácticas más seguras en entornos eléctricos y reduce posibles accidentes.",
         "zh": "参与者将掌握电弧闪络的风险、防护策略和急救知识,从而在电气工作环境中采取更安全的操作,减少潜在事故。",
         "ja": "参加者はアークフラッシュのリスク、保護戦略、応急処置に関する知識を習得し、電気作業環境での安全な実践を可能にし、事故の可能性を低減します。"
+      },
+      "quote": {
+        "en": "Stay safe, stay informed: understand Arc Flash risks and protection with expert guidance from IEEE Panama.",
+        "es": "Mantente seguro, mantente informado: comprende los riesgos y la protección del Arco Eléctrico con la guía experta del IEEE Panamá.",
+        "zh": "保持安全,保持知情:通过IEEE巴拿马的专家指导了解电弧闪络的风险与防护。",
+        "ja": "安全を守り、情報を得る:IEEEパナマの専門家の指導でアークフラッシュのリスクと防護を理解しよう。"
       }
-    },
-    "quote": {
-      "en": "Stay safe, stay informed: understand Arc Flash risks and protection with expert guidance from IEEE Panama.",
-      "es": "Mantente seguro, mantente informado: comprende los riesgos y la protección del Arco Eléctrico con la guía experta del IEEE Panamá.",
-      "zh": "保持安全,保持知情:通过IEEE巴拿马的专家指导了解电弧闪络的风险与防护。",
-      "ja": "安全を守り、情報を得る:IEEEパナマの専門家の指導でアークフラッシュのリスクと防護を理解しよう。"
     },
     "links": {
       "IEEE": "https://r9.ieee.org/event/webinar-seguridad-y-proteccion-contra-el-arco-electrico/"
@@ -5127,13 +5121,13 @@
         "zh": "结果令人瞩目。最初的15名参与者中,有12人被电气工程学院录取,并选择工程学作为他们的专业方向。夏令营的成功吸引了私募股权集团的关注,他们在2023年和2024年将该项目推广到全国各地,覆盖了更广泛的受众,并持续鼓励年轻女性投身STEM(科学、技术、工程和数学)领域。",
         "ja": "結果は目覚ましいものでした。当初の参加者15名のうち、12名が電気工学部に入学し、工学を専攻分野として選択しました。 このキャンプの成功はプライベートエクイティグループの関心を集め、その後2023年と2024年にはプログラムを全国に拡大・再現しました。これにより、より幅広い対象者にリーチし、若い女性のSTEMキャリアの促進を継続しています。",
         "es": "Los resultados fueron extraordinarios. De las 15 Participantes originales, 12 se matricularon en carreras de la facultad de ingeniería eléctrica y eligieron la ingeniería como su campo de estudio.  El éxito del campamento atrajo el interés de grupos de capital privado, quienes en 2023 y 2024 posteriormente expandieron y replicaron el programa en todo el país, llegando a un público mucho más amplio y promoviendo las carreras STEM entre las jóvenes."
+      },
+      "quote": {
+        "en": "Empowering young ladies with the skills and confidence to pursue electrical Engineering",
+        "zh": "赋予年轻女性从事电气工程所需的技能和信心",
+        "ja": "少女性に電気工学を追求するためのスキルと自信を与える",
+        "es": "Empoderando a las jóvenes con las habilidades y la confianza para dedicarse a las carreras de ingeniería eléctrica."
       }
-    },
-    "quote": {
-      "en": "Empowering young ladies with the skills and confidence to pursue electrical Engineering",
-      "zh": "赋予年轻女性从事电气工程所需的技能和信心",
-      "ja": "少女性に電気工学を追求するためのスキルと自信を与える",
-      "es": "Empoderando a las jóvenes con las habilidades y la confianza para dedicarse a las carreras de ingeniería eléctrica."
     },
     "links": {
       "UTP": "https://utp.ac.pa/inicia-el-campamento-tecnologico-en-el-centro-regional-de-chiriqui"
@@ -5247,13 +5241,13 @@
         "zh": "结果令人瞩目。最初的15名参与者中,有12人被电气工程学院录取,并选择工程学作为他们的专业方向。夏令营的成功吸引了私募股权集团的关注,他们在2023年和2024年将该项目推广到全国各地,覆盖了更广泛的受众,并持续鼓励年轻女性投身STEM(科学、技术、工程和数学)领域。",
         "ja": "結果は目覚ましいものでした。当初の参加者15名のうち、12名が電気工学部に入学し、工学を専攻分野として選択しました。 このキャンプの成功はプライベートエクイティグループの関心を集め、その後2023年と2024年にはプログラムを全国に拡大・再現しました。これにより、より幅広い対象者にリーチし、若い女性のSTEMキャリアの促進を継続しています。",
         "es": "Los resultados fueron extraordinarios. De las 15 Participantes originales, 12 se matricularon en carreras de la facultad de ingeniería eléctrica y eligieron la ingeniería como su campo de estudio.  El éxito del campamento atrajo el interés de grupos de capital privado, quienes en 2023 y 2024 posteriormente expandieron y replicaron el programa en todo el país, llegando a un público mucho más amplio y promoviendo las carreras STEM entre las jóvenes."
+      },
+      "quote": {
+        "en": "Empowering young ladies with the skills and confidence to pursue electrical Engineering",
+        "zh": "赋予年轻女性从事电气工程所需的技能和信心",
+        "ja": "少女性に電気工学を追求するためのスキルと自信を与える",
+        "es": "Empoderando a las jóvenes con las habilidades y la confianza para dedicarse a las carreras de ingeniería eléctrica."
       }
-    },
-    "quote": {
-      "en": "Empowering young ladies with the skills and confidence to pursue electrical Engineering",
-      "zh": "赋予年轻女性从事电气工程所需的技能和信心",
-      "ja": "少女性に電気工学を追求するためのスキルと自信を与える",
-      "es": "Empoderando a las jóvenes con las habilidades y la confianza para dedicarse a las carreras de ingeniería eléctrica."
     },
     "links": {
       "UTP": "https://utp.ac.pa/campamento-tecnologico-para-jovenes-en-stem-2024-se-toma-las-provincias-de-herrera-los-santos-y"
@@ -5382,13 +5376,13 @@
         "es": "Los clientes logran un ahorro significativo de tiempo y costos, reducen los ciclos de verificación y obtienen ASICs de calidad industrial con soporte de desarrollo confiable y consistente. Los socios académicos se benefician mediante la capacitación y el desarrollo curricular, alcanzando a cientos de estudiantes y docentes.",
         "zh": "客户实现了显著的时间和成本节省,缩短验证周期,并通过可靠且一致的开发支持获得行业质量的ASIC。学术合作伙伴通过培训和课程开发获益,覆盖数百名学生和讲师。",
         "ja": "クライアントは、時間とコストの大幅な節約を達成し、検証サイクルを短縮し、信頼性の高い一貫した開発サポートにより業界品質のASICを獲得できます。学術パートナーは、トレーニングとカリキュラム開発を通じて、数百人の学生や講師に恩恵をもたらします。"
+      },
+      "quote": {
+        "en": "Accelerate your chip development with reliable ASIC expertise—save time, reduce costs, and achieve first-time-right results.",
+        "es": "Acelera el desarrollo de tus chips con experiencia confiable en ASIC: ahorra tiempo, reduce costos y logra resultados correctos a la primera.",
+        "zh": "利用可靠的ASIC专业知识加速芯片开发——节省时间,降低成本,实现一次成功。",
+        "ja": "信頼できるASICの専門知識でチップ開発を加速—時間を節約し、コストを削減し、初回成功を実現。"
       }
-    },
-    "quote": {
-      "en": "Accelerate your chip development with reliable ASIC expertise—save time, reduce costs, and achieve first-time-right results.",
-      "es": "Acelera el desarrollo de tus chips con experiencia confiable en ASIC: ahorra tiempo, reduce costos y logra resultados correctos a la primera.",
-      "zh": "利用可靠的ASIC专业知识加速芯片开发——节省时间,降低成本,实现一次成功。",
-      "ja": "信頼できるASICの専門知識でチップ開発を加速—時間を節約し、コストを削減し、初回成功を実現。"
     },
     "links": "",
     "collaborators": [],
@@ -5423,13 +5417,13 @@
         "es": "La frontera entre la Tierra y lo desconocido está a punto de volverse un poco más concurrida, y yo ya estoy en la lista. En una audaz fusión de ingeniería orbital y comunidad digital, el exingeniero de la NASA y polímata de YouTube, Mark Rober, ha lanzado un desafío que suena a ciencia ficción: el \"Space Selfie\" (Selfie Espacial). Me he unido oficialmente a esta misión, asegurando un lugar para mi foto en una carga útil diseñada a medida que orbitará nuestro planeta. Esto no es solo una carga digital; es un boleto al borde de nuestro mundo y un testimonio de lo accesible que se ha vuelto la \"última frontera\".<br><br>La ingeniería detrás de esta hazaña es una clase magistral de diseño aeroespacial. Para lograrlo, el equipo de CrunchLabs ha puesto en órbita el SAT GUS, un satélite CubeSat 12U lanzado a bordo de un cohete Falcon 9 de SpaceX. A una altitud de unos 500 kilómetros y viajando a 27,000 km/h, este satélite cuenta con una pantalla digital Google Pixel y un sistema de cámaras de alta resolución de Redwire, diseñado para capturar imágenes en las condiciones extremas del vacío espacial.<br><br>Participar en esta misión ofrece una visión poco común de los obstáculos logísticos de la exploración espacial moderna. A esa altitud, la electrónica enfrenta cambios extremos de temperatura y radiación que dañarían cualquier dispositivo convencional. El equipo tuvo que resolver la gestión térmica y la estabilidad de la señal para garantizar que, cuando mi foto aparezca en pantalla, la cámara esté sincronizada para capturar la curvatura terrestre de fondo. Es un ejemplo perfecto de \"ciencia ciudadana\" que convierte conceptos complejos de ingeniería en una experiencia humana compartida.<br><br>Hay algo profundamente conmovedor en ver una representación de uno mismo enmarcada por la oscuridad cósmica. Mientras la misión sirve como una celebración de la tecnología, también actúa como un recordatorio de nuestro lugar en el universo. Al participar, no solo me uno a una promoción divertida; apoyo un movimiento que fomenta la curiosidad y la filosofía de \"Pensar como un ingeniero\" que Rober defiende. Convierte el cielo, de ser un techo distante, en un laboratorio de innovación.<br><br>Cuando reciba mi \"Space Selfie\" capturado a cientos de kilómetros de altura, será más que una buena historia para mi web. Representa el espíritu de la ingeniería moderna: la idea de que con suficiente creatividad y rigor técnico, incluso las ideas más \"fuera de este mundo\" pueden hacerse realidad. La misión está en marcha y no puedo esperar a ver el mundo desde una perspectiva que pocos llegan a presenciar. Estén atentos a la foto final: será estelar.",
         "zh": "地球与未知深空的边界即将变得更加热闹——而我也正式位列其中。在前 NASA 工程师、YouTube 全才 Mark Rober 发起的这项名为“太空自拍”（Space Selfie）的挑战中,工程技术与数字社区完美融合。我已正式加入这项任务,在绕地运行的定制卫星上预留了一个展示我照片的位置。这不仅仅是一次数字上传,更是一张通往世界边缘的门票,见证了“最终疆域”对我们每个人而言变得多么触手可及。<br><br>这项壮举背后的工程学是航空航天设计的杰作。为了实现这一目标,CrunchLabs 团队通过 SpaceX 的猎鹰 9 号火箭发射了 SAT GUS 卫星。在约 500 公里的高度,这颗 12U 立方体卫星以每小时 2.7 万公里的速度飞驰。它配备了 Google Pixel 屏幕和来自 Redwire 的高分辨率相机系统,专门用于在太空真空的极端条件下捕捉影像。<br><br>参与这项任务让我们得以窥见现代空间探索面临的后勤挑战。在那个高度,电子设备面临着剧烈的温差和足以损毁常规设备的辐射。团队必须解决热管理和信号稳定问题,以确保当我的照片出现在屏幕上时,相机能精准同步地拍下背景中壮丽的地球曲线。这是“全民科学”的绝佳范例,将复杂的工程概念转化为了一种共享的人类体验。<br><br>看到自己的形象被宇宙的深邃黑暗所包围,这种感觉令人肃然起敬。这项任务不仅是技术的庆典,也提醒着我们在宇宙中的位置。通过参与,我不只是加入了一个有趣的活动,更是在支持一种鼓励好奇心和 Rober 所倡导的“像工程师一样思考”的理念。它将天空从遥不可及的苍穹变成了创新的乐园。<br><br>当我最终收到在数百公里高空拍摄的“太空自拍”时,这不仅是我网站上的一个好故事。它代表了现代工程的精神:只要有足够的创意和技术严谨性,即使是最“异想天开”的想法也能变为现实。任务正在进行中,我迫不及待地想从极少数人才能见证的角度去俯瞰世界。请关注最终的照片——那绝对是星际级的。",
         "ja": "地球と未知なる宇宙の境界線が、今まさに賑やかになろうとしています。そして、私もその一員として名を連ねることになりました。元NASAのエンジニアであり、絶大な人気を誇るYouTuber、マーク・ローバー（Mark Rober）氏が仕掛ける、エンジニアリングとデジタル・コミュニティの融合「スペース・セルフィー（Space Selfie）」プロジェクト。私はこのミッションへの参加を決め、地球を周回する特製衛星に自分の写真を載せる枠を確保しました。これは単なるデータのアップロードではありません。世界の果てへのチケットであり、「最後のフロンティア」がいかに私たちにとって身近なものになったかの証なのです。<br><br>この快挙を支えるエンジニアリングは、まさに航空宇宙デザインの傑作です。CrunchLabsのチームは、SpaceXのファルコン9ロケットで「SAT GUS」という12Uのキューブサット（超小型衛星）を打ち上げました。高度約500km、時速約27,000kmという猛烈なスピードで飛行するこの衛星には、Google PixelのディスプレイとRedwire社製の高解像度カメラが搭載されています。宇宙空間の過酷な環境下で、完璧な一枚を撮るために設計されたシステムです。<br><br>このミッションへの参加は、現代の宇宙探査におけるロジスティクスの難しさを垣間見る貴重な機会でもあります。その高度では、電子機器は激しい温度変化や、通常のデバイスを破壊しかねない放射線にさらされます。チームは熱管理や信号の安定性を解決し、私の写真が画面に映し出された瞬間に、背景の地球の曲線とともにカメラが同期して撮影できるよう設計しました。これは、複雑な工学概念を共有可能な人間体験へと変える「シチズン・サイエンス（市民科学）」の美しい形です。<br><br>宇宙の深い闇を背景に、自分自身の姿が映し出されるのを見るのは、言葉にできないほど謙虚な気持ちにさせられます。このミッションはテクノロジーの祭典であると同時に、宇宙における私たちの立ち位置を再認識させてくれるものでもあります。参加することで、私は単なるプロモーションに加わるだけでなく、マーク・ローバー氏が提唱する「エンジニアのように考える（Think Like an Engineer）」という哲学や、知的好奇心を刺激するムーブメントを支持しています。空を「遠い天井」から「イノベーションの遊び場」へと変える試みなのです。<br><br>高度数百キロで撮影された「スペース・セルフィー」が手元に届くとき、それは単にウェブサイトのネタ以上の価値を持つでしょう。それは現代のエンジニアリング精神、つまり「十分な創造性と技術的な厳密さがあれば、どんな突拍もないアイデアも形にできる」という信念の象徴です。ミッションは進行中。限られた人しか見ることのできない視点から世界を眺めるのが楽しみでなりません。最終的な写真にご期待ください。まさに「ステラ（星のように輝く）」な体験になるはずです。"
+      },
+      "quote": {
+        "en": "In a world of filters and frames, there’s nothing quite like using the curvature of the Earth as your backdrop.",
+        "es": "En un mundo de filtros y marcos, no hay nada como usar la curvatura de la Tierra como telón de fondo.",
+        "zh": "在这个充满滤镜和边框的世界里,没有什么能比用地球的弧线作为背景更令人震撼了。",
+        "ja": "加工やフレームが溢れる世界で、地球の曲線を背景にする以上の演出なんて他にないでしょう。"
       }
-    },
-    "quote": {
-      "en": "In a world of filters and frames, there’s nothing quite like using the curvature of the Earth as your backdrop.",
-      "es": "En un mundo de filtros y marcos, no hay nada como usar la curvatura de la Tierra como telón de fondo.",
-      "zh": "在这个充满滤镜和边框的世界里,没有什么能比用地球的弧线作为背景更令人震撼了。",
-      "ja": "加工やフレームが溢れる世界で、地球の曲線を背景にする以上の演出なんて他にないでしょう。"
     },
     "links": {
       "YouTube": "https://www.youtube.com/watch?v=qr1AvisQcV8",
@@ -5481,13 +5475,13 @@
         "es": "El Seminario de Pruebas LSI 2026 incluyó una serie de presentaciones técnicas centradas en el avance de las metodologías de pruebas de hardware y la seguridad arquitectónica. Las sesiones de la mañana abordaron las pruebas pseudoaleatorias del procesador RISC-V y la optimización de las secuencias de señales de control mediante modelos de expansión temporal de rutas de datos. Tras el descanso del mediodía, el enfoque se centró en las aplicaciones industriales, con una descripción detallada del sistema EVA100 y su documentación de inicio, proporcionada por Advantest Kyushu Systems, así como una perspectiva internacional sobre la seguridad de las redes de escaneo reconfigurables, presentada por Erik Larsson, de la Universidad de Lund. <br><br>Las sesiones de la tarde continuaron con análisis profundos de la eficiencia de la detección de fallos y las aplicaciones innovadoras del análisis de datos. Los investigadores debatieron métodos para acelerar la generación de pruebas de fallos multiobjetivo y técnicas para mejorar la estimación de pares de fallos distinguibles mediante entradas de multiplexor indiferentes. El seminario concluyó con un estudio multidisciplinario sobre la clasificación de movimiento, destacando cómo la aumentación de datos de audio puede mejorar los conjuntos de datos de aprendizaje para sensores de aceleración en el análisis deportivo. Estas presentaciones destacaron las diversas intersecciones entre la investigación académica, las herramientas de pruebas industriales y las aplicaciones de aprendizaje automático basadas en sensores.",
         "zh": "2026 年 LSI 测试研讨会举办了一系列技术报告,重点关注硬件测试方法和架构安全性的改进。上午的会议探讨了 RISC-V 处理器的伪随机测试以及如何通过数据通路时间扩展模型优化控制信号序列。午休后,会议重点转向工业应用,Advantest Kyushu Systems 公司详细介绍了 EVA100 系统及其启动文档,隆德大学的 Erik Larsson 则从国际视角介绍了可重构扫描网络的安全保障。<br><br>下午的会议继续深入探讨故障检测效率和创新数据分析应用。研究人员讨论了加速多目标故障测试生成的方法,以及利用多路复用器无关输入改进可区分故障对估计的技术。研讨会最后以一项关于运动分类的多学科研究作结,重点介绍了音频数据增强如何增强运动分析中加速度传感器的学习数据集。这些报告突显了学术研究、工业测试工具和基于传感器的机器学习应用之间的多元交叉领域。",
         "ja": "2026 LSIテストセミナーでは、ハードウェアテスト手法の進化とアーキテクチャセキュリティに焦点を当てた一連の技術プレゼンテーションが行われました。午前中のセッションでは、RISC-Vプロセッサの擬似ランダムテストと、データパス時間展開モデルによる制御信号シーケンスの最適化について説明されました。正午の休憩後、焦点は産業用アプリケーションに移り、アドバンテスト九州システムズによるEVA100システムとそのスタートアップドキュメントの詳細な概要、そしてルンド大学のErik Larsson氏による再構成可能なスキャンネットワークのセキュリティに関する国際的な視点が紹介されました。<br><br>午後のセッションでは、障害検出の効率化と革新的なデータ分析アプリケーションについて深く掘り下げました。研究者たちは、マルチターゲット障害テストの生成を加速する方法や、マルチプレクサのドントケア入力を用いて識別可能な障害ペアの推定を改善する手法について議論しました。セミナーは、モーション分類に関する学際的な研究で締めくくられ、スポーツ分析における加速度センサーの学習データセットを音声データ拡張がどのように強化できるかが強調されました。これらのプレゼンテーションでは、学術研究、産業用テストツール、センサーベースの機械学習アプリケーション間の多様な交差点が強調されました。"
+      },
+      "quote": {
+        "en": "Gaining valuable insights into both the optimization of hardware verification and the innovative use of data augmentation in sensor-based studies with research and real industry products.",
+        "es": "Obtener información valiosa tanto sobre la optimización de la verificación de hardware como sobre el uso innovador del aumento de datos en estudios basados ​​en sensores con investigaciones y productos industriales reales.",
+        "zh": "通过研究和实际工业产品,深入了解硬件验证的优化以及基于传感器的研究中数据增强的创新应用。",
+        "ja": "研究と実際の業界製品を使用したセンサーベースの研究におけるハードウェア検証の最適化とデータ拡張の革新的な使用の両方について貴重な洞察を得ます。"
       }
-    },
-    "quote": {
-      "en": "Gaining valuable insights into both the optimization of hardware verification and the innovative use of data augmentation in sensor-based studies with research and real industry products.",
-      "es": "Obtener información valiosa tanto sobre la optimización de la verificación de hardware como sobre el uso innovador del aumento de datos en estudios basados ​​en sensores con investigaciones y productos industriales reales.",
-      "zh": "通过研究和实际工业产品,深入了解硬件验证的优化以及基于传感器的研究中数据增强的创新应用。",
-      "ja": "研究と実際の業界製品を使用したセンサーベースの研究におけるハードウェア検証の最適化とデータ拡張の革新的な使用の両方について貴重な洞察を得ます。"
     },
     "links": null,
     "collaborators": [],
@@ -5584,13 +5578,13 @@
         "es": "La plataforma eliminó por completo el punto único de falla representado por el servidor local, logrando el objetivo del propietario de total independencia operativa respecto a un desarrollador. Los resultados clave incluyen: costo de infraestructura de servidor reducido a casi cero (Firebase de pago por uso); actualizaciones de precios y servicios en <strong>menos de 1 segundo</strong> (antes requerían intervención del desarrollador y redespliegue); la app de administración corre nativamente en <strong>iOS, Android, Web y macOS</strong> desde un solo codebase; la confirmación de reservas es instantánea y en la app; los datos históricos son exportables como CSV en un toque; y el sistema mantiene plena funcionalidad incluso sin conexión a internet.",
         "zh": "该平台彻底消除了本地服务器所代表的单点故障,实现了业主无需依赖开发人员即可完全自主运营的目标。主要成果包括:服务器基础设施成本降至接近零（Firebase 按需付费）；价格和服务更新现在只需<strong>不到 1 秒</strong>（此前需要开发人员介入并重新部署）；管理应用可从单一代码库原生运行于 <strong>iOS、Android、Web 和 macOS</strong> 四个平台；预约确认即时在应用内完成；历史数据一键自助导出为 CSV；得益于离线优先的 Firestore 缓存,系统在无网络连接时仍可完整运行。",
         "ja": "このプラットフォームはローカルサーバーが抱えていた単一障害点を完全に排除し、オーナーが開発者から完全に独立して運営できるという目標を達成しました。主な成果:サーバーインフラコストをほぼゼロに削減（Firebase従量課金）；価格・サービス更新が<strong>1秒未満</strong>で反映（以前は開発者の関与と再デプロイが必要）；管理アプリが単一コードベースから<strong>iOS・Android・Web・macOS</strong>でネイティブ動作；予約確認がアプリ内で即時完了；履歴データがワンタップでCSV自己サービスエクスポート可能；オフラインファーストのFirestoreキャッシュにより、インターネット接続なしでもシステムが完全機能する。"
+      },
+      "quote": {
+        "en": "Zero servers, four platforms, one codebase — a business owner now runs their entire operation from their phone, and every update they make appears on the live customer site in under one second.",
+        "es": "Cero servidores, cuatro plataformas, un solo codebase — un propietario ahora gestiona toda su operación desde su teléfono, y cada actualización que realiza aparece en el sitio del cliente en menos de un segundo.",
+        "zh": "零服务器、四个平台、一套代码库——业主现在用手机管理整个运营,每一次更新都在不到一秒内出现在客户端网站上。",
+        "ja": "サーバーゼロ、4プラットフォーム、単一コードベース——オーナーはスマートフォン一台で全業務を管理し、あらゆる更新が1秒未満でライブ顧客サイトに反映されます。"
       }
-    },
-    "quote": {
-      "en": "Zero servers, four platforms, one codebase — a business owner now runs their entire operation from their phone, and every update they make appears on the live customer site in under one second.",
-      "es": "Cero servidores, cuatro plataformas, un solo codebase — un propietario ahora gestiona toda su operación desde su teléfono, y cada actualización que realiza aparece en el sitio del cliente en menos de un segundo.",
-      "zh": "零服务器、四个平台、一套代码库——业主现在用手机管理整个运营,每一次更新都在不到一秒内出现在客户端网站上。",
-      "ja": "サーバーゼロ、4プラットフォーム、単一コードベース——オーナーはスマートフォン一台で全業務を管理し、あらゆる更新が1秒未満でライブ顧客サイトに反映されます。"
     },
     "links": {
       "Customers website": "https://booking-c0.web.app"
@@ -5694,13 +5688,13 @@
         "es": "Reducción significativa de los costos de prueba (tiempo, volumen de datos, uso de ATE) manteniendo una alta calidad del producto. Validó las estrategias en entornos de IC multi- núcleo y 3D.",
         "zh": "在保持高产品质量的同时,显著降低了测试成本(时间、数据量、ATE使用)。在多核和3D IC环境中验证了策略,确保了设计后的鲁棒功能。",
         "ja": "製品品質を維持しつつ、テストコスト(時間、データ量、ATE使用量)を大幅に削減。マルチコアおよび3D IC環境で戦略を検証し、設計後の堅牢な機能を保証しました。"
+      },
+      "quote": {
+        "en": "Developing ATPG systems revealed both the power and the limits of academic VLSI testing tools.<br>The performance gap with industry solutions now drives the next phase of optimization and research.",
+        "zh": "ATPG系统的开发既展现了学术界VLSI测试工具的强大功能,也揭示了其局限性。与行业解决方案的性能差距,推动了下一阶段的优化和研究。",
+        "es": "El desarrollo de sistemas ATPG reveló tanto el potencial como los límites de las herramientas académicas de pruebas VLSI. La brecha de rendimiento con las soluciones de la industria impulsa ahora la siguiente fase de optimización e investigación.",
+        "ja": "ATPGシステムの開発により、学術的VLSIテストツールの威力と限界が明らかになりました。業界標準のソリューションとのパフォーマンスギャップが、最適化と研究の次の段階へと繋がっています。"
       }
-    },
-    "quote": {
-      "en": "Developing ATPG systems revealed both the power and the limits of academic VLSI testing tools.<br>The performance gap with industry solutions now drives the next phase of optimization and research.",
-      "zh": "ATPG系统的开发既展现了学术界VLSI测试工具的强大功能,也揭示了其局限性。与行业解决方案的性能差距,推动了下一阶段的优化和研究。",
-      "es": "El desarrollo de sistemas ATPG reveló tanto el potencial como los límites de las herramientas académicas de pruebas VLSI. La brecha de rendimiento con las soluciones de la industria impulsa ahora la siguiente fase de optimización e investigación.",
-      "ja": "ATPGシステムの開発により、学術的VLSIテストツールの威力と限界が明らかになりました。業界標準のソリューションとのパフォーマンスギャップが、最適化と研究の次の段階へと繋がっています。"
     },
     "links": "",
     "collaborators": [
@@ -5803,13 +5797,13 @@
         "es": "El pipeline digitalizó exitosamente la auditoría de infraestructura física de los 7 campuses de la UTP, generando un dataset estructurado de aproximadamente 400 registros con un esquema de 70 columnas que abarca 2024–2026. El dashboard de Power BI resultante sirve ahora como referencia institucional autorizada para planificación institucional, gestión de mantenimiento, priorización de inversiones en infraestructura y transparencia regulatoria — con resultados presentados formalmente por la DIPLAN (Dirección de Planificación Institucional de la UTP) y reportados públicamente por la universidad.",
         "zh": "该流水线成功完成了UTP 7个校区物理基础设施审计的数字化,生成了涵盖2024年至2026年、约400条记录、70列模式的结构化数据集。由此产生的 Power BI 仪表板现已成为机构规划、维护管理、基础设施投资优先级排序和合规透明度的权威参考——相关成果由UTP的机构规划部门 DIPLAN 正式发布并对外公开报告。",
         "ja": "このパイプラインはUTPの7キャンパスの物理インフラ監査のデジタル化に成功し、2024年〜2026年の期間にわたる約400件・70列スキーマの構造化データセットを生成しました。結果として得られたPower BIダッシュボードは現在、機関計画、設備保全管理、インフラ投資優先順位付け、および規制上の透明性確保のための機関としての権威ある参照情報源として機能しており、成果はUTPの機関計画局（DIPLAN）によって正式に発表・公開報告されています。"
+      },
+      "quote": {
+        "en": "From clipboards to cloud intelligence — 400 physical spaces across 7 campuses, fully digitized, analyzed, and ready to drive infrastructure decisions.",
+        "es": "De planillas en papel a inteligencia en la nube — 400 espacios físicos en 7 campus, completamente digitalizados, analizados y listos para impulsar decisiones de infraestructura.",
+        "zh": "从纸质表格到云端智能——7个校区400个物理空间,全面数字化、分析完毕,随时驱动基础设施决策。",
+        "ja": "紙の調査票からクラウドインテリジェンスへ——7キャンパス400の物理スペースを完全デジタル化・分析し、インフラ意思決定を支える準備が整いました。"
       }
-    },
-    "quote": {
-      "en": "From clipboards to cloud intelligence — 400 physical spaces across 7 campuses, fully digitized, analyzed, and ready to drive infrastructure decisions.",
-      "es": "De planillas en papel a inteligencia en la nube — 400 espacios físicos en 7 campus, completamente digitalizados, analizados y listos para impulsar decisiones de infraestructura.",
-      "zh": "从纸质表格到云端智能——7个校区400个物理空间,全面数字化、分析完毕,随时驱动基础设施决策。",
-      "ja": "紙の調査票からクラウドインテリジェンスへ——7キャンパス400の物理スペースを完全デジタル化・分析し、インフラ意思決定を支える準備が整いました。"
     },
     "links": {
       "UTP DIPLAN": "https://utp.ac.pa/diplan-presenta-avances-del-estudio-de-capacidad-fisica-instalada"
@@ -5936,16 +5930,16 @@
         "es": "El sistema eliminó exitosamente la programación en papel, brindando un 100% de trazabilidad a las misiones institucionales. Optimizó la coordinación de flota entre el Campus Víctor Levi Sasso y sedes regionales, resultando en una mayor transparencia administrativa en la asignación de recursos.",
         "zh": "该系统成功消除了纸质调度,为机构任务提供了100%的可追溯性。它优化了 Víctor Levi Sasso 校区与区域中心之间的车队协调,从而提高了资源分配的行政透明度。",
         "ja": "システムは紙ベースのスケジューリングを完全に排除し、機関ミッションの100%のトレーサビリティを実現しました。Víctor Levi Sassoキャンパスと地域拠点の間の車両調整を最適化し、リソース割り当てにおける管理上の透明性を向上させました。"
+      },
+      "quote": {
+        "en": "Centralizing logistics through low-code: transforming fragmented transport requests into a unified, data-driven fleet operation.",
+        "es": "Centralizando la logística mediante low-code: transformando solicitudes fragmentadas en una operación de flota unificada y basada en datos.",
+        "zh": "通过低代码实现物流集中化:将碎片化的运输请求转化为统一的、数据驱动的车队运营。",
+        "ja": "ローコードによるロジスティクスの集約:断片的な輸送要求を、統一されたデータ駆動型の車両運用へと変革します。"
       }
     },
-    "quote": {
-      "en": "Centralizing logistics through low-code: transforming fragmented transport requests into a unified, data-driven fleet operation.",
-      "es": "Centralizando la logística mediante low-code: transformando solicitudes fragmentadas en una operación de flota unificada y basada en datos.",
-      "zh": "通过低代码实现物流集中化:将碎片化的运输请求转化为统一的、数据驱动的车队运营。",
-      "ja": "ローコードによるロジスティクスの集約:断片的な輸送要求を、統一されたデータ駆動型の車両運用へと変革します。"
-    },
     "links": {
-      "Institution": "https://utp.ac.pa/"
+      "UTP": "https://utp.ac.pa/"
     },
     "institution": {
       "en": "Technological University of Panama (UTP)",
@@ -6030,13 +6024,13 @@
         "es": "El Hackathon ICCA 2024 representó un punto de inflexión en la ingeniería de control, trascendiendo las simulaciones aisladas hacia el complejo dominio de la Automatización Cooperativa de la Conducción (CDA). Mi participación se centró en abordar la brecha \"sim-to-real\", enfocándome específicamente en cómo los sistemas multiagente interactúan bajo restricciones de red fluctuantes. Esto requirió una síntesis de alto nivel entre la teoría de control clásica y el aprendizaje automático moderno, demandando una solución que fuera matemáticamente robusta y computacionalmente ágil.<br><br>El núcleo del desafío radicaba en la integración de percepción, planificación y control. Trabajé extensamente con entornos de simulación especializados para diseñar algoritmos capaces de optimización de trayectorias en tiempo real. No se trataba simplemente de evitar obstáculos; se trataba de sintetizar datos de sensores para predecir la intención de otros agentes autónomos. La complejidad técnica residía en equilibrar una eficiencia agresiva con los protocolos de seguridad absolutos exigidos por los estándares IEEE.<br><br>El formato de \"hackathon\" funcionó como un laboratorio de alta presión para la resolución iterativa de problemas. Ante casos límite—como la latencia repentina de comunicación entre vehículos—tuve que pivotar de modelos de estado ideal a estrategias de control robustas y tolerantes a fallos. Esta experiencia agudizó mi capacidad para depurar comportamientos sistémicos complejos que solo emergen cuando múltiples entidades autónomas comparten un espacio de trabajo común, una habilidad crítica para cualquier ingeniero de robótica moderno.<br><br>Más allá de los obstáculos técnicos, este proyecto fue un ejercicio de ingeniería colaborativa profesional. Operar dentro del ecosistema IEEE ICCA significó adherirse a una mentalidad rigurosa de documentación y revisión por pares incluso durante el desarrollo rápido. Mi rol implicó traducir objetivos de misión de alto nivel en código granular y ejecutable, asegurando que la arquitectura de control de nuestro equipo mantuviera la modularidad y escalabilidad a pesar del reloj en contra.<br><br>En última instancia, esta experiencia facilitó una transición desde la comprensión de la teoría de control hacia la arquitectura de soluciones autónomas. Emergí con una comprensión profunda de cómo los Sistemas de Transporte Inteligente (ITS) pueden optimizarse para la seguridad y el rendimiento. Para mi portafolio, esto marca una capacidad demostrada para tomar conceptos matemáticos abstractos y forjarlos en resultados de ingeniería funcionales, confiables e innovadores en un escenario competitivo y global.",
         "zh": "2024年ICCA开发者大赛代表了控制工程的一个转折点,它将孤立的仿真推向了协作驾驶自动化(CDA)的复杂领域。我的参与重点在于驾驭“从仿真到现实”的差距,特别是关注多智能体系统如何在波动的网络约束下进行交互。这需要对经典控制理论与现代机器学习进行高级综合,要求解决方案既具有数学上的鲁棒性,又具有计算上的敏捷性。<br><br>挑战的核心是感知、规划和控制的集成。我广泛使用专业的仿真环境来设计能够进行实时轨迹优化的算法。这不仅仅是关于避障;更是关于综合传感器数据以预测其他自主智能体的意图。工程复杂性在于平衡激进的效率与IEEE标准要求的绝对安全协议。<br><br>“开发者大赛”的形式成为了高压下的迭代问题解决实验室。面对边缘情况——例如车辆之间突然的通信延迟——我不得不从理想状态模型转向鲁棒的容错控制策略。这次经历锻炼了我调试复杂系统行为的能力,这种行为只有在多个自主实体共享公共工作空间时才会显现,这是任何现代机器人工程师的关键技能。<br><br>除了技术障碍,这个项目也是一次专业的协作工程实践。在IEEE ICCA生态系统中运作,意味着即使在快速开发中也要遵循严格的文档和同行评审的心态。我的角色涉及将高级任务目标转化为精细的、可执行的代码,确保我们的团队的控制架构在时间压力下保持模块化和可扩展性。<br><br>最终,这次经历促进了我从理解控制理论到构建自主解决方案的转变。我获得了对智能交通系统(ITS)如何优化安全性和吞吐量的深刻理解。对于我的作品集而言,这标志着我具备了将抽象数学概念转化为竞争激烈的全球舞台上功能性、可靠性和创新性工程成果的能力。",
         "ja": "2024年ICCAハッカソンは、制御工学における転換点であり、孤立したシミュレーションから協調運転自動化（CDA）の複雑な領域へと進みました。私の参加は、特にマルチエージェントシステムが変動するネットワーク制約下でどのように相互作用するかに焦点を当て、「シムツーリアル（シミュレーションから現実へ）」のギャップを乗り越えることに重点を置きました。これには、古典的な制御理論と最新の機械学習との高度な統合が必要であり、数学的に堅牢でありながら計算的にも機敏なソリューションが求められました。<br><br>課題の中心は、知覚、計画、制御の統合でした。私は専門のシミュレーション環境を幅広く使用し、リアルタイムの軌道最適化が可能なアルゴリズムを設計しました。これは単なる障害物回避の問題ではなく、センサーデータを合成して他の自律エージェントの意図を予測することでした。工学的な複雑さは、IEEE規格で要求される絶対的な安全プロトコルと、積極的な効率性のバランスを取ることにありました。<br><br>「ハッカソン」形式は、反復的な問題解決のための高圧な実験室として機能しました。車両間の突然の通信遅延などのエッジケースに直面した際、私は理想状態モデルから、堅牢で耐障害性のある制御戦略へと pivot（転換）する必要がありました。この経験により、複数の自律エンティティが共通のワークスペースを共有するときにのみ現れる複雑なシステム的挙動をデバッグする能力が磨かれました。これは、現代のロボット工学エンジニアにとって不可欠なスキルです。<br><br>技術的な課題を超えて、このプロジェクトは専門的な協調エンジニアリングの実践でもありました。IEEE ICCAエコシステム内で活動することは、迅速な開発中でも厳格なドキュメント化とピアレビューの精神に準拠することを意味しました。私の役割は、高度なミッションゴールを詳細で実行可能なコードに変換し、刻々と迫る時間の中でチームの制御アーキテクチャがモジュール性とスケーラビリティを維持するようにすることでした。<br><br>最終的に、この経験は制御理論の理解から自律ソリューションの設計への移行を促進しました。私は、インテリジェント交通システム（ITS）が安全性とスループットのためにどのように最適化できるかについて深い理解を得て卒業しました。私のポートフォリオにとって、これは抽象的な数学的概念を、競争の激しいグローバルな舞台で機能的、信頼性が高く、革新的な工学成果に鍛え上げる能力の実証となります。"
+      },
+      "quote": {
+        "en": "True engineering isn't just about solving the equations on the chalkboard; it’s about forcing the elegance of mathematical theory to survive the beautiful chaos of real-world autonomous interaction.",
+        "es": "La verdadera ingeniería no consiste solo en resolver ecuaciones en la pizarra; consiste en obligar a la elegancia de la teoría matemática a sobrevivir al hermoso caos de la interacción autónoma en el mundo real.",
+        "zh": "真正的工程设计不仅仅是在黑板上解方程;它是关于强迫数学理论的优雅在现实世界的自主交互的美丽混乱中生存下来。",
+        "ja": "真のエンジニアリングとは、黒板の数式を解くだけでなく、数学理論の優雅さを、現実世界の自律的な相互作用の美しい混沌の中で生き残らせることなのです。"
       }
-    },
-    "quote": {
-      "en": "True engineering isn't just about solving the equations on the chalkboard; it’s about forcing the elegance of mathematical theory to survive the beautiful chaos of real-world autonomous interaction.",
-      "es": "La verdadera ingeniería no consiste solo en resolver ecuaciones en la pizarra; consiste en obligar a la elegancia de la teoría matemática a sobrevivir al hermoso caos de la interacción autónoma en el mundo real.",
-      "zh": "真正的工程设计不仅仅是在黑板上解方程;它是关于强迫数学理论的优雅在现实世界的自主交互的美丽混乱中生存下来。",
-      "ja": "真のエンジニアリングとは、黒板の数式を解くだけでなく、数学理論の優雅さを、現実世界の自律的な相互作用の美しい混沌の中で生き残らせることなのです。"
     },
     "links": {
       "IEEE ICCA 2024": "https://entrepreneurship.ieee.org/2024_07_22_icca-hackathon-2024/"
