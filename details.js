@@ -194,7 +194,10 @@ const ProjectApp = (() => {
 
     const content = _project.content || {};
     const sections = [];
-
+    // Quote Block
+    if (content.quote) {
+      sections.push(` <div class="content-section"><blockquote>"${tF(content.quote)}"</blockquote></div>`);
+    }
     // Summary & Meta
     sections.push(`
       <div class="abstract-meta">
@@ -214,11 +217,6 @@ const ProjectApp = (() => {
           </div>`);
       }
     });
-
-    // Quote Block
-    if (content.quote) {
-      sections.push(` <div class="content-section"><blockquote>"${tF(content.quote)}"</blockquote></div>`);
-    }
 
     // Gallery & Tables
     CONTENT_EL.innerHTML = `

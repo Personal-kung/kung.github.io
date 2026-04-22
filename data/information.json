@@ -243,13 +243,9 @@
     },
     "profile_image": "images/thumbnails/battery.webp",
     "images": [
-      "images/webp/battery.webp",
-      "images/webp/battery1.webp",
-      "images/battery2.jpg",
-      "images/battery3.jpg",
-      "images/webp/battery4.webp",
+      "images/webp/battery.webp",      
       "images/webp/battery5.webp",
-      "images/battery6.jpg"
+      "images/webp/battery1.webp"
     ],
     "Product": "Electronics",
     "visible": true
