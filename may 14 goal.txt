@@ -1,0 +1,55 @@
+To ensure your presentation on **May 14** creates a lasting impression on the Japanese industry representatives and students, we need to leverage the upcoming **Golden Week** holiday as your primary development window. 
+
+The following analysis combines the **Kyutech Academic Calendar**, the technical status of your projects in `information.json`, and a strategic narrative designed to highlight your resilience and high-level engineering capabilities.
+
+### **1. The Kyutech & Japan Calendar Review (April 28 – May 14)**
+In Japan, the next two weeks are dominated by **Golden Week**. This is your "Deep Dev" window where campus activity slows down, allowing you to focus entirely on the website.
+
+| Date Range | Calendar Event | Strategic Focus |
+| :--- | :--- | :--- |
+| **April 29 (Wed)** | **Shōwa Day (Holiday)** | **Phase 1: Local Admin Stability.** Lock down the Bento Admin and JSON write logic. |
+| **April 30 – May 1** | Weekdays (Classes held) | **Phase 2: UI Balancing.** Fix the About Me columns and integrate `dossier.js`. |
+| **May 2 – May 6** | **Consecutive Holidays** | **Phase 3: The "Wow" Features.** Implement the Deep-Zoom VLSI and Space-Selfie interactions. |
+| **May 7 – May 12** | Classes Resume | **Phase 4: Staging & 2FA.** Deploy to GitHub; test the Yubikey/2FA on different devices. |
+| **May 13 (Wed)** | Pre-Presentation | **Final Verification:** Run a "Clean Slate" test (Incognito mode, mobile data). |
+| **May 14 (Thu)** | **The Big Day** | **Execution:** Live demo of the Admin Panel and "Disposable Keynote." |
+
+---
+
+### **2. Project Selection: The "Resilience & Innovation" Narrative**
+To achieve your goal of surprising the audience with your journey from Panama to Kyutech, you should center your presentation on these three "Pillars" from your `information.json`:
+
+#### **Pillar 1: The "National Impact" (UTP Infrastructure)**
+* **The Content:** Managing 13.8 kV distribution and SCADA monitoring for **7 national campuses**.
+* **The Angle:** This shows you were trusted with a country's critical infrastructure at a young age. 
+* **The "Wow" Factor:** Highlight the contrast between managing "Macro" national energy grids in Panama and "Nano" semiconductor circuits in Japan.
+
+#### **Pillar 2: The "Technological First" (Nanoelectrical Patent)**
+* **The Content:** Co-authoring the **first patented nanoelectrical semiconductor circuit** in Panama.
+* **The Angle:** This directly addresses the "sub-developed economy" barrier. You didn't just study engineering; you established a new technical benchmark for your entire nation.
+* **The Integration:** Use the "Deep-Zoom" idea here to let the audience explore the layers of this specific patented design.
+
+#### **Pillar 3: The "Global Vision" (SAT GUS Space Selfie)**
+* **The Content:** Your participation in the **CrunchLabs / SAT GUS** satellite mission (Launched via SpaceX Falcon 9 in Jan 2025).
+* **The Angle:** This proves your engineering reach is literal and global. It connects you to top-tier Western engineering (Mark Rober/NASA-level standards) while you are based in Japan.
+* **The Integration:** Feature the returned space-selfie image prominently. It serves as a visual metaphor: "An engineer from a small country, looking down at Earth from a satellite he helped influence."
+
+---
+
+### **3. Verification & Testing Protocol**
+To ensure no "blackouts" or errors during the presentation, follow these two-tier testing steps:
+
+**Tier 1: Local Verification (Admin Panel)**
+1.  **JSON Integrity:** After using the Admin Bento to add a project, open `information.json` manually to ensure the object structure hasn't broken.
+2.  **Language Fallback:** Set the site to `ja` and ensure that if a specific project only has `en` text, it gracefully defaults to English instead of showing an error.
+3.  **Dossier Button:** Ensure the `[ GENERATE DOSSIER ]` button triggers the `prepareDossierData` function and outputs a clean console log or PDF preview.
+
+**Tier 2: Cloud Verification (After GitHub Push)**
+1.  **Strange Laptop Test:** Open your site on a public terminal at Kyutech. Verify the Admin Dashboard is **invisible** without your 2FA/Password.
+2.  **Mobile Performance:** Load the "Space Selfie" and "Deep Zoom" assets on a phone using 4G/5G. If they take more than 3 seconds to load, optimize the image/3D model sizes.
+3.  **Browser Auto-Detect:** Verify that the site automatically switches to Japanese when accessed by a Japanese-language browser.
+
+### **Strategic Advice for the Presentation**
+When presenting to the Japanese company, emphasize the **"Transition to Industry"** aspect of your Admin Panel. Show them the **Project Management Tab** and tell them: *"I built this because I don't just create code; I manage resources, expenses, and international visibility as an Industrial Lead."*
+
+This demonstrates that you are not just a student, but a professional ready to be "on the lookout" for the next global challenge.
