@@ -7,74 +7,15 @@
 "use strict";
 
 const ProjectApp = (() => {
-  let _project = null;
-  let _lang = "en";
-
+  let _project = null, _lang = "en";  
   const $ = s => document.querySelector(s);
   const $$ = s => document.querySelectorAll(s);
   const LANG_SELECT = $("#lang-select");
   const CONTENT_EL = $("#projectContent");
 
-  /* ── Translations (Ported from script.js) ─────────────────────────── */
-  const I18N = {
-    en: {
-      "name": "Kelvin Kung",
-      "nav-about": "About", "nav-exp": "Experience", "nav-projects": "Projects", "nav-contact": "Contact",
-      "contact-title": "Contact", "contact-text": "Interested in working or collaborating with me?",
-      "footer-name": "Kelvin Kung",
-      "collab-title": "Project Collaborators",
-      "problem": "Technical Challenge",
-      "approach": "Methodology & Role",
-      "outcome": "Key Outcomes & Results",
-      "details": "Project Details",
-      "links": "Resources & Links",
-      "back-home": "Back to Home"
-    },
-    es: {
-      "name": "Kelvin Kung",
-      "nav-about": "Acerca", "nav-exp": "Experiencia", "nav-projects": "Proyectos", "nav-contact": "Contacto",
-      "contact-title": "Contacto", "contact-text": "¿Interesado en trabajar o colaborar conmigo?",
-      "footer-name": "Kelvin Kung",
-      "collab-title": "Colaboradores del Proyecto",
-      "problem": "Desafío Técnico",
-      "approach": "Metodología y Rol",
-      "outcome": "Resultados y Logros",
-      "details": "Detalles del Proyecto",
-      "links": "Recursos y Enlaces",
-      "back-home": "Volver al inicio"
-    },
-    zh: {
-      "name": "龚颖贤",
-      "nav-about": "关于", "nav-exp": "经验", "nav-projects": "项目", "nav-contact": "联系",
-      "contact-title": "联系", "contact-text": "有兴趣与我合作吗？",
-      "footer-name": "龚颖贤",
-      "collab-title": "项目合作者",
-      "problem": "技术挑战",
-      "approach": "方法与角色",
-      "outcome": "主要成果",
-      "details": "项目详情",
-      "links": "资源与链接",
-      "back-home": "返回主页"
-    },
-    ja: {
-      "name": "クン・ケルビン",
-      "nav-about": "概要", "nav-exp": "経験", "nav-projects": "プロジェクト", "nav-contact": "連絡先",
-      "contact-title": "連絡先", "contact-text": "一緒に働いたり協力したりしませんか？",
-      "footer-name": "クン・ケルビン",
-      "collab-title": "プロジェクト協力者",
-      "problem": "技術的課題",
-      "approach": "手法と役割",
-      "outcome": "主な成果",
-      "details": "プロジェクト詳細",
-      "links": "リソースとリンク",
-      "back-home": "ホームに戻る"
-    }
-  };
-
-  const t = key => (I18N[_lang]?.[key] ?? I18N.en[key] ?? key);
-  const tF = f => f && typeof f === "object" && !Array.isArray(f)
-    ? (f[_lang] ?? Object.values(f)[0] ?? "")
-    : (f ?? "");
+  const t = key => (PORTFOLIO_I18N[_lang]?.[key] ?? PORTFOLIO_I18N.en[key] ?? key);
+  const tF = f => f && typeof f === "object" && !Array.isArray(f) 
+                 ? (f[_lang] ?? Object.values(f)[0] ?? "") : (f ?? "");
 
   const formatDate = d => {
     if (!d) return "";
@@ -160,7 +101,7 @@ const ProjectApp = (() => {
         <div class="content-section">
           <h3>${t('links')}</h3>
           <table class="links-table">
-            <thead><tr><th>Reference</th><th>Target URL</th></tr></thead>
+            <thead><tr><th>${t('col-reference')}</th><th>${t('col-url')}</th></tr></thead>
             <tbody>${Object.entries(_project.links).map(([label, url]) =>
         `<tr><td><strong>${label}</strong></td><td><a href="${url}" target="_blank" rel="noopener">${url}</a></td></tr>`).join("")}
             </tbody>
@@ -174,7 +115,7 @@ const ProjectApp = (() => {
         <div class="content-section">
           <h3>${t('collab-title')}</h3>
           <table class="links-table">
-            <thead><tr><th>Name</th><th>Role / Institution</th><th>Contact</th></tr></thead>
+            <thead><tr><th>${t('col-name')}</th><th>${t('col-role')}</th><th>${t('col-contact')}</th></tr></thead>
             <tbody>${_project.collaborators.map(c =>
         `<tr>
                 <td><strong>${tF(c.name)}</strong></td>
@@ -201,9 +142,9 @@ const ProjectApp = (() => {
     // Summary & Meta
     sections.push(`
       <div class="abstract-meta">
-        <div><strong>Institution:</strong> ${tF(_project.institution)}</div>
-        ${_project.branch ? `<div><strong>Branch:</strong> ${tF(_project.branch)}</div>` : ""}
-        <div><strong>Timeline:</strong> ${formatDate(_project.start)} — ${formatDate(_project.finish)}</div>
+        <div class="meta-item"><strong>${t("label-institution")}:</strong> ${tF(_project.institution)}</div>
+        <div class="meta-item"><strong>${t("label-branch")}:</strong> ${tF(_project.branch)}</div>
+        <div class="meta-item"><strong>${t("label-timeline")}:</strong> ${formatDate(_project.start)} — ${formatDate(_project.finish)}</div>  
         <i>${tF(_project.summary)}</i>
       </div>`);
 
@@ -231,21 +172,12 @@ const ProjectApp = (() => {
 
   /* ── Language ────────────────────────────────────────────────────── */
   function applyTranslations() {
-    $$("[data-lang]").forEach(el => {
-      const v = t(el.dataset.lang);
-      if (v) el.innerHTML = v;
-    });
-    const em = $("#footer-email");
-    const gh = $("#footer-github");
-    if (em && gh) {
-      if (_lang === "zh" || _lang === "ja") {
-        em.href = "mailto:kung-gomez-kelvin2604@mail.kyutech.jp";
-        gh.href = "https://github.com/Kung-Kelvin";
-      } else {
-        em.href = "mailto:kelvin.kung@utp.ac.pa";
-        gh.href = "https://github.com/kelvinutp";
-      }
-    }
+    $$("[data-lang]").forEach(el => { el.innerHTML = t(el.dataset.lang); });
+    
+    // Pull email and github from i18n data
+    const em = $("#footer-email"), gh = $("#footer-github");
+    if (em) em.href = `mailto:${t("email")}`;
+    if (gh) gh.href = t("github");
   }
 
   /* ── Init ────────────────────────────────────────────────────────── */
@@ -271,20 +203,18 @@ const ProjectApp = (() => {
   }
 
   document.addEventListener("DOMContentLoaded", () => {
-    const navLang = navigator.language || "";
-    const detected = ["zh", "ja", "es"].find(l => navLang.startsWith(l)) || "en";
-    LANG_SELECT.value = detected;
-    _lang = detected;
+    // Inheritance from index.html via localStorage
+    _lang = localStorage.getItem("portfolio_lang") || 
+            (["zh", "ja", "es"].find(l => navigator.language.toLowerCase().startsWith(l)) || "en");
+    
+    LANG_SELECT.value = _lang;
+    applyTranslations();
 
     LANG_SELECT.addEventListener("change", () => {
       _lang = LANG_SELECT.value;
+      localStorage.setItem("portfolio_lang", _lang);
       applyTranslations();
       renderProject();
-    });
-
-    window.addEventListener("resize", () => {
-      clearTimeout(window.resizeTimer);
-      window.resizeTimer = setTimeout(applyJustifiedLayout, 150);
     });
 
     init().catch(err => console.error("[ProjectApp] Init failed:", err));
