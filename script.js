@@ -3,17 +3,16 @@
    Refactored: single fetch, DocumentFragment, IntersectionObserver lazy
    load, strict data validation, dynamic hero mosaic, language detection.
    ===================================================================== */
-
 "use strict";
-
+import { generateDossier } from './dossier.js';
 /* ─── App State ──────────────────────────────────────────────────────── */
 const App = (() => {
   let _data = null, _visible = [], _filtered = [], _collabs = [], _lang = "en";
   const LANG_SELECT = document.getElementById("lang-select");
 
   const t = key => (PORTFOLIO_I18N[_lang]?.[key] ?? PORTFOLIO_I18N.en[key] ?? key);
-  const tF = f => f && typeof f === "object" && !Array.isArray(f) 
-                 ? (f[_lang] ?? Object.values(f)[0] ?? "") : (f ?? "");
+  const tF = f => f && typeof f === "object" && !Array.isArray(f)
+    ? (f[_lang] ?? Object.values(f)[0] ?? "") : (f ?? "");
   const $ = s => document.querySelector(s);
   const $$ = s => document.querySelectorAll(s);
 
@@ -139,24 +138,33 @@ const App = (() => {
           <div class="hero-divider"></div>
           <div class="hero-actions">
             <a href="#highlights" class="btn hero-btn" data-lang="hero-cta"></a>
+            <!-- Added Dossier Button -->
+            <button id="dossier-btn" class="btn btn-outline hero-btn" data-lang="hero-dossier">Dossier</button>
             <a href="#contact" class="btn btn-ghost hero-btn" data-lang="hero-contact"></a>
           </div>
         </div>`;
       section.appendChild(overlay);
+
+      document.getElementById('dossier-btn').addEventListener('click', () => {
+        // Directly get the value from the select element
+        const langSelect = document.getElementById('lang-select');
+        const currentLang = langSelect ? langSelect.value : 'en';        
+        generateDossier(currentLang);
+      });
     }
     applyTranslations();
   }
 
   /* ── Highlights ──────────────────────────────────────────────────── */
-  
+
   function renderHighlights() {
     const hc = $("#highlights-container");
-    if (!hc) return;
+    if (!hc) return;    
     const highlights = sortByDate(_visible.filter(e => e.highlight))
       .sort((a, b) => a.highlight - b.highlight);
 
-    const frag = document.createDocumentFragment();
-    highlights.forEach(i => {
+    const frag = document.createDocumentFragment();    
+    highlights.forEach(i => {      
       const card = document.createElement("div");
       card.className = "highlight-card clickable-card";
       card.dataset.href = `details.html?projectId=${i.id}`;
@@ -187,7 +195,7 @@ const App = (() => {
     "Research & Engineering": "images/thumbnails/semiconductor.webp",
   };
 
-function renderPortfolios() {
+  function renderPortfolios() {
     const pt = $("#portfolios-track");
     if (!pt) return;
     const seen = {};
@@ -195,7 +203,7 @@ function renderPortfolios() {
       const cat = d.category?.en || d.category || "";
       if ((cat === "Research" || cat === "Professional") && d.Product) seen[d.Product] = (seen[d.Product] || 0) + 1;
     });
-    
+
     pt.innerHTML = Object.keys(seen).map(p => {
       const meta = CATEGORY_META[p] || CATEGORY_META["Research & Engineering"];
       return `
@@ -344,7 +352,7 @@ function renderPortfolios() {
       const emailAddr = t("email");
       em.href = `mailto:${emailAddr}`;
       // Optional: update visible text if you show the email on screen
-      if (em.dataset.showEmail === "true") em.textContent = emailAddr; 
+      if (em.dataset.showEmail === "true") em.textContent = emailAddr;
     }
     if (gh) {
       gh.href = t("github");
@@ -377,13 +385,13 @@ function renderPortfolios() {
   }
 
   /* ── Init ────────────────────────────────────────────────────────── */
-/* ── Revised Language Detection ── */
+  /* ── Revised Language Detection ── */
   function detectLang() {
     const rawNav = navigator.language || navigator.userLanguage || "en";
     const nav = rawNav.toLowerCase().split('-')[0];
     const supported = ["zh", "ja", "es"];
     const finalLang = supported.includes(nav) ? nav : "en";
-    
+
     console.log(`[System] Browser Language: ${rawNav} | Detected: ${nav} | Applied: ${finalLang}`);
     return finalLang;
   }

@@ -7,8 +7,10 @@
 
   <!-- ===== SEO ===== -->
   <title>Kelvin Kung | Electrical Engineer & VLSI Researcher</title>
-  <meta name="description" content="Kelvin Kung — Electrical & Electronics Engineer, VLSI researcher at Kyushu Institute of Technology. Expert in high-voltage systems, embedded electronics, semiconductor fabrication, and international engineering competitions." />
-  <meta name="keywords" content="Kelvin Kung, electrical engineer, VLSI, Kyushu, Panama, semiconductor, PCB, robotics, IEEE, research" />
+  <meta name="description"
+    content="Kelvin Kung — Electrical & Electronics Engineer, VLSI researcher at Kyushu Institute of Technology. Expert in high-voltage systems, embedded electronics, semiconductor fabrication, and international engineering competitions." />
+  <meta name="keywords"
+    content="Kelvin Kung, electrical engineer, VLSI, Kyushu, Panama, semiconductor, PCB, robotics, IEEE, research" />
   <meta name="author" content="Kelvin Kung" />
   <meta name="robots" content="index, follow" />
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
@@ -17,14 +19,17 @@
   <!-- ===== Open Graph ===== -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Kelvin Kung | Electrical Engineer & VLSI Researcher" />
-  <meta property="og:description" content="Portfolio of Kelvin Kung — engineer, researcher, and international collaborator across Panama and Japan." />
+  <meta property="og:description"
+    content="Portfolio of Kelvin Kung — engineer, researcher, and international collaborator across Panama and Japan." />
   <meta property="og:url" content="https://kung.github.io/" />
   <meta property="og:image" content="images/thumbnails/patente.webp" />
 
   <!-- ===== Fonts ===== -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;600;700&display=swap"
+    rel="stylesheet" />
 
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -36,10 +41,10 @@
     <nav class="navbar" aria-label="Main navigation">
       <a href="#" class="logo" data-lang="name" aria-label="Home">Kelvin Kung</a>
       <ul class="nav-links" role="list">
-        <li><a href="#about"            data-lang="nav-about">About</a></li>
+        <li><a href="#about" data-lang="nav-about">About</a></li>
         <li><a href="#experience-summary" data-lang="nav-exp">Experience</a></li>
-        <li><a href="#projects"         data-lang="nav-projects">Projects</a></li>
-        <li><a href="#contact"          data-lang="nav-contact">Contact</a></li>
+        <li><a href="#projects" data-lang="nav-projects">Projects</a></li>
+        <li><a href="#contact" data-lang="nav-contact">Contact</a></li>
       </ul>
       <div class="nav-right">
         <select id="lang-select" aria-label="Language selector">
@@ -127,7 +132,8 @@
   <!-- ===== PRODUCT PORTFOLIOS ===== -->
   <section class="portfolios-section" id="portfolios" aria-labelledby="portfolios-heading">
     <h2 id="portfolios-heading" data-lang="portfolios-title">Product Portfolios</h2>
-    <p class="section-subtitle" data-lang="portfolios-subtitle">Explore grouped products from my professional and research trajectory</p>
+    <p class="section-subtitle" data-lang="portfolios-subtitle">Explore grouped products from my professional and
+      research trajectory</p>
     <div class="carousel-wrapper">
       <div class="portfolios-track" id="portfolios-track" role="list">
         <!-- Filled dynamically -->
@@ -172,16 +178,17 @@
 
     <!-- Category filters -->
     <div class="button-row" role="group" aria-label="Filter by category">
-      <button id="btn-all"  onclick="filterData('all')"          data-lang="filter-all"  class="active-btn">All</button>
+      <button id="btn-all" onclick="filterData('all')" data-lang="filter-all" class="active-btn">All</button>
       <button id="btn-prof" onclick="filterData('Professional')" data-lang="filter-prof">Professional</button>
-      <button id="btn-res"  onclick="filterData('Research')"     data-lang="filter-rese">Research</button>
-      <button id="btn-acad" onclick="filterData('Academic')"     data-lang="filter-acad">Academic</button>
+      <button id="btn-res" onclick="filterData('Research')" data-lang="filter-rese">Research</button>
+      <button id="btn-acad" onclick="filterData('Academic')" data-lang="filter-acad">Academic</button>
     </div>
 
     <!-- View mode buttons -->
     <div class="button-row" role="group" aria-label="View mode">
-      <button id="btn-time" onclick="switchViewMode('timeline')"    data-lang="filter-time"  class="active-btn">Timeline</button>
-      <button id="btn-acco" onclick="switchViewMode('accordion')"   data-lang="filter-acco">Accordion</button>
+      <button id="btn-time" onclick="switchViewMode('timeline')" data-lang="filter-time"
+        class="active-btn">Timeline</button>
+      <button id="btn-acco" onclick="switchViewMode('accordion')" data-lang="filter-acco">Accordion</button>
       <button id="btn-inte" onclick="switchViewMode('interactive')" data-lang="filter-inte">Interactive</button>
     </div>
 
@@ -211,7 +218,8 @@
     <p data-lang="contact-text">Interested in working or collaborating with me?</p>
     <div class="contact-links">
       <a href="mailto:kelvin.kung@utp.ac.pa" id="footer-email" class="btn">Email</a>
-      <a href="https://github.com/kelvinutp" target="_blank" rel="noopener" id="footer-github" class="btn btn-ghost">GitHub</a>
+      <a href="https://github.com/kelvinutp" target="_blank" rel="noopener" id="footer-github"
+        class="btn btn-ghost">GitHub</a>
     </div>
   </section>
 
@@ -221,13 +229,15 @@
   </footer>
 
   <!-- ===== SCRIPTS ===== -->
-  <script src="data/i18n.js"></script>
-  <script src="script.js"></script>
+  <script src="data/i18n.js"></script>  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.2.7/pdfmake.min.js"></script> 
+  
+  <script type="module" src="script.js"></script>
 
   <script>
     // Mobile menu toggle
     const menuToggle = document.getElementById("menu-toggle");
-    const navLinks   = document.querySelector(".nav-links");
+    const navLinks = document.querySelector(".nav-links");
     if (menuToggle && navLinks) {
       menuToggle.addEventListener("click", () => {
         const open = navLinks.classList.toggle("open");
@@ -242,7 +252,7 @@
       if (el) el.classList.add("active-btn");
     }
     document.querySelectorAll(".button-row button").forEach(btn => {
-      btn.addEventListener("click", function() {
+      btn.addEventListener("click", function () {
         const row = this.closest(".button-row");
         row.querySelectorAll("button").forEach(b => b.classList.remove("active-btn"));
         this.classList.add("active-btn");
@@ -257,4 +267,5 @@
   </script>
 
 </body>
+
 </html>

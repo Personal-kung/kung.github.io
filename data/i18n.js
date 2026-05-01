@@ -25,7 +25,7 @@ const PORTFOLIO_I18N = {
     "stats-projects": "Projects", "stats-collaborators": "Collaborators", "stats-institutions": "Institutions",
     "brand-title": "Global Partners & Institutions",
     "hero-role": "Electrical and Electronics Engineer · VLSI Researcher · International Collaborator",
-    "hero-cta": "View My Work", "hero-contact": "Get in Touch",
+    "hero-cta": "View My Work","hero-dossier":"Dossier","hero-contact": "Get in Touch",
     "problem": "Technical Challenge", "approach": "Methodology & Role", "outcome": "Key Outcomes & Results", "details": "Project Details", "links": "Resources & Links",
     "stats-project-singular": "Project",
     "label-institution": "Institution",
@@ -40,7 +40,8 @@ const PORTFOLIO_I18N = {
     "Dashboards": "Dashboards",
     "Programming": "Programming",
     "Electronics": "Electronics",
-    "Research & Engineering": "Research & Engineering"
+    "Research & Engineering": "Research & Engineering",
+    "cv profile":"Kelvin Kung is an Electrical and Electronics Engineer pursuing a Master’s degree at Kyushu Institute of Technology (KYUTECH), specializing in Very Large Scale Integration (VLSI) testing methodologies. From 2022 to 2025, he led high-voltage electrical systems design at the Technological University of Panama (UTP), delivering innovative infrastructure solutions including lightning protection, grounding systems, and reactive power compensation, while establishing national benchmarks for electricity monitoring using SCADA and Power BI. <br>He has extensive hands-on experience with 13.8 kV distribution systems, power quality analysis campaigns, and compliance with safety and regulatory standards. In electronics, his work spans electromechanical teleoperation, hyperspectral analysis for precision agriculture, and co-authoring Panama’s first patented nanoelectrical semiconductor circuit, alongside contributions to IEEE conferences and Neurocomputing publications. <br>Kelvin has also made a significant impact in education and assistive technology, serving as an international judge for RoboCup Jr., building low-cost robotics kits for schools, and leading projects such as a smart wheelchair system for paraplegic individuals."
   },
   es: {
     "name": "Kelvin Kung",
@@ -67,7 +68,7 @@ const PORTFOLIO_I18N = {
     "stats-projects": "Proyectos", "stats-collaborators": "Colaboradores", "stats-institutions": "Instituciones",
     "brand-title": "Alianzas Globales e Instituciones",
     "hero-role": "Ingeniero Eléctrico y Electrónico · Investigador VLSI · Colaborador Internacional",
-    "hero-cta": "Ver Mi Trabajo", "hero-contact": "Contactar",
+    "hero-cta": "Ver Mi Trabajo", "hero-dossier": "Dossier", "hero-contact": "Contactar",
     "problem": "Desafío Técnico", "approach": "Metodología y Rol", "outcome": "Resultados y Logros", "details": "Detalles del Proyecto", "links": "Recursos y Enlaces",
     "back-home": "Volver al inicio",
     "stats-project-singular": "Proyecto",
@@ -84,7 +85,8 @@ const PORTFOLIO_I18N = {
     "Programming": "Programación",
     "Electronics": "Electrónica",
     "Smart Systems": "Sistemas Inteligentes",
-    "Research & Engineering": "Investigación e Ingeniería"
+    "Research & Engineering": "Investigación e Ingeniería",
+    "cv profile":"Kelvin Kung es un Ingeniero Eléctrico y Electrónico que cursa una Maestría en el Instituto Tecnológico de Kyushu (KYUTECH), especializado en metodologías de prueba de Integración a Muy Gran Escala (VLSI). De 2022 a 2025, lideró el diseño de sistemas eléctricos de alta tensión en la Universidad Tecnológica de Panamá (UTP), entregando soluciones innovadoras de infraestructura que incluyen protección contra rayos, sistemas de puesta a tierra y compensación de potencia reactiva, mientras establecía puntos de referencia nacionales para el monitoreo eléctrico utilizando SCADA y Power BI. <br>Posee amplia experiencia práctica con sistemas de distribución de 13.8 kV, campañas de análisis de calidad de energía y cumplimiento con estándares de seguridad y regulaciones. En electrónica, su trabajo abarca teleoperación electromecánica, análisis hiperespectral para agricultura de precisión y coautoría de la primera patente panameña de circuitos semiconductores nanoeléctricos, junto con contribuciones a conferencias IEEE y publicaciones en Neurocomputing."
   },
   zh: {
     "name": "龚颖贤",
@@ -111,7 +113,7 @@ const PORTFOLIO_I18N = {
     "stats-projects": "项目", "stats-collaborators": "合作者", "stats-institutions": "机构",
     "brand-title": "全球合作伙伴与机构",
     "hero-role": "电气和电子工程师 · VLSI研究员 · 国际合作者",
-    "hero-cta": "查看我的工作", "hero-contact": "联系我",
+    "hero-cta": "查看我的工作", "hero-dossier": "查看我的档案", "hero-contact": "联系我",
     "problem": "技术挑战", "approach": "方法与角色", "outcome": "主要成果", "details": "项目详情", "links": "资源与链接",
     "back-home": "返回主页",
     "stats-project-singular": "项目",
@@ -128,7 +130,8 @@ const PORTFOLIO_I18N = {
     "Programming": "编程",
     "Electronics": "电子工程",
     "Smart Systems": "智能系统",
-    "Research & Engineering": "研究与工程"
+    "Research & Engineering": "研究与工程",
+    "cv profile":"龚颖贤是一名电气与电子工程师，正在九州工业大学（KYUTECH）攻读硕士学位，专注于超大规模集成电路（VLSI）测试方法。2022年至2025年，他在巴拿马科技大学（UTP）领导高压电气系统设计，提供创新的基础设施解决方案，包括防雷、接地和无功补偿系统，同时利用SCADA和Power BI为全国高校电力监控树立了标杆。<br>他在13.8kV配电系统、电能质量分析活动以及安全与法规遵从方面拥有丰富的实践经验。在电子领域，他的工作涵盖机电遥操作、农业精准高光谱分析以及联合开发巴拿马首个纳米电气半导体电路专利，并为IEEE会议和《神经计算》期刊做出了贡献。"
   },
   ja: {
     "name": "クン・ケルビン",
@@ -155,7 +158,7 @@ const PORTFOLIO_I18N = {
     "stats-projects": "プロジェクト", "stats-collaborators": "協力者", "stats-institutions": "機構",
     "brand-title": "連携機関・ブランド",
     "hero-role": "電気・電子エンジニア · VLSI研究者 · 国際コラボレーター",
-    "hero-cta": "作品を見る", "hero-contact": "お問い合わせ",
+    "hero-cta": "作品を見る","hero-dossier": "ドキュメントを見る", "hero-contact": "お問い合わせ",
     "problem": "技術的課題", "approach": "手法と役割", "outcome": "主な成果", "details": "プロジェクト詳細", "links": "リソースとリンク",
     "back-home": "ホームに戻る",
     "stats-project-singular": "プロジェクト",
@@ -172,7 +175,8 @@ const PORTFOLIO_I18N = {
     "Programming": "プログラミング",
     "Electronics": "電子工学",
     "Smart Systems": "スマートシステム",
-    "Research & Engineering": "研究・エンジニアリング"
+    "Research & Engineering": "研究・エンジニアリング",
+    "cv profile":"クン・ケルビンは、九州工業大学（KYUTECH）で超大規模集成回路（VLSI）テスト手法を専門とする修士課程に在籍する電気電子工学エンジニアです。2022年から2025年まで、パナマ工科大学（UTP）で高電圧電気システムの設計を主導し、防雷、接地、無効電力補償システムなどの革新的なインフラソリューションを提供しながら、SCADAとPower BIを活用して全国的な大学電力監視の基準を確立しました。<br>13.8kV配電システム、電力品質分析活動、安全規制遵守に関する豊富な実践経験を持ち、電子工学の分野では、機電遠隔操作、精密農業のための高スペクトル分析、およびパナマ初のナノ電気半導体回路特許の共同開発に携わり、IEEE会議やNeurocomputingへの貢献も行っています。"
   }
 };
 

@@ -53,3 +53,11 @@ To ensure no "blackouts" or errors during the presentation, follow these two-tie
 When presenting to the Japanese company, emphasize the **"Transition to Industry"** aspect of your Admin Panel. Show them the **Project Management Tab** and tell them: *"I built this because I don't just create code; I manage resources, expenses, and international visibility as an Industrial Lead."*
 
 This demonstrates that you are not just a student, but a professional ready to be "on the lookout" for the next global challenge.
+
+Tasks to prioritize for May 14
+1. dossier
+2. admin
+3. 2FA
+4. LLM integration
+
+the users smartphone gyro and control interface (a simple on/off switch), in my presentation a mirror device is shown with the input controls, and the on/off signal controls a led connected to MCU via my website
