@@ -6055,5 +6055,100 @@
     },
     "profile_image": "images/ICCA-Hackathon-2024.webp",
     "visible": true
-  }
+  },
+  {
+  "id": 64,
+  "title": {
+    "en": "RoboCup 2026 International Competition Incheon",
+    "ja": "ロボカップ 2026 国際競技大会 仁川",
+    "zh": "RoboCup 2026 仁川国际机器人大赛",
+    "es": "Competencia Internacional RoboCup 2026 Incheon"
+  },
+  "summary": {
+    "en": "Appointment as an International Judge and Technical Volunteer for the Maze league at RoboCup 2026 in South Korea. This role involves the technical evaluation of world-class autonomous robotics, focusing on the intersection of VLSI hardware efficiency and complex navigation algorithms within a global competitive framework.",
+    "es": "Nombramiento como Juez Internacional y Voluntario Técnico para la liga Maze en RoboCup 2026 en Corea del Sur. Este rol implica la evaluación técnica de robótica autónoma de clase mundial, centrándose en la intersección de la eficiencia del hardware VLSI y los algoritmos de navegación complejos dentro de un marco competitivo global.",
+    "zh": "被任命为 2026 年韩国 RoboCup 机器人大赛 Maze 联赛的国际评审和技术志愿者。该角色涉及对世界级自主机器人的技术评估，重点关注全球竞赛框架内 VLSI 硬件效率与复杂导航算法的交集。",
+    "ja": "韓国で開催される RoboCup 2026 の Maze リーグにおける国際審査員および技術ボランティアへの任命。この役割では、世界クラスの自律型ロボットの技術評価を行い、グローバルな競技枠組みの中で VLSI ハードウェアの効率性と複雑なナビゲーション アルゴリズムの交差点に焦点を当てます。"
+  },
+  "category": {
+    "en": "Professional",
+    "es": "Profesional",
+    "zh": "专业的",
+    "ja": "プロフェッショナル"
+  },
+  "tags": {
+    "en": [
+      "<strong>🤖 Autonomous Robotics</strong>",
+      "<strong>⚖️ Technical Judging</strong>",
+      "<strong>🌏 Global Networking</strong>"
+    ],
+    "es": [
+      "<strong>🤖 Robótica Autónoma</strong>",
+      "<strong>⚖️ Evaluación Técnica</strong>",
+      "<strong>🌏 Red Global</strong>"
+    ],
+    "zh": [
+      "<strong>🤖 自主机器人</strong>",
+      "<strong>⚖️ 技术评审</strong>",
+      "<strong>🌏 全球网络</strong>"
+    ],
+    "ja": [
+      "<strong>🤖 自律ロボティクス</strong>",
+      "<strong>⚖️ 技術審査</strong>",
+      "<strong>🌏 グローバルネットワーク</strong>"
+    ]
+  },
+  "start": "6/30/2026",
+  "finish": "7/6/2026",
+  "content": {
+    "problem": {
+      "en": "The Maze league requires rigorous, objective evaluation of autonomous microrobots that must navigate complex environments. As a judge, the challenge is to verify the integrity of hardware-software co-design and ensure high-level technical standards in international robotics.",
+      "es": "La liga Maze requiere una evaluación rigurosa y objetiva de microrobots autónomos que deben navegar entornos complejos. Como juez, el desafío es verificar la integridad del co-diseño hardware-software y asegurar altos estándares técnicos en la robótica internacional.",
+      "zh": "Maze 联赛需要对必须在复杂环境中导航的自主微型机器人进行严格、客观的评估。作为评审，挑战在于验证硬件-软件协同设计的完整性，并确保国际机器人技术的高水平技术标准。",
+      "ja": "Maze リーグでは、複雑な環境をナビゲートする必要がある自律型マイクロロボットの厳格かつ客観的な評価が求められます。審査員としての課題は、ハードウェアとソフトウェアの協調設計の完全性を検証し、国際的なロボット工学における高い技術基準を確保することです。"
+    },
+    "approach": {
+      "en": "Leveraging VLSI expertise to analyze real-time sensor data processing and algorithmic efficiency. Participation involves direct technical oversight of the competition runs in Incheon, verifying adherence to international protocols and scoring metrics defined by the RoboCup Federation.",
+      "es": "Aprovechando la experiencia en VLSI para analizar el procesamiento de datos de sensores en tiempo real y la eficiencia algorítmica. La participación implica la supervisión técnica directa de las rondas de competencia en Incheon, verificando el cumplimiento de los protocolos internacionales y las métricas de puntuación definidas por la Federación RoboCup.",
+      "zh": "利用 VLSI 專業知識分析實時傳感器數據處理和算法效率。參與工作包括對仁川比賽運行的直接技術監督，驗证是否遵守 RoboCup 聯合會定義的國際協議和評分指標。",
+      "ja": "VLSI の専門知識を活用して、リアルタイムのセンサー データ処理とアルゴリズムの効率を分析します。参加には、仁川での競技実行の直接的な技術監督が含まれ、RoboCup 連盟によって定義された国際プロトコルとスコアリング指標への準拠を確認します。"
+    },
+    "outcome": {
+      "en": "Contribution to the advancement of youth robotics and the global STEM community. This appointment reinforces the bridge between Panamanian engineering talent and top-tier Japanese academic/technical institutions like Kyutech on a world stage.",
+      "es": "Contribución al avance de la robótica juvenil y la comunidad STEM global. Este nombramiento refuerza el puente entre el talento de ingeniería panameño y las instituciones académicas/técnicas japonesas de primer nivel como Kyutech en el escenario mundial.",
+      "zh": "为青年机器人技术和全球 STEM 社区的发展做出贡献。这次任命加强了巴拿马工程人才与九州工业大学等日本顶级学术/技术机构在世界舞台上的桥梁作用。",
+      "ja": "ユースロボティクスとグローバルな STEM コミュニティの発展への貢献。この任命は、パナマのエンジニアリングの才能と、九工大のような日本のトップクラスの学術・技術機関との間の架け橋を世界の舞台で強化するものです。"
+    },
+    "quote": {
+      "en": "Evaluating the next generation of autonomous systems requires a deep understanding of the silicon-level logic that drives them.",
+      "es": "Evaluar la próxima generación de sistemas autónomos requiere una comprensión profunda de la lógica a nivel de silicio que los impulsa.",
+      "zh": "评估下一代自主系统需要深入了解驱动它们的硅级逻辑。",
+      "ja": "次世代の自律型システムを評価するには、それらを駆動するシリコンレベルのロジックを深く理解する必要があります。"
+    }
+  },
+  "links": {
+    "Official Event": "https://2026.robocup.org/"
+  },
+  "collaborators": [],
+  "institution": {
+    "en": "RoboCup Federation",
+    "es": "Federación RoboCup",
+    "ja": "ロボカップ連盟",
+    "zh": "RoboCup 联合会"
+  },
+  "branch": {
+    "en": "RoboCup Junior - Maze League",
+    "es": "RoboCup Junior - Liga Maze",
+    "zh": "RoboCup Junior - Maze 联赛",
+    "ja": "ロボカップジュニア - Maze リーグ"
+  },
+  "participation": {
+    "en": "International Technical Judge (Junior Volunteer)",
+    "es": "Juez Técnico Internacional (Voluntario Junior)",
+    "zh": "国际技术评审 (青年志愿者)",
+    "ja": "国際技術審査員 (ジュニアボランティア)"
+  },
+  "images": [],
+  "visible": true
+}
 ]
