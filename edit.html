@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KUNG.OS | Project Editor</title>
+    <link rel="stylesheet" href="admin.css">
+    <style>
+        .edit-container {
+            max-width: 1600px;
+            margin: 2rem auto;
+            background: var(--card-bg);
+            padding: 2rem;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+        }
+
+        .form-stack {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .field-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+        }
+
+        .field-title {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--prof);
+            font-weight: bold;
+            border-left: 3px solid var(--prof);
+            padding-left: 10px;
+            margin-bottom: 5px;
+        }
+
+        .lang-grid {
+            display: grid;
+            gap: 1rem;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        }
+
+        .lang-box {
+            background: rgba(15, 23, 42, 0.5);
+            padding: 1rem;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+        }
+
+        .lang-label {
+            font-size: 0.65rem;
+            color: var(--acad);
+            margin-bottom: 5px;
+            display: block;
+            font-weight: bold;
+        }
+
+        /* Interactive Row Styling */
+        .kv-row {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 0.5rem;
+            align-items: center;
+        }
+
+        .full-width-btn {
+            width: 100%;
+            background: var(--bg);
+            color: var(--acad);
+            border: 1px dashed var(--acad);
+            padding: 12px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.2s;
+            font-size: 0.75rem;
+            margin-top: 5px;
+        }
+
+        .full-width-btn:hover {
+            background: var(--acad);
+            color: var(--bg);
+        }
+
+        .remove-btn {
+            background: #ef4444;
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        input[type="date"],
+        textarea,
+        select {
+            background: var(--bg);
+            border: 1px solid var(--border);
+            color: white;
+            padding: 12px;
+            border-radius: 6px;
+            font-family: inherit;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .btn-row {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+            border-top: 1px solid var(--border);
+            padding-top: 2rem;
+        }
+
+        #saveBtn {
+            background: var(--res);
+            color: var(--bg);
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .cancel-btn {
+            background: transparent;
+            color: #94a3b8;
+            border: 1px solid var(--border);
+            padding: 1rem 2rem;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <body>
+        <div class="edit-container">
+            <div class="form-stack">
+                <!-- Global Controls -->
+                <div class="lang-grid">
+                    <div class="field-group">
+                        <label class="field-title">View Language</label>
+                        <select id="editLangSelect">
+                            <option value="all">All Languages (Side-by-Side)</option>
+                            <option value="en">English</option>
+                            <option value="es">Español</option>
+                            <option value="zh">中文</option>
+                            <option value="ja">日本語</option>
+                        </select>
+                    </div>
+                    <div class="field-group">
+                        <label class="field-title">Visibility</label>
+                        <div
+                            style="display:flex; gap:1rem; background:var(--bg); padding:12px; border-radius:6px; border:1px solid var(--border);">
+                            <label><input type="radio" name="visible" value="true" id="v-true"> Public</label>
+                            <label><input type="radio" name="visible" value="false" id="v-false"> Private</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="field-group" style="margin-top: 15px;">
+                    <div
+                        style="display:flex; align-items:center; gap:1rem; background:var(--bg); padding:12px; border-radius:6px; border:1px solid var(--border);">
+                        <label style="display:flex; align-items:center; gap:8px; cursor:pointer; flex:1;">
+                            <input type="checkbox" id="field-highlight">
+                            <span class="field-title" style="margin:0;">⭐ Highlight</span>
+                        </label>
+                        <div id="rankContainer" style="display:none; flex:1;">
+                            <input type="number" id="field-high-rank" placeholder="Rank"
+                                style="width:100%; padding:4px;">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lang-grid">
+                    <div class="field-group">
+                        <label class="field-title">ID</label>
+                        <input type="number" id="field-id" step="1">
+                    </div>
+                    <div class="field-group">
+                        <label class="field-title">Start Date</label>
+                        <input type="date" id="date-start">
+                    </div>
+                    <div class="field-group">
+                        <label class="field-title">Finish Date</label>
+                        <input type="date" id="date-end">
+                    </div>
+                </div>
+
+                <!-- Profile & Multi-Images (No Language Fields) -->
+                <div class="field-group">
+                    <label class="field-title">Profile Image Path</label>
+                    <input type="text" id="field-profile" placeholder="/assets/profile.jpg">
+                </div>
+
+                <div class="field-group">
+                    <label class="field-title">Project Images (Paths)</label>
+                    <div id="imagesContainer"></div>
+                    <button class="full-width-btn" onclick="window.editor.addImageRow()">+ Add Image</button>
+                </div>
+
+                <!-- Links Section -->
+                <div class="field-group">
+                    <label class="field-title">Links (Key / Value)</label>
+                    <div id="linksContainer"></div>
+                    <button class="full-width-btn" onclick="window.editor.addLinkRow()">+ Add Link</button>
+                </div>
+
+                <!-- Dynamic Multilingual Content -->
+                <div id="dynamicContent" class="form-stack"></div>
+
+                <div class="btn-row">
+                    <button id="saveBtn">Save Project Changes</button>
+                    <button class="cancel-btn" onclick="window.location.href='admin.html'">Cancel</button>
+                </div>
+            </div>
+        </div>
+        <script src="edit.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KUNG.OS Admin Dashboard</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+    <header class="dashboard-header">
+        <h1>KUNG.OS Manager</h1>
+        <div class="controls">
+            <!-- New Project Button -->
+            <button id="newProjectBtn" class="btn-new">+ NEW PROJECT</button>
+
+            <div class="control-group">
+                <label>Language:</label>
+                <select id="langSelect">
+                    <option value="all">All (Default EN)</option>
+                    <option value="en">English</option>
+                    <option value="es">Español</option>
+                    <option value="zh">中文</option>
+                    <option value="ja">日本語</option>
+                </select>
+            </div>
+            <div class="control-group">
+                <label>Sort:</label>
+                <select id="sortSelect">
+                    <option value="date-desc">Date (Newest)</option>
+                    <option value="date-asc">Date (Oldest)</option>
+                    <option value="highlight-desc">High Impact</option>
+                    <option value="title-asc">Title (A-Z)</option>
+                    <option value="title-desc">Title (Z-A)</option>
+                </select>
+            </div>
+            <div class="control-group">
+                <button id="stackBtn">Stack</button>
+                <button id="gridBtn">Grid</button>
+            </div>
+            <input type="file" id="jsonUpload" accept=".json">
+        </div>
+    </header>
+
+    <main id="projectContainer" class="project-stack"></main>
+
+    <script src="admin.js"></script>
+</body>
+</html>

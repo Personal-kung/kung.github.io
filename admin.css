@@ -1,0 +1,94 @@
+:root {
+    --bg: #080c12;
+    --card-bg: #1e293b;
+    --text: #f8fafc;
+    --border: #334155;
+    --prof: #4fc3f7;
+    --res: #2dd4a7;
+    --acad: #fbbf24;
+}
+
+body { background: var(--bg); color: var(--text); font-family: sans-serif; padding: 2rem; }
+.dashboard-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border); padding-bottom: 1rem; margin-bottom: 2rem; }
+.controls { display: flex; gap: 1rem; flex-wrap: wrap; }
+input, select, button { background: var(--card-bg); color: white; border: 1px solid var(--border); padding: 8px; border-radius: 6px; }
+
+#projectContainer { display: grid; gap: 1rem; }
+.project-grid { grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
+.project-stack { grid-template-columns: 1fr; }
+
+.project-card { 
+    background: var(--card-bg); 
+    border-radius: 12px; 
+    padding: 1.5rem; 
+    cursor: pointer; 
+    border: 2px solid transparent;
+    transition: 0.2s;
+}
+
+/* Category Colors & Visibility Logic */
+.cat-professional { border-color: var(--prof); color: var(--prof); }
+.cat-research { border-color: var(--res); color: var(--res); }
+.cat-academic { border-color: var(--acad); color: var(--acad); }
+
+.is-hidden { opacity: 0.4; filter: grayscale(0.8); }
+.is-visible { opacity: 1; filter: none; }
+
+.project-card h3 { margin: 0; color: var(--text); }
+.meta { display: flex; justify-content: space-between; margin-top: 10px; font-size: 0.8rem; color: #94a3b8; }
+
+/* Edit Panel Columns */
+.edit-grid { display: grid; gap: 2rem; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+.lang-column { background: rgba(255,255,255,0.05); padding: 1rem; border-radius: 8px; }
+.form-stack { display: flex; flex-direction: column; gap: 1rem; }
+.field-group { display: flex; flex-direction: column; }
+label { font-size: 0.75rem; text-transform: uppercase; margin-bottom: 4px; color: #38bdf8; }
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #334155; /* Neutral/Border color */
+  transition: .4s;
+  border-radius: 20px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 14px;
+  width: 14px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: var(--res); /* Using your green/result variable */
+}
+
+input:checked + .slider:before {
+  transform: translateX(20px);
+}
+
