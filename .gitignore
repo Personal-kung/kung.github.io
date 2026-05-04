@@ -1,1 +1,3 @@
 .env.local
+# Firebase configuration (replace with your actual config)
+firebase-config.js

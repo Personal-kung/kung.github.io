@@ -148,7 +148,7 @@ const App = (() => {
       document.getElementById('dossier-btn').addEventListener('click', () => {
         // Directly get the value from the select element
         const langSelect = document.getElementById('lang-select');
-        const currentLang = langSelect ? langSelect.value : 'en';        
+        const currentLang = langSelect ? langSelect.value : 'en';
         generateDossier(currentLang);
       });
     }
@@ -159,12 +159,12 @@ const App = (() => {
 
   function renderHighlights() {
     const hc = $("#highlights-container");
-    if (!hc) return;    
+    if (!hc) return;
     const highlights = sortByDate(_visible.filter(e => e.highlight))
       .sort((a, b) => a.highlight - b.highlight);
 
-    const frag = document.createDocumentFragment();    
-    highlights.forEach(i => {      
+    const frag = document.createDocumentFragment();
+    highlights.forEach(i => {
       const card = document.createElement("div");
       card.className = "highlight-card clickable-card";
       card.dataset.href = `details.html?projectId=${i.id}`;
@@ -187,7 +187,7 @@ const App = (() => {
 
   // Curated cover images per product (from validated images)
   const PORTFOLIO_COVERS = {
-    "Robotics": "images/thumbnails/silla_inteligente1.webp",
+    "Robotics": "images/thumbnails/tesis1.webp",
     "Dashboards": "images/thumbnails/dashboard.webp",
     "Programming": "images/thumbnails/aplicacion_transporte.webp",
     "Electronics": "images/thumbnails/PCB1.webp",
@@ -206,8 +206,12 @@ const App = (() => {
 
     pt.innerHTML = Object.keys(seen).map(p => {
       const meta = CATEGORY_META[p] || CATEGORY_META["Research & Engineering"];
+      // console.log(`Rendering portfolio for product: ${p} | portfolio image: ${PORTFOLIO_COVERS[p] || 'N/A'} | projects count: ${seen[p]}`);  
       return `
-        <div class="portfolio-card" onclick="window.open('portfolio_summary.html?product=${encodeURIComponent(p)}', '_blank')">
+      <div class="portfolio-card" onclick="window.open('portfolio_summary.html?product=${encodeURIComponent(p)}', '_blank')">
+        <div class="p-img-wrapper">
+          <img data-src="${PORTFOLIO_COVERS[p] || ''}" src="" alt="${p}" loading="lazy">
+        </div>
           <div class="p-content">
             <h3>${t(p)}</h3>
             <p>${tF(meta.desc)}</p>

@@ -1,3 +1,19 @@
+// js/admin.js
+import { db } from './firebase-config.js'; // Note the './' prefix
+import { collection, getDocs } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js";
+
+// Test connection by fetching projects
+async function testConnection() {
+    try {
+        const querySnapshot = await getDocs(collection(db, "projects"));
+        console.log("Connection successful! Found documents:", querySnapshot.size);
+    } catch (e) {
+        console.error("Error connecting to Firebase:", e);
+    }
+}
+
+testConnection();
+
 class ProjectManager {
     constructor(containerId) {
         this.container = document.getElementById(containerId);
