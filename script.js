@@ -10,7 +10,7 @@ import { db } from './firebase-config.js';
 import { collection, onSnapshot, query, orderBy } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js";
 
 /* ─── App State ──────────────────────────────────────────────────────── */
-const App = (() => {
+const App = (async() => {
   let _data = null, _visible = [], _filtered = [], _collabs = [], _lang = "en";
   const LANG_SELECT = document.getElementById("lang-select");
 
@@ -404,7 +404,7 @@ const App = (() => {
     return finalLang;
   }
 
-  await function init() {
+  async function init() {
     _lang = LANG_SELECT.value;
     document.getElementById("year").textContent = new Date().getFullYear();
 
@@ -414,7 +414,7 @@ const App = (() => {
     // 2. The single combined logic block
     try {
       console.info("[Portfolio] Attempting to connect to Firebase for real-time updates...");
-      const firstFirebaseLoad = new Promise((resolve) => {
+      const firstFirebaseLoad = await new Promise((resolve) => {
         onSnapshot(collection(db, "projects"), (snap) => {
           entries = snap.docs.map(d => ({ ...d.data(), id: d.id }));          
           resolve();
