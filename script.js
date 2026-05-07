@@ -404,7 +404,7 @@ const App = (() => {
     return finalLang;
   }
 
-  async function init() {
+  await function init() {
     _lang = LANG_SELECT.value;
     document.getElementById("year").textContent = new Date().getFullYear();
 
