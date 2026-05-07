@@ -440,7 +440,8 @@ const App = (() => {
     //     fetch("data/information.json").then(r => r.json()),
     //     fetch("data/collaborators.json").then(r => r.json()),
     //   ]);
-
+    console.log("Fetched entries:", entries);
+    console.log("Fetched collaborators:", collabs);
     _data = entries;
     _collabs = collabs;
     _visible = entries.filter(isEntryValid);
