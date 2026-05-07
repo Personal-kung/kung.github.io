@@ -1,6 +1,6 @@
 [
   {
-    "id": 56,
+    "id": 0,
     "title": {
       "en": "Technology Camp for Young People in STEM",
       "zh": "面向青少年的STEM科技营",
@@ -5309,7 +5309,7 @@
     "visible": false
   },
   {
-    "id": 55,
+    "id": 54,
     "title": {
       "en": "Virtual Semiconductors bootcamp | Analog IC Design and Fabrication",
       "ja": "アナログICの設計と製造に関するバーチャルブートキャンプ",
@@ -5389,7 +5389,7 @@
     "visible": true
   },
   {
-    "id": 57,
+    "id": 55,
     "title": {
       "en": "The Ultimate Profile Picture: Space Selfie",
       "zh": "终极头像:太空自拍",
@@ -5447,7 +5447,7 @@
     "visible": true
   },
   {
-    "id": 58,
+    "id": 56,
     "title": {
       "en": "17th LSI Test Seminar",
       "zh": "第十七届LSI测试研讨会",
@@ -5513,7 +5513,7 @@
     "visible": true
   },
   {
-    "id": 59,
+    "id": 57,
     "title": {
       "en": "Luxury Touch Massage — Serverless Booking & Admin Platform",
       "zh": "Luxury Touch Massage — 无服务器预约与管理平台",
@@ -5619,7 +5619,7 @@
     "visible": true
   },
   {
-    "id": 60,
+    "id": 58,
     "title": {
       "en": "Master Student",
       "zh": "硕士生",
@@ -5736,7 +5736,7 @@
     "visible": false
   },
   {
-    "id": 61,
+    "id": 59,
     "title": {
       "en": "UTP Physical Infrastructure Capacity Study — Power Platform",
       "zh": "UTP 实体基础设施容量研究——Power Platform",
@@ -5869,7 +5869,7 @@
     "visible": true
   },
   {
-    "id": 62,
+    "id": 60,
     "title": {
       "en": "University Transport Management System — Power Platform",
       "es": "Sistema de Gestión de Transporte Universitario — Power Platform",
@@ -5967,7 +5967,7 @@
     "visible": true
   },
   {
-    "id": 63,
+    "id": 61,
     "title": {
       "en": "2024 IEEE ICCA Hackathon",
       "es": "2024 IEEE ICCA Hackathon",
@@ -6057,7 +6057,7 @@
     "visible": true
   },
   {
-  "id": 64,
+  "id": 62,
   "title": {
     "en": "RoboCup 2026 International Competition Incheon",
     "ja": "ロボカップ 2026 国際競技大会 仁川",
