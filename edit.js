@@ -1,3 +1,6 @@
+import { db } from './firebase-config.js';
+import { doc, setDoc } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js";
+
 class ProjectEditor {
     constructor() {
         this.data = JSON.parse(localStorage.getItem('edit_data')) || {};
@@ -19,7 +22,7 @@ class ProjectEditor {
 
     init() {
         const idField = document.getElementById('field-id');
-        
+
         // Automation: ID based on project count if new
         // Note: this.getProjectCount() should be defined in admin.js/window.manager
         if (!this.data.id || this.data.id === 0) {
@@ -45,7 +48,7 @@ class ProjectEditor {
 
         const currentHighlight = parseInt(this.data.highlight) || 0;
         highToggle.checked = currentHighlight > 0;
-        
+
         if (highToggle.checked) {
             rankInput.value = currentHighlight;
             rankCont.style.display = "block";
@@ -121,7 +124,7 @@ class ProjectEditor {
             } else {
                 val = this.data[fieldKey] ? (this.data[fieldKey][l] || '') : '';
             }
-            
+
             html += `
                 <div class="lang-box">
                     <span class="lang-label">${l.toUpperCase()}</span>
@@ -186,10 +189,10 @@ class ProjectEditor {
         }
     }
 
-    save(isTest = true) {
+    async save(isTest = false) {
         // Reset/Initialize schema structures
         this.data.content = this.data.content || {};
-        
+
         document.querySelectorAll('.text-input').forEach(el => {
             const { l, f } = el.dataset;
             if (f.includes('.')) {
@@ -237,17 +240,42 @@ class ProjectEditor {
             return;
         }
 
-        let allProjects = JSON.parse(localStorage.getItem('projects_cache')) || [];
-        const index = allProjects.findIndex(p => p.id === this.data.id);
-        if (index !== -1) {
-            allProjects[index] = this.data;
-        } else {
-            allProjects.push(this.data);
-        }
-        localStorage.setItem('projects_cache', JSON.stringify(allProjects));
+        try {
+            
+            console.log("🚀 Starting Cloud Upload...");
 
-        alert("Project saved successfully.");
-        window.location.href = 'admin.html';
+            // Ensure ID is a string to prevent malformed URL segments
+            const docId = String(this.data.id);
+            const docRef = doc(db, "projects", docId);
+
+            console.log("Attempting to sync project with ID:", docId);
+
+            // setDoc with merge:true mimics the behavior of a clean upload script
+            await setDoc(docRef, this.data, { merge: true });
+            console.log("Empty document")
+
+            console.log(`✅ Successfully synced project ${docId} to Firestore.`);
+
+            // 4. Update local cache to keep Admin UI in sync
+            let allProjects = JSON.parse(localStorage.getItem('projects_cache')) || [];
+            const index = allProjects.findIndex(p => p.id === this.data.id);
+            if (index !== -1) {
+                allProjects[index] = this.data;
+            } else {
+                allProjects.push(this.data);
+            }
+            localStorage.setItem('projects_cache', JSON.stringify(allProjects));
+
+            alert("Project saved and synced successfully.");
+            window.location.href = 'admin.html';           
+
+        } catch (error) {
+            console.error("❌ Cloud Save Failure:", error);
+            alert("Firestore Write Blocked. Check your internet or ad-blocker.");
+        }
+
+        // alert("Project saved successfully.");
+        // window.location.href = 'admin.html';
     }
 
     setupListeners() {

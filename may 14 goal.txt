@@ -55,8 +55,9 @@ When presenting to the Japanese company, emphasize the **"Transition to Industry
 This demonstrates that you are not just a student, but a professional ready to be "on the lookout" for the next global challenge.
 
 Tasks to prioritize for May 14
-1. dossier
-2. admin
+1. dossier 80%
+2. admin [done]
+2.5 firebase storage
 3. 2FA
 4. LLM integration
 

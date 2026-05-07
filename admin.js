@@ -1,6 +1,6 @@
 // js/admin.js
 import { db } from './firebase-config.js'; // Note the './' prefix
-import { collection, getDocs } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js";
+import { collection, getDocs, query, orderBy } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js";
 
 // Test connection by fetching projects
 async function testConnection() {
@@ -37,20 +37,49 @@ class ProjectManager {
 
     async init() {
         try {
-            // Priority: Load from cache if user has been editing, else fetch JSON
+            // 1. Check Cache first for speed/offline editing
             const cached = localStorage.getItem('projects_cache');
+            console.log("Checking localStorage cache for projects...");
             if (cached) {
-                console.log("Loaded projects from cache");
+                console.log("⚡ Loaded projects from localStorage cache");
                 this.projects = JSON.parse(cached);
             } else {
-                console.log("Loaded projects from JSON");
-                const res = await fetch('data/testing.json');
-                const data = await res.json();
-                this.projects = data.projects || data;
+                console.log("☁️ Attempting to load projects from Firebase Firestore...");
+
+                // 2. Fetch from Cloud Bucket
+                const q = query(collection(db, "projects"), orderBy("id", "asc"));
+                console.log("Querying Firestore with:", q);
+                const querySnapshot = await getDocs(q);
+
+                if (!querySnapshot.empty) {
+                    this.projects = [];
+                    querySnapshot.forEach((doc) => {
+                        this.projects.push(doc.data());
+                    });
+                    console.log("✅ Successfully loaded projects from Firebase");
+                } else {
+                    // 3. Fallback to Local Bucket (test.json) if Firebase is empty or failing
+                    console.warn("⚠️ Firestore empty, falling back to test.json");
+                    const res = await fetch('test.json');
+                    const data = await res.json();
+                    this.projects = data.projects || data;
+                }
             }
+
             this.setupListeners();
             this.render();
-        } catch (e) { console.error("Load failed"); }
+        } catch (e) {
+            console.error("❌ Firestore load failed, trying local JSON backup:", e);
+            // Final fallback if the network/Firebase config fails
+            try {
+                const res = await fetch('test.json');
+                const data = await res.json();
+                this.projects = data.projects || data;
+                this.render();
+            } catch (jsonErr) {
+                console.error("Critical Load Failure: Both Firebase and JSON failed.");
+            }
+        }
     }
 
     setupListeners() {
