@@ -5,6 +5,10 @@
    ===================================================================== */
 "use strict";
 import { generateDossier } from './dossier.js';
+//required for "real time updates" from firebase, currently not in use but may be useful for future updates without redeploying the static site
+import { db } from './firebase-config.js';
+import { collection, onSnapshot, query, orderBy } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js";
+
 /* ─── App State ──────────────────────────────────────────────────────── */
 const App = (() => {
   let _data = null, _visible = [], _filtered = [], _collabs = [], _lang = "en";
@@ -404,11 +408,38 @@ const App = (() => {
     _lang = LANG_SELECT.value;
     document.getElementById("year").textContent = new Date().getFullYear();
 
-    // Single fetch — shared across all renderers
-    const [entries, collabs] = await Promise.all([
-      fetch("data/information.json").then(r => r.json()),
-      fetch("data/collaborators.json").then(r => r.json()),
-    ]);
+    // // 1. Initial assignment from Cache (Instant speed)
+    let entries = JSON.parse(localStorage.getItem('cache_e')) || [];
+    
+    // 2. The single combined logic block
+    try {      
+      const firstFirebaseLoad = new Promise((resolve) => {
+        onSnapshot(collection(db, "projects"), (snap) => {
+          entries = snap.docs.map(d => ({ ...d.data(), id: d.id }));          
+          resolve();
+        }, async () => {
+          if (!entries.length) {
+            entries = await fetch("test.json").then(r => r.json());
+          }
+          resolve();
+        });
+      });
+    } catch (e) {
+      console.error("Connection failed, check local JSON.");
+      // Single fetch — shared across all renderers
+      const [entries, collabs] = await Promise.all([
+        fetch("data/information.json").then(r => r.json()),
+        fetch("data/collaborators.json").then(r => r.json()),
+      ]);
+    }
+
+    const collabs = await fetch("data/collaborators.json").then(r => r.json());
+
+    // Tested correctly function in case 
+    // const [entries, collabs] = await Promise.all([
+    //     fetch("data/information.json").then(r => r.json()),
+    //     fetch("data/collaborators.json").then(r => r.json()),
+    //   ]);
 
     _data = entries;
     _collabs = collabs;
