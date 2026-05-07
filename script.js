@@ -412,14 +412,17 @@ const App = (() => {
     let entries = JSON.parse(localStorage.getItem('cache_e')) || [];
     
     // 2. The single combined logic block
-    try {      
+    try {
+      console.info("[Portfolio] Attempting to connect to Firebase for real-time updates...");
       const firstFirebaseLoad = new Promise((resolve) => {
         onSnapshot(collection(db, "projects"), (snap) => {
           entries = snap.docs.map(d => ({ ...d.data(), id: d.id }));          
           resolve();
+          console.info(`[Portfolio] Firebase connected. Loaded ${entries.length} entries.`);
         }, async () => {
           if (!entries.length) {
-            entries = await fetch("test.json").then(r => r.json());
+            console.log("[Portfolio] Firebase connection failed or no data. Falling back to JSON.");
+            entries = await fetch("data/information.json").then(r => r.json());
           }
           resolve();
         });
