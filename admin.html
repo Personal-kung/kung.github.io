@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>KUNG.OS Admin Dashboard</title>
     <link rel="stylesheet" href="admin.css">
 </head>
+
 <body>
     <header class="dashboard-header">
         <h1>KUNG.OS Manager</h1>
@@ -40,10 +43,11 @@
             <input type="file" id="jsonUpload" accept=".json">
         </div>
     </header>
-
     <main id="projectContainer" class="project-stack"></main>
-    
+
+    <script src="config.js"></script>
     <script type="module" src="admin.js"></script>
     <script type="module" src="firebase-config.js"></script>
 </body>
+
 </html>
