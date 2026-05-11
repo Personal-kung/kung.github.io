@@ -4,7 +4,7 @@ import { getStorage } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-s
 
 // Read from the globally loaded config.js
 const firebaseConfig = {
-  apiKey: window.FIREBASE_CONFIG.Firebase_API_Key,
+  apiKey: window.FIREBASE_CONFIG.apiKey,
   authDomain: window.FIREBASE_CONFIG.authDomain,
   projectId: window.FIREBASE_CONFIG.projectId,
   storageBucket: window.FIREBASE_CONFIG.storageBucket,
