@@ -379,7 +379,7 @@ const App = (() => {
 
   // Curated cover images per product (from validated images)
   const PORTFOLIO_COVERS = {
-    "Robotics": "images/thumbnails/silla_inteligente1.webp",
+    "Robotics": "images/thumbnails/labsi_insight.webp",
     "Dashboards": "images/thumbnails/dashboard.webp",
     "Programming": "images/thumbnails/aplicacion_transporte.webp",
     "Electronics": "images/thumbnails/PCB1.webp",
