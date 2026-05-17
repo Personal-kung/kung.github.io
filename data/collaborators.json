@@ -237,5 +237,121 @@
             "zh": "巴拿马",
             "ja": "パナマ"
         }
+    },
+    {
+        "name": "Anthony J. Martínez R.",
+        "image_url": "images/tony1.jpg",
+        "webpage": "http://www.investigadores.utp.ac.pa/investigadores/anthony.martinez",
+        "title": {
+            "en": "Mgtr.",
+            "es": "Mgtr.",
+            "zh": "硕士",
+            "ja": "修士"
+        },
+        "university": {
+            "es": "Grupo de Investigación en Gamificación (GIG)",
+            "en": "Gamification Research Group (GIG)",
+            "zh": "游戏化研究小组 (GIG)",
+            "ja": "ゲーミフィケーション研究グループ (GIG)"
+        },
+        "branch": {           
+            "es": "Laboratorio de Investigación en Gamificación Aplicada (LIGA)",
+            "en": "Applied Gamification Research Laboratory (LIGA)",
+            "zh": "应用游戏化研究实验室 (LIGA)",
+            "ja": "応用ゲーミフィケーション研究所 (LIGA)"
+        },
+        "country": {
+            "en": "Panama",
+            "es": "Panamá",
+            "zh": "巴拿马",
+            "ja": "パナマ"
+        }
+    },
+    {
+        "name": "Yarisel Núñez",
+        "image_url": "images/foto-gamificacion-yarisel-1.jpg",
+        "webpage": "http://www.investigadores.utp.ac.pa/investigadores/yarisel.nunez",
+        "title": {
+            "en": "Mgtr.",
+            "es": "Mgtr.",
+            "zh": "硕士",
+            "ja": "修士"
+        },
+        "university": {
+            "es": "Grupo de Investigación en Gamificación (GIG)",
+            "en": "Gamification Research Group (GIG)",
+            "zh": "游戏化研究小组 (GIG)",
+            "ja": "ゲーミフィケーション研究グループ (GIG)"
+        },
+        "branch": {           
+            "es": "Laboratorio de Investigación en Gamificación Aplicada (LIGA)",
+            "en": "Applied Gamification Research Laboratory (LIGA)",
+            "zh": "应用游戏化研究实验室 (LIGA)",
+            "ja": "応用ゲーミフィケーション研究所 (LIGA)"
+        },
+        "country": {
+            "en": "Panama",
+            "es": "Panamá",
+            "zh": "巴拿马",
+            "ja": "パナマ"
+        }
+    },
+    {
+        "name": "Ismael Camargo",
+        "image_url": "images/foto-gamificacion.png",
+        "webpage": "http://www.investigadores.utp.ac.pa/investigadores/ismael.camargo",
+        "title": {
+            "en": "Mgtr.",
+            "es": "Mgtr.",
+            "zh": "硕士",
+            "ja": "修士"
+        },
+        "university": {
+            "es": "Grupo de Investigación en Gamificación (GIG)",
+            "en": "Gamification Research Group (GIG)",
+            "zh": "游戏化研究小组 (GIG)",
+            "ja": "ゲーミフィケーション研究グループ (GIG)"
+        },
+        "branch": {           
+            "es": "Laboratorio de Investigación en Gamificación Aplicada (LIGA)",
+            "en": "Applied Gamification Research Laboratory (LIGA)",
+            "zh": "应用游戏化研究实验室 (LIGA)",
+            "ja": "応用ゲーミフィケーション研究所 (LIGA)"
+        },
+        "country": {
+            "en": "Panama",
+            "es": "Panamá",
+            "zh": "巴拿马",
+            "ja": "パナマ"
+        }
+    },
+    {
+        "name": "Yenny Ochomogo",
+        "image_url": "images/yenny1.jpg",
+        "webpage": "http://www.investigadores.utp.ac.pa/investigadores/yenny.ochomogo",
+        "title": {
+            "en": "Licda.",
+            "es": "Licda.",
+            "zh": "学士",
+            "ja": "学士"
+        },
+        "university": {
+            "es": "Grupo de Investigación en Gamificación (GIG)",
+            "en": "Gamification Research Group (GIG)",
+            "zh": "游戏化研究小组 (GIG)",
+            "ja": "ゲーミフィケーション研究グループ (GIG)"
+        },
+        "branch": {           
+            "es": "Laboratorio de Investigación en Gamificación Aplicada (LIGA)",
+            "en": "Applied Gamification Research Laboratory (LIGA)",
+            "zh": "应用游戏化研究实验室 (LIGA)",
+            "ja": "応用ゲーミフィケーション研究所 (LIGA)"
+        },
+        "country": {
+            "en": "Panama",
+            "es": "Panamá",
+            "zh": "巴拿马",
+            "ja": "パナマ"
+        }
     }
 ]
