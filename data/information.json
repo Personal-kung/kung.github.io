@@ -6056,5 +6056,96 @@
     },
     "profile_image": "images/ICCA-Hackathon-2024.webp",
     "visible": true
+  },
+  {
+    "id": 64,
+    "title": {
+      "en": "2026 TSMC Semiconductor Day",
+      "es": "Día del Semiconductores TSMC 2026",
+      "zh": "2026 TSMC 半导体日",
+      "ja": "2026 TSMC 半導体デー"      
+    },
+    "summary": {
+      "en": "Synthesized advanced control laws and multi-agent perception to architect a robust autonomous driving system under high-pressure competitive constraints. Leveraged the IEEE ICCA platform to bridge the gap between theoretical simulation and scalable, real-world robotic coordination.",
+      "es": "Sinteticé leyes de control avanzadas y percepción multiagente para diseñar un sistema de conducción autónoma robusto bajo restricciones competitivas de alta presión. Aproveché la plataforma IEEE ICCA para tender el puente entre la simulación teórica y la coordinación robótica escalable en el mundo real.",
+      "zh": "综合应用先进的控制算法与多智能体感知技术,在极具挑战性的竞赛环境中构建了一个鲁棒的自动驾驶系统。利用 IEEE ICCA 平台,成功弥合了理论仿真与可扩展的现实世界机器人协同之间的鸿沟。",
+      "ja": "高圧な競技環境下で、高度な制御理論とマルチエージェントの知覚を統合し、堅牢な自動運転システムを構築しました。IEEE ICCAプラットフォームを活用することで、理論的なシミュレーションと実世界でのスケーラブルなロボット協調との間のギャップを埋めることに成功しました。"
+    },
+    "category": {
+      "en": "Academic",
+      "es": "Académico",
+      "zh": "学术的",
+      "ja": "学術的"      
+    },
+    "tags": {
+      "en": [
+        "<strong>Autonomous Robotics 🤖</strong>",
+        "<strong>Control Systems 📉</strong>",
+        "<strong>Intelligent Transport 🏎️</strong>",
+        "<strong>Rapid Prototyping ⚡</strong>",
+        "<strong>IEEE Innovation 🌐</strong>"
+      ],
+      "es": [
+        "<strong>Robótica Autónoma 🤖</strong>",
+        "<strong>Sistemas de Control 📉</strong>",
+        "<strong>Transporte Inteligente 🏎️</strong>",
+        "<strong>Prototipado Rápido ⚡</strong>",
+        "<strong>Innovación IEEE 🌐</strong>"
+      ],
+      "zh": [
+        "<strong>机器人技术 🤖</strong>",
+        "<strong>控制系统 📉</strong>",
+        "<strong>智能交通 🏎️</strong>",
+        "<strong>快速原型 ⚡</strong>",
+        "<strong>IEEE 创新 🌐</strong>"
+      ],
+      "ja": [
+        "<strong>ロボット工学 🤖</strong>",
+        "<strong>制御システム 📉</strong>",
+        "<strong>インテリジェント交通 🏎️</strong>",
+        "<strong>ラピッドプロトタイピング ⚡</strong>",
+        "<strong>IEEEイノベーション 🌐</strong>"
+      ]
+    },
+    "start": null,
+    "finish": "06/15/2026",
+    "content": {
+      "details": {
+        "en": "The presentation provided a comprehensive overview of the semiconductor industry’s historical trajectory in Japan, tracing its evolution alongside the strategic development of current manufacturing leaders. A central focus was placed on the collaborative partnership between TSMC and JASM, detailing how these organizations are working together to revitalize the local ecosystem. This collaborative framework aims to leverage shared expertise to ensure a stable and innovative supply chain within the region.<br>In addition to historical and organizational insights, the speakers delved into technical specifics regarding various technology nodes and their practical applications across diverse industries. The session identified key clients and market segments that benefit from these advancements, illustrating the vital role of modern chip architecture in driving global technology trends. By mapping out the technological roadmap, the presenters demonstrated the sophisticated infrastructure currently supporting high-performance computing and consumer electronics.",
+        "es": "La presentación proporcionó una visión general completa de la trayectoria histórica de la industria de semiconductores en Japón, rastreando su evolución junto con el desarrollo estratégico de los líderes actuales de fabricación. Se centró especialmente en la asociación colaborativa entre TSMC y JASM, detallando cómo estas organizaciones están trabajando juntas para revitalizar el ecosistema local. Este marco colaborativo tiene como objetivo aprovechar la experiencia compartida para garantizar una cadena de suministro estable e innovadora dentro de la región.<br>Además de los conocimientos históricos y organizativos, los ponentes profundizaron en detalles técnicos sobre varios nodos tecnológicos y sus aplicaciones prácticas en diversas industrias. La sesión identificó clientes clave y segmentos de mercado que se benefician de estos avances, ilustrando el papel vital de la arquitectura moderna de chips en impulsar las tendencias tecnológicas globales. Al trazar la hoja de ruta tecnológica, los presentadores demostraron la sofisticada infraestructura que actualmente respalda la computación de alto rendimiento y la electrónica de consumo.",
+        "zh": "该演讲全面概述了日本半导体产业的历史轨迹，追溯了其与当前制造领导者战略发展的演变。重点放在TSMC与JASM之间的合作伙伴关系上，详细介绍了这些组织如何共同努力振兴当地生态系统。这个合作框架旨在利用共享的专业知识，确保该地区内稳定和创新的供应链。<br>除了历史和组织方面的见解外，演讲者还深入探讨了各种技术节点的技术细节及其在不同行业中的实际应用。会议确定了受益于这些进步的关键客户和市场细分，说明了现代芯片架构在推动全球技术趋势中的重要作用。通过规划技术路线图，演讲者展示了目前支持高性能计算和消费电子产品的复杂基础设施。",
+        "ja": "このプレゼンテーションでは、日本の半導体産業の歴史的な軌跡を包括的に概観し、現在の製造リーダーの戦略的な発展とともにその進化を追っていました。特に、TSMCとJASMの協力関係に焦点を当て、これらの組織が地域のエコシステムを活性化するためにどのように協力しているかを詳述しました。この協力的な枠組みは、地域内で安定した革新的なサプライチェーンを確保するために、共有された専門知識を活用することを目的としています。<br>歴史的および組織的な洞察に加えて、講演者はさまざまな技術ノードに関する技術的な詳細と、それらがさまざまな業界での実際の応用について掘り下げました。セッションでは、これらの進歩から利益を得る主要なクライアントと市場セグメントを特定し、現代のチップアーキテクチャがグローバルな技術トレンドを推進する上での重要な役割を説明しました。技術ロードマップを描くことで、プレゼンターは現在高性能コンピューティングと消費者向け電子機器をサポートする洗練されたインフラストラクチャを示しました。"
+        
+      },
+      "quote": {
+        "en": "True engineering isn't just about solving the equations on the chalkboard; it’s about forcing the elegance of mathematical theory to survive the beautiful chaos of real-world autonomous interaction.",
+        "es": "La verdadera ingeniería no consiste solo en resolver ecuaciones en la pizarra; consiste en obligar a la elegancia de la teoría matemática a sobrevivir al hermoso caos de la interacción autónoma en el mundo real.",
+        "zh": "真正的工程设计不仅仅是在黑板上解方程;它是关于强迫数学理论的优雅在现实世界的自主交互的美丽混乱中生存下来。",
+        "ja": "真のエンジニアリングとは、黒板の数式を解くだけでなく、数学理論の優雅さを、現実世界の自律的な相互作用の美しい混沌の中で生き残らせることなのです。"
+      }
+    },
+    "institution": {      
+      "en": "JASM | Japan Advanced Semiconductor Manufacturing",
+      "es": "JASM | Fabricación Avanzada de Semiconductores de Japón",
+      "zh": "JASM | 日本先进半导体制造",
+      "ja": "JASM | 日本先進半導体製造"
+    },
+    "branch": null,
+    "participation": {
+      "en": "Participant",
+      "es": "Participante",
+      "zh": "参与者",
+      "ja": "参加者"        
+    },
+    "profile_image": "images/JASM1.jpg",
+    "images": [
+      "images/JASM1.jpg",
+      "images/JASM2.jpg",
+      "images/JASM3.jpg",
+      "images/JASM4.jpg",
+      "images/JASM5.jpg",
+      "images/JASM6.jpg"
+    ],
+    "visible": true
   }
 ]
