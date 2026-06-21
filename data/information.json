@@ -5033,7 +5033,7 @@
       "images/PCB4.JPG"
     ],
     "Product": "Research & Engineering",
-    "visible": false,
+    "visible": true,
     "content": {
       "problem": {
         "en": "Junior engineers often struggle with high-speed signal integrity and electromagnetic interference in multi-layer PCB designs.",
