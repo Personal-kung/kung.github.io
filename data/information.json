@@ -6147,5 +6147,96 @@
       "images/JASM6.jpg"
     ],
     "visible": true
+  },
+  {
+    "id": 65,
+    "title": {
+      "ja": "TSMCグループGUC会社紹介",
+      "en": "TSMC Group GUC Company Introduction",
+      "es": "Introducción a la Empresa GUC del Grupo TSMC",
+      "zh": "台积电集团GUC公司介绍"
+    },
+    "summary": {
+      "en":"Japan's electronics industry continues to balance its established manufacturing excellence with groundbreaking advancements in GAA architecture and high-efficiency memory solutions. The strategic focus on automotive and gaming sectors, backed by rigorous safety and connectivity standards, positions the region for sustained growth. Moving forward, the transition to System on Wafer research signifies a commitment to leading the next generation of extreme hardware compaction.",
+      "es":"La industria electrónica de Japón continúa equilibrando su excelencia manufacturera establecida con avances innovadores en arquitectura GAA y soluciones de memoria de alta eficiencia. El enfoque estratégico en los sectores automotriz y de juegos, respaldado por rigurosos estándares de seguridad y conectividad, posiciona a la región para un crecimiento sostenido. De cara al futuro, la transición hacia la investigación de System on Wafer (SoW) significa un compromiso con liderar la próxima generación de compactación extrema de hardware.",
+      "zh":"日本的电子产业继续在其既有的制造卓越性与GAA架构和高效内存解决方案的突破性进展之间取得平衡。对汽车和游戏行业的战略关注，加上严格的安全和连接标准，使该地区在持续增长中占据有利位置。展望未来，向晶圆级系统（SoW）研究的过渡标志着对引领下一代极端硬件紧凑的承诺。",
+      "ja":"日本の電子産業は、確立された製造の卓越性と、GAAアーキテクチャおよび高効率メモリソリューションの画期的な進歩とのバランスを取り続けています。自動車およびゲーム分野への戦略的な焦点は、厳格な安全性と接続性の基準に支えられ、地域の持続的な成長のための有利な立場を確立しています。今後、System on Wafer（SoW）研究への移行は次世代の極端なハードウェアコンパクションをリードすることへのコミットメントを示しています。"
+    },
+    "category": {
+      "en": "Academic",
+      "es": "Académico",
+      "zh": "学术的",
+      "ja": "学術的"      
+    },
+    "tags": {
+      "en": [
+        "<strong>Autonomous Robotics 🤖</strong>",
+        "<strong>Control Systems 📉</strong>",
+        "<strong>Intelligent Transport 🏎️</strong>",
+        "<strong>Rapid Prototyping ⚡</strong>",
+        "<strong>IEEE Innovation 🌐</strong>"
+      ],
+      "es": [
+        "<strong>Robótica Autónoma 🤖</strong>",
+        "<strong>Sistemas de Control 📉</strong>",
+        "<strong>Transporte Inteligente 🏎️</strong>",
+        "<strong>Prototipado Rápido ⚡</strong>",
+        "<strong>Innovación IEEE 🌐</strong>"
+      ],
+      "zh": [
+        "<strong>机器人技术 🤖</strong>",
+        "<strong>控制系统 📉</strong>",
+        "<strong>智能交通 🏎️</strong>",
+        "<strong>快速原型 ⚡</strong>",
+        "<strong>IEEE 创新 🌐</strong>"
+      ],
+      "ja": [
+        "<strong>ロボット工学 🤖</strong>",
+        "<strong>制御システム 📉</strong>",
+        "<strong>インテリジェント交通 🏎️</strong>",
+        "<strong>ラピッドプロトタイピング ⚡</strong>",
+        "<strong>IEEEイノベーション 🌐</strong>"
+      ]
+    },
+    "start": null,
+    "finish": "06/15/2026",
+    "content": {
+      "details": {
+        "en": "The Japanese semiconductor landscape is currently characterized by a concentrated manufacturing sector, where only six major entities—including Sony, SocioNext, Renesas, and memory specialist Kioxia—support a vast network of hundreds of design firms. A significant 33% of these designs are dedicated to the automotive and gaming industries, requiring strict compliance with global standards such as ISO 26262 and various IEEE regulations for multi-chip and dual-die configurations. This robust regulatory framework ensures that Japanese technological output remains at the forefront of quality and reliability in the international market.<br><br>Technological development is aggressively moving toward the 2nm node, with Gate-All-Around (GAA) Nanosheet architecture already progressing through Tapeout and Silicon stages. Innovation in memory technology is particularly striking, as the emergence of High Band Flash (HBF) offers double the speed and ten times the capacity of HBM at a staggering 86% cost reduction. Current research is now pivoting from traditional 3D stacking toward System on Wafer (SoW) designs, reflecting a strategic push for higher compaction and enhanced performance in future hardware iterations.",
+      "es": "El panorama de semiconductores en Japón se caracteriza actualmente por un sector de fabricación concentrado, donde solo seis entidades principales—incluyendo Sony, SocioNext, Ren   esas y el especialista en memoria Kioxia—apoyan una vasta red de cientos de empresas de diseño. Un significativo 33% de estos diseños están dedicados a las industrias automotriz y de juegos, requiriendo un estricto cumplimiento con estándares globales como ISO 26262 y diversas regulaciones IEEE para configuraciones multi-chip y dual-die. Este robusto marco regulatorio asegura que la producción tecnológica japonesa se mantenga a la vanguardia en calidad y fiabilidad en el mercado internacional.<br><br>El desarrollo tecnológico avanza agresivamente hacia el nodo de 2nm, con la arquitectura Gate-All-Around (GAA) Nanosheet ya progresando a través de las etapas de Tapeout y Silicio. La innovación en tecnología de memoria es particularmente notable, ya que la aparición del High Band Flash (HBF) ofrece el doble de velocidad y diez veces la capacidad del HBM con una asombrosa reducción de costos del 86%. La investigación actual ahora se está pivotando desde el apilamiento 3D tradicional hacia diseños System on Wafer (SoW), reflejando un impulso estratégico hacia una mayor compactación y un rendimiento mejorado en futuras iteraciones de hardware.",
+      "zh": "日本半导体产业目前的特点是制造业高度集中,仅有六家主要企业——包括索尼、SocioNext、瑞萨电子以及存储专家Kioxia——支持着数百家设计公司的庞大网络。其中有33%的设计专注于汽车和游戏行业，这些行业需要严格遵守全球标准，如ISO 26262以及针对多芯片和双芯片配置的各种IEEE法规。这一强大的监管框架确保了日本的技术产出在国际市场上保持质量和可靠性的前沿地位。<br><br>技术发展正积极向2纳米节点推进，Gate-All-Around (GAA) Nanosheet架构已经进入Tapeout和硅阶段。存储技术的创新尤为引人注目，高带宽闪存（HBF）的出现提供了HBM两倍的速度和十倍的容量，同时成本降低了惊人的86%。当前的研究正从传统的3D堆叠转向晶圆级系统（SoW）设计，反映出未来硬件迭代中对更高密度和增强性能的战略推动。",
+      "ja": "日本の半導体産業は現在、製造業が集中していることが特徴であり、ソニー、SocioNext、ルネサス  、メモリ専門のKioxiaを含む6つの主要な企業のみが、数百の設計会社の広大なネットワークを支えています。これらの設計の33％は自動車およびゲーム産業に専念しており、ISO 26262やマルチチップおよびデュアルダイ構成に関するさまざまなIEEE規制など、グローバルスタンダードの厳格な遵守が求められています。この強力な規制フレームワークにより、日本の技術的成果は国際市場で品質と信頼性の最前線に留まることが保証されています。<br><br>技術開発は積極的に2nmノードに向かって進んでおり、Gate-All-Around（GAA）ナノシートアーキテクチャはすでにTapeoutおよびシリコン段階を進行中です。メモリ技術の革新は特に注目に値し、高帯域幅フラッシュ（HBF）の出現により、HBMの2倍の速度と10倍の容量が提供され、驚異的な86％のコスト削減が実現されています。現在の研究は、従来の3Dスタッキングからウェーハ上システム（SoW）設計へのピボットを進めており、将来のハードウェア反復における高密度化と性能向上への戦略的な推進を反映しています。"
+      },
+      "quote": {
+        "en": "Beyond Moore's Law: Japan's semiconductor revolution pushes boundaries in GAA architecture, memory efficiency, and automotive-grade safety standards. From silicon to system: Japan's commitment to next-gen hardware compaction cements its position as a global leader in semiconductor innovation.",
+        "es": "Más allá de la Ley de Moore: La revolución de los semiconductores en Japón empuja los límites en arquitectura GAA, eficiencia de memoria y estándares de seguridad de grado automotriz. De silicio a sistema: El compromiso de Japón con la compactación de hardware de próxima generación consolida su posición como líder global en innovación de semiconductores.",
+        "zh": "超越摩尔定律：日本的半导体革命在GAA架构、内存效率和汽车级安全标准方面推动了边界。从�硅到系统：日本对下一代硬件紧凑性的承诺巩固了其作为全球半导体创新领导者的地位。",
+        "ja": "ムーアの法則を超えて：日本の半導体革命は、GAAアーキテクチャ、メモリ効率、および自動車グレードの安全基準において限界を押し広げています。シリコンからシステムへ：次世代ハードウェアのコンパクションに対する日本の取り組みは、半導体イノベーションにおけるグローバルリーダーとしての地位を確固たるものにしています。"
+        
+      }
+    },
+    "institution": {      
+      "en": "GUC | Global Unichip Japan",
+      "es": "GUC | Global Unichip Japón",
+      "zh": "GUC | 全球统一芯片日本",
+      "ja": "GUC | グローバルユニチップ日本"
+    },
+    "branch": null,
+    "participation": {
+      "en": "Participant",
+      "es": "Participante",
+      "zh": "参与者",
+      "ja": "参加者"        
+    },
+    "profile_image": "images/GUC6.jpg",
+    "images": [
+      "images/GUC1.jpg",
+      "images/GUC2.jpg",
+      "images/GUC3.jpg",
+      "images/GUC4.jpg",
+      "images/GUC5.jpg",
+      "images/GUC6.jpg"
+    ],
+    "visible": true
   }
 ]
