@@ -6173,33 +6173,29 @@
         "<strong>Autonomous Robotics 🤖</strong>",
         "<strong>Control Systems 📉</strong>",
         "<strong>Intelligent Transport 🏎️</strong>",
-        "<strong>Rapid Prototyping ⚡</strong>",
-        "<strong>IEEE Innovation 🌐</strong>"
+        "<strong>Rapid Prototyping ⚡</strong>"
       ],
       "es": [
         "<strong>Robótica Autónoma 🤖</strong>",
         "<strong>Sistemas de Control 📉</strong>",
         "<strong>Transporte Inteligente 🏎️</strong>",
-        "<strong>Prototipado Rápido ⚡</strong>",
-        "<strong>Innovación IEEE 🌐</strong>"
+        "<strong>Prototipado Rápido ⚡</strong>"
       ],
       "zh": [
         "<strong>机器人技术 🤖</strong>",
         "<strong>控制系统 📉</strong>",
         "<strong>智能交通 🏎️</strong>",
-        "<strong>快速原型 ⚡</strong>",
-        "<strong>IEEE 创新 🌐</strong>"
+        "<strong>快速原型 ⚡</strong>"
       ],
       "ja": [
         "<strong>ロボット工学 🤖</strong>",
         "<strong>制御システム 📉</strong>",
         "<strong>インテリジェント交通 🏎️</strong>",
-        "<strong>ラピッドプロトタイピング ⚡</strong>",
-        "<strong>IEEEイノベーション 🌐</strong>"
+        "<strong>ラピッドプロトタイピング ⚡</strong>"
       ]
     },
     "start": null,
-    "finish": "06/15/2026",
+    "finish": "06/25/2026",
     "content": {
       "details": {
         "en": "The Japanese semiconductor landscape is currently characterized by a concentrated manufacturing sector, where only six major entities—including Sony, SocioNext, Renesas, and memory specialist Kioxia—support a vast network of hundreds of design firms. A significant 33% of these designs are dedicated to the automotive and gaming industries, requiring strict compliance with global standards such as ISO 26262 and various IEEE regulations for multi-chip and dual-die configurations. This robust regulatory framework ensures that Japanese technological output remains at the forefront of quality and reliability in the international market.<br><br>Technological development is aggressively moving toward the 2nm node, with Gate-All-Around (GAA) Nanosheet architecture already progressing through Tapeout and Silicon stages. Innovation in memory technology is particularly striking, as the emergence of High Band Flash (HBF) offers double the speed and ten times the capacity of HBM at a staggering 86% cost reduction. Current research is now pivoting from traditional 3D stacking toward System on Wafer (SoW) designs, reflecting a strategic push for higher compaction and enhanced performance in future hardware iterations.",
