@@ -6226,13 +6226,108 @@
     },
     "profile_image": "images/GUC6.jpg",
     "images": [
-      "images/GUC1.jpg",
-      "images/GUC2.jpg",
-      "images/GUC3.jpg",
-      "images/GUC4.jpg",
-      "images/GUC5.jpg",
-      "images/GUC6.jpg"
+      "images/robocup.jpg",
+      "images/robocup.jpg",
+      "images/robocup.jpg",
+      "images/robocup.jpg",
+      "images/robocup.jpg",
+      "images/robocup.jpg"
     ],
     "visible": true
+  },
+  {
+    "id": 66,
+    "title": {
+      "en": "Official Judge — RoboCupJunior Rescue Maze | RoboCup 2026, Incheon, Republic of Korea",
+      "es":"Juez Oficial — RoboCupJunior Rescue Maze | RoboCup 2026, Incheon, Corea del Sur",
+      "ja":"RoboCupJunior Rescue Maze 公式審判｜RoboCup 2026・韓国 仁川",
+      "zh":"RoboCupJunior Rescue Maze 官方裁判｜RoboCup 2026 韩国仁川"
+    },
+    "summary": {
+      "en":"Served as an Official International Judge for the RoboCupJunior Rescue Maze competition during RoboCup 2026 in Incheon, Republic of Korea. Contributed to the fair and consistent evaluation of autonomous rescue robotics by conducting robot performance scoring, technical inspections, team interviews, maze construction and validation, competition field setup and calibration, and final score verification. The role supported the integrity of one of the world's leading educational robotics competitions, promoting excellence, innovation, and engineering education within the global robotics community.",
+      "es":"Participé como Juez Oficial Internacional en la competencia RoboCupJunior Rescue Maze durante RoboCup 2026 en Incheon, Corea del Sur. Fui responsable de la evaluación objetiva del desempeño de los robots autónomos, inspecciones técnicas, entrevistas con los equipos, construcción y validación del laberinto, preparación y calibración de las pistas de competencia, así como la verificación final de las puntuaciones. Esta labor contribuyó a garantizar la transparencia y calidad técnica de una de las competiciones internacionales más importantes en robótica educativa.",
+      "ja":"RoboCup 2026（韓国・仁川）において、RoboCupJunior Rescue Maze の公式国際審判を務めました。ロボットの競技評価、技術検査、チームインタビュー、レスキューメイズの設営・検証、競技フィールドのセットアップおよびキャリブレーション、最終スコア確認を担当し、公平かつ高品質な競技運営に貢献しました。教育ロボティクス分野における世界有数の国際大会の運営を支える役割を果たしました。",
+      "zh":"担任 RoboCup 2026（韩国仁川）RoboCupJunior Rescue Maze 项目的国际官方裁判。负责机器人比赛评分、技术检查、参赛队伍技术访谈、救援迷宫搭建与验证、赛场搭建及校准，以及最终成绩核验，确保赛事评审过程公平、规范且符合国际竞赛标准，为全球机器人教育和人工智能人才培养贡献力量"
+    },
+    "category": {
+      "en": "Professional",
+      "es": "Profesional",
+      "zh": "专业的",
+      "ja": "専門的"
+    },
+    "tags": {
+      "en": [
+        "<strong>Autonomous Robotics 🤖</strong>",
+        "<strong>Control Systems 📉</strong>",
+        "<strong>Intelligent Transport 🏎️</strong>",
+        "<strong>Rapid Prototyping ⚡</strong>"
+      ],
+      "es": [
+        "<strong>Robótica Autónoma 🤖</strong>",
+        "<strong>Sistemas de Control 📉</strong>",
+        "<strong>Transporte Inteligente 🏎️</strong>",
+        "<strong>Prototipado Rápido ⚡</strong>"
+      ],
+      "zh": [
+        "<strong>机器人技术 🤖</strong>",
+        "<strong>控制系统 📉</strong>",
+        "<strong>智能交通 🏎️</strong>",
+        "<strong>快速原型 ⚡</strong>"
+      ],
+      "ja": [
+        "<strong>ロボット工学 🤖</strong>",
+        "<strong>制御システム 📉</strong>",
+        "<strong>インテリジェント交通 🏎️</strong>",
+        "<strong>ラピッドプロトタイピング ⚡</strong>"
+      ]
+    },
+    "start": "07/01/2026",
+    "finish": "07/05/2026",
+    "content": {
+      "details": {
+        "en": "The Japanese semiconductor landscape is currently characterized by a concentrated manufacturing sector, where only six major entities—including Sony, SocioNext, Renesas, and memory specialist Kioxia—support a vast network of hundreds of design firms. A significant 33% of these designs are dedicated to the automotive and gaming industries, requiring strict compliance with global standards such as ISO 26262 and various IEEE regulations for multi-chip and dual-die configurations. This robust regulatory framework ensures that Japanese technological output remains at the forefront of quality and reliability in the international market.<br><br>Technological development is aggressively moving toward the 2nm node, with Gate-All-Around (GAA) Nanosheet architecture already progressing through Tapeout and Silicon stages. Innovation in memory technology is particularly striking, as the emergence of High Band Flash (HBF) offers double the speed and ten times the capacity of HBM at a staggering 86% cost reduction. Current research is now pivoting from traditional 3D stacking toward System on Wafer (SoW) designs, reflecting a strategic push for higher compaction and enhanced performance in future hardware iterations.",
+      "es": "El panorama de semiconductores en Japón se caracteriza actualmente por un sector de fabricación concentrado, donde solo seis entidades principales—incluyendo Sony, SocioNext, Ren   esas y el especialista en memoria Kioxia—apoyan una vasta red de cientos de empresas de diseño. Un significativo 33% de estos diseños están dedicados a las industrias automotriz y de juegos, requiriendo un estricto cumplimiento con estándares globales como ISO 26262 y diversas regulaciones IEEE para configuraciones multi-chip y dual-die. Este robusto marco regulatorio asegura que la producción tecnológica japonesa se mantenga a la vanguardia en calidad y fiabilidad en el mercado internacional.<br><br>El desarrollo tecnológico avanza agresivamente hacia el nodo de 2nm, con la arquitectura Gate-All-Around (GAA) Nanosheet ya progresando a través de las etapas de Tapeout y Silicio. La innovación en tecnología de memoria es particularmente notable, ya que la aparición del High Band Flash (HBF) ofrece el doble de velocidad y diez veces la capacidad del HBM con una asombrosa reducción de costos del 86%. La investigación actual ahora se está pivotando desde el apilamiento 3D tradicional hacia diseños System on Wafer (SoW), reflejando un impulso estratégico hacia una mayor compactación y un rendimiento mejorado en futuras iteraciones de hardware.",
+      "zh": "日本半导体产业目前的特点是制造业高度集中,仅有六家主要企业——包括索尼、SocioNext、瑞萨电子以及存储专家Kioxia——支持着数百家设计公司的庞大网络。其中有33%的设计专注于汽车和游戏行业，这些行业需要严格遵守全球标准，如ISO 26262以及针对多芯片和双芯片配置的各种IEEE法规。这一强大的监管框架确保了日本的技术产出在国际市场上保持质量和可靠性的前沿地位。<br><br>技术发展正积极向2纳米节点推进，Gate-All-Around (GAA) Nanosheet架构已经进入Tapeout和硅阶段。存储技术的创新尤为引人注目，高带宽闪存（HBF）的出现提供了HBM两倍的速度和十倍的容量，同时成本降低了惊人的86%。当前的研究正从传统的3D堆叠转向晶圆级系统（SoW）设计，反映出未来硬件迭代中对更高密度和增强性能的战略推动。",
+      "ja": "日本の半導体産業は現在、製造業が集中していることが特徴であり、ソニー、SocioNext、ルネサス  、メモリ専門のKioxiaを含む6つの主要な企業のみが、数百の設計会社の広大なネットワークを支えています。これらの設計の33％は自動車およびゲーム産業に専念しており、ISO 26262やマルチチップおよびデュアルダイ構成に関するさまざまなIEEE規制など、グローバルスタンダードの厳格な遵守が求められています。この強力な規制フレームワークにより、日本の技術的成果は国際市場で品質と信頼性の最前線に留まることが保証されています。<br><br>技術開発は積極的に2nmノードに向かって進んでおり、Gate-All-Around（GAA）ナノシートアーキテクチャはすでにTapeoutおよびシリコン段階を進行中です。メモリ技術の革新は特に注目に値し、高帯域幅フラッシュ（HBF）の出現により、HBMの2倍の速度と10倍の容量が提供され、驚異的な86％のコスト削減が実現されています。現在の研究は、従来の3Dスタッキングからウェーハ上システム（SoW）設計へのピボットを進めており、将来のハードウェア反復における高密度化と性能向上への戦略的な推進を反映しています。"
+      },
+      "quote": {
+        "en": "Innovation is measured not only by the robots we build, but by the standards we uphold for the next generation of engineers.",
+        "es": "La innovación no se mide únicamente por los robots que construimos, sino por los estándares que establecemos para la próxima generación de ingenieros.",
+        "zh": "创新不仅体现在我们制造的机器人，更体现在我们为下一代工程师建立的标准。",
+        "ja": "イノベーションとは、ロボットを作ることだけではなく、次世代のエンジニアのための基準を築くことである。"
+        
+      }
+    },
+    "institution": {      
+      "en": "RoboCup International Federation<br>Ministry of Trade, Industry and Energy (Republic of Korea)<br>Korea AI Robot Association (KAR)",
+      "es":"RoboCup Federation<br>Ministerio de Comercio, Industria y Energía de Corea<br>Korea AI Robot Association",
+      "ja":"RoboCup Federation<br>大韓民国 産業通商資源部<br>Korea AI Robot Association (KAR)",
+      "zh":"RoboCup Federation<br>韩国产业通商资源部<br>韩国人工智能机器人协会（KAR）"
+    },
+    "branch": null,
+    "participation": {
+      "en": "International Judge & Volunteer",
+      "es": "Participante",
+      "zh": "参与者",
+      "ja": "公式国際審判・ボランティア"        
+    },
+    "profile_image": "images/robocup6.jpg",
+    "images": [
+      "images/robocup1.jpg",
+      "images/robocup2.jpg",
+      "images/robocup3.jpg",
+      "images/robocup4.jpg",
+      "images/robocup5.jpg",
+      "images/robocup6.jpg",
+      "images/robocup8.jpg",
+      "images/robocup9.jpg",
+      "images/robocup10.jpg",
+      "images/robocup7.jpg"
+    ],
+    "visible": true,
+    "links": {
+      "RoboCup 2026 website": "https://2026.robocup.org/",
+      "RoboCup Federation":"https://www.robocup.org/"
+    }
   }
 ]
