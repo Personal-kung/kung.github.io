@@ -6063,7 +6063,7 @@
       "en": "2026 TSMC Semiconductor Day",
       "es": "Día del Semiconductores TSMC 2026",
       "zh": "2026 TSMC 半导体日",
-      "ja": "2026 TSMC 半導体デー"      
+      "ja": "2026 TSMC 半導体デー"
     },
     "summary": {
       "en": "Synthesized advanced control laws and multi-agent perception to architect a robust autonomous driving system under high-pressure competitive constraints. Leveraged the IEEE ICCA platform to bridge the gap between theoretical simulation and scalable, real-world robotic coordination.",
@@ -6075,7 +6075,7 @@
       "en": "Academic",
       "es": "Académico",
       "zh": "学术的",
-      "ja": "学術的"      
+      "ja": "学術的"
     },
     "tags": {
       "en": [
@@ -6115,7 +6115,6 @@
         "es": "La presentación proporcionó una visión general completa de la trayectoria histórica de la industria de semiconductores en Japón, rastreando su evolución junto con el desarrollo estratégico de los líderes actuales de fabricación. Se centró especialmente en la asociación colaborativa entre TSMC y JASM, detallando cómo estas organizaciones están trabajando juntas para revitalizar el ecosistema local. Este marco colaborativo tiene como objetivo aprovechar la experiencia compartida para garantizar una cadena de suministro estable e innovadora dentro de la región.<br>Además de los conocimientos históricos y organizativos, los ponentes profundizaron en detalles técnicos sobre varios nodos tecnológicos y sus aplicaciones prácticas en diversas industrias. La sesión identificó clientes clave y segmentos de mercado que se benefician de estos avances, ilustrando el papel vital de la arquitectura moderna de chips en impulsar las tendencias tecnológicas globales. Al trazar la hoja de ruta tecnológica, los presentadores demostraron la sofisticada infraestructura que actualmente respalda la computación de alto rendimiento y la electrónica de consumo.",
         "zh": "该演讲全面概述了日本半导体产业的历史轨迹，追溯了其与当前制造领导者战略发展的演变。重点放在TSMC与JASM之间的合作伙伴关系上，详细介绍了这些组织如何共同努力振兴当地生态系统。这个合作框架旨在利用共享的专业知识，确保该地区内稳定和创新的供应链。<br>除了历史和组织方面的见解外，演讲者还深入探讨了各种技术节点的技术细节及其在不同行业中的实际应用。会议确定了受益于这些进步的关键客户和市场细分，说明了现代芯片架构在推动全球技术趋势中的重要作用。通过规划技术路线图，演讲者展示了目前支持高性能计算和消费电子产品的复杂基础设施。",
         "ja": "このプレゼンテーションでは、日本の半導体産業の歴史的な軌跡を包括的に概観し、現在の製造リーダーの戦略的な発展とともにその進化を追っていました。特に、TSMCとJASMの協力関係に焦点を当て、これらの組織が地域のエコシステムを活性化するためにどのように協力しているかを詳述しました。この協力的な枠組みは、地域内で安定した革新的なサプライチェーンを確保するために、共有された専門知識を活用することを目的としています。<br>歴史的および組織的な洞察に加えて、講演者はさまざまな技術ノードに関する技術的な詳細と、それらがさまざまな業界での実際の応用について掘り下げました。セッションでは、これらの進歩から利益を得る主要なクライアントと市場セグメントを特定し、現代のチップアーキテクチャがグローバルな技術トレンドを推進する上での重要な役割を説明しました。技術ロードマップを描くことで、プレゼンターは現在高性能コンピューティングと消費者向け電子機器をサポートする洗練されたインフラストラクチャを示しました。"
-        
       },
       "quote": {
         "en": "True engineering isn't just about solving the equations on the chalkboard; it’s about forcing the elegance of mathematical theory to survive the beautiful chaos of real-world autonomous interaction.",
@@ -6124,7 +6123,7 @@
         "ja": "真のエンジニアリングとは、黒板の数式を解くだけでなく、数学理論の優雅さを、現実世界の自律的な相互作用の美しい混沌の中で生き残らせることなのです。"
       }
     },
-    "institution": {      
+    "institution": {
       "en": "JASM | Japan Advanced Semiconductor Manufacturing",
       "es": "JASM | Fabricación Avanzada de Semiconductores de Japón",
       "zh": "JASM | 日本先进半导体制造",
@@ -6135,7 +6134,7 @@
       "en": "Participant",
       "es": "Participante",
       "zh": "参与者",
-      "ja": "参加者"        
+      "ja": "参加者"
     },
     "profile_image": "images/JASM1.jpg",
     "images": [
@@ -6157,16 +6156,16 @@
       "zh": "台积电集团GUC公司介绍"
     },
     "summary": {
-      "en":"Japan's electronics industry continues to balance its established manufacturing excellence with groundbreaking advancements in GAA architecture and high-efficiency memory solutions. The strategic focus on automotive and gaming sectors, backed by rigorous safety and connectivity standards, positions the region for sustained growth. Moving forward, the transition to System on Wafer research signifies a commitment to leading the next generation of extreme hardware compaction.",
-      "es":"La industria electrónica de Japón continúa equilibrando su excelencia manufacturera establecida con avances innovadores en arquitectura GAA y soluciones de memoria de alta eficiencia. El enfoque estratégico en los sectores automotriz y de juegos, respaldado por rigurosos estándares de seguridad y conectividad, posiciona a la región para un crecimiento sostenido. De cara al futuro, la transición hacia la investigación de System on Wafer (SoW) significa un compromiso con liderar la próxima generación de compactación extrema de hardware.",
-      "zh":"日本的电子产业继续在其既有的制造卓越性与GAA架构和高效内存解决方案的突破性进展之间取得平衡。对汽车和游戏行业的战略关注，加上严格的安全和连接标准，使该地区在持续增长中占据有利位置。展望未来，向晶圆级系统（SoW）研究的过渡标志着对引领下一代极端硬件紧凑的承诺。",
-      "ja":"日本の電子産業は、確立された製造の卓越性と、GAAアーキテクチャおよび高効率メモリソリューションの画期的な進歩とのバランスを取り続けています。自動車およびゲーム分野への戦略的な焦点は、厳格な安全性と接続性の基準に支えられ、地域の持続的な成長のための有利な立場を確立しています。今後、System on Wafer（SoW）研究への移行は次世代の極端なハードウェアコンパクションをリードすることへのコミットメントを示しています。"
+      "en": "Japan's electronics industry continues to balance its established manufacturing excellence with groundbreaking advancements in GAA architecture and high-efficiency memory solutions. The strategic focus on automotive and gaming sectors, backed by rigorous safety and connectivity standards, positions the region for sustained growth. Moving forward, the transition to System on Wafer research signifies a commitment to leading the next generation of extreme hardware compaction.",
+      "es": "La industria electrónica de Japón continúa equilibrando su excelencia manufacturera establecida con avances innovadores en arquitectura GAA y soluciones de memoria de alta eficiencia. El enfoque estratégico en los sectores automotriz y de juegos, respaldado por rigurosos estándares de seguridad y conectividad, posiciona a la región para un crecimiento sostenido. De cara al futuro, la transición hacia la investigación de System on Wafer (SoW) significa un compromiso con liderar la próxima generación de compactación extrema de hardware.",
+      "zh": "日本的电子产业继续在其既有的制造卓越性与GAA架构和高效内存解决方案的突破性进展之间取得平衡。对汽车和游戏行业的战略关注，加上严格的安全和连接标准，使该地区在持续增长中占据有利位置。展望未来，向晶圆级系统（SoW）研究的过渡标志着对引领下一代极端硬件紧凑的承诺。",
+      "ja": "日本の電子産業は、確立された製造の卓越性と、GAAアーキテクチャおよび高効率メモリソリューションの画期的な進歩とのバランスを取り続けています。自動車およびゲーム分野への戦略的な焦点は、厳格な安全性と接続性の基準に支えられ、地域の持続的な成長のための有利な立場を確立しています。今後、System on Wafer（SoW）研究への移行は次世代の極端なハードウェアコンパクションをリードすることへのコミットメントを示しています。"
     },
     "category": {
       "en": "Academic",
       "es": "Académico",
       "zh": "学术的",
-      "ja": "学術的"      
+      "ja": "学術的"
     },
     "tags": {
       "en": [
@@ -6199,19 +6198,18 @@
     "content": {
       "details": {
         "en": "The Japanese semiconductor landscape is currently characterized by a concentrated manufacturing sector, where only six major entities—including Sony, SocioNext, Renesas, and memory specialist Kioxia—support a vast network of hundreds of design firms. A significant 33% of these designs are dedicated to the automotive and gaming industries, requiring strict compliance with global standards such as ISO 26262 and various IEEE regulations for multi-chip and dual-die configurations. This robust regulatory framework ensures that Japanese technological output remains at the forefront of quality and reliability in the international market.<br><br>Technological development is aggressively moving toward the 2nm node, with Gate-All-Around (GAA) Nanosheet architecture already progressing through Tapeout and Silicon stages. Innovation in memory technology is particularly striking, as the emergence of High Band Flash (HBF) offers double the speed and ten times the capacity of HBM at a staggering 86% cost reduction. Current research is now pivoting from traditional 3D stacking toward System on Wafer (SoW) designs, reflecting a strategic push for higher compaction and enhanced performance in future hardware iterations.",
-      "es": "El panorama de semiconductores en Japón se caracteriza actualmente por un sector de fabricación concentrado, donde solo seis entidades principales—incluyendo Sony, SocioNext, Ren   esas y el especialista en memoria Kioxia—apoyan una vasta red de cientos de empresas de diseño. Un significativo 33% de estos diseños están dedicados a las industrias automotriz y de juegos, requiriendo un estricto cumplimiento con estándares globales como ISO 26262 y diversas regulaciones IEEE para configuraciones multi-chip y dual-die. Este robusto marco regulatorio asegura que la producción tecnológica japonesa se mantenga a la vanguardia en calidad y fiabilidad en el mercado internacional.<br><br>El desarrollo tecnológico avanza agresivamente hacia el nodo de 2nm, con la arquitectura Gate-All-Around (GAA) Nanosheet ya progresando a través de las etapas de Tapeout y Silicio. La innovación en tecnología de memoria es particularmente notable, ya que la aparición del High Band Flash (HBF) ofrece el doble de velocidad y diez veces la capacidad del HBM con una asombrosa reducción de costos del 86%. La investigación actual ahora se está pivotando desde el apilamiento 3D tradicional hacia diseños System on Wafer (SoW), reflejando un impulso estratégico hacia una mayor compactación y un rendimiento mejorado en futuras iteraciones de hardware.",
-      "zh": "日本半导体产业目前的特点是制造业高度集中,仅有六家主要企业——包括索尼、SocioNext、瑞萨电子以及存储专家Kioxia——支持着数百家设计公司的庞大网络。其中有33%的设计专注于汽车和游戏行业，这些行业需要严格遵守全球标准，如ISO 26262以及针对多芯片和双芯片配置的各种IEEE法规。这一强大的监管框架确保了日本的技术产出在国际市场上保持质量和可靠性的前沿地位。<br><br>技术发展正积极向2纳米节点推进，Gate-All-Around (GAA) Nanosheet架构已经进入Tapeout和硅阶段。存储技术的创新尤为引人注目，高带宽闪存（HBF）的出现提供了HBM两倍的速度和十倍的容量，同时成本降低了惊人的86%。当前的研究正从传统的3D堆叠转向晶圆级系统（SoW）设计，反映出未来硬件迭代中对更高密度和增强性能的战略推动。",
-      "ja": "日本の半導体産業は現在、製造業が集中していることが特徴であり、ソニー、SocioNext、ルネサス  、メモリ専門のKioxiaを含む6つの主要な企業のみが、数百の設計会社の広大なネットワークを支えています。これらの設計の33％は自動車およびゲーム産業に専念しており、ISO 26262やマルチチップおよびデュアルダイ構成に関するさまざまなIEEE規制など、グローバルスタンダードの厳格な遵守が求められています。この強力な規制フレームワークにより、日本の技術的成果は国際市場で品質と信頼性の最前線に留まることが保証されています。<br><br>技術開発は積極的に2nmノードに向かって進んでおり、Gate-All-Around（GAA）ナノシートアーキテクチャはすでにTapeoutおよびシリコン段階を進行中です。メモリ技術の革新は特に注目に値し、高帯域幅フラッシュ（HBF）の出現により、HBMの2倍の速度と10倍の容量が提供され、驚異的な86％のコスト削減が実現されています。現在の研究は、従来の3Dスタッキングからウェーハ上システム（SoW）設計へのピボットを進めており、将来のハードウェア反復における高密度化と性能向上への戦略的な推進を反映しています。"
+        "es": "El panorama de semiconductores en Japón se caracteriza actualmente por un sector de fabricación concentrado, donde solo seis entidades principales—incluyendo Sony, SocioNext, Ren   esas y el especialista en memoria Kioxia—apoyan una vasta red de cientos de empresas de diseño. Un significativo 33% de estos diseños están dedicados a las industrias automotriz y de juegos, requiriendo un estricto cumplimiento con estándares globales como ISO 26262 y diversas regulaciones IEEE para configuraciones multi-chip y dual-die. Este robusto marco regulatorio asegura que la producción tecnológica japonesa se mantenga a la vanguardia en calidad y fiabilidad en el mercado internacional.<br><br>El desarrollo tecnológico avanza agresivamente hacia el nodo de 2nm, con la arquitectura Gate-All-Around (GAA) Nanosheet ya progresando a través de las etapas de Tapeout y Silicio. La innovación en tecnología de memoria es particularmente notable, ya que la aparición del High Band Flash (HBF) ofrece el doble de velocidad y diez veces la capacidad del HBM con una asombrosa reducción de costos del 86%. La investigación actual ahora se está pivotando desde el apilamiento 3D tradicional hacia diseños System on Wafer (SoW), reflejando un impulso estratégico hacia una mayor compactación y un rendimiento mejorado en futuras iteraciones de hardware.",
+        "zh": "日本半导体产业目前的特点是制造业高度集中,仅有六家主要企业——包括索尼、SocioNext、瑞萨电子以及存储专家Kioxia——支持着数百家设计公司的庞大网络。其中有33%的设计专注于汽车和游戏行业，这些行业需要严格遵守全球标准，如ISO 26262以及针对多芯片和双芯片配置的各种IEEE法规。这一强大的监管框架确保了日本的技术产出在国际市场上保持质量和可靠性的前沿地位。<br><br>技术发展正积极向2纳米节点推进，Gate-All-Around (GAA) Nanosheet架构已经进入Tapeout和硅阶段。存储技术的创新尤为引人注目，高带宽闪存（HBF）的出现提供了HBM两倍的速度和十倍的容量，同时成本降低了惊人的86%。当前的研究正从传统的3D堆叠转向晶圆级系统（SoW）设计，反映出未来硬件迭代中对更高密度和增强性能的战略推动。",
+        "ja": "日本の半導体産業は現在、製造業が集中していることが特徴であり、ソニー、SocioNext、ルネサス  、メモリ専門のKioxiaを含む6つの主要な企業のみが、数百の設計会社の広大なネットワークを支えています。これらの設計の33％は自動車およびゲーム産業に専念しており、ISO 26262やマルチチップおよびデュアルダイ構成に関するさまざまなIEEE規制など、グローバルスタンダードの厳格な遵守が求められています。この強力な規制フレームワークにより、日本の技術的成果は国際市場で品質と信頼性の最前線に留まることが保証されています。<br><br>技術開発は積極的に2nmノードに向かって進んでおり、Gate-All-Around（GAA）ナノシートアーキテクチャはすでにTapeoutおよびシリコン段階を進行中です。メモリ技術の革新は特に注目に値し、高帯域幅フラッシュ（HBF）の出現により、HBMの2倍の速度と10倍の容量が提供され、驚異的な86％のコスト削減が実現されています。現在の研究は、従来の3Dスタッキングからウェーハ上システム（SoW）設計へのピボットを進めており、将来のハードウェア反復における高密度化と性能向上への戦略的な推進を反映しています。"
       },
       "quote": {
         "en": "Beyond Moore's Law: Japan's semiconductor revolution pushes boundaries in GAA architecture, memory efficiency, and automotive-grade safety standards. From silicon to system: Japan's commitment to next-gen hardware compaction cements its position as a global leader in semiconductor innovation.",
         "es": "Más allá de la Ley de Moore: La revolución de los semiconductores en Japón empuja los límites en arquitectura GAA, eficiencia de memoria y estándares de seguridad de grado automotriz. De silicio a sistema: El compromiso de Japón con la compactación de hardware de próxima generación consolida su posición como líder global en innovación de semiconductores.",
         "zh": "超越摩尔定律：日本的半导体革命在GAA架构、内存效率和汽车级安全标准方面推动了边界。从�硅到系统：日本对下一代硬件紧凑性的承诺巩固了其作为全球半导体创新领导者的地位。",
         "ja": "ムーアの法則を超えて：日本の半導体革命は、GAAアーキテクチャ、メモリ効率、および自動車グレードの安全基準において限界を押し広げています。シリコンからシステムへ：次世代ハードウェアのコンパクションに対する日本の取り組みは、半導体イノベーションにおけるグローバルリーダーとしての地位を確固たるものにしています。"
-        
       }
     },
-    "institution": {      
+    "institution": {
       "en": "GUC | Global Unichip Japan",
       "es": "GUC | Global Unichip Japón",
       "zh": "GUC | 全球统一芯片日本",
@@ -6222,7 +6220,7 @@
       "en": "Participant",
       "es": "Participante",
       "zh": "参与者",
-      "ja": "参加者"        
+      "ja": "参加者"
     },
     "profile_image": "images/GUC6.jpg",
     "images": [
@@ -6238,16 +6236,16 @@
   {
     "id": 66,
     "title": {
-      "en": "Official Judge — RoboCupJunior Rescue Maze | RoboCup 2026, Incheon, Republic of Korea",
-      "es":"Juez Oficial — RoboCupJunior Rescue Maze | RoboCup 2026, Incheon, Corea del Sur",
-      "ja":"RoboCupJunior Rescue Maze 公式審判｜RoboCup 2026・韓国 仁川",
-      "zh":"RoboCupJunior Rescue Maze 官方裁判｜RoboCup 2026 韩国仁川"
+      "en": "Official Judge — RoboCupJunior Rescue Maze 2026, Incheon, Republic of Korea",
+      "es": "Juez Oficial — RoboCupJunior Rescue Maze 2026, Incheon, Corea del Sur",
+      "ja": "RoboCupJunior Rescue Maze 公式審判 2026・韓国 仁川",
+      "zh": "RoboCupJunior Rescue Maze 官方裁判 2026 韩国仁川"
     },
     "summary": {
-      "en":"Served as an Official International Judge for the RoboCupJunior Rescue Maze competition during RoboCup 2026 in Incheon, Republic of Korea. Contributed to the fair and consistent evaluation of autonomous rescue robotics by conducting robot performance scoring, technical inspections, team interviews, maze construction and validation, competition field setup and calibration, and final score verification. The role supported the integrity of one of the world's leading educational robotics competitions, promoting excellence, innovation, and engineering education within the global robotics community.",
-      "es":"Participé como Juez Oficial Internacional en la competencia RoboCupJunior Rescue Maze durante RoboCup 2026 en Incheon, Corea del Sur. Fui responsable de la evaluación objetiva del desempeño de los robots autónomos, inspecciones técnicas, entrevistas con los equipos, construcción y validación del laberinto, preparación y calibración de las pistas de competencia, así como la verificación final de las puntuaciones. Esta labor contribuyó a garantizar la transparencia y calidad técnica de una de las competiciones internacionales más importantes en robótica educativa.",
-      "ja":"RoboCup 2026（韓国・仁川）において、RoboCupJunior Rescue Maze の公式国際審判を務めました。ロボットの競技評価、技術検査、チームインタビュー、レスキューメイズの設営・検証、競技フィールドのセットアップおよびキャリブレーション、最終スコア確認を担当し、公平かつ高品質な競技運営に貢献しました。教育ロボティクス分野における世界有数の国際大会の運営を支える役割を果たしました。",
-      "zh":"担任 RoboCup 2026（韩国仁川）RoboCupJunior Rescue Maze 项目的国际官方裁判。负责机器人比赛评分、技术检查、参赛队伍技术访谈、救援迷宫搭建与验证、赛场搭建及校准，以及最终成绩核验，确保赛事评审过程公平、规范且符合国际竞赛标准，为全球机器人教育和人工智能人才培养贡献力量"
+      "en": "Served as an Official International Judge for the RoboCupJunior Rescue Maze competition during RoboCup 2026 in Incheon, Republic of Korea. Contributed to the fair and consistent evaluation of autonomous rescue robotics by conducting robot performance scoring, technical inspections, team interviews, maze construction and validation, competition field setup and calibration, and final score verification. The role supported the integrity of one of the world's leading educational robotics competitions, promoting excellence, innovation, and engineering education within the global robotics community.",
+      "es": "Participé como Juez Oficial Internacional en la competencia RoboCupJunior Rescue Maze durante RoboCup 2026 en Incheon, Corea del Sur. Fui responsable de la evaluación objetiva del desempeño de los robots autónomos, inspecciones técnicas, entrevistas con los equipos, construcción y validación del laberinto, preparación y calibración de las pistas de competencia, así como la verificación final de las puntuaciones. Esta labor contribuyó a garantizar la transparencia y calidad técnica de una de las competiciones internacionales más importantes en robótica educativa.",
+      "ja": "RoboCup 2026（韓国・仁川）において、RoboCupJunior Rescue Maze の公式国際審判を務めました。ロボットの競技評価、技術検査、チームインタビュー、レスキューメイズの設営・検証、競技フィールドのセットアップおよびキャリブレーション、最終スコア確認を担当し、公平かつ高品質な競技運営に貢献しました。教育ロボティクス分野における世界有数の国際大会の運営を支える役割を果たしました。",
+      "zh": "担任 RoboCup 2026（韩国仁川）RoboCupJunior Rescue Maze 项目的国际官方裁判。负责机器人比赛评分、技术检查、参赛队伍技术访谈、救援迷宫搭建与验证、赛场搭建及校准，以及最终成绩核验，确保赛事评审过程公平、规范且符合国际竞赛标准，为全球机器人教育和人工智能人才培养贡献力量"
     },
     "category": {
       "en": "Professional",
@@ -6257,26 +6255,22 @@
     },
     "tags": {
       "en": [
-        "<strong>Autonomous Robotics 🤖</strong>",
-        "<strong>Control Systems 📉</strong>",
+        "<strong>Autonomous Robotics 🤖</strong>",        
         "<strong>Intelligent Transport 🏎️</strong>",
         "<strong>Rapid Prototyping ⚡</strong>"
       ],
       "es": [
-        "<strong>Robótica Autónoma 🤖</strong>",
-        "<strong>Sistemas de Control 📉</strong>",
+        "<strong>Robótica Autónoma 🤖</strong>",        
         "<strong>Transporte Inteligente 🏎️</strong>",
         "<strong>Prototipado Rápido ⚡</strong>"
       ],
       "zh": [
-        "<strong>机器人技术 🤖</strong>",
-        "<strong>控制系统 📉</strong>",
+        "<strong>机器人技术 🤖</strong>",        
         "<strong>智能交通 🏎️</strong>",
         "<strong>快速原型 ⚡</strong>"
       ],
       "ja": [
-        "<strong>ロボット工学 🤖</strong>",
-        "<strong>制御システム 📉</strong>",
+        "<strong>ロボット工学 🤖</strong>",        
         "<strong>インテリジェント交通 🏎️</strong>",
         "<strong>ラピッドプロトタイピング ⚡</strong>"
       ]
@@ -6285,31 +6279,30 @@
     "finish": "07/05/2026",
     "content": {
       "details": {
-        "en": "The Japanese semiconductor landscape is currently characterized by a concentrated manufacturing sector, where only six major entities—including Sony, SocioNext, Renesas, and memory specialist Kioxia—support a vast network of hundreds of design firms. A significant 33% of these designs are dedicated to the automotive and gaming industries, requiring strict compliance with global standards such as ISO 26262 and various IEEE regulations for multi-chip and dual-die configurations. This robust regulatory framework ensures that Japanese technological output remains at the forefront of quality and reliability in the international market.<br><br>Technological development is aggressively moving toward the 2nm node, with Gate-All-Around (GAA) Nanosheet architecture already progressing through Tapeout and Silicon stages. Innovation in memory technology is particularly striking, as the emergence of High Band Flash (HBF) offers double the speed and ten times the capacity of HBM at a staggering 86% cost reduction. Current research is now pivoting from traditional 3D stacking toward System on Wafer (SoW) designs, reflecting a strategic push for higher compaction and enhanced performance in future hardware iterations.",
-      "es": "El panorama de semiconductores en Japón se caracteriza actualmente por un sector de fabricación concentrado, donde solo seis entidades principales—incluyendo Sony, SocioNext, Ren   esas y el especialista en memoria Kioxia—apoyan una vasta red de cientos de empresas de diseño. Un significativo 33% de estos diseños están dedicados a las industrias automotriz y de juegos, requiriendo un estricto cumplimiento con estándares globales como ISO 26262 y diversas regulaciones IEEE para configuraciones multi-chip y dual-die. Este robusto marco regulatorio asegura que la producción tecnológica japonesa se mantenga a la vanguardia en calidad y fiabilidad en el mercado internacional.<br><br>El desarrollo tecnológico avanza agresivamente hacia el nodo de 2nm, con la arquitectura Gate-All-Around (GAA) Nanosheet ya progresando a través de las etapas de Tapeout y Silicio. La innovación en tecnología de memoria es particularmente notable, ya que la aparición del High Band Flash (HBF) ofrece el doble de velocidad y diez veces la capacidad del HBM con una asombrosa reducción de costos del 86%. La investigación actual ahora se está pivotando desde el apilamiento 3D tradicional hacia diseños System on Wafer (SoW), reflejando un impulso estratégico hacia una mayor compactación y un rendimiento mejorado en futuras iteraciones de hardware.",
-      "zh": "日本半导体产业目前的特点是制造业高度集中,仅有六家主要企业——包括索尼、SocioNext、瑞萨电子以及存储专家Kioxia——支持着数百家设计公司的庞大网络。其中有33%的设计专注于汽车和游戏行业，这些行业需要严格遵守全球标准，如ISO 26262以及针对多芯片和双芯片配置的各种IEEE法规。这一强大的监管框架确保了日本的技术产出在国际市场上保持质量和可靠性的前沿地位。<br><br>技术发展正积极向2纳米节点推进，Gate-All-Around (GAA) Nanosheet架构已经进入Tapeout和硅阶段。存储技术的创新尤为引人注目，高带宽闪存（HBF）的出现提供了HBM两倍的速度和十倍的容量，同时成本降低了惊人的86%。当前的研究正从传统的3D堆叠转向晶圆级系统（SoW）设计，反映出未来硬件迭代中对更高密度和增强性能的战略推动。",
-      "ja": "日本の半導体産業は現在、製造業が集中していることが特徴であり、ソニー、SocioNext、ルネサス  、メモリ専門のKioxiaを含む6つの主要な企業のみが、数百の設計会社の広大なネットワークを支えています。これらの設計の33％は自動車およびゲーム産業に専念しており、ISO 26262やマルチチップおよびデュアルダイ構成に関するさまざまなIEEE規制など、グローバルスタンダードの厳格な遵守が求められています。この強力な規制フレームワークにより、日本の技術的成果は国際市場で品質と信頼性の最前線に留まることが保証されています。<br><br>技術開発は積極的に2nmノードに向かって進んでおり、Gate-All-Around（GAA）ナノシートアーキテクチャはすでにTapeoutおよびシリコン段階を進行中です。メモリ技術の革新は特に注目に値し、高帯域幅フラッシュ（HBF）の出現により、HBMの2倍の速度と10倍の容量が提供され、驚異的な86％のコスト削減が実現されています。現在の研究は、従来の3Dスタッキングからウェーハ上システム（SoW）設計へのピボットを進めており、将来のハードウェア反復における高密度化と性能向上への戦略的な推進を反映しています。"
+        "en": "Serving as an Official International Judge at RoboCup 2026 in Incheon, Republic of Korea marked my third appointment to the RoboCupJunior Rescue Maze judging panel, following previous editions in Bordeaux, France, and Eindhoven, the Netherlands. Returning to the international judging team provided the opportunity to continue supporting one of the world's leading educational robotics competitions while collaborating with robotics educators, researchers, and engineering professionals from across the globe. Beyond evaluating robot performance, my role focused on fostering a fair, transparent, and educational competition environment that inspires the next generation of engineers and innovators.<br><br>Throughout the event, I was responsible for robot performance evaluation, technical inspections, team interviews, rescue maze construction and validation, competition field setup and calibration, and final score verification. Alongside these responsibilities, I actively participated in judges' meetings where evaluation criteria, rule interpretations, and event procedures were discussed to promote consistency across the competition. Following the event, I contributed practical feedback and recommendations based on judging experience to support the continuous refinement of competition procedures and future editions of the RoboCupJunior Rescue Maze league. Working alongside judges from different countries also provided valuable opportunities to exchange knowledge, discuss engineering education, and strengthen international collaboration within the robotics community.<br><br>Beyond the official judging process, one of the most rewarding aspects of the event was engaging with participants from diverse technical and cultural backgrounds. Whenever appropriate within the competition framework, I shared constructive insights on electronics design, embedded programming, and engineering methodologies to help teams better understand technical concepts and improve their solutions. This experience reinforced my commitment to engineering education, international collaboration, and continuous improvement, demonstrating that robotics competitions are not only showcases of technological innovation but also platforms for mentorship, knowledge exchange, and the development of future engineering talent.",
+        "es": "Desempeñarme como Juez Oficial Internacional en RoboCup 2026, celebrado en Incheon, Corea del Sur, representó mi tercer nombramiento dentro del panel de jueces de RoboCupJunior Rescue Maze, después de haber participado en las ediciones de Burdeos, Francia, y Eindhoven, Países Bajos. Formar nuevamente parte del equipo internacional de jueces me permitió seguir contribuyendo a una de las competencias de robótica educativa más importantes del mundo, colaborando con educadores, investigadores y profesionales de la ingeniería provenientes de distintos países. Más allá de evaluar el desempeño de los robots, mi labor estuvo orientada a promover una competencia justa, transparente y con un fuerte enfoque educativo que inspire a la próxima generación de ingenieros e innovadores.<br><br>Durante el evento fui responsable de la evaluación del desempeño de los robots, inspecciones técnicas, entrevistas con los equipos, construcción y validación de los laberintos de rescate, preparación y calibración de las pistas de competencia, así como de la verificación final de las puntuaciones. Paralelamente, participé activamente en las reuniones de jueces, donde se discutieron criterios de evaluación, interpretaciones del reglamento y procedimientos del evento con el objetivo de mantener la coherencia entre todos los equipos de evaluación. Al finalizar la competencia, aporté observaciones y recomendaciones basadas en la experiencia adquirida durante el juzgamiento para contribuir a la mejora continua de los procedimientos y de futuras ediciones de la liga RoboCupJunior Rescue Maze. Asimismo, trabajar junto a jueces de diferentes países permitió un valioso intercambio de conocimientos sobre educación en ingeniería, robótica y mejores prácticas internacionales.<br><br>Más allá de las responsabilidades propias del juzgamiento, uno de los aspectos más enriquecedores de esta experiencia fue la interacción con participantes de diversos contextos técnicos y culturales. Siempre que el marco de la competencia lo permitió, compartí observaciones constructivas sobre diseño electrónico, programación de sistemas embebidos y metodologías de ingeniería para ayudar a los equipos a comprender mejor los aspectos técnicos de sus proyectos y fortalecer sus soluciones. Esta experiencia reafirmó mi compromiso con la educación en ingeniería, la colaboración internacional y la mejora continua, demostrando que las competencias de robótica son mucho más que escenarios de innovación tecnológica: son espacios para la mentoría, el intercambio de conocimientos y la formación de los futuros líderes de la ingeniería.",
+        "zh": "担任韩国仁川 RoboCup 2026 RoboCupJunior Rescue Maze项目的国际官方裁判，是我继法国波尔多和荷兰埃因霍温之后，第三次受邀担任该赛事国际裁判。再次加入国际裁判团队，使我能够继续为全球最具影响力的教育机器人赛事之一贡献力量，并与来自世界各地的教育工作者、研究人员和工程技术专家开展合作。除了对机器人比赛进行技术评审外，我的工作还致力于维护赛事的公平性、透明性和教育价值，为培养下一代工程师和创新人才贡献力量。<br><br>在赛事期间，我负责机器人运行评分、技术检查、参赛队伍技术访谈、救援迷宫赛道搭建与验证、比赛场地布置与校准，以及最终成绩核验等工作。同时，我积极参与裁判会议，与来自不同国家的裁判共同讨论评审标准、规则解释及赛事流程，以提升整个赛事评审工作的统一性和一致性。赛事结束后，我结合实际裁判经验，针对比赛流程和评审机制提出反馈与改进建议，为RoboCupJunior Rescue Maze项目未来版本的持续优化贡献自己的经验。与国际裁判团队的合作，也让我在机器人教育、赛事组织及工程实践等方面获得了宝贵的交流机会。<br><br>除了正式裁判工作之外，本次赛事最有价值的收获之一，是与来自不同国家和文化背景的参赛队伍进行深入交流。在符合赛事规范的前提下，我向部分队伍分享了关于电子电路设计、嵌入式程序开发以及工程设计方法的建设性建议，帮助他们进一步理解技术原理并优化设计方案。这段经历进一步坚定了我对工程教育、国际合作和持续改进的投入，也让我更加相信，机器人竞赛不仅是展示技术创新的平台，更是促进知识共享、技术交流以及培养未来工程人才的重要国际舞台。",
+        "ja": "韓国・仁川で開催されたRoboCup 2026において、RoboCupJunior Rescue Mazeリーグの公式国際審判を務めたことは、フランス・ボルドーおよびオランダ・アイントホーフェンでの大会に続く3回目の国際審判就任となりました。再び国際審判団の一員として参加できたことは、世界有数の教育ロボット競技会を支えるとともに、世界各国の教育者、研究者、エンジニアと協力しながら競技運営に貢献する貴重な機会となりました。競技結果を評価するだけでなく、公平性、透明性、教育的価値を兼ね備えた競技環境を維持し、次世代のエンジニアやイノベーターを育成することが私の重要な役割でした。<br><br>大会期間中は、競技ロボットのパフォーマンス評価、技術検査、チームへの技術インタビュー、レスキューメイズの設営および妥当性確認、競技フィールドのセットアップとキャリブレーション、最終スコアの確認を担当しました。これらの業務に加え、審判会議では評価基準、ルールの解釈、競技運営方法について積極的に議論し、審判間で一貫した評価を実現するための意見交換に参加しました。また、大会終了後には実際の審判経験に基づく改善提案やフィードバックを提供し、RoboCupJunior Rescue Mazeリーグの運営手順や評価方法の継続的な改善に貢献しました。さらに、さまざまな国の審判員との協働を通じて、工学教育やロボティクス競技に関する知見を共有し、国際的な連携を深めることができました。<br><br>公式審判としての業務に加え、本大会で特に価値ある経験となったのは、多様な技術的・文化的背景を持つ参加者との交流でした。競技運営の公平性を尊重しながら、適切な場面では電子回路設計、組込みプログラミング、システム設計などについて建設的な技術的助言を行い、チームが自らの技術をより深く理解し、改善につなげられるよう支援しました。この経験を通じて、工学教育、国際協力、そして継続的改善への取り組みをさらに強く意識するとともに、ロボット競技会は単なる技術力を競う場ではなく、知識共有、技術交流、そして未来のエンジニアを育成する国際的なコミュニティであることを改めて実感しました。"
       },
       "quote": {
         "en": "Innovation is measured not only by the robots we build, but by the standards we uphold for the next generation of engineers.",
         "es": "La innovación no se mide únicamente por los robots que construimos, sino por los estándares que establecemos para la próxima generación de ingenieros.",
         "zh": "创新不仅体现在我们制造的机器人，更体现在我们为下一代工程师建立的标准。",
         "ja": "イノベーションとは、ロボットを作ることだけではなく、次世代のエンジニアのための基準を築くことである。"
-        
       }
     },
-    "institution": {      
+    "institution": {
       "en": "RoboCup International Federation<br>Ministry of Trade, Industry and Energy (Republic of Korea)<br>Korea AI Robot Association (KAR)",
-      "es":"RoboCup Federation<br>Ministerio de Comercio, Industria y Energía de Corea<br>Korea AI Robot Association",
-      "ja":"RoboCup Federation<br>大韓民国 産業通商資源部<br>Korea AI Robot Association (KAR)",
-      "zh":"RoboCup Federation<br>韩国产业通商资源部<br>韩国人工智能机器人协会（KAR）"
+      "es": "RoboCup Federation<br>Ministerio de Comercio, Industria y Energía de Corea<br>Korea AI Robot Association",
+      "ja": "RoboCup Federation<br>大韓民国 産業通商資源部<br>Korea AI Robot Association (KAR)",
+      "zh": "RoboCup Federation<br>韩国产业通商资源部<br>韩国人工智能机器人协会（KAR）"
     },
     "branch": null,
     "participation": {
       "en": "International Judge & Volunteer",
       "es": "Participante",
       "zh": "参与者",
-      "ja": "公式国際審判・ボランティア"        
+      "ja": "公式国際審判・ボランティア"
     },
     "profile_image": "images/robocup6.jpg",
     "images": [
@@ -6327,7 +6320,7 @@
     "visible": true,
     "links": {
       "RoboCup 2026 website": "https://2026.robocup.org/",
-      "RoboCup Federation":"https://www.robocup.org/"
+      "RoboCup Federation": "https://www.robocup.org/"
     }
   }
 ]
