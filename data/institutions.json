@@ -1,0 +1,77 @@
+[
+    {
+        "name": "Institute of Electrical and Electronics Engineers",
+        "abbreviation": "IEEE",
+        "website": "https://www.ieee.org/",
+        "summary": {
+            "en": "IEEE is the world’s largest and most prestigious technical professional organization. They are the global authority that sets the standards for modern technology—if you use Wi-Fi or Bluetooth, you are using systems designed by IEEE. Working with them means operating at the highest global standard of engineering."
+        },
+        "analogy": {
+            "en": "The Supreme Court of Technology / The group that invented Wi-Fi."
+        },
+        "logo":"./images/ieee logo.jpg"
+        },
+    {
+        "name": "Universidad Technológica de Panamá",
+        "abbreviation": "UTP",
+        "website": "https://www.utp.ac.pa/",
+        "summary": {
+            "en": "UTP is Panama's premier powerhouse for engineering and science, consistently ranked as the country’s top technological university. It serves as the primary hub for the nation’s advanced research and infrastructure development, producing the region's elite tech talent."
+        },
+        "analogy": {
+            "en": "The MIT of Panama / The Harvard of Engineering in Central America."
+        },"logo":"./images/utp logo.png"
+    },
+    {
+        "name": "Robocup Jr",
+        "website": "https://www.robocup.org/",
+        "summary": {
+            "en": "RoboCupJr is a massive international initiative designed to foster the next generation of AI and robotics experts. It is a highly competitive, global arena where young innovators solve real-world problems through autonomous robotics, pushing the boundaries of what youth can build."
+        },
+        "analogy": {
+            "en": "The Olympics of Youth Robotics."
+        }
+    },
+    {
+        "name": "Centro de Estudios Multidisciplinarios en Ciencias, Ingeniería y Tecnología",
+        "abbreviation": "CEMCIT",
+        "website": "https://www.cemcit.ac.pa/",
+        "summary": {
+            "en": "CEMCIT is an elite, specialized research center dedicated to solving critical national and global problems through technology and innovation. Backed by top-tier scientists, they bridge the gap between complex laboratory research and real-world industrial application."
+        },
+        "analogy": {
+            "en": "The think tank that turns science into industry."
+        }
+    },
+    {
+        "name": "Secretaría Nacional de Ciencia, Tecnología e Innovación",
+        "abbreviation": "SENACYT",
+        "website": "https://www.senacyt.gob.pa/",
+        "summary": {
+            "en": "SENACYT is the official government ministry that funds, drives, and oversees all scientific and technological advancement in Panama. Being backed or supervised by them is a massive national stamp of approval, reserved for projects of high strategic value."
+        },
+        "analogy": {
+            "en": "The National Science Foundation of Panama / The Ministry of Innovation."
+        }
+    },
+    {
+        "name": "TinyTapeout",
+        "website": "https://tinytapeout.com/",
+        "summary": {
+            "en": "TinyTapeout is a groundbreaking global initiative that democratizes microchip design, allowing engineers to manufacture actual, physical silicon chips. Working on this means designing hardware at the microscopic level—the exact same process used to build processors for Apple or Intel."
+        },
+        "analogy": {
+            "en": "Print-on-demand, but for physical computer chips."
+        }
+    },
+    {
+        "name": "Mark Rober’s CrunchLabs",
+        "website": "https://space.crunchlabs.com/",
+        "summary": {
+            "en": "Founded by ex-NASA engineer and YouTube star Mark Rober, CrunchLabs pushes the boundaries of creative engineering. Partaking in their Space Selfie program meant contributing to a high-profile project that literally sent tech into Earth's orbit, blending rigorous aerospace engineering with global pop-culture impact."
+        },
+        "analogy": {
+            "en": "Engineering meets Hollywood / NASA-level tech with a massive audience."
+        }
+    }
+]
