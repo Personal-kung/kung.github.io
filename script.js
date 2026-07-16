@@ -12,6 +12,8 @@ const App = (() => {
   let _visible = [];     // entries that passed validation
   let _filtered = [];     // current filter slice
   let _collabs = [];     // collaborators data
+  let _institutions = []; // institutions data
+  let _locations = [];    // locations data
   let _lang = "en";
 
   const LANG_SELECT = document.getElementById("lang-select");
@@ -62,6 +64,14 @@ const App = (() => {
       "hero-role": "Electrical and Electronics Engineer · VLSI Researcher · International Collaborator",
       "hero-cta": "View My Work",
       "hero-contact": "Get in Touch",
+      "visitWebsite": "Visit Website",
+      "countries": "Countries",
+      "years-active": "Years Active",
+      "internationalFootprint": "International Footprint",
+      "internationalFootprintDescription": "Engineering, research and professional collaborations across universities, companies and organizations around the world.",
+      "institutions": "Institutions",
+      "institutionsDescription": "Universities, organizations, companies and communities that have shaped my academic, research and professional journey.",
+
     },
     es: {
       "name": "Kelvin Kung",
@@ -107,6 +117,13 @@ const App = (() => {
       "hero-role": "Ingeniero Eléctrico y Electrónico · Investigador VLSI · Colaborador Internacional",
       "hero-cta": "Ver Mi Trabajo",
       "hero-contact": "Contactar",
+      "visitWebsite": "Visitar Sitio Web",
+      "countries": "Países",
+      "years-active": "Años activos",
+      "internationalFootprint": "Huella Internacional",
+      "internationalFootprintDescription": "Colaboraciones de ingeniería, investigación y profesionales en universidades, empresas y organizaciones de todo el mundo.",
+      "institutions": "Instituciones",
+      "institutionsDescription": "Universidades, organizaciones, empresas y comunidades que han dado forma a mi trayectoria académica, investigadora y profesional."
     },
     zh: {
       "name": "龚颖贤",
@@ -152,6 +169,13 @@ const App = (() => {
       "hero-role": "电气和电子工程师 · VLSI研究员 · 国际合作者",
       "hero-cta": "查看我的工作",
       "hero-contact": "联系我",
+      "visitWebsite": "访问网站",
+      "countries": "国家",
+      "years-active": "活跃年数",
+      "internationalFootprint": "国际足迹",
+      "internationalFootprintDescription": "在全球范围内与大学、公司和组织进行工程、研究和专业合作。",
+      "institutions": "机构",
+      "institutionsDescription": "塑造我学术、研究和职业生涯的大学、组织、公司和社区。"
     },
     ja: {
       "name": "クン・ケルビン",
@@ -197,6 +221,13 @@ const App = (() => {
       "hero-role": "電気・電子エンジニア · VLSI研究者 · 国際コラボレーター",
       "hero-cta": "作品を見る",
       "hero-contact": "お問い合わせ",
+      "visitWebsite": "ウェブサイトを見る",
+      "countries": "国",
+      "years-active": "活動年数",
+      "internationalFootprint": "国際的な足跡",
+      "internationalFootprintDescription": "世界中の大学、企業、組織とのエンジニアリング、研究、専門的なコラボレーション。",
+      "institutions": "機関",
+      "institutionsDescription": "私の学術、研究、職業の軌跡を形作った大学、組織、企業、コミュニティ。"
     },
   };
 
@@ -266,27 +297,30 @@ const App = (() => {
   /* ── Animated Counter ────────────────────────────────────────────── */
   function animateCount(el, end, duration = 1800) {
     let start = null;
+    const formatter = new Intl.NumberFormat(_lang);
     const step = ts => {
       start ??= ts;
       const p = Math.min((ts - start) / duration, 1);
-      el.textContent = Math.floor(p * end);
+      el.textContent = formatter.format(Math.floor(p * end));
       if (p < 1) requestAnimationFrame(step);
     };
     requestAnimationFrame(step);
   }
 
-  function setupStats(pCount, cCount, iCount) {
+  function setupStats(stats) {
     const section = $("#stats-section");
     if (!section) return;
-    const ob = new IntersectionObserver(([e]) => {
-      if (e.isIntersecting) {
-        animateCount($("#count-projects"), pCount);
-        animateCount($("#count-collabs"), cCount);
-        animateCount($("#count-institutions"), iCount);
-        ob.unobserve(section);
-      }
-    }, { threshold: 0.4 });
-    ob.observe(section);
+    const observer = new IntersectionObserver(([entry]) => {
+      if (!entry.isIntersecting) return;
+      animateCount($("#count-projects"), stats.projects);
+      animateCount($("#count-collabs"), stats.collaborators);
+      animateCount($("#count-institutions"), stats.institutions);
+      animateCount($("#count-countries"), stats.countries);
+      observer.unobserve(section);
+    }, {
+      threshold: 0.4
+    });
+    observer.observe(section);
   }
 
   /* ── Hero Mosaic ─────────────────────────────────────────────────── */
@@ -365,6 +399,110 @@ const App = (() => {
     hc.innerHTML = "";
     hc.appendChild(frag);
     activateLazy();
+  }
+
+  function renderInstitutions(institutions) {
+    const container = document.getElementById("institutions-grid");
+    if (!container) {
+      console.warn("Institutions container not found");
+      return;
+    }
+    container.innerHTML = "";
+    institutions.forEach(inst => {
+      const card = document.createElement("article");
+      card.className = "institution-card";
+      const name = tF(inst.name);
+      const type = tF(inst.type);
+      const description =
+        tF(inst.summary) ||
+        tF(inst.description) ||
+        "";
+
+      card.innerHTML = `
+            <div class="institution-logo-wrapper">
+                <img
+                    src="${inst.logo}"
+                    alt="${name} logo"
+                    loading="lazy"
+                >
+            </div>
+            <div class="institution-info">
+                <h3>
+                    ${name}
+                </h3>
+                <span class="institution-type">
+                    ${type}
+                </span>
+                <p>
+                    ${description}
+                </p>
+            </div>
+            <a
+                href="${inst.website}"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="institution-link"
+            >
+                ${t("visitWebsite")}
+            </a>
+        `;
+      container.appendChild(card);
+    });
+  }
+
+  function renderGlobalExperience(projects, locations) {
+    const globeElement = document.getElementById("globe");
+    const infoPanel = document.getElementById("globe-info-panel");
+    if (!globeElement) {
+      console.warn("Globe element missing");
+      return;
+    }
+    const globe = Globe()
+      (globeElement)
+      .globeImageUrl("//unpkg.com/three-globe/example/img/earth-night.jpg")
+      .backgroundColor("rgba(0,0,0,0)")
+      .showAtmosphere(false)
+      .atmosphereColor("#4fc3f7")
+      .atmosphereAltitude(0.25)
+    const points = locations.map(location => {
+      const relatedProjects = projects.filter(project => project.location === location.id);
+      return {
+        ...location,
+        projectCount:
+          relatedProjects.length
+      };
+    });
+    globe.pointsData(points)
+      .pointLat("lat")
+      .pointLng("lng")
+      .pointAltitude(0.08)
+      .pointRadius(0.35)
+      .pointColor(() => "#4fc3f7")
+      .onPointHover(point => {
+        if (point) {
+          globe.controls().autoRotate = false;
+          infoPanel.innerHTML = `
+                    <h3>
+                    ${point.city}
+                    </h3>
+                    <p>
+                    ${point.country}
+                    </p>
+                    <span>
+                    ${point.projectCount}
+                    Projects
+                    </span> `;
+          infoPanel.classList.add("active");
+        }
+        else {
+          globe.controls().autoRotate = true;
+          infoPanel.classList.remove("active");
+        }
+      }
+      );
+    const controls = globe.controls();
+    controls.autoRotate = true;
+    controls.autoRotateSpeed = 0.4;
   }
 
   /* ── Portfolio Cards ─────────────────────────────────────────────── */
@@ -606,24 +744,35 @@ const App = (() => {
     _lang = LANG_SELECT.value;
     document.getElementById("year").textContent = new Date().getFullYear();
 
+
     // Single fetch — shared across all renderers
-    const [entries, collabs] = await Promise.all([
+    const [entries, collabs, institutionData, locations] = await Promise.all([
       fetch("data/information.json").then(r => r.json()),
       fetch("data/collaborators.json").then(r => r.json()),
+      fetch("data/institutions.json").then(r => r.json()),
+      fetch("data/locations.json").then(r => r.json())
     ]);
+
 
     _data = entries;
     _collabs = collabs;
     _visible = entries.filter(isEntryValid);
+    _institutions = institutionData;
+    _locations = locations;
+    const countryCount = new Set(locations.map(l => l.country)).size;
     _filtered = [..._visible];
 
-    console.info(`[Portfolio] Loaded ${_data.length} entries. Valid: ${_visible.length} | Hidden: ${_data.length - _visible.length}`);
+
+    console.info(
+      `[Portfolio] Loaded ${_data.length} entries. Valid: ${_visible.length} | Hidden: ${_data.length - _visible.length}`
+    );
+
 
     // Apply language first
     applyTranslations();
     updateFooter();
 
-    // Render all sections from the same in-memory data
+    // Existing sections
     renderHero();
     renderHeroOverlay();
     renderHighlights();
@@ -631,9 +780,21 @@ const App = (() => {
     filterData("all");
     switchViewMode("timeline");
 
-    // Collaborators & stats
-    const institutions = renderCollaborators(collabs);
-    setupStats(_data.length, collabs.length, institutions.size);
+    // Existing collaborator logic
+    const collaboratorInstitutions = renderCollaborators(collabs);
+    setupStats({
+      projects: _data.length,
+      collaborators: collabs.length,
+      institutions: collaboratorInstitutions.size,
+      countries: countryCount
+    });
+    // New sections
+    renderInstitutions(institutionData);
+    renderGlobalExperience(
+      entries,
+      locations
+    );
+
   }
 
   /* ── Events ──────────────────────────────────────────────────────── */
@@ -648,6 +809,11 @@ const App = (() => {
       renderPortfolios();
       renderActiveView();
       renderCollaborators(_collabs);
+      renderInstitutions(_institutions);
+      renderGlobalExperience(
+        _data,
+        _locations
+      );
     });
 
     document.addEventListener("click", e => {

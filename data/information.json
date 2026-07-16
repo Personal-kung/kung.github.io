@@ -172,6 +172,7 @@
     "start": "10/1/2020",
     "finish": "8/31/2021",
     "financing": "$120,000 USD",
+    "location":"dallas",
     "content": {
       "problem": {
         "en": "The high demand for lithium for the production of LiBs (Lithium-based Batteries) has put the Earth's crust at a critical point with respect to this element, a fact further aggravated by the short lifecycle of such devices, due to their limited charge/discharge cycles,impacting both technological and environmental scales.<br><br>To address these challenges, this project aimed to produce a new generation of lithium-ion batteries with protective thin films of Ultrananocrystalline Diamond (UNCD/N-UNCD) on anodes and cathodes. This protective system prevents chemical degradation during cycles, targeting a ≥10x improvement in battery lifespan while maintaining or exceeding current energy density.<br><br> The development integrates N-UNCD films with nanocarbons and metallic matrices, enhancing both safety and performance. The technology is intended to positively impact the environmental and economic conservation of the energy and electronics industry in Panama.",
@@ -1444,6 +1445,7 @@
     "tags": [],
     "start": "9/26/2023",
     "finish": "9/29/2023",
+    "location":"guatemala-city",
     "content": {
       "problem": {
         "en": "As a result of the COVID-19 pandemic, the Panamanian economy experienced a decline in economic activity, which ECLAC estimates at -11% for 2020, significantly impacting labor-intensive sectors. By the third quarter of the year, the GDP had fallen by 20.4%, according to the National Institute of Statistics and Census. Due to the current situation in the country, private companies, autonomous and semi-autonomous entities, as well as the government, have implemented teleworking, regulated in Panama through Executive Decree No. 133 of September 16, 2020. This involves performing work primarily at the employee's home or a location of their choosing, as an alternative to working in person at the company's workplace. This change was reflected in all service sectors, especially in education at all levels. Panama is considered a service-oriented country, and we rank among the top 10 countries in Latin America in terms of competitiveness and technology adoption. While it's true that the country already possesses robotic equipment to perform various tasks and duties, we still face the challenge of relying on on-site personnel to operate this equipment. Therefore, to demonstrate the use of robotic equipment, we intend to utilize the Gryphon robotic arm. To control it, we aim to create a low-cost system, a combination of electronics and programmable boards.",
@@ -1521,6 +1523,7 @@
     "tags": [],
     "start": "11/8/2023",
     "finish": "11/10/2023",
+    "location":"san-pedro-sula",
     "content": {
       "problem": {
         "en": "As a result of the COVID-19 pandemic, the Panamanian economy experienced a decline in economic activity, which ECLAC estimates at -11% for 2020, significantly impacting labor-intensive sectors. By the third quarter of the year, the GDP had fallen by 20.4%, according to the National Institute of Statistics and Census. Due to the current situation in the country, private companies, autonomous and semi-autonomous entities, as well as the government, have implemented teleworking, regulated in Panama through Executive Decree No. 133 of September 16, 2020. This involves performing work primarily at the employee's home or a location of their choosing, as an alternative to working in person at the company's workplace. This change was reflected in all service sectors, especially in education at all levels. Panama is considered a service-oriented country, and we rank among the top 10 countries in Latin America in terms of competitiveness and technology adoption. While it's true that the country already possesses robotic equipment to perform various tasks and duties, we still face the challenge of relying on on-site personnel to operate this equipment. Therefore, to demonstrate the use of robotic equipment, we intend to utilize the Gryphon robotic arm. To control it, we aim to create a low-cost system, a combination of electronics and programmable boards.",
@@ -2791,6 +2794,7 @@
     },
     "start": "7/4/2023",
     "finish": "7/10/2023",
+    "location":"bordeaux",
     "content": {
       "problem": {
         "en": "The evaluation of autonomous robotic systems in competitive environments requires a high degree of technical objectivity and a deep understanding of control algorithms, sensor integration, and mechanical design. Without rigorous judging standards, student-led innovation in robotics can become fragmented, lacking the critical feedback necessary to transition from basic prototypes to resilient, field-ready systems.",
@@ -2889,6 +2893,7 @@
     },
     "start": "7/15/2024",
     "finish": "7/22/2024",
+    "location":"eindhoven",
     "content": {
       "problem": {
         "en": "In complex multi-agent robotic tasks, such as search and rescue or automated logistics, traditional evaluation metrics often fail to capture the nuances of collaborative behavior and real-time decision-making under uncertainty. A more sophisticated technical auditing process is required to ensure that autonomous agents can operate reliably in unpredictable real-world scenarios.",
@@ -2987,6 +2992,7 @@
     },
     "start": "4/8/2025",
     "finish": "today",
+    "location":"iizuka",
     "quote": null,
     "links": "",
     "collaborators": [],
@@ -4654,6 +4660,7 @@
       "zh": "巴拿马科技大学(UTP)"
     },
     "branch": "",
+    "location":"panama-city",
     "participation": {
       "en": "Author",
       "es": "Autor",
@@ -5004,6 +5011,7 @@
     },
     "start": "10/16/2019",
     "finish": "10/18/2019",
+    "location":"san-jose",
     "quote": null,
     "links": "",
     "collaborators": [],
@@ -6277,6 +6285,7 @@
     },
     "start": "07/01/2026",
     "finish": "07/05/2026",
+    "location":"incheon",
     "content": {
       "details": {
         "en": "Serving as an Official International Judge at RoboCup 2026 in Incheon, Republic of Korea marked my third appointment to the RoboCupJunior Rescue Maze judging panel, following previous editions in Bordeaux, France, and Eindhoven, the Netherlands. Returning to the international judging team provided the opportunity to continue supporting one of the world's leading educational robotics competitions while collaborating with robotics educators, researchers, and engineering professionals from across the globe. Beyond evaluating robot performance, my role focused on fostering a fair, transparent, and educational competition environment that inspires the next generation of engineers and innovators.<br><br>Throughout the event, I was responsible for robot performance evaluation, technical inspections, team interviews, rescue maze construction and validation, competition field setup and calibration, and final score verification. Alongside these responsibilities, I actively participated in judges' meetings where evaluation criteria, rule interpretations, and event procedures were discussed to promote consistency across the competition. Following the event, I contributed practical feedback and recommendations based on judging experience to support the continuous refinement of competition procedures and future editions of the RoboCupJunior Rescue Maze league. Working alongside judges from different countries also provided valuable opportunities to exchange knowledge, discuss engineering education, and strengthen international collaboration within the robotics community.<br><br>Beyond the official judging process, one of the most rewarding aspects of the event was engaging with participants from diverse technical and cultural backgrounds. Whenever appropriate within the competition framework, I shared constructive insights on electronics design, embedded programming, and engineering methodologies to help teams better understand technical concepts and improve their solutions. This experience reinforced my commitment to engineering education, international collaboration, and continuous improvement, demonstrating that robotics competitions are not only showcases of technological innovation but also platforms for mentorship, knowledge exchange, and the development of future engineering talent.",

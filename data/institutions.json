@@ -1,77 +1,398 @@
 [
-    {
-        "name": "Institute of Electrical and Electronics Engineers",
-        "abbreviation": "IEEE",
-        "website": "https://www.ieee.org/",
-        "summary": {
-            "en": "IEEE is the world’s largest and most prestigious technical professional organization. They are the global authority that sets the standards for modern technology—if you use Wi-Fi or Bluetooth, you are using systems designed by IEEE. Working with them means operating at the highest global standard of engineering."
-        },
-        "analogy": {
-            "en": "The Supreme Court of Technology / The group that invented Wi-Fi."
-        },
-        "logo":"./images/ieee logo.jpg"
-        },
-    {
-        "name": "Universidad Technológica de Panamá",
-        "abbreviation": "UTP",
-        "website": "https://www.utp.ac.pa/",
-        "summary": {
-            "en": "UTP is Panama's premier powerhouse for engineering and science, consistently ranked as the country’s top technological university. It serves as the primary hub for the nation’s advanced research and infrastructure development, producing the region's elite tech talent."
-        },
-        "analogy": {
-            "en": "The MIT of Panama / The Harvard of Engineering in Central America."
-        },"logo":"./images/utp logo.png"
+  {
+    "id": "ieee-cass",
+    "name": {
+      "en": "IEEE Circuits and Systems Society",
+      "es": "Sociedad de Circuitos y Sistemas del IEEE",
+      "ja": "IEEE回路とシステムソサイエティ",
+      "zh": "IEEE电路与系统学会"
     },
-    {
-        "name": "Robocup Jr",
-        "website": "https://www.robocup.org/",
-        "summary": {
-            "en": "RoboCupJr is a massive international initiative designed to foster the next generation of AI and robotics experts. It is a highly competitive, global arena where young innovators solve real-world problems through autonomous robotics, pushing the boundaries of what youth can build."
-        },
-        "analogy": {
-            "en": "The Olympics of Youth Robotics."
-        }
+    "shortName": {
+      "en": "IEEE CASS",
+      "es": "IEEE CASS",
+      "ja": "IEEE CASS",
+      "zh": "IEEE CASS"
     },
-    {
-        "name": "Centro de Estudios Multidisciplinarios en Ciencias, Ingeniería y Tecnología",
-        "abbreviation": "CEMCIT",
-        "website": "https://www.cemcit.ac.pa/",
-        "summary": {
-            "en": "CEMCIT is an elite, specialized research center dedicated to solving critical national and global problems through technology and innovation. Backed by top-tier scientists, they bridge the gap between complex laboratory research and real-world industrial application."
-        },
-        "analogy": {
-            "en": "The think tank that turns science into industry."
-        }
+    "type": {
+      "en": "Professional Organization",
+      "es": "Organización Profesional",
+      "ja": "専門学会",
+      "zh": "专业学术组织"
     },
-    {
-        "name": "Secretaría Nacional de Ciencia, Tecnología e Innovación",
-        "abbreviation": "SENACYT",
-        "website": "https://www.senacyt.gob.pa/",
-        "summary": {
-            "en": "SENACYT is the official government ministry that funds, drives, and oversees all scientific and technological advancement in Panama. Being backed or supervised by them is a massive national stamp of approval, reserved for projects of high strategic value."
-        },
-        "analogy": {
-            "en": "The National Science Foundation of Panama / The Ministry of Innovation."
-        }
+    "logo": "images/IEEE-CAS.png",
+    "website": "https://ieee-cas.org",
+    "location": null,
+    "color": "#00629B",
+    "description": {
+      "en": "An IEEE technical society dedicated to advancing circuits, integrated electronics and intelligent systems through research, education and global collaboration.",
+      "es": "Sociedad técnica del IEEE dedicada al avance de los circuitos, la electrónica integrada y los sistemas inteligentes mediante investigación, educación y colaboración internacional.",
+      "ja": "回路、集積電子技術、知能システムの研究・教育・国際連携を推進するIEEEの技術学会です。",
+      "zh": "IEEE旗下专注于电路、集成电子与智能系统研究、教育及国际合作的专业学会。"
     },
-    {
-        "name": "TinyTapeout",
-        "website": "https://tinytapeout.com/",
-        "summary": {
-            "en": "TinyTapeout is a groundbreaking global initiative that democratizes microchip design, allowing engineers to manufacture actual, physical silicon chips. Working on this means designing hardware at the microscopic level—the exact same process used to build processors for Apple or Intel."
-        },
-        "analogy": {
-            "en": "Print-on-demand, but for physical computer chips."
-        }
+    "summary": {
+      "en": "IEEE CASS brings together engineers and researchers who design the electronic systems used in modern technology. Their work supports everything from smartphones and robots to medical devices and artificial intelligence. It is one of the world's leading communities for advancing electronics research.",
+      "es": "IEEE CASS reúne a ingenieros e investigadores que desarrollan los sistemas electrónicos presentes en la tecnología moderna. Su trabajo impulsa dispositivos como teléfonos inteligentes, robots, equipos médicos y soluciones de inteligencia artificial. Es una de las comunidades más importantes del mundo para el desarrollo de la electrónica.",
+      "ja": "IEEE CASSは、現代の電子機器を支える回路やシステムを研究・開発する技術者や研究者が集まる国際的な学会です。スマートフォン、ロボット、医療機器、AIなど幅広い分野を支えています。電子工学分野で世界的に高い評価を受けています。",
+      "zh": "IEEE CASS汇聚了设计现代电子系统的工程师与研究人员，其研究成果广泛应用于智能手机、机器人、医疗设备和人工智能等领域。它是全球电子工程领域最具影响力的专业社区之一。"
     },
-    {
-        "name": "Mark Rober’s CrunchLabs",
-        "website": "https://space.crunchlabs.com/",
-        "summary": {
-            "en": "Founded by ex-NASA engineer and YouTube star Mark Rober, CrunchLabs pushes the boundaries of creative engineering. Partaking in their Space Selfie program meant contributing to a high-profile project that literally sent tech into Earth's orbit, blending rigorous aerospace engineering with global pop-culture impact."
-        },
-        "analogy": {
-            "en": "Engineering meets Hollywood / NASA-level tech with a massive audience."
-        }
-    }
+    "analogy": {
+      "en": "Think of IEEE CASS as an international academy where experts design the electronic brains behind modern technology.",
+      "es": "Puede imaginarse como una academia internacional donde se diseña el cerebro electrónico de la tecnología moderna.",
+      "ja": "現代技術の「電子の頭脳」を設計する世界規模の専門家コミュニティのような存在です。",
+      "zh": "可以把它看作是专门设计现代科技“电子大脑”的国际专家联盟。"
+    },
+    "active": true
+  },
+  {
+    "id": "ieee-ias",
+    "name": {
+      "en": "IEEE Industry Applications Society",
+      "es": "Sociedad de Aplicaciones Industriales del IEEE",
+      "ja": "IEEE産業応用ソサイエティ",
+      "zh": "IEEE工业应用学会"
+    },
+    "shortName": {
+      "en": "IEEE IAS",
+      "es": "IEEE IAS",
+      "ja": "IEEE IAS",
+      "zh": "IEEE IAS"
+    },
+    "type": {
+      "en": "Professional Organization",
+      "es": "Organización Profesional",
+      "ja": "専門学会",
+      "zh": "专业学术组织"
+    },
+    "logo": "images/IEEE-IAS.svg",
+    "website": "https://ias.ieee.org",
+    "location": null,
+    "color": "#00629B",
+    "description": {
+      "en": "IEEE society focused on applying electrical and electronic engineering to industrial systems, manufacturing and energy.",
+      "es": "Sociedad del IEEE enfocada en la aplicación de la ingeniería eléctrica y electrónica a la industria, manufactura y energía.",
+      "ja": "電気・電子工学を産業、製造、エネルギー分野へ応用することを目的としたIEEEの技術学会です。",
+      "zh": "IEEE旗下致力于推动电气与电子工程在工业、制造及能源领域应用的专业学会。"
+    },
+    "summary": {
+      "en": "IEEE IAS connects engineers who solve real industrial challenges using electrical and electronic technologies. Their work improves factories, energy systems, transportation and automation around the world. The society helps transform research into practical solutions used every day.",
+      "es": "IEEE IAS reúne a profesionales que aplican la ingeniería eléctrica para resolver problemas reales de la industria. Sus contribuciones mejoran fábricas, sistemas energéticos, transporte y automatización en todo el mundo. Su enfoque está en convertir la innovación en soluciones prácticas.",
+      "ja": "IEEE IASは、電気・電子技術を活用して産業現場の課題を解決する技術者が集まる学会です。工場、自動化、エネルギー、交通など社会を支える幅広い分野で活躍しています。研究成果を実社会へ結び付ける役割を担っています。",
+      "zh": "IEEE IAS汇聚利用电气与电子技术解决工业实际问题的工程师，其成果广泛应用于制造、能源、交通和自动化等领域。它致力于推动科研成果真正落地并服务社会。"
+    },
+    "analogy": {
+      "en": "If IEEE CASS designs the technology, IEEE IAS helps put that technology to work in the real world.",
+      "es": "Si IEEE CASS diseña la tecnología, IEEE IAS ayuda a convertirla en soluciones que funcionan en la vida real.",
+      "ja": "IEEE CASSが技術を生み出す場だとすれば、IEEE IASはその技術を社会で活躍させる場です。",
+      "zh": "如果说IEEE CASS负责创造技术，那么IEEE IAS则负责让这些技术真正应用于现实世界。"
+    },
+    "active": true
+  },
+  {
+    "id": "utp",
+    "name": {
+      "en": "Technological University of Panama",
+      "es": "Universidad Tecnológica de Panamá",
+      "ja": "パナマ工科大学",
+      "zh": "巴拿马科技大学"
+    },
+    "shortName": {
+      "en": "UTP",
+      "es": "UTP",
+      "ja": "UTP",
+      "zh": "UTP"
+    },
+    "type": {
+      "en": "University",
+      "es": "Universidad",
+      "ja": "大学",
+      "zh": "大学"
+    },
+    "logo": "images/utp logo.png",
+    "website": "https://utp.ac.pa",
+    "location": "panama-city",
+    "color": "#00529B",
+    "description": {
+      "en": "Panama's leading public engineering and technology university, recognized for education, research and innovation.",
+      "es": "Principal universidad pública de ingeniería y tecnología de Panamá, reconocida por su formación, investigación e innovación.",
+      "ja": "パナマを代表する工学・技術分野の国立大学であり、教育・研究・イノベーションを推進しています。",
+      "zh": "巴拿马最具代表性的公立工程与科技大学，以教育、科研和创新著称。"
+    },
+    "summary": {
+      "en": "The Technological University of Panama is the country's premier institution for engineering and applied sciences. It educates future engineers while conducting research that supports industry, infrastructure and national development. Many of Panama's engineering leaders have studied or taught there.",
+      "es": "La Universidad Tecnológica de Panamá es la institución líder del país en ingeniería y ciencias aplicadas. Forma profesionales altamente capacitados y desarrolla investigación que fortalece la industria, la infraestructura y el desarrollo nacional. Es considerada la principal referencia de la ingeniería panameña.",
+      "ja": "パナマ工科大学は、同国を代表する工学・応用科学分野の大学です。高度な技術者を育成するとともに、産業や社会基盤を支える研究を行っています。パナマの多くの技術者や研究者がこの大学で学んでいます。",
+      "zh": "巴拿马科技大学是该国工程与应用科学领域最重要的高等学府。学校培养工程人才，同时开展支持产业、基础设施和国家发展的科研工作，是巴拿马工程教育的重要代表。"
+    },
+    "analogy": {
+      "en": "Think of UTP as Panama's equivalent of a national engineering powerhouse where future innovators are trained.",
+      "es": "Puede compararse con la principal escuela nacional de ingeniería de Panamá, donde se forman los futuros innovadores del país.",
+      "ja": "パナマにおける工学教育と技術革新の中核を担う大学と考えると分かりやすいでしょう。",
+      "zh": "可以把UTP看作巴拿马培养未来工程师和科技创新人才的核心大学。"
+    },
+    "active": true
+  },
+  {
+    "id": "kyutech",
+    "name": {
+      "en": "Kyushu Institute of Technology",
+      "es": "Instituto Tecnológico de Kyushu",
+      "ja": "九州工業大学",
+      "zh": "九州工业大学"
+    },
+    "shortName": {
+      "en": "Kyutech",
+      "es": "Kyutech",
+      "ja": "九工大",
+      "zh": "Kyutech"
+    },
+    "type": {
+      "en": "University",
+      "es": "Universidad",
+      "ja": "大学",
+      "zh": "大学"
+    },
+    "logo": "images/Kyutech-Logo.svg",
+    "website": "https://www.kyutech.ac.jp",
+    "location": "iizuka",
+    "color": "#005BAC",
+    "description": {
+      "en": "A Japanese national university internationally recognized for engineering, robotics, artificial intelligence, space technology and advanced scientific research.",
+      "es": "Universidad nacional japonesa reconocida internacionalmente por su excelencia en ingeniería, robótica, inteligencia artificial, tecnología espacial e investigación científica avanzada.",
+      "ja": "工学、ロボティクス、人工知能、宇宙技術などの分野で世界的に高い評価を受ける日本の国立大学です。",
+      "zh": "日本著名国立大学，在工程、机器人、人工智能、航天技术及先进科研领域享有国际声誉。"
+    },
+    "summary": {
+      "en": "Kyushu Institute of Technology is one of Japan's leading engineering universities, known for combining academic excellence with practical innovation. Researchers and students develop technologies that contribute to robotics, semiconductor design, artificial intelligence and space exploration. The university collaborates with industry and research organizations around the world to solve real engineering challenges.",
+      "es": "El Instituto Tecnológico de Kyushu es una de las principales universidades de ingeniería de Japón, reconocida por combinar excelencia académica con innovación aplicada. Sus investigadores y estudiantes desarrollan tecnologías para robótica, diseño de semiconductores, inteligencia artificial y exploración espacial. La universidad mantiene una estrecha colaboración con empresas y centros de investigación internacionales.",
+      "ja": "九州工業大学は、日本を代表する工学系大学の一つであり、高度な研究と実践的なものづくりを両立しています。ロボット、半導体、人工知能、宇宙技術など幅広い分野で最先端の研究が行われています。産業界や海外研究機関との共同研究も盛んです。",
+      "zh": "九州工业大学是日本顶尖的工程类大学之一，以学术研究与实际创新并重而闻名。学校在机器人、半导体、人工智能和航天技术等领域开展前沿研究，并与世界各地的高校和企业保持广泛合作。"
+    },
+    "analogy": {
+      "en": "Think of Kyutech as a place where tomorrow's engineers build technologies that may shape the future of society.",
+      "es": "Puede imaginarse como un lugar donde los ingenieros del futuro desarrollan las tecnologías que transformarán la sociedad.",
+      "ja": "未来の社会を支える技術を次世代の技術者が生み出す研究拠点のような存在です。",
+      "zh": "可以把Kyutech看作培养未来工程师、创造下一代科技的重要创新基地。"
+    },
+    "active": true
+  },
+  {
+    "id": "robocup-jr",
+    "name": {
+      "en": "RoboCupJunior",
+      "es": "RoboCupJunior",
+      "ja": "ロボカップジュニア",
+      "zh": "RoboCupJunior"
+    },
+    "shortName": {
+      "en": "RoboCup Jr.",
+      "es": "RoboCup Jr.",
+      "ja": "RoboCup Jr.",
+      "zh": "RoboCup Jr."
+    },
+    "type": {
+      "en": "International Competition",
+      "es": "Competencia Internacional",
+      "ja": "国際競技会",
+      "zh": "国际竞赛"
+    },
+    "logo": "images/robocup-logo.jpg",
+    "website": "https://junior.robocup.org",
+    "location": null,
+    "color": "#E63946",
+    "description": {
+      "en": "An international educational robotics competition that inspires young students to learn science, engineering and programming through autonomous robots.",
+      "es": "Competencia internacional de robótica educativa que motiva a estudiantes a aprender ciencia, ingeniería y programación mediante robots autónomos.",
+      "ja": "自律ロボット競技を通して、子どもたちが科学・工学・プログラミングを学ぶ国際教育大会です。",
+      "zh": "面向青少年的国际机器人竞赛，通过自主机器人培养科学、工程与编程能力。"
+    },
+    "summary": {
+      "en": "RoboCupJunior introduces students to engineering by challenging them to design, build and program autonomous robots that solve realistic tasks. Beyond competition, it encourages teamwork, creativity and problem-solving skills that are valuable in any profession. It is one of the world's most recognized educational robotics initiatives.",
+      "es": "RoboCupJunior acerca la ingeniería a estudiantes mediante el diseño, construcción y programación de robots autónomos capaces de resolver desafíos reales. Además de la competencia, fomenta el trabajo en equipo, la creatividad y la capacidad para resolver problemas. Es uno de los programas educativos de robótica más reconocidos del mundo.",
+      "ja": "ロボカップジュニアは、子どもたちがロボットを設計・製作・プログラミングしながら工学を学ぶ国際教育プログラムです。競技を通じて創造力やチームワーク、課題解決能力を育みます。世界中で高い評価を受ける教育ロボット競技の一つです。",
+      "zh": "RoboCupJunior通过设计、制造和编程自主机器人，让学生在实践中学习工程知识。除了竞赛本身，它还培养团队合作、创造力和解决问题的能力，是全球最具影响力的青少年机器人教育项目之一。"
+    },
+    "analogy": {
+      "en": "Imagine the robotics equivalent of an international science olympics where students learn by building real robots.",
+      "es": "Puede imaginarse como unas olimpiadas internacionales de ciencia donde los estudiantes aprenden construyendo robots reales.",
+      "ja": "ロボットづくりを通じて学ぶ、国際的な科学オリンピックのような大会です。",
+      "zh": "可以把它看作机器人领域的国际科学奥林匹克，让学生通过亲手制作机器人学习工程。"
+    },
+    "active": true
+  },
+  {
+    "id": "cemcit",
+    "name": {
+      "en": "Center for Multidisciplinary Studies in Science, Engineering and Technology",
+      "es": "Centro de Estudios Multidisciplinarios en Ciencias, Ingeniería y Tecnología",
+      "ja": "科学・工学・技術学際研究センター",
+      "zh": "科学、工程与技术多学科研究中心"
+    },
+    "shortName": {
+      "en": "CEMCIT",
+      "es": "CEMCIT",
+      "ja": "CEMCIT",
+      "zh": "CEMCIT"
+    },
+    "type": {
+      "en": "Research Center",
+      "es": "Centro de Investigación",
+      "ja": "研究センター",
+      "zh": "科研中心"
+    },
+    "logo": "images/cemcit-logo.png",
+    "website": "https://cemcit.utp.ac.pa",
+    "location": "panama-city",
+    "color": "#2E7D32",
+    "description": {
+      "en": "A multidisciplinary research center at the Technological University of Panama dedicated to advancing science, engineering and technological innovation.",
+      "es": "Centro de investigación multidisciplinario de la Universidad Tecnológica de Panamá dedicado al avance de la ciencia, la ingeniería y la innovación tecnológica.",
+      "ja": "パナマ工科大学に所属し、科学・工学・技術分野の学際研究を推進する研究センターです。",
+      "zh": "隶属于巴拿马科技大学，致力于推动科学、工程与技术创新的多学科研究中心。"
+    },
+    "summary": {
+      "en": "CEMCIT brings together researchers from different engineering and scientific disciplines to solve complex real-world problems. By combining expertise across multiple fields, it promotes innovation that benefits industry, education and society. The center also supports collaboration between universities, government and international partners.",
+      "es": "CEMCIT reúne investigadores de distintas áreas de la ingeniería y la ciencia para abordar problemas complejos desde una perspectiva multidisciplinaria. Esta colaboración impulsa soluciones innovadoras con impacto en la industria, la educación y la sociedad. Además, fortalece la cooperación entre universidades, instituciones públicas y organizaciones internacionales.",
+      "ja": "CEMCITは、異なる専門分野の研究者が協力し、社会課題の解決に取り組む学際研究センターです。工学と科学を融合することで、新しい技術や知識の創出を目指しています。大学、政府、企業との連携も積極的に行っています。",
+      "zh": "CEMCIT汇聚来自不同工程与科学领域的研究人员，共同解决复杂的现实问题。通过跨学科合作，推动技术创新，并促进高校、政府及国际机构之间的科研合作。"
+    },
+    "analogy": {
+      "en": "Think of CEMCIT as a laboratory where experts from different fields work together like members of the same innovation team.",
+      "es": "Puede imaginarse como un gran laboratorio donde especialistas de distintas áreas trabajan juntos para crear nuevas soluciones.",
+      "ja": "さまざまな専門家が一つのチームとなって新しい技術を生み出す研究拠点のような存在です。",
+      "zh": "可以把CEMCIT看作一个大型创新实验室，不同领域的专家共同合作解决问题。"
+    },
+    "active": true
+  },
+  {
+    "id": "senacyt",
+    "name": {
+      "en": "National Secretariat of Science, Technology and Innovation",
+      "es": "Secretaría Nacional de Ciencia, Tecnología e Innovación",
+      "ja": "パナマ科学技術・イノベーション庁",
+      "zh": "巴拿马国家科学、技术与创新秘书处"
+    },
+    "shortName": {
+      "en": "SENACYT",
+      "es": "SENACYT",
+      "ja": "SENACYT",
+      "zh": "SENACYT"
+    },
+    "type": {
+      "en": "Government Agency",
+      "es": "Agencia Gubernamental",
+      "ja": "政府機関",
+      "zh": "政府机构"
+    },
+    "logo": "images/senacyt-logo.jpg",
+    "website": "https://senacyt.gob.pa",
+    "location": "panama-city",
+    "color": "#0097A7",
+    "description": {
+      "en": "Panama's national government agency responsible for promoting scientific research, technological innovation and STEM education.",
+      "es": "Entidad gubernamental panameña encargada de impulsar la investigación científica, la innovación tecnológica y la educación STEM.",
+      "ja": "科学研究、技術革新、STEM教育を推進するパナマ政府の機関です。",
+      "zh": "负责推动巴拿马科学研究、技术创新及STEM教育发展的政府机构。"
+    },
+    "summary": {
+      "en": "SENACYT invests in people, ideas and research that help Panama grow through science and technology. It funds research projects, scholarships, innovation programs and educational initiatives that strengthen the country's scientific ecosystem. It serves as the primary public institution supporting technological development in Panama.",
+      "es": "SENACYT impulsa el crecimiento científico y tecnológico de Panamá mediante el financiamiento de proyectos de investigación, becas, programas de innovación e iniciativas educativas. Su misión es fortalecer el ecosistema nacional de ciencia y tecnología para beneficio de la sociedad. Es la principal institución pública del país dedicada a este propósito.",
+      "ja": "SENACYTは、研究助成、奨学金、技術革新プログラムなどを通じて、パナマの科学技術の発展を支援する政府機関です。教育と研究への投資を通じて国全体の競争力向上を目指しています。国内の科学技術政策を支える中心的な存在です。",
+      "zh": "SENACYT通过资助科研项目、奖学金、创新计划和教育活动，推动巴拿马的科技发展。它致力于建设国家创新体系，提高社会整体的科学与技术能力，是巴拿马科技发展的核心公共机构。"
+    },
+    "analogy": {
+      "en": "Think of SENACYT as the organization that plants the seeds for a country's future scientists and innovators.",
+      "es": "Puede imaginarse como la institución que siembra las semillas para la próxima generación de científicos e innovadores del país.",
+      "ja": "国の未来を担う科学者や技術者を育てるための土壌をつくる組織と考えると分かりやすいでしょう。",
+      "zh": "可以把SENACYT看作培养国家未来科学家与创新人才的“育苗中心”。"
+    },
+    "active": true
+  },
+  {
+    "id": "tinytapeout",
+    "name": {
+      "en": "Tiny Tapeout",
+      "es": "Tiny Tapeout",
+      "ja": "Tiny Tapeout",
+      "zh": "Tiny Tapeout"
+    },
+    "shortName": {
+      "en": "Tiny Tapeout",
+      "es": "Tiny Tapeout",
+      "ja": "Tiny Tapeout",
+      "zh": "Tiny Tapeout"
+    },
+    "type": {
+      "en": "Educational Open-Source Initiative",
+      "es": "Iniciativa Educativa de Código Abierto",
+      "ja": "オープンソース教育プロジェクト",
+      "zh": "开源教育项目"
+    },
+    "logo": "images/tinytapeout-logo.jpeg",
+    "website": "https://tinytapeout.com",
+    "location": null,
+    "color": "#673AB7",
+    "description": {
+      "en": "A global open-source initiative that enables students, educators and engineers to design and manufacture their own integrated circuits.",
+      "es": "Iniciativa internacional de código abierto que permite a estudiantes, docentes e ingenieros diseñar y fabricar sus propios circuitos integrados.",
+      "ja": "学生や教育者、技術者が独自の集積回路を設計・製造できるよう支援する国際的なオープンソース教育プロジェクトです。",
+      "zh": "一个全球性的开源教育项目，帮助学生、教师和工程师设计并制造属于自己的集成电路。"
+    },
+    "summary": {
+      "en": "Tiny Tapeout makes custom chip design accessible to anyone interested in electronics, regardless of experience or budget. Participants can submit digital integrated circuit designs that are manufactured on real silicon, providing hands-on experience with semiconductor engineering. It has become an important educational platform for learning modern chip design.",
+      "es": "Tiny Tapeout acerca el diseño de circuitos integrados a estudiantes y profesionales sin necesidad de grandes recursos económicos. Los participantes pueden fabricar diseños reales de chips, adquiriendo experiencia práctica en ingeniería de semiconductores. Hoy es una de las iniciativas educativas más reconocidas en este campo.",
+      "ja": "Tiny Tapeoutは、半導体設計を誰でも学び、実際のシリコンチップとして製造できる教育プロジェクトです。高価な設備がなくても集積回路設計を体験できることから、世界中の学生や技術者に利用されています。半導体教育の新しい形として注目されています。",
+      "zh": "Tiny Tapeout让更多学生和工程师能够以较低成本体验芯片设计。参与者可以将自己设计的数字电路真正制造成硅芯片，从而获得真实的半导体开发经验。如今它已成为国际上极具影响力的芯片设计教育平台之一。"
+    },
+    "analogy": {
+      "en": "Imagine a makerspace where instead of 3D printing objects, people manufacture their own computer chips.",
+      "es": "Imagine un laboratorio colaborativo donde, en lugar de imprimir objetos en 3D, las personas fabrican sus propios microchips.",
+      "ja": "3Dプリンターで物を作る代わりに、自分だけの半導体チップを作れるメイカースペースのようなものです。",
+      "zh": "可以把它看作一个“芯片创客空间”，人们制作的不再是3D模型，而是真正的集成电路。"
+    },
+    "active": true
+  },
+  {
+    "id": "crunchlabs",
+    "name": {
+      "en": "CrunchLabs",
+      "es": "CrunchLabs",
+      "ja": "CrunchLabs",
+      "zh": "CrunchLabs"
+    },
+    "shortName": {
+      "en": "CrunchLabs",
+      "es": "CrunchLabs",
+      "ja": "CrunchLabs",
+      "zh": "CrunchLabs"
+    },
+    "type": {
+      "en": "Engineering Company",
+      "es": "Empresa de Ingeniería",
+      "ja": "エンジニアリング企業",
+      "zh": "工程科技公司"
+    },
+    "logo": "images/crunchlabs-logo.png",
+    "website": "https://www.crunchlabs.com",
+    "location": null,
+    "color": "#F9A825",
+    "description": {
+      "en": "Engineering and educational company founded by Mark Rober, dedicated to inspiring curiosity through hands-on science and engineering projects.",
+      "es": "Empresa de ingeniería y educación fundada por Mark Rober para inspirar la curiosidad mediante proyectos prácticos de ciencia e ingeniería.",
+      "ja": "元NASAエンジニアのマーク・ローバー氏が設立した、ものづくりを通じて科学への興味を育てるエンジニアリング企業です。",
+      "zh": "由前NASA工程师Mark Rober创立，通过动手实践激发大众对科学与工程兴趣的教育科技公司。"
+    },
+    "summary": {
+      "en": "CrunchLabs creates engineering experiences that make science exciting and accessible for millions of people. Through educational kits, large-scale engineering projects and online content, it encourages learners of all ages to explore how technology works. Its collaborations often combine entertainment with real engineering challenges to inspire future innovators.",
+      "es": "CrunchLabs desarrolla experiencias educativas que acercan la ciencia y la ingeniería a millones de personas de forma entretenida. Sus proyectos, kits educativos y contenido digital motivan a estudiantes y familias a descubrir cómo funciona la tecnología. Su enfoque combina creatividad, diversión y rigor técnico para inspirar a las nuevas generaciones.",
+      "ja": "CrunchLabsは、科学や工学を楽しく学べる体験を提供する企業です。教育キットや大規模な実験プロジェクト、動画コンテンツを通じて、幅広い世代にものづくりの魅力を伝えています。エンターテインメントと本格的な工学を融合させた取り組みが特徴です。",
+      "zh": "CrunchLabs通过教育套件、大型工程实验和线上内容，让数百万观众以轻松有趣的方式接触科学与工程。它将娱乐与真实工程实践相结合，激发不同年龄层学习科技的兴趣，并鼓励未来创新者不断探索。"
+    },
+    "analogy": {
+      "en": "Think of CrunchLabs as a creative engineering studio where complex science becomes exciting and easy for everyone to understand.",
+      "es": "Puede imaginarse como un estudio creativo de ingeniería que convierte conceptos científicos complejos en experiencias divertidas y fáciles de comprender.",
+      "ja": "難しい科学を誰でも楽しみながら学べるようにする、創造的なエンジニアリング工房のような存在です。",
+      "zh": "可以把CrunchLabs看作一个创意工程工作室，把复杂的科学知识变成人人都能享受的体验。"
+    },
+    "active": true
+  }
 ]

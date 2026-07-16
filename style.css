@@ -1548,3 +1548,506 @@ footer {
     align-items: center;
   }
 }
+
+/* =========================================================
+   GLOBAL EXPERIENCE SECTION
+========================================================= */
+
+.global-experience-section,
+.institutions-section {
+  padding: 80px 0;
+  position: relative;
+}
+
+
+.global-experience-section .section-header,
+.institutions-section .section-header {
+  max-width: 850px;
+  margin: 0 auto 50px;
+  text-align: center;
+}
+
+
+.global-experience-section .section-header h2,
+.institutions-section .section-header h2 {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 4vw, 3rem);
+  color: var(--text);
+  margin-bottom: 15px;
+}
+
+
+.global-experience-section .section-header p,
+.institutions-section .section-header p {
+  color: var(--text-muted);
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+
+
+/* =========================================================
+   GLOBE CONTAINER
+========================================================= */
+
+
+.globe-container {
+  width: 100%;
+  height: 560px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+.globe-placeholder {
+  width: 100%;
+  height: 100%;
+  border-radius: var(--radius-lg);
+  background:
+    radial-gradient(circle at center,
+      rgba(79, 195, 247, 0.12),
+      transparent 55%),
+    var(--bg-card);
+  border: 1px solid var(--border);
+  box-shadow:
+    var(--shadow),
+    var(--glow);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  color: var(--text-muted);
+}
+
+
+.globe-placeholder span {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  color: var(--accent);
+}
+
+.globe-placeholder small {
+  color: var(--text-dim);
+}
+
+
+
+/* =========================================================
+   INSTITUTION GRID
+========================================================= */
+
+
+.institutions-grid {
+  display: grid;
+  grid-template-columns:
+    repeat(auto-fit,
+      minmax(220px, 1fr));
+  gap: 25px;
+}
+
+
+
+/* =========================================================
+   INSTITUTION CARD
+========================================================= */
+
+
+.institution-card {
+  position: relative;
+  min-height: 260px;
+  padding: 28px 22px;
+  background:
+    linear-gradient(145deg,
+      rgba(255, 255, 255, 0.06),
+      rgba(255, 255, 255, 0.02));
+  border:
+    1px solid var(--border);
+  border-radius: var(--radius-lg);
+  backdrop-filter: blur(12px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  overflow: hidden;
+  transition:
+    transform var(--transition),
+    border-color var(--transition),
+    box-shadow var(--transition);
+}
+
+
+
+/* Accent glow */
+
+.institution-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at top,
+      var(--accent-glow),
+      transparent 60%);
+  opacity: 0;
+  transition:
+    opacity var(--transition);
+  pointer-events: none;
+}
+
+
+
+.institution-card:hover {
+  transform:
+    translateY(-8px);
+  border-color:
+    var(--border-hover);
+  box-shadow:
+    var(--shadow),
+    var(--glow);
+}
+
+
+
+.institution-card:hover::before {
+  opacity: 0.35;
+}
+
+
+
+/* =========================================================
+   LOGO
+========================================================= */
+
+
+.institution-logo-wrapper {
+  width: 110px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 22px;
+  background:
+    rgba(255, 255, 255, 0.06);
+  border-radius: 50%;
+  border:
+    1px solid var(--border);
+  position: relative;
+  z-index: 1;
+}
+
+
+
+.institution-logo-wrapper img {
+  max-width: 75%;
+  max-height: 75%;
+  object-fit: contain;
+  filter: grayscale(20%);
+  transition:
+    transform var(--transition),
+    filter var(--transition);
+}
+
+
+
+.institution-card:hover img {
+  transform: scale(1.08);
+  filter: grayscale(0%);
+}
+
+
+
+/* =========================================================
+   TEXT
+========================================================= */
+
+
+.institution-info {
+  position: relative;
+  z-index: 1;
+}
+
+
+
+.institution-info h3 {
+  font-family: var(--font-display);
+  color: var(--text);
+  font-size: 1.15rem;
+  margin-bottom: 10px;
+}
+
+
+
+.institution-type {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 20px;
+  background: var(--accent-dim);
+  color: var(--accent);
+  font-size: 0.8rem;
+  margin-bottom: 15px;
+}
+
+
+
+.institution-info p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+
+
+/* =========================================================
+   ENTRY ANIMATION
+========================================================= */
+
+
+.institution-card {
+  opacity: 0;
+  animation: institutionReveal 0.7s ease forwards;
+}
+
+
+
+@keyframes institutionReveal {
+  from {
+    opacity: 0;
+    transform:
+      translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform:
+      translateY(0);
+  }
+}
+
+/* stagger effect */
+.institution-card:nth-child(1) {
+  animation-delay: .05s;
+}
+
+.institution-card:nth-child(2) {
+  animation-delay: .1s;
+}
+
+.institution-card:nth-child(3) {
+  animation-delay: .15s;
+}
+
+.institution-card:nth-child(4) {
+  animation-delay: .2s;
+}
+
+.institution-card:nth-child(5) {
+  animation-delay: .25s;
+}
+
+.institution-card:nth-child(6) {
+  animation-delay: .3s;
+}
+
+.institution-card:nth-child(7) {
+  animation-delay: .35s;
+}
+
+.institution-card:nth-child(8) {
+  animation-delay: .4s;
+}
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+
+@media(max-width:768px) {
+
+  .global-experience-section,
+  .institutions-section {
+    padding: 60px 20px;
+  }
+
+  .globe-container {
+    height: 400px;
+  }
+
+  .institutions-grid {
+    grid-template-columns:
+      repeat(2,
+        1fr);
+    gap: 15px;
+  }
+
+  .institution-card {
+    min-height: 220px;
+    padding: 20px 15px;
+  }
+}
+
+
+
+@media(max-width:480px) {
+  .institutions-grid {
+    grid-template-columns:
+      1fr;
+  }
+}
+
+#globe {
+    width:100%;
+    height:100%;
+}
+.globe-info-panel {
+    position:absolute;
+    right:30px;
+    bottom:30px;
+    background:        rgba(15,21,32,.9);
+    border:
+        1px solid var(--border);
+    padding:20px;
+    border-radius:        var(--radius);
+    min-width:220px;
+    opacity:0;
+    transform:        translateY(20px);
+    transition:        var(--transition);
+
+}
+
+
+
+.globe-info-panel.active {
+    opacity:1;
+    transform:
+        translateY(0);
+}
+
+.map-wrapper {
+    width: 100%;
+    height: 600px;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    border: 1px solid var(--border);
+    background: var(--bg-card);
+    box-shadow: var(--shadow);
+    position: relative;
+}
+
+#world-map {
+    width: 100%;
+    height: 100%;
+}
+
+#map-info-panel {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 280px;
+    background: rgba(15,21,32,.92);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 18px;
+    backdrop-filter: blur(12px);
+    display: none;
+}
+
+#map-info-panel.active {
+    display: block;
+}
+
+.institution-link {
+
+    margin-top: auto;
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 10px 18px;
+
+    border-radius: 999px;
+
+    text-decoration: none;
+
+    color: var(--accent);
+
+    border: 1px solid var(--border-hover);
+
+    background: var(--accent-dim);
+
+    transition: var(--transition);
+
+    font-size: .9rem;
+
+    font-weight: 600;
+
+    position:relative;
+    z-index:2;
+
+}
+
+.institution-link:hover {
+
+    background: var(--accent);
+
+    color: var(--bg);
+
+    box-shadow: var(--glow);
+
+}
+
+.institution-logo-wrapper {
+
+    width: 120px;
+
+    height: 120px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    padding: 12px;
+
+    background: rgba(255,255,255,.96);
+
+    border-radius: 18px;
+
+    border: 1px solid rgba(255,255,255,.15);
+
+    overflow: hidden;
+
+}
+
+.institution-logo-wrapper img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: contain;
+
+    object-position: center;
+
+    display: block;
+
+    transition: transform .3s ease;
+
+    filter:
+        drop-shadow(0 2px 6px rgba(0,0,0,.15));
+
+}
+.institution-card:hover
+.institution-logo-wrapper img {
+
+    transform: scale(1.06);
+
+}

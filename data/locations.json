@@ -1,0 +1,72 @@
+[
+  {
+    "id": "panama-city",
+    "city": "Panama City",
+    "country": "Panama",
+    "lat": 8.982379,
+    "lng": -79.519870
+  },
+  {
+    "id": "iizuka",
+    "city": "Iizuka",
+    "country": "Japan",
+    "lat": 33.645900,
+    "lng": 130.691500
+  },
+  {
+    "id": "bordeaux",
+    "city": "Bordeaux",
+    "country": "France",
+    "lat": 44.837789,
+    "lng": -0.579180
+  },
+  {
+    "id": "eindhoven",
+    "city": "Eindhoven",
+    "country": "Netherlands",
+    "lat": 51.441642,
+    "lng": 5.469722
+  },
+  {
+    "id": "guatemala-city",
+    "city": "Guatemala City",
+    "country": "Guatemala",
+    "lat": 14.634915,
+    "lng": -90.506882
+  },
+  {
+    "id": "san-pedro-sula",
+    "city": "San Pedro Sula",
+    "country": "Honduras",
+    "lat": 15.504157,
+    "lng": -88.025139
+  },
+  {
+    "id": "san-jose",
+    "city": "San José",
+    "country": "Costa Rica",
+    "lat": 9.928069,
+    "lng": -84.090725
+  },
+  {
+    "id": "times-square",
+    "city": "New York City",
+    "country": "United States",
+    "lat": 40.758000,
+    "lng": -73.985500
+  },
+  {
+    "id": "dallas",
+    "city": "Dallas",
+    "country": "United States",
+    "lat": 32.776665,
+    "lng": -96.796989
+  },
+  {
+    "id": "incheon",
+    "city": "Incheon",
+    "country": "South Korea",
+    "lat": 37.456255,
+    "lng": 126.705206
+  }
+]
