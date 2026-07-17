@@ -394,5 +394,401 @@
       "zh": "可以把CrunchLabs看作一个创意工程工作室，把复杂的科学知识变成人人都能享受的体验。"
     },
     "active": true
+  },
+  {
+    "id": "tec-costa-rica",
+    "name": {
+      "en": "Costa Rica Institute of Technology",
+      "es": "Instituto Tecnológico de Costa Rica",
+      "ja": "コスタリカ工科大学",
+      "zh": "哥斯达黎加工业技术学院"
+    },
+    "shortName": {
+      "en": "TEC",
+      "es": "TEC",
+      "ja": "TEC",
+      "zh": "TEC"
+    },
+    "type": {
+      "en": "Public University",
+      "es": "Universidad Pública",
+      "ja": "国立大学",
+      "zh": "公立大学"
+    },
+    "logo": "images/TEC-logo.svg",
+    "website": "https://www.tec.ac.cr",
+    "location": "cartago-costa-rica",
+    "color": "#00539B",
+    "description": {
+      "en": "Costa Rica's leading public university specializing in engineering, science, technology, and applied research. It plays a central role in developing technological innovation and highly skilled professionals throughout Central America.",
+      "es": "La principal universidad pública de Costa Rica especializada en ingeniería, ciencias, tecnología e investigación aplicada. Desempeña un papel fundamental en el desarrollo de la innovación tecnológica y la formación de profesionales altamente calificados en Centroamérica.",
+      "ja": "コスタリカを代表する国立工科大学であり、工学、科学、技術、応用研究を専門としています。中米地域における技術革新と高度人材育成の中心的存在です。",
+      "zh": "哥斯达黎加最具代表性的公立理工大学，专注于工程、科学、技术及应用研究，在中美洲科技创新和高层次人才培养中发挥着重要作用。"
+    },
+    "summary": {
+      "en": "Founded in 1971, the Costa Rica Institute of Technology (TEC) is internationally recognized for excellence in engineering, electronics, computing, biotechnology, and industrial innovation. Through strong partnerships with industry and government, TEC prepares graduates to solve real-world technological challenges while contributing to sustainable national development.",
+      "es": "Fundado en 1971, el Instituto Tecnológico de Costa Rica (TEC) es reconocido internacionalmente por su excelencia en ingeniería, electrónica, informática, biotecnología e innovación industrial. Mediante una estrecha colaboración con la industria y el gobierno, forma profesionales capaces de resolver desafíos tecnológicos reales y contribuir al desarrollo sostenible del país.",
+      "ja": "1971年に設立されたTECは、工学、電子工学、情報科学、バイオテクノロジー、産業イノベーション分野で国際的に高い評価を受けています。産業界や政府との連携を通じて、実社会の課題を解決できる技術者を育成しています。",
+      "zh": "哥斯达黎加工业技术学院（TEC）成立于1971年，在工程、电子、计算机、生命科学及产业创新领域享有国际声誉。学校与政府及产业界紧密合作，培养能够解决现实工程问题并推动国家可持续发展的专业人才。"
+    },
+    "analogy": {
+      "en": "Think of TEC as Costa Rica's equivalent of a national engineering powerhouse where innovation and practical problem-solving go hand in hand.",
+      "es": "Puede imaginarse como el gran referente nacional de ingeniería en Costa Rica, donde la innovación y la aplicación práctica avanzan de la mano.",
+      "ja": "コスタリカにおける工学教育と技術革新の中核を担う大学と考えることができます。",
+      "zh": "可以把TEC看作哥斯达黎加培养工程师和推动科技创新的核心学府。"
+    },
+    "active": true
+  },
+  {
+    "id": "global-unichip-japan",
+    "name": {
+      "en": "Global Unichip Japan",
+      "es": "Global Unichip Japón",
+      "ja": "グローバルユニチップ・ジャパン",
+      "zh": "创意电子日本公司"
+    },
+    "shortName": {
+      "en": "GUC Japan",
+      "es": "GUC Japón",
+      "ja": "GUC Japan",
+      "zh": "GUC日本"
+    },
+    "type": {
+      "en": "Semiconductor Company",
+      "es": "Empresa de Semiconductores",
+      "ja": "半導体企業",
+      "zh": "半导体企业"
+    },
+    "logo": "images/GUC-logo.SVG",
+    "website": "https://www.guc-asic.com",
+    "location": "yokohama-japan",
+    "color": "#1E4E8C",
+    "description": {
+      "en": "Global Unichip Japan provides advanced ASIC design services and semiconductor solutions, supporting customers in developing high-performance integrated circuits for artificial intelligence, networking, automotive, and high-performance computing applications.",
+      "es": "Global Unichip Japón ofrece servicios avanzados de diseño ASIC y soluciones de semiconductores para el desarrollo de circuitos integrados destinados a inteligencia artificial, redes, automoción y computación de alto rendimiento.",
+      "ja": "グローバルユニチップ・ジャパンは、AI、ネットワーク、自動車、高性能コンピューティング向けのASIC設計および半導体ソリューションを提供しています。",
+      "zh": "创意电子日本公司提供先进ASIC设计服务和半导体解决方案，广泛应用于人工智能、网络通信、汽车电子及高性能计算。"
+    },
+    "summary": {
+      "en": "As the Japanese branch of Global Unichip Corp., GUC Japan collaborates with leading semiconductor manufacturers and technology companies to deliver custom silicon solutions. The company bridges advanced chip design with world-class manufacturing, enabling next-generation electronic products.",
+      "es": "Como filial japonesa de Global Unichip Corp., GUC Japón colabora con fabricantes líderes de semiconductores y empresas tecnológicas para desarrollar soluciones ASIC personalizadas que hacen posible la próxima generación de productos electrónicos.",
+      "ja": "Global Unichip Corp.の日本法人として、世界有数の半導体メーカーやテクノロジー企業と連携し、高性能ASICの設計から量産までを支援しています。",
+      "zh": "作为Global Unichip Corp.的日本子公司，GUC Japan与全球领先半导体企业合作，为客户提供从芯片设计到量产的一站式ASIC解决方案。"
+    },
+    "analogy": {
+      "en": "Think of GUC Japan as an architectural firm for custom computer chips, transforming complex ideas into silicon ready for manufacturing.",
+      "es": "Puede imaginarse como un estudio de arquitectura especializado en diseñar chips personalizados para convertir ideas complejas en circuitos integrados reales.",
+      "ja": "オーダーメイド半導体を設計する『チップ設計の建築事務所』のような存在です。",
+      "zh": "可以把GUC Japan看作一家专门设计定制芯片的建筑事务所，将复杂构想变成真正的硅芯片。"
+    },
+    "active": true
+  },
+  {
+    "id": "huawei",
+    "name": {
+      "en": "Huawei",
+      "es": "Huawei",
+      "ja": "華為技術（ファーウェイ）",
+      "zh": "华为"
+    },
+    "shortName": {
+      "en": "Huawei",
+      "es": "Huawei",
+      "ja": "Huawei",
+      "zh": "华为"
+    },
+    "type": {
+      "en": "Technology Company",
+      "es": "Empresa Tecnológica",
+      "ja": "テクノロジー企業",
+      "zh": "科技企业"
+    },
+    "logo": "images/huawei-logo.svg",
+    "website": "https://www.huawei.com",
+    "location": "shenzhen-china",
+    "color": "#CF0A2C",
+    "description": {
+      "en": "Huawei is a global technology company specializing in information and communications technology (ICT), telecommunications infrastructure, cloud computing, consumer electronics, and digital solutions for governments and industries.",
+      "es": "Huawei es una empresa tecnológica global especializada en tecnologías de la información y las comunicaciones (TIC), infraestructura de telecomunicaciones, computación en la nube, dispositivos electrónicos y soluciones digitales para gobiernos e industrias.",
+      "ja": "Huaweiは、ICT、通信インフラ、クラウドコンピューティング、コンシューマー製品、産業向けデジタルソリューションを提供する世界的なテクノロジー企業です。",
+      "zh": "华为是一家全球领先的信息与通信技术（ICT）企业，业务涵盖通信网络、云计算、消费电子及行业数字化解决方案。"
+    },
+    "summary": {
+      "en": "Founded in 1987, Huawei has become one of the world's largest providers of telecommunications infrastructure and digital technologies. Its research spans wireless communications, artificial intelligence, cloud computing, semiconductor design, and enterprise digital transformation, serving customers in more than 170 countries and regions.",
+      "es": "Fundada en 1987, Huawei se ha convertido en uno de los mayores proveedores mundiales de infraestructura de telecomunicaciones y tecnologías digitales. Su investigación abarca comunicaciones inalámbricas, inteligencia artificial, computación en la nube, diseño de semiconductores y transformación digital empresarial.",
+      "ja": "1987年設立のHuaweiは、通信インフラやデジタル技術分野をリードする世界的企業です。無線通信、AI、クラウド、半導体設計、企業向けDXなど幅広い分野で研究開発を行っています。",
+      "zh": "华为成立于1987年，是全球领先的通信基础设施和数字技术供应商，在无线通信、人工智能、云计算、芯片设计及企业数字化等领域持续开展研发创新，为170多个国家和地区提供服务。"
+    },
+    "analogy": {
+      "en": "Think of Huawei as one of the world's major builders of the digital highways that connect people, devices, businesses, and entire cities.",
+      "es": "Puede imaginarse como uno de los principales constructores de las autopistas digitales que conectan personas, dispositivos, empresas y ciudades inteligentes.",
+      "ja": "世界中の人々や都市をつなぐ『デジタル高速道路』を構築する企業の一つと考えることができます。",
+      "zh": "可以把华为看作建设全球数字高速公路的重要企业，连接人与人、设备、企业及智慧城市。"
+    },
+    "active": true
+  },
+  {
+    "id": "ieee-css",
+    "name": {
+      "en": "IEEE Control Systems Society",
+      "es": "Sociedad de Sistemas de Control del IEEE",
+      "ja": "IEEE制御システムソサイエティ",
+      "zh": "IEEE控制系统学会"
+    },
+    "shortName": {
+      "en": "IEEE CSS",
+      "es": "IEEE CSS",
+      "ja": "IEEE CSS",
+      "zh": "IEEE CSS"
+    },
+    "type": {
+      "en": "Professional Organization",
+      "es": "Organización Profesional",
+      "ja": "専門学会",
+      "zh": "专业学术组织"
+    },
+    "logo": "images/IEEE-CSS.jpg",
+    "website": "https://ieeecss.org",
+    "location": null,
+    "color": "#005A9C",
+    "description": {
+      "en": "An IEEE technical society dedicated to the advancement of automatic control, systems engineering, robotics, autonomous systems, and control theory through research, education, publications, and international collaboration.",
+      "es": "Sociedad técnica del IEEE dedicada al avance del control automático, la ingeniería de sistemas, la robótica, los sistemas autónomos y la teoría del control mediante investigación, educación, publicaciones y colaboración internacional.",
+      "ja": "制御工学、システム工学、ロボティクス、自律システム、制御理論の発展を目的とするIEEEの技術学会です。",
+      "zh": "IEEE旗下专注于自动控制、系统工程、机器人、自主系统及控制理论研究、教育和国际合作的专业学会。"
+    },
+    "summary": {
+      "en": "IEEE CSS brings together engineers, scientists, and researchers working on the theory and application of control systems. Its members develop technologies used in robotics, aerospace, manufacturing, transportation, renewable energy, medical devices, and intelligent automation, making it one of the world's most influential organizations in systems and control engineering.",
+      "es": "IEEE CSS reúne a ingenieros, científicos e investigadores dedicados al desarrollo y aplicación de sistemas de control. Sus miembros impulsan tecnologías utilizadas en robótica, aeronáutica, manufactura, transporte, energías renovables, dispositivos médicos y automatización inteligente, siendo una de las organizaciones más influyentes del mundo en ingeniería de control.",
+      "ja": "IEEE CSSは、制御工学の理論と応用に携わる研究者・技術者が集まる国際的な学会です。ロボティクス、航空宇宙、製造、交通、再生可能エネルギー、医療機器、自動化など幅広い分野の発展に貢献しています。",
+      "zh": "IEEE控制系统学会汇聚了全球从事控制理论与应用研究的工程师和科研人员，其研究成果广泛应用于机器人、航空航天、制造、交通、能源及医疗设备等领域，是控制工程领域最具影响力的国际组织之一。"
+    },
+    "analogy": {
+      "en": "Think of IEEE CSS as the global community responsible for teaching machines, vehicles, and complex systems how to behave intelligently and reliably.",
+      "es": "Puede imaginarse como la comunidad internacional encargada de desarrollar la inteligencia que permite a máquinas y sistemas funcionar de forma estable y precisa.",
+      "ja": "機械やロボット、自動運転システムに『賢く正確に動く方法』を教える世界的な専門家コミュニティです。",
+      "zh": "可以把IEEE CSS看作是研究如何让机器人、车辆和复杂系统稳定、智能运行的国际专家社区。"
+    },
+    "active": true
+  },
+  {
+    "id": "jasm",
+    "name": {
+      "en": "Japan Advanced Semiconductor Manufacturing",
+      "es": "Japan Advanced Semiconductor Manufacturing",
+      "ja": "Japan Advanced Semiconductor Manufacturing",
+      "zh": "日本先进半导体制造公司"
+    },
+    "shortName": {
+      "en": "JASM",
+      "es": "JASM",
+      "ja": "JASM",
+      "zh": "JASM"
+    },
+    "type": {
+      "en": "Semiconductor Manufacturer",
+      "es": "Fabricante de Semiconductores",
+      "ja": "半導体製造企業",
+      "zh": "半导体制造企业"
+    },
+    "logo": "images/JASM.svg",
+    "website": "https://jasm.co.jp",
+    "location": "kumamoto-japan",
+    "color": "#005BAC",
+    "description": {
+      "en": "Japan Advanced Semiconductor Manufacturing (JASM) is a semiconductor manufacturing company established in Japan to strengthen advanced chip production and support the global semiconductor supply chain through cutting-edge fabrication technologies.",
+      "es": "Japan Advanced Semiconductor Manufacturing (JASM) es una empresa dedicada a la fabricación de semiconductores creada para fortalecer la producción avanzada de circuitos integrados en Japón y apoyar la cadena mundial de suministro de chips.",
+      "ja": "JASMは、日本における先端半導体製造能力の強化と世界の半導体サプライチェーンの発展を目的として設立された半導体製造企業です。",
+      "zh": "日本先进半导体制造公司（JASM）致力于提升日本先进芯片制造能力，并加强全球半导体供应链。"
+    },
+    "summary": {
+      "en": "Supported by major global semiconductor partners, JASM manufactures advanced integrated circuits for applications including automotive electronics, industrial automation, artificial intelligence, and high-performance computing. The company represents one of Japan's most significant semiconductor investments in decades and contributes to strengthening technological resilience worldwide.",
+      "es": "Respaldada por importantes socios internacionales del sector, JASM fabrica circuitos integrados avanzados para automoción, automatización industrial, inteligencia artificial y computación de alto rendimiento. Representa una de las inversiones más importantes en la industria japonesa de semiconductores en las últimas décadas.",
+      "ja": "世界有数の半導体企業との連携により、自動車、産業機器、AI、高性能コンピューティング向け半導体を製造しています。JASMは日本の半導体産業復興を象徴する重要なプロジェクトとして位置付けられています。",
+      "zh": "JASM在国际半导体合作伙伴支持下生产面向汽车电子、工业自动化、人工智能及高性能计算的先进芯片，是近年来日本最重要的半导体投资项目之一。"
+    },
+    "analogy": {
+      "en": "Think of JASM as one of the world's newest high-tech factories producing the silicon foundations that power modern electronics.",
+      "es": "Puede imaginarse como una de las fábricas tecnológicas más avanzadas del mundo dedicada a producir la base de los dispositivos electrónicos modernos.",
+      "ja": "現代社会を支える電子機器の『頭脳』を生み出す最先端の半導体工場と考えることができます。",
+      "zh": "可以把JASM看作生产现代电子产品核心芯片的重要先进工厂。"
+    },
+    "active": true
+  },
+  {
+    "id": "kar",
+    "name": {
+      "en": "Korea AI Robot Association",
+      "es": "Asociación Coreana de Robots e Inteligencia Artificial",
+      "ja": "韓国AIロボット協会",
+      "zh": "韩国人工智能机器人协会"
+    },
+    "shortName": {
+      "en": "KAR",
+      "es": "KAR",
+      "ja": "KAR",
+      "zh": "KAR"
+    },
+    "type": {
+      "en": "Professional Association",
+      "es": "Asociación Profesional",
+      "ja": "専門団体",
+      "zh": "专业协会"
+    },
+    "logo": "images/kar-logo.png",
+    "website": "https://korearobot.or.kr",
+    "location": "seoul-south-korea",
+    "color": "#004EA2",
+    "description": {
+      "en": "The Korea AI Robot Association promotes the advancement of robotics, artificial intelligence, automation technologies, and industrial innovation through collaboration between academia, industry, and government.",
+      "es": "La Asociación Coreana de Robots e Inteligencia Artificial impulsa el desarrollo de la robótica, la inteligencia artificial, la automatización y la innovación industrial mediante la colaboración entre la academia, la industria y el gobierno.",
+      "ja": "韓国AIロボット協会は、産学官の連携を通じてロボティクス、人工知能、自動化技術、産業イノベーションの発展を推進しています。",
+      "zh": "韩国人工智能机器人协会致力于推动机器人、人工智能、自动化及产业创新的发展，并促进产学研合作。"
+    },
+    "summary": {
+      "en": "KAR serves as one of South Korea's leading organizations supporting robotics research, industrial cooperation, engineering education, and international events. It works with universities, companies, and public institutions to strengthen Korea's competitiveness in intelligent robotics and advanced manufacturing technologies.",
+      "es": "KAR es una de las principales organizaciones de Corea del Sur dedicadas al fortalecimiento de la investigación en robótica, la cooperación industrial, la formación de ingenieros y la organización de eventos internacionales. Colabora con universidades, empresas e instituciones públicas para impulsar la competitividad tecnológica del país.",
+      "ja": "韓国を代表するロボティクス関連団体として、研究開発、産業連携、人材育成、国際イベントを支援しています。大学、企業、政府機関と連携し、知能ロボット分野の国際競争力向上に貢献しています。",
+      "zh": "KAR是韩国机器人领域的重要专业组织，与高校、企业及政府合作，推动机器人研发、工程教育、产业合作及国际交流，提升韩国在智能机器人领域的全球竞争力。"
+    },
+    "analogy": {
+      "en": "Think of KAR as a national hub connecting researchers, engineers, companies, and educators working together to shape the future of intelligent robotics.",
+      "es": "Puede imaginarse como el punto de encuentro nacional donde investigadores, ingenieros, empresas y educadores colaboran para construir el futuro de la robótica inteligente.",
+      "ja": "ロボット研究者、企業、教育機関を結ぶ韓国の中核的なネットワークと考えることができます。",
+      "zh": "可以把KAR看作连接韩国机器人研究人员、企业和教育机构的重要枢纽，共同推动智能机器人发展。"
+    },
+    "active": true
+  },
+  {
+    "id": "motie-korea",
+    "name": {
+      "en": "Ministry of Trade, Industry and Energy",
+      "es": "Ministerio de Comercio, Industria y Energía",
+      "ja": "大韓民国 産業通商資源部",
+      "zh": "韩国产业通商资源部"
+    },
+    "shortName": {
+      "en": "MOTIE",
+      "es": "MOTIE",
+      "ja": "MOTIE",
+      "zh": "MOTIE"
+    },
+    "type": {
+      "en": "Government Ministry",
+      "es": "Ministerio Gubernamental",
+      "ja": "政府機関",
+      "zh": "政府部门"
+    },
+    "logo": "images/motie-logo.jpg",
+    "website": "https://www.motie.go.kr",
+    "location": "sejong-south-korea",
+    "color": "#003E7E",
+    "description": {
+      "en": "The Ministry of Trade, Industry and Energy (MOTIE) is the government ministry of the Republic of Korea responsible for national industrial policy, international trade, energy strategy, manufacturing competitiveness, and technological innovation.",
+      "es": "El Ministerio de Comercio, Industria y Energía (MOTIE) es la entidad gubernamental de la República de Corea responsable de las políticas industriales, el comercio internacional, la estrategia energética, la competitividad manufacturera y la innovación tecnológica.",
+      "ja": "産業通商資源部（MOTIE）は、大韓民国政府において産業政策、国際貿易、エネルギー政策、製造業の競争力強化、技術革新を担当する中央行政機関です。",
+      "zh": "韩国产业通商资源部（MOTIE）是韩国政府负责产业政策、国际贸易、能源战略、制造业竞争力及科技创新的中央行政机构。"
+    },
+    "summary": {
+      "en": "MOTIE develops policies that strengthen South Korea's economy through industrial growth, advanced manufacturing, international commerce, energy security, and emerging technologies. The ministry works closely with research institutions, universities, and private industry to promote innovation and global competitiveness in sectors including semiconductors, robotics, artificial intelligence, renewable energy, and advanced mobility.",
+      "es": "MOTIE desarrolla políticas destinadas a fortalecer la economía de Corea del Sur mediante el crecimiento industrial, la manufactura avanzada, el comercio internacional, la seguridad energética y las tecnologías emergentes. Colabora con universidades, centros de investigación y empresas para impulsar la innovación y la competitividad internacional en sectores como semiconductores, robótica, inteligencia artificial, energías renovables y movilidad avanzada.",
+      "ja": "MOTIEは、先端製造業、国際貿易、エネルギー安全保障、新興技術を通じて韓国経済の発展を推進しています。半導体、ロボティクス、AI、再生可能エネルギー、次世代モビリティなどの分野で、大学、研究機関、産業界との連携を積極的に進めています。",
+      "zh": "MOTIE通过推动先进制造业、国际贸易、能源安全及新兴产业政策促进韩国经济发展，并与高校、科研机构及企业合作，推动半导体、机器人、人工智能、可再生能源及未来交通等领域的国际竞争力。"
+    },
+    "analogy": {
+      "en": "Think of MOTIE as the organization that helps design the economic and technological roadmap guiding South Korea's industrial future.",
+      "es": "Puede imaginarse como la institución que diseña la hoja de ruta económica y tecnológica que impulsa el futuro industrial de Corea del Sur.",
+      "ja": "韓国の産業・技術・エネルギー政策全体の方向性を設計する司令塔のような存在です。",
+      "zh": "可以把MOTIE看作规划韩国未来产业、科技与能源发展方向的核心政府机构。"
+    },
+    "active": true
+  },
+  {
+    "id": "minsa-costa-rica",
+    "name": {
+      "en": "Ministry of Health",
+      "es": "Ministerio de Salud",
+      "ja": "コスタリカ保健省",
+      "zh": "哥斯达黎加卫生部"
+    },
+    "shortName": {
+      "en": "MINSA",
+      "es": "MINSA",
+      "ja": "MINSA",
+      "zh": "MINSA"
+    },
+    "type": {
+      "en": "Government Ministry",
+      "es": "Ministerio Gubernamental",
+      "ja": "政府機関",
+      "zh": "政府部门"
+    },
+    "logo": "images/minsa.png",
+    "website": "https://www.ministeriodesalud.go.cr",
+    "location": "san-jose-costa-rica",
+    "color": "#0095D9",
+    "description": {
+      "en": "The Ministry of Health of Costa Rica is the national government institution responsible for protecting public health through regulation, disease prevention, health promotion, environmental health, and healthcare policy development.",
+      "es": "El Ministerio de Salud de Costa Rica es la institución gubernamental responsable de proteger la salud pública mediante la regulación sanitaria, la prevención de enfermedades, la promoción de la salud, la salud ambiental y el desarrollo de políticas públicas.",
+      "ja": "コスタリカ保健省は、公衆衛生の保護、疾病予防、健康増進、環境衛生、保健政策の策定を担う政府機関です。",
+      "zh": "哥斯达黎加卫生部负责公共卫生保护、疾病预防、健康促进、环境卫生及国家卫生政策制定。"
+    },
+    "summary": {
+      "en": "The Ministry of Health leads Costa Rica's national public health strategy by establishing health regulations, coordinating disease prevention initiatives, monitoring environmental health risks, and promoting healthy communities. It collaborates with healthcare providers, research institutions, and international organizations to improve the well-being of the country's population.",
+      "es": "El Ministerio de Salud dirige la estrategia nacional de salud pública mediante la elaboración de regulaciones sanitarias, la coordinación de programas de prevención de enfermedades, la vigilancia ambiental y la promoción de comunidades saludables. Trabaja conjuntamente con instituciones médicas, universidades y organismos internacionales para mejorar la calidad de vida de la población.",
+      "ja": "保健省は、保健規制の策定、感染症対策、環境衛生の監視、健康づくりの推進を通じてコスタリカの公衆衛生を支えています。医療機関、研究機関、国際機関と連携し、国民の健康向上に取り組んでいます。",
+      "zh": "卫生部负责制定国家公共卫生政策、推进疾病预防、监督环境卫生并促进全民健康，与医疗机构、科研单位及国际组织合作，不断提升全国居民的健康水平。"
+    },
+    "analogy": {
+      "en": "Think of the Ministry of Health as the organization responsible for safeguarding the nation's health before illness becomes a crisis.",
+      "es": "Puede imaginarse como la institución encargada de proteger la salud del país antes de que los problemas se conviertan en crisis sanitarias.",
+      "ja": "国民の健康を守るために、病気が広がる前から対策を講じる司令塔のような存在です。",
+      "zh": "可以把卫生部看作守护国家公共健康、预防危机发生的核心机构。"
+    },
+    "active": true
+  },
+  {
+    "id": "ut-dallas",
+    "name": {
+      "en": "The University of Texas at Dallas",
+      "es": "Universidad de Texas en Dallas",
+      "ja": "テキサス大学ダラス校",
+      "zh": "德克萨斯大学达拉斯分校"
+    },
+    "shortName": {
+      "en": "UT Dallas",
+      "es": "UT Dallas",
+      "ja": "UT Dallas",
+      "zh": "UT Dallas"
+    },
+    "type": {
+      "en": "Public Research University",
+      "es": "Universidad Pública de Investigación",
+      "ja": "州立研究大学",
+      "zh": "公立研究型大学"
+    },
+    "logo": "images/utd-logo.webp",
+    "website": "https://www.utdallas.edu",
+    "location": "richardson-texas-usa",
+    "color": "#C75B12",
+    "description": {
+      "en": "The University of Texas at Dallas is a leading public research university recognized for excellence in engineering, computer science, natural sciences, business, and interdisciplinary innovation.",
+      "es": "La Universidad de Texas en Dallas es una destacada universidad pública de investigación reconocida por su excelencia en ingeniería, informática, ciencias, negocios e innovación interdisciplinaria.",
+      "ja": "テキサス大学ダラス校は、工学、情報科学、自然科学、経営学、学際研究で高い評価を受ける州立研究大学です。",
+      "zh": "德克萨斯大学达拉斯分校是一所著名的公立研究型大学，在工程、计算机科学、自然科学、商学及跨学科创新方面享有盛誉。"
+    },
+    "summary": {
+      "en": "Founded in 1969, UT Dallas has become one of the fastest-growing research universities in the United States. It is internationally recognized for research in semiconductor engineering, artificial intelligence, robotics, cybersecurity, telecommunications, biomedical engineering, and entrepreneurship. The university maintains strong partnerships with government agencies and leading technology companies to advance innovation and prepare future engineering leaders.",
+      "es": "Fundada en 1969, UT Dallas se ha convertido en una de las universidades de investigación con mayor crecimiento en Estados Unidos. Es reconocida internacionalmente por sus investigaciones en ingeniería de semiconductores, inteligencia artificial, robótica, ciberseguridad, telecomunicaciones, ingeniería biomédica y emprendimiento tecnológico. Mantiene estrechas colaboraciones con agencias gubernamentales y empresas líderes para impulsar la innovación y formar a la próxima generación de ingenieros.",
+      "ja": "1969年に設立されたUT Dallasは、アメリカでも急成長を遂げた研究大学の一つです。半導体工学、AI、ロボティクス、サイバーセキュリティ、通信工学、医用工学、起業家教育などの分野で国際的に高く評価されており、政府機関や世界的企業との共同研究も盛んです。",
+      "zh": "UT Dallas成立于1969年，是美国发展最快的研究型大学之一，在半导体工程、人工智能、机器人、网络安全、通信工程、生物医学工程及科技创业等领域具有国际影响力，并与政府机构及全球科技企业保持密切合作。"
+    },
+    "analogy": {
+      "en": "Think of UT Dallas as an innovation laboratory where world-class research and industry collaboration prepare engineers to shape tomorrow's technologies.",
+      "es": "Puede imaginarse como un gran laboratorio de innovación donde la investigación y la colaboración con la industria forman a los ingenieros del futuro.",
+      "ja": "世界最先端の研究と産業連携を通じて未来の技術者を育成するイノベーション拠点のような大学です。",
+      "zh": "可以把UT Dallas看作汇聚世界级科研与产业合作、培养未来工程师的创新基地。"
+    },
+    "active": true
   }
 ]

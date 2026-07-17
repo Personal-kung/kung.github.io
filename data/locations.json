@@ -7,11 +7,53 @@
     "lng": -79.519870
   },
   {
+    "id": "chiriqui",
+    "city": "David, Chiriqui",
+    "country": "Panama",
+    "lat": 8.423918,
+    "lng": -82.442311
+  },
+  {
+    "id": "chorrera",
+    "city": "La Chorrera",
+    "country": "Panama",
+    "lat": 8.862764410387362,
+    "lng": -79.80287325914941
+  },
+  {
+    "id": "tulu",
+    "city": "Tulu",
+    "country": "Panama",
+    "lat": 8.763010099021198, 
+    "lng": -80.3969126353664
+  },
+  {
+    "id": "azuero",
+    "city": "Azuero",
+    "country": "Panama",
+    "lat": 8.117371720833562,
+    "lng": -80.39987150873148
+  },
+  {
+    "id": "veraguas",
+    "city": "Veraguas",
+    "country": "Panama",
+    "lat": 8.07451132385523, 
+    "lng": -80.93424582136936
+  },
+  {
     "id": "iizuka",
     "city": "Iizuka",
     "country": "Japan",
     "lat": 33.645900,
     "lng": 130.691500
+  },
+  {
+    "id": "watanabe",
+    "city": "Fukuoka",
+    "country": "Japan",
+    "lat": 33.58364069482539, 
+    "lng": 130.40461598184012
   },
   {
     "id": "bordeaux",

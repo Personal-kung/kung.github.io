@@ -1,0 +1,530 @@
+[
+  {
+    "id": "costa-rica-university",
+    "name": {
+      "en": "Costa Rica University",
+      "es": "Universidad de Costa Rica",
+      "ja": "コスタリカ大学",
+      "zh": "哥斯达黎加大学"
+    },
+    "shortName": {
+      "en": "Costa Rica University",
+      "es": "Universidad de Costa Rica",
+      "ja": "コスタリカ大学",
+      "zh": "哥斯达黎加大学"
+    },
+    "type": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "logo": null,
+    "website": null,
+    "location": null,
+    "color": null,
+    "description": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "summary": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "analogy": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "active": true
+  },
+  {
+    "id": "guc-|-global-unichip-japan",
+    "name": {
+      "en": "GUC | Global Unichip Japan",
+      "es": "GUC | Global Unichip Japón",
+      "ja": "GUC | グローバルユニチップ日本",
+      "zh": "GUC | 全球统一芯片日本"
+    },
+    "shortName": {
+      "en": "GUC | Global Unichip Japan",
+      "es": "GUC | Global Unichip Japón",
+      "ja": "GUC | グローバルユニチップ日本",
+      "zh": "GUC | 全球统一芯片日本"
+    },
+    "type": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "logo": null,
+    "website": null,
+    "location": null,
+    "color": null,
+    "description": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "summary": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "analogy": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "active": true
+  },
+  {
+    "id": "government-of-japan",
+    "name": {
+      "en": "Government of Japan",
+      "es": "Gobierno de Japón",
+      "ja": "日本政府",
+      "zh": "日本政府"
+    },
+    "shortName": {
+      "en": "Government of Japan",
+      "es": "Gobierno de Japón",
+      "ja": "日本政府",
+      "zh": "日本政府"
+    },
+    "type": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "logo": null,
+    "website": null,
+    "location": null,
+    "color": null,
+    "description": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "summary": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "analogy": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "active": true
+  },
+  {
+    "id": "huawei",
+    "name": {
+      "en": "Huawei",
+      "es": "Huawei",
+      "ja": "ファーウェイ",
+      "zh": "华为"
+    },
+    "shortName": {
+      "en": "Huawei",
+      "es": "Huawei",
+      "ja": "ファーウェイ",
+      "zh": "华为"
+    },
+    "type": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "logo": null,
+    "website": null,
+    "location": null,
+    "color": null,
+    "description": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "summary": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "analogy": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "active": true
+  },
+  {
+    "id": "ieee-control-systems-society-css---18th-international-conference-on-control-and-automation",
+    "name": {
+      "en": "IEEE Control Systems Society (CSS) / 18th International Conference on Control and Automation",
+      "es": "IEEE Control Systems Society (CSS) / 18ª Conferencia Internacional sobre Control y Automatización",
+      "ja": "IEEE制御システム学会 (CSS) / 第18回国際制御自動化会議",
+      "zh": "IEEE 控制系统学会 (CSS) / 第十八届国际控制与自动化会议"
+    },
+    "shortName": {
+      "en": "IEEE Control Systems Society (CSS) / 18th International Conference on Control and Automation",
+      "es": "IEEE Control Systems Society (CSS) / 18ª Conferencia Internacional sobre Control y Automatización",
+      "ja": "IEEE制御システム学会 (CSS) / 第18回国際制御自動化会議",
+      "zh": "IEEE 控制系统学会 (CSS) / 第十八届国际控制与自动化会议"
+    },
+    "type": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "logo": null,
+    "website": null,
+    "location": null,
+    "color": null,
+    "description": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "summary": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "analogy": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "active": true
+  },
+  {
+    "id": "jasm-|-japan-advanced-semiconductor-manufacturing",
+    "name": {
+      "en": "JASM | Japan Advanced Semiconductor Manufacturing",
+      "es": "JASM | Fabricación Avanzada de Semiconductores de Japón",
+      "ja": "JASM | 日本先進半導体製造",
+      "zh": "JASM | 日本先进半导体制造"
+    },
+    "shortName": {
+      "en": "JASM | Japan Advanced Semiconductor Manufacturing",
+      "es": "JASM | Fabricación Avanzada de Semiconductores de Japón",
+      "ja": "JASM | 日本先進半導体製造",
+      "zh": "JASM | 日本先进半导体制造"
+    },
+    "type": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "logo": null,
+    "website": null,
+    "location": null,
+    "color": null,
+    "description": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "summary": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "analogy": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "active": true
+  },
+  {
+    "id": "korea-ai-robot-association-kar",
+    "name": {
+      "en": "Korea AI Robot Association (KAR)",
+      "es": "Korea AI Robot Association",
+      "ja": "Korea AI Robot Association (KAR)",
+      "zh": "韩国人工智能机器人协会（KAR）"
+    },
+    "shortName": {
+      "en": "Korea AI Robot Association (KAR)",
+      "es": "Korea AI Robot Association",
+      "ja": "Korea AI Robot Association (KAR)",
+      "zh": "韩国人工智能机器人协会（KAR）"
+    },
+    "type": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "logo": null,
+    "website": null,
+    "location": null,
+    "color": null,
+    "description": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "summary": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "analogy": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "active": true
+  },
+  {
+    "id": "kyushu-institute-of-technology-kyutech",
+    "name": {
+      "en": "Kyushu Institute of Technology (KYUTECH)",
+      "es": "Instituto Tecnológico de Kyushu (KYUTECH)",
+      "ja": "九州工業大学(KYUTECH)",
+      "zh": "九州工业大学(KYUTECH)"
+    },
+    "shortName": {
+      "en": "Kyushu Institute of Technology (KYUTECH)",
+      "es": "Instituto Tecnológico de Kyushu (KYUTECH)",
+      "ja": "九州工業大学(KYUTECH)",
+      "zh": "九州工业大学(KYUTECH)"
+    },
+    "type": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "logo": null,
+    "website": null,
+    "location": null,
+    "color": null,
+    "description": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "summary": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "analogy": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "active": true
+  },
+  {
+    "id": "ministry-of-trade-industry-and-energy-republic-of-korea",
+    "name": {
+      "en": "Ministry of Trade, Industry and Energy (Republic of Korea)",
+      "es": "Ministerio de Comercio, Industria y Energía de Corea",
+      "ja": "大韓民国 産業通商資源部",
+      "zh": "韩国产业通商资源部"
+    },
+    "shortName": {
+      "en": "Ministry of Trade, Industry and Energy (Republic of Korea)",
+      "es": "Ministerio de Comercio, Industria y Energía de Corea",
+      "ja": "大韓民国 産業通商資源部",
+      "zh": "韩国产业通商资源部"
+    },
+    "type": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "logo": null,
+    "website": null,
+    "location": null,
+    "color": null,
+    "description": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "summary": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "analogy": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "active": true
+  },
+  {
+    "id": "national-secretariat-of-science-technology-and-innovation-senacyt",
+    "name": {
+      "en": "National Secretariat of Science, Technology and Innovation (SENACYT)",
+      "es": "Secretaría Nacional de Ciencia, Tecnología e Innovación (SENACYT)",
+      "ja": "国立科学技術イノベーション事務局(SENACYT)",
+      "zh": "国家科学、技术和创新秘书处(SENACYT)"
+    },
+    "shortName": {
+      "en": "National Secretariat of Science, Technology and Innovation (SENACYT)",
+      "es": "Secretaría Nacional de Ciencia, Tecnología e Innovación (SENACYT)",
+      "ja": "国立科学技術イノベーション事務局(SENACYT)",
+      "zh": "国家科学、技术和创新秘书处(SENACYT)"
+    },
+    "type": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "logo": null,
+    "website": null,
+    "location": null,
+    "color": null,
+    "description": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "summary": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "analogy": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "active": true
+  },
+  {
+    "id": "technological-university-of-panama-utp-and-health-ministry-minsa-and-national-secretariat-of-science-technology-and-innovation-senacyt",
+    "name": {
+      "en": "Technological University of Panama (UTP) & Health Ministry (MINSA) & National Secretariat of Science, Technology and Innovation (SENACYT)",
+      "es": "Universidad Tecnológica de Panama (UTP) & Ministerio de Salud (MINSA) & Secretaría Nacional de Ciencia, Tecnología e Innovación (SENACYT)",
+      "ja": "パナマ工科大学(UTP) & 保健省 (MINSA) & 国立科学技術イノベーション事務局(SENACYT)",
+      "zh": "巴拿马科技大学(UTP) & 卫生部 (MINSA) & 国家科学、技术和创新秘书处(SENACYT)"
+    },
+    "shortName": {
+      "en": "Technological University of Panama (UTP) & Health Ministry (MINSA) & National Secretariat of Science, Technology and Innovation (SENACYT)",
+      "es": "Universidad Tecnológica de Panama (UTP) & Ministerio de Salud (MINSA) & Secretaría Nacional de Ciencia, Tecnología e Innovación (SENACYT)",
+      "ja": "パナマ工科大学(UTP) & 保健省 (MINSA) & 国立科学技術イノベーション事務局(SENACYT)",
+      "zh": "巴拿马科技大学(UTP) & 卫生部 (MINSA) & 国家科学、技术和创新秘书处(SENACYT)"
+    },
+    "type": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "logo": null,
+    "website": null,
+    "location": null,
+    "color": null,
+    "description": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "summary": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "analogy": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "active": true
+  },
+  {
+    "id": "technological-university-of-panama-utp-and-the-university-of-texas-at-dallas",
+    "name": {
+      "en": "Technological University of Panama (UTP) & The University of Texas at Dallas",
+      "es": "Universidad Tecnológica de Panama (UTP) & Universidad de Texas en Dallas (UTD)",
+      "ja": "パナマ工科大学(UTP) & テキサス大学 - ダラス",
+      "zh": "巴拿马科技大学(UTP)"
+    },
+    "shortName": {
+      "en": "Technological University of Panama (UTP) & The University of Texas at Dallas",
+      "es": "Universidad Tecnológica de Panama (UTP) & Universidad de Texas en Dallas (UTD)",
+      "ja": "パナマ工科大学(UTP) & テキサス大学 - ダラス",
+      "zh": "巴拿马科技大学(UTP)"
+    },
+    "type": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "logo": null,
+    "website": null,
+    "location": null,
+    "color": null,
+    "description": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "summary": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "analogy": {
+      "en": "",
+      "es": "",
+      "ja": "",
+      "zh": ""
+    },
+    "active": true
+  }
+]

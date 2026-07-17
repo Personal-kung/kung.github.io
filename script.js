@@ -785,7 +785,7 @@ const App = (() => {
     setupStats({
       projects: _data.length,
       collaborators: collabs.length,
-      institutions: collaboratorInstitutions.size,
+      institutions: _institutions.length,
       countries: countryCount
     });
     // New sections
