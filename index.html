@@ -31,21 +31,24 @@
     href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;600;700&display=swap"
     rel="stylesheet" />
 
+  <!-- ===== Styles ===== -->
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
   <!-- ===== NAVIGATION ===== -->
-  <header role="banner">
+  <header class="header" role="banner">
     <nav class="navbar" aria-label="Main navigation">
-      <a href="#" class="logo" data-lang="name" aria-label="Home">Kelvin Kung</a>
-      <ul class="nav-links" role="list">
+      <a href="#home" class="logo" data-lang="name" aria-label="Home">Kelvin Kung</a>
+
+      <ul class="nav-links" id="nav-links" role="list">
         <li><a href="#about" data-lang="nav-about">About</a></li>
         <li><a href="#experience-summary" data-lang="nav-exp">Experience</a></li>
         <li><a href="#projects" data-lang="nav-projects">Projects</a></li>
         <li><a href="#contact" data-lang="nav-contact">Contact</a></li>
       </ul>
+
       <div class="nav-right">
         <select id="lang-select" aria-label="Language selector">
           <option value="en">EN</option>
@@ -53,7 +56,9 @@
           <option value="ja">日本語</option>
           <option value="es">ES</option>
         </select>
-        <button class="nav-menu-btn" id="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+
+        <button class="nav-menu-btn" id="menu-toggle" aria-label="Toggle menu" aria-expanded="false"
+          aria-controls="nav-links">
           <span></span><span></span><span></span>
         </button>
       </div>
@@ -62,12 +67,8 @@
 
   <!-- ===== HERO / BANNER ===== -->
   <section class="banner" id="home" aria-label="Hero banner">
-
     <!-- Animated mosaic pulled from project images by script.js -->
     <div class="tile-grid" id="tileGrid" role="presentation" aria-hidden="true"></div>
-
-    <!-- Gradient overlay with name + role + CTA — injected by script.js -->
-    <!-- #hero-overlay is created dynamically to stay in sync with language changes -->
 
     <!-- Static fallback text visible before JS -->
     <noscript>
@@ -76,243 +77,214 @@
         <p>Electrical Engineer · VLSI Researcher · International Collaborator</p>
       </div>
     </noscript>
-
   </section>
 
   <!-- ===== ABOUT ===== -->
-  <section class="about" id="about" aria-labelledby="about-heading">
-    <div class="about-content">
-      <h2 id="about-heading" data-lang="about-title">Kelvin Kung</h2>
+  <section class="section about" id="about" aria-labelledby="about-heading">
+    <div class="container">
+      <div class="section-header">
+        <h2 id="about-heading" data-lang="about-title">Kelvin Kung</h2>
+      </div>
       <div class="about-grid">
-
         <!-- Column 1 -->
-        <div>
+        <div class="about-col">
           <p data-lang="about-intro"></p>
           <p data-lang="about-body"></p>
           <p data-lang="about-body1"></p>
         </div>
-
         <!-- Column 2 -->
-        <div>
+        <div class="about-col">
           <p data-lang="about-body2"></p>
           <p data-lang="about-body3"></p>
           <p class="about-conclusion" data-lang="about-conclusion"></p>
         </div>
-
       </div>
     </div>
   </section>
 
   <!-- ===== STATS ===== -->
-  <section class="stats-section" id="stats-section" aria-label="Statistics">
-    <div class="stats-container">
-      <div class="stat-item">
-        <div class="stat-number" id="count-projects">0</div>
-        <div class="stat-label" data-lang="stats-projects">Projects</div>
-      </div>
-      <div class="stat-item">
-        <div class="stat-number" id="count-collabs">0</div>
-        <div class="stat-label" data-lang="stats-collaborators">Collaborators</div>
-      </div>
-      <div class="stat-item">
-        <div class="stat-number" id="count-institutions">0</div>
-        <div class="stat-label" data-lang="stats-institutions">Institutions</div>
-      </div>
-      <div class="stat-item">
-        <div id="count-countries" class="stat-number"> 0 </div>
-        <div class="stat-label" data-lang="countries"> Countries </div>
+  <section class="section stats" id="stats-section" aria-label="Statistics">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-number" id="count-projects">0</div>
+          <div class="stat-label" data-lang="stats-projects">Projects</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" id="count-collabs">0</div>
+          <div class="stat-label" data-lang="stats-collaborators">Collaborators</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" id="count-institutions">0</div>
+          <div class="stat-label" data-lang="stats-institutions">Institutions</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" id="count-countries">0</div>
+          <div class="stat-label" data-lang="countries">Countries</div>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- ===== HIGHLIGHTS ===== -->
-  <section class="highlights-section" id="highlights" aria-labelledby="highlights-heading">
-    <h2 id="highlights-heading" data-lang="highlights-title">Highlights</h2>
-    <div id="highlights-container" role="list">
-      <!-- Filled dynamically -->
-    </div>
-  </section>
-
-  <!-- ===== PRODUCT PORTFOLIOS ===== -->
-  <section class="portfolios-section" id="portfolios" aria-labelledby="portfolios-heading">
-    <h2 id="portfolios-heading" data-lang="portfolios-title">Product Portfolios</h2>
-    <p class="section-subtitle" data-lang="portfolios-subtitle">Explore grouped products from my professional and
-      research trajectory</p>
-    <div class="carousel-wrapper">
-      <div class="portfolios-track" id="portfolios-track" role="list">
+  <section class="section highlights" id="highlights" aria-labelledby="highlights-heading">
+    <div class="container">
+      <div class="section-header">
+        <h2 id="highlights-heading" data-lang="highlights-title">Highlights</h2>
+      </div>
+      <div id="highlights-container" role="list">
         <!-- Filled dynamically -->
       </div>
     </div>
   </section>
 
-  <!-- ===========================      Global Experience Section     =========================== -->
-
-  <section class="global-experience-section" id="global-experience" aria-labelledby="global-experience-heading">
-    <div class="section-header">
-      <h2 id="global-experience-heading" data-lang="internationalFootprint">
-        Global Experience
-      </h2>
-      <p data-lang="internationalFootprintDescription">
-        International experiences, collaborations and projects across different locations around the world.
-      </p>
-    </div>
-    <div class="globe-container" id="globe-container">
-      <!-- 
-            Interactive globe will be generated here
-            using JavaScript in Part 2
-        -->
-      <div id="globe"></div>
-      <div class="globe-info-panel" id="globe-info-panel">
+  <!-- ===== PRODUCT PORTFOLIOS ===== -->
+  <section class="section portfolios" id="portfolios" aria-labelledby="portfolios-heading">
+    <div class="container">
+      <div class="section-header">
+        <h2 id="portfolios-heading" data-lang="portfolios-title">Product Portfolios</h2>
+        <p class="section-subtitle" data-lang="portfolios-subtitle">
+          Explore grouped products from my professional and research trajectory
+        </p>
       </div>
-    </div>
-  </section>
-  <!-- ===========================      Institutions Section      =========================== -->
-
-  <section class="institutions-section" id="institutions" aria-labelledby="institutions-heading">
-    <div class="section-header">
-      <h2 id="institutions-heading" data-lang="institutions">
-        Institutions
-      </h2>
-      <p data-lang="institutionsDescription">
-        Organizations, universities and communities that have shaped my academic and professional journey.
-      </p>
-    </div>
-    <div class="institutions-grid" id="institutions-grid" aria-live="polite">
-      <!-- 
-            Institution logos will be generated here
-            from institutions.json
-            using JavaScript in Part 2
-        -->
-      <div class="institution-placeholder">
-        <span>
-          Loading institutions...
-        </span>
+      <div class="carousel-wrapper">
+        <div class="portfolios-track" id="portfolios-track" role="list">
+          <!-- Filled dynamically -->
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- ===== COLLABORATORS ===== -->
-  <section class="collaboration" id="collaboration" aria-labelledby="collab-heading">
-    <h2 id="collab-heading" data-lang="collab-title">Professionals I've Worked With</h2>
-    <div class="collab-carousel" role="list">
-      <!-- Filled dynamically -->
+  <!-- ===== GLOBAL EXPERIENCE ===== -->
+  <section class="section global-experience" id="global-experience" aria-labelledby="global-experience-heading">
+    <div class="container">
+      <div class="section-header">
+        <h2 id="global-experience-heading" data-lang="internationalFootprint">Global Experience</h2>
+        <p class="section-subtitle" data-lang="internationalFootprintDescription">
+          International experiences, collaborations and projects across different locations around the world.
+        </p>
+      </div>
+      <div class="globe-container" id="globe-container">
+        <div id="globe"></div>
+        <div class="globe-info-panel" id="globe-info-panel"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== INSTITUTIONS SECTION ===== -->
+  <section class="section" id="institutions">
+    <div class="container">
+      <div class="section-header">
+        <h2 data-lang="institutions">Institutions</h2>
+      </div>
+      <div id="institutions-grid" class="institutions-grid">
+        <!-- Dynamic institution cards render here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COLLABORATORS SECTION ===== -->
+  <section class="section" id="collaborators">
+    <div class="container">
+      <div class="section-header">
+        <h2 data-lang="collab-title">Collaborators</h2>
+      </div>
+      <div id="collab-grid" class="institutions-grid">
+        <!-- Dynamic collaborator cards render here with .institution-card markup -->
+      </div>
     </div>
   </section>
 
   <!-- ===== EXPERIENCE SUMMARY ===== -->
-  <section class="experience-summary" id="experience-summary" aria-labelledby="exp-heading">
-    <h2 id="exp-heading" data-lang="exp-title">Experience</h2>
-    <div class="exp-columns">
+  <section class="section experience-summary" id="experience-summary" aria-labelledby="exp-heading">
+    <div class="container">
+      <div class="section-header">
+        <h2 id="exp-heading" data-lang="exp-title">Experience</h2>
+      </div>
+      <div class="exp-columns">
+        <article class="exp-col" aria-label="Academic experience">
+          <h3 data-lang="exp-academic">Academic</h3>
+          <p data-lang="exp-academic-summary"></p>
+        </article>
 
-      <article class="exp-col" aria-label="Academic experience">
-        <h3 data-lang="exp-academic">Academic</h3>
-        <p data-lang="exp-academic-summary"></p>
-      </article>
+        <article class="exp-col" aria-label="Research experience">
+          <h3 data-lang="exp-research">Research</h3>
+          <p data-lang="exp-research-summary"></p>
+        </article>
 
-      <article class="exp-col" aria-label="Research experience">
-        <h3 data-lang="exp-research">Research</h3>
-        <p data-lang="exp-research-summary"></p>
-      </article>
-
-      <article class="exp-col" aria-label="Professional experience">
-        <h3 data-lang="exp-professional">Professional</h3>
-        <p data-lang="exp-professional-summary"></p>
-      </article>
-
+        <article class="exp-col" aria-label="Professional experience">
+          <h3 data-lang="exp-professional">Professional</h3>
+          <p data-lang="exp-professional-summary"></p>
+        </article>
+      </div>
     </div>
   </section>
 
   <!-- ===== PROJECTS SECTION ===== -->
-  <section id="projects" aria-labelledby="projects-heading">
-    <h2 id="projects-heading" class="sr-only">Projects</h2>
+  <section class="section projects" id="projects" aria-labelledby="projects-heading">
+    <div class="container">
+      <h2 id="projects-heading" class="sr-only">Projects</h2>
 
-    <!-- Category filters -->
-    <div class="button-row" role="group" aria-label="Filter by category">
-      <button id="btn-all" onclick="filterData('all')" data-lang="filter-all" class="active-btn">All</button>
-      <button id="btn-prof" onclick="filterData('Professional')" data-lang="filter-prof">Professional</button>
-      <button id="btn-res" onclick="filterData('Research')" data-lang="filter-rese">Research</button>
-      <button id="btn-acad" onclick="filterData('Academic')" data-lang="filter-acad">Academic</button>
+      <!-- Category filters -->
+      <div class="filter-controls">
+        <button class="btn filter-btn active-btn" data-filter="all">All</button>
+        <button class="btn filter-btn" data-filter="Professional">Professional</button>
+        <button class="btn filter-btn" data-filter="Research">Research</button>
+        <button class="btn filter-btn" data-filter="Academic">Academic</button>
+      </div>
+
+      <!-- View mode buttons -->
+      <div class="view-controls">
+        <button class="btn view-btn active-btn" data-view="timeline">Timeline</button>
+        <button class="btn view-btn" data-view="accordion">Accordion</button>
+        <button class="btn view-btn" data-view="interactive">Grid</button>
+      </div>
+
+      <!-- Timeline View -->
+      <div class="timeline active" id="timeline-view" role="region" aria-label="Timeline view">
+        <h3 class="view-title" data-lang="filter-time-title">Timeline View</h3>
+        <div id="timeline-container" class="timeline-container"></div>
+      </div>
+
+      <!-- Accordion View -->
+      <div class="accordion" id="accordion-view" role="region" aria-label="Accordion view">
+        <h3 class="view-title" data-lang="filter-acco-title">Accordion View</h3>
+        <div id="accordion-container"></div>
+      </div>
+
+      <!-- Interactive View -->
+      <div class="interactive" id="interactive-view" role="region" aria-label="Interactive view">
+        <h3 class="view-title" data-lang="filter-inte-title">Interactive View</h3>
+        <div id="interactive-container"></div>
+      </div>
     </div>
-
-    <!-- View mode buttons -->
-    <div class="button-row" role="group" aria-label="View mode">
-      <button id="btn-time" onclick="switchViewMode('timeline')" data-lang="filter-time"
-        class="active-btn">Timeline</button>
-      <button id="btn-acco" onclick="switchViewMode('accordion')" data-lang="filter-acco">Accordion</button>
-      <button id="btn-inte" onclick="switchViewMode('interactive')" data-lang="filter-inte">Interactive</button>
-    </div>
-
-    <!-- Timeline View -->
-    <div class="timeline active" id="timeline-view" role="region" aria-label="Timeline view">
-      <h3 class="view-title" data-lang="filter-time-title">Timeline View</h3>
-      <div id="timeline-container" class="timeline-container"></div>
-    </div>
-
-    <!-- Accordion View -->
-    <div class="accordion" id="accordion-view" role="region" aria-label="Accordion view">
-      <h3 class="view-title" data-lang="filter-acco-title">Accordion View</h3>
-      <div id="accordion-container"></div>
-    </div>
-
-    <!-- Interactive View -->
-    <div class="interactive" id="interactive-view" role="region" aria-label="Interactive view">
-      <h3 class="view-title" data-lang="filter-inte-title">Interactive View</h3>
-      <div id="interactive-container"></div>
-    </div>
-
   </section>
 
   <!-- ===== CONTACT ===== -->
-  <section class="contact" id="contact" aria-labelledby="contact-heading">
-    <h2 id="contact-heading" data-lang="contact-title">Contact</h2>
-    <p data-lang="contact-text">Interested in working or collaborating with me?</p>
-    <div class="contact-links">
-      <a href="mailto:kelvin.kung@utp.ac.pa" id="footer-email" class="btn">Email</a>
-      <a href="https://github.com/kelvinutp" target="_blank" rel="noopener" id="footer-github"
-        class="btn btn-ghost">GitHub</a>
+  <section class="section contact" id="contact" aria-labelledby="contact-heading">
+    <div class="container">
+      <div class="section-header">
+        <h2 id="contact-heading" data-lang="contact-title">Contact</h2>
+        <p class="section-subtitle" data-lang="contact-text">Interested in working or collaborating with me?</p>
+      </div>
+      <div class="contact-links">
+        <a href="mailto:kelvin.kung@utp.ac.pa" id="footer-email" class="btn">Email</a>
+        <a href="https://github.com/kelvinutp" target="_blank" rel="noopener" id="footer-github"
+          class="btn btn-ghost">GitHub</a>
+      </div>
     </div>
   </section>
 
   <!-- ===== FOOTER ===== -->
-  <footer role="contentinfo">
-    <p>© <span id="year"></span> <span data-lang="footer-name">Kelvin Kung</span>. All rights reserved.</p>
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <p>© <span id="year"></span> <span data-lang="footer-name">Kelvin Kung</span>. All rights reserved.</p>
+    </div>
   </footer>
 
   <!-- ===== SCRIPTS ===== -->
   <script src="https://unpkg.com/globe.gl"></script>
   <script src="script.js"></script>
-
-  <script>
-    // Mobile menu toggle
-    const menuToggle = document.getElementById("menu-toggle");
-    const navLinks = document.querySelector(".nav-links");
-    if (menuToggle && navLinks) {
-      menuToggle.addEventListener("click", () => {
-        const open = navLinks.classList.toggle("open");
-        menuToggle.setAttribute("aria-expanded", open);
-      });
-    }
-
-    // Category/view button active state
-    function setActive(groupSelector, clickedId) {
-      document.querySelectorAll(groupSelector + " button").forEach(b => b.classList.remove("active-btn"));
-      const el = document.getElementById(clickedId);
-      if (el) el.classList.add("active-btn");
-    }
-    document.querySelectorAll(".button-row button").forEach(btn => {
-      btn.addEventListener("click", function () {
-        const row = this.closest(".button-row");
-        row.querySelectorAll("button").forEach(b => b.classList.remove("active-btn"));
-        this.classList.add("active-btn");
-      });
-    });
-
-    // Navbar scroll effect
-    const header = document.querySelector("header");
-    window.addEventListener("scroll", () => {
-      header.classList.toggle("scrolled", window.scrollY > 40);
-    }, { passive: true });
-  </script>
 
 </body>
 

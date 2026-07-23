@@ -1,24 +1,11 @@
 /* =====================================================================
-   Kelvin Kung — Portfolio script.js
-   Refactored: single fetch, DocumentFragment, IntersectionObserver lazy
-   load, strict data validation, dynamic hero mosaic, language detection.
+   Kelvin Kung — Portfolio Application Logic (script.js)
+   Features: Multi-language Support, Dynamic Views, Globe 3D Data,
+             Lazy Loading, Encapsulated Module Pattern
    ===================================================================== */
 
-"use strict";
-
-/* ─── App State ──────────────────────────────────────────────────────── */
-const App = (() => {
-  let _data = null;   // full JSON (including non-visible entries)
-  let _visible = [];     // entries that passed validation
-  let _filtered = [];     // current filter slice
-  let _collabs = [];     // collaborators data
-  let _institutions = []; // institutions data
-  let _locations = [];    // locations data
-  let _lang = "en";
-
-  const LANG_SELECT = document.getElementById("lang-select");
-
-  /* ── Translations ─────────────────────────────────────────────────── */
+const PortfolioApp = (() => {
+  "use strict";
   const I18N = {
     en: {
       "name": "Kelvin Kung",
@@ -231,49 +218,73 @@ const App = (() => {
     },
   };
 
-  /* ── Utilities ────────────────────────────────────────────────────── */
-  const t = key => (I18N[_lang]?.[key] ?? I18N.en[key] ?? key);
-  const tF = f => f && typeof f === "object" && !Array.isArray(f)
-    ? (f[_lang] ?? Object.values(f)[0] ?? "")
-    : (f ?? "");
-  const $ = s => document.querySelector(s);
-  const $$ = s => document.querySelectorAll(s);
-
-  const formatDate = d => {
-    if (!d) return "";
-    const raw = (typeof d === "string" && d.toLowerCase() === "today") ? new Date() : new Date(d);
-    if (isNaN(raw)) return d;
-    return new Intl.DateTimeFormat(_lang === "ja" ? "ja-JP" : _lang === "zh" ? "zh-CN" : _lang === "es" ? "es" : "en-US",
-      { year: "numeric", month: "short", day: "numeric" }).format(raw);
+  const PORTFOLIO_COVERS = {
+    "Robotics": "images/thumbnails/labsi_insight.webp",
+    "Dashboards": "images/thumbnails/dashboard.webp",
+    "Programming": "images/thumbnails/aplicacion_transporte.webp",
+    "Electronics": "images/thumbnails/PCB1.webp",
+    "Smart Systems": "images/thumbnails/analog.webp",
+    "Research & Engineering": "images/thumbnails/semiconductor.webp",
   };
 
-  const sortByDate = arr => [...arr].sort((a, b) => {
-    const da = (a.finish || "").toLowerCase() === "today" ? new Date() : new Date(a.finish);
-    const db = (b.finish || "").toLowerCase() === "today" ? new Date() : new Date(b.finish);
-    return db - da;
-  });
+  const PORTFOLIO_META = {
+    "Robotics": { desc: { en: "Cutting-edge electromechanical systems and automated robots driving the future of industry.", es: "Sistemas electromecánicos de vanguardia y máquinas automatizadas que impulsan el futuro de la industria.", zh: "推动行业未来的尖端机电系统和自动化机器。", ja: "産業の未来を牽引する最先端の電気機械システムと自動化機械。" } },
+    "Dashboards": { desc: { en: "Robust SCADA monitoring, Power BI analytics, and data visualization bridging hardware with human insight.", es: "Monitoreo SCADA robusto, análisis con Power BI y visualización de datos que une hardware con conocimiento humano.", zh: "强大的SCADA监控、Power BI分析和数据可视化。", ja: "堅牢なSCADA監視、Power BI分析、データ可視化。" } },
+    "Programming": { desc: { en: "Scalable software solutions — from enterprise-level cloud integrations to precision embedded logic.", es: "Soluciones de software escalables — desde integraciones empresariales en la nube hasta lógica embebida de precisión.", zh: "从企业级云集成到精密嵌入式逻辑的可扩展软件解决方案。", ja: "企業規模のクラウド統合から精密な組み込みロジックまでのスケーラブルなソフトウェアソリューション。" } },
+    "Electronics": { desc: { en: "High-precision PCBs, embedded systems, and advanced energy technologies solving real engineering challenges.", es: "PCBs de alta precisión, sistemas embebidos y tecnologías energéticas avanzadas que resuelven desafíos reales.", zh: "解决真实工程挑战的高精度PCB、嵌入式系统和先进能源技术。", ja: "現実の工学的課題を解決する高精度PCB、組み込みシステム、先進エネルギー技術。" } },
+    "Smart Systems": { desc: { en: "Intelligent analytics, real-time sensing, and algorithm development bridging research with practical utility.", es: "Análisis inteligente, sensado en tiempo real y desarrollo de algoritmos que unen la investigación con la aplicación práctica.", zh: "连接研究与实用价值的智能分析、实时感知及算法开发。", ja: "研究と実用性を結びつけるインテリジェントな分析、リアルタイムセンシング、アルゴリズム開発。" } },
+    "Research & Engineering": { desc: { en: "Specialized R&D pushing boundaries in semiconductor fabrication, VLSI testing, and scientific publication.", es: "I+D especializada que amplía los límites en fabricación de semiconductores, pruebas VLSI y publicaciones científicas.", zh: "半导体制造、VLSI测试和科学发表领域前沿的专项研发。", ja: "半導体製造、VLSIテスト、科学出版の境界を押し広げる専門的なR&D。" } },
+  };
 
-  const renderLinks = links =>
-    links && typeof links === "object" && Object.keys(links).length
-      ? `<div class="btn-group">${Object.entries(links)
-        .map(([l, u]) => `<a href="${u}" target="_blank" rel="noopener" class="btn btn-sm">More info — ${l}</a>`)
-        .join("")}</div>`
-      : "";
+  /* ── State ─────────────────────────────────────────────────────────── */
+  let _lang = "en";
+  let _data = [], _visible = [], _filtered = [];
+  let _collabs = [], _institutions = [], _locations = [];
 
-  /* ── Data Validator ───────────────────────────────────────────────── */
-  function isEntryValid(e) {
-    if (!e.visible) return false;  // pre-computed flag from Python
-    if (!e.id) return false;
-    const content = e.content;
-    if (!content || typeof content !== "object") return false;
-    const hasTrio = content.problem && content.approach && content.outcome;
-    const hasDetails = content.details;
-    if (!hasTrio && !hasDetails) return false;
-    return true;
+  /* ── DOM & Formatting Helpers ──────────────────────────────────────── */
+  const $ = selector => document.querySelector(selector);
+  const $$ = selector => document.querySelectorAll(selector);
+
+  const t = key => (I18N?.[_lang]?.[key] ?? I18N?.en?.[key] ?? key);
+
+  const tF = field => {
+    if (field && typeof field === "object" && !Array.isArray(field)) {
+      return field[_lang] ?? Object.values(field)[0] ?? "";
+    }
+    return field ?? "";
+  };
+
+  const formatDate = dateStr => {
+    if (!dateStr) return "";
+    const raw = dateStr.toLowerCase() === "today" ? new Date() : new Date(dateStr);
+    if (isNaN(raw.getTime())) return dateStr;
+
+    const localeMap = { ja: "ja-JP", zh: "zh-CN", es: "es-ES", en: "en-US" };
+    return new Intl.DateTimeFormat(localeMap[_lang] || "en-US", {
+      year: "numeric", month: "short", day: "numeric"
+    }).format(raw);
+  };
+
+  const parseDate = dateStr => (dateStr || "").toLowerCase() === "today" ? new Date() : new Date(dateStr || 0);
+  const sortByDate = arr => [...arr].sort((a, b) => parseDate(b.finish) - parseDate(a.finish));
+
+  const getCatEn = item => typeof item.category === "object" ? item.category.en : item.category;
+
+  const renderLinks = links => {
+    if (!links || typeof links !== "object" || !Object.keys(links).length) return "";
+    return `<div class="btn-group">${Object.entries(links)
+      .map(([label, url]) => `<a href="${url}" target="_blank" rel="noopener" class="btn btn-sm">More info — ${label}</a>`)
+      .join("")}</div>`;
+  };
+
+  function isEntryValid(entry) {
+    if (!entry.visible || !entry.id) return false;
+    const c = entry.content;
+    return Boolean(c && typeof c === "object" && ((c.problem && c.approach && c.outcome) || c.details));
   }
 
-  /* ── Lazy Image Observer ─────────────────────────────────────────── */
-  const lazyObserver = new IntersectionObserver((entries) => {
+  /* ── Lazy Load Observer ────────────────────────────────────────────── */
+  const lazyObserver = new IntersectionObserver(entries => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         const img = entry.target;
@@ -286,30 +297,26 @@ const App = (() => {
     });
   }, { rootMargin: "200px" });
 
-  function makeLazyImg(src, alt, cls = "") {
-    return `<img data-src="${src}" src="" alt="${alt}" class="${cls}" loading="lazy" />`;
-  }
+  const activateLazy = () => $$("img[data-src]").forEach(img => lazyObserver.observe(img));
 
-  function activateLazy() {
-    $$("img[data-src]").forEach(img => lazyObserver.observe(img));
-  }
-
-  /* ── Animated Counter ────────────────────────────────────────────── */
-  function animateCount(el, end, duration = 1800) {
-    let start = null;
-    const formatter = new Intl.NumberFormat(_lang);
-    const step = ts => {
-      start ??= ts;
-      const p = Math.min((ts - start) / duration, 1);
-      el.textContent = formatter.format(Math.floor(p * end));
-      if (p < 1) requestAnimationFrame(step);
-    };
-    requestAnimationFrame(step);
-  }
-
+  /* ── Stats Counter Animation ───────────────────────────────────────── */
   function setupStats(stats) {
     const section = $("#stats-section");
     if (!section) return;
+
+    const animateCount = (el, endVal) => {
+      if (!el) return;
+      let start = null;
+      const fmt = new Intl.NumberFormat(_lang);
+      const step = now => {
+        start ??= now;
+        const progress = Math.min((now - start) / 1800, 1);
+        el.textContent = fmt.format(Math.floor(progress * endVal));
+        if (progress < 1) requestAnimationFrame(step);
+      };
+      requestAnimationFrame(step);
+    };
+
     const observer = new IntersectionObserver(([entry]) => {
       if (!entry.isIntersecting) return;
       animateCount($("#count-projects"), stats.projects);
@@ -317,161 +324,93 @@ const App = (() => {
       animateCount($("#count-institutions"), stats.institutions);
       animateCount($("#count-countries"), stats.countries);
       observer.unobserve(section);
-    }, {
-      threshold: 0.4
-    });
+    }, { threshold: 0.4 });
+
     observer.observe(section);
   }
 
-  /* ── Hero Mosaic ─────────────────────────────────────────────────── */
+  /* ── Hero Mosaic ───────────────────────────────────────────────────── */
   function renderHero() {
     const grid = $("#tileGrid");
     if (!grid || !_visible.length) return;
 
-    // Pick prestige images: prefer entries with highlight, then sort by finish date desc
-    const pool = sortByDate(_visible.filter(e => e.profile_image));
-    const heroImgs = pool.map(e => e.profile_image).filter(Boolean).slice(0, 30);
+    const heroImgs = sortByDate(_visible.filter(e => e.profile_image))
+      .map(e => e.profile_image)
+      .slice(0, 30);
 
-    // Duplicate for seamless loop
-    const allImgs = [...heroImgs, ...heroImgs];
-    const frag = document.createDocumentFragment();
-    allImgs.forEach(src => {
-      const div = document.createElement("div");
-      div.className = "tile";
-      const img = document.createElement("img");
-      img.dataset.src = src;
-      img.src = "";
-      img.alt = "Portfolio image";
-      img.loading = "lazy";
-      div.appendChild(img);
-      frag.appendChild(div);
-    });
-    grid.appendChild(frag);
+    grid.innerHTML = [...heroImgs, ...heroImgs]
+      .map(src => `<div class="tile"><img data-src="${src}" src="" alt="Portfolio thumbnail" loading="lazy" /></div>`)
+      .join("");
+
     activateLazy();
   }
 
-  /* ── Hero Overlay Text ───────────────────────────────────────────── */
-  function renderHeroOverlay() {
-    const section = $(".banner");
-    if (!section) return;
-    let overlay = $("#hero-overlay");
-    if (!overlay) {
-      overlay = document.createElement("div");
-      overlay.id = "hero-overlay";
-      overlay.innerHTML = `
-        <div class="hero-text">
-          <p class="hero-eyebrow" data-lang="hero-role"></p>
-          <div class="hero-divider"></div>
-          <div class="hero-actions">
-            <a href="#highlights" class="btn hero-btn" data-lang="hero-cta"></a>
-            <a href="#contact" class="btn btn-ghost hero-btn" data-lang="hero-contact"></a>
-          </div>
-        </div>`;
-      section.appendChild(overlay);
-    }
-    applyTranslations();
-  }
-
-  /* ── Highlights ──────────────────────────────────────────────────── */
+  /* ── Highlights Section ──────────────────────────────────────────── */
   function renderHighlights() {
-    const hc = $("#highlights-container");
-    if (!hc) return;
+    const container = $("#highlights-container");
+    if (!container) return;
+
     const highlights = sortByDate(_visible.filter(e => e.highlight))
       .sort((a, b) => a.highlight - b.highlight);
 
-    const frag = document.createDocumentFragment();
-    highlights.forEach(i => {
-      const card = document.createElement("div");
-      card.className = "highlight-card clickable-card";
-      card.dataset.href = `details.html?projectId=${i.id}`;
-      card.innerHTML = `
+    container.innerHTML = highlights.map(item => `
+      <article class="highlight-card clickable-card" data-href="details.html?projectId=${item.id}">
         <div class="highlight-image">
-          <img data-src="${i.profile_image || ''}" src="" alt="${tF(i.title)}" loading="lazy">
+          <img data-src="${item.profile_image || ''}" src="" alt="${tF(item.title)}" loading="lazy">
         </div>
         <div class="highlight-content">
-          <span class="highlight-badge category-${(i.category?.en || i.category || '')}">${tF(i.category)}</span>
-          <h3>${tF(i.title)}</h3>
-          <p>${tF(i.summary) || ""}</p>
-          <p class="highlight-meta">${tF(i.institution)} · ${formatDate(i.finish)}</p>
-        </div>`;
-      frag.appendChild(card);
-    });
-    hc.innerHTML = "";
-    hc.appendChild(frag);
+          <span class="highlight-badge category-${getCatEn(item)}">${tF(item.category)}</span>
+          <h3>${tF(item.title)}</h3>
+          <p>${tF(item.summary) || ""}</p>
+          <p class="highlight-meta">${tF(item.institution)} · ${formatDate(item.finish)}</p>
+        </div>
+      </article>
+    `).join("");
+
     activateLazy();
   }
 
+  /* ── Institutions Section ────────────────────────────────────────── */
   function renderInstitutions(institutions) {
-    const container = document.getElementById("institutions-grid");
-    if (!container) {
-      console.warn("Institutions container not found");
-      return;
-    }
-    container.innerHTML = "";
-    institutions.forEach(inst => {
-      const card = document.createElement("article");
-      card.className = "institution-card";
-      const name = tF(inst.name);
-      const type = tF(inst.type);
-      const description =
-        tF(inst.summary) ||
-        tF(inst.description) ||
-        "";
+    const container = $("#institutions-grid");
+    if (!container) return;
 
-      card.innerHTML = `
-            <div class="institution-logo-wrapper">
-                <img
-                    src="${inst.logo}"
-                    alt="${name} logo"
-                    loading="lazy"
-                >
-            </div>
-            <div class="institution-info">
-                <h3>
-                    ${name}
-                </h3>
-                <span class="institution-type">
-                    ${type}
-                </span>
-                <p>
-                    ${description}
-                </p>
-            </div>
-            <a
-                href="${inst.website}"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="institution-link"
-            >
-                ${t("visitWebsite")}
-            </a>
-        `;
-      container.appendChild(card);
-    });
+    container.innerHTML = institutions.map(inst => {
+      const name = tF(inst.name);
+      return `
+        <article class="institution-card">
+          <div class="institution-logo-wrapper">
+            <img src="${inst.logo}" alt="${name} logo" loading="lazy">
+          </div>
+          <div class="institution-info">
+            <h3>${name}</h3>
+            <span class="institution-type">${tF(inst.type)}</span>
+            <p>${tF(inst.summary) || tF(inst.description) || ""}</p>
+          </div>
+          ${inst.website ? `<a href="${inst.website}" target="_blank" rel="noopener noreferrer" class="institution-link">${t("visitWebsite") || "Visit Website"}</a>` : ""}
+        </article>
+      `;
+    }).join("");
   }
 
+  /* ── Global Experience / Globe 3D ────────────────────────────────── */
   function renderGlobalExperience(projects, locations) {
-    const globeElement = document.getElementById("globe");
-    const infoPanel = document.getElementById("globe-info-panel");
-    if (!globeElement) {
-      console.warn("Globe element missing");
-      return;
-    }
-    const globe = Globe()
-      (globeElement)
+    const globeElement = $("#globe");
+    const infoPanel = $("#globe-info-panel");
+    if (!globeElement || typeof window.Globe !== "function") return;
+
+    const globe = window.Globe()(globeElement)
       .globeImageUrl("//unpkg.com/three-globe/example/img/earth-night.jpg")
       .backgroundColor("rgba(0,0,0,0)")
       .showAtmosphere(false)
       .atmosphereColor("#4fc3f7")
-      .atmosphereAltitude(0.25)
-    const points = locations.map(location => {
-      const relatedProjects = projects.filter(project => project.location === location.id);
-      return {
-        ...location,
-        projectCount:
-          relatedProjects.length
-      };
-    });
+      .atmosphereAltitude(0.25);
+
+    const points = locations.map(loc => ({
+      ...loc,
+      projectCount: projects.filter(p => p.location === loc.id).length
+    }));
+
     globe.pointsData(points)
       .pointLat("lat")
       .pointLng("lng")
@@ -481,125 +420,99 @@ const App = (() => {
       .onPointHover(point => {
         if (point) {
           globe.controls().autoRotate = false;
-          infoPanel.innerHTML = `
-                    <h3>
-                    ${point.city}
-                    </h3>
-                    <p>
-                    ${point.country}
-                    </p>
-                    <span>
-                    ${point.projectCount}
-                    Projects
-                    </span> `;
-          infoPanel.classList.add("active");
-        }
-        else {
+          if (infoPanel) {
+            infoPanel.innerHTML = `<h3>${point.city}</h3><p>${point.country}</p><span>${point.projectCount} Projects</span>`;
+            infoPanel.classList.add("active");
+          }
+        } else {
           globe.controls().autoRotate = true;
-          infoPanel.classList.remove("active");
+          infoPanel?.classList.remove("active");
         }
-      }
-      );
-    const controls = globe.controls();
-    controls.autoRotate = true;
-    controls.autoRotateSpeed = 0.4;
+      });
+
+    globe.controls().autoRotate = true;
+    globe.controls().autoRotateSpeed = 0.4;
   }
 
-  /* ── Portfolio Cards ─────────────────────────────────────────────── */
-  const PORTFOLIO_META = {
-    "Robotics": { desc: { en: "Cutting-edge electromechanical systems and automated robots driving the future of industry.", es: "Sistemas electromecánicos de vanguardia y máquinas automatizadas que impulsan el futuro de la industria.", zh: "推动行业未来的尖端机电系统和自动化机器。", ja: "産業の未来を牽引する最先端の電気機械システムと自動化機械。" } },
-    "Dashboards": { desc: { en: "Robust SCADA monitoring, Power BI analytics, and data visualization bridging hardware with human insight.", es: "Monitoreo SCADA robusto, análisis con Power BI y visualización de datos que une hardware con conocimiento humano.", zh: "强大的SCADA监控、Power BI分析和数据可视化。", ja: "堅牢なSCADA監視、Power BI分析、データ可視化。" } },
-    "Programming": { desc: { en: "Scalable software solutions — from enterprise-level cloud integrations to precision embedded logic.", es: "Soluciones de software escalables — desde integraciones empresariales en la nube hasta lógica embebida de precisión.", zh: "从企业级云集成到精密嵌入式逻辑的可扩展软件解决方案。", ja: "企業規模のクラウド統合から精密な組み込みロジックまでのスケーラブルなソフトウェアソリューション。" } },
-    "Electronics": { desc: { en: "High-precision PCBs, embedded systems, and advanced energy technologies solving real engineering challenges.", es: "PCBs de alta precisión, sistemas embebidos y tecnologías energéticas avanzadas que resuelven desafíos reales.", zh: "解决真实工程挑战的高精度PCB、嵌入式系统和先进能源技术。", ja: "現実の工学的課題を解決する高精度PCB、組み込みシステム、先進エネルギー技術。" } },
-    "Smart Systems": { desc: { en: "Intelligent analytics, real-time sensing, and algorithm development bridging research with practical utility.", es: "Análisis inteligente, sensado en tiempo real y desarrollo de algoritmos que unen la investigación con la aplicación práctica.", zh: "连接研究与实用价值的智能分析、实时感知及算法开发。", ja: "研究と実用性を結びつけるインテリジェントな分析、リアルタイムセンシング、アルゴリズム開発。" } },
-    "Research & Engineering": { desc: { en: "Specialized R&D pushing boundaries in semiconductor fabrication, VLSI testing, and scientific publication.", es: "I+D especializada que amplía los límites en fabricación de semiconductores, pruebas VLSI y publicaciones científicas.", zh: "半导体制造、VLSI测试和科学发表领域前沿的专项研发。", ja: "半導体製造、VLSIテスト、科学出版の境界を押し広げる専門的なR&D。" } },
-  };
-
-  // Curated cover images per product (from validated images)
-  const PORTFOLIO_COVERS = {
-    "Robotics": "images/thumbnails/labsi_insight.webp",
-    "Dashboards": "images/thumbnails/dashboard.webp",
-    "Programming": "images/thumbnails/aplicacion_transporte.webp",
-    "Electronics": "images/thumbnails/PCB1.webp",
-    "Smart Systems": "images/thumbnails/analog.webp",
-    "Research & Engineering": "images/thumbnails/semiconductor.webp",
-  };
-
+  /* ── Portfolios Carousel ─────────────────────────────────────────── */
   function renderPortfolios() {
-    const pt = $("#portfolios-track");
-    if (!pt) return;
-    const seen = {};
+    const track = $("#portfolios-track");
+    if (!track) return;
+
+    const counts = {};
     _visible.forEach(d => {
-      const cat = d.category?.en || d.category || "";
+      const cat = getCatEn(d);
       if ((cat === "Research" || cat === "Professional") && d.Product) {
-        seen[d.Product] = (seen[d.Product] || 0) + 1;
+        counts[d.Product] = (counts[d.Product] || 0) + 1;
       }
     });
-    const products = Object.keys(seen);
+
+    const products = Object.keys(counts);
     if (!products.length) return;
 
-    const frag = document.createDocumentFragment();
-    products.forEach(p => {
-      const meta = PORTFOLIO_META[p] || PORTFOLIO_META["Research & Engineering"];
-      const cover = PORTFOLIO_COVERS[p] || "images/thumbnails/research_1.webp";
-      const card = document.createElement("div");
-      card.className = "portfolio-card";
-      card.innerHTML = `
-        <div class="p-img-wrapper">
-          <img data-src="${cover}" src="" alt="${p}" loading="lazy">
-        </div>
-        <div class="p-content">
-          <h3>${p}</h3>
-          <p>${tF(meta.desc)}</p>
-          <span class="p-count">${seen[p]} ${seen[p] === 1 ? "project" : "projects"}</span>
+    track.innerHTML = products.map(prodName => {
+      const meta =  PORTFOLIO_META?.[prodName] || PORTFOLIO_META?.["Research & Engineering"] || {};
+      const cover = PORTFOLIO_COVERS?.[prodName] || "images/thumbnails/research_1.webp";
+
+      return `
+        <div class="portfolio-card" data-product="${prodName}">
+          <div class="p-img-wrapper">
+            <img data-src="${cover}" src="" alt="${prodName}" loading="lazy">
+          </div>
+          <div class="p-content">
+            <h3>${prodName}</h3>
+            <p>${tF(meta.desc)}</p>
+            <span class="p-count">${counts[prodName]} ${counts[prodName] === 1 ? "project" : "projects"}</span>
+          </div>
         </div>`;
-      card.addEventListener("click", () =>
-        window.open(`portfolio_summary.html?product=${encodeURIComponent(p)}`, "_blank"));
-      frag.appendChild(card);
+    }).join("");
+
+    track.querySelectorAll(".portfolio-card").forEach(card => {
+      card.addEventListener("click", () => {
+        window.open(`portfolio_summary.html?product=${encodeURIComponent(card.dataset.product)}`, "_blank");
+      });
     });
-    pt.innerHTML = "";
-    pt.appendChild(frag);
+
     activateLazy();
   }
 
-  /* ── View Renderers ──────────────────────────────────────────────── */
+  /* ── Project View Renderers ───────────────────────────────────────── */
   function renderTimeline() {
-    const c = $("#timeline-container");
-    if (!c) return;
-    const rows = [];
-    sortByDate(_filtered).forEach((i, idx) => {
-      const side = idx % 2 ? "right" : "left";
-      const catEn = i.category?.en || i.category || "";
-      rows.push(`
-        <div class="timeline-item ${side}">
-          <div class="timeline-content clickable-card category-${catEn}" data-href="details.html?projectId=${i.id}">
-            ${i.profile_image ? `<div class="timeline-profile-image"><img data-src="${i.profile_image}" src="" alt="${tF(i.title)}" loading="lazy"></div>` : ""}
-            <h3>${tF(i.title)}</h3>
-            <p class="institution">${tF(i.institution)}</p>
-            <p>${tF(i.participation) || ""}</p>
-            <p class="date">${formatDate(i.finish)}</p>
-            ${renderLinks(i.links)}
-          </div>
-        </div>`);
-    });
-    c.innerHTML = rows.join("");
+    const container = $("#timeline-container");
+    if (!container) return;
+
+    container.innerHTML = sortByDate(_filtered).map((item, idx) => `
+      <div class="timeline-item ${idx % 2 ? "right" : "left"}">
+        <div class="timeline-content clickable-card category-${getCatEn(item)}" data-href="details.html?projectId=${item.id}">
+          ${item.profile_image ? `<div class="timeline-profile-image"><img data-src="${item.profile_image}" src="" alt="${tF(item.title)}" loading="lazy"></div>` : ""}
+          <h3>${tF(item.title)}</h3>
+          <p class="institution">${tF(item.institution)}</p>
+          <p>${tF(item.participation) || ""}</p>
+          <p class="date">${formatDate(item.finish)}</p>
+          ${renderLinks(item.links)}
+        </div>
+      </div>`).join("");
+
     activateLazy();
   }
 
   function renderAccordion() {
-    const c = $("#accordion-container");
-    if (!c) return;
-    if (!_filtered.length) { c.innerHTML = "<p>No projects found.</p>"; return; }
+    const container = $("#accordion-container");
+    if (!container) return;
+
+    if (!_filtered.length) {
+      container.innerHTML = "<p>No projects found.</p>";
+      return;
+    }
+
     const groups = {};
-    _filtered.forEach(i => {
-      const key = tF(i.institution) || "Other";
-      (groups[key] ||= []).push(i);
+    _filtered.forEach(item => {
+      const key = tF(item.institution) || "Other";
+      (groups[key] ||= []).push(item);
     });
-    const frag = document.createDocumentFragment();
-    Object.entries(groups).forEach(([inst, items]) => {
-      const block = document.createElement("div");
-      block.className = "accordion-category";
-      block.innerHTML = `
+
+    container.innerHTML = Object.entries(groups).map(([inst, items]) => `
+      <div class="accordion-category">
         <h3>${inst} <span class="acc-count">${items.length}</span></h3>
         <div class="accordion-items">
           ${items.map(i => `
@@ -610,128 +523,113 @@ const App = (() => {
               <p><em>${formatDate(i.finish)}</em></p>
               ${renderLinks(i.links)}
             </div>`).join("")}
-        </div>`;
-      block.querySelector("h3").addEventListener("click", () =>
-        block.querySelector(".accordion-items").classList.toggle("show"));
-      frag.appendChild(block);
+        </div>
+      </div>`).join("");
+
+    container.querySelectorAll(".accordion-category h3").forEach(h3 => {
+      h3.addEventListener("click", () => h3.nextElementSibling?.classList.toggle("show"));
     });
-    c.innerHTML = "";
-    c.appendChild(frag);
+
     activateLazy();
   }
 
   function renderInteractive() {
-    const c = $("#interactive-container");
-    if (!c) return;
-    if (!_filtered.length) { c.innerHTML = '<p style="color:#888">No projects found.</p>'; return; }
-    const rows = [];
-    sortByDate(_filtered).forEach(i => {
-      const catEn = i.category?.en || i.category || "";
-      rows.push(`
-        <div class="interactive-card clickable-card category-${catEn}" data-href="details.html?projectId=${i.id}">
-          ${i.profile_image ? `<div class="interactive-profile-image"><img data-src="${i.profile_image}" src="" alt="${tF(i.title)}" loading="lazy"></div>` : ""}
-          <div class="card-content">
-            <span class="card-badge category-${catEn}">${tF(i.category)}</span>
-            <h4>${tF(i.title)}</h4>
-            <p class="institution">${tF(i.institution)}</p>
-            <p class="dates">${formatDate(i.finish)}</p>
-            ${renderLinks(i.links)}
-          </div>
-        </div>`);
-    });
-    c.innerHTML = rows.join("");
+    const container = $("#interactive-container");
+    if (!container) return;
+
+    if (!_filtered.length) {
+      container.innerHTML = '<p class="text-muted">No projects found.</p>';
+      return;
+    }
+
+    container.innerHTML = sortByDate(_filtered).map(item => `
+      <div class="interactive-card clickable-card category-${getCatEn(item)}" data-href="details.html?projectId=${item.id}">
+        ${item.profile_image ? `<div class="interactive-profile-image"><img data-src="${item.profile_image}" src="" alt="${tF(item.title)}" loading="lazy"></div>` : ""}
+        <div class="card-content">
+          <span class="card-badge category-${getCatEn(item)}">${tF(item.category)}</span>
+          <h4>${tF(item.title)}</h4>
+          <p class="institution">${tF(item.institution)}</p>
+          <p class="dates">${formatDate(item.finish)}</p>
+          ${renderLinks(item.links)}
+        </div>
+      </div>`).join("");
+
     activateLazy();
   }
 
-  function getActiveView() {
-    if ($(".timeline.active")) return "timeline";
-    if ($(".accordion.active")) return "accordion";
-    return "interactive";
-  }
-
   function renderActiveView() {
-    const v = getActiveView();
-    v === "timeline" ? renderTimeline()
-      : v === "accordion" ? renderAccordion()
-        : renderInteractive();
+    if ($("#timeline-view.active")) renderTimeline();
+    else if ($("#accordion-view.active")) renderAccordion();
+    else renderInteractive();
   }
 
   /* ── Collaborators ───────────────────────────────────────────────── */
   function renderCollaborators(collabs) {
-    const container = $(".collab-carousel");
+    const container = $("#collab-grid");
     if (!container) return;
-    const uniqueInstitutions = new Set();
-    const frag = document.createDocumentFragment();
 
-    collabs.forEach(item => {
-      const inst = tF(item.university);
-      if (inst) uniqueInstitutions.add(inst);
-      const hasWeb = item.webpage?.trim();
-      const div = document.createElement("div");
-      div.className = "collab-item" + (hasWeb ? " has-link" : "");
-      if (hasWeb) {
-        div.style.cursor = "pointer";
-        div.addEventListener("click", () => window.open(item.webpage, "_blank"));
-      }
-      div.innerHTML = `
-        <div class="collab-description">
-          <h3>${tF(item.name)}</h3>
-          <p><strong>${tF(item.title)}</strong></p>
-          <p>${[tF(item.branch), tF(item.country)].filter(Boolean).join(", ")}</p>
-        </div>
-        <div class="collab-photo">
-          ${item.image_url ? `<img data-src="${item.image_url}" src="" alt="${tF(item.name)}" loading="lazy">` : ""}
-        </div>`;
-      frag.appendChild(div);
-    });
-    container.innerHTML = "";
-    container.appendChild(frag);
+    container.innerHTML = collabs.map(item => {
+      const web = item.webpage?.trim();
+      return `
+        <article class="institution-card${web ? " clickable-card" : ""}">
+          <div class="institution-logo-wrapper  ">
+            ${item.image_url ? `<img data-src="${item.image_url}" src="" alt="${tF(item.name)}" loading="lazy">` : ""}
+          </div>
+          <div class="institution-info">
+            <h3>${tF(item.name)}</h3>
+            <span class="institution-type">${tF(item.title)}</span>
+            <p>${[tF(item.branch), tF(item.university), tF(item.country)].filter(Boolean).join(", ")}</p>
+          </div>
+          ${web ? `<a href="${web}" target="_blank" rel="noopener noreferrer" class="institution-link">${t("visitWebsite") || "Visit Website"}</a>` : ""}
+        </article>`;
+    }).join("");
+
     activateLazy();
-    return uniqueInstitutions;
   }
 
-  /* ── Footer ──────────────────────────────────────────────────────── */
+  /* ── Translations & UI State Update ─────────────────────────────── */
   function updateFooter() {
-    const em = $("#footer-email");
-    const gh = $("#footer-github");
-    if (!em || !gh) return;
-    if (_lang === "zh" || _lang === "ja") {
-      em.href = "mailto:kung-gomez-kelvin2604@mail.kyutech.jp";
-      gh.href = "https://github.com/Kung-Kelvin";
-    } else {
-      em.href = "mailto:kelvin.kung@utp.ac.pa";
-      gh.href = "https://github.com/kelvinutp";
-    }
+    const emailLink = $("#footer-email");
+    const githubLink = $("#footer-github");
+    if (!emailLink || !githubLink) return;
+
+    const isAsianLang = _lang === "zh" || _lang === "ja";
+    emailLink.href = isAsianLang ? "mailto:kung-gomez-kelvin2604@mail.kyutech.jp" : "mailto:kelvin.kung@utp.ac.pa";
+    githubLink.href = isAsianLang ? "https://github.com/Kung-Kelvin" : "https://github.com/kelvinutp";
   }
 
-  /* ── Translations ────────────────────────────────────────────────── */
   function applyTranslations() {
     $$("[data-lang]").forEach(el => {
-      const v = t(el.dataset.lang);
-      if (v) el.innerHTML = v;
+      const translation = t(el.dataset.lang);
+      if (translation) el.innerHTML = translation;
     });
   }
 
-  /* ── Filter / View public API ────────────────────────────────────── */
-  function filterData(cat) {
-    _filtered = cat === "all"
-      ? [..._visible]
-      : _visible.filter(i =>
-        (i.category?.en || i.category || "") === cat);
+  function refreshAllViews() {
+    applyTranslations();
+    updateFooter();
+    renderHighlights();
+    renderPortfolios();
+    renderActiveView();
+    renderCollaborators(_collabs);
+    renderInstitutions(_institutions);
+    renderGlobalExperience(_data, _locations);
+  }
+
+  /* ── Filter / View Switchers ─────────────────────────────────────── */
+  function filterData(category) {
+    _filtered = category === "all" ? [..._visible] : _visible.filter(i => getCatEn(i) === category);
     renderActiveView();
   }
 
   function switchViewMode(mode) {
     ["timeline", "accordion", "interactive"].forEach(v => {
-      const el = $("." + v);
-      if (el) el.classList.remove("active");
+      $(`#${v}-view`)?.classList.toggle("active", v === mode);
     });
-    const target = $("." + mode);
-    if (target) target.classList.add("active");
     renderActiveView();
   }
 
-  /* ── Init ────────────────────────────────────────────────────────── */
+  /* ── Language Detection ──────────────────────────────────────────── */
   function detectLang() {
     const nav = navigator.language || "";
     if (nav.startsWith("zh")) return "zh";
@@ -740,12 +638,14 @@ const App = (() => {
     return "en";
   }
 
+  /* ── App Initialization ──────────────────────────────────────────── */
   async function init() {
-    _lang = LANG_SELECT.value;
-    document.getElementById("year").textContent = new Date().getFullYear();
+    const langSelect = $("#lang-select");
+    if (langSelect) _lang = langSelect.value;
 
+    const yearEl = $("#year");
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
 
-    // Single fetch — shared across all renderers
     const [entries, collabs, institutionData, locations] = await Promise.all([
       fetch("data/information.json").then(r => r.json()),
       fetch("data/collaborators.json").then(r => r.json()),
@@ -753,80 +653,80 @@ const App = (() => {
       fetch("data/locations.json").then(r => r.json())
     ]);
 
-
     _data = entries;
-    _collabs = collabs;
     _visible = entries.filter(isEntryValid);
+    _filtered = [..._visible];
+    _collabs = collabs;
     _institutions = institutionData;
     _locations = locations;
-    const countryCount = new Set(locations.map(l => l.country)).size;
-    _filtered = [..._visible];
 
-
-    console.info(
-      `[Portfolio] Loaded ${_data.length} entries. Valid: ${_visible.length} | Hidden: ${_data.length - _visible.length}`
-    );
-
-
-    // Apply language first
-    applyTranslations();
-    updateFooter();
-
-    // Existing sections
+    refreshAllViews();
     renderHero();
-    renderHeroOverlay();
-    renderHighlights();
-    renderPortfolios();
-    filterData("all");
     switchViewMode("timeline");
 
-    // Existing collaborator logic
-    const collaboratorInstitutions = renderCollaborators(collabs);
     setupStats({
       projects: _data.length,
       collaborators: collabs.length,
       institutions: _institutions.length,
-      countries: countryCount
+      countries: new Set(locations.map(l => l.country)).size
     });
-    // New sections
-    renderInstitutions(institutionData);
-    renderGlobalExperience(
-      entries,
-      locations
-    );
-
   }
 
-  /* ── Events ──────────────────────────────────────────────────────── */
+  /* ── Event Handlers ──────────────────────────────────────────────── */
   document.addEventListener("DOMContentLoaded", () => {
-    LANG_SELECT.value = detectLang();
+    const langSelect = $("#lang-select");
+    if (langSelect) {
+      langSelect.value = detectLang();
+      _lang = langSelect.value;
+      langSelect.addEventListener("change", () => {
+        _lang = langSelect.value;
+        refreshAllViews();
+      });
+    }
 
-    LANG_SELECT.addEventListener("change", () => {
-      _lang = LANG_SELECT.value;
-      applyTranslations();
-      updateFooter();
-      renderHighlights();
-      renderPortfolios();
-      renderActiveView();
-      renderCollaborators(_collabs);
-      renderInstitutions(_institutions);
-      renderGlobalExperience(
-        _data,
-        _locations
-      );
-    });
-
+    // Global Delegated Click Listener
     document.addEventListener("click", e => {
-      if (e.target.closest("a, .btn, select")) return;
+      // Category Filters
+      const filterBtn = e.target.closest("[data-filter]");
+      if (filterBtn) {
+        $$("[data-filter]").forEach(b => b.classList.remove("active-btn"));
+        filterBtn.classList.add("active-btn");
+        filterData(filterBtn.dataset.filter);
+        return;
+      }
+
+      // View Mode Switches
+      const viewBtn = e.target.closest("[data-view]");
+      if (viewBtn) {
+        $$("[data-view]").forEach(b => b.classList.remove("active-btn"));
+        viewBtn.classList.add("active-btn");
+        switchViewMode(viewBtn.dataset.view);
+        return;
+      }
+
+      // Mobile Menu Toggle
+      const menuBtn = e.target.closest("#menu-toggle");
+      if (menuBtn) {
+        const navLinks = $("#nav-links");
+        const isOpen = navLinks?.classList.toggle("open");
+        menuBtn.setAttribute("aria-expanded", Boolean(isOpen));
+        return;
+      }
+
+      // Clickable Cards Navigation
+      if (e.target.closest("a, button, select")) return;
       const card = e.target.closest(".clickable-card");
-      if (card?.dataset.href) window.open(card.dataset.href, "_blank");
+      if (card?.dataset.href) {
+        window.open(card.dataset.href, "_blank");
+      }
     });
 
-    // Expose to HTML onclick attributes
-    window.filterData = filterData;
-    window.switchViewMode = switchViewMode;
+    // Sticky Navbar Scroll Effect
+    window.addEventListener("scroll", () => {
+      $(".header")?.classList.toggle("scrolled", window.scrollY > 50);
+    });
 
-    init().catch(err => console.error("[Portfolio] Init failed:", err));
+    init().catch(err => console.error("[Portfolio] Initialization failed:", err));
   });
 
   return { filterData, switchViewMode };
