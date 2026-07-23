@@ -7,14 +7,6 @@
 "use strict";
 
 const ProjectApp = (() => {
-  let _project = null;
-  let _lang = "en";
-
-  const $ = s => document.querySelector(s);
-  const $$ = s => document.querySelectorAll(s);
-  const LANG_SELECT = $("#lang-select");
-  const CONTENT_EL = $("#projectContent");
-
   /* ── Translations (Ported from script.js) ─────────────────────────── */
   const I18N = {
     en: {
@@ -70,6 +62,15 @@ const ProjectApp = (() => {
       "back-home": "ホームに戻る"
     }
   };
+  
+  let _project = null;
+  let _lang = "en";
+
+  const $ = s => document.querySelector(s);
+  const $$ = s => document.querySelectorAll(s);
+  const LANG_SELECT = $("#lang-select");
+  const CONTENT_EL = $("#projectContent");
+
 
   const t = key => (I18N[_lang]?.[key] ?? I18N.en[key] ?? key);
   const tF = f => f && typeof f === "object" && !Array.isArray(f)
@@ -132,25 +133,35 @@ const ProjectApp = (() => {
 
   /* ── Rendering ────────────────────────────────────────────────────── */
   function renderHero() {
-    const grid = $("#tileGrid");
-    const overlay = $("#hero-overlay");
-    if (!grid || !overlay || !_project) return;
+  const grid = $("#tileGrid");
+  const overlay = $("#hero-overlay");
+  if (!grid || !overlay || !_project) return;
 
-    // Background Grid (Blurred)
-    const imgs = (_project.images && _project.images.length) ? _project.images : [_project.profile_image].filter(Boolean);
-    const pool = [...imgs, ...imgs, ...imgs].slice(0, 18); // fallback loop
-    grid.innerHTML = pool.map(src => `<div class="tile"><img src="${src}" alt=""></div>`).join("");
-
-    // Overlay content
-    overlay.innerHTML = `
-      <div class="hero-text">
-        <p class="hero-eyebrow">${tF(_project.category)}</p>
-        <h1 class="hero-title">${tF(_project.title)}</h1>
-        <div class="hero-divider"></div>
-        <a href="index.html#projects" class="btn btn-ghost btn-sm">${t('back-home')}</a>
-      </div>`;
+  // Background Grid Setup
+  const imgs = (_project.images && _project.images.length) ? _project.images : [_project.profile_image].filter(Boolean);
+  
+  // Fill the grid with at least 36 items so 1 or 2 images repeat evenly across all columns
+  let pool = [];
+  if (imgs.length > 0) {
+    while (pool.length < 36) {
+      pool = pool.concat(imgs);
+    }
   }
+  pool = pool.slice(0, 36);
 
+  grid.innerHTML = pool.map(src => `<div class="tile"><img src="${src}" alt=""></div>`).join("");
+
+  // Overlay content
+  overlay.innerHTML = `
+    <div class="hero-text">
+      <p class="hero-eyebrow">${tF(_project.category)}</p>
+      <h1 class="hero-title">${tF(_project.title)}</h1>
+      <div class="hero-divider"></div>
+      <div class="hero-actions">
+        <a href="index.html#projects" class="btn btn-ghost btn-sm">${t('back-home')}</a>
+      </div>
+    </div>`;
+}
   function renderTables() {
     const content = [];
 
