@@ -570,51 +570,7 @@
       "zh": "可以把IEEE CSS看作是研究如何让机器人、车辆和复杂系统稳定、智能运行的国际专家社区。"
     },
     "active": true
-  },
-  {
-    "id": "jasm",
-    "name": {
-      "en": "Japan Advanced Semiconductor Manufacturing",
-      "es": "Japan Advanced Semiconductor Manufacturing",
-      "ja": "Japan Advanced Semiconductor Manufacturing",
-      "zh": "日本先进半导体制造公司"
-    },
-    "shortName": {
-      "en": "JASM",
-      "es": "JASM",
-      "ja": "JASM",
-      "zh": "JASM"
-    },
-    "type": {
-      "en": "Semiconductor Manufacturer",
-      "es": "Fabricante de Semiconductores",
-      "ja": "半導体製造企業",
-      "zh": "半导体制造企业"
-    },
-    "logo": "images/JASM.svg",
-    "website": "https://jasm.co.jp",
-    "location": "kumamoto-japan",
-    "color": "#005BAC",
-    "description": {
-      "en": "Japan Advanced Semiconductor Manufacturing (JASM) is a semiconductor manufacturing company established in Japan to strengthen advanced chip production and support the global semiconductor supply chain through cutting-edge fabrication technologies.",
-      "es": "Japan Advanced Semiconductor Manufacturing (JASM) es una empresa dedicada a la fabricación de semiconductores creada para fortalecer la producción avanzada de circuitos integrados en Japón y apoyar la cadena mundial de suministro de chips.",
-      "ja": "JASMは、日本における先端半導体製造能力の強化と世界の半導体サプライチェーンの発展を目的として設立された半導体製造企業です。",
-      "zh": "日本先进半导体制造公司（JASM）致力于提升日本先进芯片制造能力，并加强全球半导体供应链。"
-    },
-    "summary": {
-      "en": "Supported by major global semiconductor partners, JASM manufactures advanced integrated circuits for applications including automotive electronics, industrial automation, artificial intelligence, and high-performance computing. The company represents one of Japan's most significant semiconductor investments in decades and contributes to strengthening technological resilience worldwide.",
-      "es": "Respaldada por importantes socios internacionales del sector, JASM fabrica circuitos integrados avanzados para automoción, automatización industrial, inteligencia artificial y computación de alto rendimiento. Representa una de las inversiones más importantes en la industria japonesa de semiconductores en las últimas décadas.",
-      "ja": "世界有数の半導体企業との連携により、自動車、産業機器、AI、高性能コンピューティング向け半導体を製造しています。JASMは日本の半導体産業復興を象徴する重要なプロジェクトとして位置付けられています。",
-      "zh": "JASM在国际半导体合作伙伴支持下生产面向汽车电子、工业自动化、人工智能及高性能计算的先进芯片，是近年来日本最重要的半导体投资项目之一。"
-    },
-    "analogy": {
-      "en": "Think of JASM as one of the world's newest high-tech factories producing the silicon foundations that power modern electronics.",
-      "es": "Puede imaginarse como una de las fábricas tecnológicas más avanzadas del mundo dedicada a producir la base de los dispositivos electrónicos modernos.",
-      "ja": "現代社会を支える電子機器の『頭脳』を生み出す最先端の半導体工場と考えることができます。",
-      "zh": "可以把JASM看作生产现代电子产品核心芯片的重要先进工厂。"
-    },
-    "active": true
-  },
+  },  
   {
     "id": "kar",
     "name": {
@@ -790,5 +746,94 @@
       "zh": "可以把UT Dallas看作汇聚世界级科研与产业合作、培养未来工程师的创新基地。"
     },
     "active": true
+  },
+  {
+    "id": "jasm",
+    "name": {
+      "en": "Japan Advanced Semiconductor Manufacturing",
+      "es": "Fabricación Avanzada de Semiconductores de Japón",
+      "ja": "日本先進半導体製造",
+      "zh": "日本先进半导体制造"
+    },
+    "shortName": {
+      "en": "JASM",
+      "es": "JASM",
+      "ja": "JASM",
+      "zh": "JASM"
+    },
+    "type": {
+      "en": "Semiconductor Foundry Joint Venture",
+      "es": "Empresa Conjunta de Fundición de Semiconductores",
+      "ja": "半導体ファウンドリ合弁会社",
+      "zh": "半导体晶圆代工合资企业"
+    },
+    "logo": "images/JASM_logo.webp",
+    "website": "https://www.tsmc.com/static/japanese/careers/jasm/index.html",
+    "location": "kikuyo-kumamoto-japan",
+    "color": "#002B49",
+    "description": {
+      "en": "Japan Advanced Semiconductor Manufacturing (JASM) is a joint venture spearheaded by TSMC, Sony Semiconductor Solutions, and Denso, established to operate a state-of-the-art semiconductor foundry in Kumamoto, Japan.",
+      "es": "Japan Advanced Semiconductor Manufacturing (JASM) es una empresa conjunta liderada por TSMC, Sony Semiconductor Solutions y Denso, establecida para operar una fundición de semiconductores de vanguardia en Kumamoto, Japón.",
+      "ja": "日本先進半導体製造（JASM）は、TSMC、ソニーセミコンダクタソリューションズ、デンソーが主導し、熊本県に最先端の半導体ファウンドリを運営するために設立された合弁会社です。",
+      "zh": "日本先进半导体制造（JASM）是由台积电、索尼半导体解决方案公司以及电装公司共同主导设立的合资企业，旨在运营位于日本熊本县的先进半导体晶圆厂。"
+    },
+    "summary": {
+      "en": "Established as a strategic initiative to secure a resilient regional microelectronics supply chain, JASM leverages TSMC's world-class foundry expertise, advanced logic nodes, and specialty process technologies. The organization plays a vital role in revitalizing Japan's semiconductor ecosystem by scaling production for automotive, industrial, and consumer applications while fostering elite engineering talent.",
+      "es": "Establecida como una iniciativa estratégica para asegurar una cadena de suministro regional resiliente, JASM aprovecha la experiencia en fundición de clase mundial de TSMC, nodos lógicos avanzados y tecnologías de procesos especiales. Desempeña un papel vital en la revitalización del ecosistema de semiconductores de Japón al escalar la producción para aplicaciones automotrices, industriales y de consumo, al tiempo que fomenta talento de ingeniería de élite.",
+      "ja": "地域の強靭なマイクロエレクトロニクス供給網を確保するための戦略的拠点として設立されたJASMは、TSMCの世界最高水準のファウンドリ技術、先端ロジックノード、および特殊プロセス技術を活用しています。自動車、産業機器、民生用アプリケーション向けに生産規模を拡大し、優秀なエンジニアリング人材を育成することで、日本の半導体エコシステムの活性化に重要な役割を果たしています。",
+      "zh": "作为确保区域微电子供应链韧性的战略举措，JASM依托台积电世界一流的晶圆代工专长、先进逻辑节点及特殊工艺技术。通过扩大汽车、工业及消费电子领域的生产规模并培养精英工程人才，该企业在重振日本半导体生态系统中发挥着至关重要的作用。"
+    },
+    "analogy": {
+      "en": "Think of JASM as a high-precision manufacturing powerhouse turning nanoscale silicon design into the physical foundation of modern technological infrastructure.",
+      "es": "Puede imaginarse como una central de fabricación de alta precisión que convierte el diseño de silicio a nanoescala en la base física de la infraestructura tecnológica moderna.",
+      "ja": "ナノスケールのシリコン設計を現代のテクノロジーインフラストラクチャの物理的基盤へと変える、超高精度製造の中枢のような存在です。",
+      "zh": "可以把JASM看作是将纳米级硅片设计转化为现代技术基础设施物理基石的高精度制造核心。"
+    },
+    "active": true
+  },
+  {
+    "id": "change-the-world-academy",
+    "name": {
+      "en": "Change the World Academy & Diplomatici",
+      "es": "Change the World Academy y Diplomatici",
+      "ja": "Change the World アカデミー＆ディプロマティチ",
+      "zh": "改变世界学院与迪普洛马蒂奇"
+    },
+    "shortName": {
+      "en": "Change the World",
+      "es": "Change the World",
+      "ja": "Change the World",
+      "zh": "Change the World"
+    },
+    "type": {
+      "en": "International Educational Organization & UN Program",
+      "es": "Organización Educativa Internacional y Programa de la ONU",
+      "ja": "国際教育機関・国連プログラム",
+      "zh": "国际教育机构与联合国项目"
+    },
+    "logo": "images/CWMUN.webp",
+    "website": "https://changetheworldacademy.org",
+    "location": "new-york-city-usa",
+    "color": "#1D3557",
+    "description": {
+      "en": "Change the World Academy, in collaboration with Diplomatici, organizes premier international student conferences, leadership programs, and simulation models centered at the United Nations Headquarters in New York City.",
+      "es": "Change the World Academy, en colaboración con Diplomatici, organiza conferencias estudiantiles internacionales de primer nivel, programas de liderazgo y modelos de simulación centrados en la Sede de las Naciones Unidas en la Ciudad de Nueva York.",
+      "ja": "Change the World アカデミーは、Diplomaticiとの協力を通じて、ニューヨーク市の国連本部を中心とした最高峰の国際学生会議、リーダーシッププログラム、シミュレーションモデルを主催しています。",
+      "zh": "改变世界学院与 Diplomatici 合作，在纽约市联合国总部组织首屈一指的国际学生会议、领导力项目和模拟联合国活动。"
+    },
+    "summary": {
+      "en": "Founded to foster global citizenship and international diplomacy among youth, Change the World provides young leaders with direct access to diplomatic hubs like the United Nations. By simulating UN committee sessions and tackling critical global challenges such as sustainable development, economic resilience, and cross-border innovation, the organization bridges academic education with high-stakes international policymaking.",
+      "es": "Fundada para fomentar la ciudadanía global y la diplomacia internacional entre la juventud, Change the World ofrece a los jóvenes líderes acceso directo a centros diplomáticos como las Naciones Unidas. Al simular sesiones de comités de la ONU y abordar desafíos globales críticos como el desarrollo sostenible, la resiliencia económica y la innovación transfronteriza, la organización conecta la educación académica con la formulación de políticas internacionales de alto nivel.",
+      "ja": "若者の間でのグローバル市民権と国際外交を促進するために設立されたChange the Worldは、若いリーダーたちに国連などの外交拠点への直接的なアクセスを提供しています。国連委員会のセッションのシミュレーションや、持続可能な開発、経済的レジリエンス、国境を越えたイノベーションといった重大な地球規模の課題への取り組みを通じて、アカデミックな教育と高度な国際政策立案の架け橋となっています。",
+      "zh": "旨在培养青少年的全球公民意识与国际外交能力，Change the World 为年轻领袖提供直接接触联合国等外交核心枢纽的机会。通过模拟联合国委员会会议并应对可持续发展、经济韧性以及跨国创新等关键全球挑战，该组织将学术教育与高水平的国际决策紧密结合。"
+    },
+    "analogy": {
+      "en": "Think of Change the World as a global diplomatic incubator where future leaders practice international cooperation and policy negotiation inside the actual halls of the United Nations.",
+      "es": "Puede imaginarse como una incubadora diplomática global donde los futuros líderes practican la cooperación internacional y la negociación de políticas dentro de las propias salas de las Naciones Unidas.",
+      "ja": "国連本部の実際の会議場を舞台に、未来のリーダーたちが国際協力や政策交渉を実践するグローバル外交のインキュベーターのような場です。",
+      "zh": "可以把 Change the World 看作是一个全球外交孵化器，未来领袖们在真正的联合国大厅内演练国际合作与政策谈判。"
+    },
+    "active": true
   }
+
 ]

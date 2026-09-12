@@ -105,6 +105,13 @@
     "lng": -96.796989
   },
   {
+    "id": "new-york-city-usa",
+    "city": "New York",
+    "country": "United States",
+    "lat": 40.74905281675029, 
+    "lng": -73.96821003309527
+  },
+  {
     "id": "incheon",
     "city": "Incheon",
     "country": "South Korea",

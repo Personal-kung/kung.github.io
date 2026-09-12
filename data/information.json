@@ -47,7 +47,7 @@
     },
     "start": "9/9/2023",
     "finish": "10/7/2023",
-    "location":"chiriqui",
+    "location": "chiriqui",
     "content": {
       "problem": {
         "en": "Since the 2020 pandemic, enrollment in the Technological University of Panama (UTP) electrical Engineering faculty has declined at an alarming rate. Internal studies revealed that many new Students struggle with mathematical reasoning and programming, mainly due to poor school preparation and limited exposure to technical tools.  Additionally, female representation in these careers remains significantly lower than male participation. To address these barriers, the university created Technology Camp for Young People in STEM, a program designed to strengthen math and programming skills for female high-school Students and inspire them to consider careers in electrical Engineering",
@@ -75,7 +75,10 @@
       }
     },
     "links": {
-      "UTP": "https://utp.ac.pa/inicia-el-campamento-tecnologico-en-el-centro-regional-de-chiriqui"
+      "UTP": {
+        "url": "https://utp.ac.pa/inicia-el-campamento-tecnologico-en-el-centro-regional-de-chiriqui",
+        "type": "website"
+      }
     },
     "collaborators": [
       {
@@ -173,7 +176,7 @@
     "start": "10/1/2020",
     "finish": "8/31/2021",
     "financing": "$120,000 USD",
-    "location":"dallas",
+    "location": "dallas",
     "content": {
       "problem": {
         "en": "The high demand for lithium for the production of LiBs (Lithium-based Batteries) has put the Earth's crust at a critical point with respect to this element, a fact further aggravated by the short lifecycle of such devices, due to their limited charge/discharge cycles,impacting both technological and environmental scales.<br><br>To address these challenges, this project aimed to produce a new generation of lithium-ion batteries with protective thin films of Ultrananocrystalline Diamond (UNCD/N-UNCD) on anodes and cathodes. This protective system prevents chemical degradation during cycles, targeting a ≥10x improvement in battery lifespan while maintaining or exceeding current energy density.<br><br> The development integrates N-UNCD films with nanocarbons and metallic matrices, enhancing both safety and performance. The technology is intended to positively impact the environmental and economic conservation of the energy and electronics industry in Panama.",
@@ -201,7 +204,10 @@
       }
     },
     "links": {
-      "UTP": "http://www.investigadores.utp.ac.pa/proyectos/431"
+      "UTP": {
+        "url": "http://www.investigadores.utp.ac.pa/proyectos/431",
+        "type": "website"
+      }
     },
     "collaborators": [
       {
@@ -296,7 +302,7 @@
     },
     "start": "5/23/2020",
     "finish": "6/5/2023",
-    "location":"chorrera",
+    "location": "chorrera",
     "content": {
       "problem": {
         "en": "The goal of this project is to establish guidelines for decision-making in the use of sensor networks to reduce energy consumption by considering the lifespan of the batteries powering these devices.<br><br> Dra. Quintero, the project's principal investigator, emphasized the importance of establishing rules for battery usage to optimize sensor networks. These rules can be applied to other technological applications. She also expressed her gratitude to all contributors to the project's development.",
@@ -324,8 +330,14 @@
       }
     },
     "links": {
-      "UTP": "https://utp.ac.pa/proyecto-directrices-para-la-toma-de-decisiones-en-el-funcionamiento-de-redes-de-sensores",
-      "UTP 2": "http://www.investigadores.utp.ac.pa/proyectos/891"
+      "UTP": {
+        "url": "https://utp.ac.pa/proyecto-directrices-para-la-toma-de-decisiones-en-el-funcionamiento-de-redes-de-sensores",
+        "type": "website"
+      },
+      "UTP 2": {
+        "url": "http://www.investigadores.utp.ac.pa/proyectos/891",
+        "type": "website"
+      }
     },
     "collaborators": [
       {
@@ -430,7 +442,7 @@
     "start": "8/13/2019",
     "finish": "8/30/2022",
     "financing": "$60,000 USD",
-    "location":"azuero",
+    "location": "azuero",
     "content": {
       "problem": {
         "en": "In recent years, the Republic of Panama, through its agricultural policies, has promoted the export of non-traditional products. This proposal seeks to develop an intelligent system for classifying watermelon fruit. To achieve this, open-source hardware and software technologies will be used to automate the selection process while complying with required sanitary and phytosanitary standards. The objective is to develop a prototype for real-time fruit classification using expert systems technology. This aims to increase the productivity and competitiveness of the agricultural sector by developing an advanced system that prevents losses due to harvesting outside the optimal period (due to insufficient ripeness or premature harvesting). The expert system will consider parameters such as size, appearance, and, very importantly, color.",
@@ -458,9 +470,18 @@
       }
     },
     "links": {
-      "ScienceDirect": "https://www.sciencedirect.com/science/article/abs/pii/S0925231223000140",
-      "UTP": "http://www.investigadores.utp.ac.pa/proyectos/938",
-      "Web de la Salud": "https://lawebdelasalud.com/lideres-globales-del-programa-ace-de-la-oea-conocen-aportes-de-investigadores-de-la-utp/"
+      "ScienceDirect": {
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0925231223000140",
+        "type": "website"
+      },
+      "UTP": {
+        "url": "http://www.investigadores.utp.ac.pa/proyectos/938",
+        "type": "website"
+      },
+      "Web de la Salud": {
+        "url": "https://lawebdelasalud.com/lideres-globales-del-programa-ace-de-la-oea-conocen-aportes-de-investigadores-de-la-utp/",
+        "type": "website"
+      }
     },
     "collaborators": [
       {
@@ -567,7 +588,7 @@
     },
     "start": "8/1/2021",
     "finish": "5/22/2022",
-    "location":"panama-city",
+    "location": "panama-city",
     "content": {
       "problem": {
         "en": "As a result of the COVID-19 pandemic, the Panamanian economy experienced a decline in economic activity, which ECLAC estimates at -11% for 2020, significantly impacting labor-intensive sectors. By the third quarter of the year, the GDP had fallen by 20.4%, according to the National Institute of Statistics and Census. Due to the current situation in the country, private companies, autonomous and semi-autonomous entities, as well as the government, have implemented teleworking, regulated in Panama through Executive Decree No. 133 of September 16, 2020. This involves performing work primarily at the employee's home or a location of their choosing, as an alternative to working in person at the company's workplace. This change was reflected in all service sectors, especially in education at all levels. Panama is considered a service-oriented country, and we rank among the top 10 countries in Latin America in terms of competitiveness and technology adoption. While it's true that the country already possesses robotic equipment to perform various tasks and duties, we still face the challenge of relying on on-site personnel to operate this equipment. Therefore, to demonstrate the use of robotic equipment, we intend to utilize the Gryphon robotic arm. To control it, we aim to create a low-cost system, a combination of electronics and programmable boards.",
@@ -595,7 +616,10 @@
       }
     },
     "links": {
-      "Sistemas Inteligentes": "https://sistemasinteligentes.utp.ac.pa/trabajos-de-grado/"
+      "Sistemas Inteligentes": {
+        "url": "https://sistemasinteligentes.utp.ac.pa/trabajos-de-grado/",
+        "type": "website"
+      }
     },
     "collaborators": [
       {
@@ -683,7 +707,7 @@
     },
     "start": "1/1/2019",
     "finish": "8/24/2022",
-    "location":"panama-city",
+    "location": "panama-city",
     "content": {
       "problem": {
         "en": "The main problem is the lack of comprehensive and validated models that allow for predicting and effectively managing the demand on the Panamanian medical and hospital system during a pandemic. Although mathematical models and technological efforts exist, many do not adequately consider the real-world constraints and local factors that influence the transmission and treatment of COVID-19. This limits the ability to optimize critical resources and anticipate points of saturation in the healthcare system. The absence of adaptive tools increases uncertainty and hinders timely decision-making. As a result, the system faces risks of inefficiency and collapse in the face of changing pandemic scenarios.",
@@ -711,10 +735,22 @@
       }
     },
     "links": {
-      "Senacyt": "https://www.senacyt.gob.pa/investigadores-panamenos-presentan-propuesta-para-el-modulado-del-sistema-medico-sanitario-de-panama/",
-      "YouTube": "https://www.youtube.com/watch?v=cuvxlI70PY8",
-      "UTP": "https://utp.ac.pa/presentan-cierre-de-proyecto-modelado-dinamico-del-sistema-medico-hospitalario-ante-la-pandemia",
-      "MINSA": "https://www.minsa.gob.pa/noticia/investigadores-panamenos-presentan-propuesta-para-el-modulado-del-sistema-medico-sanitario"
+      "Senacyt": {
+        "url": "https://www.senacyt.gob.pa/investigadores-panamenos-presentan-propuesta-para-el-modulado-del-sistema-medico-sanitario-de-panama/",
+        "type": "website"
+      },
+      "YouTube": {
+        "url": "https://www.youtube.com/watch?v=cuvxlI70PY8",
+        "type": "video"
+      },
+      "UTP": {
+        "url": "https://utp.ac.pa/presentan-cierre-de-proyecto-modelado-dinamico-del-sistema-medico-hospitalario-ante-la-pandemia",
+        "type": "website"
+      },
+      "MINSA": {
+        "url": "https://www.minsa.gob.pa/noticia/investigadores-panamenos-presentan-propuesta-para-el-modulado-del-sistema-medico-sanitario",
+        "type": "website"
+      }
     },
     "collaborators": [
       {
@@ -800,7 +836,7 @@
     },
     "start": null,
     "finish": "11/1/2022",
-    "location":"panama-city",
+    "location": "panama-city",
     "content": {
       "problem": {
         "en": "Despite the growing number of robotics competitions in Panama, participation is largely limited to private schools that can afford well-established branded robotics kits, which come with high acquisition costs and ongoing maintenance expenses such as mandatory internet subscriptions. As a result, most public schools are excluded due to budget constraints. Although government institutions have made efforts to increase the involvement of public schools in these competitions, progress has been minimal because there are no robotics kits currently available that are both affordable and open source, preventing equitable access and sustainable adoption in the public education system.",
@@ -828,8 +864,14 @@
       }
     },
     "links": {
-      "UTP": "https://kelvinutp.github.io/LabSI-INSIGHT/",
-      "SENACYT": "https://www.senacyt.gob.pa/la-senacyt-y-la-utp-entregaron-kits-de-robotica-que-benefician-a-Estudiantes-panamenos-de-robocup-junior-panama/"
+      "UTP": {
+        "url": "https://kelvinutp.github.io/LabSI-INSIGHT/",
+        "type": "website"
+      },
+      "SENACYT": {
+        "url": "https://www.senacyt.gob.pa/la-senacyt-y-la-utp-entregaron-kits-de-robotica-que-benefician-a-Estudiantes-panamenos-de-robocup-junior-panama/",
+        "type": "website"
+      }
     },
     "collaborators": [
       {
@@ -943,7 +985,7 @@
     },
     "start": "5/1/2024",
     "finish": "10/25/2024",
-    "location":"panama-city",
+    "location": "panama-city",
     "content": {
       "problem": {
         "en": "Students needed a practical, competitive environment to apply theoretical engineering knowledge in 3D design, PCB development, and autonomous vehicle programming, while strengthening problem-solving and teamwork under pressure.",
@@ -971,8 +1013,14 @@
       }
     },
     "links": {
-      "Sistemas Inteligentes": "https://sistemasinteligentes.utp.ac.pa/maze-2024-en-iestec-fomentando-el-interes-en-la-ingenieria-entre-los-jovenes/",
-      "Instagram": "https://www.instagram.com/reel/DD-k7lrvNHS/"
+      "Sistemas Inteligentes": {
+        "url": "https://sistemasinteligentes.utp.ac.pa/maze-2024-en-iestec-fomentando-el-interes-en-la-ingenieria-entre-los-jovenes/",
+        "type": "website"
+      },
+      "Instagram": {
+        "url": "https://www.instagram.com/reel/DD-k7lrvNHS/",
+        "type": "website"
+      }
     },
     "collaborators": [
       {
@@ -1091,7 +1139,7 @@
     },
     "start": "8/23/2022",
     "finish": "4/1/2025",
-    "location":"panama-city",
+    "location": "panama-city",
     "content": {
       "problem": {
         "en": "Energy billing, demand, and consumption data were fragmented across multiple meters, regional centers, and billing periods — making holistic analysis virtually impossible. The Technological University of Panama (UTP) had no structured data model and no visual intelligence layer: only raw PDF invoices dating back to 1981, with no way to extract trends, compare campuses, or plan budgets scientifically.<br><br>High-consumption and high-cost locations were buried in raw records, and anomalies such as zero-consumption entries or abnormal demand values were undetectable without manual review of hundreds of rows across multiple fiscal periods.",
@@ -1119,8 +1167,14 @@
       }
     },
     "links": {
-      "UTP": "https://fie.utp.ac.pa/gestion-energetica-fie-utp",
-      "UTP 2": "https://utp.ac.pa/sites/default/files/documentos/2025/pdf/memoria-institucional-2024.pdf#page=93"
+      "UTP": {
+        "url": "https://fie.utp.ac.pa/gestion-energetica-fie-utp",
+        "type": "website"
+      },
+      "UTP 2": {
+        "url": "https://utp.ac.pa/sites/default/files/documentos/2025/pdf/memoria-institucional-2024.pdf#page=93",
+        "type": "website"
+      }
     },
     "collaborators": [
       {
@@ -1209,7 +1263,7 @@
     },
     "start": "8/15/2022",
     "finish": "10/30/2022",
-    "location":"tulu",
+    "location": "tulu",
     "content": {
       "problem": {
         "en": "The inherent inequalities in access to technology and tools threaten to exacerbate the global  learning crisis. Students with limited support for home learning have few means to support their education. <br> <br>  This project investigates the current state of rural connectivity in Panama and aims to provide  technological resources equitably to strengthen teaching, accelerate internet access, and improve  social inclusion. <br> <br>  By collecting reliable information, the project generates infrastructure maps using data on  telecommunications networks, identifies areas without coverage, and develops sustainable solutions  for digital literacy and community development. Applications include education for all, smart  agriculture, telemedicine, and e-commerce.",
@@ -1237,7 +1291,10 @@
       }
     },
     "links": {
-      "UTP": "http://www.investigadores.utp.ac.pa/proyectos/1165"
+      "UTP": {
+        "url": "http://www.investigadores.utp.ac.pa/proyectos/1165",
+        "type": "website"
+      }
     },
     "collaborators": [
       {
@@ -1354,7 +1411,7 @@
     },
     "start": null,
     "finish": "8/31/2021",
-    "location":"panama-city",
+    "location": "panama-city",
     "content": {
       "problem": {
         "en": "Commercial electric wheelchairs are prohibitively expensive for low-income patients in developing regions.",
@@ -1455,7 +1512,7 @@
     "tags": [],
     "start": "9/26/2023",
     "finish": "9/29/2023",
-    "location":"guatemala-city",
+    "location": "guatemala-city",
     "content": {
       "problem": {
         "en": "As a result of the COVID-19 pandemic, the Panamanian economy experienced a decline in economic activity, which ECLAC estimates at -11% for 2020, significantly impacting labor-intensive sectors. By the third quarter of the year, the GDP had fallen by 20.4%, according to the National Institute of Statistics and Census. Due to the current situation in the country, private companies, autonomous and semi-autonomous entities, as well as the government, have implemented teleworking, regulated in Panama through Executive Decree No. 133 of September 16, 2020. This involves performing work primarily at the employee's home or a location of their choosing, as an alternative to working in person at the company's workplace. This change was reflected in all service sectors, especially in education at all levels. Panama is considered a service-oriented country, and we rank among the top 10 countries in Latin America in terms of competitiveness and technology adoption. While it's true that the country already possesses robotic equipment to perform various tasks and duties, we still face the challenge of relying on on-site personnel to operate this equipment. Therefore, to demonstrate the use of robotic equipment, we intend to utilize the Gryphon robotic arm. To control it, we aim to create a low-cost system, a combination of electronics and programmable boards.",
@@ -1533,7 +1590,7 @@
     "tags": [],
     "start": "11/8/2023",
     "finish": "11/10/2023",
-    "location":"san-pedro-sula",
+    "location": "san-pedro-sula",
     "content": {
       "problem": {
         "en": "As a result of the COVID-19 pandemic, the Panamanian economy experienced a decline in economic activity, which ECLAC estimates at -11% for 2020, significantly impacting labor-intensive sectors. By the third quarter of the year, the GDP had fallen by 20.4%, according to the National Institute of Statistics and Census. Due to the current situation in the country, private companies, autonomous and semi-autonomous entities, as well as the government, have implemented teleworking, regulated in Panama through Executive Decree No. 133 of September 16, 2020. This involves performing work primarily at the employee's home or a location of their choosing, as an alternative to working in person at the company's workplace. This change was reflected in all service sectors, especially in education at all levels. Panama is considered a service-oriented country, and we rank among the top 10 countries in Latin America in terms of competitiveness and technology adoption. While it's true that the country already possesses robotic equipment to perform various tasks and duties, we still face the challenge of relying on on-site personnel to operate this equipment. Therefore, to demonstrate the use of robotic equipment, we intend to utilize the Gryphon robotic arm. To control it, we aim to create a low-cost system, a combination of electronics and programmable boards.",
@@ -1561,7 +1618,10 @@
       }
     },
     "links": {
-      "IEEE": "https://ieeexplore.ieee.org/document/10517541"
+      "IEEE": {
+        "url": "https://ieeexplore.ieee.org/document/10517541",
+        "type": "website"
+      }
     },
     "collaborators": [],
     "institution": {
@@ -1642,8 +1702,14 @@
       }
     },
     "links": {
-      "IEEE": "https://attend.ieee.org/conescapan-2024/wp-content/uploads/sites/614/PROGRAMA-TECNICO-CONESCAPAN-XLI-OFICIAL.pdf",
-      "Sistemas Inteligentes": "https://sistemasinteligentes.utp.ac.pa/orgullo-utp-en-conescapan-2024-cristal-caceres-y-juan-arauz-destacan-con-proyectos-innovadores/"
+      "IEEE": {
+        "url": "https://attend.ieee.org/conescapan-2024/wp-content/uploads/sites/614/PROGRAMA-TECNICO-CONESCAPAN-XLI-OFICIAL.pdf",
+        "type": "website"
+      },
+      "Sistemas Inteligentes": {
+        "url": "https://sistemasinteligentes.utp.ac.pa/orgullo-utp-en-conescapan-2024-cristal-caceres-y-juan-arauz-destacan-con-proyectos-innovadores/",
+        "type": "website"
+      }
     },
     "collaborators": [],
     "institution": {
@@ -1697,7 +1763,7 @@
     "tags": [],
     "start": "",
     "finish": "12/27/2019",
-    "location":"azuero",
+    "location": "azuero",
     "content": {
       "problem": {
         "en": "Traditional watermelon sorting is manual, subjective, and error-prone. There is a need for an automated system that can reliably classify watermelons by visually distinguishable characteristics like surface texture and color patterns.",
@@ -1725,7 +1791,10 @@
       }
     },
     "links": {
-      "IEEE": "https://ieeexplore.ieee.org/document/8942610"
+      "IEEE": {
+        "url": "https://ieeexplore.ieee.org/document/8942610",
+        "type": "website"
+      }
     },
     "collaborators": [
       {
@@ -1928,7 +1997,7 @@
     },
     "start": "5/23/2023",
     "finish": "4/3/2025",
-    "location":"panama-city",
+    "location": "panama-city",
     "problem": null,
     "approach": null,
     "outcome": null,
@@ -2025,7 +2094,7 @@
     },
     "start": "",
     "finish": "6/20/2024",
-    "location":"panama-city",
+    "location": "panama-city",
     "content": {
       "problem": {
         "en": "The absence of local microelectronic manufacturing forced dependency on imported components and limited the scope of domestic hardware innovation.",
@@ -2053,9 +2122,18 @@
       }
     },
     "links": {
-      "Instagram": "https://www.instagram.com/p/C8IGj-IIj2m/",
-      "YouTube": "https://www.youtube.com/watch?v=ebZfFIfHy0w",
-      "UTP": "https://utp.ac.pa/sites/default/files/documentos/2025/pdf/memoria-institucional-2024.pdf#page=93"
+      "Instagram": {
+        "url": "https://www.instagram.com/p/C8IGj-IIj2m/",
+        "type": "website"
+      },
+      "YouTube": {
+        "url": "https://www.youtube.com/watch?v=ebZfFIfHy0w",
+        "type": "video"
+      },
+      "UTP": {
+        "url": "https://utp.ac.pa/sites/default/files/documentos/2025/pdf/memoria-institucional-2024.pdf#page=93",
+        "type": "website"
+      }
     },
     "collaborators": [],
     "institution": "Telemetro reporta",
@@ -2293,7 +2371,7 @@
     },
     "start": null,
     "finish": "11/5/2025",
-    "location":"panama-city",
+    "location": "panama-city",
     "quote": null,
     "links": "",
     "collaborators": [],
@@ -2362,7 +2440,7 @@
     "tags": [],
     "start": "",
     "finish": "6/14/2024",
-    "location":"panama-city",
+    "location": "panama-city",
     "content": {
       "problem": {
         "en": "There is a need to strengthen student participation in advanced engineering research and create collaborative environments that connect academia, innovation, and real-world technological challenges.",
@@ -2390,7 +2468,10 @@
       }
     },
     "links": {
-      "UTP": "https://utp.ac.pa/segundo-foro-de-investigacion-en-ingenieria-electrica-fi2e-en-el-centro-regional-de-veraguas"
+      "UTP": {
+        "url": "https://utp.ac.pa/segundo-foro-de-investigacion-en-ingenieria-electrica-fi2e-en-el-centro-regional-de-veraguas",
+        "type": "website"
+      }
     },
     "collaborators": [],
     "institution": {
@@ -2467,7 +2548,7 @@
     },
     "start": "4/30/2024",
     "finish": "4/13/2024",
-    "location":"panama-city",
+    "location": "panama-city",
     "content": {
       "problem": {
         "en": "The increasing complexity of modern electronics requires a transition from discrete component design to high-density Integrated Circuit (IC) architectures. In emerging technical sectors, there is a critical need for structured methodologies that address the challenges of transistor-level modeling, signal integrity, and manufacturing constraints within the nanometer regime.",
@@ -2495,7 +2576,10 @@
       }
     },
     "links": {
-      "IEEE": "https://edu.ieee.org/pa-utp/curso-diseno-de-circuitos-integrados/"
+      "IEEE": {
+        "url": "https://edu.ieee.org/pa-utp/curso-diseno-de-circuitos-integrados/",
+        "type": "website"
+      }
     },
     "collaborators": [],
     "institution": {
@@ -2811,7 +2895,7 @@
     },
     "start": "7/4/2023",
     "finish": "7/10/2023",
-    "location":"bordeaux",
+    "location": "bordeaux",
     "content": {
       "problem": {
         "en": "The evaluation of autonomous robotic systems in competitive environments requires a high degree of technical objectivity and a deep understanding of control algorithms, sensor integration, and mechanical design. Without rigorous judging standards, student-led innovation in robotics can become fragmented, lacking the critical feedback necessary to transition from basic prototypes to resilient, field-ready systems.",
@@ -2839,7 +2923,10 @@
       }
     },
     "links": {
-      "Robocup": "https://2023.robocup.org/en/home/"
+      "Robocup": {
+        "url": "https://2023.robocup.org/en/home/",
+        "type": "website"
+      }
     },
     "collaborators": [],
     "institution": "Robocup Jr.",
@@ -2910,7 +2997,7 @@
     },
     "start": "7/15/2024",
     "finish": "7/22/2024",
-    "location":"eindhoven",
+    "location": "eindhoven",
     "content": {
       "problem": {
         "en": "In complex multi-agent robotic tasks, such as search and rescue or automated logistics, traditional evaluation metrics often fail to capture the nuances of collaborative behavior and real-time decision-making under uncertainty. A more sophisticated technical auditing process is required to ensure that autonomous agents can operate reliably in unpredictable real-world scenarios.",
@@ -2938,7 +3025,10 @@
       }
     },
     "links": {
-      "Robocup": "https://2024.robocup.org/index.html"
+      "Robocup": {
+        "url": "https://2024.robocup.org/index.html",
+        "type": "website"
+      }
     },
     "collaborators": [],
     "institution": "Robocup Jr.",
@@ -3009,7 +3099,7 @@
     },
     "start": "4/8/2025",
     "finish": "today",
-    "location":"iizuka",
+    "location": "iizuka",
     "quote": null,
     "links": "",
     "collaborators": [],
@@ -3090,7 +3180,7 @@
     },
     "start": "",
     "finish": "7/24/2024",
-    "location":"panama-city",
+    "location": "panama-city",
     "content": {
       "problem": {
         "en": "The rapid deployment of emerging technologies often outpaces the development of robust technical standards, leading to interoperability issues and increased risks in critical infrastructure. Without a rigorous technical review process by qualified experts, the adoption of new engineering methodologies can become inconsistent and prone to systemic failure.",
@@ -3118,7 +3208,10 @@
       }
     },
     "links": {
-      "CONESCAPAN": "https://attend.ieee.org/conescapan-2024/miembros-del-comite-tecnico/"
+      "CONESCAPAN": {
+        "url": "https://attend.ieee.org/conescapan-2024/miembros-del-comite-tecnico/",
+        "type": "website"
+      }
     },
     "collaborators": [],
     "institution": {
@@ -3274,7 +3367,7 @@
     },
     "start": "",
     "finish": "6/13/2024",
-    "location":"panama-city",
+    "location": "panama-city",
     "content": {
       "details": {
         "en": "The successful design and patenting of Panama’s first university-developed semiconductor represented a historic milestone in the nation's technological evolution, signaling its readiness to transition from a consumer of technology to a specialized contributor to the global microelectronics ecosystem. This research focused on the architectural design and validation of a high-performance logic decoder, implemented using a 180nm CMOS process. The primary objective was to demonstrate that advanced VLSI design—traditionally perceived as inaccessible due to high NRE costs and technical complexity—could be successfully executed within a regional academic framework through rigorous methodology and strategic tool utilization.\n\nThe technical core of the project involved the full-cycle development of the silicon component, starting from RTL (Register Transfer Level) specification and moving through logic synthesis, timing analysis, and physical implementation. A critical challenge was managing signal integrity and power dissipation within the nanometer regime, requiring extensive schematic and layout simulations to ensure post-fabrication reliability. The resulting design was optimized for area efficiency and low-latency performance, providing a robust foundation for more complex systems-on-chip (SoC) architectures. This work effectively bridged the gap between theoretical circuit design and the practical realities of silicon manufacturing.\n\nInstitutional support from the Technological University of Panama and the IEEE Circuits and Systems Society (CASS) was fundamental to this achievement. By leveraging specialized design environments and industry-standard CAD tools, we were able to adhere to strict manufacturing design rules (DRC) and layout versus schematic (LVS) checks. This level of technical rigor was essential not only for the functional success of the chip but also for the subsequent patenting process, which required definitive proof of technical innovation and industrial applicability. The collaborative environment within the faculty allowed for peer review and iterative optimization, ensuring the design met international quality standards.\n\nBeyond the immediate technical outputs, the project catalyzed a shift in the regional engineering mindset. It proved that local talent is capable of mastering the complexities of nanometric hardware design, thereby reducing dependency on foreign intellectual property for critical infrastructure. The patent registration process itself served as a case study for future researchers, establishing a clear administrative and technical pathway for protecting indigenous innovation in the high-tech sector. This achievement has since attracted interest from global semiconductor firms, opening new avenues for international research collaboration and industrial partnerships.\n\nIn conclusion, the first university semiconductor patent stands as a testament to the power of structured research and institutional vision. It serves as a digital backbone for future microelectronics initiatives in Panama, providing a verified roadmap for domestic ASIC development. As we look toward future nodes and more advanced integration technologies, the foundations established through this project ensure that Panama is no longer a bystander in the semiconductor age, but a proactive participant in the design of the hardware that powers our digital world.",
@@ -3290,7 +3383,10 @@
       }
     },
     "links": {
-      "Instagram": "https://www.instagram.com/p/C8IGj-IIj2m/"
+      "Instagram": {
+        "url": "https://www.instagram.com/p/C8IGj-IIj2m/",
+        "type": "website"
+      }
     },
     "collaborators": [],
     "institution": {
@@ -3366,7 +3462,10 @@
       }
     },
     "links": {
-      "UTP": "https://utp.ac.pa/seminario-taller-python-orientado-sistemas-embebidos"
+      "UTP": {
+        "url": "https://utp.ac.pa/seminario-taller-python-orientado-sistemas-embebidos",
+        "type": "website"
+      }
     },
     "collaborators": [],
     "institution": {
@@ -3446,7 +3545,10 @@
       }
     },
     "links": {
-      "ScienceDirect": "https://www.sciencedirect.com/science/article/abs/pii/S0925231223000140"
+      "ScienceDirect": {
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0925231223000140",
+        "type": "website"
+      }
     },
     "collaborators": [
       {
@@ -3562,7 +3664,7 @@
     "tags": [],
     "start": "",
     "finish": "12/1/2022",
-    "location":"panama-city",
+    "location": "panama-city",
     "content": {
       "problem": {
         "en": "Agriculture in Panama requires modern technology to monitor crops effectively and manage energy consumption in sensor networks to optimize performance and sustainability.",
@@ -3590,7 +3692,10 @@
       }
     },
     "links": {
-      "SENACYT": "https://www.senacyt.gob.pa/la-senacyt-realiza-cafe-cientifico-redes-de-sensores-para-el-monitoreo-de-cultivos-agricolas/"
+      "SENACYT": {
+        "url": "https://www.senacyt.gob.pa/la-senacyt-realiza-cafe-cientifico-redes-de-sensores-para-el-monitoreo-de-cultivos-agricolas/",
+        "type": "website"
+      }
     },
     "collaborators": [
       {
@@ -3822,7 +3927,10 @@
       }
     },
     "links": {
-      "UCR": "https://www.ucr.ac.cr/noticias/2019/11/19/se-viene-el-robotifestucr-2019.html"
+      "UCR": {
+        "url": "https://www.ucr.ac.cr/noticias/2019/11/19/se-viene-el-robotifestucr-2019.html",
+        "type": "website"
+      }
     },
     "collaborators": [],
     "institution": {
@@ -3951,7 +4059,7 @@
     "tags": [],
     "start": "",
     "finish": "9/28/2021",
-    "location":"panama-city",
+    "location": "panama-city",
     "content": {
       "problem": {
         "en": "Young global talents lacked structured programs to gain practical exposure to digital technology, industry innovation, and cross-cultural collaboration while developing leadership and entrepreneurial skills.",
@@ -4081,7 +4189,10 @@
       }
     },
     "links": {
-      "YouTube": "https://www.youtube.com/watch?v=aen80gIWM2w"
+      "YouTube": {
+        "url": "https://www.youtube.com/watch?v=aen80gIWM2w",
+        "type": "video"
+      }
     },
     "collaborators": [],
     "institution": "Vida Digital",
@@ -4145,7 +4256,7 @@
     },
     "start": "",
     "finish": "1/19/2023",
-    "location":"panama-city",
+    "location": "panama-city",
     "content": {
       "details": {
         "en": "The 'Researching Seeds 2023' initiative at the Technological University of Panama represents a strategic program designed to foster early-stage engineering research and cultivate the next generation of technical innovators. My participation in this project was defined by the exploration of emerging methodologies in microelectronics and digital design, with a particular focus on identifying viable research pathways for domestic semiconductor development. This initiative provided a high-standard platform for technical experimentation, allowing for the initial validation of concepts that form the basis for more complex VLSI architectures.\n\nA primary technical component of my research involved the study of high-efficiency logic gates and the optimization of power-aware design flows. By utilizing advanced simulation tools, I conducted a series of parametric analyses to identify the optimal balance between computational performance and energy dissipation in nanometer-scale transistors. This data-driven approach allowed for the extraction of critical design metrics that are essential for the feasibility of future domestic chip projects. The research prioritized the use of industry-standard design rules, ensuring that the theoretical foundations established were compatible with actual manufacturing constraints.\n\nInstitutional mentorship was a cornerstone of the 'Researching Seeds' experience. I worked closely with senior research faculty to refine my methodology and ensure that the project adhered to international standards of technical integrity. This collaborative environment facilitated the exchange of technical knowledge across different engineering disciplines, fostering a more holistic understanding of how microelectronics can be integrated into broader industrial automation systems. The rigorous peer-review process within the program was instrumental in developing a more critical and precise analytical mindset.\n\nBeyond immediate technical outcomes, the project served as a catalyst for professional development. It provided the necessary framework to translate initial research curiosities into structured engineering projects with defined milestones and deliverables. By participating in research seminars and presenting progress reports to a technical audience, I gained invaluable experience in technical communication and academic rigor. These skills are essential for any engineer looking to contribute to global research networks and international technical conferences.\n\nIn reflection, 'Researching Seeds 2023' was a vital milestone in my professional journey. It provided the foundational resources and institutional support required to initiate high-impact research in a specialized and technically-demanding field. The insights gained during this period continue to inform my current work in semiconductor design and have paved the way for more advanced research collaborations. This project stands as a testament to the university's commitment to building national technical capacity and fostering a culture of continuous innovation in the high-tech sector.",
@@ -4161,7 +4272,10 @@
       }
     },
     "links": {
-      "UTP": "https://utp.ac.pa/semillero-de-investigacion-2023"
+      "UTP": {
+        "url": "https://utp.ac.pa/semillero-de-investigacion-2023",
+        "type": "website"
+      }
     },
     "collaborators": [],
     "institution": {
@@ -4210,7 +4324,7 @@
     "tags": [],
     "start": "",
     "finish": "10/7/2022",
-    "location":"panama-city",
+    "location": "panama-city",
     "content": {
       "problem": {
         "en": "The SSCI symposium could not be held in 2021, highlighting the need to maintain continuity in research-focused events for students.",
@@ -4238,7 +4352,10 @@
       }
     },
     "links": {
-      "UTP": "https://utp.ac.pa/simposio-de-sistemas-de-control-inteligente-ssci-2022"
+      "UTP": {
+        "url": "https://utp.ac.pa/simposio-de-sistemas-de-control-inteligente-ssci-2022",
+        "type": "website"
+      }
     },
     "collaborators": [],
     "institution": {
@@ -4318,7 +4435,10 @@
     "finish": "5/3/2024",
     "quote": null,
     "links": {
-      "UTP": "https://utp.ac.pa/diplan-adelanta-acciones-encaminadas-transformar-datos-en-informacion-de-valor"
+      "UTP": {
+        "url": "https://utp.ac.pa/diplan-adelanta-acciones-encaminadas-transformar-datos-en-informacion-de-valor",
+        "type": "website"
+      }
     },
     "collaborators": [],
     "institution": {
@@ -4417,7 +4537,10 @@
       }
     },
     "links": {
-      "IEEE": "https://r9.ieee.org/panama/event/workshop-fundamentos-tecnicos-del-diseno-de-circuitos-integrados/"
+      "IEEE": {
+        "url": "https://r9.ieee.org/panama/event/workshop-fundamentos-tecnicos-del-diseno-de-circuitos-integrados/",
+        "type": "website"
+      }
     },
     "collaborators": [],
     "institution": {
@@ -4490,10 +4613,13 @@
     },
     "start": "",
     "finish": "9/19/2024",
-    "location":"azuero",
+    "location": "azuero",
     "quote": null,
     "links": {
-      "UTP": "https://congreso.ls.utp.ac.pa/fie_utp/"
+      "UTP": {
+        "url": "https://congreso.ls.utp.ac.pa/fie_utp/",
+        "type": "website"
+      }
     },
     "collaborators": [],
     "institution": {
@@ -4561,7 +4687,7 @@
     "tags": [],
     "start": null,
     "finish": "6/5/2024",
-    "location":"panama-city",
+    "location": "panama-city",
     "content": {
       "problem": {
         "en": "As a result of the COVID-19 pandemic, the Panamanian economy experienced a decline in economic activity, which ECLAC estimates at -11% for 2020, significantly impacting labor-intensive sectors. By the third quarter of the year, the GDP had fallen by 20.4%, according to the National Institute of Statistics and Census. Due to the current situation in the country, private companies, autonomous and semi-autonomous entities, as well as the government, have implemented teleworking, regulated in Panama through Executive Decree No. 133 of September 16, 2020. This involves performing work primarily at the employee's home or a location of their choosing, as an alternative to working in person at the company's workplace. This change was reflected in all service sectors, especially in education at all levels. Panama is considered a service-oriented country, and we rank among the top 10 countries in Latin America in terms of competitiveness and technology adoption. While it's true that the country already possesses robotic equipment to perform various tasks and duties, we still face the challenge of relying on on-site personnel to operate this equipment. Therefore, to demonstrate the use of robotic equipment, we intend to utilize the Gryphon robotic arm. To control it, we aim to create a low-cost system, a combination of electronics and programmable boards.",
@@ -4671,12 +4797,30 @@
       }
     },
     "links": {
-      "UTP": "https://utp.ac.pa/utp-primera-universidad-panamena-en-solicitar-el-registro-de-una-patente-de-invencion-de-un",
-      "Instagram_UTP panama": "https://www.instagram.com/p/DIMhy2xxoUG/",
-      "Instagram_UTP DGTC": "https://www.instagram.com/p/DITy342x4LR/",
-      "La Prensa": "https://www.prensa.com/sociedad/primer-semiconductor-panameno-con-patente-solicitada-chip-nanometrico-de-la-utp/",
-      "YouTube": "https://www.youtube.com/watch?v=wvqAMy_IW1I",
-      "TVN": "https://www.tvn-2.com/nacionales/ingeniero-revoluciona-tecnologia-kelvin-kung-chip-semiconductores-ciencia-universidad-tecnologica-de-panama_1_2184599.html"
+      "UTP": {
+        "url": "https://utp.ac.pa/utp-primera-universidad-panamena-en-solicitar-el-registro-de-una-patente-de-invencion-de-un",
+        "type": "website"
+      },
+      "Instagram_UTP panama": {
+        "url": "https://www.instagram.com/p/DIMhy2xxoUG/",
+        "type": "website"
+      },
+      "Instagram_UTP DGTC": {
+        "url": "https://www.instagram.com/p/DITy342x4LR/",
+        "type": "website"
+      },
+      "La Prensa": {
+        "url": "https://www.prensa.com/sociedad/primer-semiconductor-panameno-con-patente-solicitada-chip-nanometrico-de-la-utp/",
+        "type": "news"
+      },
+      "YouTube": {
+        "url": "https://www.youtube.com/watch?v=wvqAMy_IW1I",
+        "type": "video"
+      },
+      "TVN": {
+        "url": "https://www.tvn-2.com/nacionales/ingeniero-revoluciona-tecnologia-kelvin-kung-chip-semiconductores-ciencia-universidad-tecnologica-de-panama_1_2184599.html",
+        "type": "website"
+      }
     },
     "collaborators": [],
     "institution": {
@@ -4686,7 +4830,7 @@
       "zh": "巴拿马科技大学(UTP)"
     },
     "branch": "",
-    "location":"panama-city",
+    "location": "panama-city",
     "participation": {
       "en": "Author",
       "es": "Autor",
@@ -4751,7 +4895,7 @@
     },
     "start": "1/12/2023",
     "finish": "2/18/2025",
-    "location":"panama-city",
+    "location": "panama-city",
     "quote": null,
     "links": "",
     "collaborators": [],
@@ -4965,7 +5109,10 @@
       }
     },
     "links": {
-      "IEEE": "https://r9.ieee.org/event/webinar-seguridad-y-proteccion-contra-el-arco-electrico/"
+      "IEEE": {
+        "url": "https://r9.ieee.org/event/webinar-seguridad-y-proteccion-contra-el-arco-electrico/",
+        "type": "website"
+      }
     },
     "collaborators": [],
     "institution": {
@@ -5038,7 +5185,7 @@
     },
     "start": "10/16/2019",
     "finish": "10/18/2019",
-    "location":"san-jose",
+    "location": "san-jose",
     "quote": null,
     "links": "",
     "collaborators": [],
@@ -5138,7 +5285,7 @@
     },
     "start": null,
     "finish": "5/22/2022",
-    "location":"panama-city",
+    "location": "panama-city",
     "content": {
       "problem": {
         "en": "Since the 2020 pandemic, enrollment in the Technological University of Panama (UTP) electrical Engineering faculty has declined at an alarming rate. Internal studies revealed that many new Students struggle with mathematical reasoning and programming, mainly due to poor school preparation and limited exposure to technical tools.  Additionally, female representation in these careers remains significantly lower than male participation. To address these barriers, the university created Technology Camp for Young People in STEM, a program designed to strengthen math and programming skills for female high-school Students and inspire them to consider careers in electrical Engineering",
@@ -5165,8 +5312,7 @@
         "es": "Empoderando a las jóvenes con las habilidades y la confianza para dedicarse a las carreras de ingeniería eléctrica."
       }
     },
-    "links": {
-    },
+    "links": {},
     "collaborators": [
       {
         "name": "Dra. Vanessa Quintero",
@@ -5258,7 +5404,7 @@
     },
     "start": null,
     "finish": "5/22/2024",
-    "location":"veraguas",
+    "location": "veraguas",
     "content": {
       "problem": {
         "en": "Since the 2020 pandemic, enrollment in the Technological University of Panama (UTP) electrical Engineering faculty has declined at an alarming rate. Internal studies revealed that many new Students struggle with mathematical reasoning and programming, mainly due to poor school preparation and limited exposure to technical tools.  Additionally, female representation in these careers remains significantly lower than male participation. To address these barriers, the university created Technology Camp for Young People in STEM, a program designed to strengthen math and programming skills for female high-school Students and inspire them to consider careers in electrical Engineering",
@@ -5286,7 +5432,10 @@
       }
     },
     "links": {
-      "UTP": "https://utp.ac.pa/campamento-tecnologico-para-jovenes-en-stem-2024-se-toma-las-provincias-de-herrera-los-santos-y"
+      "UTP": {
+        "url": "https://utp.ac.pa/campamento-tecnologico-para-jovenes-en-stem-2024-se-toma-las-provincias-de-herrera-los-santos-y",
+        "type": "website"
+      }
     },
     "collaborators": [
       {
@@ -5462,8 +5611,14 @@
       }
     },
     "links": {
-      "YouTube": "https://www.youtube.com/watch?v=qr1AvisQcV8",
-      "CrunchLabs": "https://space.crunchlabs.com"
+      "YouTube": {
+        "url": "https://www.youtube.com/watch?v=qr1AvisQcV8",
+        "type": "video"
+      },
+      "CrunchLabs": {
+        "url": "https://space.crunchlabs.com",
+        "type": "website"
+      }
     },
     "highlight": 2,
     "collaborators": [],
@@ -5505,7 +5660,7 @@
     "tags": [],
     "start": null,
     "finish": "3/3/2026",
-    "location":"watanabe",
+    "location": "watanabe",
     "content": {
       "details": {
         "en": "The 2026 LSI Test Seminar featured a series of technical presentations focused on advancing hardware testing methodologies and architectural security. The morning sessions addressed RISC-V processor pseudo-random testing and the optimization of control signal sequences through datapath time-expansion models. Following the midday break, the focus shifted toward industrial applications, with a detailed overview of the EVA100 system and its startup documentation provided by Advantest Kyushu Systems, as well as an international perspective on securing reconfigurable scan networks presented by Erik Larsson of Lund University. <br><br>The afternoon sessions continued with deep dives into fault detection efficiency and innovative data analysis applications. Researchers discussed methods to accelerate multi-target fault test generation and techniques to improve the estimation of distinguishable fault pairs using multiplexer don't-care inputs. The seminar concluded with a multidisciplinary study on motion classification, highlighting how audio data augmentation can enhance learning datasets for acceleration sensors in sports analysis. These presentations highlighted the diverse intersections between academic research, industrial testing tools, and sensor-based machine learning applications.",
@@ -5624,7 +5779,10 @@
       }
     },
     "links": {
-      "Customers website": "https://booking-c0.web.app"
+      "Customers website": {
+        "url": "https://booking-c0.web.app",
+        "type": "website"
+      }
     },
     "collaborators": [],
     "institution": {
@@ -5707,7 +5865,7 @@
     },
     "start": "4/1/2025",
     "finish": "today",
-    "location":"iizuka",
+    "location": "iizuka",
     "content": {
       "problem": {
         "en": "Current logic test flows suffer from excessive data volume, application time, and inefficient allocation of effort, especially in advanced architectures like 3D ICs and chiplets.",
@@ -5844,7 +6002,10 @@
       }
     },
     "links": {
-      "UTP DIPLAN": "https://utp.ac.pa/diplan-presenta-avances-del-estudio-de-capacidad-fisica-instalada"
+      "UTP DIPLAN": {
+        "url": "https://utp.ac.pa/diplan-presenta-avances-del-estudio-de-capacidad-fisica-instalada",
+        "type": "website"
+      }
     },
     "collaborators": [
       {
@@ -5977,7 +6138,10 @@
       }
     },
     "links": {
-      "UTP": "https://utp.ac.pa/"
+      "UTP": {
+        "url": "https://utp.ac.pa/",
+        "type": "website"
+      }
     },
     "institution": {
       "en": "Technological University of Panama (UTP)",
@@ -6057,7 +6221,7 @@
     },
     "start": "06/18/2024",
     "finish": "06/20/2024",
-    "location":"panama-city",
+    "location": "panama-city",
     "content": {
       "details": {
         "en": "The 2024 ICCA Hackathon represented a pivot point in control engineering, moving beyond isolated simulations into the complex realm of Cooperative Driving Automation (CDA). My participation centered on navigating the \"sim-to-real\" gap, specifically focusing on how multi-agent systems interact under fluctuating network constraints. This required a high-level synthesis of classic control theory and modern machine learning, demanding a solution that was both mathematically robust and computationally agile.<br><br>At the core of the challenge was the integration of perception, planning, and control. I worked extensively with specialized simulation environments to design algorithms capable of real-time trajectory optimization. This wasn't merely about avoiding obstacles; it was about synthesizing sensor data to predict the intent of other autonomous agents. The engineering complexity lay in balancing aggressive efficiency with the absolute safety protocols required by IEEE standards.<br><br>The \"hackathon\" format served as a high-pressure laboratory for iterative problem-solving. When faced with edge cases—such as sudden communication latency between vehicles—I had to pivot from ideal-state models to robust, fault-tolerant control strategies. This experience sharpened my ability to debug complex systemic behaviors that only emerge when multiple autonomous entities share a common workspace, a critical skill for any modern robotics engineer.<br><br>Beyond the technical hurdles, this project was an exercise in professional collaborative engineering. Operating within the IEEE ICCA ecosystem meant adhering to rigorous documentation and peer-review mentalities even during rapid development. My role involved translating high-level mission goals into granular, executable code, ensuring that our team's control architecture remained modular and scalable despite the ticking clock.<br><br>Ultimately, this experience facilitated a transition from understanding control theory to architecting autonomous solutions. I emerged with a profound grasp of how Intelligent Transportation Systems (ITS) can be optimized for safety and throughput. For my portfolio, this marks a demonstrated ability to take abstract mathematical concepts and forge them into functional, reliable, and innovative engineering outcomes in a competitive, global arena.",
@@ -6073,7 +6237,10 @@
       }
     },
     "links": {
-      "IEEE ICCA 2024": "https://entrepreneurship.ieee.org/2024_07_22_icca-hackathon-2024/"
+      "IEEE ICCA 2024": {
+        "url": "https://entrepreneurship.ieee.org/2024_07_22_icca-hackathon-2024/",
+        "type": "website"
+      }
     },
     "institution": {
       "en": "IEEE Control Systems Society (CSS) / 18th International Conference on Control and Automation",
@@ -6148,6 +6315,7 @@
     },
     "start": null,
     "finish": "06/15/2026",
+    "location":"iizuka",
     "content": {
       "details": {
         "en": "The presentation provided a comprehensive overview of the semiconductor industry’s historical trajectory in Japan, tracing its evolution alongside the strategic development of current manufacturing leaders. A central focus was placed on the collaborative partnership between TSMC and JASM, detailing how these organizations are working together to revitalize the local ecosystem. This collaborative framework aims to leverage shared expertise to ensure a stable and innovative supply chain within the region.<br>In addition to historical and organizational insights, the speakers delved into technical specifics regarding various technology nodes and their practical applications across diverse industries. The session identified key clients and market segments that benefit from these advancements, illustrating the vital role of modern chip architecture in driving global technology trends. By mapping out the technological roadmap, the presenters demonstrated the sophisticated infrastructure currently supporting high-performance computing and consumer electronics.",
@@ -6234,7 +6402,7 @@
     },
     "start": null,
     "finish": "06/25/2026",
-    "location":"iizuka",
+    "location": "iizuka",
     "content": {
       "details": {
         "en": "The Japanese semiconductor landscape is currently characterized by a concentrated manufacturing sector, where only six major entities—including Sony, SocioNext, Renesas, and memory specialist Kioxia—support a vast network of hundreds of design firms. A significant 33% of these designs are dedicated to the automotive and gaming industries, requiring strict compliance with global standards such as ISO 26262 and various IEEE regulations for multi-chip and dual-die configurations. This robust regulatory framework ensures that Japanese technological output remains at the forefront of quality and reliability in the international market.<br><br>Technological development is aggressively moving toward the 2nm node, with Gate-All-Around (GAA) Nanosheet architecture already progressing through Tapeout and Silicon stages. Innovation in memory technology is particularly striking, as the emergence of High Band Flash (HBF) offers double the speed and ten times the capacity of HBM at a staggering 86% cost reduction. Current research is now pivoting from traditional 3D stacking toward System on Wafer (SoW) designs, reflecting a strategic push for higher compaction and enhanced performance in future hardware iterations.",
@@ -6296,29 +6464,29 @@
     },
     "tags": {
       "en": [
-        "<strong>Autonomous Robotics 🤖</strong>",        
+        "<strong>Autonomous Robotics 🤖</strong>",
         "<strong>Intelligent Transport 🏎️</strong>",
         "<strong>Rapid Prototyping ⚡</strong>"
       ],
       "es": [
-        "<strong>Robótica Autónoma 🤖</strong>",        
+        "<strong>Robótica Autónoma 🤖</strong>",
         "<strong>Transporte Inteligente 🏎️</strong>",
         "<strong>Prototipado Rápido ⚡</strong>"
       ],
       "zh": [
-        "<strong>机器人技术 🤖</strong>",        
+        "<strong>机器人技术 🤖</strong>",
         "<strong>智能交通 🏎️</strong>",
         "<strong>快速原型 ⚡</strong>"
       ],
       "ja": [
-        "<strong>ロボット工学 🤖</strong>",        
+        "<strong>ロボット工学 🤖</strong>",
         "<strong>インテリジェント交通 🏎️</strong>",
         "<strong>ラピッドプロトタイピング ⚡</strong>"
       ]
     },
     "start": "07/01/2026",
     "finish": "07/05/2026",
-    "location":"incheon",
+    "location": "incheon",
     "content": {
       "details": {
         "en": "Serving as an Official International Judge at RoboCup 2026 in Incheon, Republic of Korea marked my third appointment to the RoboCupJunior Rescue Maze judging panel, following previous editions in Bordeaux, France, and Eindhoven, the Netherlands. Returning to the international judging team provided the opportunity to continue supporting one of the world's leading educational robotics competitions while collaborating with robotics educators, researchers, and engineering professionals from across the globe. Beyond evaluating robot performance, my role focused on fostering a fair, transparent, and educational competition environment that inspires the next generation of engineers and innovators.<br><br>Throughout the event, I was responsible for robot performance evaluation, technical inspections, team interviews, rescue maze construction and validation, competition field setup and calibration, and final score verification. Alongside these responsibilities, I actively participated in judges' meetings where evaluation criteria, rule interpretations, and event procedures were discussed to promote consistency across the competition. Following the event, I contributed practical feedback and recommendations based on judging experience to support the continuous refinement of competition procedures and future editions of the RoboCupJunior Rescue Maze league. Working alongside judges from different countries also provided valuable opportunities to exchange knowledge, discuss engineering education, and strengthen international collaboration within the robotics community.<br><br>Beyond the official judging process, one of the most rewarding aspects of the event was engaging with participants from diverse technical and cultural backgrounds. Whenever appropriate within the competition framework, I shared constructive insights on electronics design, embedded programming, and engineering methodologies to help teams better understand technical concepts and improve their solutions. This experience reinforced my commitment to engineering education, international collaboration, and continuous improvement, demonstrating that robotics competitions are not only showcases of technological innovation but also platforms for mentorship, knowledge exchange, and the development of future engineering talent.",
@@ -6361,8 +6529,186 @@
     ],
     "visible": true,
     "links": {
-      "RoboCup 2026 website": "https://2026.robocup.org/",
-      "RoboCup Federation": "https://www.robocup.org/"
+      "RoboCup 2026 website": {
+        "url": "https://2026.robocup.org/",
+        "type": "website"
+      },
+      "RoboCup Federation": {
+        "url": "https://www.robocup.org/",
+        "type": "website"
+      }
     }
+  },
+  {
+    "id": 67,
+    "title": {
+      "en": "JASM Summer 1 Day Online Internship",
+      "es": "Pasante Online de Verano en JASM",
+      "zh": "JASM夏季一日在线实习",
+      "ja": "JASM/TSMC流キャリアの作り方・働き方"
+    },
+    "summary": {
+      "en": "Completed an intensive industrial immersion program analyzing semiconductor manufacturing scaling, TSMC/JASM foundry operations, and the end-to-end silicon fabrication lifecycle from nano-scale physics to global supply chains.",
+      "es": "Completé un programa de inmersión industrial intensivo que analizó la escala de fabricación de semiconductores, las operaciones de fundición de TSMC/JASM y el ciclo de vida completo de la fabricación de silicio.",
+      "zh": "完成了一项沉浸式工业研修项目，深入剖析了半导体制造微缩、TSMC/JASM晶圆代工运营以及从纳米级物理学到全球供应链的完整硅片制造生命周期。",
+      "ja": "半導体製造のスケーリング、TSMC/JASMファウンドリの運営、ナノスケール物理学からグローバルサプライチェーンに至るまでのシリコン製造ライフサイクル全体を分析する集中的な産業研修プログラムを修了しました。"
+    },
+    "category": {
+      "en": "Academic & Industry",
+      "es": "Académico e Industrial",
+      "zh": "学术与工业",
+      "ja": "学術・産業"
+    },
+    "tags": {
+      "en": [
+        "<strong>Semiconductor Physics 🔬</strong>",
+        "<strong>Foundry Operations 🏭</strong>",
+        "<strong>Supply Chain 🌐</strong>",
+        "<strong>Fab Engineering ⚡</strong>"
+      ],
+      "es": [
+        "<strong>Física de Semiconductores 🔬</strong>",
+        "<strong>Operaciones de Fundición 🏭</strong>",
+        "<strong>Cadena de Suministro 🌐</strong>",
+        "<strong>Ingeniería Fab ⚡</strong>"
+      ],
+      "zh": [
+        "<strong>半导体物理 🔬</strong>",
+        "<strong>晶圆代工运营 🏭</strong>",
+        "<strong>供应链 🌐</strong>",
+        "<strong>晶圆厂工程 ⚡</strong>"
+      ],
+      "ja": [
+        "<strong>半導体物理学 🔬</strong>",
+        "<strong>ファウンドリ運営 🏭</strong>",
+        "<strong>サプライチェーン 🌐</strong>",
+        "<strong>ファブエンジニアリング ⚡</strong>"
+      ]
+    },
+    "start": null,
+    "finish": "09/01/2026",
+    "content": {
+      "details": {
+        "en": "The technical immersion program provided a granular exploration of modern semiconductor fabrication, commencing with an analysis of micro-dimensions down to the 10nm scale. By contextualizing these dimensions against biological structures like viruses, bacteria, and human hair, the seminar illustrated the extreme precision required in modern lithography. Furthermore, the sessions mapped out multi-industry applications—ranging from high-performance camera optics and consumer electronics to aerospace systems—while breaking down the end-to-end industry value chain from integrated device manufacturers (IDMs) and IC design houses to wafer fabrication foundries, assembly, testing, and eventual commercial sales.<br><br>A core focus of the program centered on the corporate ecosystem and historical trajectory of TSMC since its founding in 1987, alongside its strategic, close collaborative partnership with Japan Advanced Semiconductor Manufacturing (JASM). The curriculum detailed TSMC’s breakthrough technological leadership in achieving advanced nodes at 5nm and below—a milestone achieved by only a select few global enterprises—and highlighted how JASM integrates into this ecosystem to revitalize regional supply chain stability from raw silicon ingots to fully tested products.<br><br>Concluding with an inside look at modern semiconductor manufacturing from the perspective of an attendee, the program shed light on the robust company culture established for their employees within advanced fab environments. It outlined the professional growth opportunities, multi-disciplinary competencies, and supportive operational framework required to maintain ultra-cleanroom standards and drive microelectronic innovation forward.",
+        "es": "El programa de inmersión técnica proporcionó una exploración detallada de la fabricación de semiconductores moderna, comenzando con un análisis de microdimensiones hasta la escala de 10 nm. Al contextualizar estas dimensiones frente a estructuras biológicas como virus, bacterias y cabello humano, el seminario ilustró la extrema precisión requerida en la litografía moderna. Además, las sesiones mapearon aplicaciones multiindustriales y desglosaron la cadena de valor de la industria de extremo a extremo.<br><br>Un enfoque central del programa se centró en el ecosistema corporativo y la trayectoria histórica de TSMC desde su fundación en 1987, junto con su estrecha asociación de colaboración estratégica con Japan Advanced Semiconductor Manufacturing (JASM). El plan de estudios detalló el liderazgo tecnológico revolucionario de TSMC al lograr nodos avanzados en 5 nm y por debajo, y destacó cómo JASM se integra en este ecosistema para revitalizar la estabilidad de la cadena de suministro regional.<br><br>Para concluir con una visión interna de la fabricación moderna de semiconductores desde la perspectiva de un asistente, el programa arrojó luz sobre la sólida cultura empresarial establecida para sus empleados dentro de entornos de fab avanzados. Se describieron las oportunidades de crecimiento profesional y el marco operativo de apoyo necesarios para mantener los estándares de las salas blancas.",
+        "zh": "该技术沉浸项目对现代半导体制造进行了深入探讨，从微缩至10纳米量级的微观尺寸分析开始。通过将这些尺寸与病毒、细菌和人权等生物结构进行对比，研讨会生动展示了现代光刻技术所需的极致精度。此外，会议规划了从高性能相机光学、消费电子到航空航天系统的多行业应用，并剖析了从集成器件制造商（IDM）、IC设计公司到晶圆代工厂、封装测试及最终商业销售的端到端行业价值链。<br><br>项目核心重点聚焦于TSMC自1987年成立以来的企业生态系统和历史轨迹，及其与日本先进半导体制造（JASM）之间紧密的战略合作关系。课程详细介绍了TSMC在实现5纳米及以下先进节点方面的突破性技术领导力——这一里程碑仅由极少数全球企业达成，并重点阐述了JASM如何融入该生态系统，从原硅锭到完全测试的产品，全面振兴区域供应链的稳定性。<br><br>最后，从参会者的视角深入了解现代半导体制造，该项目揭示了先进晶圆厂环境中为员工建立的强大企业文化。它概述了保持超净间标准和推动微电子创新向前发展所需的职业发展机会、多学科能力以及支持性的运营框架。",
+        "ja": "本技術イマージョンプログラムでは、10nmスケールまでの微細寸法の分析から始まる、現代の半導体製造に関する詳細な探索が提供されました。ウイルス、バクテリア、人毛などの生体構造とこれらの寸法を対比させることで、現代のフォトリソグラフィに求められる極限の精度が示されました。さらに、高性能カメラ光学機器や家電製品から航空宇宙システムに至るまでの多業界にわたる応用が網羅され、IDMやIC設計会社からウェハファブ、組立・テスト、商業販売に至るまでのエンドツーエンドの業界バリューチェーンが解説されました。<br><br>プログラムの中心的な焦点は、1987年の創業以来のTSMCの企業エコシステムと歴史的軌跡、そして日本先進半導体製造（JASM）との緊密な戦略的パートナーシップに当てられました。カリキュラムでは、ごく少数のグローバル企業のみが達成している5nm以下の先端ノードにおけるTSMCの画期的な技術的リーダーシップを詳述し、JASMがこのエコシステムにどのように統合され、インゴットからテスト済み製品に至るまでの地域サプライチェーンの安定性を活性化しているかを強調しました。<br><br>参加者の視点から現代の半導体製造の内部を締めくくるにあたり、本プログラムでは、高度なファブ環境において従業員向けに構築された強固な企業文化に焦点を当てました。超クリーンルームの基準を維持し、マイクロエレクトロニクスのイノベーションを推進するために必要なキャリア成長の機会、学際的な能力、そして支援的な運用フレームワークが概説されました。"
+      },
+      "quote": {
+        "en": "Understanding the nanometer-scale architecture of modern silicon is the foundational stepping stone toward shaping next-generation microelectronics infrastructure.",
+        "es": "Comprender la arquitectura a escala nanométrica del silicio moderno es el cimiento fundamental para dar forma a la infraestructura microelectrónica de próxima generación.",
+        "zh": "理解现代硅片的纳米级架构是塑造下一代微电子基础架构的基石。",
+        "ja": "現代シリコンのナノメートルスケールアーキテクチャを理解することは、次世代マイクロエレクトロニクスインフラストラクチャを形作るための基礎となります。"
+      }
+    },
+    "institution": {
+      "en": "JASM | Japan Advanced Semiconductor Manufacturing",
+      "es": "JASM | Fabricación Avanzada de Semiconductores de Japón",
+      "zh": "JASM | 日本先进半导体制造",
+      "ja": "JASM | 日本先進半導体製造"
+    },
+    "branch": "",
+    "participation": {
+      "en": "Participant",
+      "es": "Participante",
+      "zh": "参与者",
+      "ja": "参加者"
+    },
+    "profile_image": "images/JASM_Internship1.jpg",
+    "images": [
+      "images/JASM_Internship1.jpg",
+      "images/JASM_Internship2.jpg",
+      "images/JASM_Internship3.jpg",
+      "images/JASM_Internship4.jpg",
+      "images/JASM_Internship5.jpg",
+      "images/JASM_Internship6.jpg",
+      "images/JASM_Internship7.jpg",
+      "images/JASM_Internship8.jpg",
+      "images/JASM_Internship9.jpg",
+      "images/JASM_Internship10.jpg"
+    ],
+    "visible": true
+  },
+  {
+    "id": 68,
+    "title": {
+      "en": "Change the World MUN NYC 2022",
+      "es": "Change the World MUN NYC 2022",
+      "zh": "2022 纽约模拟联合国世界峰会",
+      "ja": "Change the World MUN NYC 2022"
+    },
+    "summary": {
+      "en": "Engaged in high-level international diplomacy and sustainable development debates at the United Nations Headquarters, fostering cross-cultural negotiation skills and global partnership strategies.",
+      "es": "Participé en diplomacia internacional de alto nivel y debates sobre desarrollo sostenible en la Sede de las Naciones Unidas, fomentando habilidades de negociación intercultural.",
+      "zh": "在联合国总部参与高级别国际外交与可持续发展辩论，提升跨文化谈判能力与全球伙伴关系战略。",
+      "ja": "国連本部分室にてハイレベルな国際外交および持続可能な開発に関するディベートに参加し、異文化間交渉スキルとグローバルパートナーシップ戦略を深化させました。"
+    },
+    "category": {
+      "en": "Leadership & International",
+      "es": "Liderazgo e Internacional",
+      "zh": "领导力与国际交流",
+      "ja": "リーダーシップ・国際"
+    },
+    "tags": {
+      "en": [
+        "<strong>Internationalization 🌐</strong>",
+        "<strong>Global Diplomacy 🏛️</strong>",
+        "<strong>Sustainable Development 🌍</strong>",
+        "<strong>Public Speaking 🎙️</strong>"
+      ],
+      "es": [
+        "<strong>Internacionalización 🌐</strong>",
+        "<strong>Diplomacia Global 🏛️</strong>",
+        "<strong>Desarrollo Sostenible 🌍</strong>",
+        "<strong>Oratoria 🎙️</strong>"
+      ],
+      "zh": [
+        "<strong>国际化 🌐</strong>",
+        "<strong>全球外交 🏛️</strong>",
+        "<strong>可持续发展 🌍</strong>",
+        "<strong>公开演讲 🎙️</strong>"
+      ],
+      "ja": [
+        "<strong>国際化 🌐</strong>",
+        "<strong>グローバル外交 🏛️</strong>",
+        "<strong>持続可能な開発 🌍</strong>",
+        "<strong>パブリックスピーチ 🎙️</strong>"
+      ]
+    },
+    "start": "03/23/2022",
+    "finish": "03/29/2022",
+    "location": "new-york-city-usa",
+    "content": {
+      "details": {
+        "en": "Participated in the premier Change the World Model United Nations conference held in New York City. Collaborated with global student delegates at UN Headquarters mechanisms to address economic resilience, technological advancement, and international institutional frameworks.",
+        "es": "Participé en la principal conferencia del Modelo de Naciones Unidas Change the World celebrada en la Ciudad de Nueva York, colaborando en los mecanismos de la Sede de la ONU.",
+        "zh": "参加了在纽约市举办的顶级模拟联合国世界峰会。与来自全球的代表在联合国总部机制下协作，探讨经济韧性、技术进步与国际制度框架。",
+        "ja": "ニューヨーク市で開催された主要な「Change the World」模擬国連会議に参加しました。国連本部の枠組みで世界の代表らと協力し、経済のレジリエンス、技術進歩、国際的な制度的枠組みに取り組みました。"
+      },
+      "quote": {
+        "en": "True global progress requires aligning rigorous technical systems with empathetic international cooperation and diplomacy.",
+        "es": "El verdadero progreso global requiere alinear sistemas técnicos rigurosos con la cooperación internacional empática y la diplomacia.",
+        "zh": "真正的全球进步需要将严谨的技术系统与富有同理心的国际合作及外交相融合。",
+        "ja": "真のグローバルな進歩には、厳格な技術システムと共感的な国際協力および外交の調和が不可欠です。"
+      }
+    },
+    "institution": {
+      "en": "United Nations Headquarters, New York / Diplomatici",
+      "es": "Sede de las Naciones Unidas, Nueva York / Diplomatici",
+      "zh": "联合国总部，纽约 / Diplomatici",
+      "ja": "国連本部、ニューヨーク / Diplomatici"
+    },
+    "branch": "New York City",
+    "participation": {
+      "en": "Delegate",
+      "es": "Delegado",
+      "zh": "代表",
+      "ja": "デリゲート"
+    },
+    "profile_image": "images/UN1.jpg",
+    "images": [
+      "images/UN1.jpg"
+    ],
+    "visible": true
   }
 ]
