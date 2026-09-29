@@ -173,7 +173,7 @@ const ProjectApp = (() => {
           <table class="links-table">
             <thead><tr><th>Reference</th><th>Target URL</th></tr></thead>
             <tbody>${Object.entries(_project.links).map(([label, url]) =>
-        `<tr><td><strong>${label}</strong></td><td><a href="${url}" target="_blank" rel="noopener">${url}</a></td></tr>`).join("")}
+        `<tr><td><strong>${label}</strong></td><td><a href="${url.url}" target="_blank" rel="noopener">${url.url}</a></td></tr>`).join("")}
             </tbody>
           </table>
         </div>`);

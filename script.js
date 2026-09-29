@@ -273,7 +273,7 @@ const PortfolioApp = (() => {
   const renderLinks = links => {
     if (!links || typeof links !== "object" || !Object.keys(links).length) return "";
     return `<div class="btn-group">${Object.entries(links)
-      .map(([label, url]) => `<a href="${url}" target="_blank" rel="noopener" class="btn btn-sm">More info — ${label}</a>`)
+      .map(([label, url]) => `<a href="${url.url}" target="_blank" rel="noopener" class="btn btn-sm">More info — ${label}</a>`)
       .join("")}</div>`;
   };
 
